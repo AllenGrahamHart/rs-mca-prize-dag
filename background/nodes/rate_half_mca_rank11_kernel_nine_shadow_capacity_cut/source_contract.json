@@ -1,0 +1,30 @@
+{
+  "schema": "rate-half-mca-rank11-kernel-nine-shadow-capacity-cut-v1",
+  "dependencies": [
+    "rate_half_mca_rank11_kernel_hybrid_capacity_cut",
+    "rate_half_mca_rank11_kernel_nine_shadow_coupling"
+  ],
+  "parameters": {
+    "n_offset": 1048576,
+    "m_offset": 67472,
+    "residual_record_floor": 274980728111260126,
+    "lane_density_numerator": 495405467,
+    "lane_density_denominator": 1000000000,
+    "correction_dimension": 10,
+    "component_subset_size": 11,
+    "shadow_subset_size": 9,
+    "rank9_record_cap": 61871313426630599,
+    "closed_dimension_minimum": 10,
+    "closed_dimension_maximum": 15445,
+    "first_open_dimension": 15446,
+    "endpoint_individual_branch_pattern": ["ambient", "ambient", "ambient", "ambient", "record", "record", "record", "record", "record"],
+    "endpoint_frontier_corank": 2,
+    "endpoint_demand_ceiling": 4344088209787446708963641497455555028744633393303455877367677479,
+    "endpoint_capacity": 4343910165131984891897760705185029306760436489468113543077136890,
+    "endpoint_gap": 178044655461817065880792270525721984196903835342334290540589,
+    "wall_demand_ceiling": 4344664578131587275065401301289634311619616096420518827596862523,
+    "wall_capacity": 4344788665170165692429952655282566408633189591744254718078149100,
+    "wall_excess": 124087038578417364551353992932097013573495323735890481286577
+  },
+  "nonclaim": "The one-shadow capacity remains open above K_prime=15445 and does not pay rank eight, rank eleven, or either prize."
+}

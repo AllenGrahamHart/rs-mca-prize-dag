@@ -1,0 +1,31 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_kernel_corank2_projective_basis_cap",
+    "title": "Projective normal bases cut the corank-two record cap",
+    "status": "PROVED",
+    "closure": "exact noncollinear projective-triple incidence count",
+    "statement": "In the complete shortened corank-two chart (n,K,m,s)=(1048578,2,67474,2), support-local transversality makes the incident normals distinct projective points in PG(2), while pair noncontainment makes them noncollinear. Every record therefore owns at least 13657614768 ordered independent coordinate triples, so there are at most 84416263 records.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_kernel_corank2_projective_basis_cap/statement.md",
+      "background/nodes/rate_half_mca_rank11_kernel_corank2_projective_basis_cap/proof.md",
+      "background/nodes/rate_half_mca_rank11_kernel_corank2_projective_basis_cap/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_kernel_corank2_projective_basis_cap/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_kernel_corank2_projective_basis_cap/attack.md",
+      "background/nodes/rate_half_mca_rank11_kernel_corank2_projective_basis_cap/audit.md",
+      "background/nodes/rate_half_mca_rank11_kernel_corank2_projective_basis_cap/result.md",
+      "background/nodes/rate_half_mca_rank11_kernel_corank2_projective_basis_cap/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_kernel_corank2_projective_basis_cap/verify.py",
+      "background/nodes/rate_half_mca_rank11_kernel_corank2_projective_basis_cap/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_kernel_canonical_basis_globalizer"},
+    {"from": "rate_half_mca_support_local_transversality_compiler"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_mca_rank11_kernel_corank2_projective_capacity_cut"}
+  ],
+  "refutes": []
+}

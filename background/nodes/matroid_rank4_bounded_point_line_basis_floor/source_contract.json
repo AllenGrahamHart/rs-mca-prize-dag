@@ -1,0 +1,24 @@
+{
+  "schema": "matroid-rank4-bounded-point-line-basis-floor-v1",
+  "dependencies": [
+    "matroid_rank3_bounded_parallel_basis_floor"
+  ],
+  "parameters": {
+    "rank": 4,
+    "minimum_a": 1,
+    "minimum_r": 3,
+    "ground_size": "m=a+r",
+    "loopless": true,
+    "parallel_class_ceiling": "a",
+    "rank2_flat_ceiling": "a+1",
+    "smallest_class_ceiling": "h_a(r)=min(floor((a+1)/2),floor((a+r)/4))",
+    "coloop_floor_times_6": "C_a(r)=(a+r-1)*(r-1)*(r-2)",
+    "contraction_increment_times_6": "L_a(r)=3*(a+r-h_a(r)-1)*(r-2)",
+    "recurrence": "Q_a(3)=6; Q_a(r)=min(C_a(r),Q_a(r-1)+L_a(r))",
+    "basis_floor": "6*b(M)>=Q_a(r)",
+    "reset_difference_sign": "3*h_a(x)-a-2",
+    "audited_a_maximum": 80,
+    "audited_r_maximum": 120
+  },
+  "nonclaim": "The abstract floor does not establish incident-normal flat ceilings or a Reed-Solomon record cap."
+}

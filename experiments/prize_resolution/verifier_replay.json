@@ -2,105 +2,25 @@
   "complete": true,
   "counts": {
     "FAIL": 0,
-    "PASS": 12,
+    "PASS": 2,
     "TIMEOUT": 0
   },
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_kernel_canonical_basis_globalizer/verify.py",
-      "seconds": 0.023673,
+      "script": "background/nodes/rate_half_mca_rank11_rank8_weighted_capacity_cut/verify.py",
+      "seconds": 0.026192,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_RANK11_KERNEL_CANONICAL_BASIS_GLOBALIZER_PASS ranks=9 rank9_cap=61871313426630599 controls=6/6\n"
+      "stdout_tail": "RATE_HALF_MCA_RANK11_RANK8_WEIGHTED_CAPACITY_CUT_PASS last_gap=18174297527234 first_gap=36370688210984 controls=7/7\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_kernel_canonical_basis_globalizer/verify_audit.py",
-      "seconds": 0.022624,
+      "script": "background/nodes/rate_half_mca_rank11_rank8_weighted_capacity_cut/verify_audit.py",
+      "seconds": 0.026206,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_RANK11_KERNEL_CANONICAL_BASIS_GLOBALIZER_AUDIT_PASS pairs=9 proof_pins=4/4\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_kernel_hybrid_capacity_cut/verify.py",
-      "seconds": 0.430876,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_RANK11_KERNEL_HYBRID_CAPACITY_CUT_PASS checked=11763 endpoint_gap=76504076505592948633027913576880724493595282142849410185084 wall_excess=139343682529231472322825521514042608524569163680782450618944 controls=6/6\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_kernel_hybrid_capacity_cut/verify_audit.py",
-      "seconds": 0.615191,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_RANK11_KERNEL_HYBRID_CAPACITY_CUT_AUDIT_PASS checked=11763 branches=AARRRRRRR endpoint_gap=76504076505592948633027913576880724493595282142849410185084 wall_excess=139343682529231472322825521514042608524569163680782450618944 proof_pins=4/4\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_kernel_multibasis_capacity_cut/verify.py",
-      "seconds": 0.399255,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_RANK11_KERNEL_MULTIBASIS_CAPACITY_CUT_PASS checked=11632 endpoint_gap=17769453550459149385453824948016076737082337523706893862084 wall_excess=187031323586740190878769118921060658362307444191332937452616 controls=6/6\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_kernel_multibasis_capacity_cut/verify_audit.py",
-      "seconds": 0.489146,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_RANK11_KERNEL_MULTIBASIS_CAPACITY_CUT_AUDIT_PASS checked=11632 endpoint_gap=17769453550459149385453824948016076737082337523706893862084 wall_excess=187031323586740190878769118921060658362307444191332937452616 proof_pins=4/4\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_kernel_multibasis_decoration_compression/verify.py",
-      "seconds": 0.025778,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_RANK11_KERNEL_MULTIBASIS_DECORATION_COMPRESSION_PASS strata=9 multiplicities=3..11 controls=4/4\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_kernel_multibasis_decoration_compression/verify_audit.py",
-      "seconds": 0.027413,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_RANK11_KERNEL_MULTIBASIS_DECORATION_COMPRESSION_AUDIT_PASS multiplicities=3..11 proof_pins=5/5\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_kernel_rankstratified_capacity_cut/verify.py",
-      "seconds": 0.167797,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_RANK11_KERNEL_RANKSTRATIFIED_CAPACITY_CUT_PASS checked=4589 endpoint_gap=219272330501201744129177266158988707697316238048878827197685 wall_gap=95457494746881463288875361950515757435711627164872173764503 controls=6/6\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_kernel_rankstratified_capacity_cut/verify_audit.py",
-      "seconds": 0.206266,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_RANK11_KERNEL_RANKSTRATIFIED_CAPACITY_CUT_AUDIT_PASS checked=4589 min_cross_gap=219272330501201744129177266158988707697316238048878827197684725013120 proof_pins=4/4\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_kernel_record_support_capacity/verify.py",
-      "seconds": 0.02658,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_RANK11_KERNEL_RECORD_SUPPORT_CAPACITY_PASS strata=9 multiplicities=3..11 controls=4/4\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_kernel_record_support_capacity/verify_audit.py",
-      "seconds": 0.023524,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_RANK11_KERNEL_RECORD_SUPPORT_CAPACITY_AUDIT_PASS strata=9 proof_pins=4/4\n"
+      "stdout_tail": "RATE_HALF_MCA_RANK11_RANK8_WEIGHTED_CAPACITY_CUT_AUDIT_PASS last_gap=18174297527234 first_gap=36370688210984 monotone_factors=11/11 proof_pins=3/3\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

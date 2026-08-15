@@ -1,0 +1,31 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_kernel_multistep_shadow_hierarchy",
+    "title": "Multi-step shadows couple every lower kernel corank",
+    "status": "PROVED",
+    "closure": "coloopless dual independent-set recurrence and rank-raising extension double count",
+    "statement": "For 3<=d<=9 and 2<=t<=d-1, C(d+2,t)C(67472+d,t)I_d/C(K'-d-11+t,t) <= C(9-d+t,t)I_(d-t).",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_kernel_multistep_shadow_hierarchy/statement.md",
+      "background/nodes/rate_half_mca_rank11_kernel_multistep_shadow_hierarchy/proof.md",
+      "background/nodes/rate_half_mca_rank11_kernel_multistep_shadow_hierarchy/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_kernel_multistep_shadow_hierarchy/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_kernel_multistep_shadow_hierarchy/attack.md",
+      "background/nodes/rate_half_mca_rank11_kernel_multistep_shadow_hierarchy/audit.md",
+      "background/nodes/rate_half_mca_rank11_kernel_multistep_shadow_hierarchy/result.md",
+      "background/nodes/rate_half_mca_rank11_kernel_multistep_shadow_hierarchy/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_kernel_multistep_shadow_hierarchy/verify.py",
+      "background/nodes/rate_half_mca_rank11_kernel_multistep_shadow_hierarchy/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_kernel_nine_shadow_coupling"},
+    {"from": "rate_half_mca_rank11_kernel_two_step_nineshadow_hierarchy"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_mca_rank11_kernel_three_step_shadow_capacity_cut"}
+  ],
+  "refutes": []
+}

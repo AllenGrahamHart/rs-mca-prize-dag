@@ -1,0 +1,31 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_kernel_nine_shadow_containment_capacity_cut",
+    "title": "Full nine-shadow containment removes kernel through 15670",
+    "status": "PROVED",
+    "closure": "exact two-resource LP replay with independent nonnegative dual certificate",
+    "statement": "The rank-preserving and full-containment nine-shadow inequalities, together with the ambient/record individual caps, bound the dominant kernel lane below demand for every 10<=K'<=15670. At K'=15670 the scaled integer gap is 60244744187647715538325354175068999745872308513185869854532; the comparison reverses at K'=15671.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_containment_capacity_cut/statement.md",
+      "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_containment_capacity_cut/proof.md",
+      "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_containment_capacity_cut/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_containment_capacity_cut/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_containment_capacity_cut/attack.md",
+      "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_containment_capacity_cut/audit.md",
+      "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_containment_capacity_cut/result.md",
+      "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_containment_capacity_cut/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_containment_capacity_cut/verify.py",
+      "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_containment_capacity_cut/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_kernel_nine_shadow_capacity_cut"},
+    {"from": "rate_half_mca_rank11_kernel_nine_shadow_containment_coupling"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location"}
+  ],
+  "refutes": []
+}

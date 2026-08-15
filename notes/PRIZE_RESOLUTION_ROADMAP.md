@@ -38309,7 +38309,7 @@ compute:               constant-memory exact arithmetic only
 next route action:     retain component-incidence weights while grouping
                        records by their intrinsic large-owner keys
 ```
-# Cycle 325: MCA rank-11 rank-nine weighted target elimination (2026-08-14)
+# Cycle 325: MCA rank-11 rank-nine weighted target route (scope repaired 2026-08-15)
 
 Three PROVED nodes retain the component extension weight that cycle 322
 discarded when it selected `2578110` distinct records.
@@ -38338,21 +38338,22 @@ plane petals are disjoint. Hence
 W_B <=981105*(m'-10)*n'.
 ```
 
-Finally,
-`rate_half_mca_rank11_rank9_weighted_target_elimination` closes the complete
-rank-nine alternative. Its `2578110` records already force a common plane
-core of size at least `134944`. For `K'<=67472`, this contradicts strict
-owner-core size below `m'`. For `K'>=67473`, the weighted comparison at the
-boundary is
+The original cycle then claimed complete rank-nine elimination. That claim
+mixed an original-row common-core floor with the residual support size after
+reverse shortening. The lift inserts `1048576-K'` deleted coordinates into
+every owner core, so an original-row core of size `134944` gives no such
+residual-core floor. That low-row argument is retracted.
+
+The weighted comparison itself is valid and has the earlier exact crossing
 
 ```text
-6849288576200976639 > 147748596828055575,
-gap = 6701539979372921064.
+K'=20617: 92386821615379573 < 92394042904582935,
+K'=20618: 92397581841774591 > 92395178310909600.
 ```
 
 After cancelling `C(m'-9,2)`, the demand-to-cap ratio is a constant times
-`C(m',9)/C(n',9)*(m'-9)/n'`; every factor increases with `K'`. Thus the
-boundary contradiction is uniform through `K'=1048576`.
+`C(m',9)/C(n',9)*(m'-9)/n'`; every factor increases with `K'`. Thus rank
+nine is closed on `20618<=K'<=1048576` and open here on `10<=K'<=20617`.
 
 The cycle also rejected a candidate `134931` two-terminal overlap node: the
 calculation was weaker than direct inclusion-exclusion and its first draft
@@ -38366,8 +38367,8 @@ RATE_HALF_MCA_RANK11_COMPONENT_NINESUBSET_WEIGHTED_CONCENTRATOR_PASS
 RATE_HALF_MCA_RANK11_RANK9_WEIGHTED_COMPONENT_CAP_PASS
   owner=981105 boundary_cap=147748596828055575 controls=6/6
 RATE_HALF_MCA_RANK11_RANK9_WEIGHTED_TARGET_ELIMINATION_PASS
-  demand=6849288576200976639 cap=147748596828055575
-  gap=6701539979372921064 controls=8/8
+  last_gap=7221289203362 first_gap=2403530864991
+  reopened=10..20617 controls=8/8
 ```
 
 No Modal computation was used.
@@ -38376,12 +38377,12 @@ No Modal computation was used.
 DAG delta:             +3 PROVED weighted rank-eleven nodes,
                        +5 requirement edges, +3 evidence edges
 critical status delta: none
-rank-eleven delta:     fixed rank-nine component target eliminated
-remaining target:     fixed kernel chart or rank-eight owner flat
+rank-eleven delta:     rank nine eliminated only for K'>=20618
+remaining target:     low-row rank-nine chart; rank-eight owner flat
 delta-star movement:   none
 compute:               constant-memory exact integer arithmetic only
-next route action:     retain extension weight in the fixed-kernel and
-                       rank-eight branches
+next route action:     residual-unit owner-plane coupling below K'=20618;
+                       retain extension weight in rank eight
 ```
 # Cycle 326: MCA rank-11 kernel canonical-basis capacity (2026-08-14)
 
@@ -38743,4 +38744,1477 @@ delta-star movement:   none
 compute:               exact 11,763-row replay, constant memory
 next route action:     couple the d=1,2 ambient flats to the d>=3
                        record-support flat profile
+```
+# Cycle 331: MCA rank-11 kernel nine-shadow coupling (2026-08-14)
+
+Two PROVED nodes couple all kernel coranks through one support resource.
+
+For a corank-`d` eleven-set, duality sends spanning nine-subsets to
+independent pairs in a coloopless rank-`(d+1)` matroid. Parallel-class
+counting gives at least
+
+```text
+C(d+2,2)
+```
+
+such shadows. A fixed rank-`(10-d)` nine-subset has at most
+`C(K'-d-9,2)` same-rank eleven-set extensions, because its closure is the
+common-zero set of a `d`-dimensional polynomial space. Thus every record
+satisfies the joint inequality
+
+```text
+sum_d C(d+2,2) I_d/C(K'-d-9,2) <= C(m',9).
+```
+
+Combining this shadow budget with the existing ambient/record individual
+caps gives an exact fractional-knapsack LP. Its weights increase with
+corank, and an independent dual certificate reproduces the optimum.
+
+Exact replay closes every row through `K'=15445`. At the endpoint the
+demand-capacity gap is
+
+```text
+178044655461817065880792270525721984196903835342334290540589.
+```
+
+At `K'=15446`, capacity exceeds demand by
+
+```text
+124087038578417364551353992932097013573495323735890481286577,
+```
+
+so the one-shadow method stops honestly. The optimizer fills all of
+corank 1, stops inside corank 2, and allocates zero to higher coranks.
+
+Focused verification on Modal:
+
+```text
+RATE_HALF_MCA_RANK11_KERNEL_NINE_SHADOW_COUPLING_PASS
+  sharp_models=9 coefficient_sum=219 controls=5/5
+RATE_HALF_MCA_RANK11_KERNEL_NINE_SHADOW_COUPLING_AUDIT_PASS
+  coranks=9 first=3 last=55
+RATE_HALF_MCA_RANK11_KERNEL_NINE_SHADOW_CAPACITY_CUT_PASS
+  checked=15436 controls=7/7
+RATE_HALF_MCA_RANK11_KERNEL_NINE_SHADOW_CAPACITY_CUT_AUDIT_PASS
+  checked=15436 frontier=2 wall=15446
+```
+
+The four Modal jobs peaked at 54--57 MB each.
+
+```text
+DAG delta:             +2 PROVED nine-shadow nodes,
+                       +3 requirement edges, +2 evidence edges
+critical status delta: none
+rank-eleven delta:     kernel lane removed for K'=10..15445
+remaining intervals:  K'=10..15445 rank eight only;
+                       K'=15446..22525 rank eight plus kernel;
+                       K'=22526..37995 dense-owner chronology plus kernel;
+                       K'=37996..1048576 kernel only
+delta-star movement:   none
+compute:               exact 15,436-row primal/dual replay on Modal
+next route action:     add the compatible eight-subset shadow, whose
+                       diagonal resource begins at corank 2
+```
+# Cycle 332: MCA rank-11 full nine-shadow containment (2026-08-14)
+
+Two PROVED nodes price the nonspanning nine-subsets omitted by Cycle 331.
+
+For one record, let `J_1` count rank-nine nine-subsets. A rank-nine shadow
+extends to a kernel eleven-set in at most
+
+```text
+E_1=C(K'-10,2)
+```
+
+ways, while every lower-rank shadow has the unrestricted support-pair cap
+
+```text
+E_0=C(m'-9,2).
+```
+
+Counting all 55 nine-subsets in every kernel eleven-set and using the
+three-spanning-shadow minimum for corank one eliminates `J_1` and gives
+
+```text
+[52+3E_0/E_1] I_1 + 55 sum_(d>=2) I_d
+  <= E_0 C(m',9).
+```
+
+Combining this with the rank-preserving nine-shadow resource produces a
+two-constraint exact LP. At its boundary, coranks 1 and 2 are both
+fractional, both shadow resources bind, and all higher coranks vanish.
+The independent replay uses the nonnegative dual multipliers rather than
+the primal piecewise optimizer.
+
+Exact replay closes every row through `K'=15670`. At the endpoint the
+demand-capacity gap is
+
+```text
+60244744187647715538325354175068999745872308513185869854532.
+```
+
+At `K'=15671`, capacity exceeds demand by
+
+```text
+291105561463347587484268984669020036510369238771859813045635,
+```
+
+so the method stops honestly.
+
+Focused verification on Modal:
+
+```text
+RATE_HALF_MCA_RANK11_KERNEL_NINE_SHADOW_CONTAINMENT_COUPLING_PASS
+  rows=5 shadows=55 controls=6/6
+RATE_HALF_MCA_RANK11_KERNEL_NINE_SHADOW_CONTAINMENT_COUPLING_AUDIT_PASS
+  rows=6 coefficient_base=52 lower_coefficient=55
+RATE_HALF_MCA_RANK11_KERNEL_NINE_SHADOW_CONTAINMENT_CAPACITY_CUT_PASS
+  checked=15661 controls=8/8
+RATE_HALF_MCA_RANK11_KERNEL_NINE_SHADOW_CONTAINMENT_CAPACITY_CUT_AUDIT_PASS
+  checked=15661 active=1,2 wall=15671
+```
+
+The four Modal jobs peaked at 55--57 MB each.
+
+```text
+DAG delta:             +2 PROVED containment-shadow nodes,
+                       +3 requirement edges, +2 evidence edges
+critical status delta: none
+rank-eleven delta:     kernel lane removed for K'=10..15670
+remaining intervals:  K'=10..15670 rank eight only;
+                       K'=15671..22525 rank eight plus kernel;
+                       K'=22526..37995 dense-owner chronology plus kernel;
+                       K'=37996..1048576 kernel only
+delta-star movement:   none
+compute:               exact 15,661-row primal/dual replay on Modal
+next route action:     couple the rank-nine and rank-eight flat families;
+                       standalone ten/eight shadows are nonbinding here
+```
+# Cycle 333: MCA rank-11 rank-eight nine-shadow deficit (2026-08-14)
+
+Two PROVED nodes sharpen the full nine-shadow containment resource on its
+corank-two stratum.
+
+Fix a rank-eight nine-subset `U` of an exact support `S`, and write
+
+```text
+C=cl_S(U),  c=|C|<=K'-2,  X=S\C,  q=|X|>=67474.
+```
+
+The contraction by `U` has rank two.  Every parallel class in `X` has size
+at most `K'-1-c`, because adjoining one such class to `C` gives a rank-nine
+flat.  Consequently each point of `X` has at least
+
+```text
+q-(K'-1-c)=m'-K'+1=67473
+```
+
+partners outside its parallel class.  After dividing the ordered count by
+two, at least
+
+```text
+L_2=C(67474,2)=2276336601
+```
+
+support pairs raise the rank from eight to ten.  Thus a rank-eight
+nine-subset extends to a kernel eleven-set in at most
+
+```text
+C(m'-9,2)-L_2
+```
+
+ways.  The full-containment resource from Cycle 332 therefore strengthens to
+
+```text
+[52+3E_0/E_1] I_1 + [55+6L_2/E_2] I_2
+  + 55 sum_(d>=3) I_d <= E_0 C(m',9),
+
+E_0=C(m'-9,2), E_1=C(K'-10,2), E_2=C(K'-11,2).
+```
+
+The exact two-resource LP now closes every row through `K'=17608`.  At that
+endpoint the demand-capacity gap is
+
+```text
+126547040539829546354916747965612889135249249684319416999204.
+```
+
+At `K'=17609`, capacity exceeds demand by
+
+```text
+165662859003771823867021831078593815988062146919602894849014,
+```
+
+so the method stops honestly.  The endpoint and wall share the same active
+pattern: coranks one and three are at their individual caps, coranks two and
+four are resource-tight, coranks five through nine vanish, and both shared
+resources bind.  The independent audit reconstructs all fifteen exact active
+intervals rather than reusing the primary dual-vertex enumeration.
+
+Focused verification on Modal:
+
+```text
+RATE_HALF_MCA_RANK11_KERNEL_RANK8_NINESHADOW_EXTENSION_DEFICIT_PASS
+  checks=82977 pair_floor=2276336601 controls=6/6
+RATE_HALF_MCA_RANK11_KERNEL_RANK8_NINESHADOW_EXTENSION_DEFICIT_AUDIT_PASS
+  rows=98635 pair_floor=2276336601
+RATE_HALF_MCA_RANK11_KERNEL_RANK8_NINESHADOW_CAPACITY_CUT_PASS
+  checked=17599 controls=6/6
+RATE_HALF_MCA_RANK11_KERNEL_RANK8_NINESHADOW_CAPACITY_CUT_AUDIT_PASS
+  checked=17599 patterns=15 wall=17609
+```
+
+The four Modal jobs peaked at 55--57 MB each.
+
+```text
+DAG delta:             +2 PROVED rank-eight nine-shadow nodes,
+                       +3 requirement edges, +2 evidence edges
+critical status delta: none
+rank-eleven delta:     kernel lane removed for K'=10..17608
+remaining intervals:  K'=10..17608 rank eight only;
+                       K'=17609..22525 rank eight plus kernel;
+                       K'=22526..37995 dense-owner chronology plus kernel;
+                       K'=37996..1048576 kernel only
+delta-star movement:   none
+compute:               exact 17,599-row primal/dual replay on Modal
+next route action:     improve the coupled corank-two/corank-four wall;
+                       standalone rank-six pair extensions cannot help,
+                       because two additions reach rank at most eight
+```
+# Cycle 334: MCA rank-11 two-step nine-shadow hierarchy (2026-08-14)
+
+Two PROVED nodes couple every kernel-corank stratum to the stratum two ranks
+above it and move the exact kernel cutoff from `K'=17608` to `K'=18101`.
+
+For one exact support `S`, let `I_d(S)` count rank-`(10-d)` eleven-subsets and
+let `J_d(S)` count rank-`(10-d)` nine-subsets.  For every `3<=d<=9`, define
+
+```text
+s_d=C(d+2,2),       L_d=C(67472+d,2),
+E_d=C(K'-d-9,2),    Q_d=C(11-d,2).
+```
+
+The shared nine-shadow theorem gives `s_d I_d<=E_d J_d`.  If `U` is counted
+by `J_d`, its closure has size at most `K'-d`, so contraction by `U` leaves at
+least `67472+d` outside points.  The next-rank closure cap bounds every
+parallel class and forces at least `L_d` pairs that raise rank by two.  A
+rank-`(12-d)` target has at most `Q_d` source shadows: the complementary pair
+must consist of coloops, and a loopless rank-`(12-d)` matroid on eleven
+elements has at most `11-d` coloops.  Hence
+
+```text
+(s_d L_d/E_d) I_d <= Q_d I_(d-2),    3<=d<=9.
+```
+
+The seven exact rows are
+
+```text
+d     s_d       L_d          Q_d
+3      10    2276404075       28
+4      15    2276471550       21
+5      21    2276539026       15
+6      28    2276606503       10
+7      36    2276673981        6
+8      45    2276741460        3
+9      55    2276808940        1
+```
+
+On every newly checked row `17609<=K'<=18102`, the exact LP has one stable
+active set: the corank-one cap, the full-containment resource, and all seven
+hierarchy rows bind; every corank variable is positive; the rank-preserving
+nine-shadow resource and all other individual caps are slack.  The primary
+certificate solves the nine exact dual equations by rational Gaussian
+elimination.  The independent audit instead reconstructs the hierarchy
+multipliers by backward odd/even recurrences.
+
+At `K'=18101`, demand exceeds floored capacity by
+
+```text
+33462159928103132226516704640419847248244116666500998762314.
+```
+
+At `K'=18102`, capacity exceeds demand by
+
+```text
+275016496133605602641019628236447268989861205055439981187167.
+```
+
+Focused verification on Modal:
+
+```text
+RATE_HALF_MCA_RANK11_KERNEL_TWO_STEP_NINESHADOW_HIERARCHY_PASS
+  rows=7 controls=4/4
+RATE_HALF_MCA_RANK11_KERNEL_TWO_STEP_NINESHADOW_HIERARCHY_AUDIT_PASS
+  closure_checks=250663 coloop_checks=42
+RATE_HALF_MCA_RANK11_KERNEL_TWO_STEP_NINESHADOW_CAPACITY_CUT_PASS
+  checked=494 controls=6/6
+RATE_HALF_MCA_RANK11_KERNEL_TWO_STEP_NINESHADOW_CAPACITY_CUT_AUDIT_PASS
+  checked=494 wall=18102 recurrences=7
+```
+
+```text
+DAG delta:             +2 PROVED two-step nine-shadow nodes,
+                       +4 requirement edges, +2 evidence edges
+critical status delta: none
+rank-eleven delta:     kernel lane removed for K'=17609..18101
+remaining intervals:  K'=10..18101 rank eight only;
+                       K'=18102..22525 rank eight plus kernel;
+                       K'=22526..37995 dense-owner chronology plus kernel;
+                       K'=37996..1048576 kernel only
+delta-star movement:   none
+compute:               exact 494-row primal/dual replay on Modal
+next route action:     attack the stable K'=18102 wall by strengthening the
+                       corank-one cap, full-containment coefficient, or one
+                       hierarchy row, or by finding an independent resource
+```
+# Cycle 335: MCA rank-11 multi-step shadow hierarchy (2026-08-15)
+
+Two PROVED nodes generalize the two-step pair count to every shadow size and
+move the exact kernel cutoff from `K'=18101` to `K'=18158`.
+
+For one exact support, let `I_d` count rank-`(10-d)` eleven-subsets.  For
+`3<=d<=9` and `2<=t<=d-1`, define
+
+```text
+s_(d,t)=C(d+2,t),               L_(d,t)=C(67472+d,t),
+E_(d,t)=C(K'-d-11+t,t),        Q_(d,t)=C(9-d+t,t).
+```
+
+The dual of a loopless rank-`(10-d)` eleven-set is coloopless of rank `d+1`.
+If `f_j` counts its independent `j`-sets, every independent `j`-set has at
+least `d-j+2` extensions; otherwise the elements outside its closure would
+be coloops.  Thus
+
+```text
+(j+1)f_(j+1)>=(d-j+2)f_j,
+f_t>=C(d+2,t).
+```
+
+These independent `t`-sets are complementary spanning shadows.  One fixed
+shadow has at most `E_(d,t)` same-rank extensions.  Conversely, successive
+generalized-MDS closure caps force at least `L_(d,t)` support `t`-sets that
+raise rank by `t`.  A rank-`(10-d+t)` target contains at most `Q_(d,t)`
+source shadows because their complementary `t`-sets must consist of coloops.
+Therefore all 28 inequalities
+
+```text
+(s_(d,t)L_(d,t)/E_(d,t)) I_d <= Q_(d,t) I_(d-t)
+```
+
+hold support-by-support.  The six new triple rows cut the old `K'=18102`
+optimizer; its `d=5,7,9` rows were violated by a factor about `3.083935`.
+The higher-step rows are consistency consequences at the new optimum and do
+not improve the finite LP beyond `t=2,3`.
+
+The exact finite certificate has two hierarchy components.  The corank-one
+cap fixes `{1,3}` through `H_(3,2)`.  A seven-vertex tree rooted at corank two
+uses edges
+
+```text
+(2,4), (2,6), (2,8), (3,5), (2,7), (2,9),
+```
+
+where each pair is `(t,d)`.  Full containment fixes that component.  Exact
+Gaussian and independent backward-tree duals agree on all 58 rows
+`18102..18159`.
+
+At `K'=18158`, demand exceeds floored capacity by
+
+```text
+289110608820324799941118306538399899258195112067661304310498.
+```
+
+At `K'=18159`, capacity exceeds demand by
+
+```text
+20286290696334777989469267474876769475675508046109372076445.
+```
+
+Focused verification on Modal:
+
+```text
+RATE_HALF_MCA_RANK11_KERNEL_MULTISTEP_SHADOW_HIERARCHY_PASS
+  couplings=28 triples=6 controls=4/4
+RATE_HALF_MCA_RANK11_KERNEL_MULTISTEP_SHADOW_HIERARCHY_AUDIT_PASS
+  couplings=28 recurrences=35
+RATE_HALF_MCA_RANK11_KERNEL_THREE_STEP_SHADOW_CAPACITY_CUT_PASS
+  checked=58 controls=6/6
+RATE_HALF_MCA_RANK11_KERNEL_THREE_STEP_SHADOW_CAPACITY_CUT_AUDIT_PASS
+  checked=58 wall=18159 tree_edges=7
+```
+
+The four jobs peaked at 54--56 MB.  A 4,424-row float sweep on Modal was used
+only to discover the active tree and crossing; all status-bearing arithmetic
+is exact.
+
+```text
+DAG delta:             +2 PROVED multi-step shadow nodes,
+                       +4 requirement edges, +2 evidence edges
+critical status delta: none
+rank-eleven delta:     kernel lane removed for K'=18102..18158
+remaining intervals:  K'=10..18158 rank eight only;
+                       K'=18159..22525 rank eight plus kernel;
+                       K'=22526..37995 dense-owner chronology plus kernel;
+                       K'=37996..1048576 kernel only
+delta-star movement:   none
+compute:               exact 58-row primal/dual replay on Modal
+next route action:     attack the stable K'=18159 tree wall by strengthening
+                       a binding edge, full containment, or the corank-one cap,
+                       or by adding a genuinely independent resource
+```
+# Cycle 336: MCA rank-11 corank-one projective-pair cap (2026-08-15)
+
+Two PROVED nodes replace the generic corank-one transversality payment by a
+sharp projective-pair incidence count and move the exact kernel cutoff from
+`K'=18158` to `K'=377673`.
+
+After canonical rank-nine basis cancellation, the corank-one chart is the
+complete shortened row
+
+```text
+(n,K,m,s)=(1048577,1,67473,1).
+```
+
+The agreement normals lie in `F^2`.  The common-zero cap gives `z<=K-s=0`,
+while same-support pair noncontainment forces the `m` incident normals of
+each selected record to span `F^2`.  If their nonempty projective-class
+sizes are `a_1,...,a_c`, then `c>=2` and the number of ordered independent
+pairs is
+
+```text
+m^2-sum_i a_i^2 >= m^2-((m-1)^2+1)=2(m-1)=134944.
+```
+
+An independent coordinate pair determines at most one parameter point.
+Double counting the `n(n-1)` ordered coordinate pairs therefore gives
+
+```text
+M_1 <= floor(n(n-1)/(2(m-1)))=8147918,
+```
+
+with remainder `29760`.  This lowers the previous generic cap `16295594`
+by `8147676` records.
+
+With this cap, the exact kernel LP has two active roots, `d=1` and `d=2`.
+All remaining coranks are positive tree multiples of `d=1` along
+
+```text
+(2,3), (3,4), (2,5), (2,6), (2,7), (2,8), (2,9),
+```
+
+where each pair is `(t,d)`.  Both shared resources are slack; all nonroot
+individual caps are slack; 22 of 28 hierarchy rows are exact equalities.
+Positive backward-tree dual prices prove the allocation optimal.
+
+A 64-worker exact Modal replay checked every row
+`18159<=K'<=377674`, including all caps, both shared resources, all 28
+hierarchy rows, primal-dual equality, and an independent direct-path optimum.
+All `359516` rows completed under the 60-second/256-MB worker policy, with
+57 MB observed peak memory.
+
+At `K'=377673`, demand exceeds floored capacity by
+
+```text
+608290099077401798561583762592584078050381528604243813748500153228.
+```
+
+At `K'=377674`, capacity exceeds demand by
+
+```text
+1089804128361045148874283346879615159892995682385275039289561845323.
+```
+
+Focused verification:
+
+```text
+RATE_HALF_MCA_RANK11_KERNEL_CORANK1_PROJECTIVE_PAIR_CAP_PASS
+  cap=8147918 pairs=134944 improvement=8147676 controls=6/6
+RATE_HALF_MCA_RANK11_KERNEL_CORANK1_PROJECTIVE_PAIR_CAP_AUDIT_PASS
+  classes_checked=67472 cap=8147918 remainder=29760
+RATE_HALF_MCA_RANK11_KERNEL_PROJECTIVE_PAIR_CAPACITY_CUT_PASS
+  checked=359516 controls=6/6
+RATE_HALF_MCA_RANK11_KERNEL_PROJECTIVE_PAIR_CAPACITY_CUT_AUDIT_PASS
+  checked=359516 endpoints=3 chunks=64
+```
+
+```text
+DAG delta:             +2 PROVED projective-pair nodes,
+                       +5 requirement edges, +2 evidence edges
+critical status delta: none
+rank-eleven delta:     kernel lane removed for K'=18159..377673
+remaining intervals:  K'=10..22525 rank eight only;
+                       K'=22526..37995 dense-owner chronology only;
+                       K'=37996..377673 no rank-eleven component target;
+                       K'=377674..1048576 kernel only
+delta-star movement:   none
+compute:               exact 359,516-row replay on 64 bounded Modal workers
+next route action:     seek a projective-incidence strengthening of the
+                       active corank-two cap, while separately harvesting
+                       the rank-eight and chronology-only lower intervals
+```
+# Cycle 337: MCA rank-11 corank-two projective-basis cap (2026-08-15)
+
+Two PROVED nodes sharpen the corank-two record cap by a projective-basis
+count and move the exact kernel cutoff from `K'=377673` to `K'=568338`.
+
+In the complete shortened explanation-dimension-two chart,
+
+```text
+(n,K,m,s)=(1048578,2,67474,2).
+```
+
+Support-local transversality leaves no zero normals.  Its one-span MDS step
+puts at least `67473=m-1` incident normals outside every projective class,
+so all `m` incident projective points are distinct.  Pair noncontainment
+makes the incident normal span three-dimensional, hence the projective set
+is noncollinear.
+
+For a line containing `q>=2` of these points and `r=m-q>=1` points off it,
+the number of collinear triples is at most
+
+```text
+C(q,3)+C(r,3)+C(r,2)=C(q,3)+C(r+1,3)<=C(m-1,3).
+```
+
+Thus every record owns at least
+
+```text
+m(m-1)(m-2)-6C(m-1,3)=3(m-1)(m-2)=13657614768
+```
+
+ordered independent coordinate triples.  Double counting gives
+
+```text
+M_2<=floor(n(n-1)(n-2)/(3(m-1)(m-2)))=84416263,
+```
+
+with remainder `2935655472`.  The prior generic cap `253241283` falls by
+`168825020` records.
+
+With `M_1=8147918` and this new `M_2`, the exact kernel optimizer has cap
+roots `d=1,2` and tree
+
+```text
+(2,3), (2,4), (2,6), (2,8), (3,5), (2,7), (2,9).
+```
+
+All remaining coranks are positive tree multiples.  Both shared resources
+and all nonroot individual caps are strict; 17 hierarchy rows are tight.
+Positive backward-tree dual prices certify exact optimality.
+
+A 64-worker exact Modal replay checked every row
+`377674<=K'<=568339`.  All `190666` rows completed under the
+60-second/256-MB worker policy, with 57 MB observed peak memory and 112.10
+aggregate worker-seconds.
+
+At `K'=568338`, demand exceeds floored capacity by
+
+```text
+38432453444617070485037263551626410396462586389410416394578520596038.
+```
+
+At `K'=568339`, capacity exceeds demand by
+
+```text
+36180877960369511460476382880286784896208001102094988739728829832800.
+```
+
+Focused verification:
+
+```text
+RATE_HALF_MCA_RANK11_KERNEL_CORANK2_PROJECTIVE_BASIS_CAP_PASS
+  cap=84416263 bases=13657614768 improvement=168825020 controls=7/7
+RATE_HALF_MCA_RANK11_KERNEL_CORANK2_PROJECTIVE_BASIS_CAP_AUDIT_PASS
+  splits_checked=67472 cap=84416263 remainder=2935655472
+RATE_HALF_MCA_RANK11_KERNEL_CORANK2_PROJECTIVE_CAPACITY_CUT_PASS
+  checked=190666 wall=568339 controls=6/6
+RATE_HALF_MCA_RANK11_KERNEL_CORANK2_PROJECTIVE_CAPACITY_CUT_AUDIT_PASS
+  checked=190666 endpoints=3 chunks=64
+```
+
+```text
+DAG delta:             +2 PROVED projective-basis nodes,
+                       +5 requirement edges, +2 evidence edges
+critical status delta: none
+rank-eleven delta:     kernel lane removed for K'=377674..568338
+remaining intervals:  K'=10..22525 rank eight only;
+                       K'=22526..37995 dense-owner chronology only;
+                       K'=37996..568338 no rank-eleven component target;
+                       K'=568339..1048576 kernel only
+delta-star movement:   none
+compute:               exact 190,666-row replay on 64 bounded Modal workers
+next route action:     seek a projective-frame strengthening in corank three
+                       or a binding hierarchy-edge improvement; separately
+                       harvest rank eight and chronology-only lower intervals
+```
+# Cycle 338: MCA rank-11 corank-three projective-basis cap (2026-08-15)
+
+Two PROVED nodes sharpen the corank-three record cap by a projective-basis
+count and move the exact kernel cutoff from `K'=568338` to `K'=796598`.
+
+In the complete shortened explanation-dimension-three chart,
+
+```text
+(n,K,m,s)=(1048579,3,67475,3).
+```
+
+Support-local transversality leaves no zero normals.  Its one-span MDS step
+makes all `m` projective normals distinct, and its two-span step permits at
+most two points on any projective line.  Pair noncontainment supplies full
+normal rank, so this no-three-collinear point set spans `PG(3)`.
+
+Choose a plane containing `q>=3` support points and put `r=m-q>=1`.  The
+number of coplanar quadruples is at most
+
+```text
+B(q,r)=C(q,4)+floor(q/2)C(r,2)+2C(r,3)+C(r,4).
+```
+
+The two-middle split requires care: for a fixed outside pair, its line meets
+the chosen plane outside the point set, and secants through that intersection
+use disjoint point pairs.  Vandermonde expansion gives
+
+```text
+C(m-1,4)-B(q,r)
+  =(q-3)C(r,3)
+   +(C(q-1,2)-floor(q/2))C(r,2)
+   +(r-1)C(q-1,3) >= 0.
+```
+
+Thus every record owns at least
+
+```text
+(m)_fall_4-24C(m-1,4)
+  =4(m-1)(m-2)(m-3)
+  =1228711865141376
+```
+
+ordered independent coordinate quadruples.  Double counting gives
+
+```text
+M_3<=floor((n)_fall_4/(4(m-1)(m-2)(m-3)))=983902549,
+```
+
+with remainder `1056607358217600`.  The prior generic cap `3935435218`
+falls by `2951532669` records.
+
+With `M_1=8147918`, `M_2=84416263`, and this new `M_3`, the exact kernel
+optimizer has cap roots `d=1,2,3` and forest
+
+```text
+(2,4), (2,5), (3,6), (4,7), (5,8), (6,9).
+```
+
+All remaining coranks are positive forest multiples.  Both shared resources
+and all nonroot individual caps are strict; 12 hierarchy rows are tight.
+Positive backward-forest dual prices certify exact optimality.
+
+A 64-worker exact Modal replay checked every row
+`568339<=K'<=796599`.  All `228261` rows completed under the
+60-second/256-MB worker policy, with 59 MB observed peak memory and 144.68
+aggregate worker-seconds.
+
+At `K'=796598`, demand exceeds floored capacity by
+
+```text
+1063274038253455766288412818872693782800681544679740581002823089126086.
+```
+
+At `K'=796599`, capacity exceeds demand by
+
+```text
+670721678337441589385303494237372283642375643589068751593971045368244.
+```
+
+Focused verification:
+
+```text
+RATE_HALF_MCA_RANK11_KERNEL_CORANK3_PROJECTIVE_BASIS_CAP_PASS
+  cap=983902549 bases=1228711865141376 improvement=2951532669 controls=8/8
+RATE_HALF_MCA_RANK11_KERNEL_CORANK3_PROJECTIVE_BASIS_CAP_AUDIT_PASS
+  splits_checked=67472 cap=983902549 remainder=1056607358217600
+RATE_HALF_MCA_RANK11_KERNEL_CORANK3_PROJECTIVE_CAPACITY_CUT_PASS
+  checked=228261 wall=796599 controls=8/8
+RATE_HALF_MCA_RANK11_KERNEL_CORANK3_PROJECTIVE_CAPACITY_CUT_AUDIT_PASS
+  checked=228261 endpoints=3 chunks=64
+```
+
+```text
+DAG delta:             +2 PROVED projective-basis nodes,
+                       +5 requirement edges, +2 evidence edges
+critical status delta: none
+rank-eleven delta:     kernel lane removed for K'=568339..796598
+remaining intervals:  K'=10..22525 rank eight only;
+                       K'=22526..37995 dense-owner chronology only;
+                       K'=37996..796598 no rank-eleven component target;
+                       K'=796599..1048576 kernel only
+delta-star movement:   none
+compute:               exact 228,261-row replay on 64 bounded Modal workers
+next route action:     seek a projective-frame strengthening in corank four
+                       or a binding hierarchy-edge improvement; separately
+                       harvest rank eight and chronology-only lower intervals
+```
+# Cycle 339: MCA rank-11 projective-paving scope repair (2026-08-15)
+
+This cycle adversarially audited the corank-two and corank-three capacity
+promotions from cycles 337 and 338.  Their complete-chart projective counts
+are correct, and their finite capacity replays are exact conditional
+arithmetic, but the replays promoted the complete caps to every shortening
+chart without a uniform theorem.  That logical promotion is retracted.
+
+After rank-`(10-d)` shortening, write
+
+```text
+t=K'-10-z,       0<=t<=K'-10,
+```
+
+where `z` is the number of global zero normals.  Complete shortening is the
+single point `t=0`.  In that chart, support-local transversality makes the
+rank-`d+1` incident normal matroid paving.  A new universal leaf proves
+
+```text
+b(M)>=C(m-1,d),
+```
+
+by deletion-contraction, with equality for one coloop over a uniform
+rank-`d` deletion.  It gives the nine exact complete-chart caps
+
+```text
+8147918, 84416263, 983902549, 12232092309, 158406193634,
+2109949210211, 28689347099870, 396280526311830, 5542092977392141.
+```
+
+For `d>=2`, the current pointwise support-local theorem supplies
+
+```text
+F_d(t)=(1048576+d+t)_fall_(d+1)
+       /((67472+d+t)(67473)_rise_(d-1))
+```
+
+on `t>=1`.  Its successive ratio has the sign of
+
+```text
+d*t+(d+1)(67472+d)-1048576,
+```
+
+so the valid combined envelope is
+
+```text
+floor(max(P_d,F_d(1),F_d(K'-10))),
+```
+
+not `floor(max(P_d,F_d(K'-10)))`.  The adjacent integer point is decisive.
+At `K'=377674` the valid values are
+
+```text
+M_2=253238254,       M_3=3935391907,
+```
+
+rather than the complete values `84416263` and `983902549`.
+
+Corank one is different.  After deleting zero normals, its full-rank
+rank-two matroid has at least `2(w+t)` ordered independent pairs.  The
+resulting one-turn ratio and exact official endpoint comparison prove that
+`8147918` is uniform.  The green projective-pair capacity cut through
+`K'=377673` is therefore repaired to consume this uniform theorem.
+
+The two later capacity nodes now have status `CONDITIONAL`:
+
+```text
+uniform M_2<=84416263  => conditional cutoff 568338/568339,
+uniform M_2 and M_3    => conditional cutoff 796598/796599.
+```
+
+Their old exact Modal replays still pass and prove those implications.  Two
+new TARGET leaves isolate the missing uniform corank-two and corank-three
+propositions.  A corrected one-container probe, explicitly heuristic, finds
+that the valid integer-gap envelope leaves the resource wall at
+`377673/377674`.
+
+Focused verification:
+
+```text
+MATROID_PAVING_BASIS_FLOOR_PASS checks=216 ranks=9 controls=6/6
+MATROID_PAVING_BASIS_FLOOR_AUDIT_PASS dynamic_checks=225 extremizers=9
+RATE_HALF_MCA_RANK11_KERNEL_PROJECTIVE_PAVING_RECORD_CAPS_PASS
+  complete_caps=8147918,...,5542092977392141 controls=8/8
+RATE_HALF_MCA_RANK11_KERNEL_PROJECTIVE_PAVING_RECORD_CAPS_AUDIT_PASS
+  dimensions=9
+RATE_HALF_MCA_RANK11_KERNEL_PROJECTIVE_PAVING_INTEGER_GAP_FENCE_PASS
+  M2=253238254 M3=3935391907 controls=8/8
+RATE_HALF_MCA_RANK11_KERNEL_PROJECTIVE_PAVING_INTEGER_GAP_FENCE_AUDIT_PASS
+  dimensions=8 checks=80
+RATE_HALF_MCA_RANK11_KERNEL_PROJECTIVE_PAIR_CAPACITY_CUT_PASS
+  checked=359516 controls=6/6
+RATE_HALF_MCA_RANK11_KERNEL_CORANK2_PROJECTIVE_CAPACITY_CUT_PASS
+  checked=190666 wall=568339 controls=6/6
+RATE_HALF_MCA_RANK11_KERNEL_CORANK3_PROJECTIVE_CAPACITY_CUT_PASS
+  checked=228261 wall=796599 controls=8/8
+```
+
+```text
+DAG delta:             +3 PROVED scope/endpoint nodes,
+                       +2 TARGET uniform-cap leaves,
+                       2 PROVED capacity promotions -> CONDITIONAL
+critical status delta: none
+unconditional kernel: K'=10..377673 excluded
+conditional intervals:377674..568338 needs uniform M2;
+                       568339..796598 also needs uniform M3
+remaining kernel:      K'=377674..1048576
+delta-star movement:   none
+compute:               one corrected 512-MB/60-second Modal probe;
+                       6.7 seconds wall time; no large run retained
+upstream action:       correct PR #1170 before merge; export complete-chart
+                       caps and the scope fence, not unconditional cutoffs
+next route action:     attack the t=1 corank-two target first; derive a
+                       multiplicity-aware matroid basis floor or construct
+                       an RS realization that falsifies the fixed cap
+```
+# Cycle 340: MCA rank-11 uniform corank-two projective cap (2026-08-15)
+
+This cycle closes the first target minted by the cycle-339 scope repair.
+The missing issue was not Reed-Solomon realizability at one exceptional
+chart.  It was an abstract multiplicity-aware basis count that pays every
+shortening gap at once.
+
+## Rank-three bounded-parallel theorem
+
+Let `M` be a loopless rank-three matroid on `m` elements with every parallel
+class of size at most `a`.  The new universal leaf proves
+
+```text
+2 b(M) >= (m-1)(m-1-a).                             (BP)
+```
+
+The proof is deletion-contraction at an element `e` in a smallest parallel
+class `P`, `|P|=c`.
+
+- If `e` is a coloop, the deletion is rank two.  Its class sizes `q_i`
+  satisfy `sum q_i^2<=a sum q_i`, which gives `(BP)` directly.
+- Otherwise deletion retains rank three and induction applies.
+- In the contraction, `P minus e` is the loop set and every nonloop parallel
+  class is a union of original classes, hence has size at least `c`.
+  There are at least two such classes, so
+
+  ```text
+  b(M/e)>=c(m-2c)>=m-2.
+  ```
+
+  The last inequality follows from `m>=3c`; its residual at `m=3c` is
+  `(c-1)(c-2)`.
+- The induction sum exceeds the target by exactly `a-1`.
+
+The bound is sharp when `a` divides `m-1`: take one coloop over a rank-two
+matroid whose parallel classes all have size `a`.
+
+## Reed-Solomon specialization
+
+After rank-eight canonical-basis cancellation and deletion of all global
+zero normals, write
+
+```text
+t=K'-10-z,       0<=t<=K'-10<=1048566.
+```
+
+The corank-two chart has
+
+```text
+(n,K,m,s)=(1048578+t,2+t,67474+t,2).
+```
+
+Support-local transversality leaves `w+1=67473` normals outside every
+rank-one span.  Thus every parallel class has size at most
+
+```text
+a=m-(w+1)=t+1.
+```
+
+Applying `(BP)`, every record owns at least
+
+```text
+3*w*(w+t+1),       w=67472,
+```
+
+ordered independent triples.  The uniform record envelope is therefore
+
+```text
+H(t)=(R+t)(R+t+1)(R+t+2)/(3*w*(w+t+1)),
+R=1048576.
+```
+
+Its successive ratio has the sign of
+
+```text
+2*t+3*w+3-R,
+```
+
+so `H` has one turn and its maximum on the official interval is at an
+endpoint.  Exact endpoint division gives
+
+```text
+floor(H(0))       = 84416263,
+floor(H(1048566)) = 40828171.
+```
+
+The next-integer gaps are `10721959296` and
+`9846731093898357072`, respectively.  Hence `84416263` is uniform, with
+the complete chart as the exact maximizer.
+
+## Bounded computation and audits
+
+One 512 MB, 60-second-limited Modal container exhaustively checked all
+`1048567` integer rows as a falsifier and arithmetic audit:
+
+```text
+run: https://modal.com/apps/allengrahamhart/main/ap-e01IzeB6DxEniL8hsMBRyC
+maximum cap: 84416263 at t=0
+t=1 cap:     84415253
+far cap:     40828171
+first excess: none
+```
+
+The universal proof does not depend on the scan.  Focused proof verifiers:
+
+```text
+MATROID_RANK3_BOUNDED_PARALLEL_BASIS_FLOOR_PASS
+  checks=5604 ceilings=12 controls=6/6
+MATROID_RANK3_BOUNDED_PARALLEL_BASIS_FLOOR_AUDIT_PASS
+  partition_checks=248 contraction_checks=200
+RATE_HALF_MCA_RANK11_KERNEL_CORANK2_UNIFORM_PROJECTIVE_BASIS_CAP_PASS
+  cap=84416263 endpoints=3 controls=6/6
+RATE_HALF_MCA_RANK11_KERNEL_CORANK2_UNIFORM_PROJECTIVE_BASIS_CAP_AUDIT_PASS
+  endpoint_checks=3 turn=423078/423079
+```
+
+The existing exact 190,666-row hierarchy replay and independent audit then
+promote the corank-two capacity cut from conditional to proved:
+
+```text
+unconditional kernel cutoff: 568338
+first method wall:            568339
+```
+
+The corank-three capacity node remains conditional only on the one open
+uniform cap `M_3<=983902549`; its `M_2` premise is now discharged.
+
+```text
+DAG delta:             +1 universal PROVED matroid node
+                       corank-two uniform cap TARGET -> PROVED
+                       corank-two capacity CONDITIONAL -> PROVED
+critical orbit census: unchanged at 167/37/27
+unconditional kernel: K'=10..568338 excluded
+remaining kernel:      K'=568339..1048576
+delta-star movement:   none
+compute:               one 512-MB/60-second Modal container, about 8 s wall
+next route action:     attack uniform corank three with the analogous
+                       rank-four bounded-point/line multiplicity problem
+```
+# Cycle 341: MCA rank-11 uniform corank-three projective cap (2026-08-15)
+
+This cycle closes the second target minted by the cycle-339 scope repair.  It
+also decomposes the argument at its natural mathematical boundary: a reusable
+rank-four matroid theorem, an RS specialization, and the existing exact
+capacity cut are now separate DAG nodes with separate contracts and audits.
+
+## Rank-four bounded-point/line theorem
+
+Let `M` be a loopless rank-four matroid on `m=a+r` elements, where `a>=1` and
+`r>=3`.  Suppose every parallel class has size at most `a` and every rank-two
+flat has size at most `a+1`.  Put
+
+```text
+h_a(r)=min(floor((a+1)/2),floor((a+r)/4)),
+C_a(r)=(a+r-1)(r-1)(r-2),
+L_a(r)=3(a+r-h_a(r)-1)(r-2),
+Q_a(3)=6,
+Q_a(r)=min(C_a(r),Q_a(r-1)+L_a(r)).
+```
+
+The new universal leaf proves
+
+```text
+6 b(M) >= Q_a(r).                                      (BPL)
+```
+
+The proof uses deletion-contraction at an element in a smallest parallel
+class `P`, of size `c`.
+
+- If the chosen element is a coloop, the rank-three theorem in the deletion
+  gives `6b(M)>=C_a(r)`.
+- Otherwise the deletion retains rank four and contributes `Q_a(r-1)`.
+  Simplification has at least four points, and every rank-two flat through
+  `P` and another class contains at least `2c`; hence
+  `c<=h_a(r)`.  The contraction is rank three on `a+r-c` nonloops with
+  parallel-class ceiling `a+1-c`, so the rank-three theorem contributes at
+  least `L_a(r)`.
+
+The recurrence has an exact short evaluator.  If the last coloop reset is at
+`j`, successive reset candidates differ by
+
+```text
+(j-1)(3*h_a(j+1)-a-2).
+```
+
+Because `h_a` is nondecreasing, this sign changes at most once.  The minimum
+is therefore the no-reset path or the reset immediately before the first
+nonnegative difference; the required sums of `h_a(x)(x-2)` are elementary
+floor sums split by residue modulo four.
+
+## Reed-Solomon specialization
+
+After rank-seven canonical-basis cancellation and deletion of all global zero
+normals, write
+
+```text
+t=K'-10-z,       0<=t<=K'-10<=1048566,
+a=t+1,           r=67474.
+```
+
+The corank-three chart is
+
+```text
+(n,K,m,s)=(1048579+t,3+t,67475+t,3).
+```
+
+Support-local transversality gives parallel-class ceiling `a` and rank-two
+flat ceiling `a+1`.  Applying `(BPL)`, every record owns at least
+`4Q_(t+1)(67474)` ordered independent quadruples.  Consequently its count is
+at most
+
+```text
+floor((1048576+t)(1048577+t)(1048578+t)(1048579+t)
+      /(4Q_(t+1)(67474))).
+```
+
+Exact evaluation on the complete official interval gives
+
+```text
+maximum cap: 983902549 at t=0
+t=1 cap:     983891721
+t=2 cap:     983888183
+far cap:     951742008
+first excess: none
+```
+
+At `t=0`, `Q=307177966285344`; the next-integer numerator gap is
+`172104506923776`.  Thus `983902549` is a uniform integer cap, with the
+complete chart as the exact maximizer.
+
+## Bounded computation and audits
+
+One 512 MB, 60-second-limited Modal container exhaustively checked all
+`1048567` integer rows and independently sampled the recurrence and residue
+formulae:
+
+```text
+run: https://modal.com/apps/allengrahamhart/main/ap-Sv2HRoqdjrF188Uzqm7EJe
+rows:              1048567
+recurrence checks: 9440
+residue checks:    2240
+branches:          7 no-reset, 1048560 reset
+```
+
+The proof does not depend on the scan.  Focused proof verifiers, all under the
+256 MB local guard, report
+
+```text
+MATROID_RANK4_BOUNDED_POINT_LINE_BASIS_FLOOR_PASS
+  checks=199280 grid=80x118 controls=6/6
+MATROID_RANK4_BOUNDED_POINT_LINE_BASIS_FLOOR_AUDIT_PASS
+  recurrence_checks=4400 sign_checks=3240
+RATE_HALF_MCA_RANK11_KERNEL_CORANK3_UNIFORM_PROJECTIVE_BASIS_CAP_PASS
+  rows=1048567 cap=983902549 recurrence_checks=2340 controls=6/6
+RATE_HALF_MCA_RANK11_KERNEL_CORANK3_UNIFORM_PROJECTIVE_BASIS_CAP_AUDIT_PASS
+  sample_checks=30 rows=1048567 branches=7/1048560
+```
+
+The existing exact 228,261-row hierarchy replay and independent audit then
+promote the corank-three capacity cut from conditional to proved:
+
+```text
+unconditional kernel cutoff: 796598
+first method wall:            796599
+```
+
+```text
+DAG delta:             +1 universal PROVED matroid node
+                       corank-three uniform cap TARGET -> PROVED
+                       corank-three capacity CONDITIONAL -> PROVED
+critical orbit census: unchanged
+unconditional kernel: K'=10..796598 excluded
+remaining kernel:      K'=796599..1048576
+delta-star movement:   none
+compute:               one 512-MB/60-second Modal container, a few seconds
+next route action:     select a capacity mechanism for the remaining kernel;
+                       do not extend corank by rote without a scaling audit
+```
+# Cycle 342: MCA rank-11 shortening-weighted kernel closure (2026-08-15)
+
+This cycle performs the scaling audit requested by cycle 341 and closes the
+remaining fixed-kernel branch without extending the uniform-cap ladder to
+coranks four through nine.
+
+## Coupled shortening invariant
+
+Fix a corank-`d` basis `B`, put `S=K'-10`, and let `z` be the number
+of common zero normals of `ker(ev_B)` outside `B`.  The support-local
+shortening gap is `t=S-z`.  The same `z` controls the number of tuple
+extensions:
+
+```text
+records over B:       at most M_d(t),
+extensions per record: at most C(z,d+1)=C(S-t,d+1).
+```
+
+Earlier capacity cuts replaced these factors by separate maxima.  Keeping
+them coupled gives
+
+```text
+M_d(t) C(S-t,d+1).
+```
+
+For `d>=2` and `t>=1`, the unfloored successive ratio is
+
+```text
+(R+d+t+1)(w+d+t)(S-t-d-1)
+-------------------------------- < 1.
+(R+t)(w+d+t+1)(S-t)
+```
+
+Thus every noncomplete weighted chart is controlled by `t=1`.  The proved
+uniform caps handle `d=1,2,3`; exact cross multiplication at `K'=796599`
+shows that `t=1` dominates the complete weighted branch for every
+`d=4,...,9`, and that dominance only increases with `K'`.
+
+## Terminal capacity polynomial
+
+Define
+
+```text
+U_d(K')=P_d C(K'-10,d+1),           d=1,2,3,
+U_d(K')=F_d(1) C(K'-11,d+1),       d=4,...,9.
+```
+
+All-bases decoration gives the direct upper bound
+
+```text
+sum_(d=1)^9 C(1048576+K',10-d) U_d(K')/(d+2).
+```
+
+Subtract this unfloored capacity from the dominant-lane demand
+
+```text
+(495405467/10^9) 274980728111260126 C(67472+K',11).
+```
+
+The difference `G(K')` is a degree-eleven polynomial.  At
+`K_0=796599`, every exact Newton coefficient is positive:
+
+```text
+Delta^j G(K_0)>0,       j=0,...,11.
+```
+
+Therefore `G(K_0+s)>0` for every integer `s>=0`.  An independent audit
+expands `G(K_0+s)` in ordinary powers of `s` and finds all twelve
+coefficients positive.  The proof uses the unfloored capacity, so integer
+rounding only strengthens the exclusion.
+
+```text
+RATE_HALF_MCA_RANK11_KERNEL_SHORTENING_WEIGHTED_EXTENSION_CAP_PASS
+  dominance=6 ratios=54 controls=6/6
+RATE_HALF_MCA_RANK11_KERNEL_SHORTENING_WEIGHTED_EXTENSION_CAP_AUDIT_PASS
+  checks=48
+RATE_HALF_MCA_RANK11_KERNEL_SHORTENING_WEIGHTED_CAPACITY_CUT_PASS
+  interval=796599..1048576 newton=12 controls=7/7
+RATE_HALF_MCA_RANK11_KERNEL_SHORTENING_WEIGHTED_CAPACITY_CUT_AUDIT_PASS
+  positive_power_coefficients=12
+```
+
+```text
+DAG delta:             +2 PROVED nodes
+kernel interval:       completely removed
+rank-eleven remainder: K'=10..22525 rank eight only;
+                       K'=22526..37995 dense-owner chronology only
+delta-star movement:   none
+compute:               exact symbolic arithmetic under the 256 MB guard;
+                       no Modal run needed
+next route action:     attack the lower rank-eight interval or discharge
+                       the chronology-correct owner terminal
+```
+# Cycle 343: MCA rank-11 rank-eight fixed-chart local-cap fence (2026-08-15)
+
+This cycle tests whether the remaining lower rank-eight interval can be paid
+from the current fixed-chart output alone.  An exact algebraic construction
+shows that it cannot, even after retaining the weighted component-extension
+multiplicity.
+
+## Eight-petal construction
+
+At residual shortening `K'=11`, choose a nine-set `B`, its locator `u_0`,
+and the ten-space
+
+```text
+V'=span{1,X,...,X^7,u_0,Xu_0}.
+```
+
+Then `rank(ev_B)=8`, while every two-coordinate extension outside `B` has
+rank ten.  Partition the remaining coordinates into eight petals of size
+`67473` and a remainder of size `508794`.  Eight owners
+`(t_e u_0,1)` and a greedy choice of the received first-column values on
+the remainder give
+
+```text
+8*508794=4070352
+```
+
+globally distinct slopes.  Each exact support is one petal, `B`, and one
+remainder coordinate.  It has size `67483`, is not contained in any
+received pair core, and carries `C(67473,2)` rank-ten affine-owner component
+extensions.  Error differences lie in the two-space
+`span{u_0,r_1-1}`.
+
+The greedy step excludes at most
+
+```text
+64(508794-1)+8*18=32562896<2130706433
+```
+
+field values, so the construction exists over the deployed field and can
+avoid the eighteen dense slopes.  Locator multiplication through a deleted
+common core of size `K-11` lifts it reversibly to the official row.
+
+## Two target fences
+
+The construction exceeds the distinct-record target by
+
+```text
+4070352-2578110=1492242.
+```
+
+It also exceeds the exact weighted demand in the same `(record,T)` unit:
+
+```text
+marked weight:    4070352*C(67473,2)=9265216597693056
+weighted demand:                       5869376383979174
+excess:                                3395840213713882.
+```
+
+The node is deliberately scoped to the target-router output.  The witness
+does not have the unsafe-family size or the ten-dimensional normalized-
+deviation span, and therefore does not refute any proved ancestor.  It
+rules out a chart-local continuation that forgets those ancestors.
+
+```text
+RATE_HALF_MCA_RANK11_RANK8_FIXED_CHART_LOCAL_CAP_FENCE_PASS
+  slopes=4070352 distinct_excess=1492242
+  marked=9265216597693056 weighted_excess=3395840213713882
+  controls=10/10
+RATE_HALF_MCA_RANK11_RANK8_FIXED_CHART_LOCAL_CAP_FENCE_AUDIT_PASS
+  toy_records=8 toy_slopes=8 components=24 rank_checks=45
+```
+
+```text
+result:                NARROWED
+DAG delta:             +1 PROVED route-fence node
+critical status delta: none
+rank-eight route:      target-local distinct and weighted caps fenced;
+                       retain normalized-span/ancestor data or use
+                       cross-chart chronology/global incidence coupling
+delta-star movement:   none
+compute:               exact arithmetic and a 19-coordinate toy audit
+                       under the 256 MB guard; no Modal run needed
+next route action:     formulate and discharge a chronology/global coupling
+                       that uses information absent from the eight-petal
+                       model
+```
+# Cycle 344: MCA rank-11 rank-eight minimal-shortening exclusion (2026-08-15)
+
+Cycle 343 showed that the current fixed-chart output is genuinely realizable
+at `K'=11`.  Before attacking its global ancestry, this cycle checks the
+shortest residual row separately and closes it by dimension equality.
+
+## Exact one-row exclusion
+
+The dense-root saturation theorem places the fixed ten-dimensional
+correction space inside the residual Reed-Solomon space:
+
+```text
+V' <= RS_{<K'},       dim V'=10.
+```
+
+At `K'=10`, the ambient space also has dimension ten.  Hence
+
+```text
+V'=RS_{<10}.
+```
+
+On any nine distinct residual coordinates, the polynomials
+`1,X,...,X^8` have a nonzero Vandermonde determinant.  Equivalently,
+nine-point Lagrange interpolation is surjective.  Therefore every nine-set
+has evaluation rank nine, while the live affine-owner branch requires rank
+eight.  That branch is empty at `K'=10`.
+
+The boundary is exact for this argument.  At `K'=11`, the cycle-343 space
+
+```text
+span{1,X,...,X^7,L_B,XL_B}
+```
+
+has dimension ten and evaluation rank eight on `B`.  Thus no monotone
+extension of the one-row proof is asserted.
+
+```text
+RATE_HALF_MCA_RANK11_RANK8_MINIMAL_SHORTENING_EXCLUSION_PASS
+  toy=GF(101) rank=9 controls=6/6
+RATE_HALF_MCA_RANK11_RANK8_MINIMAL_SHORTENING_EXCLUSION_AUDIT_PASS
+  toy=GF(103) points=9 degree<=8 proof_pins=4/4
+```
+
+```text
+result:                CLOSED one exact residual row
+DAG delta:             +1 PROVED theorem node
+critical status delta: none
+rank-eleven boundary:  K'=10 no component target;
+                       K'=11..22525 rank eight only;
+                       K'=22526..37995 chronology only;
+                       K'>=37996 no component target
+delta-star movement:   none
+compute:               two tiny finite-field interpolation checks under
+                       RAMguard; no Modal run
+next route action:     classify K'=11 hyperplane circuits and derive the
+                       first all-55-shadow/global chronology coupling
+```
+# Cycle 345: MCA rank-11 rank-eight circuit-shadow census (2026-08-15)
+
+The first open rank-eight row is `K'=11`.  This cycle classifies its
+codimension-one evaluation geometry exactly before attempting another
+aggregate capacity inequality.
+
+## Fixed circuit
+
+Let `P=RS_{<11}` and let `V'<=P` have dimension ten.  If a fixed nine-set
+`B` has evaluation rank eight, then
+
+```text
+ker(ev_B|V')=L_B RS_{<2}.
+```
+
+The functional cutting out `V'` therefore factors through `ev_B`.  Its
+support is one fixed circuit `C_B subset B`, independent of every extension
+pair.  Circuit size one is impossible in the actual component target: the
+chart contains millions of distinct slopes, so a loop coordinate would
+make its affine rich equation identically zero and contradict empty
+residual global common support.  Thus `2<=c:=|C_B|<=9`.
+
+For every `T=B union {x,y}`, the unique relation on the rank-ten
+eleven-set has support `C_B`.  A nine-shadow has rank eight iff its omitted
+pair is disjoint from the circuit.  Consequently it has
+
+```text
+C(11-c,2) rank-eight shadows,
+55-C(11-c,2) rank-nine shadows,
+c rank-ten bases.
+```
+
+The same functional factorization gives the structural containment
+
+```text
+L_(C_B) RS_{<11-c} <= V'.
+```
+
+Explicit finite-field hyperplanes realize all `c=2,...,9`; the eight-petal
+fence realizes `c=9` with shadow census `1/54`.
+
+## Route impact
+
+No residual row closes.  The theorem gives the exact next split:
+
+```text
+c=9:   full-support circuit, 54 rank-nine shadows, eight-petal control;
+c<=8:  additional rank-eight charts and locator-ideal dimension >=3.
+```
+
+The existing rank-nine cap cannot simply be summed over all neighboring
+charts; that union bound is much too loose.  A useful continuation must keep
+the owner label and extension overlap in the `(record,T,B')` incidence unit,
+or derive a legitimate shortening/global-owner consequence from the larger
+locator ideal.
+
+```text
+result:                PROVED exact K'=11 circuit-shadow census
+DAG delta:             +1 PROVED node
+critical status delta: none
+rank-eleven boundary:  unchanged
+delta-star movement:   none
+compute:               GF(101) row-reduction replay and independent GF(103)
+                       determinant replay under RAMguard; no Modal
+next route action:     owner-labelled one-replacement coupling for c=9;
+                       locator-ideal/extra-shadow coupling for c<=8
+```
+# Cycle 346: MCA rank-11 rank-nine shortening-scope repair (2026-08-15)
+
+An attempted one-replacement rank-eight coupling exposed a row mismatch in
+the green rank-nine target elimination node.
+
+## Retracted low-row argument
+
+The nine-cell pair-core theorem is an original-row theorem. Its
+`134944=2m-n` intersection floor applies after a residual chart has been
+lifted back to length `2097152` and support size `1116048`. That lift inserts
+
+```text
+1048576-K'
+```
+
+deleted locator coordinates into every owner core. Consequently an
+original-row common core of size at least `134944` does not imply a residual
+common core of that size. The former comparison
+
+```text
+134944 <= |J| < m'=67472+K'
+```
+
+mixed original and residual rows and is invalid. It has been removed from
+the statement, proof, contract, and both verifiers.
+
+## Surviving weighted theorem
+
+The marked component lower bound and rank-nine weighted cap use the same
+residual `(record,T)` unit and are sound. Their honest first crossing is
+
+```text
+K'=20617:
+  demand=92386821615379573,
+  cap   =92394042904582935;
+
+K'=20618:
+  demand=92397581841774591,
+  cap   =92395178310909600.
+```
+
+Before rounding, the first row has negative cross-product and the second has
+positive cross-product. After cancellation, the ratio is
+
+```text
+constant * C(m',9)/C(n',9) * (m'-9)/n',
+```
+
+a product of ten strictly increasing factors. Therefore the repaired node
+is PROVED on `20618<=K'<=1048576` and explicitly open on
+`10<=K'<=20617`.
+
+The rank-eight high-row capacity cut was audited separately. Its proof uses
+only the weighted concentrator and rank-eight owner-pair cap, so the
+unnecessary rank-nine dependency was removed without changing its exact
+`K'=37996` boundary.
+
+```text
+result:                PROVED rank-nine closure on K'>=20618
+retraction:            low-row original/residual core comparison
+DAG status delta:      rank-nine rows 10..20617 reopened
+rank-eight delta:      none; independent K'>=37996 cut retained
+delta-star movement:   none
+compute:               constant-memory exact integers under RAMguard
+next route action:     derive a residual-unit plane/chronology cap for
+                       K'<=20617, preserving marked extension weight
 ```

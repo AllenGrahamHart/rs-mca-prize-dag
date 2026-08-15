@@ -1,0 +1,33 @@
+{
+  "schema": "rate-half-mca-rank11-kernel-projective-paving-integer-gap-fence-v1",
+  "dependencies": [
+    "rate_half_mca_rank11_kernel_projective_paving_record_caps",
+    "rate_half_mca_support_local_transversality_compiler"
+  ],
+  "parameters": {
+    "R": 1048576,
+    "w": 67472,
+    "correction_dimension": 10,
+    "official_K_prime_minimum": 10,
+    "official_K_prime_maximum": 1048576,
+    "complete_formula": "(R+d)_fall_(d+1)/((d+1)*(w+d-1)_fall_d)",
+    "pointwise_formula": "(R+d+t)_fall_(d+1)/((w+d+t)*(w+1)_rise_(d-1))",
+    "pointwise_integer_range": "1<=t<=K_prime-10",
+    "pointwise_ratio_sign": "d*t+(d+1)*(w+d)-R",
+    "uniform_envelope": "floor(max(P_d,F_d(1),F_d(K_prime-10)))",
+    "corank1_uniform_cap": 8147918,
+    "audit_K_prime": 377674,
+    "audit_corank2_cap": 253238254,
+    "audit_corank3_cap": 3935391907
+  },
+  "evidence": {
+    "status": "heuristic_only",
+    "script": "experiments/prize_resolution/rate_half_mca_rank11_kernel_projective_paving_probe_modal.py",
+    "script_sha256": "a325bc597da2ac86b05238a53b3b6cd668111562c488f2ef44675f4608b15a8e",
+    "result": "experiments/prize_resolution/rate_half_mca_rank11_kernel_projective_paving_probe_result.json",
+    "result_sha256": "f950d036c3ab6df930c62d3d8e984451a7c705d9009d8a8a260b051cd93e20cb",
+    "modal_run": "https://modal.com/apps/allengrahamhart/main/ap-mJzCexzTYZItYe1iZJ151y",
+    "observed_frontier": [377673, 377674]
+  },
+  "nonclaim": "The envelope is not claimed sharp and does not refute a possible stronger uniform theorem or the kernel statement."
+}

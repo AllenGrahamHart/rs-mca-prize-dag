@@ -1,0 +1,60 @@
+{
+  "schema": "rate-half-mca-rank11-kernel-corank2-uniform-projective-basis-cap-v1",
+  "dependencies": [
+    "rate_half_mca_rank11_kernel_corank2_projective_basis_cap",
+    "rate_half_mca_rank11_kernel_projective_paving_integer_gap_fence",
+    "rate_half_mca_support_local_transversality_compiler",
+    "matroid_rank3_bounded_parallel_basis_floor"
+  ],
+  "parameters": {
+    "R": 1048576,
+    "w": 67472,
+    "dimension": 2,
+    "t_minimum": 0,
+    "t_maximum": 1048566,
+    "parallel_class_ceiling": "t+1",
+    "ordered_basis_floor": "3*w*(w+t+1)",
+    "record_cap_formula": "floor((R+t)*(R+t+1)*(R+t+2)/(3*w*(w+t+1)))",
+    "ratio_step_sign": "2*t+3*w+3-R",
+    "turn_left": 423078,
+    "turn_right": 423079,
+    "uniform_record_cap": 84416263,
+    "complete_row": {
+      "t": 0,
+      "resource": 1152924803143827456,
+      "ordered_basis_floor": 13657614768,
+      "record_cap": 84416263,
+      "division_remainder": 2935655472,
+      "next_integer_gap": 10721959296
+    },
+    "adjacent_row": {
+      "t": 1,
+      "resource": 1152928101688147974,
+      "ordered_basis_floor": 13657817184,
+      "record_cap": 84415253,
+      "division_remainder": 8673040422,
+      "next_integer_gap": 13799380132602
+    },
+    "official_endpoint": {
+      "t": 1048566,
+      "resource": 9223253290106486064,
+      "ordered_basis_floor": 225904150224,
+      "record_cap": 40828171,
+      "division_remainder": 15151325760,
+      "next_integer_gap": 9846731093898357072
+    }
+  },
+  "evidence": {
+    "script": "experiments/prize_resolution/rate_half_mca_rank11_kernel_corank2_uniform_cap_modal.py",
+    "script_sha256": "a0584027f8a7b5d07e1883029395a0784070d9a9e5ce78df3648f4bf2eeeba91",
+    "result": "experiments/prize_resolution/rate_half_mca_rank11_kernel_corank2_uniform_cap_result.json",
+    "result_sha256": "45cdccacb92d9a7ddc6c4b48fedfd04e9b0247190e78d7204756911288226fc3",
+    "result_schema": "rate-half-mca-rank11-kernel-corank2-uniform-cap-v1",
+    "checked_rows": 1048567,
+    "worker_timeout_seconds": 60,
+    "worker_memory_mb": 512,
+    "max_containers": 1,
+    "modal_run": "https://modal.com/apps/allengrahamhart/main/ap-e01IzeB6DxEniL8hsMBRyC"
+  },
+  "nonclaim": "The uniform fixed-chart cap does not select a global route, remove rank eight or dense-owner chronology, or close either prize."
+}

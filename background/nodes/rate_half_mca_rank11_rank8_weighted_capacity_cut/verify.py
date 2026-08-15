@@ -11,7 +11,7 @@ from pathlib import Path
 
 
 CONTRACT = Path(__file__).with_name("source_contract.json")
-CONTRACT_SHA256 = "dad2aa8f83ec9cd1bbcebad2f7b127efd2037743df539e2f2662629a4a1c1396"
+CONTRACT_SHA256 = "569188006da1752dc9013db7947f3ade77fdc330eb947f57589f16d3e6ad74b1"
 
 
 class Reject(ValueError):
@@ -55,7 +55,6 @@ def validate(data: object) -> dict[str, int]:
     require(data.get("dependencies") == [
         "rate_half_mca_rank11_component_ninesubset_weighted_concentrator",
         "rate_half_mca_rank11_rank8_owner_pair_weight_cap",
-        "rate_half_mca_rank11_rank9_weighted_target_elimination",
     ], "dependencies")
     p = data.get("parameters")
     require(isinstance(p, dict), "parameters")

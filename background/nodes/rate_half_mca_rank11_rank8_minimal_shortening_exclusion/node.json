@@ -1,0 +1,32 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_rank8_minimal_shortening_exclusion",
+    "title": "Full residual RS rank excludes the rank-eight chart at K'=10",
+    "status": "PROVED",
+    "closure": "dimension equality with the residual RS code and nine-point interpolation",
+    "statement": "At residual dimension K'=10, the ten-dimensional correction space V' equals the complete degree-below-ten residual Reed-Solomon space. Evaluation on every nine distinct coordinates has rank nine, so the rank-eight affine-owner alternative of the component nine-subset target is impossible. This closes K'=10 only; the explicit K'=11 fixed-chart fence shows that the same dimension argument cannot extend to the adjacent row.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_rank8_minimal_shortening_exclusion/statement.md",
+      "background/nodes/rate_half_mca_rank11_rank8_minimal_shortening_exclusion/proof.md",
+      "background/nodes/rate_half_mca_rank11_rank8_minimal_shortening_exclusion/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_rank8_minimal_shortening_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_rank8_minimal_shortening_exclusion/attack.md",
+      "background/nodes/rate_half_mca_rank11_rank8_minimal_shortening_exclusion/audit.md",
+      "background/nodes/rate_half_mca_rank11_rank8_minimal_shortening_exclusion/result.md",
+      "background/nodes/rate_half_mca_rank11_rank8_minimal_shortening_exclusion/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_rank8_minimal_shortening_exclusion/verify.py",
+      "background/nodes/rate_half_mca_rank11_rank8_minimal_shortening_exclusion/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_dense_root_highspan_saturation"},
+    {"from": "rate_half_mca_rank11_component_ninesubset_target_router"},
+    {"from": "rate_half_mca_rank11_rank8_fixed_chart_local_cap_fence"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location"}
+  ],
+  "refutes": []
+}

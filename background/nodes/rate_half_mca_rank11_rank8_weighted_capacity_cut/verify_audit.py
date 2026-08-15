@@ -12,7 +12,7 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 CONTRACT = HERE / "source_contract.json"
-CONTRACT_SHA256 = "dad2aa8f83ec9cd1bbcebad2f7b127efd2037743df539e2f2662629a4a1c1396"
+CONTRACT_SHA256 = "569188006da1752dc9013db7947f3ade77fdc330eb947f57589f16d3e6ad74b1"
 
 
 def require(condition: bool, message: str) -> None:

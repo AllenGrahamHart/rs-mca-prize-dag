@@ -1,0 +1,20 @@
+{
+  "schema": "rate-half-mca-rank11-kernel-rank8-nineshadow-extension-deficit-v1",
+  "dependencies": [
+    "rate_half_mca_rank11_kernel_nine_shadow_containment_coupling"
+  ],
+  "parameters": {
+    "support_offset": 67472,
+    "component_subset_size": 11,
+    "shadow_subset_size": 9,
+    "rank8_closure_offset": 2,
+    "rank9_closure_offset": 1,
+    "outside_rank8_closure_minimum": 67474,
+    "outside_parallel_class_partner_minimum": 67473,
+    "independent_pair_floor": 2276336601,
+    "rank8_bad_extension_formula": "C(m_prime-9,2)-C(67474,2)",
+    "rank8_resource_coefficient_formula": "55+6*C(67474,2)/C(K_prime-11,2)",
+    "resource_formula": "[52+3*E0/E1]*I1+[55+6*C(67474,2)/E2]*I2+55*sum_d_ge_3 I_d <= E0*C(m_prime,9)"
+  },
+  "nonclaim": "The extension deficit does not by itself pay the complete kernel lane, error rank eleven, or either prize."
+}

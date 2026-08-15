@@ -1,0 +1,29 @@
+{
+  "schema": "rate-half-mca-rank11-kernel-corank2-projective-basis-cap-v1",
+  "dependencies": [
+    "rate_half_mca_rank11_kernel_canonical_basis_globalizer",
+    "rate_half_mca_support_local_transversality_compiler"
+  ],
+  "parameters": {
+    "domain_size": 1048578,
+    "code_dimension": 2,
+    "support_size": 67474,
+    "explanation_dimension": 2,
+    "support_excess": 67472,
+    "normal_space_dimension": 3,
+    "zero_normal_upper_bound": 0,
+    "minimum_normals_outside_projective_class": 67473,
+    "maximum_projective_class_size": 1,
+    "minimum_projective_points": 67474,
+    "noncollinear": true,
+    "maximum_collinear_unordered_triples": 51194051445096,
+    "minimum_independent_ordered_triples_per_record": 13657614768,
+    "coordinate_ordered_triple_resource": 1152924803143827456,
+    "projective_basis_record_cap": 84416263,
+    "division_remainder": 2935655472,
+    "previous_transversality_record_cap": 253241283,
+    "previous_division_remainder": 389629290,
+    "record_cap_improvement": 168825020
+  },
+  "nonclaim": "The cap is specific to the complete shortened explanation-dimension-two chart; it does not by itself sum rank strata or close either prize."
+}

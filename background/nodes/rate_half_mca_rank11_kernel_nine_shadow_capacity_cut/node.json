@@ -1,0 +1,31 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_kernel_nine_shadow_capacity_cut",
+    "title": "Nine-shadow coupling removes kernel through 15445",
+    "status": "PROVED",
+    "closure": "exact shared-shadow fractional-knapsack replay with independent dual certificate",
+    "statement": "Combining the ambient/record individual caps with the shared nine-subset shadow gives an exact normalized LP. Its capacity is below the dominant kernel demand for every 10<=K'<=15445. At K'=15445 the scaled gap is 178044655461817065880792270525721984196903835342334290540589; the comparison reverses at K'=15446.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_capacity_cut/statement.md",
+      "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_capacity_cut/proof.md",
+      "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_capacity_cut/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_capacity_cut/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_capacity_cut/attack.md",
+      "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_capacity_cut/audit.md",
+      "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_capacity_cut/result.md",
+      "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_capacity_cut/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_capacity_cut/verify.py",
+      "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_capacity_cut/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_kernel_hybrid_capacity_cut"},
+    {"from": "rate_half_mca_rank11_kernel_nine_shadow_coupling"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location"}
+  ],
+  "refutes": []
+}

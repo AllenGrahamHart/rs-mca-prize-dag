@@ -1,0 +1,18 @@
+{
+  "schema": "rate-half-mca-rank11-kernel-nine-shadow-containment-coupling-v1",
+  "dependencies": [
+    "rate_half_mca_rank11_kernel_nine_shadow_coupling"
+  ],
+  "parameters": {
+    "correction_dimension": 10,
+    "component_subset_size": 11,
+    "shadow_subset_size": 9,
+    "shadows_per_component_subset": 55,
+    "rank9_spanning_shadow_minimum": 3,
+    "support_extension_formula": "C(m_prime-9,2)",
+    "rank9_extension_formula": "C(K_prime-10,2)",
+    "rank9_coefficient_formula": "52+3*C(m_prime-9,2)/C(K_prime-10,2)",
+    "resource_formula": "rank9_coefficient*I_1+55*sum_d_ge_2 I_d <= C(m_prime-9,2)*C(m_prime,9)"
+  },
+  "nonclaim": "The full-containment inequality does not by itself pay the complete kernel lane, rank eleven, or either prize."
+}

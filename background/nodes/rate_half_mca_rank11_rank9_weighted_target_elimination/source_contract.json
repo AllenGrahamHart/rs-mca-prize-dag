@@ -1,5 +1,5 @@
 {
-  "schema": "rate-half-mca-rank11-rank9-weighted-target-elimination-v1",
+  "schema": "rate-half-mca-rank11-rank9-weighted-target-elimination-v2",
   "dependencies": [
     "rate_half_mca_rank11_component_ninesubset_target_router",
     "rate_half_mca_rank11_component_ninesubset_weighted_concentrator",
@@ -12,16 +12,22 @@
     "residual_record_floor": 274980728111260126,
     "lane_density_numerator": 495405467,
     "lane_density_denominator": 1000000000,
-    "fixed_record_population": 2578110,
-    "low_core_record_cap": 1434405,
-    "forced_common_core_floor": 134944,
-    "small_dimension_ceiling": 67472,
-    "weighted_boundary_dimension": 67473,
-    "weighted_boundary_n": 1116049,
-    "weighted_boundary_m": 134945,
-    "weighted_boundary_demand": 6849288576200976639,
-    "weighted_boundary_cap": 147748596828055575,
-    "weighted_boundary_gap": 6701539979372921064
+    "last_open_dimension": 20617,
+    "last_open_n": 1069193,
+    "last_open_m": 88089,
+    "last_open_demand": 92386821615379573,
+    "last_open_cap": 92394042904582935,
+    "last_open_gap": 7221289203362,
+    "first_closed_dimension": 20618,
+    "first_closed_n": 1069194,
+    "first_closed_m": 88090,
+    "first_closed_demand": 92397581841774591,
+    "first_closed_cap": 92395178310909600,
+    "first_closed_gap": 2403530864991,
+    "deployed_dimension_maximum": 1048576,
+    "deleted_core_size_formula": "1048576-K_prime",
+    "reopened_interval": [10, 20617]
   },
-  "nonclaim": "The elimination leaves the fixed-kernel and rank-eight owner-flat routes open and does not pay error rank eleven."
+  "claim": "The fixed rank-nine weighted target is empty for 20618<=K'<=1048576.",
+  "nonclaim": "Rank nine remains open for 10<=K'<=20617; no original-row common-core floor is asserted for the residual plane."
 }

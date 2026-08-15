@@ -1,0 +1,32 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_kernel_projective_paving_record_caps",
+    "title": "Projective paving bounds every complete kernel chart",
+    "status": "PROVED",
+    "closure": "complete-shortening normal-matroid basis count",
+    "statement": "In each completely shortened rank-eleven kernel chart d=1..9, support-local transversality makes the incident normal matroid rank d+1 with every d-set independent. The sharp paving basis floor gives at least (d+1)(m-1)_fall_d ordered bases per record and the nine complete-chart caps 8147918, 84416263, 983902549, 12232092309, 158406193634, 2109949210211, 28689347099870, 396280526311830, 5542092977392141. No uniform promotion to charts with fewer zero normals is claimed.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_kernel_projective_paving_record_caps/statement.md",
+      "background/nodes/rate_half_mca_rank11_kernel_projective_paving_record_caps/proof.md",
+      "background/nodes/rate_half_mca_rank11_kernel_projective_paving_record_caps/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_kernel_projective_paving_record_caps/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_kernel_projective_paving_record_caps/attack.md",
+      "background/nodes/rate_half_mca_rank11_kernel_projective_paving_record_caps/audit.md",
+      "background/nodes/rate_half_mca_rank11_kernel_projective_paving_record_caps/result.md",
+      "background/nodes/rate_half_mca_rank11_kernel_projective_paving_record_caps/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_kernel_projective_paving_record_caps/verify.py",
+      "background/nodes/rate_half_mca_rank11_kernel_projective_paving_record_caps/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "matroid_paving_basis_floor"},
+    {"from": "rate_half_mca_rank11_kernel_canonical_basis_globalizer"},
+    {"from": "rate_half_mca_support_local_transversality_compiler"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_mca_rank11_kernel_projective_paving_integer_gap_fence"}
+  ],
+  "refutes": []
+}

@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_kernel_corank3_uniform_projective_basis_cap",
+    "title": "Uniform corank-three projective-basis cap",
+    "status": "PROVED",
+    "closure": "rank-four bounded point/line basis floor plus exact finite shortening audit",
+    "statement": "Every official rank-eleven kernel corank-three canonical-basis chart has at most 983902549 records. At shortening gap t, the incident rank-four normal matroid has point ceiling t+1 and rank-two-flat ceiling t+2. The recursive bounded point/line basis floor and exact all-row evaluation give a maximum at complete shortening t=0.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_kernel_corank3_uniform_projective_basis_cap/statement.md",
+      "background/nodes/rate_half_mca_rank11_kernel_corank3_uniform_projective_basis_cap/proof.md",
+      "background/nodes/rate_half_mca_rank11_kernel_corank3_uniform_projective_basis_cap/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_kernel_corank3_uniform_projective_basis_cap/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_kernel_corank3_uniform_projective_basis_cap/attack.md",
+      "background/nodes/rate_half_mca_rank11_kernel_corank3_uniform_projective_basis_cap/audit.md",
+      "background/nodes/rate_half_mca_rank11_kernel_corank3_uniform_projective_basis_cap/result.md",
+      "background/nodes/rate_half_mca_rank11_kernel_corank3_uniform_projective_basis_cap/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_kernel_corank3_uniform_projective_basis_cap/verify.py",
+      "background/nodes/rate_half_mca_rank11_kernel_corank3_uniform_projective_basis_cap/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_kernel_corank3_projective_basis_cap"},
+    {"from": "rate_half_mca_rank11_kernel_projective_paving_integer_gap_fence"},
+    {"from": "rate_half_mca_support_local_transversality_compiler"},
+    {"from": "matroid_rank4_bounded_point_line_basis_floor"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_mca_rank11_kernel_corank3_projective_capacity_cut"}
+  ],
+  "refutes": []
+}

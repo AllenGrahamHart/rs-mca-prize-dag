@@ -1,0 +1,18 @@
+{
+  "schema": "rate-half-mca-rank11-kernel-nine-shadow-coupling-v1",
+  "dependencies": [
+    "rate_half_mca_rank11_kernel_record_support_capacity"
+  ],
+  "parameters": {
+    "correction_dimension": 10,
+    "component_subset_size": 11,
+    "shadow_subset_size": 9,
+    "minimum_corank": 1,
+    "maximum_corank": 9,
+    "spanning_shadow_coefficients": [3, 6, 10, 15, 21, 28, 36, 45, 55],
+    "extension_formula": "C(K_prime-d-9,2)",
+    "resource_formula": "sum_d C(d+2,2)*I_d/C(K_prime-d-9,2) <= C(m_prime,9)",
+    "sharp_model": "9-d coloops plus one parallel class of size d+2"
+  },
+  "nonclaim": "The shared nine-shadow inequality does not by itself pay the complete kernel lane, rank eleven, or either prize."
+}

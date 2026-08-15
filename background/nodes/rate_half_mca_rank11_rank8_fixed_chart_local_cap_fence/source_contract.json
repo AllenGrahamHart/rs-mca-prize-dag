@@ -1,0 +1,38 @@
+{
+  "schema": "rate-half-mca-rank11-rank8-fixed-chart-local-cap-fence-v1",
+  "dependencies": [
+    "rate_half_mca_rank11_component_ninesubset_target_router",
+    "rate_half_mca_rank11_component_ninesubset_weighted_concentrator"
+  ],
+  "parameters": {
+    "n": 2097152,
+    "K": 1048576,
+    "m": 1116048,
+    "w": 67472,
+    "residual_K": 11,
+    "residual_n": 1048587,
+    "residual_m": 67483,
+    "deleted_common_core": 1048565,
+    "base_prime": 2130706433,
+    "field_degree": 6,
+    "correction_dimension": 10,
+    "fixed_selector_size": 9,
+    "evaluation_rank_on_selector": 8,
+    "kernel_dimension": 2,
+    "component_tuple_size": 11,
+    "owner_count": 8,
+    "petal_size": 67473,
+    "remainder_size": 508794,
+    "rich_slope_count": 4070352,
+    "fixed_selector_population_floor": 2578110,
+    "component_extensions_per_record": 2276269128,
+    "marked_component_weight": 9265216597693056,
+    "weighted_selector_demand": 5869376383979174,
+    "forbidden_slope_count": 18,
+    "maximum_greedy_forbidden_values": 32562896,
+    "residual_owner_core_size": 67482,
+    "lifted_owner_core_size": 1116047,
+    "error_affine_rank_ceiling": 2
+  },
+  "nonclaim": "This is a local target-output fence, not a realization of the dense-anchor ancestors, the normalized full-span condition, an unsafe KoalaBear line, a rank-eleven payment, or a prize closure."
+}

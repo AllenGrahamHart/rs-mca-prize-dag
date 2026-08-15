@@ -1,0 +1,32 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_kernel_corank3_projective_capacity_cut",
+    "title": "Uniform corank-three cap removes the kernel through 796598",
+    "status": "PROVED",
+    "closure": "proved uniform M2 and M3 parents plus exact hierarchy forest",
+    "statement": "The uniform bounds M_2<=84416263 and M_3<=983902549, the other projective caps, and the multi-step shadow hierarchy exclude the dominant rank-eleven kernel lane for 568339<=K'<=796598. The resource comparison reverses at K'=796599.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_kernel_corank3_projective_capacity_cut/statement.md",
+      "background/nodes/rate_half_mca_rank11_kernel_corank3_projective_capacity_cut/proof.md",
+      "background/nodes/rate_half_mca_rank11_kernel_corank3_projective_capacity_cut/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_kernel_corank3_projective_capacity_cut/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_kernel_corank3_projective_capacity_cut/attack.md",
+      "background/nodes/rate_half_mca_rank11_kernel_corank3_projective_capacity_cut/audit.md",
+      "background/nodes/rate_half_mca_rank11_kernel_corank3_projective_capacity_cut/result.md",
+      "background/nodes/rate_half_mca_rank11_kernel_corank3_projective_capacity_cut/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_kernel_corank3_projective_capacity_cut/verify.py",
+      "background/nodes/rate_half_mca_rank11_kernel_corank3_projective_capacity_cut/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_kernel_corank2_projective_capacity_cut"},
+    {"from": "rate_half_mca_rank11_kernel_corank3_uniform_projective_basis_cap"},
+    {"from": "rate_half_mca_rank11_kernel_multistep_shadow_hierarchy"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location"}
+  ],
+  "refutes": []
+}

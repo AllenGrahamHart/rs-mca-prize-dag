@@ -1,0 +1,32 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_kernel_projective_pair_capacity_cut",
+    "title": "Projective pairs remove the kernel through 377673",
+    "status": "PROVED",
+    "closure": "exact two-root hierarchy-tree primal-dual certificate with complete finite Modal replay",
+    "statement": "The projective corank-one cap, all individual caps, and the multi-step shadow hierarchy exclude the dominant rank-eleven kernel lane for 18159<=K'<=377673. The comparison reverses at K'=377674.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_kernel_projective_pair_capacity_cut/statement.md",
+      "background/nodes/rate_half_mca_rank11_kernel_projective_pair_capacity_cut/proof.md",
+      "background/nodes/rate_half_mca_rank11_kernel_projective_pair_capacity_cut/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_kernel_projective_pair_capacity_cut/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_kernel_projective_pair_capacity_cut/attack.md",
+      "background/nodes/rate_half_mca_rank11_kernel_projective_pair_capacity_cut/audit.md",
+      "background/nodes/rate_half_mca_rank11_kernel_projective_pair_capacity_cut/result.md",
+      "background/nodes/rate_half_mca_rank11_kernel_projective_pair_capacity_cut/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_kernel_projective_pair_capacity_cut/verify.py",
+      "background/nodes/rate_half_mca_rank11_kernel_projective_pair_capacity_cut/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_kernel_three_step_shadow_capacity_cut"},
+    {"from": "rate_half_mca_rank11_kernel_projective_paving_integer_gap_fence"},
+    {"from": "rate_half_mca_rank11_kernel_multistep_shadow_hierarchy"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location"}
+  ],
+  "refutes": []
+}

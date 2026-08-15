@@ -1,0 +1,17 @@
+{
+  "schema": "matroid-rank3-bounded-parallel-basis-floor-v1",
+  "dependencies": [],
+  "parameters": {
+    "rank": 3,
+    "minimum_ground_size": 3,
+    "minimum_parallel_ceiling": 1,
+    "loopless": true,
+    "basis_floor": "2*b(M)>=(m-1)*(m-1-a)",
+    "coloop_square_bound": "sum_i q_i^2<=a*sum_i q_i",
+    "smallest_class_contraction_floor": "b(M/e)>=c*(m-2*c)>=m-2",
+    "induction_slack": "a-1",
+    "sharp_when": "a divides m-1 and m-1>=2a",
+    "audited_parallel_ceilings": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+  },
+  "nonclaim": "The abstract floor does not establish a Reed-Solomon normal-matroid hypothesis or any prize-row capacity cut."
+}

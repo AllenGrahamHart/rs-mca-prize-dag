@@ -1,0 +1,33 @@
+{
+  "schema": "rate-half-mca-rank11-kernel-shortening-weighted-extension-cap-v1",
+  "dependencies": [
+    "rate_half_mca_rank11_kernel_multibasis_decoration_compression",
+    "rate_half_mca_rank11_kernel_projective_paving_integer_gap_fence",
+    "rate_half_mca_rank11_kernel_corank1_projective_pair_cap",
+    "rate_half_mca_rank11_kernel_corank2_uniform_projective_basis_cap",
+    "rate_half_mca_rank11_kernel_corank3_uniform_projective_basis_cap"
+  ],
+  "parameters": {
+    "R": 1048576,
+    "w": 67472,
+    "K_prime_minimum": 796599,
+    "K_prime_maximum": 1048576,
+    "complete_record_caps": [8147918, 84416263, 983902549, 12232092309, 158406193634, 2109949210211, 28689347099870, 396280526311830, 5542092977392141],
+    "uniform_coranks": [1, 2, 3],
+    "noncomplete_coranks": [4, 5, 6, 7, 8, 9],
+    "noncomplete_weighted_maximizer": 1,
+    "decorations": "d+2",
+    "weighted_extension_formula": "record_cap(t)*C(K_prime-10-t,d+1)",
+    "t1_F_fractions": {
+      "4": [39454364588033681799449404, 645140654628855],
+      "5": [5171392066056191766078781868141, 5441519492853793965],
+      "6": [10845267613602799461300374655281788406, 734365704516293844907605],
+      "7": [236920293652959955631837334531958308623273, 1032380486753585722033044225],
+      "8": [397489705792142424121936242288309604876375549928, 111464056369332649181844021859713],
+      "9": [2075542489830289697734864933850536886198804539463, 37455710631658593932397487767705]
+    },
+    "dominance_checks": 6,
+    "ratio_checks": 54
+  },
+  "nonclaim": "This joint cap does not promote complete record caps uniformly for coranks four through nine and does not close rank eleven by itself."
+}

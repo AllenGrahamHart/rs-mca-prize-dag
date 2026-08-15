@@ -1,0 +1,33 @@
+{
+  "schema": "rate-half-mca-rank11-rank8-codimension-one-circuit-shadow-census-v1",
+  "dependencies": [
+    "rate_half_mca_rank11_shortened_partial_relative_router",
+    "rate_half_mca_rank11_dense_root_highspan_saturation",
+    "rate_half_mca_rank11_component_ninesubset_target_router",
+    "rate_half_mca_rank11_rank8_minimal_shortening_exclusion",
+    "rate_half_mca_rank11_rank8_fixed_chart_local_cap_fence"
+  ],
+  "parameters": {
+    "residual_dimension": 11,
+    "ambient_rs_dimension": 11,
+    "correction_space_dimension": 10,
+    "selector_size": 9,
+    "selector_rank": 8,
+    "selector_kernel_dimension": 2,
+    "empty_global_common_support": true,
+    "fixed_chart_record_floor": 2578110,
+    "minimum_distinct_slopes_for_loop_exclusion": 2,
+    "circuit_size_minimum": 2,
+    "circuit_size_maximum": 9,
+    "total_nine_shadows": 55,
+    "circuit_sizes": [2, 3, 4, 5, 6, 7, 8, 9],
+    "rank8_shadow_counts": [36, 28, 21, 15, 10, 6, 3, 1],
+    "rank9_shadow_counts": [19, 27, 34, 40, 45, 49, 52, 54],
+    "rank10_basis_counts": [2, 3, 4, 5, 6, 7, 8, 9],
+    "locator_ideal_dimensions": [9, 8, 7, 6, 5, 4, 3, 2],
+    "sharp_circuit_sizes": [2, 3, 4, 5, 6, 7, 8, 9],
+    "eight_petal_circuit_size": 9
+  },
+  "claim": "Every K'=11 rank-eight nine-chart has one fixed circuit and the exact printed 55-shadow census.",
+  "nonclaim": "No aggregate record cap, chronology owner, rank-eight payment, active-v4 movement, or prize closure is asserted."
+}

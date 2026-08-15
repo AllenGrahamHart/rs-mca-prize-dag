@@ -1,0 +1,24 @@
+{
+  "schema": "rate-half-mca-rank11-kernel-two-step-nineshadow-hierarchy-v1",
+  "dependencies": [
+    "rate_half_mca_rank11_kernel_nine_shadow_coupling",
+    "rate_half_mca_rank11_kernel_rank8_nineshadow_extension_deficit"
+  ],
+  "parameters": {
+    "support_offset": 67472,
+    "corank_minimum": 3,
+    "corank_maximum": 9,
+    "couplings": [
+      [3, 10, 67475, 67474, 2276404075, 8, 28],
+      [4, 15, 67476, 67475, 2276471550, 7, 21],
+      [5, 21, 67477, 67476, 2276539026, 6, 15],
+      [6, 28, 67478, 67477, 2276606503, 5, 10],
+      [7, 36, 67479, 67478, 2276673981, 4, 6],
+      [8, 45, 67480, 67479, 2276741460, 3, 3],
+      [9, 55, 67481, 67480, 2276808940, 2, 1]
+    ],
+    "same_rank_extension_formula": "C(K_prime-d-9,2)",
+    "inequality_formula": "C(d+2,2)*C(67472+d,2)*I_d/C(K_prime-d-9,2) <= C(11-d,2)*I_(d-2)"
+  },
+  "nonclaim": "The hierarchy does not by itself pay a kernel lane, rank eight, error rank eleven, or either prize."
+}
