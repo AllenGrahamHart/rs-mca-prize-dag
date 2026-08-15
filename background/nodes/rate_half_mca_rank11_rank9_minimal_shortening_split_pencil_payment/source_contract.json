@@ -1,0 +1,37 @@
+{
+  "schema": "rate-half-mca-rank11-rank9-minimal-shortening-split-pencil-payment-v1",
+  "dependencies": [
+    "rate_half_mca_rank11_dense_locator_component_incidence_dichotomy",
+    "rate_half_mca_rank11_dense_root_highspan_saturation",
+    "rate_half_mca_rank11_rank9_residual_petal_capacity_cut",
+    "rate_half_mca_weighted_split_pencil_selected_support_cap"
+  ],
+  "parameters": {
+    "K_prime": 10,
+    "n_prime": 1048586,
+    "m_prime": 67482,
+    "correction_dimension": 10,
+    "fixed_subset_size": 9,
+    "kernel_zero_count": 9,
+    "common_core_size": 9,
+    "selected_outside_mass_A": 67473,
+    "petal_total_ceiling_S": 1048577,
+    "petal_size_ceiling": 67472,
+    "component_density_numerator": 990810934,
+    "component_density_denominator": 1000000000,
+    "residual_record_floor": 274980728111260126,
+    "heavy_threshold": 33737,
+    "heavy_count": 31,
+    "clean_dominant_cap": 9273161316835569,
+    "balanced_cap": 549756338176,
+    "heavy_collision_cap": 1058433770040,
+    "total_capacity": 9274769506943785,
+    "weighted_demand": 11736940042024039,
+    "demand_capacity_gap": 2462170535080254,
+    "raw_demand_capacity_cross": 10398643318411131997122333957687361195838785918523698945763964238907518400,
+    "newly_closed_rows": [10, 10],
+    "remaining_rank9_interval": [11, 15528]
+  },
+  "claim": "At K'=10 all positive-dimensional incidences are rank-nine affine-owner incidences, and their full-density weighted demand exceeds the selected-support split-pencil capacity.",
+  "nonclaim": "No rank-nine row K'>=11 or other surviving rank-eleven route is closed."
+}

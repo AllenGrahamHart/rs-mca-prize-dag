@@ -1,0 +1,28 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_weighted_split_pencil_selected_support_cap",
+    "title": "Weighted split-pencil selected-support capacity",
+    "status": "PROVED",
+    "closure": "balanced cross-petal injection, clean dominant heavy/light payment, and heavy-pair collision census",
+    "statement": "For weighted affine points of total mass at most S and point mass at most A-1, distinct lines carrying exact selected partitions of mass A have total same-owner pair charge at most floor((A-2)S^2/8)+C(S,2)+C(h,2)C(A-1,2), where h=floor(S/(floor(A/2)+1)).",
+    "refs": [
+      "background/nodes/rate_half_mca_weighted_split_pencil_selected_support_cap/statement.md",
+      "background/nodes/rate_half_mca_weighted_split_pencil_selected_support_cap/proof.md",
+      "background/nodes/rate_half_mca_weighted_split_pencil_selected_support_cap/claim_contract.md",
+      "background/nodes/rate_half_mca_weighted_split_pencil_selected_support_cap/dependency_subdag.md",
+      "background/nodes/rate_half_mca_weighted_split_pencil_selected_support_cap/attack.md",
+      "background/nodes/rate_half_mca_weighted_split_pencil_selected_support_cap/audit.md",
+      "background/nodes/rate_half_mca_weighted_split_pencil_selected_support_cap/result.md",
+      "background/nodes/rate_half_mca_weighted_split_pencil_selected_support_cap/source_contract.json",
+      "background/nodes/rate_half_mca_weighted_split_pencil_selected_support_cap/verify.py",
+      "background/nodes/rate_half_mca_weighted_split_pencil_selected_support_cap/verify_audit.py"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_mca_rank11_rank9_minimal_shortening_split_pencil_payment"}
+  ],
+  "refutes": []
+}

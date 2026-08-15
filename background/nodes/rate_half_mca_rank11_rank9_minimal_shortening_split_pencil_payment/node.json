@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_rank9_minimal_shortening_split_pencil_payment",
+    "title": "Split-pencil incidence pays rank nine at K'=10",
+    "status": "PROVED",
+    "closure": "minimal-row full component density and weighted selected-support split-pencil capacity",
+    "statement": "At K'=10, V'=F[X]_<10 makes every component incidence affine-owner and every marked nine-set rank nine. Full-density weighted demand is 11736940042024039, while selected-support split-pencil capacity is 9274769506943785. The contradiction closes the minimal rank-nine row, leaving 11<=K'<=15528.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_rank9_minimal_shortening_split_pencil_payment/statement.md",
+      "background/nodes/rate_half_mca_rank11_rank9_minimal_shortening_split_pencil_payment/proof.md",
+      "background/nodes/rate_half_mca_rank11_rank9_minimal_shortening_split_pencil_payment/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_rank9_minimal_shortening_split_pencil_payment/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_rank9_minimal_shortening_split_pencil_payment/attack.md",
+      "background/nodes/rate_half_mca_rank11_rank9_minimal_shortening_split_pencil_payment/audit.md",
+      "background/nodes/rate_half_mca_rank11_rank9_minimal_shortening_split_pencil_payment/result.md",
+      "background/nodes/rate_half_mca_rank11_rank9_minimal_shortening_split_pencil_payment/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_rank9_minimal_shortening_split_pencil_payment/verify.py",
+      "background/nodes/rate_half_mca_rank11_rank9_minimal_shortening_split_pencil_payment/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_dense_locator_component_incidence_dichotomy"},
+    {"from": "rate_half_mca_rank11_dense_root_highspan_saturation"},
+    {"from": "rate_half_mca_rank11_rank9_residual_petal_capacity_cut"},
+    {"from": "rate_half_mca_weighted_split_pencil_selected_support_cap"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location"}
+  ],
+  "refutes": []
+}

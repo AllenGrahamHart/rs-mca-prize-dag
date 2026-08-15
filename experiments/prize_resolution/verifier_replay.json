@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_rank9_residual_petal_capacity_cut/verify.py",
-      "seconds": 0.074742,
+      "script": "background/nodes/rate_half_mca_rank11_rank9_minimal_shortening_split_pencil_payment/verify.py",
+      "seconds": 0.026195,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_RANK11_RANK9_RESIDUAL_PETAL_CAPACITY_CUT_PASS last_gap=1881744358235 first_gap=3381772318665 remaining=10..15634 controls=8/8\n"
+      "stdout_tail": "PASS K10 split-pencil payment primary: capacity 9274769506943785, demand 11736940042024039, gap 2462170535080254, 8/8 hostile mutations\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_rank9_residual_petal_capacity_cut/verify_audit.py",
-      "seconds": 0.091545,
+      "script": "background/nodes/rate_half_mca_rank11_rank9_minimal_shortening_split_pencil_payment/verify_audit.py",
+      "seconds": 0.024015,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_RANK11_RANK9_RESIDUAL_PETAL_CAPACITY_CUT_AUDIT_PASS samples=5 factor_checks=206060 core_checks=52846 proof_pins=5/5\n"
+      "stdout_tail": "PASS K10 split-pencil payment audit: two marking formulas, three cap terms, 8 Vandermonde ranks\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

@@ -1,0 +1,30 @@
+{
+  "schema": "rate-half-mca-weighted-split-pencil-selected-support-cap-v1",
+  "dependencies": [],
+  "parameters": {
+    "minimum_A": 3,
+    "owner_weight_ceiling_formula": "A-1",
+    "total_owner_weight_ceiling": "S",
+    "selected_line_mass_formula": "sum_p x_Lp=A",
+    "line_charge_formula": "sum_p C(x_Lp,2)",
+    "heavy_threshold_formula": "floor(A/2)+1",
+    "heavy_count_formula": "floor(S/(floor(A/2)+1))",
+    "clean_dominant_cap_formula": "floor((A-2)*S^2/8)",
+    "balanced_cap_formula": "C(S,2)",
+    "heavy_collision_cap_formula": "C(h,2)*C(A-1,2)",
+    "total_cap_formula": "floor((A-2)*S^2/8)+C(S,2)+C(h,2)*C(A-1,2)",
+    "clean_inequality_slack_factorization": "(d-1)*(d+s)*(s-1)",
+    "specialization": {
+      "A": 67473,
+      "S": 1048577,
+      "heavy_threshold": 33737,
+      "heavy_count": 31,
+      "clean_dominant_cap": 9273161316835569,
+      "balanced_cap": 549756338176,
+      "heavy_collision_cap": 1058433770040,
+      "total_cap": 9274769506943785
+    }
+  },
+  "claim": "Distinct affine lines carrying exact selected-support partitions obey the three-term weighted split-pencil capacity bound.",
+  "nonclaim": "The bound is not claimed sharp and does not apply to duplicate lines or charges lacking an exact selected-support partition."
+}

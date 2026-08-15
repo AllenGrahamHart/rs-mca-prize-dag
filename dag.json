@@ -41040,6 +41040,25 @@
    ]
   },
   {
+   "id": "rate_half_mca_rank11_rank9_minimal_shortening_split_pencil_payment",
+   "title": "Split-pencil incidence pays rank nine at K'=10",
+   "status": "PROVED",
+   "closure": "minimal-row full component density and weighted selected-support split-pencil capacity",
+   "statement": "At K'=10, V'=F[X]_<10 makes every component incidence affine-owner and every marked nine-set rank nine. Full-density weighted demand is 11736940042024039, while selected-support split-pencil capacity is 9274769506943785. The contradiction closes the minimal rank-nine row, leaving 11<=K'<=15528.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_rank9_minimal_shortening_split_pencil_payment/statement.md",
+    "background/nodes/rate_half_mca_rank11_rank9_minimal_shortening_split_pencil_payment/proof.md",
+    "background/nodes/rate_half_mca_rank11_rank9_minimal_shortening_split_pencil_payment/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_rank9_minimal_shortening_split_pencil_payment/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_rank9_minimal_shortening_split_pencil_payment/attack.md",
+    "background/nodes/rate_half_mca_rank11_rank9_minimal_shortening_split_pencil_payment/audit.md",
+    "background/nodes/rate_half_mca_rank11_rank9_minimal_shortening_split_pencil_payment/result.md",
+    "background/nodes/rate_half_mca_rank11_rank9_minimal_shortening_split_pencil_payment/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_rank9_minimal_shortening_split_pencil_payment/verify.py",
+    "background/nodes/rate_half_mca_rank11_rank9_minimal_shortening_split_pencil_payment/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_mca_rank11_rank9_ninecell_paircore_extension",
    "title": "The rank-nine pair-core plane cap extends to nine cells",
    "status": "PROVED",
@@ -41256,6 +41275,25 @@
     "background/nodes/rate_half_mca_rank11_shortened_partial_relative_router/source_contract.json",
     "background/nodes/rate_half_mca_rank11_shortened_partial_relative_router/verify.py",
     "background/nodes/rate_half_mca_rank11_shortened_partial_relative_router/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_mca_weighted_split_pencil_selected_support_cap",
+   "title": "Weighted split-pencil selected-support capacity",
+   "status": "PROVED",
+   "closure": "balanced cross-petal injection, clean dominant heavy/light payment, and heavy-pair collision census",
+   "statement": "For weighted affine points of total mass at most S and point mass at most A-1, distinct lines carrying exact selected partitions of mass A have total same-owner pair charge at most floor((A-2)S^2/8)+C(S,2)+C(h,2)C(A-1,2), where h=floor(S/(floor(A/2)+1)).",
+   "refs": [
+    "background/nodes/rate_half_mca_weighted_split_pencil_selected_support_cap/statement.md",
+    "background/nodes/rate_half_mca_weighted_split_pencil_selected_support_cap/proof.md",
+    "background/nodes/rate_half_mca_weighted_split_pencil_selected_support_cap/claim_contract.md",
+    "background/nodes/rate_half_mca_weighted_split_pencil_selected_support_cap/dependency_subdag.md",
+    "background/nodes/rate_half_mca_weighted_split_pencil_selected_support_cap/attack.md",
+    "background/nodes/rate_half_mca_weighted_split_pencil_selected_support_cap/audit.md",
+    "background/nodes/rate_half_mca_weighted_split_pencil_selected_support_cap/result.md",
+    "background/nodes/rate_half_mca_weighted_split_pencil_selected_support_cap/source_contract.json",
+    "background/nodes/rate_half_mca_weighted_split_pencil_selected_support_cap/verify.py",
+    "background/nodes/rate_half_mca_weighted_split_pencil_selected_support_cap/verify_audit.py"
    ]
   },
   {
@@ -77939,6 +77977,11 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_mca_rank11_dense_locator_component_incidence_dichotomy",
+   "to": "rate_half_mca_rank11_rank9_minimal_shortening_split_pencil_payment",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_mca_rank11_dense_pair_core_multiowner_fence",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
@@ -77976,6 +78019,11 @@
   {
    "from": "rate_half_mca_rank11_dense_root_highspan_saturation",
    "to": "rate_half_mca_rank11_rank8_minimal_shortening_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_dense_root_highspan_saturation",
+   "to": "rate_half_mca_rank11_rank9_minimal_shortening_split_pencil_payment",
    "kind": "req"
   },
   {
@@ -78539,6 +78587,11 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_mca_rank11_rank9_minimal_shortening_split_pencil_payment",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_mca_rank11_rank9_ninecell_paircore_extension",
    "to": "rate_half_mca_rank11_component_ninesubset_target_router",
    "kind": "req"
@@ -78556,6 +78609,11 @@
   {
    "from": "rate_half_mca_rank11_rank9_residual_petal_capacity_cut",
    "to": "rate_half_mca_rank11_rank9_exact_petal_partition_capacity_cut",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_rank9_residual_petal_capacity_cut",
+   "to": "rate_half_mca_rank11_rank9_minimal_shortening_split_pencil_payment",
    "kind": "req"
   },
   {
@@ -78736,6 +78794,16 @@
   {
    "from": "rate_half_mca_support_local_transversality_compiler",
    "to": "rate_half_mca_rank11_kernel_projective_paving_record_caps",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_weighted_split_pencil_selected_support_cap",
+   "to": "rate_half_mca_rank11_rank9_minimal_shortening_split_pencil_payment",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_weighted_split_pencil_selected_support_cap",
+   "to": "rate_half_mca_rank11_rank9_minimal_shortening_split_pencil_payment",
    "kind": "req"
   },
   {
