@@ -1,0 +1,31 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_k45_full_completion_product_payment",
+    "title": "Full completion product pays K'=45",
+    "status": "PROVED",
+    "closure": "9! exhaustive completion leaves, joint support-four charge, all-core chart, every kernel corank, full shadow ledger, and sharp isolated demand",
+    "statement": "At K'=45, the full completion product and joint support-four external charge make exact component demand exceed complete capacity by 1616971801308361526826641488053709685917408248376428345137933. The closed prefix is K'=10..45; the same payment first fails at K'=46.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_k45_full_completion_product_payment/statement.md",
+      "background/nodes/rate_half_mca_rank11_k45_full_completion_product_payment/proof.md",
+      "background/nodes/rate_half_mca_rank11_k45_full_completion_product_payment/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_k45_full_completion_product_payment/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_k45_full_completion_product_payment/attack.md",
+      "background/nodes/rate_half_mca_rank11_k45_full_completion_product_payment/audit.md",
+      "background/nodes/rate_half_mca_rank11_k45_full_completion_product_payment/result.md",
+      "background/nodes/rate_half_mca_rank11_k45_full_completion_product_payment/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_k45_full_completion_product_payment/verify.py",
+      "background/nodes/rate_half_mca_rank11_k45_full_completion_product_payment/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_k44_branch_lattice_payment"},
+    {"from": "rate_half_mca_sparse_circuit_support4_external_charge"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location"}
+  ],
+  "refutes": []
+}

@@ -1,0 +1,28 @@
+{
+  "schema": "rate-half-mca-sparse-circuit-support45-joint-zero-carrier-v1",
+  "dependencies": [
+    "rate_half_mca_sparse_circuit_completion_dimension_ladder"
+  ],
+  "parameters": {
+    "correction_dimension": 10,
+    "source_supports": [4, 5],
+    "source_vanishing_dimensions": {"4": 7, "5": 6},
+    "support4_terminal_defects": [0, 1, 2, 3, 4, 5],
+    "support5_terminal_defects": [0, 1, 2, 3, 4],
+    "overlap_condition": "q>s_4+s_5",
+    "intersection_dimension_lower_bound": 4,
+    "carrier_union_upper_bound": "q+6",
+    "zero_closure_dimension_range": [4, 6],
+    "quotient_defect": "delta=K-t-|B|",
+    "quotient_defect_bound": "0<=delta<=min(s_4,s_5)",
+    "external_completion_carrier_bound": "|U_A\\B|<=delta+3"
+  },
+  "logical_pins": [
+    "grassmann_equality_would_make_H4_plus_H5_equal_V",
+    "q_greater_than_defect_sum_forces_a_source_carrier_overlap",
+    "the_zero_set_is_closed_before_delta_is_defined",
+    "private_coordinate_label_spaces_bound_delta",
+    "every_support4_deletion_is_compared_with_the_same_closed_carrier"
+  ],
+  "nonclaim": "No support incidence count, component payment, rank-eight statement, or prize closure is asserted."
+}

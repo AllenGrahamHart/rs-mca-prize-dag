@@ -40550,6 +40550,25 @@
    ]
   },
   {
+   "id": "rate_half_mca_rank11_k45_full_completion_product_payment",
+   "title": "Full completion product pays K'=45",
+   "status": "PROVED",
+   "closure": "9! exhaustive completion leaves, joint support-four charge, all-core chart, every kernel corank, full shadow ledger, and sharp isolated demand",
+   "statement": "At K'=45, the full completion product and joint support-four external charge make exact component demand exceed complete capacity by 1616971801308361526826641488053709685917408248376428345137933. The closed prefix is K'=10..45; the same payment first fails at K'=46.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_k45_full_completion_product_payment/statement.md",
+    "background/nodes/rate_half_mca_rank11_k45_full_completion_product_payment/proof.md",
+    "background/nodes/rate_half_mca_rank11_k45_full_completion_product_payment/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_k45_full_completion_product_payment/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_k45_full_completion_product_payment/attack.md",
+    "background/nodes/rate_half_mca_rank11_k45_full_completion_product_payment/audit.md",
+    "background/nodes/rate_half_mca_rank11_k45_full_completion_product_payment/result.md",
+    "background/nodes/rate_half_mca_rank11_k45_full_completion_product_payment/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_k45_full_completion_product_payment/verify.py",
+    "background/nodes/rate_half_mca_rank11_k45_full_completion_product_payment/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_mca_rank11_kernel_canonical_basis_globalizer",
    "title": "Canonical rank bases globalize every fixed kernel chart",
    "status": "PROVED",
@@ -41693,6 +41712,44 @@
     "background/nodes/rate_half_mca_sparse_circuit_near_saturation_carrier/source_contract.json",
     "background/nodes/rate_half_mca_sparse_circuit_near_saturation_carrier/verify.py",
     "background/nodes/rate_half_mca_sparse_circuit_near_saturation_carrier/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_mca_sparse_circuit_support45_joint_zero_carrier",
+   "title": "Support-four and support-five completions share a closed zero carrier",
+   "status": "PROVED",
+   "closure": "Grassmann equality contradiction, polynomial common-root bounds, and private-coordinate quotient dimension",
+   "statement": "If support-four and support-five terminal completion defects are s_4,s_5 with q>s_4+s_5, their vanishing spaces meet in dimension at least four. Their common-zero closure B has dimension t in [4,6], quotient defect delta at most min(s_4,s_5), and every support-four deletion-completion carrier has at most delta+3 points outside B.",
+   "refs": [
+    "background/nodes/rate_half_mca_sparse_circuit_support45_joint_zero_carrier/statement.md",
+    "background/nodes/rate_half_mca_sparse_circuit_support45_joint_zero_carrier/proof.md",
+    "background/nodes/rate_half_mca_sparse_circuit_support45_joint_zero_carrier/claim_contract.md",
+    "background/nodes/rate_half_mca_sparse_circuit_support45_joint_zero_carrier/dependency_subdag.md",
+    "background/nodes/rate_half_mca_sparse_circuit_support45_joint_zero_carrier/attack.md",
+    "background/nodes/rate_half_mca_sparse_circuit_support45_joint_zero_carrier/audit.md",
+    "background/nodes/rate_half_mca_sparse_circuit_support45_joint_zero_carrier/result.md",
+    "background/nodes/rate_half_mca_sparse_circuit_support45_joint_zero_carrier/source_contract.json",
+    "background/nodes/rate_half_mca_sparse_circuit_support45_joint_zero_carrier/verify.py",
+    "background/nodes/rate_half_mca_sparse_circuit_support45_joint_zero_carrier/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_mca_sparse_circuit_support4_external_charge",
+   "title": "Closed-carrier outside charge bounds support-four circuits",
+   "status": "PROVED",
+   "closure": "four disjoint outside-point strata with exact deletion multiplicity",
+   "statement": "For the joint support-four/support-five carrier B, support-four circuits are bounded by the inside count plus four outside-point deletion charges. At K'=45 this gives exact branch caps indexed by min(s_4,s_5), with active-defect cap 32578977236967057729773689331510654377703052.",
+   "refs": [
+    "background/nodes/rate_half_mca_sparse_circuit_support4_external_charge/statement.md",
+    "background/nodes/rate_half_mca_sparse_circuit_support4_external_charge/proof.md",
+    "background/nodes/rate_half_mca_sparse_circuit_support4_external_charge/claim_contract.md",
+    "background/nodes/rate_half_mca_sparse_circuit_support4_external_charge/dependency_subdag.md",
+    "background/nodes/rate_half_mca_sparse_circuit_support4_external_charge/attack.md",
+    "background/nodes/rate_half_mca_sparse_circuit_support4_external_charge/audit.md",
+    "background/nodes/rate_half_mca_sparse_circuit_support4_external_charge/result.md",
+    "background/nodes/rate_half_mca_sparse_circuit_support4_external_charge/source_contract.json",
+    "background/nodes/rate_half_mca_sparse_circuit_support4_external_charge/verify.py",
+    "background/nodes/rate_half_mca_sparse_circuit_support4_external_charge/verify_audit.py"
    ]
   },
   {
@@ -78707,6 +78764,16 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_mca_rank11_k44_branch_lattice_payment",
+   "to": "rate_half_mca_rank11_k45_full_completion_product_payment",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_k45_full_completion_product_payment",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_mca_rank11_kernel_canonical_basis_globalizer",
    "to": "rate_half_mca_rank11_kernel_corank1_projective_pair_cap",
    "kind": "req"
@@ -79508,6 +79575,11 @@
   },
   {
    "from": "rate_half_mca_sparse_circuit_completion_dimension_ladder",
+   "to": "rate_half_mca_sparse_circuit_support45_joint_zero_carrier",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_sparse_circuit_completion_dimension_ladder",
    "to": "rate_half_mca_sparse_circuit_universal_completion_incidence_cap",
    "kind": "req"
   },
@@ -79559,6 +79631,26 @@
   {
    "from": "rate_half_mca_sparse_circuit_near_saturation_carrier",
    "to": "rate_half_mca_sparse_circuit_completion_defect_hierarchy",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_sparse_circuit_support45_joint_zero_carrier",
+   "to": "rate_half_mca_sparse_circuit_support4_external_charge",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_sparse_circuit_support45_joint_zero_carrier",
+   "to": "rate_half_mca_sparse_circuit_support4_external_charge",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_sparse_circuit_support4_external_charge",
+   "to": "rate_half_mca_rank11_k45_full_completion_product_payment",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_sparse_circuit_support4_external_charge",
+   "to": "rate_half_mca_rank11_k45_full_completion_product_payment",
    "kind": "req"
   },
   {

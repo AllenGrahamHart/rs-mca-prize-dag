@@ -1,0 +1,36 @@
+{
+  "schema": "rate-half-mca-sparse-circuit-support4-external-charge-v1",
+  "dependencies": [
+    "rate_half_mca_sparse_circuit_support45_joint_zero_carrier"
+  ],
+  "parameters": {
+    "component_size": 11,
+    "support": 4,
+    "zero_closure_dimension_range": [4, 6],
+    "quotient_defect_range": "0<=delta<=min(s_4,s_5)",
+    "carrier_size": "b=K-t-delta",
+    "outside_size": "N=m-b",
+    "inside_support_count": "C(b,4)",
+    "outside_stratum_count": "floor(C(b,4-j)C(N,j-1)(delta+4-j)/j)",
+    "incidence_multiplier": "C(m-4,7)",
+    "K45": {
+      "K": 45,
+      "m": 67517,
+      "caps_by_minimum_defect": {
+        "0": {"t": 4, "delta": 0, "b": 41, "support_count": 101270, "incidence_cap": 128418333025617494219383854271189320},
+        "1": {"t": 4, "delta": 1, "b": 40, "support_count": 12861576017972, "incidence_cap": 16309490987560221486803236111312261069715952},
+        "2": {"t": 4, "delta": 2, "b": 39, "support_count": 25691604516697, "incidence_cap": 32578977236967057729773689331510654377703052},
+        "3": {"t": 4, "delta": 3, "b": 38, "support_count": 38521252754461, "incidence_cap": 48847981285537255883023887048112197222518076},
+        "4": {"t": 4, "delta": 4, "b": 37, "support_count": 51350520748135, "incidence_cap": 65116503154664572206800622437528709545004660}
+      }
+    }
+  },
+  "logical_pins": [
+    "delta_zero_uses_full_annihilator_representation_on_B",
+    "outside_strata_are_indexed_by_exact_external_support_size",
+    "each_external_point_gives_one_independent_deletion_charge",
+    "the_delta_plus_three_budget_includes_deletion_points",
+    "all_permitted_t_and_delta_cases_are_maximized"
+  ],
+  "nonclaim": "No full weighted component payment, later-row closure, rank-eight statement, or prize closure is asserted."
+}

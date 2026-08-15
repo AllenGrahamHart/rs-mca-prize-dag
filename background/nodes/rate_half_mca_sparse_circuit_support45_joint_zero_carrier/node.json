@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_sparse_circuit_support45_joint_zero_carrier",
+    "title": "Support-four and support-five completions share a closed zero carrier",
+    "status": "PROVED",
+    "closure": "Grassmann equality contradiction, polynomial common-root bounds, and private-coordinate quotient dimension",
+    "statement": "If support-four and support-five terminal completion defects are s_4,s_5 with q>s_4+s_5, their vanishing spaces meet in dimension at least four. Their common-zero closure B has dimension t in [4,6], quotient defect delta at most min(s_4,s_5), and every support-four deletion-completion carrier has at most delta+3 points outside B.",
+    "refs": [
+      "background/nodes/rate_half_mca_sparse_circuit_support45_joint_zero_carrier/statement.md",
+      "background/nodes/rate_half_mca_sparse_circuit_support45_joint_zero_carrier/proof.md",
+      "background/nodes/rate_half_mca_sparse_circuit_support45_joint_zero_carrier/claim_contract.md",
+      "background/nodes/rate_half_mca_sparse_circuit_support45_joint_zero_carrier/dependency_subdag.md",
+      "background/nodes/rate_half_mca_sparse_circuit_support45_joint_zero_carrier/attack.md",
+      "background/nodes/rate_half_mca_sparse_circuit_support45_joint_zero_carrier/audit.md",
+      "background/nodes/rate_half_mca_sparse_circuit_support45_joint_zero_carrier/result.md",
+      "background/nodes/rate_half_mca_sparse_circuit_support45_joint_zero_carrier/source_contract.json",
+      "background/nodes/rate_half_mca_sparse_circuit_support45_joint_zero_carrier/verify.py",
+      "background/nodes/rate_half_mca_sparse_circuit_support45_joint_zero_carrier/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_sparse_circuit_completion_dimension_ladder"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_mca_sparse_circuit_support4_external_charge"}
+  ],
+  "refutes": []
+}

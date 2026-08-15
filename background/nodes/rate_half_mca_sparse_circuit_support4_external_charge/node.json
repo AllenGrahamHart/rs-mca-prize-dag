@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_sparse_circuit_support4_external_charge",
+    "title": "Closed-carrier outside charge bounds support-four circuits",
+    "status": "PROVED",
+    "closure": "four disjoint outside-point strata with exact deletion multiplicity",
+    "statement": "For the joint support-four/support-five carrier B, support-four circuits are bounded by the inside count plus four outside-point deletion charges. At K'=45 this gives exact branch caps indexed by min(s_4,s_5), with active-defect cap 32578977236967057729773689331510654377703052.",
+    "refs": [
+      "background/nodes/rate_half_mca_sparse_circuit_support4_external_charge/statement.md",
+      "background/nodes/rate_half_mca_sparse_circuit_support4_external_charge/proof.md",
+      "background/nodes/rate_half_mca_sparse_circuit_support4_external_charge/claim_contract.md",
+      "background/nodes/rate_half_mca_sparse_circuit_support4_external_charge/dependency_subdag.md",
+      "background/nodes/rate_half_mca_sparse_circuit_support4_external_charge/attack.md",
+      "background/nodes/rate_half_mca_sparse_circuit_support4_external_charge/audit.md",
+      "background/nodes/rate_half_mca_sparse_circuit_support4_external_charge/result.md",
+      "background/nodes/rate_half_mca_sparse_circuit_support4_external_charge/source_contract.json",
+      "background/nodes/rate_half_mca_sparse_circuit_support4_external_charge/verify.py",
+      "background/nodes/rate_half_mca_sparse_circuit_support4_external_charge/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_sparse_circuit_support45_joint_zero_carrier"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_mca_rank11_k45_full_completion_product_payment"}
+  ],
+  "refutes": []
+}
