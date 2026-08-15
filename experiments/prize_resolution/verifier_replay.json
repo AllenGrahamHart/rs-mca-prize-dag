@@ -2,41 +2,25 @@
   "complete": true,
   "counts": {
     "FAIL": 0,
-    "PASS": 4,
+    "PASS": 2,
     "TIMEOUT": 0
   },
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_kernel_shortening_weighted_capacity_cut/verify.py",
-      "seconds": 0.038883,
+      "script": "background/nodes/rate_half_mca_rank11_rank8_fixed_chart_local_cap_fence/verify.py",
+      "seconds": 0.025123,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_RANK11_KERNEL_SHORTENING_WEIGHTED_CAPACITY_CUT_PASS interval=796599..1048576 newton=12 controls=7/7\n"
+      "stdout_tail": "RATE_HALF_MCA_RANK11_RANK8_FIXED_CHART_LOCAL_CAP_FENCE_PASS slopes=4070352 distinct_excess=1492242 marked=9265216597693056 weighted_excess=3395840213713882 controls=10/10\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_kernel_shortening_weighted_capacity_cut/verify_audit.py",
-      "seconds": 0.037623,
+      "script": "background/nodes/rate_half_mca_rank11_rank8_fixed_chart_local_cap_fence/verify_audit.py",
+      "seconds": 0.035089,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_RANK11_KERNEL_SHORTENING_WEIGHTED_CAPACITY_CUT_AUDIT_PASS positive_power_coefficients=12\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_kernel_shortening_weighted_extension_cap/verify.py",
-      "seconds": 0.031498,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_RANK11_KERNEL_SHORTENING_WEIGHTED_EXTENSION_CAP_PASS dominance=6 ratios=54 controls=6/6\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_kernel_shortening_weighted_extension_cap/verify_audit.py",
-      "seconds": 0.025725,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_RANK11_KERNEL_SHORTENING_WEIGHTED_EXTENSION_CAP_AUDIT_PASS checks=48\n"
+      "stdout_tail": "RATE_HALF_MCA_RANK11_RANK8_FIXED_CHART_LOCAL_CAP_FENCE_AUDIT_PASS toy_records=8 toy_slopes=8 components=24 rank_checks=45\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

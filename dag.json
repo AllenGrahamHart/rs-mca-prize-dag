@@ -40907,6 +40907,25 @@
    ]
   },
   {
+   "id": "rate_half_mca_rank11_rank8_fixed_chart_local_cap_fence",
+   "title": "A fixed rank-eight chart alone does not pay either selector demand",
+   "status": "PROVED",
+   "closure": "explicit K'=11 eight-petal countermodel to distinct and weighted chart-local caps",
+   "statement": "At residual shortening K'=11 there is a ten-dimensional RS correction space, a fixed rank-eight nine-subset, and 4070352 pair-noncontained exact-support slopes in one affine U^2 owner flat. Every record has C(67473,2) rank-ten affine-owner component extensions and the errors have affine rank at most two. The resulting marked weight 9265216597693056 exceeds the exact weighted demand 5869376383979174, while the record count exceeds 2578110. The construction lifts reversibly to the official row. Hence the current rank-eight fixed-chart conclusions alone cannot pay either selector target; a successful continuation must retain ancestor span/incidence data or couple owners and charts globally.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_rank8_fixed_chart_local_cap_fence/statement.md",
+    "background/nodes/rate_half_mca_rank11_rank8_fixed_chart_local_cap_fence/proof.md",
+    "background/nodes/rate_half_mca_rank11_rank8_fixed_chart_local_cap_fence/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_rank8_fixed_chart_local_cap_fence/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_rank8_fixed_chart_local_cap_fence/attack.md",
+    "background/nodes/rate_half_mca_rank11_rank8_fixed_chart_local_cap_fence/audit.md",
+    "background/nodes/rate_half_mca_rank11_rank8_fixed_chart_local_cap_fence/result.md",
+    "background/nodes/rate_half_mca_rank11_rank8_fixed_chart_local_cap_fence/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_rank8_fixed_chart_local_cap_fence/verify.py",
+    "background/nodes/rate_half_mca_rank11_rank8_fixed_chart_local_cap_fence/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_mca_rank11_rank8_owner_pair_weight_cap",
    "title": "A rank-eight owner flat has a universal owner-pair weight cap",
    "status": "PROVED",
@@ -77740,6 +77759,11 @@
   },
   {
    "from": "rate_half_mca_rank11_component_ninesubset_target_router",
+   "to": "rate_half_mca_rank11_rank8_fixed_chart_local_cap_fence",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_component_ninesubset_target_router",
    "to": "rate_half_mca_rank11_rank8_owner_pair_weight_cap",
    "kind": "req"
   },
@@ -77756,6 +77780,11 @@
   {
    "from": "rate_half_mca_rank11_component_ninesubset_weighted_concentrator",
    "to": "rate_half_mca_rank11_rank8_dense_owner_terminal_bridge",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_component_ninesubset_weighted_concentrator",
+   "to": "rate_half_mca_rank11_rank8_fixed_chart_local_cap_fence",
    "kind": "req"
   },
   {
@@ -78340,6 +78369,11 @@
   },
   {
    "from": "rate_half_mca_rank11_rank8_dense_owner_terminal_bridge",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_rank8_fixed_chart_local_cap_fence",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
   },
