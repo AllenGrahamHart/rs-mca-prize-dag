@@ -45,6 +45,8 @@ q_p=s_p(j-9)+C(s_p,2)
 ```
 
 One owner owns at most `D+1=981105` selected records. From (2)--(3),
+owners with `s_p=0` contribute no marked extension; for every remaining
+owner,
 
 ```text
 q_p/s_p
