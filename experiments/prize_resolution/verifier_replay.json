@@ -8,35 +8,35 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_k41_sharp_isolated_payment/verify.py",
-      "seconds": 0.317603,
+      "script": "background/nodes/rate_half_mca_rank11_k42_cross_support_defect_payment/verify.py",
+      "seconds": 0.337448,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_RANK11_K41_SHARP_ISOLATED_PAYMENT_PASS gap=3959829848992990899082071934034620604165114037293042026746826 wall=2710771376158610722953158157862051010402433288229120154217278 controls=8\n"
+      "stdout_tail": "RATE_HALF_MCA_RANK11_K42_CROSS_SUPPORT_DEFECT_PAYMENT_PASS branches=6 gap=4081031051590194485758587836050845115467905186032497191061176 wall=2590504432899371163130658487199612335023802688487478696166262 controls=12\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_k41_sharp_isolated_payment/verify_audit.py",
-      "seconds": 0.021445,
+      "script": "background/nodes/rate_half_mca_rank11_k42_cross_support_defect_payment/verify_audit.py",
+      "seconds": 0.023886,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_RANK11_K41_SHARP_ISOLATED_PAYMENT_AUDIT_PASS demand=914185087092839732068202094579173634339667328332842235009045152 gap=3959829848992990899082071934034620604165114037293042026746826 floor_remainder=43\n"
+      "stdout_tail": "RATE_HALF_MCA_RANK11_K42_CROSS_SUPPORT_DEFECT_PAYMENT_AUDIT_PASS gap=4081031051590194485758587836050845115467905186032497191061176 wall=2590504432899371163130658487199612335023802688487478696166262 branches=12\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_rank_stratified_isolated_incidence_cap/verify.py",
-      "seconds": 0.022466,
+      "script": "background/nodes/rate_half_mca_sparse_circuit_cross_support_defect_carrier/verify.py",
+      "seconds": 0.024,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_RANK11_RANK_STRATIFIED_ISOLATED_INCIDENCE_CAP_PASS isolated_per_tuple=1 controls=6\n"
+      "stdout_tail": "RATE_HALF_MCA_SPARSE_CIRCUIT_CROSS_SUPPORT_DEFECT_CARRIER_PASS cases=640 special_cases=10 controls=10\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_rank_stratified_isolated_incidence_cap/verify_audit.py",
-      "seconds": 0.013053,
+      "script": "background/nodes/rate_half_mca_sparse_circuit_cross_support_defect_carrier/verify_audit.py",
+      "seconds": 0.032468,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_RANK11_RANK_STRATIFIED_ISOLATED_INCIDENCE_CAP_AUDIT_PASS field=101 unique_root=83 kernel_dimension_at_least=1\n"
+      "stdout_tail": "RATE_HALF_MCA_SPARSE_CIRCUIT_CROSS_SUPPORT_DEFECT_CARRIER_AUDIT_PASS field_checks=7 arithmetic_checks=40\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

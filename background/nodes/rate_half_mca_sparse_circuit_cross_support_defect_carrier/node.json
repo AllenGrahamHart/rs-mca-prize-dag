@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_sparse_circuit_cross_support_defect_carrier",
+    "title": "Near-saturated completions constrain other support strata",
+    "status": "PROVED",
+    "closure": "private-coordinate span plus cross-support Vandermonde uniqueness",
+    "statement": "A support-c deletion with q-s completions confines every support-d circuit to a carrier of size q+c-1+s(d-1) whenever c+(s+1)d-s-1<=10. For source support five and defects zero through four this controls target supports {2,3,4,5,6}, {2,3}, {2}, {2}, {2}.",
+    "refs": [
+      "background/nodes/rate_half_mca_sparse_circuit_cross_support_defect_carrier/statement.md",
+      "background/nodes/rate_half_mca_sparse_circuit_cross_support_defect_carrier/proof.md",
+      "background/nodes/rate_half_mca_sparse_circuit_cross_support_defect_carrier/claim_contract.md",
+      "background/nodes/rate_half_mca_sparse_circuit_cross_support_defect_carrier/dependency_subdag.md",
+      "background/nodes/rate_half_mca_sparse_circuit_cross_support_defect_carrier/attack.md",
+      "background/nodes/rate_half_mca_sparse_circuit_cross_support_defect_carrier/audit.md",
+      "background/nodes/rate_half_mca_sparse_circuit_cross_support_defect_carrier/result.md",
+      "background/nodes/rate_half_mca_sparse_circuit_cross_support_defect_carrier/source_contract.json",
+      "background/nodes/rate_half_mca_sparse_circuit_cross_support_defect_carrier/verify.py",
+      "background/nodes/rate_half_mca_sparse_circuit_cross_support_defect_carrier/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_sparse_circuit_universal_completion_incidence_cap"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_mca_rank11_k42_cross_support_defect_payment"}
+  ],
+  "refutes": []
+}

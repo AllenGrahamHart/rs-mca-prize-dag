@@ -1,0 +1,31 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_k42_cross_support_defect_payment",
+    "title": "Cross-support completion defect pays K'=42",
+    "status": "PROVED",
+    "closure": "exhaustive support-five defect branches, cross-support carriers, all-core chart, every kernel corank, full shadow ledger, and sharp isolated demand",
+    "statement": "At K'=42, the exhaustive cross-support completion-defect capacity is below exact component demand by 4081031051590194485758587836050845115467905186032497191061176. The closed component prefix is K'=10..42; the same payment first fails at K'=43.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_k42_cross_support_defect_payment/statement.md",
+      "background/nodes/rate_half_mca_rank11_k42_cross_support_defect_payment/proof.md",
+      "background/nodes/rate_half_mca_rank11_k42_cross_support_defect_payment/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_k42_cross_support_defect_payment/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_k42_cross_support_defect_payment/attack.md",
+      "background/nodes/rate_half_mca_rank11_k42_cross_support_defect_payment/audit.md",
+      "background/nodes/rate_half_mca_rank11_k42_cross_support_defect_payment/result.md",
+      "background/nodes/rate_half_mca_rank11_k42_cross_support_defect_payment/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_k42_cross_support_defect_payment/verify.py",
+      "background/nodes/rate_half_mca_rank11_k42_cross_support_defect_payment/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_k41_sharp_isolated_payment"},
+    {"from": "rate_half_mca_sparse_circuit_cross_support_defect_carrier"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location"}
+  ],
+  "refutes": []
+}
