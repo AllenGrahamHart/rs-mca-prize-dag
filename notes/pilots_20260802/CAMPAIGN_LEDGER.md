@@ -6596,3 +6596,17 @@ repaired; K'=37996 boundary unmoved; next = residual-unit
 plane/chronology cap for K'<=20617. PACKAGE B: escalated to BLOCKING
 at next cycle boundary (4 boundaries missed). Chain: 2503/7444, all
 PASS.
+
+## 2026-08-15 UPSTREAM SWEEP: NO HARVEST (task #50)
+
+Full PR + comment sweep. NO new third-party material since #1168
+(2026-08-13 20:26): no new Scott/maelcar PRs, zero comments on #1169
+(Scott quiet ~40h — longest gap since the collaboration went live),
+Przemek main frozen 17 days at 93fba1be. #1170 verified as OURS
+(Codex, 08-14 16:25, standing make-PRs authority — outside the A/B
+gate carve-out, which is correct): packages the rank-11 split-pencil /
+K'=11 circuit closure; spot-audit confirms its chart capacities
+(9274924665987729 / 9275866238180030) match the banked
+rate_half_mca_rank11_k11_circuit_split_pencil_payment node (wave-65
+replayed). Upstream queue now holds 8 of our PRs. Nothing to import;
+census untouched.
