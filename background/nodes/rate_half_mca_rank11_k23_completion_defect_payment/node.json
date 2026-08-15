@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_k23_completion_defect_payment",
+    "title": "Completion-defect hierarchy pays K'=23",
+    "status": "PROVED",
+    "closure": "all-core integral chart scan, completion-defect premium, every kernel corank, and joint shadow ledger",
+    "statement": "At K'=23, complete component capacity is below dense-locator demand by 1704262040773185642290284810631267267026794188450394076492364. The closed component prefix is K'=10..23; the same payment first fails at K'=24.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_k23_completion_defect_payment/statement.md",
+      "background/nodes/rate_half_mca_rank11_k23_completion_defect_payment/proof.md",
+      "background/nodes/rate_half_mca_rank11_k23_completion_defect_payment/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_k23_completion_defect_payment/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_k23_completion_defect_payment/attack.md",
+      "background/nodes/rate_half_mca_rank11_k23_completion_defect_payment/audit.md",
+      "background/nodes/rate_half_mca_rank11_k23_completion_defect_payment/result.md",
+      "background/nodes/rate_half_mca_rank11_k23_completion_defect_payment/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_k23_completion_defect_payment/verify.py",
+      "background/nodes/rate_half_mca_rank11_k23_completion_defect_payment/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_k22_integral_near_saturation_payment"},
+    {"from": "rate_half_mca_sparse_circuit_completion_defect_hierarchy"},
+    {"from": "rate_half_mca_weighted_split_pencil_integral_heavy_cap"},
+    {"from": "rate_half_mca_rank9_sparse_shadow_joint_ledger"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location"}
+  ],
+  "refutes": []
+}

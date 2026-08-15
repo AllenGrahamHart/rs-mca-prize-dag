@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_sparse_circuit_completion_defect_hierarchy",
+    "title": "Sparse completions admit a finite defect-carrier hierarchy",
+    "status": "PROVED",
+    "closure": "private-coordinate spans and exact Vandermonde union budget",
+    "statement": "A support-c deletion with q-s completions confines all support-c circuits to a carrier of size q+(s+1)(c-1) whenever (s+2)c-s-1<=10. The resulting depths for supports 2,3,4,5 are 7,2,1,0.",
+    "refs": [
+      "background/nodes/rate_half_mca_sparse_circuit_completion_defect_hierarchy/statement.md",
+      "background/nodes/rate_half_mca_sparse_circuit_completion_defect_hierarchy/proof.md",
+      "background/nodes/rate_half_mca_sparse_circuit_completion_defect_hierarchy/claim_contract.md",
+      "background/nodes/rate_half_mca_sparse_circuit_completion_defect_hierarchy/dependency_subdag.md",
+      "background/nodes/rate_half_mca_sparse_circuit_completion_defect_hierarchy/attack.md",
+      "background/nodes/rate_half_mca_sparse_circuit_completion_defect_hierarchy/audit.md",
+      "background/nodes/rate_half_mca_sparse_circuit_completion_defect_hierarchy/result.md",
+      "background/nodes/rate_half_mca_sparse_circuit_completion_defect_hierarchy/source_contract.json",
+      "background/nodes/rate_half_mca_sparse_circuit_completion_defect_hierarchy/verify.py",
+      "background/nodes/rate_half_mca_sparse_circuit_completion_defect_hierarchy/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_sparse_circuit_near_saturation_carrier"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_mca_rank11_k23_completion_defect_payment"}
+  ],
+  "refutes": []
+}

@@ -40436,6 +40436,25 @@
    ]
   },
   {
+   "id": "rate_half_mca_rank11_k23_completion_defect_payment",
+   "title": "Completion-defect hierarchy pays K'=23",
+   "status": "PROVED",
+   "closure": "all-core integral chart scan, completion-defect premium, every kernel corank, and joint shadow ledger",
+   "statement": "At K'=23, complete component capacity is below dense-locator demand by 1704262040773185642290284810631267267026794188450394076492364. The closed component prefix is K'=10..23; the same payment first fails at K'=24.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_k23_completion_defect_payment/statement.md",
+    "background/nodes/rate_half_mca_rank11_k23_completion_defect_payment/proof.md",
+    "background/nodes/rate_half_mca_rank11_k23_completion_defect_payment/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_k23_completion_defect_payment/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_k23_completion_defect_payment/attack.md",
+    "background/nodes/rate_half_mca_rank11_k23_completion_defect_payment/audit.md",
+    "background/nodes/rate_half_mca_rank11_k23_completion_defect_payment/result.md",
+    "background/nodes/rate_half_mca_rank11_k23_completion_defect_payment/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_k23_completion_defect_payment/verify.py",
+    "background/nodes/rate_half_mca_rank11_k23_completion_defect_payment/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_mca_rank11_kernel_canonical_basis_globalizer",
    "title": "Canonical rank bases globalize every fixed kernel chart",
    "status": "PROVED",
@@ -41427,6 +41446,25 @@
     "background/nodes/rate_half_mca_rank9_sparse_shadow_joint_ledger/source_contract.json",
     "background/nodes/rate_half_mca_rank9_sparse_shadow_joint_ledger/verify.py",
     "background/nodes/rate_half_mca_rank9_sparse_shadow_joint_ledger/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_mca_sparse_circuit_completion_defect_hierarchy",
+   "title": "Sparse completions admit a finite defect-carrier hierarchy",
+   "status": "PROVED",
+   "closure": "private-coordinate spans and exact Vandermonde union budget",
+   "statement": "A support-c deletion with q-s completions confines all support-c circuits to a carrier of size q+(s+1)(c-1) whenever (s+2)c-s-1<=10. The resulting depths for supports 2,3,4,5 are 7,2,1,0.",
+   "refs": [
+    "background/nodes/rate_half_mca_sparse_circuit_completion_defect_hierarchy/statement.md",
+    "background/nodes/rate_half_mca_sparse_circuit_completion_defect_hierarchy/proof.md",
+    "background/nodes/rate_half_mca_sparse_circuit_completion_defect_hierarchy/claim_contract.md",
+    "background/nodes/rate_half_mca_sparse_circuit_completion_defect_hierarchy/dependency_subdag.md",
+    "background/nodes/rate_half_mca_sparse_circuit_completion_defect_hierarchy/attack.md",
+    "background/nodes/rate_half_mca_sparse_circuit_completion_defect_hierarchy/audit.md",
+    "background/nodes/rate_half_mca_sparse_circuit_completion_defect_hierarchy/result.md",
+    "background/nodes/rate_half_mca_sparse_circuit_completion_defect_hierarchy/source_contract.json",
+    "background/nodes/rate_half_mca_sparse_circuit_completion_defect_hierarchy/verify.py",
+    "background/nodes/rate_half_mca_sparse_circuit_completion_defect_hierarchy/verify_audit.py"
    ]
   },
   {
@@ -78395,6 +78433,16 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_mca_rank11_k22_integral_near_saturation_payment",
+   "to": "rate_half_mca_rank11_k23_completion_defect_payment",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_k23_completion_defect_payment",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_mca_rank11_kernel_canonical_basis_globalizer",
    "to": "rate_half_mca_rank11_kernel_corank1_projective_pair_cap",
    "kind": "req"
@@ -79125,6 +79173,21 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_mca_rank9_sparse_shadow_joint_ledger",
+   "to": "rate_half_mca_rank11_k23_completion_defect_payment",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_sparse_circuit_completion_defect_hierarchy",
+   "to": "rate_half_mca_rank11_k23_completion_defect_payment",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_sparse_circuit_completion_defect_hierarchy",
+   "to": "rate_half_mca_rank11_k23_completion_defect_payment",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_mca_sparse_circuit_completion_dimension_ladder",
    "to": "rate_half_mca_rank11_k14_k21_sparse_shadow_payment",
    "kind": "ev"
@@ -79147,6 +79210,11 @@
   {
    "from": "rate_half_mca_sparse_circuit_near_saturation_carrier",
    "to": "rate_half_mca_rank11_k22_integral_near_saturation_payment",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_sparse_circuit_near_saturation_carrier",
+   "to": "rate_half_mca_sparse_circuit_completion_defect_hierarchy",
    "kind": "req"
   },
   {
@@ -79237,6 +79305,11 @@
   {
    "from": "rate_half_mca_weighted_split_pencil_integral_heavy_cap",
    "to": "rate_half_mca_rank11_k22_integral_near_saturation_payment",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_weighted_split_pencil_integral_heavy_cap",
+   "to": "rate_half_mca_rank11_k23_completion_defect_payment",
    "kind": "req"
   },
   {

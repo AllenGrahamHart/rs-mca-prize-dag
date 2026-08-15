@@ -1,0 +1,28 @@
+{
+  "schema": "rate-half-mca-sparse-circuit-completion-defect-hierarchy-v1",
+  "dependencies": [
+    "rate_half_mca_sparse_circuit_near_saturation_carrier"
+  ],
+  "parameters": {
+    "correction_dimension": 10,
+    "component_size": 11,
+    "depths": {"2": 7, "3": 2, "4": 1, "5": 0},
+    "carrier_size_formula": "q+(s+1)(c-1)",
+    "vandermonde_condition": "(s+2)c-s-1<=10",
+    "K23": {
+      "q": 13,
+      "m": 67495,
+      "completion_maximizers": {"2": 5, "3": 10, "4": 11, "5": 12},
+      "active_caps": {
+        "2": 13499380682056402471079171597596039264932850,
+        "3": 80954284864573617465451381534661879298586050,
+        "4": 178107341214763563083698242716829065027167375,
+        "5": 272038635654020659386178641581753573026498140
+      },
+      "premium_weights": {"2": 26, "3": 18, "4": 11, "5": 5},
+      "weighted_premium": 5127534956928294069477757206955298428694134825
+    }
+  },
+  "claim": "The exact completion-defect carrier hierarchy gives depths 7,2,1,0 for support sizes two through five.",
+  "nonclaim": "No stronger support-five cap, K'=23 payment, active-v4 movement, or prize closure is asserted."
+}
