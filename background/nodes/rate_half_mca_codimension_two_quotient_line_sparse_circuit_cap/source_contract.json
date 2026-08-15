@@ -1,0 +1,30 @@
+{
+  "schema": "rate-half-mca-codimension-two-quotient-line-sparse-circuit-cap-v1",
+  "dependencies": [],
+  "parameters": {
+    "ambient_polynomial_dimension": 12,
+    "correction_dimension": 10,
+    "quotient_dimension": 2,
+    "component_subset_size": 11,
+    "support_ceiling": 5,
+    "official_support_size": 67484,
+    "support_one_label_cap": 2,
+    "support_label_caps": {
+      "1": 2,
+      "2": 134968,
+      "3": 202449,
+      "4": 269928,
+      "5": 337405
+    },
+    "support_incidence_terms": {
+      "1": 1078750868720738453399620490525287637386970,
+      "2": 10787668542410727707603394807967712004715600,
+      "3": 2158077224701397279407082869815859503975,
+      "4": 341120452889213251661148929866641600,
+      "5": 44231768400528829040414294388775
+    },
+    "per_record_sparse_incidence_cap": 11868577829520852215896202871552159662636920
+  },
+  "claim": "Sparse full-rank eleven-set circuits selected by a codimension-two quotient line satisfy the support-stratified catalecticant fiber cap.",
+  "nonclaim": "No quotient plane, support above five, component-density contradiction, chronology payment, or prize closure is asserted."
+}

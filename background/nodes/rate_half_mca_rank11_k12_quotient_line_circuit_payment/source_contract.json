@@ -1,0 +1,43 @@
+{
+  "schema": "rate-half-mca-rank11-k12-quotient-line-circuit-payment-v1",
+  "dependencies": [
+    "rate_half_mca_rank11_dense_locator_component_incidence_dichotomy",
+    "rate_half_mca_rank11_dense_root_highspan_saturation",
+    "rate_half_mca_rank11_kernel_rankstratified_capacity_cut",
+    "rate_half_mca_rank11_rank9_residual_petal_capacity_cut",
+    "rate_half_mca_weighted_split_pencil_core_offset_cap",
+    "rate_half_mca_codimension_two_quotient_line_sparse_circuit_cap"
+  ],
+  "parameters": {
+    "K_prime": 12,
+    "n_prime": 1048588,
+    "m_prime": 67484,
+    "correction_dimension": 10,
+    "ambient_RS_dimension": 12,
+    "component_density_numerator": 990810934,
+    "component_density_denominator": 1000000000,
+    "residual_record_floor": 274980728111260126,
+    "kernel_corank_one_record_cap": 16295594,
+    "kernel_extension_factor": 1,
+    "kernel_incidence_cap": 68823412552626461731638254358120971630939282959681665560,
+    "rank9_core_sizes": [9, 10, 11],
+    "rank9_core_caps": [9275079825564861, 9276021414531691, 9276963034268184],
+    "uniform_rank9_chart_cap": 9276963034268184,
+    "global_rank9_mark_capacity": 39180667740182076404618161753024487792661300555923567098500992160,
+    "high_circuit_threshold": 6,
+    "minimum_high_circuit_rank9_shadows": 45,
+    "high_circuit_incidence_cap": 870681505337379475658181372289433062059140012353857046633355381,
+    "low_circuit_support_ceiling": 5,
+    "low_circuit_per_record_cap": 11868577829520852215896202871552159662636920,
+    "low_circuit_incidence_cap_at_record_floor": 3263630173206803298260847575223094088414589760914861211451920,
+    "total_capacity_at_record_floor": 873945204333998831582903951502910514268526233054054867526472861,
+    "required_incidence_at_record_floor": 901555241262544083284435178226046105523688795046262319915891531,
+    "demand_capacity_gap": 27610036928545251701531226723135591255162561992207452389418670,
+    "raw_demand_capacity_cross": 27610036928545251701531226723135591255162561992207452389418669953684560,
+    "record_coefficient_cross": 3266743881505321144251837279559822170446618230146889560,
+    "newly_closed_rows": [12, 12],
+    "remaining_rank9_interval": [13, 15528]
+  },
+  "claim": "At K'=12, absolute kernel capacity plus high-circuit rank-nine-shadow capacity plus the quotient-line sparse-circuit cap is strictly below the full dense-locator component-incidence demand.",
+  "nonclaim": "No row K'>=13, chronology owner, active-v4 ledger movement, KoalaBear closure, or prize closure is asserted."
+}

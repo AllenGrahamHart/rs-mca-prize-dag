@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_k12_quotient_line_circuit_payment",
+    "title": "Quotient-line circuits and rank-nine shadows pay K'=12",
+    "status": "PROVED",
+    "closure": "absolute kernel capacity, high-circuit rank-nine shadows, and sparse quotient-line fiber incidence",
+    "statement": "At K'=12, rank-deficient component incidences have absolute capacity 68823412552626461731638254358120971630939282959681665560. Full-rank circuits of size at least six are paid by at least 45 rank-nine shadows, while support-at-most-five circuits satisfy the codimension-two quotient-line cap. Total capacity is below full dense-locator demand by 27610036928545251701531226723135591255162561992207452389418670, closing the row and leaving rank nine on 13<=K'<=15528.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_k12_quotient_line_circuit_payment/statement.md",
+      "background/nodes/rate_half_mca_rank11_k12_quotient_line_circuit_payment/proof.md",
+      "background/nodes/rate_half_mca_rank11_k12_quotient_line_circuit_payment/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_k12_quotient_line_circuit_payment/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_k12_quotient_line_circuit_payment/attack.md",
+      "background/nodes/rate_half_mca_rank11_k12_quotient_line_circuit_payment/audit.md",
+      "background/nodes/rate_half_mca_rank11_k12_quotient_line_circuit_payment/result.md",
+      "background/nodes/rate_half_mca_rank11_k12_quotient_line_circuit_payment/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_k12_quotient_line_circuit_payment/verify.py",
+      "background/nodes/rate_half_mca_rank11_k12_quotient_line_circuit_payment/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_dense_locator_component_incidence_dichotomy"},
+    {"from": "rate_half_mca_rank11_dense_root_highspan_saturation"},
+    {"from": "rate_half_mca_rank11_kernel_rankstratified_capacity_cut"},
+    {"from": "rate_half_mca_rank11_rank9_residual_petal_capacity_cut"},
+    {"from": "rate_half_mca_weighted_split_pencil_core_offset_cap"},
+    {"from": "rate_half_mca_codimension_two_quotient_line_sparse_circuit_cap"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location"}
+  ],
+  "refutes": []
+}

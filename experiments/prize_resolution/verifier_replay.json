@@ -2,25 +2,41 @@
   "complete": true,
   "counts": {
     "FAIL": 0,
-    "PASS": 2,
+    "PASS": 4,
     "TIMEOUT": 0
   },
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_k11_circuit_split_pencil_payment/verify.py",
-      "seconds": 0.024053,
+      "script": "background/nodes/rate_half_mca_codimension_two_quotient_line_sparse_circuit_cap/verify.py",
+      "seconds": 0.027608,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "PASS K11 circuit split-pencil payment primary: chart_cap 9275866238180030, demand 901408286315387898338134887980054663001598216883356906995509296, capacity 870719390190680409022824387604193486699840723094988553120053384, gap 30688896124707489315310500375861176301757493788368353875455912, 12/12 hostile mutations\n"
+      "stdout_tail": "PASS codimension-two quotient-line sparse circuit cap: total 11868577829520852215896202871552159662636920, largest 10787668542410727707603394807967712004715600, 7/7 hostile mutations\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_k11_circuit_split_pencil_payment/verify_audit.py",
-      "seconds": 0.307878,
+      "script": "background/nodes/rate_half_mca_codimension_two_quotient_line_sparse_circuit_cap/verify_audit.py",
+      "seconds": 0.31593,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "PASS K11 circuit split-pencil payment audit: 8099 Vandermonde subsets, 605 shadow omissions, gap 30688896124707489315310500375861176301757493788368353875455912\n"
+      "stdout_tail": "PASS codimension-two quotient-line sparse circuit audit: 8190 Vandermonde subsets, 54 fiber branches\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_mca_rank11_k12_quotient_line_circuit_payment/verify.py",
+      "seconds": 0.026979,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "PASS K12 quotient-line circuit payment primary: kernel 68823412552626461731638254358120971630939282959681665560, chart 9276963034268184, demand 901555241262544083284435178226046105523688795046262319915891531, capacity 873945204333998831582903951502910514268526233054054867526472861, gap 27610036928545251701531226723135591255162561992207452389418670, 11/11 hostile mutations\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_mca_rank11_k12_quotient_line_circuit_payment/verify_audit.py",
+      "seconds": 0.025682,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "PASS K12 quotient-line circuit payment audit: record cap 16295594, 605 shadow omissions, gap 27610036928545251701531226723135591255162561992207452389418670\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"
