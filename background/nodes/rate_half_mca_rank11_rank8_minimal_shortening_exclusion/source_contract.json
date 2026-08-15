@@ -1,0 +1,21 @@
+{
+  "schema": "rate-half-mca-rank11-rank8-minimal-shortening-exclusion-v1",
+  "dependencies": [
+    "rate_half_mca_rank11_dense_root_highspan_saturation",
+    "rate_half_mca_rank11_component_ninesubset_target_router",
+    "rate_half_mca_rank11_rank8_fixed_chart_local_cap_fence"
+  ],
+  "parameters": {
+    "residual_dimension": 10,
+    "ambient_rs_dimension": 10,
+    "correction_space_dimension": 10,
+    "selector_size": 9,
+    "selector_rank": 9,
+    "excluded_selector_rank": 8,
+    "interpolation_degree_ceiling": 8,
+    "first_uncovered_residual_dimension": 11,
+    "adjacent_row_fixed_chart_fence": "rate_half_mca_rank11_rank8_fixed_chart_local_cap_fence"
+  },
+  "claim": "The rank-eight affine-owner component target is impossible at K'=10.",
+  "nonclaim": "No rank-eight row at K'>=11, chronology terminal, aggregate rank-eleven family, active-v4 atom, or prize problem is closed."
+}

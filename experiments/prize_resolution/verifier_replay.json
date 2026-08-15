@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_rank8_fixed_chart_local_cap_fence/verify.py",
-      "seconds": 0.025123,
+      "script": "background/nodes/rate_half_mca_rank11_rank8_minimal_shortening_exclusion/verify.py",
+      "seconds": 0.024825,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_RANK11_RANK8_FIXED_CHART_LOCAL_CAP_FENCE_PASS slopes=4070352 distinct_excess=1492242 marked=9265216597693056 weighted_excess=3395840213713882 controls=10/10\n"
+      "stdout_tail": "RATE_HALF_MCA_RANK11_RANK8_MINIMAL_SHORTENING_EXCLUSION_PASS toy=GF(101) rank=9 controls=6/6\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_rank8_fixed_chart_local_cap_fence/verify_audit.py",
-      "seconds": 0.035089,
+      "script": "background/nodes/rate_half_mca_rank11_rank8_minimal_shortening_exclusion/verify_audit.py",
+      "seconds": 0.025109,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_RANK11_RANK8_FIXED_CHART_LOCAL_CAP_FENCE_AUDIT_PASS toy_records=8 toy_slopes=8 components=24 rank_checks=45\n"
+      "stdout_tail": "RATE_HALF_MCA_RANK11_RANK8_MINIMAL_SHORTENING_EXCLUSION_AUDIT_PASS toy=GF(103) points=9 degree<=8 proof_pins=4/4\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"
