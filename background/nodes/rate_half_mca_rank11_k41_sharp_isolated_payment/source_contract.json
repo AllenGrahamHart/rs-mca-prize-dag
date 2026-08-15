@@ -1,0 +1,33 @@
+{
+  "schema": "rate-half-mca-rank11-k41-sharp-isolated-payment-v1",
+  "dependencies": [
+    "rate_half_mca_rank11_k24_k40_full_deficit_shadow_payment",
+    "rate_half_mca_rank11_rank_stratified_isolated_incidence_cap"
+  ],
+  "parameters": {
+    "closed_row": 41,
+    "new_closed_prefix": [10, 41],
+    "first_method_wall": 42,
+    "residual_record_floor": 274980728111260126,
+    "n": 1048617,
+    "m": 67513,
+    "q": 31,
+    "isolated_cap_per_eleven_set": 1,
+    "isolated_global_cap": 42228663703645135905182909026066921411402258692001689604176,
+    "max_core": 40,
+    "chart": 9275193525062548,
+    "kernel_capacity": 16046971808807649741426607721480807522683424615973152263500,
+    "rank_nine_marks": 39182945894581539876274333730966366854383475202678619099111093380,
+    "completion_premium": 39561174868876502380458662244149949146908334937,
+    "full_rank_capacity": 910209210272037933519378596037417532927979530870933219830034826,
+    "total_capacity": 910225257243846741169120022645139013735502214295549192982298326,
+    "required_component_incidence": 914185087092839732068202094579173634339667328332842235009045152,
+    "gap": 3959829848992990899082071934034620604165114037293042026746826,
+    "record_coefficient_cross": 143297102916558158042999955475306246365479723103,
+    "floor_record_raw_cross": 217790641694614499449513956371904133229081272051117311471075418,
+    "K42_capacity_excess": 2710771376158610722953158157862051010402433288229120154217278,
+    "remaining_rank9_interval": [42, 15528]
+  },
+  "claim": "The complete rank-eleven component capacity is strictly below exact rank-stratified component demand at K'=41.",
+  "nonclaim": "The same payment fails at K'=42. No rank-eight, chronology, active-v4, KoalaBear, or prize closure is asserted."
+}

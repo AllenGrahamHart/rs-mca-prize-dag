@@ -2,25 +2,41 @@
   "complete": true,
   "counts": {
     "FAIL": 0,
-    "PASS": 2,
+    "PASS": 4,
     "TIMEOUT": 0
   },
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_k14_k21_sparse_shadow_payment/verify.py",
-      "seconds": 0.033764,
+      "script": "background/nodes/rate_half_mca_rank11_k41_sharp_isolated_payment/verify.py",
+      "seconds": 0.317603,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "PASS K14..K21 joint sparse-shadow payment primary: 8 rows, minimum gap 205305519860193617784849691734671763401656917434567909452790, K22 excess 2859529280846211417198922209345618432657212793529140162369036, 14/14 hostile mutations\n"
+      "stdout_tail": "RATE_HALF_MCA_RANK11_K41_SHARP_ISOLATED_PAYMENT_PASS gap=3959829848992990899082071934034620604165114037293042026746826 wall=2710771376158610722953158157862051010402433288229120154217278 controls=8\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_k14_k21_sparse_shadow_payment/verify_audit.py",
-      "seconds": 0.02367,
+      "script": "background/nodes/rate_half_mca_rank11_k41_sharp_isolated_payment/verify_audit.py",
+      "seconds": 0.021445,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "PASS K14..K21 joint sparse-shadow payment independent: 68 core charts, minimum gap 205305519860193617784849691734671763401656917434567909452790, K22 excess 2859529280846211417198922209345618432657212793529140162369036\n"
+      "stdout_tail": "RATE_HALF_MCA_RANK11_K41_SHARP_ISOLATED_PAYMENT_AUDIT_PASS demand=914185087092839732068202094579173634339667328332842235009045152 gap=3959829848992990899082071934034620604165114037293042026746826 floor_remainder=43\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_mca_rank11_rank_stratified_isolated_incidence_cap/verify.py",
+      "seconds": 0.022466,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "RATE_HALF_MCA_RANK11_RANK_STRATIFIED_ISOLATED_INCIDENCE_CAP_PASS isolated_per_tuple=1 controls=6\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_mca_rank11_rank_stratified_isolated_incidence_cap/verify_audit.py",
+      "seconds": 0.013053,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "RATE_HALF_MCA_RANK11_RANK_STRATIFIED_ISOLATED_INCIDENCE_CAP_AUDIT_PASS field=101 unique_root=83 kernel_dimension_at_least=1\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

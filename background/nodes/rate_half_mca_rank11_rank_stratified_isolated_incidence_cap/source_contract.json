@@ -1,0 +1,24 @@
+{
+  "schema": "rate-half-mca-rank11-rank-stratified-isolated-incidence-cap-v1",
+  "dependencies": [
+    "rate_half_mca_rank11_dense_locator_component_incidence_dichotomy"
+  ],
+  "parameters": {
+    "correction_dimension": 10,
+    "tuple_size": 11,
+    "dense_locator_degree": 18,
+    "retained_slopes_are_distinct": true,
+    "retained_slopes_avoid_locator_roots": true,
+    "old_generic_isolated_cap_per_tuple": 198,
+    "new_record_isolated_cap_per_tuple": 1,
+    "component_lower_bound": "N*C(m_prime,11)-C(n_prime,11)"
+  },
+  "logical_pins": [
+    "rank_at_most_nine_has_positive_dimensional_kernel_fiber",
+    "rank_ten_interpolates_q_times_R_on_ten_coordinates",
+    "remaining_equation_is_linear_in_slope",
+    "identity_branch_is_positive_dimensional",
+    "count_actual_records_not_projective_multiplicity"
+  ],
+  "nonclaim": "No component payment, owner chronology, or rank-eleven closure is asserted."
+}

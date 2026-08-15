@@ -1,0 +1,31 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_k41_sharp_isolated_payment",
+    "title": "Sharp isolated-incidence demand pays K'=41",
+    "status": "PROVED",
+    "closure": "rank-stratified isolated cap plus the complete K'=41 full-deficit capacity endpoint",
+    "statement": "At K'=41, exact component demand N*C(m',11)-C(n',11) exceeds complete kernel plus full-rank capacity by 3959829848992990899082071934034620604165114037293042026746826, extending the closed component prefix to K'=10..41. The same method first fails at K'=42.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_k41_sharp_isolated_payment/statement.md",
+      "background/nodes/rate_half_mca_rank11_k41_sharp_isolated_payment/proof.md",
+      "background/nodes/rate_half_mca_rank11_k41_sharp_isolated_payment/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_k41_sharp_isolated_payment/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_k41_sharp_isolated_payment/attack.md",
+      "background/nodes/rate_half_mca_rank11_k41_sharp_isolated_payment/audit.md",
+      "background/nodes/rate_half_mca_rank11_k41_sharp_isolated_payment/result.md",
+      "background/nodes/rate_half_mca_rank11_k41_sharp_isolated_payment/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_k41_sharp_isolated_payment/verify.py",
+      "background/nodes/rate_half_mca_rank11_k41_sharp_isolated_payment/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_k24_k40_full_deficit_shadow_payment"},
+    {"from": "rate_half_mca_rank11_rank_stratified_isolated_incidence_cap"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location"}
+  ],
+  "refutes": []
+}

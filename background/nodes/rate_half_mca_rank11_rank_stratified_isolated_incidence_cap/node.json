@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_rank_stratified_isolated_incidence_cap",
+    "title": "Rank stratification leaves at most one isolated record per eleven-set",
+    "status": "PROVED",
+    "closure": "kernel-fiber classification at rank at most nine and exact linear slope elimination at rank ten",
+    "statement": "In the normalized rank-eleven dense-locator system, one fixed eleven-set supports at most one isolated retained record point. Therefore component incidence is at least N*C(m',11)-C(n',11), replacing the generic factor 198 by 1 for actual records.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_rank_stratified_isolated_incidence_cap/statement.md",
+      "background/nodes/rate_half_mca_rank11_rank_stratified_isolated_incidence_cap/proof.md",
+      "background/nodes/rate_half_mca_rank11_rank_stratified_isolated_incidence_cap/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_rank_stratified_isolated_incidence_cap/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_rank_stratified_isolated_incidence_cap/attack.md",
+      "background/nodes/rate_half_mca_rank11_rank_stratified_isolated_incidence_cap/audit.md",
+      "background/nodes/rate_half_mca_rank11_rank_stratified_isolated_incidence_cap/result.md",
+      "background/nodes/rate_half_mca_rank11_rank_stratified_isolated_incidence_cap/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_rank_stratified_isolated_incidence_cap/verify.py",
+      "background/nodes/rate_half_mca_rank11_rank_stratified_isolated_incidence_cap/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_dense_locator_component_incidence_dichotomy"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location"}
+  ],
+  "refutes": []
+}
