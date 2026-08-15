@@ -1,0 +1,66 @@
+{
+  "schema": "rate-half-mca-rank11-kernel-corank3-uniform-projective-basis-cap-v1",
+  "dependencies": [
+    "rate_half_mca_rank11_kernel_corank3_projective_basis_cap",
+    "rate_half_mca_rank11_kernel_projective_paving_integer_gap_fence",
+    "rate_half_mca_support_local_transversality_compiler",
+    "matroid_rank4_bounded_point_line_basis_floor"
+  ],
+  "parameters": {
+    "R": 1048576,
+    "w": 67472,
+    "dimension": 3,
+    "rank_gap": 67474,
+    "t_minimum": 0,
+    "t_maximum": 1048566,
+    "a": "t+1",
+    "parallel_class_ceiling": "a",
+    "rank2_flat_ceiling": "a+1",
+    "basis_floor_times_6": "Q_a(67474)",
+    "ordered_basis_floor": "4*Q_a(67474)",
+    "record_cap_formula": "floor((1048576+t)*(1048577+t)*(1048578+t)*(1048579+t)/(4*Q_(t+1)(67474)))",
+    "uniform_record_cap": 983902549,
+    "complete_row": {
+      "t": 0,
+      "basis_floor_times_6": 307177966285344,
+      "ordered_basis_floor": 1228711865141376,
+      "record_cap": 983902549,
+      "division_remainder": 1056607358217600,
+      "next_integer_gap": 172104506923776
+    },
+    "adjacent_row": {
+      "t": 1,
+      "basis_floor_times_6": 307182518823600,
+      "ordered_basis_floor": 1228730075294400,
+      "record_cap": 983891721,
+      "division_remainder": 442291404914520,
+      "next_integer_gap": 13305475693958143080
+    },
+    "official_endpoint": {
+      "t": 1048566,
+      "basis_floor_times_6": 5080814795226240,
+      "ordered_basis_floor": 20323259180904960,
+      "record_cap": 951742008,
+      "division_remainder": 19141444829127600,
+      "next_integer_gap": 653607011322934734960720
+    }
+  },
+  "evidence": {
+    "script": "experiments/prize_resolution/rate_half_mca_rank11_kernel_corank3_uniform_cap_modal.py",
+    "script_sha256": "0b00e75ab46b74b152a8e8d3cd5302dca4f02ee709259d8ec4eed3e7878efcf5",
+    "result": "experiments/prize_resolution/rate_half_mca_rank11_kernel_corank3_uniform_cap_result.json",
+    "result_sha256": "c9f43ce8d0ef2d81a8fd37b23fb71800f1f04aa90b252e9163c2850f0c869042",
+    "result_schema": "rate-half-mca-rank11-kernel-corank3-uniform-cap-v1",
+    "checked_rows": 1048567,
+    "maximum_record_cap": 983902549,
+    "first_maximizer": 0,
+    "first_excess": null,
+    "recurrence_checks": 9440,
+    "residue_checks": 2240,
+    "worker_timeout_seconds": 60,
+    "worker_memory_mb": 512,
+    "max_containers": 1,
+    "modal_run": "https://modal.com/apps/allengrahamhart/main/ap-Sv2HRoqdjrF188Uzqm7EJe"
+  },
+  "nonclaim": "The uniform fixed-chart cap does not select a global route, remove rank seven or dense-owner chronology, or close either prize."
+}

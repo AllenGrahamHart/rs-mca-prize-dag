@@ -12,7 +12,7 @@ from pathlib import Path
 
 
 CONTRACT = Path(__file__).with_name("source_contract.json")
-CONTRACT_SHA256 = "2cf4bca5b0dc130a84bbee61c0769a7a700f0f4f9eeac633d9c0b3c0936a2c76"
+CONTRACT_SHA256 = "ed03c341d0cbcc9b70648c4563dd9d9ccfdc505a801bd4a795becce560560e59"
 ROOT = Path(__file__).resolve().parents[3]
 TREE = [(2, 4), (2, 5), (3, 6), (4, 7), (5, 8), (6, 9)]
 
@@ -243,6 +243,7 @@ def validate(data: object, files: bool) -> dict[str, int]:
     require((p["n_offset"], p["m_offset"], p["residual_record_floor"]) == (
         1048576, 67472, 274980728111260126
     ), "base parameters")
+    require(p["status"] == "proved", "status")
     require((p["projective_corank1_record_cap"], p["projective_corank2_record_cap"], p["projective_corank3_record_cap"]) == (
         8147918, 84416263, 983902549
     ), "projective caps")
@@ -265,7 +266,7 @@ def validate(data: object, files: bool) -> dict[str, int]:
         require(certificate(kprime, p) == expected, f"certificate {kprime}")
     require(int(p["replay_start_gap"]) > 0 and int(p["endpoint_gap"]) > 0, "closed signs")
     require(int(p["wall_excess"]) > 0, "wall sign")
-    require("conditional" in str(data.get("nonclaim")).lower(), "nonclaim")
+    require("does not close rows above 796598" in str(data.get("nonclaim")), "nonclaim")
     if files:
         verify_result(data, p)
     return {"checked": int(p["checked_rows_including_wall"]), "wall": int(p["first_open_dimension"])}
@@ -276,6 +277,7 @@ def main() -> None:
     data = json.loads(CONTRACT.read_text())
     result = validate(data, True)
     mutations = (
+        lambda item: item["parameters"].__setitem__("status", "conditional"),
         lambda item: item["parameters"].__setitem__("projective_corank3_record_cap", item["parameters"]["projective_corank3_record_cap"] + 1),
         lambda item: item["parameters"].__setitem__("replay_minimum", item["parameters"]["replay_minimum"] + 1),
         lambda item: item["parameters"].__setitem__("closed_dimension_maximum", item["parameters"]["closed_dimension_maximum"] - 1),

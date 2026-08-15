@@ -2,10 +2,10 @@
   "schema": "prize-dag-node-v1",
   "node": {
     "id": "rate_half_mca_rank11_kernel_corank3_projective_capacity_cut",
-    "title": "A uniform corank-three cap would remove the kernel through 796598",
-    "status": "CONDITIONAL",
-    "closure": "proved uniform M2 parent plus exact conditional forest; uniform M3 premise open",
-    "statement": "The corank-two cutoff and uniform M_2<=84416263 are proved. Conditional only on the open uniform bound M_3<=983902549, the projective caps and multi-step shadow hierarchy exclude the dominant rank-eleven kernel lane for 568339<=K'<=796598. The conditional resource comparison reverses at K'=796599.",
+    "title": "Uniform corank-three cap removes the kernel through 796598",
+    "status": "PROVED",
+    "closure": "proved uniform M2 and M3 parents plus exact hierarchy forest",
+    "statement": "The uniform bounds M_2<=84416263 and M_3<=983902549, the other projective caps, and the multi-step shadow hierarchy exclude the dominant rank-eleven kernel lane for 568339<=K'<=796598. The resource comparison reverses at K'=796599.",
     "refs": [
       "background/nodes/rate_half_mca_rank11_kernel_corank3_projective_capacity_cut/statement.md",
       "background/nodes/rate_half_mca_rank11_kernel_corank3_projective_capacity_cut/proof.md",

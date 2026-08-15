@@ -1,0 +1,88 @@
+{
+  "complete": true,
+  "parameters": {
+    "R": 1048576,
+    "rank_gap": 67474,
+    "t_maximum": 1048566,
+    "t_minimum": 0,
+    "target_cap": 983902549,
+    "w": 67472
+  },
+  "rows": {
+    "adjacent": {
+      "a": 2,
+      "active_branch": "reset",
+      "basis_floor_times_6": 307182518823600,
+      "division_remainder": 442291404914520,
+      "next_integer_gap": 13305475693958143080,
+      "ordered_basis_floor": 1228730075294400,
+      "record_cap": 983891721,
+      "reset_index": 67474,
+      "resource": 1208937348868158202576920,
+      "t": 1
+    },
+    "complete": {
+      "a": 1,
+      "active_branch": "base",
+      "basis_floor_times_6": 307177966285344,
+      "division_remainder": 1056607358217600,
+      "next_integer_gap": 172104506923776,
+      "ordered_basis_floor": 1228711865141376,
+      "record_cap": 983902549,
+      "reset_index": 4,
+      "resource": 1208932737155751449985024,
+      "t": 0
+    },
+    "first_nontrivial": {
+      "a": 3,
+      "active_branch": "base",
+      "basis_floor_times_6": 307184795092731,
+      "division_remainder": 1037701477225668,
+      "next_integer_gap": 17652258102911839440,
+      "ordered_basis_floor": 1228739180370924,
+      "record_cap": 983888183,
+      "reset_index": 4,
+      "resource": 1208941960593759157616760,
+      "t": 2
+    },
+    "middle": {
+      "a": 524284,
+      "active_branch": "reset",
+      "basis_floor_times_6": 2693996380755792,
+      "division_remainder": 1025721064402296,
+      "next_integer_gap": 4482387148431964440531720,
+      "ordered_basis_floor": 10775985523023168,
+      "record_cap": 567941788,
+      "reset_index": 67474,
+      "resource": 6120132486433614263746680,
+      "t": 524283
+    },
+    "official_endpoint": {
+      "a": 1048567,
+      "active_branch": "reset",
+      "basis_floor_times_6": 5080814795226240,
+      "division_remainder": 19141444829127600,
+      "next_integer_gap": 653607011322934734960720,
+      "ordered_basis_floor": 20323259180904960,
+      "record_cap": 951742008,
+      "reset_index": 67474,
+      "resource": 19342499521080366716687280,
+      "t": 1048566
+    }
+  },
+  "scan": {
+    "branch_counts": {
+      "base": 7,
+      "reset": 1048560
+    },
+    "checked_rows": 1048567,
+    "first_excess": null,
+    "first_maximizer": 0,
+    "first_minimizer": 259539,
+    "maximum_record_cap": 983902549,
+    "minimum_record_cap": 491707781,
+    "recurrence_checks": 9440,
+    "residue_checks": 2240
+  },
+  "schema": "rate-half-mca-rank11-kernel-corank3-uniform-cap-v1"
+}

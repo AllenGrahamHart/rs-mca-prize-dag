@@ -1,7 +1,14 @@
 # Attack
 
-Stress-test `t=1` first.  The local hypotheses permit larger rank-one and
-rank-two flats than the complete chart; seek RS realizations that maximize
-those flats and count their independent quadruples.  A successful proof
-must exclude or pay those configurations uniformly.  Complete-chart
-no-three-collinear counting alone does not address the target.
+The complete-chart no-three-collinear count does not survive parallel points
+and larger lines.  Preserve both shortening-aware ceilings:
+
+```text
+maximum point multiplicity = t+1,
+maximum line multiplicity  = t+2.
+```
+
+Deletion-contraction at a smallest point class converts the non-coloop
+branch to the rank-three theorem; direct triple counting pays the coloop
+branch.  The resulting recurrence has one-sign reset candidates and is
+cheap to evaluate exactly on every official row.
