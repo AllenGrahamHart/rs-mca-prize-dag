@@ -1,0 +1,61 @@
+{
+  "schema": "rate-half-mca-sparse-circuit-k71-carrier-position-trichotomy-v1",
+  "dependencies": [
+    "rate_half_mca_sparse_circuit_cross_support_collision_charge",
+    "rate_half_mca_sparse_circuit_multicarrier_collision_charge"
+  ],
+  "parameters": {
+    "correction_dimension": 10,
+    "support2_carrier": "full nonzero parallel class of size M2+1",
+    "positions": [
+      "transverse",
+      "proper_span",
+      "full_completion"
+    ],
+    "transverse_fixed_dimension": "10-c",
+    "proper_span_fixed_dimension": "11-c",
+    "full_completion_necessary_condition": "Mc>=M2+1",
+    "support23_pruning_condition": "M3<=M2",
+    "support23_impossible_condition": "s2+s3<q",
+    "K71_impossible_defect_pair_count": 961,
+    "K71_impossible_defect_pair_digest_sha256": "07931c53bb2dd546e5a671fa59592ede3f153a422dbb1b033d38ffb00668edab",
+    "one_step_condition": "M3=M4=M2+1",
+    "K71_active_completions": {
+      "M2": 29,
+      "M3": 30,
+      "M4": 30
+    },
+    "K71_cases": {
+      "T23": {
+        "union_size": 62,
+        "fixed_dimension": 7
+      },
+      "A23": {
+        "union_size": 61,
+        "fixed_dimension": 8
+      },
+      "T24": {
+        "union_size": 63,
+        "fixed_dimension": 6
+      },
+      "A24": {
+        "union_size": 62,
+        "fixed_dimension": 7
+      },
+      "N34": {
+        "union_size": 35,
+        "fixed_dimension": 6
+      },
+      "N34A": {
+        "union_size": 34,
+        "fixed_dimension": 7
+      }
+    },
+    "nested_anchor_intersection_sizes": [
+      0,
+      1
+    ]
+  },
+  "claim": "The support-two projective point has an exhaustive position relative to the support-three and support-four attaining deletions, yielding the six fixed-union cases.",
+  "nonclaim": "A completion carrier is not asserted to equal the full ground-set intersection with its projective flat."
+}

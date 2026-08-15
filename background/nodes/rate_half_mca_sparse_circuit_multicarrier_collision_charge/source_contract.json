@@ -1,0 +1,232 @@
+{
+  "schema": "rate-half-mca-sparse-circuit-multicarrier-collision-charge-v1",
+  "dependencies": [
+    "rate_half_mca_sparse_circuit_cross_support_collision_charge"
+  ],
+  "parameters": {
+    "correction_dimension": 10,
+    "intersection_dimension": "r_d=g+1-d",
+    "outside_budget": "R_d=K-r_d-u",
+    "inside_count": "C(u,d)",
+    "outside_stratum_count": "floor(C(u,d-j)C(m-u,j-1)max(0,R_d-j+1)/j)",
+    "incidence_multiplier": "C(m-d,11-d)",
+    "K71_samples": {
+      "K71_T23": {
+        "K": 71,
+        "m": 67543,
+        "union_size": 62,
+        "fixed_dimension": 7,
+        "targets": {
+          "2": {
+            "intersection_dimension": 6,
+            "outside_budget": 3,
+            "target_support_count": 69558,
+            "target_incidence_cap": 5603507253477844277094336673911040351663020
+          },
+          "3": {
+            "intersection_dimension": 5,
+            "outside_budget": 4,
+            "target_support_count": 1524193743,
+            "target_incidence_cap": 16361685844810710602662061277506494173907830
+          },
+          "4": {
+            "intersection_dimension": 4,
+            "outside_budget": 5,
+            "target_support_count": 25747549858077,
+            "target_incidence_cap": 32738042916846294032666894078750827740289524
+          },
+          "5": {
+            "intersection_dimension": 3,
+            "outside_budget": 6,
+            "target_support_count": 347957228796998381,
+            "target_incidence_cap": 45854935110745383367928817260868815062324836
+          },
+          "6": {
+            "intersection_dimension": 2,
+            "outside_budget": 7,
+            "target_support_count": 3918574076020262884697,
+            "target_incidence_cap": 45876611771024975054270023101290935908477084
+          },
+          "7": {
+            "intersection_dimension": 1,
+            "outside_budget": 8,
+            "target_support_count": 37824826769260312216433365,
+            "target_incidence_cap": 32784492195768130841127425084077717937324700
+          }
+        }
+      },
+      "K71_A23": {
+        "K": 71,
+        "m": 67543,
+        "union_size": 61,
+        "fixed_dimension": 8,
+        "targets": {
+          "2": {
+            "intersection_dimension": 7,
+            "outside_budget": 3,
+            "target_support_count": 69495,
+            "target_incidence_cap": 5598432050669121999434585916119608804721550
+          },
+          "3": {
+            "intersection_dimension": 6,
+            "outside_budget": 4,
+            "target_support_count": 1524135527,
+            "target_incidence_cap": 16361060916446113910882803281589546417440870
+          },
+          "4": {
+            "intersection_dimension": 5,
+            "outside_budget": 5,
+            "target_support_count": 25746407295786,
+            "target_incidence_cap": 32736590147416810077108191408395930634936232
+          },
+          "5": {
+            "intersection_dimension": 4,
+            "outside_budget": 6,
+            "target_support_count": 347939223343606581,
+            "target_incidence_cap": 45852562293546628675280869680445154921484036
+          },
+          "6": {
+            "intersection_dimension": 3,
+            "outside_budget": 7,
+            "target_support_count": 3918342443585707051579,
+            "target_incidence_cap": 45873899939867124982205057775503941690355988
+          },
+          "7": {
+            "intersection_dimension": 2,
+            "outside_budget": 8,
+            "target_support_count": 37822312556362425178735725,
+            "target_incidence_cap": 32782313013464610959643350411703605108365500
+          },
+          "8": {
+            "intersection_dimension": 1,
+            "outside_budget": 9,
+            "target_support_count": 319444418701239897844342325916,
+            "target_incidence_cap": 16398777546336685752947139645556164894305220
+          }
+        }
+      },
+      "K71_T24": {
+        "K": 71,
+        "m": 67543,
+        "union_size": 63,
+        "fixed_dimension": 6,
+        "targets": {
+          "2": {
+            "intersection_dimension": 5,
+            "outside_budget": 3,
+            "target_support_count": 69622,
+            "target_incidence_cap": 5608663015061308178209004110397573986651180
+          },
+          "3": {
+            "intersection_dimension": 4,
+            "outside_budget": 4,
+            "target_support_count": 1524252023,
+            "target_incidence_cap": 16362311460192885523592650050387484198074630
+          },
+          "4": {
+            "intersection_dimension": 3,
+            "outside_budget": 5,
+            "target_support_count": 25748692456060,
+            "target_incidence_cap": 32739495731658202111254300661771183456500720
+          },
+          "5": {
+            "intersection_dimension": 2,
+            "outside_budget": 6,
+            "target_support_count": 347975234784071279,
+            "target_incidence_cap": 45857307998274368598475715801336811815906124
+          },
+          "6": {
+            "intersection_dimension": 1,
+            "outside_budget": 7,
+            "target_support_count": 3918805715319934888456,
+            "target_incidence_cap": 45879323682556007619122502426484197754456032
+          }
+        }
+      },
+      "K71_N34": {
+        "K": 71,
+        "m": 67543,
+        "union_size": 35,
+        "fixed_dimension": 6,
+        "targets": {
+          "2": {
+            "intersection_dimension": 5,
+            "outside_budget": 31,
+            "target_support_count": 1014300,
+            "target_incidence_cap": 81710765220428670321987200442047905757667000
+          },
+          "3": {
+            "intersection_dimension": 4,
+            "outside_budget": 32,
+            "target_support_count": 22822961455,
+            "target_incidence_cap": 244996495419240124682571961540573503747338550
+          },
+          "4": {
+            "intersection_dimension": 3,
+            "outside_budget": 33,
+            "target_support_count": 385377955555051,
+            "target_incidence_cap": 490008568493360703016774576208070024277754412
+          },
+          "5": {
+            "intersection_dimension": 2,
+            "outside_budget": 34,
+            "target_support_count": 5205775332916829003,
+            "target_incidence_cap": 686034001699922010656068943420499804399100668
+          },
+          "6": {
+            "intersection_dimension": 1,
+            "outside_budget": 35,
+            "target_support_count": 58599822106729672177255,
+            "target_incidence_cap": 686056008253871415870721676180286648623605860
+          }
+        }
+      },
+      "K71_N34A": {
+        "K": 71,
+        "m": 67543,
+        "union_size": 34,
+        "fixed_dimension": 7,
+        "targets": {
+          "2": {
+            "intersection_dimension": 6,
+            "outside_budget": 31,
+            "target_support_count": 1014250,
+            "target_incidence_cap": 81706737281691589149241366507292801355332500
+          },
+          "3": {
+            "intersection_dimension": 5,
+            "outside_budget": 32,
+            "target_support_count": 22822589039,
+            "target_incidence_cap": 244992497663952409250978170386811548001969590
+          },
+          "4": {
+            "intersection_dimension": 4,
+            "outside_budget": 33,
+            "target_support_count": 385371486411035,
+            "target_incidence_cap": 490000342968384600103300608497149304590365420
+          },
+          "5": {
+            "intersection_dimension": 3,
+            "outside_budget": 34,
+            "target_support_count": 5205685377649708853,
+            "target_incidence_cap": 686022147102301132520805177242313583021547268
+          },
+          "6": {
+            "intersection_dimension": 2,
+            "outside_budget": 35,
+            "target_support_count": 58598780594366889506363,
+            "target_incidence_cap": 686043814772927799165569943814548573762601236
+          },
+          "7": {
+            "intersection_dimension": 1,
+            "outside_budget": 36,
+            "target_support_count": 565387263307069745356985559,
+            "target_incidence_cap": 490046773632317443153635687948161695823116020
+          }
+        }
+      }
+    }
+  },
+  "claim": "A fixed g-dimensional vanishing space on a fixed u-point union gives exact target-circuit and selected-incidence caps whenever g+1-d>0.",
+  "nonclaim": "The theorem does not construct the fixed union or permit deletion-dependent unions to be combined."
+}
