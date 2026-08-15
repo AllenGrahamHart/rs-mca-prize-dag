@@ -1,0 +1,31 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_k44_branch_lattice_payment",
+    "title": "Completion branch lattice pays K'=44",
+    "status": "PROVED",
+    "closure": "35 exhaustive inherited-cap leaves, all-core chart, every kernel corank, full shadow ledger, and sharp isolated demand",
+    "statement": "At K'=44, refining two expensive support-five leaves by support-six completion branches makes complete capacity smaller than exact component demand by 535634409944931896502583174279429171539133692200964798538249. The closed prefix is K'=10..44; the same payment first fails at K'=45.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_k44_branch_lattice_payment/statement.md",
+      "background/nodes/rate_half_mca_rank11_k44_branch_lattice_payment/proof.md",
+      "background/nodes/rate_half_mca_rank11_k44_branch_lattice_payment/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_k44_branch_lattice_payment/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_k44_branch_lattice_payment/attack.md",
+      "background/nodes/rate_half_mca_rank11_k44_branch_lattice_payment/audit.md",
+      "background/nodes/rate_half_mca_rank11_k44_branch_lattice_payment/result.md",
+      "background/nodes/rate_half_mca_rank11_k44_branch_lattice_payment/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_k44_branch_lattice_payment/verify.py",
+      "background/nodes/rate_half_mca_rank11_k44_branch_lattice_payment/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_k43_descending_support_ladder_payment"},
+    {"from": "rate_half_mca_sparse_circuit_completion_branch_lattice_refinement"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location"}
+  ],
+  "refutes": []
+}

@@ -1,0 +1,31 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_sparse_circuit_completion_branch_lattice_refinement",
+    "title": "Completion branches admit exact lattice refinement",
+    "status": "PROVED",
+    "closure": "integer completion-maximum partition, inherited-cap intersection, and cross-support carrier composition",
+    "statement": "Any valid sparse-circuit cap branch can be refined at source support c into defects 0..9-c and one fallback, for exactly 11-c disjoint exhaustive leaves. Every child retains all inherited caps and intersects the appropriate source and cross-support caps.",
+    "refs": [
+      "background/nodes/rate_half_mca_sparse_circuit_completion_branch_lattice_refinement/statement.md",
+      "background/nodes/rate_half_mca_sparse_circuit_completion_branch_lattice_refinement/proof.md",
+      "background/nodes/rate_half_mca_sparse_circuit_completion_branch_lattice_refinement/claim_contract.md",
+      "background/nodes/rate_half_mca_sparse_circuit_completion_branch_lattice_refinement/dependency_subdag.md",
+      "background/nodes/rate_half_mca_sparse_circuit_completion_branch_lattice_refinement/attack.md",
+      "background/nodes/rate_half_mca_sparse_circuit_completion_branch_lattice_refinement/audit.md",
+      "background/nodes/rate_half_mca_sparse_circuit_completion_branch_lattice_refinement/result.md",
+      "background/nodes/rate_half_mca_sparse_circuit_completion_branch_lattice_refinement/source_contract.json",
+      "background/nodes/rate_half_mca_sparse_circuit_completion_branch_lattice_refinement/verify.py",
+      "background/nodes/rate_half_mca_sparse_circuit_completion_branch_lattice_refinement/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_sparse_circuit_cross_support_defect_carrier"},
+    {"from": "rate_half_mca_sparse_circuit_descending_support_completion_ladder"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_mca_rank11_k44_branch_lattice_payment"}
+  ],
+  "refutes": []
+}
