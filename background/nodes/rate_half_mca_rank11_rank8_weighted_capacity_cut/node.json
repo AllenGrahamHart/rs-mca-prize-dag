@@ -21,8 +21,7 @@
   },
   "requires": [
     {"from": "rate_half_mca_rank11_component_ninesubset_weighted_concentrator"},
-    {"from": "rate_half_mca_rank11_rank8_owner_pair_weight_cap"},
-    {"from": "rate_half_mca_rank11_rank9_weighted_target_elimination"}
+    {"from": "rate_half_mca_rank11_rank8_owner_pair_weight_cap"}
   ],
   "alternatives": [],
   "evidence_for": [

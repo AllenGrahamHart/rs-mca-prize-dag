@@ -41095,10 +41095,10 @@
   },
   {
    "id": "rate_half_mca_rank11_rank9_weighted_target_elimination",
-   "title": "The fixed rank-nine component target is impossible at every shortening",
+   "title": "Weighted incidence excludes rank nine from K'=20618 onward",
    "status": "PROVED",
-   "closure": "small-dimension core contradiction plus large-dimension weighted incidence gap",
-   "statement": "The rank-nine affine-owner alternative in the fixed nine-subset target router cannot occur. If K'<=67472, its forced common core of size at least 134944 cannot lie in an owner core of size below m'=67472+K'. If K'>=67473, the weighted selector demand exceeds the universal rank-nine cap; at K'=67473 the exact values are 6849288576200976639 > 147748596828055575, and the demand-to-cap ratio increases with K'. Thus the residual fixed target is reduced to the kernel chart or rank-eight owner-flat alternatives.",
+   "closure": "exact weighted boundary crossing after retracting a row-mixed common-core argument",
+   "statement": "The fixed rank-nine affine-owner target is impossible for every 20618<=K'<=1048576. At K'=20618 the weighted demand 92397581841774591 exceeds the cap 92395178310909600 by 2403530864991; at K'=20617 the cap still wins by 7221289203362. The unrounded ratio is a product of ten increasing RS factors. The former low-row proof mixed an original-row 134944 common-core floor with residual support size after reverse shortening; that argument is retracted, and rank nine remains open on 10<=K'<=20617.",
    "refs": [
     "background/nodes/rate_half_mca_rank11_rank9_weighted_target_elimination/statement.md",
     "background/nodes/rate_half_mca_rank11_rank9_weighted_target_elimination/proof.md",
@@ -78529,11 +78529,6 @@
    "from": "rate_half_mca_rank11_rank9_weighted_target_elimination",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
-  },
-  {
-   "from": "rate_half_mca_rank11_rank9_weighted_target_elimination",
-   "to": "rate_half_mca_rank11_rank8_weighted_capacity_cut",
-   "kind": "req"
   },
   {
    "from": "rate_half_mca_rank11_relative_absorbing_clone_affine_collapse",

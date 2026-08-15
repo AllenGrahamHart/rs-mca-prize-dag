@@ -38309,7 +38309,7 @@ compute:               constant-memory exact arithmetic only
 next route action:     retain component-incidence weights while grouping
                        records by their intrinsic large-owner keys
 ```
-# Cycle 325: MCA rank-11 rank-nine weighted target elimination (2026-08-14)
+# Cycle 325: MCA rank-11 rank-nine weighted target route (scope repaired 2026-08-15)
 
 Three PROVED nodes retain the component extension weight that cycle 322
 discarded when it selected `2578110` distinct records.
@@ -38338,21 +38338,22 @@ plane petals are disjoint. Hence
 W_B <=981105*(m'-10)*n'.
 ```
 
-Finally,
-`rate_half_mca_rank11_rank9_weighted_target_elimination` closes the complete
-rank-nine alternative. Its `2578110` records already force a common plane
-core of size at least `134944`. For `K'<=67472`, this contradicts strict
-owner-core size below `m'`. For `K'>=67473`, the weighted comparison at the
-boundary is
+The original cycle then claimed complete rank-nine elimination. That claim
+mixed an original-row common-core floor with the residual support size after
+reverse shortening. The lift inserts `1048576-K'` deleted coordinates into
+every owner core, so an original-row core of size `134944` gives no such
+residual-core floor. That low-row argument is retracted.
+
+The weighted comparison itself is valid and has the earlier exact crossing
 
 ```text
-6849288576200976639 > 147748596828055575,
-gap = 6701539979372921064.
+K'=20617: 92386821615379573 < 92394042904582935,
+K'=20618: 92397581841774591 > 92395178310909600.
 ```
 
 After cancelling `C(m'-9,2)`, the demand-to-cap ratio is a constant times
-`C(m',9)/C(n',9)*(m'-9)/n'`; every factor increases with `K'`. Thus the
-boundary contradiction is uniform through `K'=1048576`.
+`C(m',9)/C(n',9)*(m'-9)/n'`; every factor increases with `K'`. Thus rank
+nine is closed on `20618<=K'<=1048576` and open here on `10<=K'<=20617`.
 
 The cycle also rejected a candidate `134931` two-terminal overlap node: the
 calculation was weaker than direct inclusion-exclusion and its first draft
@@ -38366,8 +38367,8 @@ RATE_HALF_MCA_RANK11_COMPONENT_NINESUBSET_WEIGHTED_CONCENTRATOR_PASS
 RATE_HALF_MCA_RANK11_RANK9_WEIGHTED_COMPONENT_CAP_PASS
   owner=981105 boundary_cap=147748596828055575 controls=6/6
 RATE_HALF_MCA_RANK11_RANK9_WEIGHTED_TARGET_ELIMINATION_PASS
-  demand=6849288576200976639 cap=147748596828055575
-  gap=6701539979372921064 controls=8/8
+  last_gap=7221289203362 first_gap=2403530864991
+  reopened=10..20617 controls=8/8
 ```
 
 No Modal computation was used.
@@ -38376,12 +38377,12 @@ No Modal computation was used.
 DAG delta:             +3 PROVED weighted rank-eleven nodes,
                        +5 requirement edges, +3 evidence edges
 critical status delta: none
-rank-eleven delta:     fixed rank-nine component target eliminated
-remaining target:     fixed kernel chart or rank-eight owner flat
+rank-eleven delta:     rank nine eliminated only for K'>=20618
+remaining target:     low-row rank-nine chart; rank-eight owner flat
 delta-star movement:   none
 compute:               constant-memory exact integer arithmetic only
-next route action:     retain extension weight in the fixed-kernel and
-                       rank-eight branches
+next route action:     residual-unit owner-plane coupling below K'=20618;
+                       retain extension weight in rank eight
 ```
 # Cycle 326: MCA rank-11 kernel canonical-basis capacity (2026-08-14)
 
@@ -40149,4 +40150,71 @@ compute:               GF(101) row-reduction replay and independent GF(103)
                        determinant replay under RAMguard; no Modal
 next route action:     owner-labelled one-replacement coupling for c=9;
                        locator-ideal/extra-shadow coupling for c<=8
+```
+# Cycle 346: MCA rank-11 rank-nine shortening-scope repair (2026-08-15)
+
+An attempted one-replacement rank-eight coupling exposed a row mismatch in
+the green rank-nine target elimination node.
+
+## Retracted low-row argument
+
+The nine-cell pair-core theorem is an original-row theorem. Its
+`134944=2m-n` intersection floor applies after a residual chart has been
+lifted back to length `2097152` and support size `1116048`. That lift inserts
+
+```text
+1048576-K'
+```
+
+deleted locator coordinates into every owner core. Consequently an
+original-row common core of size at least `134944` does not imply a residual
+common core of that size. The former comparison
+
+```text
+134944 <= |J| < m'=67472+K'
+```
+
+mixed original and residual rows and is invalid. It has been removed from
+the statement, proof, contract, and both verifiers.
+
+## Surviving weighted theorem
+
+The marked component lower bound and rank-nine weighted cap use the same
+residual `(record,T)` unit and are sound. Their honest first crossing is
+
+```text
+K'=20617:
+  demand=92386821615379573,
+  cap   =92394042904582935;
+
+K'=20618:
+  demand=92397581841774591,
+  cap   =92395178310909600.
+```
+
+Before rounding, the first row has negative cross-product and the second has
+positive cross-product. After cancellation, the ratio is
+
+```text
+constant * C(m',9)/C(n',9) * (m'-9)/n',
+```
+
+a product of ten strictly increasing factors. Therefore the repaired node
+is PROVED on `20618<=K'<=1048576` and explicitly open on
+`10<=K'<=20617`.
+
+The rank-eight high-row capacity cut was audited separately. Its proof uses
+only the weighted concentrator and rank-eight owner-pair cap, so the
+unnecessary rank-nine dependency was removed without changing its exact
+`K'=37996` boundary.
+
+```text
+result:                PROVED rank-nine closure on K'>=20618
+retraction:            low-row original/residual core comparison
+DAG status delta:      rank-nine rows 10..20617 reopened
+rank-eight delta:      none; independent K'>=37996 cut retained
+delta-star movement:   none
+compute:               constant-memory exact integers under RAMguard
+next route action:     derive a residual-unit plane/chronology cap for
+                       K'<=20617, preserving marked extension weight
 ```

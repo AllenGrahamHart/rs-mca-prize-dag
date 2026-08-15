@@ -1,4 +1,4 @@
-# Cycle 325: MCA rank-11 rank-nine weighted target elimination (2026-08-14)
+# Cycle 325: MCA rank-11 rank-nine weighted target route (scope repaired 2026-08-15)
 
 Three PROVED nodes retain the component extension weight that cycle 322
 discarded when it selected `2578110` distinct records.
@@ -27,21 +27,22 @@ plane petals are disjoint. Hence
 W_B <=981105*(m'-10)*n'.
 ```
 
-Finally,
-`rate_half_mca_rank11_rank9_weighted_target_elimination` closes the complete
-rank-nine alternative. Its `2578110` records already force a common plane
-core of size at least `134944`. For `K'<=67472`, this contradicts strict
-owner-core size below `m'`. For `K'>=67473`, the weighted comparison at the
-boundary is
+The original cycle then claimed complete rank-nine elimination. That claim
+mixed an original-row common-core floor with the residual support size after
+reverse shortening. The lift inserts `1048576-K'` deleted coordinates into
+every owner core, so an original-row core of size `134944` gives no such
+residual-core floor. That low-row argument is retracted.
+
+The weighted comparison itself is valid and has the earlier exact crossing
 
 ```text
-6849288576200976639 > 147748596828055575,
-gap = 6701539979372921064.
+K'=20617: 92386821615379573 < 92394042904582935,
+K'=20618: 92397581841774591 > 92395178310909600.
 ```
 
 After cancelling `C(m'-9,2)`, the demand-to-cap ratio is a constant times
-`C(m',9)/C(n',9)*(m'-9)/n'`; every factor increases with `K'`. Thus the
-boundary contradiction is uniform through `K'=1048576`.
+`C(m',9)/C(n',9)*(m'-9)/n'`; every factor increases with `K'`. Thus rank
+nine is closed on `20618<=K'<=1048576` and open here on `10<=K'<=20617`.
 
 The cycle also rejected a candidate `134931` two-terminal overlap node: the
 calculation was weaker than direct inclusion-exclusion and its first draft
@@ -55,8 +56,8 @@ RATE_HALF_MCA_RANK11_COMPONENT_NINESUBSET_WEIGHTED_CONCENTRATOR_PASS
 RATE_HALF_MCA_RANK11_RANK9_WEIGHTED_COMPONENT_CAP_PASS
   owner=981105 boundary_cap=147748596828055575 controls=6/6
 RATE_HALF_MCA_RANK11_RANK9_WEIGHTED_TARGET_ELIMINATION_PASS
-  demand=6849288576200976639 cap=147748596828055575
-  gap=6701539979372921064 controls=8/8
+  last_gap=7221289203362 first_gap=2403530864991
+  reopened=10..20617 controls=8/8
 ```
 
 No Modal computation was used.
@@ -65,10 +66,10 @@ No Modal computation was used.
 DAG delta:             +3 PROVED weighted rank-eleven nodes,
                        +5 requirement edges, +3 evidence edges
 critical status delta: none
-rank-eleven delta:     fixed rank-nine component target eliminated
-remaining target:     fixed kernel chart or rank-eight owner flat
+rank-eleven delta:     rank nine eliminated only for K'>=20618
+remaining target:     low-row rank-nine chart; rank-eight owner flat
 delta-star movement:   none
 compute:               constant-memory exact integer arithmetic only
-next route action:     retain extension weight in the fixed-kernel and
-                       rank-eight branches
+next route action:     residual-unit owner-plane coupling below K'=20618;
+                       retain extension weight in rank eight
 ```

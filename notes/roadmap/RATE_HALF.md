@@ -262,6 +262,22 @@ different charts, or use a specific dense-anchor identity to exclude the
 weighted-plane model. Do not spend another cycle optimizing a chart-local
 pair-core inequality against `2578110`.
 
+The weighted fixed-chart incidence inequality does close the high residual
+rows, but a scope audit retracts the former all-row closure. In the same
+`(record,T)` unit, the exact adjacent crossing is
+
+```text
+K'=20617: demand 92386821615379573 < cap 92394042904582935,
+K'=20618: demand 92397581841774591 > cap 92395178310909600.
+```
+
+The demand/cap ratio is a product of ten increasing RS factors, so rank nine
+is absent for `K'>=20618`. It remains open for `10<=K'<=20617`. The old
+low-row argument used the original-row `134944` pair-core floor after reverse
+shortening but compared it with residual `m'`; the deterministic deleted
+locator core invalidates that comparison. Future plane arguments must remain
+in residual units or subtract all deleted common coordinates explicitly.
+
 Canonical `prize` head `859a27a4b` has integrated the rank-eleven chain
 through clone collapse. Upstream PR `#1169` at `b4bad8607` now supplies the
 post-`#1168` reserve repricing, guarded dimension adapter, and chronology

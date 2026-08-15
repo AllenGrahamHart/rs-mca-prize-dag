@@ -2,8 +2,9 @@
 
 ## Input
 
-The weighted fixed nine-subset component demand, the rank-eight
-owner-pair incidence cap, and the preceding uniform rank-nine elimination.
+The weighted fixed nine-subset component demand and the rank-eight
+owner-pair incidence cap. The proof is conditional only on being in the
+rank-eight typed alternative; it does not use elimination of rank nine.
 
 ## Output
 

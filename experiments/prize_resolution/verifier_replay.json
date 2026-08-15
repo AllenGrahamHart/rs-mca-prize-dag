@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_rank8_codimension_one_circuit_shadow_census/verify.py",
-      "seconds": 0.059333,
+      "script": "background/nodes/rate_half_mca_rank11_rank8_weighted_capacity_cut/verify.py",
+      "seconds": 0.026192,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_RANK11_RANK8_CODIMENSION_ONE_CIRCUIT_SHADOW_CENSUS_PASS toy=GF(101) rows=8 petal=1/54/9 controls=8/8\n"
+      "stdout_tail": "RATE_HALF_MCA_RANK11_RANK8_WEIGHTED_CAPACITY_CUT_PASS last_gap=18174297527234 first_gap=36370688210984 controls=7/7\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_rank8_codimension_one_circuit_shadow_census/verify_audit.py",
-      "seconds": 0.06128,
+      "script": "background/nodes/rate_half_mca_rank11_rank8_weighted_capacity_cut/verify_audit.py",
+      "seconds": 0.026206,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_RANK11_RANK8_CODIMENSION_ONE_CIRCUIT_SHADOW_CENSUS_AUDIT_PASS toy=GF(103) circuit_sizes=8 determinants=independent proof_pins=6/6\n"
+      "stdout_tail": "RATE_HALF_MCA_RANK11_RANK8_WEIGHTED_CAPACITY_CUT_AUDIT_PASS last_gap=18174297527234 first_gap=36370688210984 monotone_factors=11/11 proof_pins=3/3\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

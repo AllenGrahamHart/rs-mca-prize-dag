@@ -2,8 +2,7 @@
   "schema": "rate-half-mca-rank11-rank8-weighted-capacity-cut-v1",
   "dependencies": [
     "rate_half_mca_rank11_component_ninesubset_weighted_concentrator",
-    "rate_half_mca_rank11_rank8_owner_pair_weight_cap",
-    "rate_half_mca_rank11_rank9_weighted_target_elimination"
+    "rate_half_mca_rank11_rank8_owner_pair_weight_cap"
   ],
   "parameters": {
     "n_offset": 1048576,
