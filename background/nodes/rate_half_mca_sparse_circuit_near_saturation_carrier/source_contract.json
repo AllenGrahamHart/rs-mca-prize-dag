@@ -1,0 +1,37 @@
+{
+  "schema": "rate-half-mca-sparse-circuit-near-saturation-carrier-v1",
+  "dependencies": [
+    "rate_half_mca_sparse_circuit_completion_dimension_ladder"
+  ],
+  "parameters": {
+    "correction_dimension": 10,
+    "component_size": 11,
+    "support_interval": [2, 4],
+    "near_completion_count_formula": "q-1",
+    "fallback_completion_count_formula": "max_(0<=b<=q-2) b*C(m-c+1-b,11-c)",
+    "carrier_size_formula": "q+2c-2",
+    "vandermonde_union_formula": "q+3c-2",
+    "K22": {
+      "q": 12,
+      "m": 67494,
+      "active_caps": {
+        "2": 26976765544297626187032777583778108529876750,
+        "3": 80942289326850303820580142737960784746097750,
+        "4": 161908567951387946577119676170547680391323000
+      },
+      "old_q_minus_1_caps": {
+        "2": 29670484509721438470107058046569187861230150,
+        "3": 89025962968552905070816025106121374425091425,
+        "4": 178080949976247319068760544937459249350136200
+      },
+      "premium_weights": {
+        "2": 26,
+        "3": 18,
+        "4": 11
+      },
+      "weighted_premium_saving": 393439020925119039272226731095485935384019750
+    }
+  },
+  "claim": "Near-saturated completion hyperplanes give the carrier/fallback dichotomy for support sizes two through four.",
+  "nonclaim": "No support-five improvement, K'=22 payment, active-v4 movement, or prize closure is asserted."
+}

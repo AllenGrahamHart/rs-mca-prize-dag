@@ -1,0 +1,34 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_k22_integral_near_saturation_payment",
+    "title": "Integral near-saturation ledger pays K'=22",
+    "status": "PROVED",
+    "closure": "uniform corank-one cap, integral all-core chart scan, near-saturation circuit caps, and joint shadow payment",
+    "statement": "At K'=22, complete kernel and refined full-rank component capacity is below dense-locator demand by 1232731756628187885277355254597101817411431837269258943471111. Thus no rank-eleven component target remains on K'=10..22, and the rank-nine interval starts at K'=23.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_k22_integral_near_saturation_payment/statement.md",
+      "background/nodes/rate_half_mca_rank11_k22_integral_near_saturation_payment/proof.md",
+      "background/nodes/rate_half_mca_rank11_k22_integral_near_saturation_payment/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_k22_integral_near_saturation_payment/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_k22_integral_near_saturation_payment/attack.md",
+      "background/nodes/rate_half_mca_rank11_k22_integral_near_saturation_payment/audit.md",
+      "background/nodes/rate_half_mca_rank11_k22_integral_near_saturation_payment/result.md",
+      "background/nodes/rate_half_mca_rank11_k22_integral_near_saturation_payment/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_k22_integral_near_saturation_payment/verify.py",
+      "background/nodes/rate_half_mca_rank11_k22_integral_near_saturation_payment/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_k14_k21_sparse_shadow_payment"},
+    {"from": "rate_half_mca_rank11_kernel_projective_paving_integer_gap_fence"},
+    {"from": "rate_half_mca_weighted_split_pencil_integral_heavy_cap"},
+    {"from": "rate_half_mca_sparse_circuit_near_saturation_carrier"},
+    {"from": "rate_half_mca_rank9_sparse_shadow_joint_ledger"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location"}
+  ],
+  "refutes": []
+}

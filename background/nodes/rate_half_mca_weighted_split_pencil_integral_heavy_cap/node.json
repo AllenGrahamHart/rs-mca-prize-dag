@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_weighted_split_pencil_integral_heavy_cap",
+    "title": "Integral heavy-owner weights sharpen split-pencil capacity",
+    "status": "PROVED",
+    "closure": "convex endpoint reduction and exact rational segment certificate",
+    "statement": "The clean dominant-line term in the weighted core-offset split-pencil theorem is bounded by the exact integral heavy-owner maximum. On all thirteen K'=22 core offsets, the largest complete chart cap is 9269974099565290 at j=21.",
+    "refs": [
+      "background/nodes/rate_half_mca_weighted_split_pencil_integral_heavy_cap/statement.md",
+      "background/nodes/rate_half_mca_weighted_split_pencil_integral_heavy_cap/proof.md",
+      "background/nodes/rate_half_mca_weighted_split_pencil_integral_heavy_cap/claim_contract.md",
+      "background/nodes/rate_half_mca_weighted_split_pencil_integral_heavy_cap/dependency_subdag.md",
+      "background/nodes/rate_half_mca_weighted_split_pencil_integral_heavy_cap/attack.md",
+      "background/nodes/rate_half_mca_weighted_split_pencil_integral_heavy_cap/audit.md",
+      "background/nodes/rate_half_mca_weighted_split_pencil_integral_heavy_cap/result.md",
+      "background/nodes/rate_half_mca_weighted_split_pencil_integral_heavy_cap/source_contract.json",
+      "background/nodes/rate_half_mca_weighted_split_pencil_integral_heavy_cap/verify.py",
+      "background/nodes/rate_half_mca_weighted_split_pencil_integral_heavy_cap/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_weighted_split_pencil_core_offset_cap"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_mca_rank11_k22_integral_near_saturation_payment"}
+  ],
+  "refutes": []
+}

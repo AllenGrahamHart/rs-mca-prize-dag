@@ -40417,6 +40417,25 @@
    ]
   },
   {
+   "id": "rate_half_mca_rank11_k22_integral_near_saturation_payment",
+   "title": "Integral near-saturation ledger pays K'=22",
+   "status": "PROVED",
+   "closure": "uniform corank-one cap, integral all-core chart scan, near-saturation circuit caps, and joint shadow payment",
+   "statement": "At K'=22, complete kernel and refined full-rank component capacity is below dense-locator demand by 1232731756628187885277355254597101817411431837269258943471111. Thus no rank-eleven component target remains on K'=10..22, and the rank-nine interval starts at K'=23.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_k22_integral_near_saturation_payment/statement.md",
+    "background/nodes/rate_half_mca_rank11_k22_integral_near_saturation_payment/proof.md",
+    "background/nodes/rate_half_mca_rank11_k22_integral_near_saturation_payment/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_k22_integral_near_saturation_payment/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_k22_integral_near_saturation_payment/attack.md",
+    "background/nodes/rate_half_mca_rank11_k22_integral_near_saturation_payment/audit.md",
+    "background/nodes/rate_half_mca_rank11_k22_integral_near_saturation_payment/result.md",
+    "background/nodes/rate_half_mca_rank11_k22_integral_near_saturation_payment/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_k22_integral_near_saturation_payment/verify.py",
+    "background/nodes/rate_half_mca_rank11_k22_integral_near_saturation_payment/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_mca_rank11_kernel_canonical_basis_globalizer",
    "title": "Canonical rank bases globalize every fixed kernel chart",
    "status": "PROVED",
@@ -41430,6 +41449,25 @@
    ]
   },
   {
+   "id": "rate_half_mca_sparse_circuit_near_saturation_carrier",
+   "title": "Near-saturated sparse completions force a carrier",
+   "status": "PROVED",
+   "closure": "quotient-hyperplane carrier and Vandermonde representation uniqueness",
+   "statement": "In the no-q-completion branch, each support size 2<=c<=4 either has at most q-2 completions per deletion or all support-c circuits lie in one carrier of size at most q+2c-2. This gives the exact near-saturation cap used at K'=22.",
+   "refs": [
+    "background/nodes/rate_half_mca_sparse_circuit_near_saturation_carrier/statement.md",
+    "background/nodes/rate_half_mca_sparse_circuit_near_saturation_carrier/proof.md",
+    "background/nodes/rate_half_mca_sparse_circuit_near_saturation_carrier/claim_contract.md",
+    "background/nodes/rate_half_mca_sparse_circuit_near_saturation_carrier/dependency_subdag.md",
+    "background/nodes/rate_half_mca_sparse_circuit_near_saturation_carrier/attack.md",
+    "background/nodes/rate_half_mca_sparse_circuit_near_saturation_carrier/audit.md",
+    "background/nodes/rate_half_mca_sparse_circuit_near_saturation_carrier/result.md",
+    "background/nodes/rate_half_mca_sparse_circuit_near_saturation_carrier/source_contract.json",
+    "background/nodes/rate_half_mca_sparse_circuit_near_saturation_carrier/verify.py",
+    "background/nodes/rate_half_mca_sparse_circuit_near_saturation_carrier/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_mca_weighted_split_pencil_core_offset_cap",
    "title": "Weighted split-pencil capacity with a common-core offset",
    "status": "PROVED",
@@ -41446,6 +41484,25 @@
     "background/nodes/rate_half_mca_weighted_split_pencil_core_offset_cap/source_contract.json",
     "background/nodes/rate_half_mca_weighted_split_pencil_core_offset_cap/verify.py",
     "background/nodes/rate_half_mca_weighted_split_pencil_core_offset_cap/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_mca_weighted_split_pencil_integral_heavy_cap",
+   "title": "Integral heavy-owner weights sharpen split-pencil capacity",
+   "status": "PROVED",
+   "closure": "convex endpoint reduction and exact rational segment certificate",
+   "statement": "The clean dominant-line term in the weighted core-offset split-pencil theorem is bounded by the exact integral heavy-owner maximum. On all thirteen K'=22 core offsets, the largest complete chart cap is 9269974099565290 at j=21.",
+   "refs": [
+    "background/nodes/rate_half_mca_weighted_split_pencil_integral_heavy_cap/statement.md",
+    "background/nodes/rate_half_mca_weighted_split_pencil_integral_heavy_cap/proof.md",
+    "background/nodes/rate_half_mca_weighted_split_pencil_integral_heavy_cap/claim_contract.md",
+    "background/nodes/rate_half_mca_weighted_split_pencil_integral_heavy_cap/dependency_subdag.md",
+    "background/nodes/rate_half_mca_weighted_split_pencil_integral_heavy_cap/attack.md",
+    "background/nodes/rate_half_mca_weighted_split_pencil_integral_heavy_cap/audit.md",
+    "background/nodes/rate_half_mca_weighted_split_pencil_integral_heavy_cap/result.md",
+    "background/nodes/rate_half_mca_weighted_split_pencil_integral_heavy_cap/source_contract.json",
+    "background/nodes/rate_half_mca_weighted_split_pencil_integral_heavy_cap/verify.py",
+    "background/nodes/rate_half_mca_weighted_split_pencil_integral_heavy_cap/verify_audit.py"
    ]
   },
   {
@@ -78328,6 +78385,16 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_mca_rank11_k14_k21_sparse_shadow_payment",
+   "to": "rate_half_mca_rank11_k22_integral_near_saturation_payment",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_k22_integral_near_saturation_payment",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_mca_rank11_kernel_canonical_basis_globalizer",
    "to": "rate_half_mca_rank11_kernel_corank1_projective_pair_cap",
    "kind": "req"
@@ -78580,6 +78647,11 @@
   {
    "from": "rate_half_mca_rank11_kernel_projective_pair_capacity_cut",
    "to": "rate_half_mca_rank11_kernel_corank2_projective_capacity_cut",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_kernel_projective_paving_integer_gap_fence",
+   "to": "rate_half_mca_rank11_k22_integral_near_saturation_payment",
    "kind": "req"
   },
   {
@@ -79048,6 +79120,11 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_mca_rank9_sparse_shadow_joint_ledger",
+   "to": "rate_half_mca_rank11_k22_integral_near_saturation_payment",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_mca_sparse_circuit_completion_dimension_ladder",
    "to": "rate_half_mca_rank11_k14_k21_sparse_shadow_payment",
    "kind": "ev"
@@ -79055,6 +79132,21 @@
   {
    "from": "rate_half_mca_sparse_circuit_completion_dimension_ladder",
    "to": "rate_half_mca_rank11_k14_k21_sparse_shadow_payment",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_sparse_circuit_completion_dimension_ladder",
+   "to": "rate_half_mca_sparse_circuit_near_saturation_carrier",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_sparse_circuit_near_saturation_carrier",
+   "to": "rate_half_mca_rank11_k22_integral_near_saturation_payment",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_sparse_circuit_near_saturation_carrier",
+   "to": "rate_half_mca_rank11_k22_integral_near_saturation_payment",
    "kind": "req"
   },
   {
@@ -79130,6 +79222,21 @@
   {
    "from": "rate_half_mca_weighted_split_pencil_core_offset_cap",
    "to": "rate_half_mca_rank11_k14_k21_sparse_shadow_payment",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_weighted_split_pencil_core_offset_cap",
+   "to": "rate_half_mca_weighted_split_pencil_integral_heavy_cap",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_weighted_split_pencil_integral_heavy_cap",
+   "to": "rate_half_mca_rank11_k22_integral_near_saturation_payment",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_weighted_split_pencil_integral_heavy_cap",
+   "to": "rate_half_mca_rank11_k22_integral_near_saturation_payment",
    "kind": "req"
   },
   {

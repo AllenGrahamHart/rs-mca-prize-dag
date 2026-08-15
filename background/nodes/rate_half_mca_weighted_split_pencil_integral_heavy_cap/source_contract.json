@@ -1,0 +1,65 @@
+{
+  "schema": "rate-half-mca-weighted-split-pencil-integral-heavy-cap-v1",
+  "dependencies": [
+    "rate_half_mca_weighted_split_pencil_core_offset_cap"
+  ],
+  "parameters": {
+    "K_prime": 22,
+    "core_interval": [9, 21],
+    "petal_mass_formula": "67494-core",
+    "total_mass_formula": "1048598-core",
+    "offset_formula": "core-9",
+    "extreme_owner_count": 8,
+    "clean_caps": {
+      "9": 9266835210014096,
+      "10": 9266962726721504,
+      "11": 9267090239359176,
+      "12": 9267217747926944,
+      "13": 9267345252424640,
+      "14": 9267472752852096,
+      "15": 9267600249209144,
+      "16": 9267727741495616,
+      "17": 9267855229711344,
+      "18": 9267982713856160,
+      "19": 9268110193929896,
+      "20": 9268237669932384,
+      "21": 9268365141863456
+    },
+    "chart_caps": {
+      "9": 9268443789229752,
+      "10": 9268571337475598,
+      "11": 9268698881652085,
+      "12": 9268826421759046,
+      "13": 9268953957796313,
+      "14": 9269081489763717,
+      "15": 9269209017661091,
+      "16": 9269336541488266,
+      "17": 9269464061245076,
+      "18": 9269591576931350,
+      "19": 9269719088546923,
+      "20": 9269846596091625,
+      "21": 9269974099565290
+    },
+    "light_mass_maximizers": {
+      "9": 508717,
+      "10": 508724,
+      "11": 508731,
+      "12": 508738,
+      "13": 508745,
+      "14": 508752,
+      "15": 508759,
+      "16": 508766,
+      "17": 508773,
+      "18": 508780,
+      "19": 508787,
+      "20": 508794,
+      "21": 508801
+    },
+    "uniform_chart_cap": 9269974099565290,
+    "maximizing_core": 21,
+    "old_uniform_chart_cap": 9287934561540848,
+    "chart_saving": 17960461975558
+  },
+  "claim": "Integral heavy-owner convexity sharpens every K'=22 core-offset split-pencil chart and gives uniform cap 9269974099565290.",
+  "nonclaim": "The cap alone does not pay K'=22, move an active-v4 atom, or close KoalaBear."
+}

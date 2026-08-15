@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_sparse_circuit_near_saturation_carrier",
+    "title": "Near-saturated sparse completions force a carrier",
+    "status": "PROVED",
+    "closure": "quotient-hyperplane carrier and Vandermonde representation uniqueness",
+    "statement": "In the no-q-completion branch, each support size 2<=c<=4 either has at most q-2 completions per deletion or all support-c circuits lie in one carrier of size at most q+2c-2. This gives the exact near-saturation cap used at K'=22.",
+    "refs": [
+      "background/nodes/rate_half_mca_sparse_circuit_near_saturation_carrier/statement.md",
+      "background/nodes/rate_half_mca_sparse_circuit_near_saturation_carrier/proof.md",
+      "background/nodes/rate_half_mca_sparse_circuit_near_saturation_carrier/claim_contract.md",
+      "background/nodes/rate_half_mca_sparse_circuit_near_saturation_carrier/dependency_subdag.md",
+      "background/nodes/rate_half_mca_sparse_circuit_near_saturation_carrier/attack.md",
+      "background/nodes/rate_half_mca_sparse_circuit_near_saturation_carrier/audit.md",
+      "background/nodes/rate_half_mca_sparse_circuit_near_saturation_carrier/result.md",
+      "background/nodes/rate_half_mca_sparse_circuit_near_saturation_carrier/source_contract.json",
+      "background/nodes/rate_half_mca_sparse_circuit_near_saturation_carrier/verify.py",
+      "background/nodes/rate_half_mca_sparse_circuit_near_saturation_carrier/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_sparse_circuit_completion_dimension_ladder"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_mca_rank11_k22_integral_near_saturation_payment"}
+  ],
+  "refutes": []
+}

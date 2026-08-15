@@ -1,0 +1,54 @@
+{
+  "schema": "rate-half-mca-rank11-k22-integral-near-saturation-payment-v1",
+  "dependencies": [
+    "rate_half_mca_rank11_k14_k21_sparse_shadow_payment",
+    "rate_half_mca_rank11_kernel_projective_paving_integer_gap_fence",
+    "rate_half_mca_weighted_split_pencil_integral_heavy_cap",
+    "rate_half_mca_sparse_circuit_near_saturation_carrier",
+    "rate_half_mca_rank9_sparse_shadow_joint_ledger"
+  ],
+  "parameters": {
+    "K_prime": 22,
+    "n_prime": 1048598,
+    "m_prime": 67494,
+    "quotient_dimension": 12,
+    "residual_record_floor": 274980728111260126,
+    "component_density_numerator": 990810934,
+    "component_density_denominator": 1000000000,
+    "uniform_corank_one_record_cap": 8147918,
+    "kernel_capacity": 2273421575008467450492290640797843465217921029627020608340,
+    "uniform_rank9_chart_cap": 9269974099565290,
+    "maximizing_core": 21,
+    "global_rank9_mark_capacity": 39154510888407363352144142841152217924627132772903654230071396600,
+    "structured_sparse_caps": {
+      "2": 9604112372197883710208795452464250627200,
+      "3": 5976600480535635569086253318963707200,
+      "4": 2302404950199678843049333782179200,
+      "5": 573127917667130012790469810944
+    },
+    "refined_unstructured_sparse_caps": {
+      "2": 26976765544297626187032777583778108529876750,
+      "3": 80942289326850303820580142737960784746097750,
+      "4": 161908567951387946577119676170547680391323000,
+      "5": 249353970847446220150824023617719132736307931
+    },
+    "premium_weights": {
+      "2": 26,
+      "3": 18,
+      "4": 11,
+      "5": 5
+    },
+    "structured_premium": 249814525815114709690475157930435816062720,
+    "active_refined_premium": 5186121213737542262735731342426145095192647655,
+    "full_rank_capacity": 901790983907425884981637631119717314733273741651299178720895580,
+    "total_capacity": 901793257329000893449088123410358112576738959572328805741503920,
+    "required_incidence": 903025989085629081334365478664955214394150391409598064684975031,
+    "demand_capacity_gap": 1232731756628187885277355254597101817411431837269258943471111,
+    "record_coefficient_cross": 142592124149011960898547706352746409135803204672329212960,
+    "floor_record_raw_cross": 55472929048268454837480986456869581783514432677116652456199927410432960,
+    "new_closed_prefix": [10, 22],
+    "remaining_rank9_interval": [23, 15528]
+  },
+  "claim": "Complete rank-eleven component capacity is strictly below demand at K'=22.",
+  "nonclaim": "No K'>=23 row, rank-eight chronology, active-v4 movement, KoalaBear closure, or prize closure is asserted."
+}
