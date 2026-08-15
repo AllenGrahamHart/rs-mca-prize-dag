@@ -1,0 +1,31 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_kernel_corank3_projective_basis_cap",
+    "title": "Projective normal bases cut the corank-three record cap",
+    "status": "PROVED",
+    "closure": "exact spanning-cap projective quadruple incidence count",
+    "statement": "In the complete shortened corank-three chart (n,K,m,s)=(1048579,3,67475,3), support-local transversality gives a spanning set of distinct projective points in PG(3) with no three collinear. Every record therefore owns at least 1228711865141376 ordered independent coordinate quadruples, so there are at most 983902549 records.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_kernel_corank3_projective_basis_cap/statement.md",
+      "background/nodes/rate_half_mca_rank11_kernel_corank3_projective_basis_cap/proof.md",
+      "background/nodes/rate_half_mca_rank11_kernel_corank3_projective_basis_cap/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_kernel_corank3_projective_basis_cap/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_kernel_corank3_projective_basis_cap/attack.md",
+      "background/nodes/rate_half_mca_rank11_kernel_corank3_projective_basis_cap/audit.md",
+      "background/nodes/rate_half_mca_rank11_kernel_corank3_projective_basis_cap/result.md",
+      "background/nodes/rate_half_mca_rank11_kernel_corank3_projective_basis_cap/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_kernel_corank3_projective_basis_cap/verify.py",
+      "background/nodes/rate_half_mca_rank11_kernel_corank3_projective_basis_cap/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_kernel_canonical_basis_globalizer"},
+    {"from": "rate_half_mca_support_local_transversality_compiler"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_mca_rank11_kernel_corank3_projective_capacity_cut"}
+  ],
+  "refutes": []
+}
