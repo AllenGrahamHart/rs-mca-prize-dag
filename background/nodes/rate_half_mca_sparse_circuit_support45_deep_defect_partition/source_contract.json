@@ -1,0 +1,99 @@
+{
+  "schema": "rate-half-mca-sparse-circuit-support45-deep-defect-partition-v1",
+  "dependencies": [
+    "rate_half_mca_sparse_circuit_completion_branch_lattice_refinement",
+    "rate_half_mca_sparse_circuit_support45_joint_zero_carrier",
+    "rate_half_mca_sparse_circuit_support4_external_charge"
+  ],
+  "parameters": {
+    "source_supports": [
+      4,
+      5
+    ],
+    "empty_stratum_convention": "M_c=0",
+    "completion_maximum_range": "0<=M_c<=q",
+    "exact_defect": "s_c=q-M_c",
+    "exact_defect_range": "0<=s_c<=q",
+    "exact_pair_count": "(q+1)^2",
+    "joint_condition": "s_4+s_5<q",
+    "joint_pair_count": "q(q+1)/2",
+    "source_cap": "floor(C(m,c-1)max_(0<=b<=q-s_c)bC(m-c+1-b,11-c)/c)",
+    "pareto_rule": "discard a only if another b satisfies a_c<=b_c for every support",
+    "rows": {
+      "46": {
+        "q": 36,
+        "exact_pair_count": 1369,
+        "joint_eligible_pair_count": 666,
+        "nonjoint_pair_count": 703,
+        "other_support_option_product": 8640,
+        "raw_leaf_count": 11828160
+      },
+      "47": {
+        "q": 37,
+        "exact_pair_count": 1444,
+        "joint_eligible_pair_count": 703,
+        "nonjoint_pair_count": 741,
+        "other_support_option_product": 8640,
+        "raw_leaf_count": 12476160
+      },
+      "48": {
+        "q": 38,
+        "exact_pair_count": 1521,
+        "joint_eligible_pair_count": 741,
+        "nonjoint_pair_count": 780,
+        "other_support_option_product": 8640,
+        "raw_leaf_count": 13141440
+      },
+      "49": {
+        "q": 39,
+        "exact_pair_count": 1600,
+        "joint_eligible_pair_count": 780,
+        "nonjoint_pair_count": 820,
+        "other_support_option_product": 8640,
+        "raw_leaf_count": 13824000
+      },
+      "50": {
+        "q": 40,
+        "exact_pair_count": 1681,
+        "joint_eligible_pair_count": 820,
+        "nonjoint_pair_count": 861,
+        "other_support_option_product": 8640,
+        "raw_leaf_count": 14523840
+      },
+      "51": {
+        "q": 41,
+        "exact_pair_count": 1764,
+        "joint_eligible_pair_count": 861,
+        "nonjoint_pair_count": 903,
+        "other_support_option_product": 8640,
+        "raw_leaf_count": 15240960
+      },
+      "52": {
+        "q": 42,
+        "exact_pair_count": 1849,
+        "joint_eligible_pair_count": 903,
+        "nonjoint_pair_count": 946,
+        "other_support_option_product": 8640,
+        "raw_leaf_count": 15975360
+      },
+      "53": {
+        "q": 43,
+        "exact_pair_count": 1936,
+        "joint_eligible_pair_count": 946,
+        "nonjoint_pair_count": 990,
+        "other_support_option_product": 8640,
+        "raw_leaf_count": 16727040
+      },
+      "54": {
+        "q": 44,
+        "exact_pair_count": 2025,
+        "joint_eligible_pair_count": 990,
+        "nonjoint_pair_count": 1035,
+        "other_support_option_product": 8640,
+        "raw_leaf_count": 17496000
+      }
+    }
+  },
+  "claim": "Exact deep defects at supports four and five preserve every inherited cap and expose the joint charge whenever s_4+s_5<q.",
+  "nonclaim": "No row, rank-eight, rank-eleven, KoalaBear, or prize closure is asserted."
+}

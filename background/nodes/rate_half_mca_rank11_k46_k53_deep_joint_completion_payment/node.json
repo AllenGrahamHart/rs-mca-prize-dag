@@ -1,0 +1,31 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_k46_k53_deep_joint_completion_payment",
+    "title": "Deep joint completion payment closes K'=46..53",
+    "status": "PROVED",
+    "closure": "exact support-four/support-five defects, joint external charge, Pareto-complete other-support product, all-core chart, every kernel corank, full shadow ledger, and sharp isolated demand",
+    "statement": "Exact deep support-four/support-five defects and the joint external charge make exact component demand exceed complete capacity on every row K'=46..53. The smallest gap is 2503373059664320603163477388007627909210651834842589498907998 at K'=53; the same payment first fails at K'=54.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_k46_k53_deep_joint_completion_payment/statement.md",
+      "background/nodes/rate_half_mca_rank11_k46_k53_deep_joint_completion_payment/proof.md",
+      "background/nodes/rate_half_mca_rank11_k46_k53_deep_joint_completion_payment/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_k46_k53_deep_joint_completion_payment/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_k46_k53_deep_joint_completion_payment/attack.md",
+      "background/nodes/rate_half_mca_rank11_k46_k53_deep_joint_completion_payment/audit.md",
+      "background/nodes/rate_half_mca_rank11_k46_k53_deep_joint_completion_payment/result.md",
+      "background/nodes/rate_half_mca_rank11_k46_k53_deep_joint_completion_payment/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_k46_k53_deep_joint_completion_payment/verify.py",
+      "background/nodes/rate_half_mca_rank11_k46_k53_deep_joint_completion_payment/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_k45_full_completion_product_payment"},
+    {"from": "rate_half_mca_sparse_circuit_support45_deep_defect_partition"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location"}
+  ],
+  "refutes": []
+}

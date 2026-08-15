@@ -1,0 +1,32 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_sparse_circuit_support45_deep_defect_partition",
+    "title": "Deep support-four/support-five defects partition exactly",
+    "status": "PROVED",
+    "closure": "exact completion-maximum defects, inherited-cap intersection, joint-carrier eligibility, and Pareto-safe compression",
+    "statement": "The support-four and support-five completion maxima admit (q+1)^2 exact defect pairs. Every pair retains all source and cross-support caps, and pairs with s_4+s_5<q also retain the joint zero-carrier external charge. Componentwise dominated branch vectors can be removed without changing any nonnegative weighted maximum.",
+    "refs": [
+      "background/nodes/rate_half_mca_sparse_circuit_support45_deep_defect_partition/statement.md",
+      "background/nodes/rate_half_mca_sparse_circuit_support45_deep_defect_partition/proof.md",
+      "background/nodes/rate_half_mca_sparse_circuit_support45_deep_defect_partition/claim_contract.md",
+      "background/nodes/rate_half_mca_sparse_circuit_support45_deep_defect_partition/dependency_subdag.md",
+      "background/nodes/rate_half_mca_sparse_circuit_support45_deep_defect_partition/attack.md",
+      "background/nodes/rate_half_mca_sparse_circuit_support45_deep_defect_partition/audit.md",
+      "background/nodes/rate_half_mca_sparse_circuit_support45_deep_defect_partition/result.md",
+      "background/nodes/rate_half_mca_sparse_circuit_support45_deep_defect_partition/source_contract.json",
+      "background/nodes/rate_half_mca_sparse_circuit_support45_deep_defect_partition/verify.py",
+      "background/nodes/rate_half_mca_sparse_circuit_support45_deep_defect_partition/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_sparse_circuit_completion_branch_lattice_refinement"},
+    {"from": "rate_half_mca_sparse_circuit_support45_joint_zero_carrier"},
+    {"from": "rate_half_mca_sparse_circuit_support4_external_charge"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_mca_rank11_k46_k53_deep_joint_completion_payment"}
+  ],
+  "refutes": []
+}
