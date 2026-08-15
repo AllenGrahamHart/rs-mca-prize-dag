@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_rank9_exact_petal_partition_capacity_cut",
+    "title": "Exact residual petal packing excludes rank nine from K'=15529",
+    "status": "PROVED",
+    "closure": "convex integer petal packing, finite quotient-block endpoint certificate, and monotone boundary crossing",
+    "statement": "Exact packing of the disjoint residual owner petals gives W_B<=981105*(1048577*K'+34798536326) on 10<=K'<=15634. The weighted selector demand first exceeds this cap at K'=15529, closing 15529..15634. Together with the preceding higher-row cuts, rank nine remains only on 10..15528.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_rank9_exact_petal_partition_capacity_cut/statement.md",
+      "background/nodes/rate_half_mca_rank11_rank9_exact_petal_partition_capacity_cut/proof.md",
+      "background/nodes/rate_half_mca_rank11_rank9_exact_petal_partition_capacity_cut/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_rank9_exact_petal_partition_capacity_cut/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_rank9_exact_petal_partition_capacity_cut/attack.md",
+      "background/nodes/rate_half_mca_rank11_rank9_exact_petal_partition_capacity_cut/audit.md",
+      "background/nodes/rate_half_mca_rank11_rank9_exact_petal_partition_capacity_cut/result.md",
+      "background/nodes/rate_half_mca_rank11_rank9_exact_petal_partition_capacity_cut/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_rank9_exact_petal_partition_capacity_cut/verify.py",
+      "background/nodes/rate_half_mca_rank11_rank9_exact_petal_partition_capacity_cut/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_rank9_residual_petal_capacity_cut"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location"}
+  ],
+  "refutes": []
+}
