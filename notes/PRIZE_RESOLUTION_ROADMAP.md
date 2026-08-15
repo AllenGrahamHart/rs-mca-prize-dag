@@ -40368,3 +40368,164 @@ compute:               constant-memory exact integers under RAMguard
 next route action:     exploit cross-chart incidence or a second owner
                        resource on the surviving low interval
 ```
+# Cycle 349: MCA rank-11 minimal-row split-pencil payment (2026-08-15)
+
+Cycle 348 optimized owner petals independently and left the low interval
+`10<=K'<=15528`. At the minimal row, exact correction-space rank and the
+selected-support incidence geometry provide a second owner resource.
+
+## Abstract weighted split-pencil theorem
+
+Let owner petals have weights `s_p<=A-1` and total at most `S`. On each
+distinct affine record line, let the chosen support induce masses
+`x_(L,p)<=s_p` of exact total `A`, and charge
+
+```text
+Q_L=sum_p C(x_(L,p),2).
+```
+
+Split lines into three classes. Balanced selected partitions inject their
+cross-petal coordinate pairs globally. A selected dominant line with only
+one globally heavy owner consumes disjoint light mass through that owner;
+the clean-line inequality has exact slack
+
+```text
+(d-1)(d+s)(s-1),       d=A-s.
+```
+
+Lines containing two globally heavy owners inject into heavy-owner pairs.
+This proves
+
+```text
+sum_L Q_L
+ <=floor((A-2)S^2/8)+C(S,2)+C(h,2)C(A-1,2),
+h=floor(S/(floor(A/2)+1)).
+```
+
+The theorem uses each record's chosen support and does not assume absence of
+accidental agreements outside it.
+
+## Minimal-row application
+
+At `K'=10`, saturation gives `V'=F[X]_<10`. Every eleven-set has evaluation
+rank ten and every nine-set rank nine. Thus the complete component density
+`990810934/10^9` enters rank-nine owner planes; no half-lane loss remains.
+Moreover the nine-set kernel locator has exactly those nine domain roots, so
+`J=B` and every marked extension uses two coordinates from one owner petal.
+
+With
+
+```text
+A=67473,       S=1048577,       h=31,
+```
+
+the three capacity terms are
+
+```text
+9273161316835569,
+    549756338176,
+   1058433770040,
+```
+
+for total `9274769506943785`. Full-density weighted averaging gives demand
+`11736940042024039`, exceeding capacity by `2462170535080254`. Rank nine is
+therefore impossible at `K'=10`; dimension equality also excludes the
+rank-eight and kernel alternatives there.
+
+The primary and independent certificates pass. The abstract audit exhausts
+281,827 weighted affine-plane instances over `F_3` and 1,260 deterministic
+`F_5` instances while retaining every rich line.
+
+```text
+result:                PROVED rank-nine closure at K'=10
+newly closed rows:     10
+remaining rank nine:  11..15528
+new premise:           none
+compute:               constant-memory exact integers under RAMguard
+next route action:     attack K'=11, where rank-eight and kernel charts
+                       return; couple the one-dimensional correction
+                       quotient to the selected-support split-pencil cap
+```
+# Cycle 350: MCA rank-11 K'=11 circuit/split-pencil payment (2026-08-15)
+
+Cycle 349 closed the minimal row `K'=10`.  The next row has a
+ten-dimensional correction hyperplane in `RS_{<11}` and admits the proved
+eight-petal fixed-chart witness, so another chart-local record cap cannot
+work.  This cycle retains every neighboring nine-shadow and the one global
+hyperplane functional.
+
+## Core-offset selected-support cap
+
+For selected petal mass `P`, common-core offset `r`, owner weights
+`s_p<=P-1`, and total mass `S`, the new abstract theorem bounds
+
+```text
+sum_L [sum_p C(x_(L,p),2)+rP]
+```
+
+by three explicit terms.  Balanced lines pay their offset using the line
+count forced by cross charge `X_L>=floor(P^2/4)`.  Clean dominant lines pay
+through disjoint light mass and the existing exact slack factorization;
+heavy-collision lines inject into heavy-owner pairs.
+
+At `K'=11`, a rank-nine chart has common core `j in {9,10}`.  The two exact
+caps are
+
+```text
+j=9:  9274924665987729,
+j=10: 9275866238180030.
+```
+
+Thus every rank-nine nine-shadow has uniform capacity
+`C_*=9275866238180030`.
+
+## Circuit payment
+
+Every component eleven-set has rank ten and one circuit `C_T`.  If
+`|C_T|>=6`, it has at least 45 rank-nine shadows, so all high-circuit
+incidences together are at most `C(n',9)C_*/45`.
+
+If `|C_T|<=5`, its circuit is a support of one representation of the global
+functional cutting out `V'`.  Two such supports have union size at most ten;
+Vandermonde independence forces the representations to be identical.  All
+low-circuit incidences therefore contain one fixed support `C_*`, and one
+record contributes at most `C(m'-1,10)` of them.
+
+At the minimum record count, high plus low capacity is
+
+```text
+870719390190680409022824387604193486699840723094988553120053384,
+```
+
+whereas full dense-locator incidence requires
+
+```text
+901408286315387898338134887980054663001598216883356906995509296.
+```
+
+The gap is
+
+```text
+30688896124707489315310500375861176301757493788368353875455912.
+```
+
+Its record coefficient is positive, so the contradiction persists for every
+allowed larger record count.  The fixed-chart eight-petal witness is not
+refuted: its full circuit creates 54 neighboring rank-nine shadows, which are
+now charged globally.
+
+The abstract audit tested 845,481 exhaustive weighted `F_3` instances and
+2,240 deterministic `F_5` instances in one 512 MB Modal container.  Primary
+and independent application replays checked 8,099 Vandermonde subsets, all
+605 circuit-shadow omissions, exact arithmetic, and hostile mutations.
+
+```text
+result:                PROVED K'=11 component-row closure
+newly closed row:      11
+remaining rank nine:  12..15528
+new nodes:             2 PROVED
+new premise:           none
+compute:               exhaustive toy audit on Modal; exact arithmetic local
+next route action:     K'=12 codimension-two quotient-support census and
+                       core offsets j=9,10,11
+```

@@ -1,0 +1,34 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_k11_circuit_split_pencil_payment",
+    "title": "Circuit shadows and split-pencil capacity pay K'=11",
+    "status": "PROVED",
+    "closure": "rank-nine shadow capacity for large circuits and Vandermonde coalescence for sparse circuits",
+    "statement": "At K'=11 every component eleven-set has rank ten. Circuits of size at least six force at least 45 rank-nine shadows, while all circuits of size at most five coalesce to one fixed support. The resulting total capacity is below full component-incidence demand by 30688896124707489315310500375861176301757493788368353875455912, closing the row and leaving rank nine on 12<=K'<=15528.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_k11_circuit_split_pencil_payment/statement.md",
+      "background/nodes/rate_half_mca_rank11_k11_circuit_split_pencil_payment/proof.md",
+      "background/nodes/rate_half_mca_rank11_k11_circuit_split_pencil_payment/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_k11_circuit_split_pencil_payment/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_k11_circuit_split_pencil_payment/attack.md",
+      "background/nodes/rate_half_mca_rank11_k11_circuit_split_pencil_payment/audit.md",
+      "background/nodes/rate_half_mca_rank11_k11_circuit_split_pencil_payment/result.md",
+      "background/nodes/rate_half_mca_rank11_k11_circuit_split_pencil_payment/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_k11_circuit_split_pencil_payment/verify.py",
+      "background/nodes/rate_half_mca_rank11_k11_circuit_split_pencil_payment/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_dense_locator_component_incidence_dichotomy"},
+    {"from": "rate_half_mca_rank11_dense_root_highspan_saturation"},
+    {"from": "rate_half_mca_rank11_rank8_codimension_one_circuit_shadow_census"},
+    {"from": "rate_half_mca_rank11_rank9_residual_petal_capacity_cut"},
+    {"from": "rate_half_mca_weighted_split_pencil_core_offset_cap"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location"}
+  ],
+  "refutes": []
+}

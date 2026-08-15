@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_rank9_minimal_shortening_split_pencil_payment/verify.py",
-      "seconds": 0.026195,
+      "script": "background/nodes/rate_half_mca_rank11_k11_circuit_split_pencil_payment/verify.py",
+      "seconds": 0.024053,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "PASS K10 split-pencil payment primary: capacity 9274769506943785, demand 11736940042024039, gap 2462170535080254, 8/8 hostile mutations\n"
+      "stdout_tail": "PASS K11 circuit split-pencil payment primary: chart_cap 9275866238180030, demand 901408286315387898338134887980054663001598216883356906995509296, capacity 870719390190680409022824387604193486699840723094988553120053384, gap 30688896124707489315310500375861176301757493788368353875455912, 12/12 hostile mutations\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_rank9_minimal_shortening_split_pencil_payment/verify_audit.py",
-      "seconds": 0.024015,
+      "script": "background/nodes/rate_half_mca_rank11_k11_circuit_split_pencil_payment/verify_audit.py",
+      "seconds": 0.307878,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "PASS K10 split-pencil payment audit: two marking formulas, three cap terms, 8 Vandermonde ranks\n"
+      "stdout_tail": "PASS K11 circuit split-pencil payment audit: 8099 Vandermonde subsets, 605 shadow omissions, gap 30688896124707489315310500375861176301757493788368353875455912\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

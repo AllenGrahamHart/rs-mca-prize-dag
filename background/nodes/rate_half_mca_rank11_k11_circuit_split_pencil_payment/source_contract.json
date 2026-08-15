@@ -1,0 +1,40 @@
+{
+  "schema": "rate-half-mca-rank11-k11-circuit-split-pencil-payment-v1",
+  "dependencies": [
+    "rate_half_mca_rank11_dense_locator_component_incidence_dichotomy",
+    "rate_half_mca_rank11_dense_root_highspan_saturation",
+    "rate_half_mca_rank11_rank8_codimension_one_circuit_shadow_census",
+    "rate_half_mca_rank11_rank9_residual_petal_capacity_cut",
+    "rate_half_mca_weighted_split_pencil_core_offset_cap"
+  ],
+  "parameters": {
+    "K_prime": 11,
+    "n_prime": 1048587,
+    "m_prime": 67483,
+    "correction_dimension": 10,
+    "ambient_RS_dimension": 11,
+    "component_density_numerator": 990810934,
+    "component_density_denominator": 1000000000,
+    "residual_record_floor": 274980728111260126,
+    "rank9_core_sizes": [9, 10],
+    "rank9_core_caps": [9274924665987729, 9275866238180030],
+    "uniform_rank9_chart_cap": 9275866238180030,
+    "global_rank9_mark_capacity": 39175699244380414710274828706724897216747022733515052264273968850,
+    "high_circuit_threshold": 6,
+    "minimum_high_circuit_rank9_shadows": 45,
+    "high_circuit_incidence_cap": 870571094319564771339440637927219938149933838522556716983865974,
+    "low_circuit_support_ceiling": 5,
+    "low_circuit_support_coalesces": true,
+    "low_circuit_per_record_cap_formula": "C(m_prime-1,10)",
+    "low_circuit_incidence_cap_at_record_floor": 148295871115637683383749676973548549906884572431836136187410,
+    "total_capacity_at_record_floor": 870719390190680409022824387604193486699840723094988553120053384,
+    "required_incidence_at_record_floor": 901408286315387898338134887980054663001598216883356906995509296,
+    "demand_capacity_gap": 30688896124707489315310500375861176301757493788368353875455912,
+    "raw_demand_capacity_cross": 30688896124707489315310500375861176301757493788368353875455911063095820,
+    "record_coefficient_cross": 3277538744750188045701745970410737654908675596614324570,
+    "newly_closed_rows": [11, 11],
+    "remaining_rank9_interval": [12, 15528]
+  },
+  "claim": "At K'=11, circuit-shadow rank-nine capacity plus coalesced sparse-circuit capacity is strictly below the full dense-locator component-incidence demand.",
+  "nonclaim": "No row K'>=12, chronology owner, active-v4 ledger movement, KoalaBear closure, or prize closure is asserted."
+}

@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_weighted_split_pencil_core_offset_cap",
+    "title": "Weighted split-pencil capacity with a common-core offset",
+    "status": "PROVED",
+    "closure": "balanced line-count offset, clean dominant light-mass payment, and heavy-pair collision census",
+    "statement": "For distinct affine lines carrying selected petal mass P, owner weights at most P-1 and total S, the charge sum_p C(x_Lp,2)+rP is bounded by the printed balanced, clean-dominant, and heavy-collision capacity. The K'=11 specializations have uniform maximum 9275866238180030.",
+    "refs": [
+      "background/nodes/rate_half_mca_weighted_split_pencil_core_offset_cap/statement.md",
+      "background/nodes/rate_half_mca_weighted_split_pencil_core_offset_cap/proof.md",
+      "background/nodes/rate_half_mca_weighted_split_pencil_core_offset_cap/claim_contract.md",
+      "background/nodes/rate_half_mca_weighted_split_pencil_core_offset_cap/dependency_subdag.md",
+      "background/nodes/rate_half_mca_weighted_split_pencil_core_offset_cap/attack.md",
+      "background/nodes/rate_half_mca_weighted_split_pencil_core_offset_cap/audit.md",
+      "background/nodes/rate_half_mca_weighted_split_pencil_core_offset_cap/result.md",
+      "background/nodes/rate_half_mca_weighted_split_pencil_core_offset_cap/source_contract.json",
+      "background/nodes/rate_half_mca_weighted_split_pencil_core_offset_cap/verify.py",
+      "background/nodes/rate_half_mca_weighted_split_pencil_core_offset_cap/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_weighted_split_pencil_selected_support_cap"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_mca_rank11_k11_circuit_split_pencil_payment"}
+  ],
+  "refutes": []
+}

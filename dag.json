@@ -40303,6 +40303,25 @@
    ]
   },
   {
+   "id": "rate_half_mca_rank11_k11_circuit_split_pencil_payment",
+   "title": "Circuit shadows and split-pencil capacity pay K'=11",
+   "status": "PROVED",
+   "closure": "rank-nine shadow capacity for large circuits and Vandermonde coalescence for sparse circuits",
+   "statement": "At K'=11 every component eleven-set has rank ten. Circuits of size at least six force at least 45 rank-nine shadows, while all circuits of size at most five coalesce to one fixed support. The resulting total capacity is below full component-incidence demand by 30688896124707489315310500375861176301757493788368353875455912, closing the row and leaving rank nine on 12<=K'<=15528.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_k11_circuit_split_pencil_payment/statement.md",
+    "background/nodes/rate_half_mca_rank11_k11_circuit_split_pencil_payment/proof.md",
+    "background/nodes/rate_half_mca_rank11_k11_circuit_split_pencil_payment/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_k11_circuit_split_pencil_payment/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_k11_circuit_split_pencil_payment/attack.md",
+    "background/nodes/rate_half_mca_rank11_k11_circuit_split_pencil_payment/audit.md",
+    "background/nodes/rate_half_mca_rank11_k11_circuit_split_pencil_payment/result.md",
+    "background/nodes/rate_half_mca_rank11_k11_circuit_split_pencil_payment/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_k11_circuit_split_pencil_payment/verify.py",
+    "background/nodes/rate_half_mca_rank11_k11_circuit_split_pencil_payment/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_mca_rank11_kernel_canonical_basis_globalizer",
    "title": "Canonical rank bases globalize every fixed kernel chart",
    "status": "PROVED",
@@ -41275,6 +41294,25 @@
     "background/nodes/rate_half_mca_rank11_shortened_partial_relative_router/source_contract.json",
     "background/nodes/rate_half_mca_rank11_shortened_partial_relative_router/verify.py",
     "background/nodes/rate_half_mca_rank11_shortened_partial_relative_router/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_mca_weighted_split_pencil_core_offset_cap",
+   "title": "Weighted split-pencil capacity with a common-core offset",
+   "status": "PROVED",
+   "closure": "balanced line-count offset, clean dominant light-mass payment, and heavy-pair collision census",
+   "statement": "For distinct affine lines carrying selected petal mass P, owner weights at most P-1 and total S, the charge sum_p C(x_Lp,2)+rP is bounded by the printed balanced, clean-dominant, and heavy-collision capacity. The K'=11 specializations have uniform maximum 9275866238180030.",
+   "refs": [
+    "background/nodes/rate_half_mca_weighted_split_pencil_core_offset_cap/statement.md",
+    "background/nodes/rate_half_mca_weighted_split_pencil_core_offset_cap/proof.md",
+    "background/nodes/rate_half_mca_weighted_split_pencil_core_offset_cap/claim_contract.md",
+    "background/nodes/rate_half_mca_weighted_split_pencil_core_offset_cap/dependency_subdag.md",
+    "background/nodes/rate_half_mca_weighted_split_pencil_core_offset_cap/attack.md",
+    "background/nodes/rate_half_mca_weighted_split_pencil_core_offset_cap/audit.md",
+    "background/nodes/rate_half_mca_weighted_split_pencil_core_offset_cap/result.md",
+    "background/nodes/rate_half_mca_weighted_split_pencil_core_offset_cap/source_contract.json",
+    "background/nodes/rate_half_mca_weighted_split_pencil_core_offset_cap/verify.py",
+    "background/nodes/rate_half_mca_weighted_split_pencil_core_offset_cap/verify_audit.py"
    ]
   },
   {
@@ -77973,6 +78011,11 @@
   },
   {
    "from": "rate_half_mca_rank11_dense_locator_component_incidence_dichotomy",
+   "to": "rate_half_mca_rank11_k11_circuit_split_pencil_payment",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_dense_locator_component_incidence_dichotomy",
    "to": "rate_half_mca_rank11_kernel_canonical_basis_globalizer",
    "kind": "req"
   },
@@ -78009,6 +78052,11 @@
   {
    "from": "rate_half_mca_rank11_dense_root_highspan_saturation",
    "to": "rate_half_mca_rank11_dense_locator_component_incidence_dichotomy",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_dense_root_highspan_saturation",
+   "to": "rate_half_mca_rank11_k11_circuit_split_pencil_payment",
    "kind": "req"
   },
   {
@@ -78075,6 +78123,11 @@
    "from": "rate_half_mca_rank11_heavy_pair_order32_seed_compiler",
    "to": "rate_half_mca_rank11_order32_common_support_cancellation",
    "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_k11_circuit_split_pencil_payment",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
   },
   {
    "from": "rate_half_mca_rank11_kernel_canonical_basis_globalizer",
@@ -78527,6 +78580,11 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_mca_rank11_rank8_codimension_one_circuit_shadow_census",
+   "to": "rate_half_mca_rank11_k11_circuit_split_pencil_payment",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_mca_rank11_rank8_dense_owner_terminal_bridge",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
@@ -78605,6 +78663,11 @@
    "from": "rate_half_mca_rank11_rank9_residual_petal_capacity_cut",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_rank9_residual_petal_capacity_cut",
+   "to": "rate_half_mca_rank11_k11_circuit_split_pencil_payment",
+   "kind": "req"
   },
   {
    "from": "rate_half_mca_rank11_rank9_residual_petal_capacity_cut",
@@ -78797,6 +78860,16 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_mca_weighted_split_pencil_core_offset_cap",
+   "to": "rate_half_mca_rank11_k11_circuit_split_pencil_payment",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_weighted_split_pencil_core_offset_cap",
+   "to": "rate_half_mca_rank11_k11_circuit_split_pencil_payment",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_mca_weighted_split_pencil_selected_support_cap",
    "to": "rate_half_mca_rank11_rank9_minimal_shortening_split_pencil_payment",
    "kind": "ev"
@@ -78804,6 +78877,11 @@
   {
    "from": "rate_half_mca_weighted_split_pencil_selected_support_cap",
    "to": "rate_half_mca_rank11_rank9_minimal_shortening_split_pencil_payment",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_weighted_split_pencil_selected_support_cap",
+   "to": "rate_half_mca_weighted_split_pencil_core_offset_cap",
    "kind": "req"
   },
   {
