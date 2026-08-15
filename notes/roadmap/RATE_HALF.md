@@ -278,6 +278,37 @@ shortening but compared it with residual `m'`; the deterministic deleted
 locator core invalidates that comparison. Future plane arguments must remain
 in residual units or subtract all deleted common coordinates explicitly.
 
+A residual-unit petal count now recovers part of the reopened interval. For
+one fixed rank-nine chart, let `J` be the common owner-plane core and
+`j=|J|`. The kernel root bound gives `9<=j<=K'-1`. Off `J`, the owner petals
+are pairwise disjoint, and a marked two-coordinate extension owned by a
+point with petal size `s` has at most
+
+```text
+s(j-9)+C(s,2)
+```
+
+choices. Combining `s<=m'-j-1`, the `981105` records-per-owner cap, and the
+disjoint petal budget gives the exact residual capacity
+
+```text
+W_B <= floor(981105*(n'-j)*(m'+j-20)/2).
+```
+
+For `K'<=20617` this envelope increases through the honest root ceiling
+`j=K'-1`. The adjacent weighted crossing is
+
+```text
+K'=15634: demand 50777401704768572 < cap 50779283449126807,
+K'=15635: demand 50783693985583057 > cap 50780312213264392.
+```
+
+The exact demand/cap ratio is strictly increasing thereafter. Thus the new
+green node closes rank nine on `15635<=K'<=20617`; together with the
+high-row cut, rank nine is absent for every `K'>=15635`. The only remaining
+rank-nine interval is `10<=K'<=15634`. This result uses no original-row
+`134944` common-core floor.
+
 Canonical `prize` head `859a27a4b` has integrated the rank-eleven chain
 through clone collapse. Upstream PR `#1169` at `b4bad8607` now supplies the
 post-`#1168` reserve repricing, guarded dimension adapter, and chronology

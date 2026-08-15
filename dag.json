@@ -41039,6 +41039,25 @@
    ]
   },
   {
+   "id": "rate_half_mca_rank11_rank9_residual_petal_capacity_cut",
+   "title": "Residual petal pairs exclude rank nine from K'=15635",
+   "status": "PROVED",
+   "closure": "residual root ceiling, exact owner-petal pair charge, and monotone boundary crossing",
+   "statement": "For one fixed rank-nine residual chart, let j be the common owner-plane core size. The kernel root bound gives j<=K'-1, and exact petal counting gives W_B<=floor(981105*(n'-j)*(m'+j-20)/2). On K'<=20617 the envelope is largest at j=K'-1. The weighted selector demand first exceeds it at K'=15635 by 3381772318665, while the cap wins at K'=15634 by 1881744358235. Thus rank nine is absent on 15635..20617 and, with the separate high-row cut, remains only on 10..15634.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_rank9_residual_petal_capacity_cut/statement.md",
+    "background/nodes/rate_half_mca_rank11_rank9_residual_petal_capacity_cut/proof.md",
+    "background/nodes/rate_half_mca_rank11_rank9_residual_petal_capacity_cut/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_rank9_residual_petal_capacity_cut/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_rank9_residual_petal_capacity_cut/attack.md",
+    "background/nodes/rate_half_mca_rank11_rank9_residual_petal_capacity_cut/audit.md",
+    "background/nodes/rate_half_mca_rank11_rank9_residual_petal_capacity_cut/result.md",
+    "background/nodes/rate_half_mca_rank11_rank9_residual_petal_capacity_cut/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_rank9_residual_petal_capacity_cut/verify.py",
+    "background/nodes/rate_half_mca_rank11_rank9_residual_petal_capacity_cut/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_mca_rank11_rank9_split_pencil_cell_ledger",
    "title": "Rank-eleven rank-nine cells have an exact split-pencil ledger",
    "status": "PROVED",
@@ -77822,6 +77841,11 @@
   },
   {
    "from": "rate_half_mca_rank11_component_ninesubset_target_router",
+   "to": "rate_half_mca_rank11_rank9_residual_petal_capacity_cut",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_component_ninesubset_target_router",
    "to": "rate_half_mca_rank11_rank9_weighted_target_elimination",
    "kind": "req"
   },
@@ -77838,6 +77862,11 @@
   {
    "from": "rate_half_mca_rank11_component_ninesubset_weighted_concentrator",
    "to": "rate_half_mca_rank11_rank8_weighted_capacity_cut",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_component_ninesubset_weighted_concentrator",
+   "to": "rate_half_mca_rank11_rank9_residual_petal_capacity_cut",
    "kind": "req"
   },
   {
@@ -78496,6 +78525,11 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_mca_rank11_rank9_residual_petal_capacity_cut",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_mca_rank11_rank9_split_pencil_cell_ledger",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
@@ -78513,6 +78547,11 @@
   {
    "from": "rate_half_mca_rank11_rank9_split_pencil_paircore_dichotomy",
    "to": "rate_half_mca_rank11_rank9_ninecell_paircore_extension",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_rank9_weighted_component_cap",
+   "to": "rate_half_mca_rank11_rank9_residual_petal_capacity_cut",
    "kind": "req"
   },
   {
