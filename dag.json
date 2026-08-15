@@ -40740,6 +40740,44 @@
    ]
   },
   {
+   "id": "rate_half_mca_rank11_kernel_shortening_weighted_capacity_cut",
+   "title": "Shortening-weighted capacity removes the complete kernel branch",
+   "status": "PROVED",
+   "closure": "positive degree-eleven demand-minus-capacity polynomial",
+   "statement": "The coupled record/zero-extension caps make the sum of all nine corank capacities strictly smaller than the dominant kernel demand for every 796599<=K'<=1048576. All twelve Newton coefficients at K'=796599 are positive, independently all twelve shifted power coefficients are positive. Together with the previous cutoff, the fixed-kernel branch is excluded on every official row.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_kernel_shortening_weighted_capacity_cut/statement.md",
+    "background/nodes/rate_half_mca_rank11_kernel_shortening_weighted_capacity_cut/proof.md",
+    "background/nodes/rate_half_mca_rank11_kernel_shortening_weighted_capacity_cut/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_kernel_shortening_weighted_capacity_cut/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_kernel_shortening_weighted_capacity_cut/attack.md",
+    "background/nodes/rate_half_mca_rank11_kernel_shortening_weighted_capacity_cut/audit.md",
+    "background/nodes/rate_half_mca_rank11_kernel_shortening_weighted_capacity_cut/result.md",
+    "background/nodes/rate_half_mca_rank11_kernel_shortening_weighted_capacity_cut/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_kernel_shortening_weighted_capacity_cut/verify.py",
+    "background/nodes/rate_half_mca_rank11_kernel_shortening_weighted_capacity_cut/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_mca_rank11_kernel_shortening_weighted_extension_cap",
+   "title": "Shortening weights recover a scalable all-corank extension cap",
+   "status": "PROVED",
+   "closure": "coupled record-cap and zero-extension ratio with all-bases decoration",
+   "statement": "For every official K' and kernel corank d, retain t=K'-10-z while counting extensions from one fixed basis. The joint record/extension count is at most P_d C(K'-10,d+1) for d<=3 and F_d(1) C(K'-11,d+1) for d>=4. The noncomplete weighted product decreases strictly after t=1. This does not promote complete record caps per chart.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_kernel_shortening_weighted_extension_cap/statement.md",
+    "background/nodes/rate_half_mca_rank11_kernel_shortening_weighted_extension_cap/proof.md",
+    "background/nodes/rate_half_mca_rank11_kernel_shortening_weighted_extension_cap/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_kernel_shortening_weighted_extension_cap/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_kernel_shortening_weighted_extension_cap/attack.md",
+    "background/nodes/rate_half_mca_rank11_kernel_shortening_weighted_extension_cap/audit.md",
+    "background/nodes/rate_half_mca_rank11_kernel_shortening_weighted_extension_cap/result.md",
+    "background/nodes/rate_half_mca_rank11_kernel_shortening_weighted_extension_cap/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_kernel_shortening_weighted_extension_cap/verify.py",
+    "background/nodes/rate_half_mca_rank11_kernel_shortening_weighted_extension_cap/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_mca_rank11_kernel_three_step_shadow_capacity_cut",
    "title": "Three-step shadow hierarchy removes kernel through 18158",
    "status": "PROVED",
@@ -77896,6 +77934,11 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_mca_rank11_kernel_corank1_projective_pair_cap",
+   "to": "rate_half_mca_rank11_kernel_shortening_weighted_extension_cap",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_mca_rank11_kernel_corank2_projective_basis_cap",
    "to": "rate_half_mca_rank11_kernel_corank2_projective_capacity_cut",
    "kind": "ev"
@@ -77926,6 +77969,11 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_mca_rank11_kernel_corank2_uniform_projective_basis_cap",
+   "to": "rate_half_mca_rank11_kernel_shortening_weighted_extension_cap",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_mca_rank11_kernel_corank3_projective_basis_cap",
    "to": "rate_half_mca_rank11_kernel_corank3_projective_capacity_cut",
    "kind": "ev"
@@ -77946,6 +77994,11 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_mca_rank11_kernel_corank3_projective_capacity_cut",
+   "to": "rate_half_mca_rank11_kernel_shortening_weighted_capacity_cut",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_mca_rank11_kernel_corank3_uniform_projective_basis_cap",
    "to": "rate_half_mca_rank11_kernel_corank3_projective_capacity_cut",
    "kind": "ev"
@@ -77953,6 +78006,11 @@
   {
    "from": "rate_half_mca_rank11_kernel_corank3_uniform_projective_basis_cap",
    "to": "rate_half_mca_rank11_kernel_corank3_projective_capacity_cut",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_kernel_corank3_uniform_projective_basis_cap",
+   "to": "rate_half_mca_rank11_kernel_shortening_weighted_extension_cap",
    "kind": "req"
   },
   {
@@ -77988,6 +78046,11 @@
   {
    "from": "rate_half_mca_rank11_kernel_multibasis_decoration_compression",
    "to": "rate_half_mca_rank11_kernel_record_support_capacity",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_kernel_multibasis_decoration_compression",
+   "to": "rate_half_mca_rank11_kernel_shortening_weighted_extension_cap",
    "kind": "req"
   },
   {
@@ -78116,6 +78179,11 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_mca_rank11_kernel_projective_paving_integer_gap_fence",
+   "to": "rate_half_mca_rank11_kernel_shortening_weighted_extension_cap",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_mca_rank11_kernel_projective_paving_record_caps",
    "to": "rate_half_mca_rank11_kernel_projective_paving_integer_gap_fence",
    "kind": "ev"
@@ -78173,6 +78241,21 @@
   {
    "from": "rate_half_mca_rank11_kernel_record_support_capacity",
    "to": "rate_half_mca_rank11_kernel_nine_shadow_coupling",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_kernel_shortening_weighted_capacity_cut",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_kernel_shortening_weighted_extension_cap",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_kernel_shortening_weighted_extension_cap",
+   "to": "rate_half_mca_rank11_kernel_shortening_weighted_capacity_cut",
    "kind": "req"
   },
   {

@@ -1,0 +1,34 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_kernel_shortening_weighted_extension_cap",
+    "title": "Shortening weights recover a scalable all-corank extension cap",
+    "status": "PROVED",
+    "closure": "coupled record-cap and zero-extension ratio with all-bases decoration",
+    "statement": "For every official K' and kernel corank d, retain t=K'-10-z while counting extensions from one fixed basis. The joint record/extension count is at most P_d C(K'-10,d+1) for d<=3 and F_d(1) C(K'-11,d+1) for d>=4. The noncomplete weighted product decreases strictly after t=1. This does not promote complete record caps per chart.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_kernel_shortening_weighted_extension_cap/statement.md",
+      "background/nodes/rate_half_mca_rank11_kernel_shortening_weighted_extension_cap/proof.md",
+      "background/nodes/rate_half_mca_rank11_kernel_shortening_weighted_extension_cap/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_kernel_shortening_weighted_extension_cap/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_kernel_shortening_weighted_extension_cap/attack.md",
+      "background/nodes/rate_half_mca_rank11_kernel_shortening_weighted_extension_cap/audit.md",
+      "background/nodes/rate_half_mca_rank11_kernel_shortening_weighted_extension_cap/result.md",
+      "background/nodes/rate_half_mca_rank11_kernel_shortening_weighted_extension_cap/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_kernel_shortening_weighted_extension_cap/verify.py",
+      "background/nodes/rate_half_mca_rank11_kernel_shortening_weighted_extension_cap/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_kernel_multibasis_decoration_compression"},
+    {"from": "rate_half_mca_rank11_kernel_projective_paving_integer_gap_fence"},
+    {"from": "rate_half_mca_rank11_kernel_corank1_projective_pair_cap"},
+    {"from": "rate_half_mca_rank11_kernel_corank2_uniform_projective_basis_cap"},
+    {"from": "rate_half_mca_rank11_kernel_corank3_uniform_projective_basis_cap"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location"}
+  ],
+  "refutes": []
+}
