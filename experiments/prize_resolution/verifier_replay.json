@@ -2,169 +2,25 @@
   "complete": true,
   "counts": {
     "FAIL": 0,
-    "PASS": 20,
+    "PASS": 2,
     "TIMEOUT": 0
   },
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_kernel_canonical_basis_globalizer/verify.py",
-      "seconds": 0.025957,
+      "script": "background/nodes/rate_half_mca_rank11_kernel_corank3_projective_capacity_cut/verify.py",
+      "seconds": 0.032657,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_RANK11_KERNEL_CANONICAL_BASIS_GLOBALIZER_PASS ranks=9 rank9_cap=61871313426630599 controls=6/6\n"
+      "stdout_tail": "RATE_HALF_MCA_RANK11_KERNEL_CORANK3_PROJECTIVE_CAPACITY_CUT_PASS checked=228261 wall=796599 controls=8/8\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_kernel_canonical_basis_globalizer/verify_audit.py",
-      "seconds": 0.025882,
+      "script": "background/nodes/rate_half_mca_rank11_kernel_corank3_projective_capacity_cut/verify_audit.py",
+      "seconds": 0.025892,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_RANK11_KERNEL_CANONICAL_BASIS_GLOBALIZER_AUDIT_PASS pairs=9 proof_pins=4/4\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_kernel_hybrid_capacity_cut/verify.py",
-      "seconds": 0.441114,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_RANK11_KERNEL_HYBRID_CAPACITY_CUT_PASS checked=11763 endpoint_gap=76504076505592948633027913576880724493595282142849410185084 wall_excess=139343682529231472322825521514042608524569163680782450618944 controls=6/6\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_kernel_hybrid_capacity_cut/verify_audit.py",
-      "seconds": 0.585014,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_RANK11_KERNEL_HYBRID_CAPACITY_CUT_AUDIT_PASS checked=11763 branches=AARRRRRRR endpoint_gap=76504076505592948633027913576880724493595282142849410185084 wall_excess=139343682529231472322825521514042608524569163680782450618944 proof_pins=4/4\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_kernel_multibasis_capacity_cut/verify.py",
-      "seconds": 0.398038,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_RANK11_KERNEL_MULTIBASIS_CAPACITY_CUT_PASS checked=11632 endpoint_gap=17769453550459149385453824948016076737082337523706893862084 wall_excess=187031323586740190878769118921060658362307444191332937452616 controls=6/6\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_kernel_multibasis_capacity_cut/verify_audit.py",
-      "seconds": 0.476551,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_RANK11_KERNEL_MULTIBASIS_CAPACITY_CUT_AUDIT_PASS checked=11632 endpoint_gap=17769453550459149385453824948016076737082337523706893862084 wall_excess=187031323586740190878769118921060658362307444191332937452616 proof_pins=4/4\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_kernel_multibasis_decoration_compression/verify.py",
-      "seconds": 0.027359,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_RANK11_KERNEL_MULTIBASIS_DECORATION_COMPRESSION_PASS strata=9 multiplicities=3..11 controls=4/4\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_kernel_multibasis_decoration_compression/verify_audit.py",
-      "seconds": 0.027542,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_RANK11_KERNEL_MULTIBASIS_DECORATION_COMPRESSION_AUDIT_PASS multiplicities=3..11 proof_pins=5/5\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_capacity_cut/verify.py",
-      "seconds": 1.377446,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_RANK11_KERNEL_NINE_SHADOW_CAPACITY_CUT_PASS checked=15436 endpoint_gap=178044655461817065880792270525721984196903835342334290540589 wall_excess=124087038578417364551353992932097013573495323735890481286577 controls=7/7\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_capacity_cut/verify_audit.py",
-      "seconds": 0.945928,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_RANK11_KERNEL_NINE_SHADOW_CAPACITY_CUT_AUDIT_PASS checked=15436 frontier=2 wall=15446\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_containment_capacity_cut/verify.py",
-      "seconds": 21.086003,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_RANK11_KERNEL_NINE_SHADOW_CONTAINMENT_CAPACITY_CUT_PASS checked=15661 endpoint_gap=60244744187647715538325354175068999745872308513185869854532 wall_excess=291105561463347587484268984669020036510369238771859813045635 controls=8/8\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_containment_capacity_cut/verify_audit.py",
-      "seconds": 1.558005,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_RANK11_KERNEL_NINE_SHADOW_CONTAINMENT_CAPACITY_CUT_AUDIT_PASS checked=15661 active=1,2 wall=15671\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_containment_coupling/verify.py",
-      "seconds": 0.029085,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_RANK11_KERNEL_NINE_SHADOW_CONTAINMENT_COUPLING_PASS rows=5 shadows=55 controls=6/6\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_containment_coupling/verify_audit.py",
-      "seconds": 0.025362,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_RANK11_KERNEL_NINE_SHADOW_CONTAINMENT_COUPLING_AUDIT_PASS rows=6 coefficient_base=52 lower_coefficient=55\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_coupling/verify.py",
-      "seconds": 0.026864,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_RANK11_KERNEL_NINE_SHADOW_COUPLING_PASS sharp_models=9 coefficient_sum=219 controls=5/5\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_coupling/verify_audit.py",
-      "seconds": 0.021355,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_RANK11_KERNEL_NINE_SHADOW_COUPLING_AUDIT_PASS coranks=9 first=3 last=55\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_kernel_rankstratified_capacity_cut/verify.py",
-      "seconds": 0.160791,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_RANK11_KERNEL_RANKSTRATIFIED_CAPACITY_CUT_PASS checked=4589 endpoint_gap=219272330501201744129177266158988707697316238048878827197685 wall_gap=95457494746881463288875361950515757435711627164872173764503 controls=6/6\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_kernel_rankstratified_capacity_cut/verify_audit.py",
-      "seconds": 0.207146,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_RANK11_KERNEL_RANKSTRATIFIED_CAPACITY_CUT_AUDIT_PASS checked=4589 min_cross_gap=219272330501201744129177266158988707697316238048878827197684725013120 proof_pins=4/4\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_kernel_record_support_capacity/verify.py",
-      "seconds": 0.02739,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_RANK11_KERNEL_RECORD_SUPPORT_CAPACITY_PASS strata=9 multiplicities=3..11 controls=4/4\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_kernel_record_support_capacity/verify_audit.py",
-      "seconds": 0.026431,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_RANK11_KERNEL_RECORD_SUPPORT_CAPACITY_AUDIT_PASS strata=9 proof_pins=4/4\n"
+      "stdout_tail": "RATE_HALF_MCA_RANK11_KERNEL_CORANK3_PROJECTIVE_CAPACITY_CUT_AUDIT_PASS checked=228261 endpoints=3 chunks=64\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

@@ -1,0 +1,28 @@
+{
+  "schema": "rate-half-mca-rank11-kernel-projective-paving-record-caps-v2",
+  "dependencies": [
+    "matroid_paving_basis_floor",
+    "rate_half_mca_rank11_kernel_canonical_basis_globalizer",
+    "rate_half_mca_support_local_transversality_compiler"
+  ],
+  "parameters": {
+    "n_offset": 1048576,
+    "m_offset": 67472,
+    "chart": "(n,K,m,s)=(1048576+d,d,67472+d,d)",
+    "normal_span_rule": "every r-dimensional span with r<d contains at most r incident normals",
+    "basis_floor_formula": "(d+1)*(m-1)_fall_d",
+    "complete_cap_formula": "n_fall_(d+1)/((d+1)*(m-1)_fall_d)",
+    "records": [
+      {"dimension": 1, "domain_size": 1048577, "support_size": 67473, "minimum_ordered_bases": 134944, "ordered_coordinate_resource": 1099512676352, "record_cap": 8147918, "division_remainder": 29760},
+      {"dimension": 2, "domain_size": 1048578, "support_size": 67474, "minimum_ordered_bases": 13657614768, "ordered_coordinate_resource": 1152924803143827456, "record_cap": 84416263, "division_remainder": 2935655472},
+      {"dimension": 3, "domain_size": 1048579, "support_size": 67475, "minimum_ordered_bases": 1228711865141376, "ordered_coordinate_resource": 1208932737155751449985024, "record_cap": 983902549, "division_remainder": 1056607358217600},
+      {"dimension": 4, "domain_size": 1048580, "support_size": 67476, "minimum_ordered_bases": 103634166375517932000, "ordered_coordinate_resource": 1267662689526777855425296465920, "record_cap": 12232092309, "division_remainder": 55178553516511477920},
+      {"dimension": 5, "domain_size": 1048581, "support_size": 67477, "minimum_ordered_bases": 8391382812425337575558400, "ordered_coordinate_resource": 1329247010646678250419712793530859520, "record_cap": 158406193634, "division_remainder": 4610725257992777455633920},
+      {"dimension": 6, "domain_size": 1048582, "support_size": 67478, "minimum_ordered_bases": 660596227706361920850279849600, "ordered_coordinate_resource": 1393824488917915173181603280466175737200640, "record_cap": 2109949210211, "division_remainder": 510922263430418224327872935040},
+      {"dimension": 7, "domain_size": 1048583, "support_size": 67479, "minimum_ordered_bases": 50943671146479873937297352790067200, "ordered_coordinate_resource": 1461540664063014246040285112641063953041058693120, "record_cap": 28689347099870, "division_remainder": 20876737960106147521275778647429120},
+      {"dimension": 8, "domain_size": 1048584, "support_size": 67480, "minimum_ordered_bases": 3867331483454979840091749077536062662400, "ordered_coordinate_resource": 1532548155685851730169906324553617404135605488666542080, "record_cap": 396280526311830, "division_remainder": 2045333185748311801593462702646250350080},
+      {"dimension": 9, "domain_size": 1048585, "support_size": 67481, "minimum_ordered_bases": 289963920559491155121545808613481676065280000, "ordered_coordinate_resource": 1607007007829848836480211223332054905715533881333406026956800, "record_cap": 5542092977392141, "division_remainder": 253215355194970973906340457281860931062476800}
+    ]
+  },
+  "nonclaim": "The complete-chart record caps are not uniform caps for charts with fewer global zero normals and do not choose a global route or close either prize."
+}

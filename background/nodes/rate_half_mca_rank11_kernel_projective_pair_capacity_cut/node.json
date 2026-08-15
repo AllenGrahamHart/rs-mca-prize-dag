@@ -21,7 +21,7 @@
   },
   "requires": [
     {"from": "rate_half_mca_rank11_kernel_three_step_shadow_capacity_cut"},
-    {"from": "rate_half_mca_rank11_kernel_corank1_projective_pair_cap"},
+    {"from": "rate_half_mca_rank11_kernel_projective_paving_integer_gap_fence"},
     {"from": "rate_half_mca_rank11_kernel_multistep_shadow_hierarchy"}
   ],
   "alternatives": [],

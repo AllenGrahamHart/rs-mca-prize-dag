@@ -1,5 +1,6 @@
 # Proof
 
+Assume the uniform record caps `M_2<=84416263` and `M_3<=983902549`.
 For each row `K'`, let `x_d` be the residual-normalized number of
 rank-`10-d` incidences, `1<=d<=9`.  Build the inherited individual
 ambient/support caps, replacing the first three record factors by
@@ -42,9 +43,11 @@ positive, and the resulting dual objective equals the primal forest
 allocation.  Weak duality therefore proves exact optimality without either
 slack shared resource.
 
-The pinned exact Modal replay checks this primal-dual certificate, all
+Conditional on the two assumed caps, the pinned exact Modal replay checks
+this primal-dual certificate, all
 individual caps, both shared resources, and all 28 hierarchy rows on every
 `K'` in `568339<=K'<=796599`.  All 64 bounded workers and all `228261`
 rows completed.  Demand is strictly above capacity through `796598`; at
 `796599` the sign reverses.  An independent verifier recomputes each pinned
-endpoint from direct forest products.
+endpoint from direct forest products.  The replay proves the implication;
+it does not prove either uniform cap premise.

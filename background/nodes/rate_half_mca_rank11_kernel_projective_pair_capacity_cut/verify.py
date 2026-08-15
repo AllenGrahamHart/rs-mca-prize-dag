@@ -12,7 +12,7 @@ from pathlib import Path
 
 
 CONTRACT = Path(__file__).with_name("source_contract.json")
-CONTRACT_SHA256 = "505c2796e34cf21743ac3465c10f71a0ee90c22b29f839a18ceebd8ab2597ff4"
+CONTRACT_SHA256 = "05df2ec3f8cb69275a1aa0b4d0295ad82621e9ad6792dd2a70edf27cf6684156"
 ROOT = Path(__file__).resolve().parents[3]
 
 
@@ -226,7 +226,7 @@ def validate(data: object, check_evidence: bool = True) -> dict[str, int]:
     require(data.get("schema") == "rate-half-mca-rank11-kernel-projective-pair-capacity-cut-v1", "schema")
     require(data.get("dependencies") == [
         "rate_half_mca_rank11_kernel_three_step_shadow_capacity_cut",
-        "rate_half_mca_rank11_kernel_corank1_projective_pair_cap",
+        "rate_half_mca_rank11_kernel_projective_paving_integer_gap_fence",
         "rate_half_mca_rank11_kernel_multistep_shadow_hierarchy",
     ], "dependencies")
     p = data.get("parameters")

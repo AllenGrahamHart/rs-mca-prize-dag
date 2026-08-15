@@ -1,0 +1,17 @@
+{
+  "schema": "matroid-paving-basis-floor-v1",
+  "dependencies": [],
+  "parameters": {
+    "minimum_rank": 2,
+    "minimum_ground_size": "m>=r",
+    "independence_hypothesis": "every subset of size at most r-1 is independent",
+    "basis_floor": "C(m-1,r-1)",
+    "deletion_term": "C(m-2,r-1)",
+    "contraction_term": "C(m-2,r-2)",
+    "pascal_identity": true,
+    "coloop_extremizer": "coloop direct-sum U_(r-1,m-1)",
+    "sharp": true,
+    "audited_ranks": [2, 3, 4, 5, 6, 7, 8, 9, 10]
+  },
+  "nonclaim": "The abstract basis floor does not establish a Reed-Solomon normal-matroid hypothesis or any prize-row capacity cut."
+}

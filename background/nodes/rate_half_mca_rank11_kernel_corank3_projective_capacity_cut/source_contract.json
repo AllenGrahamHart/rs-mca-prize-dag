@@ -2,7 +2,7 @@
   "schema": "rate-half-mca-rank11-kernel-corank3-projective-capacity-cut-v1",
   "dependencies": [
     "rate_half_mca_rank11_kernel_corank2_projective_capacity_cut",
-    "rate_half_mca_rank11_kernel_corank3_projective_basis_cap",
+    "rate_half_mca_rank11_kernel_corank3_uniform_projective_basis_cap",
     "rate_half_mca_rank11_kernel_multistep_shadow_hierarchy"
   ],
   "parameters": {
@@ -58,5 +58,5 @@
     "worker_memory_mb": 256,
     "observed_peak_mb": 59
   },
-  "nonclaim": "The kernel lane remains open from K_prime=796599; this theorem does not pay rank eight, the dense-owner chronology terminal, error rank eleven as a whole, or either prize."
+  "nonclaim": "This is conditional on uniform corank-two and corank-three caps, neither of which is proved; it does not unconditionally close rows above 377673 or pay either prize."
 }

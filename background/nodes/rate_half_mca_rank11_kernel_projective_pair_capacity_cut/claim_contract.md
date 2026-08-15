@@ -8,7 +8,8 @@ the pinned rate-half rank-eleven residual setup.
 ## Dependencies
 
 - the predecessor kernel cut through `K'=18158`;
-- the exact corank-one projective-pair record cap;
+- the uniform corank-one projective-pair record cap from the integer-gap
+  fence;
 - all 28 multi-step shadow inequalities and inherited individual caps.
 
 ## Output

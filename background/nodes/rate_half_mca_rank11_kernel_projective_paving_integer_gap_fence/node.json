@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_kernel_projective_paving_integer_gap_fence",
+    "title": "The integer shortening gap blocks uniform paving promotion",
+    "status": "PROVED",
+    "closure": "pointwise support-local envelope split at the complete endpoint",
+    "statement": "After rank-(10-d) shortening, write t=K'-10-z. For d>=2 the complete chart t=0 has projective cap P_d, while the remaining integer charts 1<=t<=K'-10 have support-local cap F_d(t). Since F_d has a one-turn successive ratio, the valid uniform envelope is floor(max(P_d,F_d(1),F_d(K'-10))). At K'=377674 this gives M_2=253238254 and M_3=3935391907, not the complete caps 84416263 and 983902549. Corank one separately has the uniform cap 8147918.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_kernel_projective_paving_integer_gap_fence/statement.md",
+      "background/nodes/rate_half_mca_rank11_kernel_projective_paving_integer_gap_fence/proof.md",
+      "background/nodes/rate_half_mca_rank11_kernel_projective_paving_integer_gap_fence/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_kernel_projective_paving_integer_gap_fence/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_kernel_projective_paving_integer_gap_fence/attack.md",
+      "background/nodes/rate_half_mca_rank11_kernel_projective_paving_integer_gap_fence/audit.md",
+      "background/nodes/rate_half_mca_rank11_kernel_projective_paving_integer_gap_fence/result.md",
+      "background/nodes/rate_half_mca_rank11_kernel_projective_paving_integer_gap_fence/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_kernel_projective_paving_integer_gap_fence/verify.py",
+      "background/nodes/rate_half_mca_rank11_kernel_projective_paving_integer_gap_fence/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_kernel_projective_paving_record_caps"},
+    {"from": "rate_half_mca_support_local_transversality_compiler"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_mca_rank11_kernel_projective_pair_capacity_cut"},
+    {"to": "rate_half_mca_rank11_kernel_corank2_uniform_projective_basis_cap"},
+    {"to": "rate_half_mca_rank11_kernel_corank3_uniform_projective_basis_cap"}
+  ],
+  "refutes": []
+}

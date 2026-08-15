@@ -2,10 +2,10 @@
   "schema": "prize-dag-node-v1",
   "node": {
     "id": "rate_half_mca_rank11_kernel_corank3_projective_capacity_cut",
-    "title": "Projective quadruples remove the kernel through 796598",
-    "status": "PROVED",
-    "closure": "exact three-root hierarchy-forest primal-dual certificate with complete finite Modal replay",
-    "statement": "The projective corank-one, corank-two, and corank-three caps, all remaining individual caps, and the multi-step shadow hierarchy exclude the dominant rank-eleven kernel lane for 568339<=K'<=796598. The comparison reverses at K'=796599.",
+    "title": "Uniform corank-two and three caps would remove the kernel through 796598",
+    "status": "CONDITIONAL",
+    "closure": "exact conditional three-root hierarchy-forest certificate; uniform M2 and M3 premises open",
+    "statement": "Conditional on uniform bounds M_2<=84416263 and M_3<=983902549 in every corresponding chart, the projective caps and multi-step shadow hierarchy exclude the dominant rank-eleven kernel lane for 568339<=K'<=796598. The conditional resource comparison reverses at K'=796599.",
     "refs": [
       "background/nodes/rate_half_mca_rank11_kernel_corank3_projective_capacity_cut/statement.md",
       "background/nodes/rate_half_mca_rank11_kernel_corank3_projective_capacity_cut/proof.md",
@@ -21,7 +21,7 @@
   },
   "requires": [
     {"from": "rate_half_mca_rank11_kernel_corank2_projective_capacity_cut"},
-    {"from": "rate_half_mca_rank11_kernel_corank3_projective_basis_cap"},
+    {"from": "rate_half_mca_rank11_kernel_corank3_uniform_projective_basis_cap"},
     {"from": "rate_half_mca_rank11_kernel_multistep_shadow_hierarchy"}
   ],
   "alternatives": [],

@@ -31512,6 +31512,25 @@
    ]
   },
   {
+   "id": "matroid_paving_basis_floor",
+   "title": "Paving matroids have a sharp binomial basis floor",
+   "status": "PROVED",
+   "closure": "universal deletion-contraction induction",
+   "statement": "A rank-r matroid on m elements in which every subset of size at most r-1 is independent has at least C(m-1,r-1) bases. The floor is sharp for one coloop over a uniform rank-(r-1) deletion.",
+   "refs": [
+    "background/nodes/matroid_paving_basis_floor/statement.md",
+    "background/nodes/matroid_paving_basis_floor/proof.md",
+    "background/nodes/matroid_paving_basis_floor/claim_contract.md",
+    "background/nodes/matroid_paving_basis_floor/dependency_subdag.md",
+    "background/nodes/matroid_paving_basis_floor/attack.md",
+    "background/nodes/matroid_paving_basis_floor/audit.md",
+    "background/nodes/matroid_paving_basis_floor/result.md",
+    "background/nodes/matroid_paving_basis_floor/source_contract.json",
+    "background/nodes/matroid_paving_basis_floor/verify.py",
+    "background/nodes/matroid_paving_basis_floor/verify_audit.py"
+   ]
+  },
+  {
    "id": "pma_two_full_petal_linear_slice_reduction",
    "title": "PMA two-full-petal contributors are coprime-pair linear slices",
    "status": "PROVED",
@@ -40304,10 +40323,10 @@
   },
   {
    "id": "rate_half_mca_rank11_kernel_corank2_projective_capacity_cut",
-   "title": "Projective bases remove the kernel through 568338",
-   "status": "PROVED",
-   "closure": "exact two-root hierarchy-tree primal-dual certificate with complete finite Modal replay",
-   "statement": "The projective corank-one and corank-two caps, all remaining individual caps, and the multi-step shadow hierarchy exclude the dominant rank-eleven kernel lane for 377674<=K'<=568338. The comparison reverses at K'=568339.",
+   "title": "A uniform corank-two cap would remove the kernel through 568338",
+   "status": "CONDITIONAL",
+   "closure": "exact conditional two-root hierarchy-tree certificate; uniform M2 premise open",
+   "statement": "Conditional on the open uniform bound M_2<=84416263 in every corank-two chart, the projective corank-one and corank-two caps, all remaining individual caps, and the multi-step shadow hierarchy exclude the dominant rank-eleven kernel lane for 377674<=K'<=568338. The conditional resource comparison reverses at K'=568339.",
    "refs": [
     "background/nodes/rate_half_mca_rank11_kernel_corank2_projective_capacity_cut/statement.md",
     "background/nodes/rate_half_mca_rank11_kernel_corank2_projective_capacity_cut/proof.md",
@@ -40319,6 +40338,17 @@
     "background/nodes/rate_half_mca_rank11_kernel_corank2_projective_capacity_cut/source_contract.json",
     "background/nodes/rate_half_mca_rank11_kernel_corank2_projective_capacity_cut/verify.py",
     "background/nodes/rate_half_mca_rank11_kernel_corank2_projective_capacity_cut/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_mca_rank11_kernel_corank2_uniform_projective_basis_cap",
+   "title": "Uniform corank-two projective-basis cap",
+   "status": "TARGET",
+   "closure": "requires structure beyond support-local transversality at t>=1",
+   "statement": "Prove or refute that every official rank-eleven kernel corank-two canonical-basis chart has at most 84416263 records. This value is proved only at complete shortening; the current valid integer-gap envelope gives 253238254 at K'=377674.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_kernel_corank2_uniform_projective_basis_cap/statement.md",
+    "background/nodes/rate_half_mca_rank11_kernel_corank2_uniform_projective_basis_cap/attack.md"
    ]
   },
   {
@@ -40342,10 +40372,10 @@
   },
   {
    "id": "rate_half_mca_rank11_kernel_corank3_projective_capacity_cut",
-   "title": "Projective quadruples remove the kernel through 796598",
-   "status": "PROVED",
-   "closure": "exact three-root hierarchy-forest primal-dual certificate with complete finite Modal replay",
-   "statement": "The projective corank-one, corank-two, and corank-three caps, all remaining individual caps, and the multi-step shadow hierarchy exclude the dominant rank-eleven kernel lane for 568339<=K'<=796598. The comparison reverses at K'=796599.",
+   "title": "Uniform corank-two and three caps would remove the kernel through 796598",
+   "status": "CONDITIONAL",
+   "closure": "exact conditional three-root hierarchy-forest certificate; uniform M2 and M3 premises open",
+   "statement": "Conditional on uniform bounds M_2<=84416263 and M_3<=983902549 in every corresponding chart, the projective caps and multi-step shadow hierarchy exclude the dominant rank-eleven kernel lane for 568339<=K'<=796598. The conditional resource comparison reverses at K'=796599.",
    "refs": [
     "background/nodes/rate_half_mca_rank11_kernel_corank3_projective_capacity_cut/statement.md",
     "background/nodes/rate_half_mca_rank11_kernel_corank3_projective_capacity_cut/proof.md",
@@ -40357,6 +40387,17 @@
     "background/nodes/rate_half_mca_rank11_kernel_corank3_projective_capacity_cut/source_contract.json",
     "background/nodes/rate_half_mca_rank11_kernel_corank3_projective_capacity_cut/verify.py",
     "background/nodes/rate_half_mca_rank11_kernel_corank3_projective_capacity_cut/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_mca_rank11_kernel_corank3_uniform_projective_basis_cap",
+   "title": "Uniform corank-three projective-basis cap",
+   "status": "TARGET",
+   "closure": "requires structure beyond support-local transversality at t>=1",
+   "statement": "Prove or refute that every official rank-eleven kernel corank-three canonical-basis chart has at most 983902549 records. This value is proved only at complete shortening; the current valid integer-gap envelope gives 3935391907 at K'=377674.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_kernel_corank3_uniform_projective_basis_cap/statement.md",
+    "background/nodes/rate_half_mca_rank11_kernel_corank3_uniform_projective_basis_cap/attack.md"
    ]
   },
   {
@@ -40528,6 +40569,44 @@
     "background/nodes/rate_half_mca_rank11_kernel_projective_pair_capacity_cut/source_contract.json",
     "background/nodes/rate_half_mca_rank11_kernel_projective_pair_capacity_cut/verify.py",
     "background/nodes/rate_half_mca_rank11_kernel_projective_pair_capacity_cut/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_mca_rank11_kernel_projective_paving_integer_gap_fence",
+   "title": "The integer shortening gap blocks uniform paving promotion",
+   "status": "PROVED",
+   "closure": "pointwise support-local envelope split at the complete endpoint",
+   "statement": "After rank-(10-d) shortening, write t=K'-10-z. For d>=2 the complete chart t=0 has projective cap P_d, while the remaining integer charts 1<=t<=K'-10 have support-local cap F_d(t). Since F_d has a one-turn successive ratio, the valid uniform envelope is floor(max(P_d,F_d(1),F_d(K'-10))). At K'=377674 this gives M_2=253238254 and M_3=3935391907, not the complete caps 84416263 and 983902549. Corank one separately has the uniform cap 8147918.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_kernel_projective_paving_integer_gap_fence/statement.md",
+    "background/nodes/rate_half_mca_rank11_kernel_projective_paving_integer_gap_fence/proof.md",
+    "background/nodes/rate_half_mca_rank11_kernel_projective_paving_integer_gap_fence/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_kernel_projective_paving_integer_gap_fence/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_kernel_projective_paving_integer_gap_fence/attack.md",
+    "background/nodes/rate_half_mca_rank11_kernel_projective_paving_integer_gap_fence/audit.md",
+    "background/nodes/rate_half_mca_rank11_kernel_projective_paving_integer_gap_fence/result.md",
+    "background/nodes/rate_half_mca_rank11_kernel_projective_paving_integer_gap_fence/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_kernel_projective_paving_integer_gap_fence/verify.py",
+    "background/nodes/rate_half_mca_rank11_kernel_projective_paving_integer_gap_fence/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_mca_rank11_kernel_projective_paving_record_caps",
+   "title": "Projective paving bounds every complete kernel chart",
+   "status": "PROVED",
+   "closure": "complete-shortening normal-matroid basis count",
+   "statement": "In each completely shortened rank-eleven kernel chart d=1..9, support-local transversality makes the incident normal matroid rank d+1 with every d-set independent. The sharp paving basis floor gives at least (d+1)(m-1)_fall_d ordered bases per record and the nine complete-chart caps 8147918, 84416263, 983902549, 12232092309, 158406193634, 2109949210211, 28689347099870, 396280526311830, 5542092977392141. No uniform promotion to charts with fewer zero normals is claimed.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_kernel_projective_paving_record_caps/statement.md",
+    "background/nodes/rate_half_mca_rank11_kernel_projective_paving_record_caps/proof.md",
+    "background/nodes/rate_half_mca_rank11_kernel_projective_paving_record_caps/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_kernel_projective_paving_record_caps/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_kernel_projective_paving_record_caps/attack.md",
+    "background/nodes/rate_half_mca_rank11_kernel_projective_paving_record_caps/audit.md",
+    "background/nodes/rate_half_mca_rank11_kernel_projective_paving_record_caps/result.md",
+    "background/nodes/rate_half_mca_rank11_kernel_projective_paving_record_caps/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_kernel_projective_paving_record_caps/verify.py",
+    "background/nodes/rate_half_mca_rank11_kernel_projective_paving_record_caps/verify_audit.py"
    ]
   },
   {
@@ -69263,6 +69342,16 @@
    "kind": "ev"
   },
   {
+   "from": "matroid_paving_basis_floor",
+   "to": "rate_half_mca_rank11_kernel_projective_paving_record_caps",
+   "kind": "ev"
+  },
+  {
+   "from": "matroid_paving_basis_floor",
+   "to": "rate_half_mca_rank11_kernel_projective_paving_record_caps",
+   "kind": "req"
+  },
+  {
    "from": "mca_from_ca_reduction",
    "to": "rate_half_unique_decoding_ca_mca_scope_fence",
    "kind": "req"
@@ -77709,6 +77798,11 @@
   },
   {
    "from": "rate_half_mca_rank11_kernel_canonical_basis_globalizer",
+   "to": "rate_half_mca_rank11_kernel_projective_paving_record_caps",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_kernel_canonical_basis_globalizer",
    "to": "rate_half_mca_rank11_kernel_rankstratified_capacity_cut",
    "kind": "ev"
   },
@@ -77723,18 +77817,13 @@
    "kind": "ev"
   },
   {
-   "from": "rate_half_mca_rank11_kernel_corank1_projective_pair_cap",
-   "to": "rate_half_mca_rank11_kernel_projective_pair_capacity_cut",
-   "kind": "req"
-  },
-  {
    "from": "rate_half_mca_rank11_kernel_corank2_projective_basis_cap",
    "to": "rate_half_mca_rank11_kernel_corank2_projective_capacity_cut",
    "kind": "ev"
   },
   {
    "from": "rate_half_mca_rank11_kernel_corank2_projective_basis_cap",
-   "to": "rate_half_mca_rank11_kernel_corank2_projective_capacity_cut",
+   "to": "rate_half_mca_rank11_kernel_corank2_uniform_projective_basis_cap",
    "kind": "req"
   },
   {
@@ -77748,19 +77837,39 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_mca_rank11_kernel_corank2_uniform_projective_basis_cap",
+   "to": "rate_half_mca_rank11_kernel_corank2_projective_capacity_cut",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_kernel_corank2_uniform_projective_basis_cap",
+   "to": "rate_half_mca_rank11_kernel_corank2_projective_capacity_cut",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_mca_rank11_kernel_corank3_projective_basis_cap",
    "to": "rate_half_mca_rank11_kernel_corank3_projective_capacity_cut",
    "kind": "ev"
   },
   {
    "from": "rate_half_mca_rank11_kernel_corank3_projective_basis_cap",
-   "to": "rate_half_mca_rank11_kernel_corank3_projective_capacity_cut",
+   "to": "rate_half_mca_rank11_kernel_corank3_uniform_projective_basis_cap",
    "kind": "req"
   },
   {
    "from": "rate_half_mca_rank11_kernel_corank3_projective_capacity_cut",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_kernel_corank3_uniform_projective_basis_cap",
+   "to": "rate_half_mca_rank11_kernel_corank3_projective_capacity_cut",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_kernel_corank3_uniform_projective_basis_cap",
+   "to": "rate_half_mca_rank11_kernel_corank3_projective_capacity_cut",
+   "kind": "req"
   },
   {
    "from": "rate_half_mca_rank11_kernel_hybrid_capacity_cut",
@@ -77890,6 +77999,46 @@
   {
    "from": "rate_half_mca_rank11_kernel_projective_pair_capacity_cut",
    "to": "rate_half_mca_rank11_kernel_corank2_projective_capacity_cut",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_kernel_projective_paving_integer_gap_fence",
+   "to": "rate_half_mca_rank11_kernel_corank2_uniform_projective_basis_cap",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_kernel_projective_paving_integer_gap_fence",
+   "to": "rate_half_mca_rank11_kernel_corank2_uniform_projective_basis_cap",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_kernel_projective_paving_integer_gap_fence",
+   "to": "rate_half_mca_rank11_kernel_corank3_uniform_projective_basis_cap",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_kernel_projective_paving_integer_gap_fence",
+   "to": "rate_half_mca_rank11_kernel_corank3_uniform_projective_basis_cap",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_kernel_projective_paving_integer_gap_fence",
+   "to": "rate_half_mca_rank11_kernel_projective_pair_capacity_cut",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_kernel_projective_paving_integer_gap_fence",
+   "to": "rate_half_mca_rank11_kernel_projective_pair_capacity_cut",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_kernel_projective_paving_record_caps",
+   "to": "rate_half_mca_rank11_kernel_projective_paving_integer_gap_fence",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_kernel_projective_paving_record_caps",
+   "to": "rate_half_mca_rank11_kernel_projective_paving_integer_gap_fence",
    "kind": "req"
   },
   {
@@ -78215,6 +78364,16 @@
   {
    "from": "rate_half_mca_support_local_transversality_compiler",
    "to": "rate_half_mca_rank11_kernel_corank3_projective_basis_cap",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_support_local_transversality_compiler",
+   "to": "rate_half_mca_rank11_kernel_projective_paving_integer_gap_fence",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_support_local_transversality_compiler",
+   "to": "rate_half_mca_rank11_kernel_projective_paving_record_caps",
    "kind": "req"
   },
   {

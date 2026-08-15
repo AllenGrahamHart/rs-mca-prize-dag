@@ -1,11 +1,12 @@
 # Dependency sub-DAG
 
 ```text
-projective-pair capacity cut --------\
-corank-three projective-basis cap ----+-> corank-three projective capacity cut
-multi-step shadow hierarchy ---------/
+conditional corank-two cut ---------\
+uniform corank-three cap target -----+-> conditional corank-three cut
+multi-step shadow hierarchy --------/
 ```
 
-The prior cut fixes the inherited frontier and corank-one/two caps.  The
-new basis theorem supplies `M_3=983902549`.  The hierarchy supplies all
-primal inequalities and the positive forest-dual certificate.
+The first parent carries the open uniform `M_2` premise.  The new target
+adds uniform `M_3`; the hierarchy supplies the exact primal inequalities.
+The implication has no green edge to the critical consumer until both
+targets close.

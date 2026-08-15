@@ -1,0 +1,23 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_kernel_corank3_uniform_projective_basis_cap",
+    "title": "Uniform corank-three projective-basis cap",
+    "status": "TARGET",
+    "closure": "requires structure beyond support-local transversality at t>=1",
+    "statement": "Prove or refute that every official rank-eleven kernel corank-three canonical-basis chart has at most 983902549 records. This value is proved only at complete shortening; the current valid integer-gap envelope gives 3935391907 at K'=377674.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_kernel_corank3_uniform_projective_basis_cap/statement.md",
+      "background/nodes/rate_half_mca_rank11_kernel_corank3_uniform_projective_basis_cap/attack.md"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_kernel_corank3_projective_basis_cap"},
+    {"from": "rate_half_mca_rank11_kernel_projective_paving_integer_gap_fence"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_mca_rank11_kernel_corank3_projective_capacity_cut"}
+  ],
+  "refutes": []
+}

@@ -12,7 +12,7 @@ from pathlib import Path
 
 
 CONTRACT = Path(__file__).with_name("source_contract.json")
-CONTRACT_SHA256 = "5b94d2e176328ea823e7edcb9378c763cf89f24bf912b7329b6825694a490ff0"
+CONTRACT_SHA256 = "4d6fc8fb23791bd037ee42082bb635098141b0b6185f1f69c94bea2df74aaf83"
 ROOT = Path(__file__).resolve().parents[3]
 TREE = [(2, 4), (2, 5), (3, 6), (4, 7), (5, 8), (6, 9)]
 
@@ -235,7 +235,7 @@ def validate(data: object, files: bool) -> dict[str, int]:
     require(data.get("schema") == "rate-half-mca-rank11-kernel-corank3-projective-capacity-cut-v1", "schema")
     require(data.get("dependencies") == [
         "rate_half_mca_rank11_kernel_corank2_projective_capacity_cut",
-        "rate_half_mca_rank11_kernel_corank3_projective_basis_cap",
+        "rate_half_mca_rank11_kernel_corank3_uniform_projective_basis_cap",
         "rate_half_mca_rank11_kernel_multistep_shadow_hierarchy",
     ], "dependencies")
     p = data.get("parameters")
@@ -265,7 +265,7 @@ def validate(data: object, files: bool) -> dict[str, int]:
         require(certificate(kprime, p) == expected, f"certificate {kprime}")
     require(int(p["replay_start_gap"]) > 0 and int(p["endpoint_gap"]) > 0, "closed signs")
     require(int(p["wall_excess"]) > 0, "wall sign")
-    require("remains open" in str(data.get("nonclaim")), "nonclaim")
+    require("conditional" in str(data.get("nonclaim")).lower(), "nonclaim")
     if files:
         verify_result(data, p)
     return {"checked": int(p["checked_rows_including_wall"]), "wall": int(p["first_open_dimension"])}

@@ -1,5 +1,5 @@
 # Result
 
-PROVED: the corank-three projective-basis cap moves the exact dominant
-rank-eleven kernel cutoff from `K'=568338` through `K'=796598`; capacity
-first wins at `796599`.
+CONDITIONAL: uniform corank-two and corank-three projective caps would move
+the exact dominant-kernel cutoff through `K'=796598`; the conditional
+resource comparison first reverses at `796599`.

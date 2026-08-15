@@ -1,0 +1,28 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "matroid_paving_basis_floor",
+    "title": "Paving matroids have a sharp binomial basis floor",
+    "status": "PROVED",
+    "closure": "universal deletion-contraction induction",
+    "statement": "A rank-r matroid on m elements in which every subset of size at most r-1 is independent has at least C(m-1,r-1) bases. The floor is sharp for one coloop over a uniform rank-(r-1) deletion.",
+    "refs": [
+      "background/nodes/matroid_paving_basis_floor/statement.md",
+      "background/nodes/matroid_paving_basis_floor/proof.md",
+      "background/nodes/matroid_paving_basis_floor/claim_contract.md",
+      "background/nodes/matroid_paving_basis_floor/dependency_subdag.md",
+      "background/nodes/matroid_paving_basis_floor/attack.md",
+      "background/nodes/matroid_paving_basis_floor/audit.md",
+      "background/nodes/matroid_paving_basis_floor/result.md",
+      "background/nodes/matroid_paving_basis_floor/source_contract.json",
+      "background/nodes/matroid_paving_basis_floor/verify.py",
+      "background/nodes/matroid_paving_basis_floor/verify_audit.py"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_mca_rank11_kernel_projective_paving_record_caps"}
+  ],
+  "refutes": []
+}

@@ -2,7 +2,7 @@
   "schema": "rate-half-mca-rank11-kernel-projective-pair-capacity-cut-v1",
   "dependencies": [
     "rate_half_mca_rank11_kernel_three_step_shadow_capacity_cut",
-    "rate_half_mca_rank11_kernel_corank1_projective_pair_cap",
+    "rate_half_mca_rank11_kernel_projective_paving_integer_gap_fence",
     "rate_half_mca_rank11_kernel_multistep_shadow_hierarchy"
   ],
   "parameters": {
