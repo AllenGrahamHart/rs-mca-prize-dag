@@ -1,0 +1,31 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_kernel_corank1_projective_pair_cap",
+    "title": "Projective normal pairs halve the corank-one record cap",
+    "status": "PROVED",
+    "closure": "exact ordered independent-pair incidence count",
+    "statement": "In the complete shortened corank-one chart (n,K,m)=(1048577,1,67473), zero normals are absent and same-support pair noncontainment forces at least two projective normal classes. Every record therefore owns at least 134944 ordered independent coordinate pairs, so there are at most 8147918 records.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_kernel_corank1_projective_pair_cap/statement.md",
+      "background/nodes/rate_half_mca_rank11_kernel_corank1_projective_pair_cap/proof.md",
+      "background/nodes/rate_half_mca_rank11_kernel_corank1_projective_pair_cap/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_kernel_corank1_projective_pair_cap/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_kernel_corank1_projective_pair_cap/attack.md",
+      "background/nodes/rate_half_mca_rank11_kernel_corank1_projective_pair_cap/audit.md",
+      "background/nodes/rate_half_mca_rank11_kernel_corank1_projective_pair_cap/result.md",
+      "background/nodes/rate_half_mca_rank11_kernel_corank1_projective_pair_cap/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_kernel_corank1_projective_pair_cap/verify.py",
+      "background/nodes/rate_half_mca_rank11_kernel_corank1_projective_pair_cap/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_kernel_canonical_basis_globalizer"},
+    {"from": "rate_half_mca_support_local_transversality_compiler"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_mca_rank11_kernel_projective_pair_capacity_cut"}
+  ],
+  "refutes": []
+}

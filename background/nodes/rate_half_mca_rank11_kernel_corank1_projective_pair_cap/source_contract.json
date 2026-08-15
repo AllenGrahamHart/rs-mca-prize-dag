@@ -1,0 +1,24 @@
+{
+  "schema": "rate-half-mca-rank11-kernel-corank1-projective-pair-cap-v1",
+  "dependencies": [
+    "rate_half_mca_rank11_kernel_canonical_basis_globalizer",
+    "rate_half_mca_support_local_transversality_compiler"
+  ],
+  "parameters": {
+    "domain_size": 1048577,
+    "code_dimension": 1,
+    "support_size": 67473,
+    "explanation_dimension": 1,
+    "normal_space_dimension": 2,
+    "zero_normal_upper_bound": 0,
+    "minimum_projective_classes": 2,
+    "maximum_dependent_ordered_pairs": 4552470785,
+    "minimum_independent_ordered_pairs_per_record": 134944,
+    "coordinate_ordered_pair_resource": 1099512676352,
+    "projective_pair_record_cap": 8147918,
+    "division_remainder": 29760,
+    "previous_transversality_record_cap": 16295594,
+    "record_cap_improvement": 8147676
+  },
+  "nonclaim": "The cap is specific to the complete shortened explanation-dimension-one chart; it does not by itself sum rank strata or close either prize."
+}
