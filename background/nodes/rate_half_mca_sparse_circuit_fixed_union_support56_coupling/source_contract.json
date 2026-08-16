@@ -1,0 +1,17 @@
+{
+  "schema": "rate-half-mca-fixed-union-support56-coupling-v1",
+  "hypotheses": {
+    "minimum_dimension": 6,
+    "residual": "R=K-u-g>=0",
+    "outside_size": "N=m-u>=R+4"
+  },
+  "specialization": {
+    "K": 83,
+    "m": 67555,
+    "u": 29,
+    "g": 6,
+    "deficit5": 15,
+    "deficit6": 10,
+    "expected_weighted_cap": "16499018112619081218909046137784886320200565035"
+  }
+}

@@ -12,7 +12,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[3]
 CONTRACT = Path(__file__).with_name("source_contract.json")
-EXPECTED_CONTRACT_SHA256 = "2df88cbc5fdbe8cffde25d064cf3e00e0a339857d34c0917ae2e5a58d3402c08"
+EXPECTED_CONTRACT_SHA256 = "06a01a521241157263a72b3d90539bfbbc74c9a367603136efb173165c363187"
 
 
 class Reject(ValueError):
@@ -33,6 +33,10 @@ def load_module(name: str, path: Path):
 
 
 def validate(data: dict, actual: dict) -> None:
+    require(
+        data["scope"] == "single exact cell; not a complete K'=83 frontier maximum",
+        "scope",
+    )
     for relative, digest in data["replay_sources"].items():
         require(
             hashlib.sha256((ROOT / relative).read_bytes()).hexdigest() == digest,

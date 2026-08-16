@@ -2,10 +2,10 @@
   "schema": "prize-dag-node-v1",
   "node": {
     "id": "rate_half_mca_rank11_k83_pairwise_atlas_triple_carrier_wall",
-    "title": "Pairwise carrier atlas first stalls at K'=83",
+    "title": "One pairwise carrier cell stalls at K'=83",
     "status": "PROVED",
     "closure": "exact active-cell reconstruction, pairwise support-4/5 charge replay, forced triple-intersection derivation, and exhaustive overlap audit",
-    "statement": "At K'=83 the complete pairwise carrier atlas has premium 41411584407693108041789796771180703922717609427, exceeding the safe ceiling by 46770156546844646871611081711174519620031307; the forced four-dimensional intersection charge on every possible triple union leaves that premium unchanged.",
+    "statement": "At K'=83 the printed pairwise carrier cell has premium 41411584407693108041789796771180703922717609427, exceeding the safe ceiling by 46770156546844646871611081711174519620031307; the forced four-dimensional intersection charge on every possible triple union leaves that premium unchanged. No complete-frontier maximum is claimed.",
     "refs": [
       "background/nodes/rate_half_mca_rank11_k83_pairwise_atlas_triple_carrier_wall/statement.md",
       "background/nodes/rate_half_mca_rank11_k83_pairwise_atlas_triple_carrier_wall/proof.md",

@@ -39988,6 +39988,26 @@
    ]
   },
   {
+   "id": "rate_half_mca_adjacent_flat_circuit_coupling",
+   "title": "Adjacent-flat circuit coupling",
+   "status": "PROVED",
+   "closure": "weighted lower-flat/outside witness count",
+   "statement": "If rank-r flats have size at most B and rank-(r+1) flats at most B+1, then (r+2)C_(r+2) <= (B-r)C(N,r+1)-(N-B)C_(r+1).",
+   "refs": [
+    "background/nodes/rate_half_mca_adjacent_flat_circuit_coupling/statement.md",
+    "background/nodes/rate_half_mca_adjacent_flat_circuit_coupling/proof.md",
+    "background/nodes/rate_half_mca_adjacent_flat_circuit_coupling/claim_contract.md",
+    "background/nodes/rate_half_mca_adjacent_flat_circuit_coupling/dependency_subdag.md",
+    "background/nodes/rate_half_mca_adjacent_flat_circuit_coupling/attack.md",
+    "background/nodes/rate_half_mca_adjacent_flat_circuit_coupling/audit.md",
+    "background/nodes/rate_half_mca_adjacent_flat_circuit_coupling/result.md",
+    "background/nodes/rate_half_mca_adjacent_flat_circuit_coupling/provenance.md",
+    "background/nodes/rate_half_mca_adjacent_flat_circuit_coupling/source_contract.json",
+    "background/nodes/rate_half_mca_adjacent_flat_circuit_coupling/verify.py",
+    "background/nodes/rate_half_mca_adjacent_flat_circuit_coupling/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_mca_codimension_three_sparse_circuit_completion_cap",
    "title": "Bound sparse circuits selected by a codimension-three quotient plane",
    "status": "PROVED",
@@ -40941,11 +40961,32 @@
    ]
   },
   {
+   "id": "rate_half_mca_rank11_k83_adjacent_support_carrier_payment",
+   "title": "Adjacent-support carrier atlas closes K'=83",
+   "status": "PROVED",
+   "closure": "exact support-2/3 partition, exhaustive carrier geometry, support-disjoint adjacent-support payment, independent sharded replay, and positive integral component gap",
+   "statement": "The exact K'=83 carrier frontier has completion premium 41364793335621487128860475977676014245181683050 below the safe ceiling by 20915524776266057709711793515157915895070, yielding a positive component-payment gap and extending the closed prefix to 10..83.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_k83_adjacent_support_carrier_payment/statement.md",
+    "background/nodes/rate_half_mca_rank11_k83_adjacent_support_carrier_payment/proof.md",
+    "background/nodes/rate_half_mca_rank11_k83_adjacent_support_carrier_payment/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_k83_adjacent_support_carrier_payment/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_k83_adjacent_support_carrier_payment/attack.md",
+    "background/nodes/rate_half_mca_rank11_k83_adjacent_support_carrier_payment/audit.md",
+    "background/nodes/rate_half_mca_rank11_k83_adjacent_support_carrier_payment/result.md",
+    "background/nodes/rate_half_mca_rank11_k83_adjacent_support_carrier_payment/provenance.md",
+    "background/nodes/rate_half_mca_rank11_k83_adjacent_support_carrier_payment/replay.md",
+    "background/nodes/rate_half_mca_rank11_k83_adjacent_support_carrier_payment/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_k83_adjacent_support_carrier_payment/verify.py",
+    "background/nodes/rate_half_mca_rank11_k83_adjacent_support_carrier_payment/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_mca_rank11_k83_pairwise_atlas_triple_carrier_wall",
-   "title": "Pairwise carrier atlas first stalls at K'=83",
+   "title": "One pairwise carrier cell stalls at K'=83",
    "status": "PROVED",
    "closure": "exact active-cell reconstruction, pairwise support-4/5 charge replay, forced triple-intersection derivation, and exhaustive overlap audit",
-   "statement": "At K'=83 the complete pairwise carrier atlas has premium 41411584407693108041789796771180703922717609427, exceeding the safe ceiling by 46770156546844646871611081711174519620031307; the forced four-dimensional intersection charge on every possible triple union leaves that premium unchanged.",
+   "statement": "At K'=83 the printed pairwise carrier cell has premium 41411584407693108041789796771180703922717609427, exceeding the safe ceiling by 46770156546844646871611081711174519620031307; the forced four-dimensional intersection charge on every possible triple union leaves that premium unchanged. No complete-frontier maximum is claimed.",
    "refs": [
     "background/nodes/rate_half_mca_rank11_k83_pairwise_atlas_triple_carrier_wall/statement.md",
     "background/nodes/rate_half_mca_rank11_k83_pairwise_atlas_triple_carrier_wall/proof.md",
@@ -42152,6 +42193,26 @@
    ]
   },
   {
+   "id": "rate_half_mca_sparse_circuit_fixed_union_adjacent_support_coupling",
+   "title": "Fixed-union adjacent-support circuit coupling",
+   "status": "PROVED",
+   "closure": "adjacent-flat contraction and endpoint completion exposure",
+   "statement": "A fixed g-dimensional vanishing space couples every adjacent circuit-support pair d/(d+1) with 2<=d<=g-1, with the explicit weighted census FAS3; support-disjoint pair bounds compose.",
+   "refs": [
+    "background/nodes/rate_half_mca_sparse_circuit_fixed_union_adjacent_support_coupling/statement.md",
+    "background/nodes/rate_half_mca_sparse_circuit_fixed_union_adjacent_support_coupling/proof.md",
+    "background/nodes/rate_half_mca_sparse_circuit_fixed_union_adjacent_support_coupling/claim_contract.md",
+    "background/nodes/rate_half_mca_sparse_circuit_fixed_union_adjacent_support_coupling/dependency_subdag.md",
+    "background/nodes/rate_half_mca_sparse_circuit_fixed_union_adjacent_support_coupling/attack.md",
+    "background/nodes/rate_half_mca_sparse_circuit_fixed_union_adjacent_support_coupling/audit.md",
+    "background/nodes/rate_half_mca_sparse_circuit_fixed_union_adjacent_support_coupling/result.md",
+    "background/nodes/rate_half_mca_sparse_circuit_fixed_union_adjacent_support_coupling/provenance.md",
+    "background/nodes/rate_half_mca_sparse_circuit_fixed_union_adjacent_support_coupling/source_contract.json",
+    "background/nodes/rate_half_mca_sparse_circuit_fixed_union_adjacent_support_coupling/verify.py",
+    "background/nodes/rate_half_mca_sparse_circuit_fixed_union_adjacent_support_coupling/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_mca_sparse_circuit_fixed_union_flat_coupled_45_charge",
    "title": "Fixed-union flat-coupled support-4/5 charge",
    "status": "PROVED",
@@ -42169,6 +42230,26 @@
     "background/nodes/rate_half_mca_sparse_circuit_fixed_union_flat_coupled_45_charge/source_contract.json",
     "background/nodes/rate_half_mca_sparse_circuit_fixed_union_flat_coupled_45_charge/verify.py",
     "background/nodes/rate_half_mca_sparse_circuit_fixed_union_flat_coupled_45_charge/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_mca_sparse_circuit_fixed_union_support56_coupling",
+   "title": "Fixed-union support-5/6 circuit coupling",
+   "status": "PROVED",
+   "closure": "contracted outside-flat caps plus adjacent-flat circuit coupling and exact stratum optimization",
+   "statement": "A fixed g>=6 dimensional vanishing space on u points, with residual R>=0 and outside size N>=R+4, yields stratum-wise adjacent support-5/6 inequalities and the weighted complete census WS56.",
+   "refs": [
+    "background/nodes/rate_half_mca_sparse_circuit_fixed_union_support56_coupling/statement.md",
+    "background/nodes/rate_half_mca_sparse_circuit_fixed_union_support56_coupling/proof.md",
+    "background/nodes/rate_half_mca_sparse_circuit_fixed_union_support56_coupling/claim_contract.md",
+    "background/nodes/rate_half_mca_sparse_circuit_fixed_union_support56_coupling/dependency_subdag.md",
+    "background/nodes/rate_half_mca_sparse_circuit_fixed_union_support56_coupling/attack.md",
+    "background/nodes/rate_half_mca_sparse_circuit_fixed_union_support56_coupling/audit.md",
+    "background/nodes/rate_half_mca_sparse_circuit_fixed_union_support56_coupling/result.md",
+    "background/nodes/rate_half_mca_sparse_circuit_fixed_union_support56_coupling/provenance.md",
+    "background/nodes/rate_half_mca_sparse_circuit_fixed_union_support56_coupling/source_contract.json",
+    "background/nodes/rate_half_mca_sparse_circuit_fixed_union_support56_coupling/verify.py",
+    "background/nodes/rate_half_mca_sparse_circuit_fixed_union_support56_coupling/verify_audit.py"
    ]
   },
   {
@@ -42266,6 +42347,26 @@
     "background/nodes/rate_half_mca_sparse_circuit_near_saturation_carrier/source_contract.json",
     "background/nodes/rate_half_mca_sparse_circuit_near_saturation_carrier/verify.py",
     "background/nodes/rate_half_mca_sparse_circuit_near_saturation_carrier/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_mca_sparse_circuit_single_completion_carrier",
+   "title": "Single completion carrier",
+   "status": "PROVED",
+   "closure": "deletion-span dependence and exact annihilator dimension",
+   "statement": "An independent support-c deletion attaining M_c completions supplies a fixed union of size M_c+c-1 on which its (11-c)-dimensional annihilator vanishes.",
+   "refs": [
+    "background/nodes/rate_half_mca_sparse_circuit_single_completion_carrier/statement.md",
+    "background/nodes/rate_half_mca_sparse_circuit_single_completion_carrier/proof.md",
+    "background/nodes/rate_half_mca_sparse_circuit_single_completion_carrier/claim_contract.md",
+    "background/nodes/rate_half_mca_sparse_circuit_single_completion_carrier/dependency_subdag.md",
+    "background/nodes/rate_half_mca_sparse_circuit_single_completion_carrier/attack.md",
+    "background/nodes/rate_half_mca_sparse_circuit_single_completion_carrier/audit.md",
+    "background/nodes/rate_half_mca_sparse_circuit_single_completion_carrier/result.md",
+    "background/nodes/rate_half_mca_sparse_circuit_single_completion_carrier/provenance.md",
+    "background/nodes/rate_half_mca_sparse_circuit_single_completion_carrier/source_contract.json",
+    "background/nodes/rate_half_mca_sparse_circuit_single_completion_carrier/verify.py",
+    "background/nodes/rate_half_mca_sparse_circuit_single_completion_carrier/verify_audit.py"
    ]
   },
   {
@@ -78911,6 +79012,16 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_mca_adjacent_flat_circuit_coupling",
+   "to": "rate_half_mca_sparse_circuit_fixed_union_adjacent_support_coupling",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_adjacent_flat_circuit_coupling",
+   "to": "rate_half_mca_sparse_circuit_fixed_union_support56_coupling",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_mca_codimension_three_sparse_circuit_completion_cap",
    "to": "rate_half_mca_rank11_k13_sparse_circuit_completion_payment",
    "kind": "ev"
@@ -79527,8 +79638,18 @@
   },
   {
    "from": "rate_half_mca_rank11_k82_full_carrier_atlas_payment",
+   "to": "rate_half_mca_rank11_k83_adjacent_support_carrier_payment",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_k82_full_carrier_atlas_payment",
    "to": "rate_half_mca_rank11_k83_pairwise_atlas_triple_carrier_wall",
    "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_k83_adjacent_support_carrier_payment",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
   },
   {
    "from": "rate_half_mca_rank11_k83_pairwise_atlas_triple_carrier_wall",
@@ -80371,6 +80492,11 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_mca_sparse_circuit_completion_stratified_fixed_union_charge",
+   "to": "rate_half_mca_sparse_circuit_fixed_union_support56_coupling",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_mca_sparse_circuit_cross_support_collision_charge",
    "to": "rate_half_mca_rank11_k60_k70_cross_support_collision_payment",
    "kind": "ev"
@@ -80436,6 +80562,11 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_mca_sparse_circuit_fixed_union_adjacent_support_coupling",
+   "to": "rate_half_mca_rank11_k83_adjacent_support_carrier_payment",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_mca_sparse_circuit_fixed_union_flat_coupled_45_charge",
    "to": "rate_half_mca_rank11_k72_full_carrier_atlas_payment",
    "kind": "req"
@@ -80488,6 +80619,11 @@
   {
    "from": "rate_half_mca_sparse_circuit_fixed_union_flat_coupled_45_charge",
    "to": "rate_half_mca_rank11_k82_full_carrier_atlas_payment",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_sparse_circuit_fixed_union_flat_coupled_45_charge",
+   "to": "rate_half_mca_rank11_k83_adjacent_support_carrier_payment",
    "kind": "req"
   },
   {
@@ -80496,6 +80632,11 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_mca_sparse_circuit_fixed_union_support56_coupling",
+   "to": "rate_half_mca_rank11_k83_adjacent_support_carrier_payment",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_mca_sparse_circuit_full_completion_pairwise_carrier_atlas",
    "to": "rate_half_mca_rank11_k72_full_carrier_atlas_payment",
    "kind": "req"
@@ -80548,6 +80689,11 @@
   {
    "from": "rate_half_mca_sparse_circuit_full_completion_pairwise_carrier_atlas",
    "to": "rate_half_mca_rank11_k82_full_carrier_atlas_payment",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_sparse_circuit_full_completion_pairwise_carrier_atlas",
+   "to": "rate_half_mca_rank11_k83_adjacent_support_carrier_payment",
    "kind": "req"
   },
   {
@@ -80592,6 +80738,11 @@
   },
   {
    "from": "rate_half_mca_sparse_circuit_multicarrier_collision_charge",
+   "to": "rate_half_mca_sparse_circuit_fixed_union_adjacent_support_coupling",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_sparse_circuit_multicarrier_collision_charge",
    "to": "rate_half_mca_sparse_circuit_k71_carrier_position_trichotomy",
    "kind": "ev"
   },
@@ -80618,6 +80769,11 @@
   {
    "from": "rate_half_mca_sparse_circuit_near_saturation_carrier",
    "to": "rate_half_mca_sparse_circuit_completion_defect_hierarchy",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_sparse_circuit_single_completion_carrier",
+   "to": "rate_half_mca_rank11_k83_adjacent_support_carrier_payment",
    "kind": "req"
   },
   {

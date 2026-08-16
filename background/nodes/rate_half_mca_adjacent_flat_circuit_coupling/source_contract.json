@@ -1,0 +1,11 @@
+{
+  "schema": "rate-half-mca-adjacent-flat-circuit-coupling-v1",
+  "formula": "(r+2)*C_high <= (B-r)*C(N,r+1)-(N-B)*C_low",
+  "sharp_uniform_rows": [
+    {"r": 1, "N": 4, "B": 3, "C_low": 0, "C_high": 4},
+    {"r": 2, "N": 5, "B": 4, "C_low": 0, "C_high": 5},
+    {"r": 3, "N": 7, "B": 6, "C_low": 0, "C_high": 21},
+    {"r": 4, "N": 8, "B": 7, "C_low": 0, "C_high": 28}
+  ],
+  "zero_control": {"r": 4, "N": 8, "B": 4, "C_low": 0, "C_high": 0}
+}

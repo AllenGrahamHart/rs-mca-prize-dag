@@ -1,8 +1,9 @@
 # Result
 
-The existing carrier atlas closes exactly through `K'=82` and first stalls
-at `K'=83`. Ordinary Grassmann intersection of the active pairwise charges
-does not repair the deficit.
+The existing carrier atlas closes exactly through `K'=82`. The printed
+K'=83 pairwise cell is unpaid, and ordinary Grassmann intersection of its
+two charges does not repair the deficit. A complete corrected K'=83 frontier
+replay remains separate.
 
 ```text
 pairwise premium: 41411584407693108041789796771180703922717609427

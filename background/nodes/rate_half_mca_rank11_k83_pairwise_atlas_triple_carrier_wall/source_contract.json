@@ -17,6 +17,7 @@
     "m": 67555,
     "n": 1048659
   },
+  "scope": "single exact cell; not a complete K'=83 frontier maximum",
   "active_cell": {
     "defects": [50, 49, 49, 48],
     "completion_maxima": [23, 24, 24, 25],
@@ -37,6 +38,6 @@
     {"kprime": 83, "baseline_premium": 96735817248988026889231098745064402053450607850, "safe_premium_ceiling": 41364814251146263394918185689469529403097578120, "margin": -55371002997841763494312913055594872650353029730},
     {"kprime": 100, "baseline_premium": 119950129342120402394925036907883382746668804221, "safe_premium_ceiling": 41772944655156220291402012818446891138694189577, "margin": -78177184686964182103523024089436491607974614644}
   ],
-  "conclusion": "The proved pairwise atlas and its forced ordinary triple intersection do not pay K'=83.",
+  "conclusion": "The printed pairwise cell and its forced ordinary triple intersection remain above the K'=83 ceiling.",
   "nonclaim": "No counterexample to the MCA theorem or impossibility result for a stronger triple-carrier census is claimed."
 }

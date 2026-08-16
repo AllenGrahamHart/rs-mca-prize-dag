@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_sparse_circuit_fixed_union_adjacent_support_coupling",
+    "title": "Fixed-union adjacent-support circuit coupling",
+    "status": "PROVED",
+    "closure": "adjacent-flat contraction and endpoint completion exposure",
+    "statement": "A fixed g-dimensional vanishing space couples every adjacent circuit-support pair d/(d+1) with 2<=d<=g-1, with the explicit weighted census FAS3; support-disjoint pair bounds compose.",
+    "refs": [
+      "background/nodes/rate_half_mca_sparse_circuit_fixed_union_adjacent_support_coupling/statement.md",
+      "background/nodes/rate_half_mca_sparse_circuit_fixed_union_adjacent_support_coupling/proof.md",
+      "background/nodes/rate_half_mca_sparse_circuit_fixed_union_adjacent_support_coupling/claim_contract.md",
+      "background/nodes/rate_half_mca_sparse_circuit_fixed_union_adjacent_support_coupling/dependency_subdag.md",
+      "background/nodes/rate_half_mca_sparse_circuit_fixed_union_adjacent_support_coupling/attack.md",
+      "background/nodes/rate_half_mca_sparse_circuit_fixed_union_adjacent_support_coupling/audit.md",
+      "background/nodes/rate_half_mca_sparse_circuit_fixed_union_adjacent_support_coupling/result.md",
+      "background/nodes/rate_half_mca_sparse_circuit_fixed_union_adjacent_support_coupling/provenance.md",
+      "background/nodes/rate_half_mca_sparse_circuit_fixed_union_adjacent_support_coupling/source_contract.json",
+      "background/nodes/rate_half_mca_sparse_circuit_fixed_union_adjacent_support_coupling/verify.py",
+      "background/nodes/rate_half_mca_sparse_circuit_fixed_union_adjacent_support_coupling/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_adjacent_flat_circuit_coupling"},
+    {"from": "rate_half_mca_sparse_circuit_multicarrier_collision_charge"}
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_sparse_circuit_fixed_union_support56_coupling",
+    "title": "Fixed-union support-5/6 circuit coupling",
+    "status": "PROVED",
+    "closure": "contracted outside-flat caps plus adjacent-flat circuit coupling and exact stratum optimization",
+    "statement": "A fixed g>=6 dimensional vanishing space on u points, with residual R>=0 and outside size N>=R+4, yields stratum-wise adjacent support-5/6 inequalities and the weighted complete census WS56.",
+    "refs": [
+      "background/nodes/rate_half_mca_sparse_circuit_fixed_union_support56_coupling/statement.md",
+      "background/nodes/rate_half_mca_sparse_circuit_fixed_union_support56_coupling/proof.md",
+      "background/nodes/rate_half_mca_sparse_circuit_fixed_union_support56_coupling/claim_contract.md",
+      "background/nodes/rate_half_mca_sparse_circuit_fixed_union_support56_coupling/dependency_subdag.md",
+      "background/nodes/rate_half_mca_sparse_circuit_fixed_union_support56_coupling/attack.md",
+      "background/nodes/rate_half_mca_sparse_circuit_fixed_union_support56_coupling/audit.md",
+      "background/nodes/rate_half_mca_sparse_circuit_fixed_union_support56_coupling/result.md",
+      "background/nodes/rate_half_mca_sparse_circuit_fixed_union_support56_coupling/provenance.md",
+      "background/nodes/rate_half_mca_sparse_circuit_fixed_union_support56_coupling/source_contract.json",
+      "background/nodes/rate_half_mca_sparse_circuit_fixed_union_support56_coupling/verify.py",
+      "background/nodes/rate_half_mca_sparse_circuit_fixed_union_support56_coupling/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_adjacent_flat_circuit_coupling"},
+    {"from": "rate_half_mca_sparse_circuit_completion_stratified_fixed_union_charge"}
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

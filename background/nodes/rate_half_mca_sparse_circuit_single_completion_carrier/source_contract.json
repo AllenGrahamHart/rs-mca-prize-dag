@@ -1,0 +1,12 @@
+{
+  "schema": "rate-half-mca-single-completion-carrier-v1",
+  "formula": {
+    "union": "M+c-1",
+    "dimension": "11-c"
+  },
+  "controls": [
+    {"c": 2, "M": 29, "union": 30, "dimension": 9},
+    {"c": 3, "M": 36, "union": 38, "dimension": 8},
+    {"c": 9, "M": 1, "union": 9, "dimension": 2}
+  ]
+}

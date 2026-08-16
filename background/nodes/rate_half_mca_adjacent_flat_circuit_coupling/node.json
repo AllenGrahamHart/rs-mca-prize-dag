@@ -1,0 +1,27 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_adjacent_flat_circuit_coupling",
+    "title": "Adjacent-flat circuit coupling",
+    "status": "PROVED",
+    "closure": "weighted lower-flat/outside witness count",
+    "statement": "If rank-r flats have size at most B and rank-(r+1) flats at most B+1, then (r+2)C_(r+2) <= (B-r)C(N,r+1)-(N-B)C_(r+1).",
+    "refs": [
+      "background/nodes/rate_half_mca_adjacent_flat_circuit_coupling/statement.md",
+      "background/nodes/rate_half_mca_adjacent_flat_circuit_coupling/proof.md",
+      "background/nodes/rate_half_mca_adjacent_flat_circuit_coupling/claim_contract.md",
+      "background/nodes/rate_half_mca_adjacent_flat_circuit_coupling/dependency_subdag.md",
+      "background/nodes/rate_half_mca_adjacent_flat_circuit_coupling/attack.md",
+      "background/nodes/rate_half_mca_adjacent_flat_circuit_coupling/audit.md",
+      "background/nodes/rate_half_mca_adjacent_flat_circuit_coupling/result.md",
+      "background/nodes/rate_half_mca_adjacent_flat_circuit_coupling/provenance.md",
+      "background/nodes/rate_half_mca_adjacent_flat_circuit_coupling/source_contract.json",
+      "background/nodes/rate_half_mca_adjacent_flat_circuit_coupling/verify.py",
+      "background/nodes/rate_half_mca_adjacent_flat_circuit_coupling/verify_audit.py"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}
