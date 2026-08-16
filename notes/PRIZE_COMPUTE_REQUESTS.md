@@ -13604,3 +13604,29 @@ next preregistered object must be its **post-charge** adjacent-support
 premium, compared with the raw-safe ordinary leader and the other charged
 families. A row or interval can be promoted only after that charged envelope
 is bounded analytically and independently replayed.
+
+## Preregistered support-three post-charge parity evaluation
+
+- **decision:** identify the active adjacent-pair charge and exact margin of
+  the isolated parity family after its mandatory single-completion carrier
+- **interval:** every integer `K'=83..128`; this is 46 evaluations of one
+  explicit template, not a frontier enumeration
+- **script SHA-256:**
+  `e91052c09731a4e472468aeb046fcee2d35565538c75da8b63798f368acdb13d`
+- **template:** `q=K'-10`, `M3=floor(q/2)`,
+  `s2=q`, `s3=s4=s5=ceil(q/2)`, high branch
+  `c6d2/c7d1/c8d1/c9d0`, carrier `(M3+2,8)`
+- **envelope:** one remote CPU, 1 GB, 120-second child wall; projected cost
+  below `$0.01`
+
+```text
+STABLE:     one adjacent-charge choice per parity; extract and prove the
+            corresponding exact floor/binomial inequalities
+SWITCH:     finitely many charge changes; split the symbolic interval there
+UNSAFE:     a negative post-charge margin is a genuine route obstruction
+INCOMPLETE: retain no mathematical conclusion
+```
+
+This evaluation can reject or simplify the proposed symbolic route. It
+cannot establish domination over the remaining K'=84 lane families and
+cannot promote a row by itself.
