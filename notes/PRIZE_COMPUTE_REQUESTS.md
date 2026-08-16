@@ -13790,3 +13790,15 @@ maximum and margin.
 The script independently reconstructs the row marks, kernel capacity, safe
 ceiling, full-rank capacity, required incidence, and final gap from the
 hash-pinned rank-nine ledger. A nonpositive gap blocks promotion.
+
+**Outcome:** `PASS`. App `ap-H3we0j1uIdfDebkyKPSRbR` completed at 58 MB
+peak RSS; the capture SHA-256 is
+`58b8a3077d2dc80444b91a9b0057f6ad47a9fd07a0bce0456904522cc4d054c5`.
+The exact total capacity is
+`920610888896792835227342245208088849044544034113385622333558298`
+against required incidence
+`920611111786972543926647666320421141253960527393538734334971880`,
+leaving positive gap
+`222890179708699305421112332292209416493280153112001413582`.
+Together with the merger certificate and the proved analytic dependencies,
+this authorizes a K'=84 `PROVED` node; no larger row is authorized.

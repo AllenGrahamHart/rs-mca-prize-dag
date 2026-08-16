@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_k84_adjacent_support_carrier_payment",
+    "title": "Adjacent-support carrier atlas closes K'=84",
+    "status": "PROVED",
+    "closure": "exact support-2/3 partition, exhaustive carrier geometry, support-disjoint adjacent-support payment, independent sharded replay, and positive integral component gap",
+    "statement": "The exact K'=84 carrier frontier has completion premium 41388798786059119503097492734939028640066114130 below the safe ceiling by 44581160171407926086602515730765812413619, yielding a positive component-payment gap and extending the closed prefix to 10..84.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_k84_adjacent_support_carrier_payment/statement.md",
+      "background/nodes/rate_half_mca_rank11_k84_adjacent_support_carrier_payment/proof.md",
+      "background/nodes/rate_half_mca_rank11_k84_adjacent_support_carrier_payment/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_k84_adjacent_support_carrier_payment/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_k84_adjacent_support_carrier_payment/attack.md",
+      "background/nodes/rate_half_mca_rank11_k84_adjacent_support_carrier_payment/audit.md",
+      "background/nodes/rate_half_mca_rank11_k84_adjacent_support_carrier_payment/result.md",
+      "background/nodes/rate_half_mca_rank11_k84_adjacent_support_carrier_payment/provenance.md",
+      "background/nodes/rate_half_mca_rank11_k84_adjacent_support_carrier_payment/replay.md",
+      "background/nodes/rate_half_mca_rank11_k84_adjacent_support_carrier_payment/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_k84_adjacent_support_carrier_payment/verify.py",
+      "background/nodes/rate_half_mca_rank11_k84_adjacent_support_carrier_payment/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_k83_adjacent_support_carrier_payment"},
+    {"from": "rate_half_mca_sparse_circuit_single_completion_carrier"},
+    {"from": "rate_half_mca_sparse_circuit_full_completion_pairwise_carrier_atlas"},
+    {"from": "rate_half_mca_sparse_circuit_fixed_union_flat_coupled_45_charge"},
+    {"from": "rate_half_mca_sparse_circuit_fixed_union_support56_coupling"},
+    {"from": "rate_half_mca_sparse_circuit_fixed_union_adjacent_support_coupling"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location"}
+  ],
+  "refutes": []
+}
