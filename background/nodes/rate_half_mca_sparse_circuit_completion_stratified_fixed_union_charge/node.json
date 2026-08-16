@@ -24,8 +24,6 @@
     {"from": "rate_half_mca_sparse_circuit_multicarrier_collision_charge"}
   ],
   "alternatives": [],
-  "evidence_for": [
-    {"to": "rate_half_mca_rank11_k72_carrier_flag_split_section_census"}
-  ],
+  "evidence_for": [],
   "refutes": []
 }

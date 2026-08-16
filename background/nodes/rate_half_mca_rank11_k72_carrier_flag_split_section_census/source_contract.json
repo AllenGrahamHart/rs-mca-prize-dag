@@ -1,0 +1,31 @@
+{
+  "schema": "rate-half-mca-rank11-k72-carrier-flag-split-section-census-v1",
+  "row": {
+    "Kprime": 72,
+    "m": 67544,
+    "fixed_union": 36,
+    "residual_dimension": 5,
+    "residual_degree_ceiling": 35,
+    "outside_points": 67508
+  },
+  "flat_caps": {
+    "rank3": 34,
+    "rank4": 35,
+    "completion": 31
+  },
+  "weights": {
+    "support4": 21,
+    "support5": 15,
+    "selected_set_size": 11
+  },
+  "expected": {
+    "top4": 397371647886059,
+    "top5_coupled": 2463704216893565,
+    "I4": 506389674857089789010503158660245768712830400,
+    "I5": 2212036714331204501716306860191372678671248,
+    "weighted": 10667363722713853636746310934768031733149507120,
+    "required": 20552964203529559475043545396584734873674935990,
+    "margin": 9885600480815705838297234461816703140525428870,
+    "floor_monotonicity_units": 195
+  }
+}

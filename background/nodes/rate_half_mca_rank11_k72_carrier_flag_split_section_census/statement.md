@@ -1,6 +1,6 @@
 # K'=72 carrier-flag split-section census
 
-- **status:** TARGET
+- **status:** PROVED
 - **row:** `K'=72`
 - **consumer:** the next rank-nine component payment beyond the closed prefix
   `10..71`
@@ -18,7 +18,7 @@ M_4=M_5=31.
 Let `I_4` and `I_5` be the selected eleven-set incidences of minimal
 support-four and support-five evaluation circuits after all exact
 inside/outside strata, carrier multiplicities, and first-match ownership are
-deduplicated. Prove the weighted bound
+deduplicated. Then the weighted bound
 
 ```text
 21 I_4 + 15 I_5
@@ -48,9 +48,36 @@ After dividing the 36-point common locator, the hard equality strata are:
 Thus `(K72-SC)` is a finite weighted split-section census, not an assertion
 that every completion maximum drops uniformly.
 
+## Proved stronger envelope
+
+Divide the 36-point locator from the five-dimensional space `W`.  The
+residual evaluation matroid on `N=67508` outside points has rank-three flats
+of size at most 34 and rank-four flats of size at most 35.  If `C_4,C_5`
+are its entirely-outside four- and five-circuits, the flat-circuit coupling
+theorem gives
+
+```text
+5 C_5 <= 31 C(N,4) - (N-34) C_4.
+```
+
+Combining this with the ordinary fixed-union caps on every lower stratum,
+without using the 29-point parallel-class refinement, gives
+
+```text
+21 I_4 + 15 I_5
+ <= 10667363722713853636746310934768031733149507120.
+```
+
+The margin below `(K72-SC)` is
+
+```text
+9885600480815705838297234461816703140525428870.
+```
+
 ## Falsifier
 
 An admissible five-dimensional residual polynomial space and exact carrier
-flag whose deduplicated weighted incidence exceeds `(K72-SC)`. A raw count of
-deletions, a list of split polynomials without circuit minimality, or a count
-that reuses one circuit through several owners does not test the statement.
+flag whose deduplicated weighted incidence exceeds the proved stronger
+envelope. A raw count of deletions, a list of split polynomials without
+circuit minimality, or a count that reuses one circuit through several owners
+does not test the statement.

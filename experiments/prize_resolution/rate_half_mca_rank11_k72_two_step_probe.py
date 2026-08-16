@@ -46,10 +46,44 @@ def fixed_union_cap(kprime: int, union: int, dimension: int):
     )
 
 
+@lru_cache(maxsize=None)
+def joint45_weighted_cap(kprime: int, union: int, dimension: int):
+    """Return one nonseparable support-four/five flat-coupling charge."""
+    m = 67472 + kprime
+    outside = m - union
+    degree = kprime - 1 - union
+    rank3_cap = degree - dimension + 4
+    completion = rank3_cap - 3
+
+    def lower(support: int) -> int:
+        total = comb(union, support)
+        for external in range(1, support):
+            total += (
+                comb(union, support - external)
+                * comb(outside, external - 1)
+                * completion
+                // external
+            )
+        return total
+
+    top4 = completion * comb(outside, 3) // 4
+    top5 = (
+        completion * comb(outside, 4)
+        - (outside - rank3_cap) * top4
+    ) // 5
+    incidence4 = (lower(4) + top4) * comb(m - 4, 7)
+    incidence5 = (lower(5) + top5) * comb(m - 5, 6)
+    return (
+        K71.LEDGER.DEFICITS[4] * incidence4
+        + K71.LEDGER.DEFICITS[5] * incidence5
+    )
+
+
 def position23_group(kprime: int, baseline: dict[int, int]):
     q = kprime - 10
     ordinary = {}
-    steps = {1: [], 2: [], 3: [], 4: [], 5: []}
+    steps = {1: [], 2: [], 3: [], 4: [], 5: [], 6: []}
+    carrier32 = []
     impossible = 0
     for s2 in range(q + 1):
         for s3 in range(q + 1):
@@ -70,11 +104,13 @@ def position23_group(kprime: int, baseline: dict[int, int]):
                         kprime, vector, union, dimension
                     )
                     ordinary[charged] = f"s2={s2}/s3={s3}/{name}"
+            elif m2 > 0 and m3 == 30 and m2 < 30:
+                carrier32.append((s2, s3, vector))
             elif m2 > 0 and m3 - m2 in steps:
                 steps[m3 - m2].append((s2, s3, vector))
             else:
                 ordinary[vector] = f"s2={s2}/s3={s3}/U23"
-    return ordinary, K71.maximal_vectors(ordinary), steps, impossible
+    return ordinary, K71.maximal_vectors(ordinary), steps, carrier32, impossible
 
 
 def offset_cases(m2: int, offset: int, include_support5: bool):
@@ -156,12 +192,12 @@ def mixed_cases(m2: int, offset3: int, m4: int, m5: int):
                 overlap5 = int(name5.removeprefix("N5_t"))
                 if overlap4 >= 1 and overlap5 >= 1:
                     active_k72_shape = (
-                        m2 == 29
-                        and offset3 == 1
+                        1 <= m2 <= 29
+                        and m2 + offset3 == 30
                         and m4 == 31
                         and m5 == 31
-                        and overlap4 == 2
-                        and overlap5 == 2
+                        and overlap4 == offset3 + 1
+                        and overlap5 == offset3 + 1
                     )
                     if not active_k72_shape:
                         cases[name] = charges4 + charges5
@@ -172,17 +208,19 @@ def mixed_cases(m2: int, offset3: int, m4: int, m5: int):
                     residual5 = outside5 - overlap5
                     union_min = b2 + outside3 + max(residual4, residual5)
                     union_max = b2 + outside3 + residual4 + residual5
-                    for union in range(union_min, union_max + 1):
-                        if union == 35:
-                            continue
-                        joint_dimension = (
-                            6 if union == 36 else 5
-                        )
-                        cases[f"{name}__J45_u{union}"] = (
-                            charges4
-                            + charges5
-                            + [(union, joint_dimension)]
-                        )
+                    assert (union_min, union_max) == (35, 37)
+                    cases[f"{name}__J45_u36_g6"] = (
+                        charges4 + charges5 + [(36, 6)]
+                    )
+                    cases[f"{name}__J45_u36_g5_flag"] = (
+                        charges4 + charges5 + [(33, 8), (36, 5)]
+                    )
+                    cases[f"{name}__J45_u37_g6"] = (
+                        charges4 + charges5 + [(37, 6)]
+                    )
+                    cases[f"{name}__J45_u37_g5"] = (
+                        charges4 + charges5 + [(37, 5)]
+                    )
                     continue
             cases[name] = charges4 + charges5
     return cases
@@ -192,7 +230,7 @@ def branch_summary(kprime: int):
     q = kprime - 10
     m = 67472 + kprime
     baseline = K71.PARENT.PARENT.PARENT.CAPS.baseline_caps(q, m)
-    raw23, front23, steps, impossible = position23_group(
+    raw23, front23, steps, carrier32, impossible = position23_group(
         kprime, baseline
     )
     exact45, _, front45 = K71.exact45_rows(kprime, baseline)
@@ -210,6 +248,10 @@ def branch_summary(kprime: int):
         "four_geom": 0,
         "five_plain": 0,
         "five_geom": 0,
+        "six_plain": 0,
+        "six_geom": 0,
+        "carrier32_plain": 0,
+        "carrier32_geom": 0,
     }
     geometry_max = {}
 
@@ -227,12 +269,64 @@ def branch_summary(kprime: int):
         )
         counts["ordinary"] += 1
 
+    for s2, s3, left in carrier32:
+        m2 = q - s2
+        offset = 30 - m2
+        for s4, s5, middle in exact45:
+            m4 = q - s4
+            m5 = q - s5
+            local = K71.combine(left, middle)
+            prefix = f"s2={s2}/s3={s3}/s4={s4}/s5={s5}"
+            if (m4, m5) != (31, 31):
+                for right in front69:
+                    caps = K71.combine(local, right[1])
+                    keep(
+                        K71.premium(caps),
+                        f"{prefix}/{right[0]}/carrier32_plain",
+                        caps,
+                    )
+                    counts["carrier32_plain"] += 1
+                continue
+            cases = mixed_cases(m2, offset, m4, m5)
+            for name, charges in cases.items():
+                candidate = local
+                for union, dimension in charges:
+                    candidate = K71.combine(
+                        candidate,
+                        fixed_union_cap(kprime, union, dimension),
+                    )
+                for right in front69:
+                    caps = K71.combine(candidate, right[1])
+                    value = K71.premium(caps)
+                    joint = None
+                    if name.endswith("J45_u36_g5_flag"):
+                        joint = joint45_weighted_cap(kprime, 36, 5)
+                    elif name.endswith("J45_u37_g5"):
+                        joint = joint45_weighted_cap(kprime, 37, 5)
+                    if joint is not None:
+                        old45 = sum(
+                            K71.LEDGER.DEFICITS[support]
+                            * caps[support - 2]
+                            for support in (4, 5)
+                        )
+                        value -= old45 - min(old45, joint)
+                    geometry_max[name] = max(
+                        geometry_max.get(name, -1), value
+                    )
+                    keep(
+                        value,
+                        f"{prefix}/{right[0]}/carrier32_{name}",
+                        caps,
+                    )
+                    counts["carrier32_geom"] += 1
+
     for step_name, rows, offset in (
         ("one", steps[1], 1),
         ("two", steps[2], 2),
         ("three", steps[3], 3),
         ("four", steps[4], 4),
         ("five", steps[5], 5),
+        ("six", steps[6], 6),
     ):
         for s2, s3, left in rows:
             m2 = q - s2
@@ -241,8 +335,9 @@ def branch_summary(kprime: int):
                 m5 = q - s5
                 local = K71.combine(left, middle)
                 prefix = f"s2={s2}/s3={s3}/s4={s4}/s5={s5}"
-                if step_name == "one" or (
-                    step_name == "two" and m4 == m2 + offset + 1
+                if step_name == "one" or m4 in (
+                    m2 + 1,
+                    m2 + offset + 1,
                 ):
                     cases = mixed_cases(m2, offset, m4, m5)
                 else:
@@ -271,6 +366,18 @@ def branch_summary(kprime: int):
                     for right in front69:
                         caps = K71.combine(candidate, right[1])
                         value = K71.premium(caps)
+                        joint = None
+                        if name.endswith("J45_u36_g5_flag"):
+                            joint = joint45_weighted_cap(kprime, 36, 5)
+                        elif name.endswith("J45_u37_g5"):
+                            joint = joint45_weighted_cap(kprime, 37, 5)
+                        if joint is not None:
+                            old45 = sum(
+                                K71.LEDGER.DEFICITS[support]
+                                * caps[support - 2]
+                                for support in (4, 5)
+                            )
+                            value -= old45 - min(old45, joint)
                         geometry_max[name] = max(
                             geometry_max.get(name, -1), value
                         )
@@ -302,8 +409,12 @@ def branch_summary(kprime: int):
         "three_step_pairs": len(steps[3]),
         "four_step_pairs": len(steps[4]),
         "five_step_pairs": len(steps[5]),
+        "six_step_pairs": len(steps[6]),
+        "carrier32_pairs": len(carrier32),
         "counts": counts,
-        "geometry_max": geometry_max,
+        "geometry_max_top": sorted(
+            geometry_max.items(), key=lambda item: item[1], reverse=True
+        )[:20],
     }
 
 

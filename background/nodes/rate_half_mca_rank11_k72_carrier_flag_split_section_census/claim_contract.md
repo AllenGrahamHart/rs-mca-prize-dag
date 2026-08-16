@@ -11,3 +11,8 @@
   not claimed necessary or sharp.
 - The target permits a weighted trade between support four and support five.
 - No mode-at-null, generic-position, or random-word premise is assumed.
+- The proof uses ordinary `C(36,r)` lower-stratum counts; the 29-point
+  parallel-class refinement is not load-bearing.
+- The flat-circuit coupling is applied only to circuits entirely outside the
+  fixed 36-point union.
+- This node proves the leading flag cell, not the complete K'=72 branch atlas.
