@@ -50,3 +50,11 @@ SHA-256:
 `539350d9dff7c463386adc9a571d3151e605b7711315c5ea293ab2e37003c3bb`.
 This proves the printed finite offset-23 domination statement and authorizes
 offset 41, the last lane containing any raw-unsafe unit.
+
+**Offset-41 outcome:** `SURVIVED` exhaustively. Modal app
+`ap-7Z7r5eg5OwghIbW5kYXbhj` checked all 196,384 source units, all 138
+raw-unsafe units, and 124,168 deduplicated carrier profiles. Capture SHA-256:
+`24da317a5c1ff321c46f4402d79c0680837ac04e2abe85e28e526f3032398855`.
+The four preregistered stress lanes 1, 11, 23, and 41 all survive. This
+authorizes a separately preregistered paired completion wave over every
+raw-unsafe offset `1..41`; it does not itself prove the omitted lanes.
