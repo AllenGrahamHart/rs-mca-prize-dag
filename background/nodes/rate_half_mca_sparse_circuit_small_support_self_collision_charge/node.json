@@ -1,0 +1,31 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_sparse_circuit_small_support_self_collision_charge",
+    "title": "Small-support same-source collision charge",
+    "status": "PROVED",
+    "closure": "exact completion defects, positive vanishing-space intersections, outside-carrier collision count, and selected eleven-set incidence",
+    "statement": "For every support c=2,3,4,5 and exact completion defect s, an attaining source carrier bounds every same-support deletion carrier outside it by s+c-1. The resulting exact external-deletion double count gives the printed circuit and incidence caps; s=q is exactly the empty circuit stratum.",
+    "refs": [
+      "background/nodes/rate_half_mca_sparse_circuit_small_support_self_collision_charge/statement.md",
+      "background/nodes/rate_half_mca_sparse_circuit_small_support_self_collision_charge/proof.md",
+      "background/nodes/rate_half_mca_sparse_circuit_small_support_self_collision_charge/claim_contract.md",
+      "background/nodes/rate_half_mca_sparse_circuit_small_support_self_collision_charge/dependency_subdag.md",
+      "background/nodes/rate_half_mca_sparse_circuit_small_support_self_collision_charge/attack.md",
+      "background/nodes/rate_half_mca_sparse_circuit_small_support_self_collision_charge/audit.md",
+      "background/nodes/rate_half_mca_sparse_circuit_small_support_self_collision_charge/result.md",
+      "background/nodes/rate_half_mca_sparse_circuit_small_support_self_collision_charge/source_contract.json",
+      "background/nodes/rate_half_mca_sparse_circuit_small_support_self_collision_charge/verify.py",
+      "background/nodes/rate_half_mca_sparse_circuit_small_support_self_collision_charge/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_sparse_circuit_universal_completion_incidence_cap"},
+    {"from": "rate_half_mca_sparse_circuit_cross_support_defect_carrier"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_mca_rank11_k54_k59_small_support_collision_payment"}
+  ],
+  "refutes": []
+}

@@ -41636,3 +41636,273 @@ delta-star movement:   none
 compute:               exact local arithmetic under 1 GiB cap; no Modal spend
 next route action:     attack the balanced deep joint wall at K'=54
 ```
+# Cycle 363: MCA rank-11 K'=54..59 small-support collision payment (2026-08-15)
+
+Cycle 362 closed `K'=46..53` but left the balanced exact pair
+`s_4=s_5=21` at `K'=54`.  A support-five charge derived only from the
+joint zero closure fails on the legal `t=4` branch.  The useful resource is
+instead the attaining completion carrier at each individual support.
+
+## Cycle pins
+
+```text
+our start:       8c3a30f9a0d2a29289226431c810a5a74cd200c6
+our end:         cycle commit containing this record
+canonical prize: 6ac775504aa7dd6489ae5175235084e270abf6d2
+upstream main:   93fba1be3f3299b0ba4708d88715377bbb656e45
+open upstream:   #1170 at c8b610fa48fda07c961d1b04cb20e3f87f910838
+```
+
+## Same-source collision theorem
+
+At support `c<=5`, let an independent source deletion attain `q-s`
+completions and let `B` be its carrier.  For any other independent deletion,
+the two vanishing spaces have dimension `11-c`, hence intersection dimension
+at least
+
+```text
+12-2c>0.
+```
+
+The common-root bound implies that the second carrier has at most `s+c-1`
+points outside `B`.  Splitting a circuit by its exact number `j` of outside
+points and deleting each outside point gives the circuit-support cap
+
+```text
+C(b,c)+sum_(j=1)^c floor(
+  C(b,c-j) C(m-b,j-1) (s+c-j) / j
+),
+```
+
+for `0<s<q`, with separate exact branches `C(b,c)` at `s=0` and zero
+circuits at `s=q`.  This is unconditional for supports `2,3,4,5`.
+
+## Six-row payment
+
+Refine supports `2..5` to every exact defect.  Pareto-compress the groups
+`(2,3)`, `(4,5)`, and `(6,7,8,9)` separately.  On every row `K'=54..60`,
+their maximal-vector counts are `1,1,7`; thus all
+`3,693,717,480` represented raw leaves on the six safe rows reduce to 42
+exact frontier evaluations.
+
+The active branch is
+
+```text
+s_2=s_3=s_4=s_5=floor(q/2),       c6F/c7F/c8F/c9F.
+```
+
+Rows `K'=54..59` have positive premium margins and exact component gaps.
+The smallest gap is at `K'=59`:
+
+```text
+2662571195028360324230500777441238424043251068116179184680206.
+```
+
+At `K'=60`, complete capacity exceeds demand by
+
+```text
+3672733965923291717387950853821894967875078243379846951201638.
+```
+
+Primary and independently coded replays agree on every group frontier,
+premium, fixed capacity term, safe sign, and adjacent wall.
+
+```text
+result:                PROVED K'=54..59 component-row closure
+newly closed rows:     54..59
+closed prefix:         10..59
+remaining rank nine:  60..15528
+new nodes:             2 PROVED
+new premise:           none
+critical status delta: none; exact evidence frontier advanced six rows
+upstream delta:         cycle-362 K'=46..53 packet exported to #1170
+delta-star movement:   none
+compute:               exact local arithmetic under 1 GiB cap; no Modal spend
+next route action:     attack the all-fallback support-6..9 wall at K'=60
+```
+# Cycle 364: MCA rank-11 K'=60..70 cross-support collision payment (2026-08-15)
+
+Cycle 363 closed `K'=54..59` by comparing same-support deletion carriers,
+but the active `K'=60` branch left supports `6..9` on fallback.  The same
+vanishing-space intersection has a mixed-support form and directly prices
+those high-support strata.
+
+## Cycle pins
+
+```text
+our start:       b8ce7859cfa0f40b26ba69b5c90148e295af45de
+our end:         cycle commit containing this record
+canonical prize: 69c14c8bc
+upstream main:   93fba1be3f3299b0ba4708d88715377bbb656e45
+open upstream:   #1170 at 0d7998d1b66d165a7eafc819371a26bc32572919
+```
+
+## Cross-support collision theorem
+
+Let source support `c<=5` have exact nonempty defect `s`, and choose an
+attaining carrier `B`.  For a target support `d` with `c+d<=11`, the source
+and target deletion-vanishing spaces have dimensions `11-c` and `11-d`.
+Their intersection has dimension at least
+
+```text
+12-c-d>0.
+```
+
+The common-root bound implies that every target deletion carrier has at
+most `s+d-1` points outside `B`.  Splitting a target circuit by its exact
+outside count gives
+
+```text
+C(b,d)+sum_(j=1)^d floor(
+  C(b,d-j) C(m-b,j-1) (s+d-j) / j
+),
+```
+
+for `0<s<q`, with exact containment `C(b,d)` at `s=0`.  No target cap is
+inferred from the empty source value `s=q`.
+
+## Eleven-row payment
+
+Refine source supports `2..5` to every exact defect and apply the new charge
+to all admissible targets.  Preserve every old cap, the joint support-four
+charge, all `120` support-`6..9` terminal/fallback choices, every kernel
+corank, and all rank-nine marks.  Grouped Pareto compression leaves between
+`351` and `528` maximal vectors in each low-support group and seven in the
+high-support group.
+
+The active branch on `K'=60..71` is
+
+```text
+s_2=s_3=s_4=s_5=ceil(q/2),       c6F/c7F/c8F/c9F.
+```
+
+All rows `K'=60..70` have positive exact component gaps.  The smallest is
+at `K'=70`:
+
+```text
+854274172985042754802177028749324962520517760595473749602211.
+```
+
+At `K'=71`, complete capacity exceeds demand by
+
+```text
+824875968499878215752683873455674299360608616555107905777434.
+```
+
+Primary and independently coded replays agree on all eleven safe rows, all
+group frontiers, exact floor-sensitive payments, and the adjacent wall.
+
+```text
+result:                PROVED K'=60..70 component-row closure
+newly closed rows:     60..70
+closed prefix:         10..70
+remaining rank nine:  71..15528
+new nodes:             2 PROVED
+new premise:           none
+critical status delta: none; exact evidence frontier advanced eleven rows
+upstream delta:         cycle-363 K'=54..59 packet exported to #1170
+delta-star movement:   none
+compute:               exact local arithmetic under 1 GiB cap; no Modal spend
+next route action:     attack the balanced high-support fallback wall at K'=71
+```
+# Cycle 365: MCA rank-11 K'=71 carrier-position payment (2026-08-15)
+
+Cycle 364 closed `K'=60..70` with one attaining carrier at a time.  At the
+new wall, the support-two, support-three, and support-four maxima coexist.
+Their projective positions cannot be chosen independently.
+
+## Cycle pins
+
+```text
+our start:       b484010bbcf39a7cc7daf7240c4ed1c08c4c9663
+our end:         cycle commit containing this record
+canonical prize: 69c14c8bc
+upstream main:   93fba1be3f3299b0ba4708d88715377bbb656e45
+open upstream:   #1170 at 6ea448fbb6fca01998a1915cb8450cd968a94587
+```
+
+## Fixed-union collision theorem
+
+If a fixed (g)-dimensional subspace of the ten-dimensional correction
+space vanishes on a fixed (u)-point union, then its intersection with a
+target support-(d) deletion space has dimension at least
+
+```text
+r_d=g+1-d.
+```
+
+For (r_d>0), the target carrier has at most (R_d=K'-r_d-u) points
+outside the union.  Exact outside-deletion exposure therefore bounds the
+number of target circuits by
+
+```text
+C(u,d)+sum_(j=1)^d floor(
+  C(u,d-j) C(m-u,j-1) max(0,R_d-j+1) / j
+).
+```
+
+This separates the reusable count from the carrier geometry.
+
+## Carrier-position trichotomy
+
+An attaining support-two carrier is a full nonzero parallel class.  Relative
+to an attaining support-three or support-four deletion, its projective point
+is transverse, lies in a proper deletion span, or supplies every parallel
+point as an exact completion.  The last position forces
+(M_c>=M_2+1).
+
+Thus (M_3<=M_2) leaves only the transverse and proper-span cases and
+excludes every defect pair with (s_2+s_3<q).  At (K'=71), 961 pairs are
+impossible.  When (M_3=M_4=M_2+1), exact minimal-circuit geometry gives
+six fixed-union cases:
+
+```text
+T23, A23, T24, A24, N34, N34A.
+```
+
+The payment retains these as alternatives; it never intersects their caps.
+
+## Singleton-row payment
+
+Exact defects at supports two through five retain their position provenance
+until support four is known.  Every old sparse cap, the
+support-four/support-five joint charge, all 120 high-support branches, every
+kernel corank, and every rank-nine mark remain present.
+
+The old unsafe one-step branch is safe in all six geometry cases.  The new
+maximizer is
+
+```text
+s2=33/s3=31/s4=31/s5=31/c6F/c7F/c8F/c9F,
+```
+
+and the exact (K'=71) gap is
+
+```text
+118872281099445772155993127155914865045379156488810154591370.
+```
+
+At (K'=72), the active support-three maximum is two above the support-two
+maximum.  The complete replay first fails there by capacity excess
+
+```text
+4821537739796415753639473905341364357966460110033651367468100.
+```
+
+Primary and independently coded replays agree on the pruning census, every
+position case, the exact premium, floor-sensitive payment, and adjacent
+wall.
+
+```text
+result:                PROVED K'=71 component-row closure
+newly closed rows:     71
+closed prefix:         10..71
+remaining rank nine:  72..15528
+new nodes:             3 PROVED
+new premise:           none
+critical status delta: none; exact evidence frontier advanced one row
+upstream delta:         cycle-364 K'=60..70 packet exported to #1170
+delta-star movement:   none
+compute:               exact local arithmetic under 1 GiB cap; no Modal spend
+next route action:     classify the M3=M2+2 carrier position at K'=72
+```

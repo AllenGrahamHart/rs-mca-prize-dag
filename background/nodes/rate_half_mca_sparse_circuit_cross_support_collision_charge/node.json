@@ -1,0 +1,31 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_sparse_circuit_cross_support_collision_charge",
+    "title": "Small-source cross-support collision charge",
+    "status": "PROVED",
+    "closure": "exact source defects, mixed-support vanishing-space intersections, outside-carrier collision counts, and selected eleven-set incidence",
+    "statement": "For source support c=2,3,4,5, target support 2<=d<=9, c+d<=11, and nonempty exact source defect s, an attaining source carrier bounds every target-support deletion carrier outside it by s+d-1. Exact external-deletion counting gives the printed target-circuit and selected-incidence caps.",
+    "refs": [
+      "background/nodes/rate_half_mca_sparse_circuit_cross_support_collision_charge/statement.md",
+      "background/nodes/rate_half_mca_sparse_circuit_cross_support_collision_charge/proof.md",
+      "background/nodes/rate_half_mca_sparse_circuit_cross_support_collision_charge/claim_contract.md",
+      "background/nodes/rate_half_mca_sparse_circuit_cross_support_collision_charge/dependency_subdag.md",
+      "background/nodes/rate_half_mca_sparse_circuit_cross_support_collision_charge/attack.md",
+      "background/nodes/rate_half_mca_sparse_circuit_cross_support_collision_charge/audit.md",
+      "background/nodes/rate_half_mca_sparse_circuit_cross_support_collision_charge/result.md",
+      "background/nodes/rate_half_mca_sparse_circuit_cross_support_collision_charge/source_contract.json",
+      "background/nodes/rate_half_mca_sparse_circuit_cross_support_collision_charge/verify.py",
+      "background/nodes/rate_half_mca_sparse_circuit_cross_support_collision_charge/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_sparse_circuit_small_support_self_collision_charge"},
+    {"from": "rate_half_mca_sparse_circuit_cross_support_defect_carrier"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_mca_rank11_k60_k70_cross_support_collision_payment"}
+  ],
+  "refutes": []
+}

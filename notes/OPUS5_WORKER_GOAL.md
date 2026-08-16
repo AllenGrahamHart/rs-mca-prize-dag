@@ -378,3 +378,10 @@ dispute — but the Shape-A results decay in export value as #1161 ages,
 and the directive was user-ratified. Same gate protocol: stage
 ready-but-unpushed, record the head, the coordinator replays and
 pushes.
+
+## PACKAGE B: DISCHARGED BY COORDINATOR (2026-08-15)
+
+The Shape-A export landed on #1161 as a consolidated coordinator
+comment citing public head 8c3a30f9a (31-node cluster, the two kills
+headlined). The blocking directive is LIFTED. No further action owed;
+if you later extend Shape-A, export at the same cadence yourself.

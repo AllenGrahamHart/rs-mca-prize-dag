@@ -1,0 +1,55 @@
+{
+  "schema": "rate-half-mca-sparse-circuit-small-support-self-collision-charge-v1",
+  "dependencies": [
+    "rate_half_mca_sparse_circuit_universal_completion_incidence_cap",
+    "rate_half_mca_sparse_circuit_cross_support_defect_carrier"
+  ],
+  "parameters": {
+    "correction_dimension": 10,
+    "component_size": 11,
+    "support_range": [
+      2,
+      5
+    ],
+    "completion_maximum": "M_c=q-s",
+    "empty_stratum": "s=q implies zero circuits",
+    "source_carrier_size": "b=q+c-1-s",
+    "intersection_dimension": "12-2c",
+    "outside_carrier_budget": "s+c-1",
+    "inside_count": "C(b,c)",
+    "outside_stratum_count": "floor(C(b,c-j)C(m-b,j-1)(s+c-j)/j)",
+    "incidence_multiplier": "C(m-c,11-c)",
+    "K54_defect22_samples": {
+      "2": {
+        "intersection_dimension": 8,
+        "carrier_size": 23,
+        "outside_budget": 23,
+        "support_count": 743315,
+        "incidence_cap": 59745027273711595300478003883836690993025760
+      },
+      "3": {
+        "intersection_dimension": 6,
+        "carrier_size": 24,
+        "outside_budget": 24,
+        "support_count": 16725631707,
+        "incidence_cap": 179182563086788503944817971927874201295144248
+      },
+      "4": {
+        "intersection_dimension": 4,
+        "carrier_size": 25,
+        "outside_budget": 25,
+        "support_count": 282354858855625,
+        "incidence_cap": 358382453407052549918127673444327431519960000
+      },
+      "5": {
+        "intersection_dimension": 2,
+        "carrier_size": 26,
+        "outside_budget": 26,
+        "support_count": 3813222913374743980,
+        "incidence_cap": 501760430195372638612057538656671059380110720
+      }
+    }
+  },
+  "claim": "Exact same-source collisions give branch-safe circuit and selected-incidence caps at every support c=2..5.",
+  "nonclaim": "No support c>=6, rank-eight, rank-eleven, KoalaBear, or prize closure is asserted."
+}

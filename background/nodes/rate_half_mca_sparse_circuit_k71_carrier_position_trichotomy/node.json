@@ -1,0 +1,31 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_sparse_circuit_k71_carrier_position_trichotomy",
+    "title": "Support-2/3/4 carrier-position trichotomy",
+    "status": "PROVED",
+    "closure": "support-two parallel-class geometry, proper-subcircuit exclusions, six fixed-union position cases, and multicarrier collision inputs",
+    "statement": "An attaining support-two carrier is a full parallel class. Relative to any support-three or support-four attaining deletion it is transverse, lies in a proper deletion span, or supplies every point as an exact completion. This excludes the full case when M3<=M2 and, when M3=M4=M2+1, yields the six printed fixed-union alternatives T23, A23, T24, A24, N34, N34A.",
+    "refs": [
+      "background/nodes/rate_half_mca_sparse_circuit_k71_carrier_position_trichotomy/statement.md",
+      "background/nodes/rate_half_mca_sparse_circuit_k71_carrier_position_trichotomy/proof.md",
+      "background/nodes/rate_half_mca_sparse_circuit_k71_carrier_position_trichotomy/claim_contract.md",
+      "background/nodes/rate_half_mca_sparse_circuit_k71_carrier_position_trichotomy/dependency_subdag.md",
+      "background/nodes/rate_half_mca_sparse_circuit_k71_carrier_position_trichotomy/attack.md",
+      "background/nodes/rate_half_mca_sparse_circuit_k71_carrier_position_trichotomy/audit.md",
+      "background/nodes/rate_half_mca_sparse_circuit_k71_carrier_position_trichotomy/result.md",
+      "background/nodes/rate_half_mca_sparse_circuit_k71_carrier_position_trichotomy/source_contract.json",
+      "background/nodes/rate_half_mca_sparse_circuit_k71_carrier_position_trichotomy/verify.py",
+      "background/nodes/rate_half_mca_sparse_circuit_k71_carrier_position_trichotomy/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_sparse_circuit_cross_support_collision_charge"},
+    {"from": "rate_half_mca_sparse_circuit_multicarrier_collision_charge"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_mca_rank11_k71_carrier_trichotomy_payment"}
+  ],
+  "refutes": []
+}

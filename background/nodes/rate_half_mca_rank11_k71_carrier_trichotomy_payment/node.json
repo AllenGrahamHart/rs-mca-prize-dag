@@ -1,0 +1,32 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_k71_carrier_trichotomy_payment",
+    "title": "Carrier trichotomy closes K'=71",
+    "status": "PROVED",
+    "closure": "exact low-support defects, projective-position case provenance, fixed-union collision caps, complete high-support branches, full rank-nine payment, and adjacent K'=72 wall",
+    "statement": "Exact support-two/support-three carrier-position pruning and the six one-step support-two/three/four geometry alternatives, combined with every inherited sparse cap and high-support branch, close the rank-nine component row K'=71. The exact payment first fails at K'=72.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_k71_carrier_trichotomy_payment/statement.md",
+      "background/nodes/rate_half_mca_rank11_k71_carrier_trichotomy_payment/proof.md",
+      "background/nodes/rate_half_mca_rank11_k71_carrier_trichotomy_payment/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_k71_carrier_trichotomy_payment/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_k71_carrier_trichotomy_payment/attack.md",
+      "background/nodes/rate_half_mca_rank11_k71_carrier_trichotomy_payment/audit.md",
+      "background/nodes/rate_half_mca_rank11_k71_carrier_trichotomy_payment/result.md",
+      "background/nodes/rate_half_mca_rank11_k71_carrier_trichotomy_payment/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_k71_carrier_trichotomy_payment/verify.py",
+      "background/nodes/rate_half_mca_rank11_k71_carrier_trichotomy_payment/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_k60_k70_cross_support_collision_payment"},
+    {"from": "rate_half_mca_sparse_circuit_multicarrier_collision_charge"},
+    {"from": "rate_half_mca_sparse_circuit_k71_carrier_position_trichotomy"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location"}
+  ],
+  "refutes": []
+}
