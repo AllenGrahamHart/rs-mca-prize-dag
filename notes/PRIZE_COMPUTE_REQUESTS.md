@@ -13939,3 +13939,13 @@ primary traversal before low offsets were launched. Both traversals now cache
 the raw value for duplicate local vectors; the primary constructs only the
 exact support-4/5 rows required by this scan. The widened smoke tests both the
 largest and smallest workloads.
+
+The widened smoke passed as Modal app `ap-A4OvyImj1fVp8vssAhI202`: all four
+jobs completed in about 17 seconds at 25--29 MB. Primary and audit agreed on
+the complete classification digests. Offset 1 has 15,702 unsafe units and
+safe maximum
+`41411760082934660310280558759570874584832643708`; offset 74 has no unsafe
+units and safe maximum
+`210292675086224485821192607404237233442773250`. The smoke capture SHA-256
+is `e7dd954638698b2fe4050ddcba35e2f17e9156ba542086d4982141dbfb209982`.
+This authorizes the preregistered full wave, but no row promotion.
