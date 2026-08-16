@@ -13840,3 +13840,40 @@ INCOMPLETE: any timeout, missing lane, or implementation disagreement;
 No outcome of this pilot promotes `K'=85`, changes a DAG status, or
 authorizes a further finite-row sequence. A complete row replay is permitted
 only after the pilot yields a compressed analytic target.
+
+**Outcome:** `PASS` as a five-lane route diagnostic, with no row promotion.
+Modal app `ap-d16UIhECIz7nYzMEAZr8d7` completed all ten jobs without
+timeout at 60--61 MB peak RSS. The raw capture SHA-256 is
+`5a6ee4f212571eae022ed943c6062e95f6b6a2ccb186dbf4338f1b0cf2f45327`.
+The compact checker SHA-256 is
+`32aa55ce1a31605c7d72678e51855af808a92ccf70a70f029aeaa11d0930134f`.
+It verifies capture custody, all ten unique jobs, memory bounds, the
+`(75-offset)*5776` offset coverage formula, and exact primary/audit
+agreement after normalizing `raw-safe`/`raw` labels.
+
+```text
+lane       premium                                             margin
+ordinary   41412365746418147165613731954651963334663476202     504063437028248034586407861346996245585667
+offset1    41411760082934660310280558759570874584832643708    1109726920515103367759602942435746076418161
+offset15   41412416367203894003110488620063995835872421748     453442651281410537829742449314495036640121
+offset23   41412551195797006461218092083466032200066465196     318614058168952430226279047278130842596673
+offset74     210292675086224485821192607404237233442773250   41202577134768950927827125755109073097466288619
+```
+
+The sampled leader is offset 23 with branch
+
+```text
+s2=67/s3=44/s4=39/s5=54/offset23/c6F/c7F/c8F/c9F/raw-safe.
+```
+
+The ordinary leader changed to
+
+```text
+s2=75/s3=56/s4=46/s5=41/ordinary-single/
+c6d3/c7d2/c8d1/c9d0/raw-safe.
+```
+
+Thus the K'=84 ordinary maximizer is not a stable adjacent-row formula.
+The next analytic target is a domination certificate over the unsampled
+offsets, beginning with the raw-safe full-fallback family containing
+offsets 15 and 23. No complete K'=85 wave is authorized by this outcome.
