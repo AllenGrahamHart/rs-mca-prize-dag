@@ -35,3 +35,11 @@
 Together with the paired raw envelope and ordinary pilot, this authorizes a
 compact K'=85 component-payment certificate. `FALSIFIED` retains the first
 paired witness and blocks promotion. `INCOMPLETE` changes no status.
+
+The paired deployment smoke passed as Modal app
+`ap-io6hEGkfZQtfHfBccqWiHo`. Both offset-41 implementations report 196,384
+source units, 138 raw-unsafe units, 124,168 profiles, and the same exact leader
+at 31--33 MB peak RSS. The smoke capture SHA-256 is
+`e51e3be06123a0e5a654a071eeded4b76b9aabcb2172828978b54d7669895b0d`.
+This authorizes the full wave from the pinned sources; it does not itself
+promote K'=85.
