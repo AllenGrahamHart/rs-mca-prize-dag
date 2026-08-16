@@ -61,3 +61,17 @@ again agrees on 196,384, 138, and 124,168 respectively. All four jobs used
 31--32 MB. Capture SHA-256:
 `2b2295688002ced4b1c35bcd377b2a82b0e1298ae509a23749be57371f76bb6e`.
 This exercises the repaired guard and authorizes the full relaunch.
+
+**Outcome:** `PASS`. The repaired full wave completed as Modal app
+`ap-avKuaBEl3bNsvVug235bXS`. All 82 jobs passed below the memory limit, and
+the preregistered merger accepted exact primary/audit agreement on all 41
+offsets, 12,788,064 source units, all 331,533 raw-unsafe units, and 49,090,656
+deduplicated carrier profiles per implementation. The capture SHA-256 is
+`a2a47722b66ff40ed83b44c47dc725b341700ffc2c9653a61e63f7dff1fedfa8`.
+
+Every residual profile is at most the exact raw-safe offset-11 leader
+`41412868016209776721228891386909879523306833354`. Together with the paired
+raw-threshold envelope, fully safe offsets 42..74, and the paired ordinary
+lane, this certifies the complete K'=85 carrier frontier. Promotion still
+requires the exact positive component-payment arithmetic and compact node
+contract.
