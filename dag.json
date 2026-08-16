@@ -41028,6 +41028,27 @@
    ]
   },
   {
+   "id": "rate_half_mca_rank11_k85_best_single_adjacent_payment",
+   "title": "Best-single adjacent-support envelope closes K'=85",
+   "status": "PROVED",
+   "closure": "exact ordinary/offset partition, paired raw-threshold envelope, exhaustive best-single adjacent-support payment, independent replay, and positive integral component gap",
+   "statement": "The exact K'=85 carrier frontier has completion premium 41412868016209776721228891386909879523306833354 below the safe ceiling by 1793645398692419426975603430807602228515, yielding a positive component-payment gap and extending the closed prefix to 10..85.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_k85_best_single_adjacent_payment/statement.md",
+    "background/nodes/rate_half_mca_rank11_k85_best_single_adjacent_payment/proof.md",
+    "background/nodes/rate_half_mca_rank11_k85_best_single_adjacent_payment/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_k85_best_single_adjacent_payment/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_k85_best_single_adjacent_payment/attack.md",
+    "background/nodes/rate_half_mca_rank11_k85_best_single_adjacent_payment/audit.md",
+    "background/nodes/rate_half_mca_rank11_k85_best_single_adjacent_payment/result.md",
+    "background/nodes/rate_half_mca_rank11_k85_best_single_adjacent_payment/provenance.md",
+    "background/nodes/rate_half_mca_rank11_k85_best_single_adjacent_payment/replay.md",
+    "background/nodes/rate_half_mca_rank11_k85_best_single_adjacent_payment/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_k85_best_single_adjacent_payment/verify.py",
+    "background/nodes/rate_half_mca_rank11_k85_best_single_adjacent_payment/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_mca_rank11_kernel_canonical_basis_globalizer",
    "title": "Canonical rank bases globalize every fixed kernel chart",
    "status": "PROVED",
@@ -79688,6 +79709,16 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_mca_rank11_k84_adjacent_support_carrier_payment",
+   "to": "rate_half_mca_rank11_k85_best_single_adjacent_payment",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_k85_best_single_adjacent_payment",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_mca_rank11_kernel_canonical_basis_globalizer",
    "to": "rate_half_mca_rank11_kernel_corank1_projective_pair_cap",
    "kind": "req"
@@ -80603,6 +80634,11 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_mca_sparse_circuit_fixed_union_adjacent_support_coupling",
+   "to": "rate_half_mca_rank11_k85_best_single_adjacent_payment",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_mca_sparse_circuit_fixed_union_flat_coupled_45_charge",
    "to": "rate_half_mca_rank11_k72_full_carrier_atlas_payment",
    "kind": "req"
@@ -80673,6 +80709,11 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_mca_sparse_circuit_fixed_union_flat_coupled_45_charge",
+   "to": "rate_half_mca_rank11_k85_best_single_adjacent_payment",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_mca_sparse_circuit_fixed_union_support56_coupling",
    "to": "rate_half_mca_rank11_k83_adjacent_support_carrier_payment",
    "kind": "req"
@@ -80680,6 +80721,11 @@
   {
    "from": "rate_half_mca_sparse_circuit_fixed_union_support56_coupling",
    "to": "rate_half_mca_rank11_k84_adjacent_support_carrier_payment",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_sparse_circuit_fixed_union_support56_coupling",
+   "to": "rate_half_mca_rank11_k85_best_single_adjacent_payment",
    "kind": "req"
   },
   {
@@ -80750,6 +80796,11 @@
   {
    "from": "rate_half_mca_sparse_circuit_full_completion_pairwise_carrier_atlas",
    "to": "rate_half_mca_rank11_k84_adjacent_support_carrier_payment",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_sparse_circuit_full_completion_pairwise_carrier_atlas",
+   "to": "rate_half_mca_rank11_k85_best_single_adjacent_payment",
    "kind": "req"
   },
   {
@@ -80830,6 +80881,11 @@
   {
    "from": "rate_half_mca_sparse_circuit_single_completion_carrier",
    "to": "rate_half_mca_rank11_k84_adjacent_support_carrier_payment",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_sparse_circuit_single_completion_carrier",
+   "to": "rate_half_mca_rank11_k85_best_single_adjacent_payment",
    "kind": "req"
   },
   {

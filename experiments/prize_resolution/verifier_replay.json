@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_k84_adjacent_support_carrier_payment/verify.py",
-      "seconds": 0.406355,
+      "script": "background/nodes/rate_half_mca_rank11_k85_best_single_adjacent_payment/verify.py",
+      "seconds": 0.362228,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "{\"gap\": 222890179708699305421112332292209416493280153112001413582, \"margin\": 44581160171407926086602515730765812413619, \"premium\": 41388798786059119503097492734939028640066114130, \"status\": \"PASS\"}\n"
+      "stdout_tail": "{\"gap\": 8967598503742781003071510733325918643075973211834024001, \"margin\": 1793645398692419426975603430807602228515, \"premium\": 41412868016209776721228891386909879523306833354, \"status\": \"PASS\"}\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_k84_adjacent_support_carrier_payment/verify_audit.py",
-      "seconds": 0.023198,
+      "script": "background/nodes/rate_half_mca_rank11_k85_best_single_adjacent_payment/verify_audit.py",
+      "seconds": 0.018883,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "{\"ceiling_remainder\": 32320896463690965, \"gap\": 222890179708699305421112332292209416493280153112001413582, \"status\": \"AUDIT_PASS\"}\n"
+      "stdout_tail": "{\"ceiling_remainder\": 15362028411627110, \"gap\": 8967598503742781003071510733325918643075973211834024001, \"status\": \"AUDIT_PASS\"}\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

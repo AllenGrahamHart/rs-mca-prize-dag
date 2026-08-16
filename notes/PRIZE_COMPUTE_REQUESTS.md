@@ -14307,3 +14307,22 @@ contract.
 capacity, required incidence, and a strictly positive gap. This authorizes a
 compact K'=85 `PROVED` node when combined with the paired frontier captures and
 analytic DAG gates. `INCOMPLETE` or a nonpositive gap blocks promotion.
+
+**Outcome:** `PASS`. Modal app `ap-9R6TUWXTLwS11AiqMsAem5` independently
+reconstructed the exact row and returned safe-ceiling remainder
+`15362028411627110`, full-rank capacity
+`920664857300015914310061122145042076654631136279218382941612598`, total
+capacity
+`920761032600863899558839605552732140962924224823394196355672563`, and
+required incidence
+`920761041568462403301620608624242874288842867899367408189696564`.
+The resulting component gap is
+
+```text
+8967598503742781003071510733325918643075973211834024001>0.
+```
+
+The capture SHA-256 is
+`e3bf7fdbd3c6b87ea2bb82bd2520f6ffff5e76353e0698e8df7494bf75745799`.
+Together with the complete paired frontier, this authorizes the compact
+K'=85 `PROVED` node and extends the finite closed prefix to `10..85`.
