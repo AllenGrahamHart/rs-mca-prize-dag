@@ -1,0 +1,29 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_sparse_circuit_full_completion_pairwise_carrier_atlas",
+    "title": "Full-completion pairwise carrier atlas",
+    "status": "PROVED",
+    "closure": "projective position trichotomy, minimal-circuit residual exclusion, exact overlap range, and pairwise fixed-union dimensions",
+    "statement": "For attaining support-two through support-five carriers, the support-two projective point is transverse, anchored/proper, or full-completion; in the full support-three/support-d branch the residual overlap has the exact bounded range and fixed-union dimensions printed in (CA2)-(CA3).",
+    "refs": [
+      "background/nodes/rate_half_mca_sparse_circuit_full_completion_pairwise_carrier_atlas/statement.md",
+      "background/nodes/rate_half_mca_sparse_circuit_full_completion_pairwise_carrier_atlas/proof.md",
+      "background/nodes/rate_half_mca_sparse_circuit_full_completion_pairwise_carrier_atlas/claim_contract.md",
+      "background/nodes/rate_half_mca_sparse_circuit_full_completion_pairwise_carrier_atlas/dependency_subdag.md",
+      "background/nodes/rate_half_mca_sparse_circuit_full_completion_pairwise_carrier_atlas/attack.md",
+      "background/nodes/rate_half_mca_sparse_circuit_full_completion_pairwise_carrier_atlas/audit.md",
+      "background/nodes/rate_half_mca_sparse_circuit_full_completion_pairwise_carrier_atlas/result.md",
+      "background/nodes/rate_half_mca_sparse_circuit_full_completion_pairwise_carrier_atlas/provenance.md",
+      "background/nodes/rate_half_mca_sparse_circuit_full_completion_pairwise_carrier_atlas/source_contract.json",
+      "background/nodes/rate_half_mca_sparse_circuit_full_completion_pairwise_carrier_atlas/verify.py",
+      "background/nodes/rate_half_mca_sparse_circuit_full_completion_pairwise_carrier_atlas/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_sparse_circuit_k71_carrier_position_trichotomy"}
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

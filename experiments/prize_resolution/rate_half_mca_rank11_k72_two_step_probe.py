@@ -7,14 +7,15 @@ import importlib.util
 import itertools
 import json
 import re
+import sys
 import tarfile
 from functools import lru_cache
 from math import comb
 from pathlib import Path
 
 
-ARCHIVE = next(Path(".").glob("*.tar.gz"))
-ROOT = Path("repo")
+ARCHIVES = list(Path(".").glob("*.tar.gz"))
+ROOT = Path("repo") if ARCHIVES else Path(__file__).resolve().parents[2]
 
 
 def load_module(name: str, path: Path):
@@ -25,8 +26,9 @@ def load_module(name: str, path: Path):
     return module
 
 
-with tarfile.open(ARCHIVE, "r:gz") as archive:
-    archive.extractall(ROOT, filter="data")
+if ARCHIVES:
+    with tarfile.open(ARCHIVES[0], "r:gz") as archive:
+        archive.extractall(ROOT, filter="data")
 
 K71 = load_module(
     "k71_payment_probe",
@@ -66,13 +68,23 @@ def joint45_weighted_cap(kprime: int, union: int, dimension: int):
             )
         return total
 
-    top4 = completion * comb(outside, 3) // 4
+    top4 = min(
+        completion * comb(outside, 3) // 4,
+        completion * comb(outside, 4) // (outside - rank3_cap),
+    )
     top5 = (
         completion * comb(outside, 4)
         - (outside - rank3_cap) * top4
     ) // 5
-    incidence4 = (lower(4) + top4) * comb(m - 4, 7)
-    incidence5 = (lower(5) + top5) * comb(m - 5, 6)
+    incidence4_factor = comb(m - 4, 7)
+    incidence5_factor = comb(m - 5, 6)
+    decrement = (outside - rank3_cap + 4) // 5
+    assert (
+        K71.LEDGER.DEFICITS[4] * incidence4_factor
+        >= K71.LEDGER.DEFICITS[5] * decrement * incidence5_factor
+    )
+    incidence4 = (lower(4) + top4) * incidence4_factor
+    incidence5 = (lower(5) + top5) * incidence5_factor
     return (
         K71.LEDGER.DEFICITS[4] * incidence4
         + K71.LEDGER.DEFICITS[5] * incidence5
@@ -187,46 +199,29 @@ def mixed_cases(m2: int, offset3: int, m4: int, m5: int):
     for name4, charges4 in cases4.items():
         for name5, charges5 in cases5.items():
             name = f"F23__{name4}__{name5}"
-            if name4.startswith("N4_t") and name5.startswith("N5_t"):
-                overlap4 = int(name4.removeprefix("N4_t"))
-                overlap5 = int(name5.removeprefix("N5_t"))
-                if overlap4 >= 1 and overlap5 >= 1:
-                    active_k72_shape = (
-                        1 <= m2 <= 29
-                        and m2 + offset3 == 30
-                        and m4 == 31
-                        and m5 == 31
-                        and overlap4 == offset3 + 1
-                        and overlap5 == offset3 + 1
-                    )
-                    if not active_k72_shape:
-                        cases[name] = charges4 + charges5
-                        continue
-                    outside4 = 4 + (m4 - m2) - 2
-                    outside5 = 5 + (m5 - m2) - 2
-                    residual4 = outside4 - overlap4
-                    residual5 = outside5 - overlap5
-                    union_min = b2 + outside3 + max(residual4, residual5)
-                    union_max = b2 + outside3 + residual4 + residual5
-                    assert (union_min, union_max) == (35, 37)
-                    cases[f"{name}__J45_u36_g6"] = (
-                        charges4 + charges5 + [(36, 6)]
-                    )
-                    cases[f"{name}__J45_u36_g5_flag"] = (
-                        charges4 + charges5 + [(33, 8), (36, 5)]
-                    )
-                    cases[f"{name}__J45_u37_g6"] = (
-                        charges4 + charges5 + [(37, 6)]
-                    )
-                    cases[f"{name}__J45_u37_g5"] = (
-                        charges4 + charges5 + [(37, 5)]
-                    )
-                    continue
             cases[name] = charges4 + charges5
     return cases
 
 
-def branch_summary(kprime: int):
+def charged_case_rows(kprime: int, local: tuple[int, ...], cases: dict):
+    """Deduplicate geometry labels that induce the same usable charge."""
+    rows = {}
+    for name, charges in cases.items():
+        candidate = local
+        joint = None
+        for union, dimension in charges:
+            candidate = K71.combine(
+                candidate,
+                fixed_union_cap(kprime, union, dimension),
+            )
+            if dimension >= 5:
+                coupled = joint45_weighted_cap(kprime, union, dimension)
+                joint = coupled if joint is None else min(joint, coupled)
+        rows.setdefault((candidate, joint), name)
+    return rows
+
+
+def branch_summary(kprime: int, selected_lanes=None):
     q = kprime - 10
     m = 67472 + kprime
     baseline = K71.PARENT.PARENT.PARENT.CAPS.baseline_caps(q, m)
@@ -253,72 +248,75 @@ def branch_summary(kprime: int):
         "carrier32_plain": 0,
         "carrier32_geom": 0,
     }
-    geometry_max = {}
+
+    def selected(lane):
+        base = lane.removesuffix("_plain").removesuffix("_geom")
+        return (
+            selected_lanes is None
+            or lane in selected_lanes
+            or base in selected_lanes
+        )
 
     def keep(value, label, caps):
         nonlocal maximum
         if value > maximum[0]:
             maximum = (value, label, caps)
 
-    for left, middle, right in itertools.product(front23, front45, front69):
-        caps = K71.combine(left[1], middle[1], right[1])
-        keep(
-            K71.premium(caps),
-            f"{left[0]}/{middle[0]}/{right[0]}/plain",
-            caps,
-        )
-        counts["ordinary"] += 1
+    if selected("ordinary"):
+        for left, middle, right in itertools.product(
+            front23, front45, front69
+        ):
+            caps = K71.combine(left[1], middle[1], right[1])
+            keep(
+                K71.premium(caps),
+                f"{left[0]}/{middle[0]}/{right[0]}/plain",
+                caps,
+            )
+            counts["ordinary"] += 1
 
-    for s2, s3, left in carrier32:
-        m2 = q - s2
-        offset = 30 - m2
-        for s4, s5, middle in exact45:
-            m4 = q - s4
-            m5 = q - s5
-            local = K71.combine(left, middle)
-            prefix = f"s2={s2}/s3={s3}/s4={s4}/s5={s5}"
-            if (m4, m5) != (31, 31):
-                for right in front69:
-                    caps = K71.combine(local, right[1])
-                    keep(
-                        K71.premium(caps),
-                        f"{prefix}/{right[0]}/carrier32_plain",
-                        caps,
-                    )
-                    counts["carrier32_plain"] += 1
-                continue
-            cases = mixed_cases(m2, offset, m4, m5)
-            for name, charges in cases.items():
-                candidate = local
-                for union, dimension in charges:
-                    candidate = K71.combine(
-                        candidate,
-                        fixed_union_cap(kprime, union, dimension),
-                    )
-                for right in front69:
-                    caps = K71.combine(candidate, right[1])
-                    value = K71.premium(caps)
-                    joint = None
-                    if name.endswith("J45_u36_g5_flag"):
-                        joint = joint45_weighted_cap(kprime, 36, 5)
-                    elif name.endswith("J45_u37_g5"):
-                        joint = joint45_weighted_cap(kprime, 37, 5)
-                    if joint is not None:
-                        old45 = sum(
-                            K71.LEDGER.DEFICITS[support]
-                            * caps[support - 2]
-                            for support in (4, 5)
+    if selected("carrier32_plain") or selected("carrier32_geom"):
+        for s2, s3, left in carrier32:
+            m2 = q - s2
+            offset = 30 - m2
+            for s4, s5, middle in exact45:
+                m4 = q - s4
+                m5 = q - s5
+                local = K71.combine(left, middle)
+                prefix = f"s2={s2}/s3={s3}/s4={s4}/s5={s5}"
+                if (m4, m5) != (31, 31):
+                    if not selected("carrier32_plain"):
+                        continue
+                    for right in front69:
+                        caps = K71.combine(local, right[1])
+                        keep(
+                            K71.premium(caps),
+                            f"{prefix}/{right[0]}/carrier32_plain",
+                            caps,
                         )
-                        value -= old45 - min(old45, joint)
-                    geometry_max[name] = max(
-                        geometry_max.get(name, -1), value
-                    )
-                    keep(
-                        value,
-                        f"{prefix}/{right[0]}/carrier32_{name}",
-                        caps,
-                    )
-                    counts["carrier32_geom"] += 1
+                        counts["carrier32_plain"] += 1
+                    continue
+                if not selected("carrier32_geom"):
+                    continue
+                cases = mixed_cases(m2, offset, m4, m5)
+                for (candidate, joint), name in charged_case_rows(
+                    kprime, local, cases
+                ).items():
+                    for right in front69:
+                        caps = K71.combine(candidate, right[1])
+                        value = K71.premium(caps)
+                        if joint is not None:
+                            old45 = sum(
+                                K71.LEDGER.DEFICITS[support]
+                                * caps[support - 2]
+                                for support in (4, 5)
+                            )
+                            value -= old45 - min(old45, joint)
+                        keep(
+                            value,
+                            f"{prefix}/{right[0]}/carrier32_{name}",
+                            caps,
+                        )
+                        counts["carrier32_geom"] += 1
 
     for step_name, rows, offset in (
         ("one", steps[1], 1),
@@ -328,6 +326,10 @@ def branch_summary(kprime: int):
         ("five", steps[5], 5),
         ("six", steps[6], 6),
     ):
+        if not selected(f"{step_name}_plain") and not selected(
+            f"{step_name}_geom"
+        ):
+            continue
         for s2, s3, left in rows:
             m2 = q - s2
             for s4, s5, middle in exact45:
@@ -335,13 +337,12 @@ def branch_summary(kprime: int):
                 m5 = q - s5
                 local = K71.combine(left, middle)
                 prefix = f"s2={s2}/s3={s3}/s4={s4}/s5={s5}"
-                if step_name == "one" or m4 in (
-                    m2 + 1,
-                    m2 + offset + 1,
-                ):
+                if step_name == "one" or m4 > m2:
                     cases = mixed_cases(m2, offset, m4, m5)
                 else:
                     if m4 != m2 + offset:
+                        if not selected(f"{step_name}_plain"):
+                            continue
                         for right in front69:
                             caps = K71.combine(local, right[1])
                             keep(
@@ -356,21 +357,14 @@ def branch_summary(kprime: int):
                         offset,
                         include_support5=(m5 == m2 + offset),
                     )
-                for name, charges in cases.items():
-                    candidate = local
-                    for union, dimension in charges:
-                        candidate = K71.combine(
-                            candidate,
-                            fixed_union_cap(kprime, union, dimension),
-                        )
+                if not selected(f"{step_name}_geom"):
+                    continue
+                for (candidate, joint), name in charged_case_rows(
+                    kprime, local, cases
+                ).items():
                     for right in front69:
                         caps = K71.combine(candidate, right[1])
                         value = K71.premium(caps)
-                        joint = None
-                        if name.endswith("J45_u36_g5_flag"):
-                            joint = joint45_weighted_cap(kprime, 36, 5)
-                        elif name.endswith("J45_u37_g5"):
-                            joint = joint45_weighted_cap(kprime, 37, 5)
                         if joint is not None:
                             old45 = sum(
                                 K71.LEDGER.DEFICITS[support]
@@ -378,9 +372,6 @@ def branch_summary(kprime: int):
                                 for support in (4, 5)
                             )
                             value -= old45 - min(old45, joint)
-                        geometry_max[name] = max(
-                            geometry_max.get(name, -1), value
-                        )
                         keep(
                             value,
                             f"{prefix}/{right[0]}/{step_name}_{name}",
@@ -412,14 +403,11 @@ def branch_summary(kprime: int):
         "six_step_pairs": len(steps[6]),
         "carrier32_pairs": len(carrier32),
         "counts": counts,
-        "geometry_max_top": sorted(
-            geometry_max.items(), key=lambda item: item[1], reverse=True
-        )[:20],
     }
 
 
-def payment(kprime: int):
-    summary = branch_summary(kprime)
+def payment(kprime: int, selected_lanes=None):
+    summary = branch_summary(kprime, selected_lanes)
     old = K71.LEDGER.row(kprime)
     n = 1048576 + kprime
     m = 67472 + kprime
@@ -447,4 +435,6 @@ def payment(kprime: int):
     return summary
 
 
-print(json.dumps({"72": payment(72)}, indent=2))
+if __name__ == "__main__":
+    lanes = set(sys.argv[1].split(",")) if len(sys.argv) > 1 else None
+    print(json.dumps({"72": payment(72, lanes)}, indent=2))

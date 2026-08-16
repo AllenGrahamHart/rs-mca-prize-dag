@@ -40665,6 +40665,31 @@
    ]
   },
   {
+   "id": "rate_half_mca_rank11_k72_full_carrier_atlas_payment",
+   "title": "Full carrier atlas closes K'=72",
+   "status": "PROVED",
+   "closure": "complete exact-defect partition, exhaustive pairwise carrier routing, flat-coupled support-four/five charges, bounded lane replay, and positive integral component payment",
+   "statement": "The complete K'=72 carrier atlas has maximum completion premium 41089877204729279662874647920595743958596178333, below the exact safe ceiling, and required component incidence exceeds complete capacity by 52200017935756118667066163970702686810349690944821612538425.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_k72_full_carrier_atlas_payment/statement.md",
+    "background/nodes/rate_half_mca_rank11_k72_full_carrier_atlas_payment/proof.md",
+    "background/nodes/rate_half_mca_rank11_k72_full_carrier_atlas_payment/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_k72_full_carrier_atlas_payment/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_k72_full_carrier_atlas_payment/attack.md",
+    "background/nodes/rate_half_mca_rank11_k72_full_carrier_atlas_payment/audit.md",
+    "background/nodes/rate_half_mca_rank11_k72_full_carrier_atlas_payment/result.md",
+    "background/nodes/rate_half_mca_rank11_k72_full_carrier_atlas_payment/provenance.md",
+    "background/nodes/rate_half_mca_rank11_k72_full_carrier_atlas_payment/replay.md",
+    "background/nodes/rate_half_mca_rank11_k72_full_carrier_atlas_payment/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_k72_full_carrier_atlas_payment/verify.py",
+    "background/nodes/rate_half_mca_rank11_k72_full_carrier_atlas_payment/verify_audit.py",
+    "experiments/prize_resolution/rate_half_mca_rank11_k72_two_step_probe.py",
+    "experiments/prize_resolution/rate_half_mca_rank11_k72_plain_frontier_probe.py",
+    "experiments/prize_resolution/rate_half_mca_rank11_k72_active_cell_probe.py",
+    "experiments/prize_resolution/rate_half_mca_rank11_k72_final_payment_probe.py"
+   ]
+  },
+  {
    "id": "rate_half_mca_rank11_kernel_canonical_basis_globalizer",
    "title": "Canonical rank bases globalize every fixed kernel chart",
    "status": "PROVED",
@@ -41848,6 +41873,46 @@
     "background/nodes/rate_half_mca_sparse_circuit_descending_support_completion_ladder/source_contract.json",
     "background/nodes/rate_half_mca_sparse_circuit_descending_support_completion_ladder/verify.py",
     "background/nodes/rate_half_mca_sparse_circuit_descending_support_completion_ladder/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_mca_sparse_circuit_fixed_union_flat_coupled_45_charge",
+   "title": "Fixed-union flat-coupled support-4/5 charge",
+   "status": "PROVED",
+   "closure": "original outside-matroid flat bounds, coupled four/five-circuit envelope, exact lower strata, and weighted endpoint monotonicity",
+   "statement": "A fixed g-dimensional vanishing space with g>=5 gives the weighted support-four/support-five selected-incidence cap (FU4) by applying flat-circuit coupling to the original evaluation matroid outside the fixed union.",
+   "refs": [
+    "background/nodes/rate_half_mca_sparse_circuit_fixed_union_flat_coupled_45_charge/statement.md",
+    "background/nodes/rate_half_mca_sparse_circuit_fixed_union_flat_coupled_45_charge/proof.md",
+    "background/nodes/rate_half_mca_sparse_circuit_fixed_union_flat_coupled_45_charge/claim_contract.md",
+    "background/nodes/rate_half_mca_sparse_circuit_fixed_union_flat_coupled_45_charge/dependency_subdag.md",
+    "background/nodes/rate_half_mca_sparse_circuit_fixed_union_flat_coupled_45_charge/attack.md",
+    "background/nodes/rate_half_mca_sparse_circuit_fixed_union_flat_coupled_45_charge/audit.md",
+    "background/nodes/rate_half_mca_sparse_circuit_fixed_union_flat_coupled_45_charge/result.md",
+    "background/nodes/rate_half_mca_sparse_circuit_fixed_union_flat_coupled_45_charge/provenance.md",
+    "background/nodes/rate_half_mca_sparse_circuit_fixed_union_flat_coupled_45_charge/source_contract.json",
+    "background/nodes/rate_half_mca_sparse_circuit_fixed_union_flat_coupled_45_charge/verify.py",
+    "background/nodes/rate_half_mca_sparse_circuit_fixed_union_flat_coupled_45_charge/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_mca_sparse_circuit_full_completion_pairwise_carrier_atlas",
+   "title": "Full-completion pairwise carrier atlas",
+   "status": "PROVED",
+   "closure": "projective position trichotomy, minimal-circuit residual exclusion, exact overlap range, and pairwise fixed-union dimensions",
+   "statement": "For attaining support-two through support-five carriers, the support-two projective point is transverse, anchored/proper, or full-completion; in the full support-three/support-d branch the residual overlap has the exact bounded range and fixed-union dimensions printed in (CA2)-(CA3).",
+   "refs": [
+    "background/nodes/rate_half_mca_sparse_circuit_full_completion_pairwise_carrier_atlas/statement.md",
+    "background/nodes/rate_half_mca_sparse_circuit_full_completion_pairwise_carrier_atlas/proof.md",
+    "background/nodes/rate_half_mca_sparse_circuit_full_completion_pairwise_carrier_atlas/claim_contract.md",
+    "background/nodes/rate_half_mca_sparse_circuit_full_completion_pairwise_carrier_atlas/dependency_subdag.md",
+    "background/nodes/rate_half_mca_sparse_circuit_full_completion_pairwise_carrier_atlas/attack.md",
+    "background/nodes/rate_half_mca_sparse_circuit_full_completion_pairwise_carrier_atlas/audit.md",
+    "background/nodes/rate_half_mca_sparse_circuit_full_completion_pairwise_carrier_atlas/result.md",
+    "background/nodes/rate_half_mca_sparse_circuit_full_completion_pairwise_carrier_atlas/provenance.md",
+    "background/nodes/rate_half_mca_sparse_circuit_full_completion_pairwise_carrier_atlas/source_contract.json",
+    "background/nodes/rate_half_mca_sparse_circuit_full_completion_pairwise_carrier_atlas/verify.py",
+    "background/nodes/rate_half_mca_sparse_circuit_full_completion_pairwise_carrier_atlas/verify_audit.py"
    ]
   },
   {
@@ -79066,11 +79131,21 @@
   },
   {
    "from": "rate_half_mca_rank11_k71_carrier_trichotomy_payment",
+   "to": "rate_half_mca_rank11_k72_full_carrier_atlas_payment",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_k71_carrier_trichotomy_payment",
    "to": "rate_half_mca_sparse_circuit_k72_nested_carrier_flag_router",
    "kind": "req"
   },
   {
    "from": "rate_half_mca_rank11_k72_carrier_flag_split_section_census",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_k72_full_carrier_atlas_payment",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
   },
@@ -79840,6 +79915,11 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_mca_rank_five_flat_circuit_coupling",
+   "to": "rate_half_mca_sparse_circuit_fixed_union_flat_coupled_45_charge",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_mca_sparse_circuit_completion_branch_lattice_refinement",
    "to": "rate_half_mca_rank11_k44_branch_lattice_payment",
    "kind": "ev"
@@ -79897,6 +79977,11 @@
   {
    "from": "rate_half_mca_sparse_circuit_completion_stratified_fixed_union_charge",
    "to": "rate_half_mca_rank11_k72_carrier_flag_split_section_census",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_sparse_circuit_completion_stratified_fixed_union_charge",
+   "to": "rate_half_mca_sparse_circuit_fixed_union_flat_coupled_45_charge",
    "kind": "req"
   },
   {
@@ -79965,6 +80050,16 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_mca_sparse_circuit_fixed_union_flat_coupled_45_charge",
+   "to": "rate_half_mca_rank11_k72_full_carrier_atlas_payment",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_sparse_circuit_full_completion_pairwise_carrier_atlas",
+   "to": "rate_half_mca_rank11_k72_full_carrier_atlas_payment",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_mca_sparse_circuit_k71_carrier_position_trichotomy",
    "to": "rate_half_mca_rank11_k71_carrier_trichotomy_payment",
    "kind": "ev"
@@ -79972,6 +80067,11 @@
   {
    "from": "rate_half_mca_sparse_circuit_k71_carrier_position_trichotomy",
    "to": "rate_half_mca_rank11_k71_carrier_trichotomy_payment",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_sparse_circuit_k71_carrier_position_trichotomy",
+   "to": "rate_half_mca_sparse_circuit_full_completion_pairwise_carrier_atlas",
    "kind": "req"
   },
   {

@@ -50,10 +50,11 @@ that every completion maximum drops uniformly.
 
 ## Proved stronger envelope
 
-Divide the 36-point locator from the five-dimensional space `W`.  The
-residual evaluation matroid on `N=67508` outside points has rank-three flats
-of size at most 34 and rank-four flats of size at most 35.  If `C_4,C_5`
-are its entirely-outside four- and five-circuits, the flat-circuit coupling
+Divide the 36-point locator from the five-dimensional space `W`.  In the
+original evaluation matroid restricted to the `N=67508` outside points,
+the residual polynomials certify that rank-three flats have size at most 34
+and rank-four flats have size at most 35.  If `C_4,C_5` are the original
+matroid's entirely-outside four- and five-circuits, the flat-circuit coupling
 theorem gives
 
 ```text

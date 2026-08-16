@@ -5,13 +5,15 @@ subspace vanishing on `D`.  Divide every member of `W` by the squarefree
 locator of `D`.  The residual space has dimension five and consists of
 polynomials of degree at most `72-1-36=35`.
 
-Restrict its evaluation matroid to the `N=m-36=67508` points outside `D`.
-A rank-three flat has a two-dimensional annihilator in the residual space.
-Two independent degree-at-most-35 polynomials have at most 34 common roots,
-so every rank-three flat has size at most 34.  A rank-four flat is the zero
-set of one nonzero residual polynomial and has size at most 35.  The
-rank-five flat-circuit coupling theorem therefore gives, for entirely-outside
-circuits,
+Restrict the original evaluation matroid of `V` to the
+`N=m-36=67508` points outside `D`.  For an independent triple in this
+matroid, intersecting its annihilator with `W` leaves dimension at least two.
+After locator division, two independent degree-at-most-35 polynomials vanish
+on the triple's complete original-matroid closure, so that rank-three flat
+has size at most 34.  The same argument for an independent four-set leaves
+at least one nonzero residual polynomial, hence its rank-four flat has size
+at most 35.  Thus the rank-five flat-circuit coupling theorem applies to the
+original restricted matroid and gives, for entirely-outside circuits,
 
 ```text
 5 C_5 <= 31 C(N,4) - (N-34) C_4.                  (1)

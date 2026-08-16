@@ -1,0 +1,26 @@
+{
+  "schema": "rate-half-mca-sparse-circuit-full-completion-pairwise-carrier-atlas-v1",
+  "ambient_dimension": 10,
+  "supports": [3, 4, 5],
+  "position_cases": {
+    "transverse": ["b2+bc", "10-c"],
+    "anchored_or_proper": ["b2+bc-1", "11-c"],
+    "full_completion_condition": "Mc>=M2+1"
+  },
+  "overlap": {
+    "r3": "M3-M2+1",
+    "rd": "Md-M2+d-2",
+    "maximum_t": "min(r3,Md-M2)",
+    "union": "b2+r3+rd-t",
+    "dimension_t0": "10-d",
+    "dimension_t_positive": "11-d"
+  },
+  "controls": [
+    {"M2": 29, "M3": 30, "Md": 31, "d": 4,
+     "rows": [[0, 36, 6], [1, 35, 7], [2, 34, 7]]},
+    {"M2": 29, "M3": 30, "Md": 31, "d": 5,
+     "rows": [[0, 37, 5], [1, 36, 6], [2, 35, 6]]},
+    {"M2": 28, "M3": 30, "Md": 31, "d": 4,
+     "rows": [[0, 37, 6], [1, 36, 7], [2, 35, 7], [3, 34, 7]]}
+  ]
+}
