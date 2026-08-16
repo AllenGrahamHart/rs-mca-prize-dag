@@ -72,7 +72,7 @@ def run_job(implementation: str, offset: int) -> dict[str, object]:
 
 @app.local_entrypoint()
 def main(smoke: bool = False) -> None:
-    offsets = (74,) if smoke else range(1, 75)
+    offsets = (1, 74) if smoke else range(1, 75)
     jobs = [
         (implementation, offset)
         for implementation in ("primary", "audit")

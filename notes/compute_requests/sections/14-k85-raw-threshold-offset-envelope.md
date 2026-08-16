@@ -6,11 +6,11 @@
 - **scope:** offsets `1..74`, both a primary exact traversal and an independently
   written reconstruction of the support-2/3 and support-4/5 vectors
 - **primary SHA-256:**
-  `bba44a0511fa2ee5399c7c47fc2a16fe5449086665bb05d5caa5f5e390f03848`
+  `b13ab1262105d53694407a9c448362bfa85b7914e6fce6242b715f2436c63b3b`
 - **audit SHA-256:**
-  `5eabcec96084e3ed32a384dc9d93ea6cf44465c6dfbbbb655f2d0220c7c3eab0`
+  `90380f5d1f8191172dae43e90b9802873ed6f680a2bc41a49d50d3dade10f59c`
 - **dispatcher SHA-256:**
-  `a2e4217a49c371ab449aa914484d6a4f750c66ebdea862a6d002319b0eef89e5`
+  `f305528a1336c949bccd321799e56ecfa9edd5a8a8757836a9a99afb9929b888`
 - **merger SHA-256:**
   `28d9289be8c0e741a364a72884e171154ff0186ea732b1f1cdda3990c3ea333c`
 - **theorem code archive SHA-256:**
@@ -50,4 +50,13 @@ The second launch, Modal app `ap-ld231Otrj4iOwrf8WgXUbz`, was also
 while the subprocess working directory was `/root`, so every worker failed the
 same archive-discovery check before enumeration (22--24 MB peak, about 0.05
 seconds each). The dispatcher now runs workers from `/tmp` and exposes a
-two-job offset-74 smoke mode that must pass before the full wave is retried.
+four-job offset-1/offset-74 smoke mode that must pass before the full wave is
+retried.
+
+The repaired-directory offset-74 smoke, Modal app
+`ap-mK2HJJflmciBb31TLyqtUv`, passed in both implementations at 28--29 MB.
+It also exposed an unnecessary quadratic Pareto-frontier construction in the
+primary traversal before low offsets were launched. Both traversals now cache
+the raw value for duplicate local vectors; the primary constructs only the
+exact support-4/5 rows required by this scan. The widened smoke tests both the
+largest and smallest workloads.

@@ -117,12 +117,16 @@ def offset_envelope(offset: int) -> dict[str, object]:
         local_safe_max = -1
         local_unsafe_min: int | None = None
         local_unsafe_max = -1
+        raw_cache: dict[tuple[int, ...], tuple[int, str]] = {}
         for s4, s5, middle_caps in middle:
             local = combine(left, middle_caps)
-            raw = max(
-                (premium(combine(local, high_caps)), high_name)
-                for high_name, high_caps in reversed(high_rows)
-            )
+            raw = raw_cache.get(local)
+            if raw is None:
+                raw = max(
+                    (premium(combine(local, high_caps)), high_name)
+                    for high_name, high_caps in reversed(high_rows)
+                )
+                raw_cache[local] = raw
             label = (
                 f"s2={s2}/s3={s3}/s4={s4}/s5={s5}/"
                 f"offset{offset}/{raw[1]}"

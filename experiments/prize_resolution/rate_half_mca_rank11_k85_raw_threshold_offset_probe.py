@@ -48,7 +48,33 @@ CEILING = (
 def offset_envelope(offset: int) -> dict[str, object]:
     assert 1 <= offset < Q
     baseline = K71.PARENT.PARENT.PARENT.CAPS.baseline_caps(Q, M)
-    exact45, _, _ = K71.exact45_rows(KPRIME, baseline)
+    caps4 = {
+        defect: K71.PARENT.exact_cross_caps(
+            KPRIME, 4, defect, baseline
+        )
+        for defect in range(Q + 1)
+    }
+    caps5 = {
+        defect: K71.PARENT.exact_cross_caps(
+            KPRIME, 5, defect, baseline
+        )
+        for defect in range(Q + 1)
+    }
+    exact45 = []
+    for s4 in range(Q + 1):
+        for s5 in range(Q + 1):
+            vector = [
+                min(baseline[target], caps4[s4][target], caps5[s5][target])
+                for target in K71.SUPPORTS
+            ]
+            if s4 + s5 < Q:
+                vector[2] = min(
+                    vector[2],
+                    K71.PARENT.PARENT.PARENT.JOINT.cap_for_defects(
+                        KPRIME, M, s4, s5
+                    )[0],
+                )
+            exact45.append((s4, s5, tuple(vector)))
     _, high = K71.PARENT.high_group(KPRIME, baseline)
     high = sorted(high)
     digest = hashlib.sha256()
@@ -66,15 +92,19 @@ def offset_envelope(offset: int) -> dict[str, object]:
         local_safe_max = -1
         local_unsafe_min: int | None = None
         local_unsafe_max = -1
+        raw_cache: dict[tuple[int, ...], tuple[int, str]] = {}
         for s4, s5, middle in exact45:
             local = K71.combine(left, middle)
-            raw = max(
-                (
-                    K71.premium(K71.combine(local, high_vector)),
-                    high_name,
+            raw = raw_cache.get(local)
+            if raw is None:
+                raw = max(
+                    (
+                        K71.premium(K71.combine(local, high_vector)),
+                        high_name,
+                    )
+                    for high_name, high_vector in high
                 )
-                for high_name, high_vector in high
-            )
+                raw_cache[local] = raw
             label = (
                 f"s2={s2}/s3={s3}/s4={s4}/s5={s5}/"
                 f"offset{offset}/{raw[1]}"
