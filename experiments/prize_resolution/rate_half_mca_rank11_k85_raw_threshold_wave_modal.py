@@ -44,7 +44,7 @@ def run_job(implementation: str, offset: int) -> dict[str, object]:
     try:
         completed = subprocess.run(
             ["/usr/bin/time", "-v", "python3", script, str(offset)],
-            cwd="/root",
+            cwd="/tmp",
             capture_output=True,
             text=True,
             timeout=165,
@@ -71,11 +71,12 @@ def run_job(implementation: str, offset: int) -> dict[str, object]:
 
 
 @app.local_entrypoint()
-def main() -> None:
+def main(smoke: bool = False) -> None:
+    offsets = (74,) if smoke else range(1, 75)
     jobs = [
         (implementation, offset)
         for implementation in ("primary", "audit")
-        for offset in range(1, 75)
+        for offset in offsets
     ]
     completed = failures = 0
     for row in run_job.starmap(jobs, order_outputs=False):

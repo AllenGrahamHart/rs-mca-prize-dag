@@ -13889,7 +13889,7 @@ offsets 15 and 23. No complete K'=85 wave is authorized by this outcome.
 - **audit SHA-256:**
   `5eabcec96084e3ed32a384dc9d93ea6cf44465c6dfbbbb655f2d0220c7c3eab0`
 - **dispatcher SHA-256:**
-  `1ed2827bfb6abbedbf70499311af1c9a0f6061b4a5f50b6a27975d03655aa771`
+  `a2e4217a49c371ab449aa914484d6a4f750c66ebdea862a6d002319b0eef89e5`
 - **merger SHA-256:**
   `28d9289be8c0e741a364a72884e171154ff0186ea732b1f1cdda3990c3ea333c`
 - **theorem code archive SHA-256:**
@@ -13923,3 +13923,10 @@ invalid local-only `parents[2]` path during container import. No mathematical
 job started and no output was retained. The repaired dispatcher uses
 module-relative mounted paths in both environments; all mathematical sources
 and the merger are unchanged.
+
+The second launch, Modal app `ap-ld231Otrj4iOwrf8WgXUbz`, was also
+`INCOMPLETE`: all 148 workers started, but the mounted archives were in `/tmp`
+while the subprocess working directory was `/root`, so every worker failed the
+same archive-discovery check before enumeration (22--24 MB peak, about 0.05
+seconds each). The dispatcher now runs workers from `/tmp` and exposes a
+two-job offset-74 smoke mode that must pass before the full wave is retried.
