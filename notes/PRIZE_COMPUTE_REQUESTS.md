@@ -14220,7 +14220,7 @@ raw-unsafe offset `1..41`; it does not itself prove the omitted lanes.
 - **independent adapter SHA-256:**
   `f9a01624b5a11fbc30f58a4f4afca2aa75d9af96b35c69edddcdc7eef5e1fa1f`
 - **base residual scanner SHA-256:**
-  `b8899f40cec67c03924cb1944341b76010a574212f0889387ccdd3f14cd74440`
+  `cd1e9d2706c48be390387953c4abeea46958af258f132700809cf2393a5e4a90`
 - **dispatcher SHA-256:**
   `562a7aa4b219d7f0a299d2feca68d02bb2e6943538c0ce201908bacfa6ea5b47`
 - **merger SHA-256:**
@@ -14253,3 +14253,13 @@ at 31--33 MB peak RSS. The smoke capture SHA-256 is
 `e51e3be06123a0e5a654a071eeded4b76b9aabcb2172828978b54d7669895b0d`.
 This authorizes the full wave from the pinned sources; it does not itself
 promote K'=85.
+
+The first full launch, Modal app `ap-o86zjFxfuNrY2qg9YGj9aW`, was
+`INCOMPLETE` before omitted-lane enumeration. The reusable base scanner still
+enforced the stress-only input set `{1,11,23,41}`, so 74 jobs rejected their
+offset at the input guard; all eight stress jobs again passed pairwise at
+30--35 MB. The capture SHA-256 is
+`c080c618af3a05c311e55039297405952ba011684234a21f6a7ae2d72d6f26ec`.
+The repair widens only that guard to the already preregistered interval
+`1..41`; formulas, traversal, adapters, and merger are unchanged. A new paired
+smoke must pass before relaunch.

@@ -123,7 +123,7 @@ def edge4_price(caps, adjacent: int | None) -> int:
 
 
 def scan(offset: int) -> dict[str, object]:
-    assert offset in {1, 11, 23, 41}
+    assert 1 <= offset <= 41
     baseline = K71.PARENT.PARENT.PARENT.CAPS.baseline_caps(Q, M)
     middle = list(exact45_rows(baseline))
     _, high = K71.PARENT.high_group(KPRIME, baseline)
