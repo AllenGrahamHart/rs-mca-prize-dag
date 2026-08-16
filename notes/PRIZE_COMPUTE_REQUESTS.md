@@ -14004,3 +14004,48 @@ carrier case whose adjacent-support payment remains necessary. `SURVIVED`
 authorizes the next offset but is not a proof outside the completed lane.
 `INCOMPLETE` changes no mathematical status. No outcome promotes K'=85 by
 itself.
+
+**Outcome:** `FALSIFIED` at the first checked residual case, with independent
+exact replay. Modal app `ap-319YToKIcY6UC4VZUEIZ0a` returned the offset-11
+witness
+
+```text
+m2=1, m3=12, s2=74, s3=63, s4=s5=37, m4=m5=38
+case=T23, fixed-union charge=(16,7), high=c6F/c7F/c8F/c9F
+```
+
+after 2,850 source units, one unsafe unit, and one carrier case. The raw and
+fixed-union-only premiums are both
+`42141786157949900288596401924882914598461995992`, exceeding the exact
+offset-11 leader by
+`728918141740123567367510537973035075155162638`. The independent witness
+audit agreed on every coordinate, charge, branch, and integer. The capture
+SHA-256 is
+`2e9a646df4e4fd6dc1626360d9fe8a78bfdccf93766f002422a646dfdf07e4d1`.
+
+Thus the fixed-union-only route is dead and offsets 1, 23, and 41 are not
+launched. This does not refute the proved adjacent-support theorem or K'=85;
+it localizes the next obligation to the support-disjoint adjacent edges
+available for the single `(16,7)` charge.
+## Preregistered K'=85 first-witness adjacent payment
+
+- **decision:** on the independently replayed offset-11 `T23` witness, print
+  every support-disjoint adjacent-edge price and decide whether the primary
+  and independent atlas both reduce it below the exact raw-safe leader
+- **scope:** one fixed witness, union 16, dimension 7, available edges 4--5,
+  5--6, and 6--7; choices `none`, `4`, `5`, `6`, and `4+6`
+- **analyzer SHA-256:**
+  `2a63f64023dc04c3a33de293797873dbc9c4d9275dd8486eb31286af2f78724b`
+- **dispatcher SHA-256:**
+  `be2379bf01c3261489b619a550102e22fc10767e59a019396bda2be3b6e5ef10`
+- **theorem code archive SHA-256:**
+  `327c677b870233b5b43609203a45c12ca478a719da3b9391c61860d9ddbe6b49`
+- **dependency archive SHA-256:**
+  `5ee5d10a20f1e47b1e5400d10177e33bafdc83c0e9b516d6d12dfe0fad93aaf8`
+- **envelope:** one CPU, 256 MB, 20-second child wall; projected cost below
+  `$0.01`
+- **local safety:** one RAM-guarded Modal client; no local mathematical run
+
+`PASS` prints both exact option tables and their minimizing edge sets. A price
+above the leader is a route wall, not a counterexample to the prize theorem.
+`INCOMPLETE` changes no status. This witness calculation cannot promote K'=85.
