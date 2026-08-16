@@ -13640,3 +13640,30 @@ support-6/9 Pareto frontiers merely to retrieve named vectors; the generic
 runner buffered stdout, so it returned no partial rows. Neither launch
 produced mathematical evidence. The hash-pinned revision constructs those
 same named vectors directly from `exact_cross_caps` and `source_options`.
+
+**Outcome:** `SWITCH`, with a stable pricing choice and a genuine later
+route obstruction. App `ap-rhsmO9Z7XoNV3I6u1ihRay` completed all 46 rows at
+59 MB peak RSS. The raw capture SHA-256 is
+`61a0884cc7d996512e6576c303b3746213db0c66122dce5cf29c28c94f665214`.
+Every row selects the disjoint adjacent-pair charge `A45+A67`.
+
+At the target row `K'=84`, the post-charge premium is
+`30754765486431054133282031534055508984798589537`, safely below the exact
+ceiling by `10634077880788236777741547803399250421079938212`. Thus the raw
+support-three parity wall isolated above is not the K'=84 obstruction. The
+same formula remains safe through `K'=110`, then first fails at `K'=111`
+for odd `q` and `K'=112` for even `q`:
+
+```text
+K'=109: margin  509212654944121696349789160479105006945656208
+K'=110: margin  296412497742911062432803390572960247010652784
+K'=111: margin -289287180359720419070152831788781417392816816
+K'=112: margin -502245759142497481996161240413431098141610146
+```
+
+The crossing limits this particular carrier formula; it does not falsify
+the row theorem or affect K'=84. For K'=84 the full pilot's raw-safe
+ordinary leader remains much larger than this charged family. The immediate
+analytic task is therefore to prove the `A45+A67` reduction for the parity
+cell and then establish domination over all other K'=84 ordinary and offset
+families, without extending this formula past its observed crossing.
