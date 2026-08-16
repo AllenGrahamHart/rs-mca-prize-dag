@@ -81,18 +81,25 @@ def template_row(kprime: int) -> dict[str, object]:
     union, dimension = completion + 2, 8
     baseline = K71.PARENT.PARENT.PARENT.CAPS.baseline_caps(q, m)
     left = K71.base23_vector(kprime, baseline, q, defect)
-    exact45, _, _ = K71.exact45_rows(kprime, baseline)
-    middle = next(
-        vector
-        for s4, s5, vector in exact45
-        if (s4, s5) == (defect, defect)
+    caps4 = K71.PARENT.exact_cross_caps(kprime, 4, defect, baseline)
+    caps5 = K71.PARENT.exact_cross_caps(kprime, 5, defect, baseline)
+    middle = tuple(
+        min(baseline[target], caps4[target], caps5[target])
+        for target in K71.SUPPORTS
     )
-    _, high = K71.PARENT.high_group(kprime, baseline)
-    high_vector = next(
-        vector
-        for name, vector in high
-        if name == "c6d2/c7d1/c8d1/c9d0"
-    )
+    source_options = K71.PARENT.PARENT.PARENT.PARENT.source_options
+    high_caps = dict(baseline)
+    for support, high_defect in ((6, 2), (7, 1), (8, 1), (9, 0)):
+        local = next(
+            option
+            for label, _, option in source_options(
+                kprime, support, baseline
+            )
+            if label == f"c{support}d{high_defect}"
+        )
+        for target in K71.SUPPORTS:
+            high_caps[target] = min(high_caps[target], local[target])
+    high_vector = tuple(high_caps[target] for target in K71.SUPPORTS)
     local = K71.combine(left, middle)
     raw_caps = K71.combine(local, high_vector)
     charged_rows = ROUTER.charged_case_rows_all_adjacent(

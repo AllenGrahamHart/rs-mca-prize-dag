@@ -13612,7 +13612,7 @@ is bounded analytically and independently replayed.
 - **interval:** every integer `K'=83..128`; this is 46 evaluations of one
   explicit template, not a frontier enumeration
 - **script SHA-256:**
-  `e91052c09731a4e472468aeb046fcee2d35565538c75da8b63798f368acdb13d`
+  `74f621ef2c8609c0a296d999a5a161fbad0811c3bfa5fcb3f11d3f5ec9e9c9e2`
 - **template:** `q=K'-10`, `M3=floor(q/2)`,
   `s2=q`, `s3=s4=s5=ceil(q/2)`, high branch
   `c6d2/c7d1/c8d1/c9d0`, carrier `(M3+2,8)`
@@ -13630,3 +13630,13 @@ INCOMPLETE: retain no mathematical conclusion
 This evaluation can reject or simplify the proposed symbolic route. It
 cannot establish domination over the remaining K'=84 lane families and
 cannot promote a row by itself.
+
+Two setup-only launches preceded the hash above. App
+`ap-QTHBoe6Q240zH2Vm65f0TS` used a stale dependency archive and failed
+before its first row because that archive predates the all-adjacent router.
+App `ap-tlQ731qAm1fuxQFA3G8VZ6` used the correct archive but timed out after
+270 seconds because the script enumerated complete support-4/5 and
+support-6/9 Pareto frontiers merely to retrieve named vectors; the generic
+runner buffered stdout, so it returned no partial rows. Neither launch
+produced mathematical evidence. The hash-pinned revision constructs those
+same named vectors directly from `exact_cross_caps` and `source_options`.
