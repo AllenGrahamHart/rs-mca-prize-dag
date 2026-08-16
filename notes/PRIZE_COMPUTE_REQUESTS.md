@@ -13768,3 +13768,25 @@ The merger additionally asserts the exact ordinary maximizer and margin,
 the offset source-unit formula `(74-offset)*5625`, the broader audit
 geometry count, and normalized primary/audit branch-label equality. A
 failure blocks node creation.
+
+**Outcome:** `PASS`. App `ap-UwcGaJZm4Wst0Ozq1NMRIp` completed at 72 MB
+peak RSS. The merger capture SHA-256 is
+`abc5638fba58fee000c0e8552ea449c4f8058713da3b784a989bf454235633a8`.
+It certified 148 jobs, 74 lanes, 15,651,063 source units, 109,557,441 raw
+rows, both input hashes, the two geometry totals, and the printed global
+maximum and margin.
+
+## Preregistered K'=84 component payment
+
+- **decision:** substitute the merger-certified premium into the exact
+  rank-nine ledger and require a positive integral component gap
+- **script SHA-256:**
+  `391232fc91db032d2599c18e47ad5f9368cf3b9650ede0634972ad118f941207`
+- **input premium:**
+  `41388798786059119503097492734939028640066114130`
+- **envelope:** one remote exact-integer job; expected peak below 128 MB and
+  cost below `$0.01`
+
+The script independently reconstructs the row marks, kernel capacity, safe
+ceiling, full-rank capacity, required incidence, and final gap from the
+hash-pinned rank-nine ledger. A nonpositive gap blocks promotion.
