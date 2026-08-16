@@ -53,3 +53,11 @@ offset at the input guard; all eight stress jobs again passed pairwise at
 The repair widens only that guard to the already preregistered interval
 `1..41`; formulas, traversal, adapters, and merger are unchanged. A new paired
 smoke must pass before relaunch.
+
+The repaired paired smoke passed as Modal app
+`ap-cnvj6o0mqfgRMqdV9Pxrg4`. Formerly blocked offset 2 agrees exactly on
+421,648 source units, 15,377 unsafe units, and 225,910 profiles; offset 41
+again agrees on 196,384, 138, and 124,168 respectively. All four jobs used
+31--32 MB. Capture SHA-256:
+`2b2295688002ced4b1c35bcd377b2a82b0e1298ae509a23749be57371f76bb6e`.
+This exercises the repaired guard and authorizes the full relaunch.
