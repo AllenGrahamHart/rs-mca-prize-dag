@@ -13573,3 +13573,34 @@ INCOMPLETE: retain no conclusion after timeout or malformed output
 ```
 
 This scan ignores geometry-required cells and cannot close any row.
+
+**Outcome:** `INCOMPLETE`, and the scan exposed a wrong endpoint rather
+than a ceiling crossing. Modal app `ap-Rzy1Aw2D71418NHszc7XLf` reached its
+645-second child wall at 61 MB peak RSS after printing complete rows
+`K'=83..105`; the raw capture SHA-256 is
+`20add11719a44044c14fe93d44a31ee3cc6068b6fac1e351b9a9fe9cf2a09787`.
+All 23 completed rows have the same parity family
+
+```text
+source=3,
+M3=floor(q/2),
+s2=q,
+s3=s4=s5=ceil(q/2),
+c6d2/c7d1/c8d1/c9d0.
+```
+
+Its *raw* premium already exceeds the ceiling at `K'=83`; for example at
+`K'=84` it is
+`46986000759234275253755854037693521002636288520`, with margin
+`-5597157392014984342732274700238761596757760771`. This is not a
+counterexample to the adjacent-support route. The family lies in the
+geometry-required support-three cell, where the theorem mandates the
+single-completion carrier `(u,g)=(M3+2,8)`. The scan omitted exactly that
+charge. Consequently no first-crossing or interval-stability conclusion is
+retained, and extending this raw scan would test the wrong quantity.
+
+The useful route information is the compressed parity family itself. The
+next preregistered object must be its **post-charge** adjacent-support
+premium, compared with the raw-safe ordinary leader and the other charged
+families. A row or interval can be promoted only after that charged envelope
+is bounded analytically and independently replayed.
