@@ -13667,3 +13667,30 @@ ordinary leader remains much larger than this charged family. The immediate
 analytic task is therefore to prove the `A45+A67` reduction for the parity
 cell and then establish domination over all other K'=84 ordinary and offset
 families, without extending this formula past its observed crossing.
+
+## Authorized K'=84 primary route-location wave
+
+- **decision:** find the exact maximum and any unsafe lane among the complete
+  partition `ordinary, offset1, ..., offset73`
+- **primary wrapper SHA-256:**
+  `a3f55cf0627f63b9786d3f44f526bb44c62d223152424099f1039df04d272a20`
+- **hash-pinned K'=83 code archive SHA-256:**
+  `327c677b870233b5b43609203a45c12ca478a719da3b9391c61860d9ddbe6b49`
+- **dependency archive SHA-256:**
+  `5ee5d10a20f1e47b1e5400d10177e33bafdc83c0e9b516d6d12dfe0fad93aaf8`
+- **batch runner SHA-256:**
+  `bbe9f1100d8d6add611794e24e02d57ab0f57903a15195a944e6fe640ca98922`
+- **envelope:** 74 remote containers, one CPU and 1 GB each, 645-second
+  child wall; projected aggregate cost below `$1`
+
+The parity evaluation has discharged the raw-wall ambiguity that blocked a
+broad launch: its mandatory carrier is safe by more than `10^43` at K'=84.
+This wave remains route-locating because it uses only the primary
+implementation. It does not promote K'=84 even if every lane passes.
+
+```text
+PASS:       all 74 lanes complete and are safe; retain the exact maximum and
+            authorize an independent replay of the active/near-active lanes
+FAIL:       retain each exact unsafe lane as an analytic obstruction
+INCOMPLETE: any timeout or missing lane; retain partial route information
+```
