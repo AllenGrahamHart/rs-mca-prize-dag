@@ -40791,6 +40791,31 @@
    ]
   },
   {
+   "id": "rate_half_mca_rank11_k77_full_carrier_atlas_payment",
+   "title": "Full carrier atlas closes K'=77",
+   "status": "PROVED",
+   "closure": "canonical exact-defect frontier, exhaustive pairwise carrier routing, retained high-support branches, completed sharded geometry replay, and positive integral component payment",
+   "statement": "The complete K'=77 carrier atlas has maximum completion premium 41220567597231178491653121647453619450645179178, below the exact safe ceiling, and required component incidence exceeds complete capacity by 79474840980250192811328546134901531018600026108436267508.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_k77_full_carrier_atlas_payment/statement.md",
+    "background/nodes/rate_half_mca_rank11_k77_full_carrier_atlas_payment/proof.md",
+    "background/nodes/rate_half_mca_rank11_k77_full_carrier_atlas_payment/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_k77_full_carrier_atlas_payment/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_k77_full_carrier_atlas_payment/attack.md",
+    "background/nodes/rate_half_mca_rank11_k77_full_carrier_atlas_payment/audit.md",
+    "background/nodes/rate_half_mca_rank11_k77_full_carrier_atlas_payment/result.md",
+    "background/nodes/rate_half_mca_rank11_k77_full_carrier_atlas_payment/provenance.md",
+    "background/nodes/rate_half_mca_rank11_k77_full_carrier_atlas_payment/replay.md",
+    "background/nodes/rate_half_mca_rank11_k77_full_carrier_atlas_payment/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_k77_full_carrier_atlas_payment/verify.py",
+    "background/nodes/rate_half_mca_rank11_k77_full_carrier_atlas_payment/verify_audit.py",
+    "experiments/prize_resolution/rate_half_mca_rank11_k74_full_carrier_atlas_audit.py",
+    "experiments/prize_resolution/rate_half_mca_rank11_full_carrier_atlas_contract.py",
+    "experiments/prize_resolution/rate_half_mca_rank11_next_row_lane_probe.py",
+    "tools/modal_run_script_long.py"
+   ]
+  },
+  {
    "id": "rate_half_mca_rank11_kernel_canonical_basis_globalizer",
    "title": "Canonical rank bases globalize every fixed kernel chart",
    "status": "PROVED",
@@ -79291,6 +79316,16 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_mca_rank11_k76_full_carrier_atlas_payment",
+   "to": "rate_half_mca_rank11_k77_full_carrier_atlas_payment",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_k77_full_carrier_atlas_payment",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_mca_rank11_kernel_canonical_basis_globalizer",
    "to": "rate_half_mca_rank11_kernel_corank1_projective_pair_cap",
    "kind": "req"
@@ -80216,6 +80251,11 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_mca_sparse_circuit_fixed_union_flat_coupled_45_charge",
+   "to": "rate_half_mca_rank11_k77_full_carrier_atlas_payment",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_mca_sparse_circuit_full_completion_pairwise_carrier_atlas",
    "to": "rate_half_mca_rank11_k72_full_carrier_atlas_payment",
    "kind": "req"
@@ -80238,6 +80278,11 @@
   {
    "from": "rate_half_mca_sparse_circuit_full_completion_pairwise_carrier_atlas",
    "to": "rate_half_mca_rank11_k76_full_carrier_atlas_payment",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_sparse_circuit_full_completion_pairwise_carrier_atlas",
+   "to": "rate_half_mca_rank11_k77_full_carrier_atlas_payment",
    "kind": "req"
   },
   {
