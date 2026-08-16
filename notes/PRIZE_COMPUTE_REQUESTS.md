@@ -13949,3 +13949,28 @@ units and safe maximum
 `210292675086224485821192607404237233442773250`. The smoke capture SHA-256
 is `e7dd954638698b2fe4050ddcba35e2f17e9156ba542086d4982141dbfb209982`.
 This authorizes the preregistered full wave, but no row promotion.
+
+**Outcome:** `PASS` as an exact route decomposition, with no K'=85
+promotion. Modal app `ap-rTfQtYZuTdgjfk5IWhal5W` completed all 148 jobs in
+about 27 seconds. The capture SHA-256 is
+`5832710721306c16477523b02303fb6f45fb293f6ea53c71e26bad2a9babac13`.
+The preregistered merger accepted all 16,028,400 source units and
+112,198,800 raw rows per implementation, with exact primary/audit agreement
+on every offset profile and classification digest.
+
+There are 15,696,867 raw-safe units and 331,533 raw-unsafe units. Every
+offset `42..74` is entirely raw-safe; the residual is confined exactly to
+offsets `1..41`. The global raw-safe leader is offset 11,
+
+```text
+s2=56/s3=45/s4=58/s5=37/offset11/c6F/c7F/c8F/c9F
+```
+
+with premium
+`41412868016209776721228891386909879523306833354`, only
+`1793645398692419426975603430807602228515` below the safe ceiling. Hence
+K'=85 closes if every one of the 331,533 residual units, after its exhaustive
+carrier case and adjacent-support payment, is at most this printed leader.
+The next falsifier first removes adjacent-support pricing and asks whether
+the fixed-union caps alone already imply that domination; a counterexample
+will name the exact missing adjacent edge instead of authorizing a broad wave.
