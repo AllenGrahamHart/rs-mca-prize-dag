@@ -20,3 +20,16 @@
 `PASS` prints both exact option tables and their minimizing edge sets. A price
 above the leader is a route wall, not a counterexample to the prize theorem.
 `INCOMPLETE` changes no status. This witness calculation cannot promote K'=85.
+
+**Outcome:** `PASS`. Modal app `ap-nJpFGfIsUMBAkL2Ni6Sh2O` completed the
+exact analyzer, and the primary and independent formulas agreed on every edge
+cap and every option price. The capture SHA-256 is
+`9d64a2170614a3c0dae2aef3dd344be231410b1a1a856a38958208686688871e`.
+
+The minimizing choice is the single support-4/5 edge. It lowers the witness
+from `42141786157949900288596401924882914598461995992` to
+`38031713645027467636162531245586474415179105992`, below the exact raw-safe
+leader by `3381154371182309085066360141323405108127727362`. Choices `5`, `6`,
+and `4+6` are all weaker on this witness. This identifies an edge-4-only
+domination theorem as the next strict, falsifiable compression of the full
+adjacent atlas.
