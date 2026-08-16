@@ -13517,3 +13517,35 @@ INCOMPLETE: any timeout, missing lane, or implementation disagreement;
 ```
 
 No outcome of this pilot promotes `K'=84` or changes a DAG status.
+
+**Outcome:** `PASS` as a route-locating pilot, with no row promotion.
+Modal app `ap-Srv9CDnQL721xYGzAUZoR6` completed all ten jobs without a
+timeout at 58--62 MB peak RSS. The raw capture SHA-256 is
+`4024f6ad84c050540bfa3c32088e4768a3ca5abf798f95bc8624d054178f9ff4`.
+Primary and audit agree exactly on every maximum:
+
+```text
+ordinary:  41388798786059119503097492734939028640066114130
+           margin 44581160171407926086602515730765812413619
+offset 1:  41388509655129434578015936172698056050247199551
+           margin 333712089856333007643164756703355631328198
+offset 2:  41387937303860893532474667943101838831996305858
+           margin 906063358397378548911394352920573882221891
+offset 7:  41388695386454290912259500164616925968496091874
+           margin 147980764999998764079172837833437382435875
+offset 73:   207313827489437078117773167012308731551794440
+           margin 41181529539729853832905806170442450674326733309
+```
+
+The new leading branch is
+
+```text
+s2=74/s3=55/s4=45/s5=37/ordinary-single/
+c6d3/c7d2/c8d1/c9d0/raw-safe.
+```
+
+Thus the adjacent-support router has not failed at the first new row, but
+the maximizer changed from K'=83's offset-two/full-fallback template to an
+ordinary single-support-three template. Analyze this branch and the
+unsampled-offset domination problem symbolically before any full K'=84
+wave.
