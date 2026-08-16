@@ -1,0 +1,69 @@
+{
+  "schema": "rate-half-mca-rank11-k74-full-carrier-atlas-payment-v1",
+  "dependencies": [
+    "rate_half_mca_rank11_k73_full_carrier_atlas_payment",
+    "rate_half_mca_sparse_circuit_full_completion_pairwise_carrier_atlas",
+    "rate_half_mca_sparse_circuit_fixed_union_flat_coupled_45_charge"
+  ],
+  "replay_sources": {
+    "experiments/prize_resolution/rate_half_mca_rank11_k72_two_step_probe.py": "6991370d37e04fd6224cb4e80d62db1d68bd0ce575502a5b7058562099242a29",
+    "experiments/prize_resolution/rate_half_mca_rank11_k74_full_carrier_atlas_audit.py": "24a229d048e2fd1d38b48548f4fe29ca15a54c7a7acd374d09536c24f06c54c2",
+    "experiments/prize_resolution/rate_half_mca_rank11_next_row_lane_probe.py": "77bf8b165e2c83b3749aa5f2c6de491f5e0b3b47a2f67f84c05dc2b32eaddef2",
+    "experiments/prize_resolution/rate_half_mca_rank11_next_row_final_payment_probe.py": "251b916ca3c00fd3b68d5347a2d1f9e6cbef1568e3d61201e5126273cc9e4e3f"
+  },
+  "parameters": {
+    "kprime": 74,
+    "q": 64,
+    "m": 67546,
+    "n": 1048650,
+    "new_closed_prefix": [10, 74],
+    "next_open_row": 75
+  },
+  "plain_frontier": {
+    "evaluations": 8869588,
+    "unsafe_distinct_defect_tuples": 729,
+    "unsafe_tuple_order": "lexicographic ascending JSON with compact separators",
+    "unsafe_tuple_sha256": "e036791483f8f10702731c02172071ce6106a1587f1996439640f08122162cf4",
+    "unsafe_maximum": 43191132319524017813852351585031085471378291920,
+    "unsafe_maximum_defects": [33, 32, 33, 32],
+    "unsafe_minimum": 41149337452276037629008888313842575641529681046,
+    "unsafe_minimum_defects": [48, 35, 33, 33],
+    "safe_maximum": 41148280931947468743645570894078252803553423792,
+    "safe_maximum_label": "s2=32/s3=31/s4=32/s5=30/c6F/c7F/c8F/c9F/offset1_plain"
+  },
+  "reroute": {
+    "cells": 729,
+    "evaluations": 338149,
+    "all_safe": true,
+    "maximum": 32837046420997427924790365894433685328482435320,
+    "canonical_active_defects": [35, 34, 34, 34],
+    "canonical_active_geometry": "F23__N4_t0__N5_t0/c6F/c7F/c8F/c9F",
+    "minimum_margin": 8311385718822403572953948792153250318018275877,
+    "maximizer_unique": false
+  },
+  "geometry_lanes": [
+    {"lane": "carrier32_geom", "evaluations": 40754, "maximum": 32737987551858398914638804292001345939432339760},
+    {"lane": "one_geom", "evaluations": 16709658, "maximum": 36187398164184684606907419896584782044225756904},
+    {"lane": "two_geom", "evaluations": 13633767, "maximum": 36022974094883773822340784062405024331587925192},
+    {"lane": "three_geom", "evaluations": 17305708, "maximum": 35898510453949503409633689169595957018284620432},
+    {"lane": "four_geom", "evaluations": 21310107, "maximum": 35803689543426819807076118289326272737750701952},
+    {"lane": "five_geom", "evaluations": 25623850, "maximum": 35708842514227830853202047136229533077793593608},
+    {"lane": "six_geom", "evaluations": 30228044, "maximum": 35613969361726501710896561955069113834337551112}
+  ],
+  "geometry_total_evaluations": 124851888,
+  "row": {
+    "rank_nine_marks": 39232352304684443608649134350493456995977376953723141820401819500,
+    "kernel_capacity": 69795304575538057846438524235567213121879163097700999191680,
+    "record_floor": 274980728111260126,
+    "completion_premium": 41148280931947468743645570894078252803553423792,
+    "safe_premium_ceiling": 41148432139819831497744314686586935646500711197,
+    "premium_ceiling_margin": 151207872362754098743792508682842947287405,
+    "full_rank_capacity": 919042482834146180776471120122214068325156681376782355913293405,
+    "total_capacity": 919112278138721718834317558646449635538278560539880056912485085,
+    "required_component_incidence": 919113034125100600009028264535326941088660172640927119705163296,
+    "gap": 755986378881174710705888877305550381612101047062792678211,
+    "record_coefficient_cross": 142695658258827238718093487374548575312261319488,
+    "floor_record_raw_cross": 41579250838464609088823888251805270988665557588453597301588
+  },
+  "nonclaim": "No K'=75 or full rank-nine interval closure is claimed."
+}

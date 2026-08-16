@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_k74_full_carrier_atlas_payment",
+    "title": "Full carrier atlas closes K'=74",
+    "status": "PROVED",
+    "closure": "canonical exact-defect frontier, exhaustive pairwise carrier routing, flat-coupled support-four/five charges, sharded geometry replay, and positive integral component payment",
+    "statement": "The complete K'=74 carrier atlas has maximum completion premium 41148280931947468743645570894078252803553423792, below the exact safe ceiling, and required component incidence exceeds complete capacity by 755986378881174710705888877305550381612101047062792678211.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_k74_full_carrier_atlas_payment/statement.md",
+      "background/nodes/rate_half_mca_rank11_k74_full_carrier_atlas_payment/proof.md",
+      "background/nodes/rate_half_mca_rank11_k74_full_carrier_atlas_payment/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_k74_full_carrier_atlas_payment/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_k74_full_carrier_atlas_payment/attack.md",
+      "background/nodes/rate_half_mca_rank11_k74_full_carrier_atlas_payment/audit.md",
+      "background/nodes/rate_half_mca_rank11_k74_full_carrier_atlas_payment/result.md",
+      "background/nodes/rate_half_mca_rank11_k74_full_carrier_atlas_payment/provenance.md",
+      "background/nodes/rate_half_mca_rank11_k74_full_carrier_atlas_payment/replay.md",
+      "background/nodes/rate_half_mca_rank11_k74_full_carrier_atlas_payment/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_k74_full_carrier_atlas_payment/verify.py",
+      "background/nodes/rate_half_mca_rank11_k74_full_carrier_atlas_payment/verify_audit.py",
+      "experiments/prize_resolution/rate_half_mca_rank11_k72_two_step_probe.py",
+      "experiments/prize_resolution/rate_half_mca_rank11_k74_full_carrier_atlas_audit.py",
+      "experiments/prize_resolution/rate_half_mca_rank11_next_row_lane_probe.py",
+      "experiments/prize_resolution/rate_half_mca_rank11_next_row_final_payment_probe.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_k73_full_carrier_atlas_payment"},
+    {"from": "rate_half_mca_sparse_circuit_full_completion_pairwise_carrier_atlas"},
+    {"from": "rate_half_mca_sparse_circuit_fixed_union_flat_coupled_45_charge"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location"}
+  ],
+  "refutes": []
+}
