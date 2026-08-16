@@ -12,7 +12,7 @@
 - **base residual scanner SHA-256:**
   `cd1e9d2706c48be390387953c4abeea46958af258f132700809cf2393a5e4a90`
 - **dispatcher SHA-256:**
-  `562a7aa4b219d7f0a299d2feca68d02bb2e6943538c0ce201908bacfa6ea5b47`
+  `0f82c3311b5bae5fa69e5b7847c9dc777a0ad5e48658b4733c8a8dd26b5fd505`
 - **merger SHA-256:**
   `e5c8012cd13ca6c17395fa1be91ce45f0af66042f65d2c58186c1feff3868040`
 - **theorem code archive SHA-256:**
@@ -27,8 +27,8 @@
   five minutes and projected total cost below `$0.25`
 - **partial output:** every worker retains completed `m2` progress on timeout;
   successful wrappers store exact coverage, output hash, and peak RSS
-- **deployment gate:** a paired offset-41 smoke must agree before the full
-  82-job wave is launched
+- **deployment gate:** paired offsets 2 and 41 must agree before the repaired
+  full 82-job wave is launched
 
 `PASS` requires all 82 jobs, exact primary/audit agreement on every lane count,
 12,788,064 source units, 331,533 residual units, and no over-leader profile.
