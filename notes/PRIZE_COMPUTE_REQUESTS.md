@@ -14090,3 +14090,49 @@ adjacent atlas.
 `FALSIFIED` identifies the next adjacent edge or multi-edge obligation.
 `SURVIVED` proves only the completed offset. `INCOMPLETE` changes no status.
 No pilot outcome promotes K'=85.
+
+**Outcome:** `FALSIFIED` with independent replay. Modal app
+`ap-9vbq0eXPV4MZrebuGnSVQr` reached offset 11, `m2=13`, after 73,163 source
+units, 2,013 raw-unsafe units, and 238,306 deduplicated geometry profiles. The
+first witness is
+
+```text
+s2=62, s3=51, s4=s5=50, m4=m5=25
+case=F23__N4_t12__N5_t12
+charges=(28,7),(29,6), high=c6F/c7F/c8F/c9F
+```
+
+The raw premium is
+`41678537170179082697698056961638084480681707238`. Replacing supports 4/5
+by the edge-4 cap alone gives
+`41744966619586153218005378051509525640461543488`, still above the exact
+leader by `332098603376376496776486664599646117154710134`; the real minimizer
+would therefore reject that replacement in favor of the raw base or another
+edge choice. Primary and audit agree exactly. Capture SHA-256:
+`c3730780f2404242608fbb2f32dee46f4e7cfa4adbad9cbd7226b9eb945042fa`.
+
+Thus offsets 1, 23, and 41 are not launched. The next exact action is to print
+all support-disjoint prices on this two-charge witness and identify the
+minimal additional edge set.
+## Preregistered K'=85 two-charge witness adjacent payment
+
+- **decision:** print every support-disjoint adjacent-edge price on the exact
+  edge-4 counterexample and identify the minimal edge set in both the primary
+  and independent atlas
+- **scope:** offset 11, `m2=13`, `s4=s5=50`, case
+  `F23__N4_t12__N5_t12`, charges `(28,7),(29,6)`
+- **analyzer SHA-256:**
+  `44faccd0305d374557650c8bfc3b40f3aaa97717e46b154568cbadb3ec77bf3a`
+- **dispatcher SHA-256:**
+  `d93bfb284f268fcbda93a75558c173538e341bb5420521c7692f45cf98427529`
+- **theorem code archive SHA-256:**
+  `327c677b870233b5b43609203a45c12ca478a719da3b9391c61860d9ddbe6b49`
+- **dependency archive SHA-256:**
+  `5ee5d10a20f1e47b1e5400d10177e33bafdc83c0e9b516d6d12dfe0fad93aaf8`
+- **envelope:** one CPU, 256 MB, 20-second child wall; projected cost below
+  `$0.01`
+- **local safety:** one RAM-guarded Modal client; no local mathematical run
+
+`PASS` prints both exact option tables. A best price above the raw-safe leader
+is a current-router wall; a lower price identifies the next compressed edge
+family. `INCOMPLETE` changes no status. No outcome promotes K'=85.
