@@ -14185,3 +14185,10 @@ price is at most the exact raw-safe leader. Capture SHA-256:
 `3b2e0e353e54a4c1f20ab35a5f2775c0a956beb2db6b5c3de411e326daf24989`.
 This proves the printed finite offset-11 domination statement and authorizes
 the next preregistered lane, offset 1; it does not promote the full row.
+
+**Offset-1 outcome:** `SURVIVED` exhaustively. Modal app
+`ap-Wl6GfzOdL4g1bsp7AD8kx8` checked all 427,424 source units, all 15,702
+raw-unsafe units, and 181,450 deduplicated carrier profiles. Capture SHA-256:
+`9b34ca0dfa9b28db03f3568af47c848e8e4728912273c57ed3166565d1ceec59`.
+This proves the printed finite offset-1 domination statement and authorizes
+the preregistered offset-23 lane; the full row remains open.
