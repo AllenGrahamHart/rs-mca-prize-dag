@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Verify the compact K'=75 carrier-atlas contract."""
+"""Verify the compact K'=76 carrier-atlas contract."""
 
 from __future__ import annotations
 
@@ -9,12 +9,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[3]
 CONTRACT = Path(__file__).with_name("source_contract.json")
-EXPECTED_SHA256 = "ebab9ef2d31d53d4f826e88bd65107b8b0ea8b495285037a9ec3db94fbbf2231"
-API_PATH = (
-    ROOT
-    / "experiments/prize_resolution/"
-    "rate_half_mca_rank11_full_carrier_atlas_contract.py"
-)
+EXPECTED_SHA256 = "73e786205127e30c03437231c90b89c9192bcfa4820204a36ad97e465e5f1b1a"
+API_PATH = ROOT / "experiments/prize_resolution/rate_half_mca_rank11_full_carrier_atlas_contract.py"
 
 
 def load_module(name: str, path: Path):
@@ -25,7 +21,7 @@ def load_module(name: str, path: Path):
     return module
 
 
-API = load_module("full_carrier_atlas_contract_for_k75", API_PATH)
+API = load_module("full_carrier_atlas_contract_for_k76", API_PATH)
 
 
 if __name__ == "__main__":

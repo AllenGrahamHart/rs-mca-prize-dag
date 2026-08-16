@@ -12,7 +12,7 @@ from pathlib import Path
 HERE = Path(__file__).resolve()
 ROOT = HERE.parents[3] if len(HERE.parents) > 3 else HERE.parent
 CONTRACT = HERE.with_name("source_contract.json")
-EXPECTED_SHA256 = "ea395c52b65717b50db41ec3e60d164931350716b7fdfd964bbb10c14d879327"
+EXPECTED_SHA256 = "7800a9e860586e1d05ab283c76405c6f53f1c4dd8a84275f451f058df6132e43"
 API_NAME = "rate_half_mca_rank11_full_carrier_atlas_contract.py"
 AUDIT_NAME = "rate_half_mca_rank11_k74_full_carrier_atlas_audit.py"
 

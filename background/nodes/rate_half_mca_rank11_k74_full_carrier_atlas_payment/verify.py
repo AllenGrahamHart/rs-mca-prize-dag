@@ -9,7 +9,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[3]
 CONTRACT = Path(__file__).with_name("source_contract.json")
-EXPECTED_SHA256 = "ea395c52b65717b50db41ec3e60d164931350716b7fdfd964bbb10c14d879327"
+EXPECTED_SHA256 = "7800a9e860586e1d05ab283c76405c6f53f1c4dd8a84275f451f058df6132e43"
 API_PATH = (
     ROOT
     / "experiments/prize_resolution/"

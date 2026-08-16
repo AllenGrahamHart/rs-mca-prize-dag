@@ -77,7 +77,7 @@ def active_conservative_caps(kprime: int, label: str):
     middle = next(
         vector for a, b, vector in exact45 if (a, b) == (s4, s5)
     )
-    high_match = re.search(r"(c6[TF]/c7[TF]/c8[TF]/c9[TF])", label)
+    high_match = re.search(r"(c6[^/]+/c7[^/]+/c8[^/]+/c9[^/]+)", label)
     require(high_match is not None, "high label")
     _, high = K71.PARENT.high_group(kprime, baseline)
     right = next(
