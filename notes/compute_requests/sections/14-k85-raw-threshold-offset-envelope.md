@@ -10,7 +10,7 @@
 - **audit SHA-256:**
   `5eabcec96084e3ed32a384dc9d93ea6cf44465c6dfbbbb655f2d0220c7c3eab0`
 - **dispatcher SHA-256:**
-  `a828a43a2b676d437ae619ea0c365647e754b673e49dcef4c390d1369713708a`
+  `1ed2827bfb6abbedbf70499311af1c9a0f6061b4a5f50b6a27975d03655aa771`
 - **merger SHA-256:**
   `28d9289be8c0e741a364a72884e171154ff0186ea732b1f1cdda3990c3ea333c`
 - **theorem code archive SHA-256:**
@@ -37,3 +37,10 @@ sum_{d=1}^{74} (75-d) * 76^2
 holds. `PASS` names the exact raw-safe maximizer and a finite residual geometry
 population. `FAIL` is any disagreement or malformed coverage. `INCOMPLETE`
 retains only printed partial slices and changes no mathematical status.
+
+The first launch, Modal app `ap-fxCF0n6O4e0LYYDe0MaIPP`, was
+`INCOMPLETE`: Modal relocated the dispatcher module to `/root`, exposing an
+invalid local-only `parents[2]` path during container import. No mathematical
+job started and no output was retained. The repaired dispatcher uses
+module-relative mounted paths in both environments; all mathematical sources
+and the merger are unchanged.

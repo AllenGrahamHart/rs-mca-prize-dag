@@ -10,9 +10,9 @@ from pathlib import Path
 import modal
 
 
-ROOT = Path(__file__).resolve().parents[2]
-PRIMARY = ROOT / "experiments/prize_resolution/rate_half_mca_rank11_k85_raw_threshold_offset_probe.py"
-AUDIT = ROOT / "experiments/prize_resolution/rate_half_mca_rank11_k85_raw_threshold_offset_audit.py"
+DIRECTORY = Path(__file__).resolve().parent
+PRIMARY = DIRECTORY / "rate_half_mca_rank11_k85_raw_threshold_offset_probe.py"
+AUDIT = DIRECTORY / "rate_half_mca_rank11_k85_raw_threshold_offset_audit.py"
 CODE = Path("/tmp/k83-threshold-frontier-adjacent-code.tar.gz")
 DEPS = Path("/tmp/k72-deps.tar.gz")
 for path in (PRIMARY, AUDIT, CODE, DEPS):
@@ -24,10 +24,10 @@ app = modal.App("rate-half-mca-rank11-k85-raw-threshold-wave")
 image = (
     modal.Image.debian_slim(python_version="3.12")
     .apt_install("time")
-    .add_local_file(PRIMARY, "/root/primary.py")
-    .add_local_file(AUDIT, "/root/audit.py")
-    .add_local_file(CODE, "/root/code.tar.gz")
-    .add_local_file(DEPS, "/root/deps.tar.gz")
+    .add_local_file(PRIMARY, f"/root/{PRIMARY.name}")
+    .add_local_file(AUDIT, f"/root/{AUDIT.name}")
+    .add_local_file(CODE, str(CODE))
+    .add_local_file(DEPS, str(DEPS))
 )
 
 
@@ -40,7 +40,7 @@ def peak_mb(stderr: str) -> int:
 
 @app.function(image=image, cpu=1, memory=256, timeout=180)
 def run_job(implementation: str, offset: int) -> dict[str, object]:
-    script = "/root/primary.py" if implementation == "primary" else "/root/audit.py"
+    script = str(PRIMARY if implementation == "primary" else AUDIT)
     try:
         completed = subprocess.run(
             ["/usr/bin/time", "-v", "python3", script, str(offset)],
