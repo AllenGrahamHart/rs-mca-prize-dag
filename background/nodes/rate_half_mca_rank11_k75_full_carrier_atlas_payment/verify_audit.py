@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Remote full-frontier audit for the compact K'=74 contract."""
+"""Remote full-frontier audit for the compact K'=75 contract."""
 
 from __future__ import annotations
 
@@ -12,7 +12,7 @@ from pathlib import Path
 HERE = Path(__file__).resolve()
 ROOT = HERE.parents[3] if len(HERE.parents) > 3 else HERE.parent
 CONTRACT = HERE.with_name("source_contract.json")
-EXPECTED_SHA256 = "ea395c52b65717b50db41ec3e60d164931350716b7fdfd964bbb10c14d879327"
+EXPECTED_SHA256 = "29df376bdc1895d98373ba0e48ead01605ed82677dbe315947b0f3a2ccbc304b"
 API_NAME = "rate_half_mca_rank11_full_carrier_atlas_contract.py"
 AUDIT_NAME = "rate_half_mca_rank11_k74_full_carrier_atlas_audit.py"
 
@@ -30,15 +30,15 @@ def locate(name: str) -> Path:
     return repository_path if repository_path.exists() else HERE.with_name(name)
 
 
-API = load_module("full_carrier_atlas_contract_audit_for_k74", locate(API_NAME))
+API = load_module("full_carrier_atlas_contract_audit_for_k75", locate(API_NAME))
 
 
 def main() -> int:
     raw = CONTRACT.read_bytes()
     API.require(hashlib.sha256(raw).hexdigest() == EXPECTED_SHA256, "contract hash")
     data = json.loads(raw)
-    audit_module = load_module("full_carrier_atlas_frontier_for_k74", locate(AUDIT_NAME))
-    result = API.compare_full_audit(data, audit_module.audit(74))
+    audit_module = load_module("full_carrier_atlas_frontier_for_k75", locate(AUDIT_NAME))
+    result = API.compare_full_audit(data, audit_module.audit(75))
     result["contract_sha256"] = EXPECTED_SHA256
     print(json.dumps(result, sort_keys=True))
     return 0

@@ -1,20 +1,15 @@
 #!/usr/bin/env python3
-"""Reconstruct the compact K'=74 carrier-atlas frontier and payment."""
+"""Reconstruct a compact adjacent-row carrier-atlas frontier and payment."""
 
 from __future__ import annotations
 
+import argparse
 import hashlib
 import importlib.util
 import json
 import re
 from math import comb
 from pathlib import Path
-
-
-KPRIME = 74
-Q = KPRIME - 10
-M = 67472 + KPRIME
-N = 1048576 + KPRIME
 
 
 def load_module(name: str, path: Path):
@@ -37,7 +32,11 @@ def tuple_digest(rows: list[tuple[int, int, int, int]]) -> str:
     return hashlib.sha256(payload).hexdigest()
 
 
-def audit() -> dict[str, object]:
+def audit(kprime: int = 74) -> dict[str, object]:
+    KPRIME = kprime
+    Q = KPRIME - 10
+    M = 67472 + KPRIME
+    N = 1048576 + KPRIME
     probe = load_module(
         "carrier_atlas_for_k74_audit",
         Path(__file__).with_name(
@@ -211,4 +210,7 @@ def audit() -> dict[str, object]:
 
 
 if __name__ == "__main__":
-    print(json.dumps(audit(), indent=2))
+    parser = argparse.ArgumentParser()
+    parser.add_argument("kprime", nargs="?", type=int, default=74)
+    args = parser.parse_args()
+    print(json.dumps(audit(args.kprime), indent=2))
