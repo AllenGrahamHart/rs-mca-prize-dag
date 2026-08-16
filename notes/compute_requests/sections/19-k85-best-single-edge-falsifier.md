@@ -27,3 +27,11 @@
 `FALSIFIED` demonstrates that a disjoint multi-edge choice is genuinely
 needed. `SURVIVED` proves only the completed offset. `INCOMPLETE` changes no
 status. No pilot outcome promotes K'=85.
+
+**Offset-11 outcome:** `SURVIVED` exhaustively. Modal app
+`ap-x4S2u8ZAef1I0q9N7AK45d` checked all 369,664 source units, all 12,281
+raw-unsafe units, and 936,749 deduplicated carrier profiles. Every best-single
+price is at most the exact raw-safe leader. Capture SHA-256:
+`3b2e0e353e54a4c1f20ab35a5f2775c0a956beb2db6b5c3de411e326daf24989`.
+This proves the printed finite offset-11 domination statement and authorizes
+the next preregistered lane, offset 1; it does not promote the full row.
