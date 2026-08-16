@@ -13734,3 +13734,37 @@ INCOMPLETE: retain no row-closure conclusion
 
 Unlike a near-active-only audit, this full replay can satisfy the existing
 K'=83 node's audit bar for the new row and is therefore closure-directed.
+
+**Outcome:** `PASS`. App `ap-CE1YUXVUmNXrwze1lDP6Wn` completed all 74
+independent lanes at 59--62 MB peak RSS; the raw capture SHA-256 is
+`11420a74fbebe5f63d717e633c9914c9089c3fb92546051e267c03b60ee1a850`.
+For every lane, primary and audit agree exactly on source units, raw rows,
+raw-safe units, expanded units, maximum, margin, and active branch after
+normalizing the terminal label `raw-safe`/`raw`. The audit evaluated
+520,900,317 labelled geometry rows, at least the primary's 268,721,026.
+Both implementations therefore return the same ordinary global maximum and
+the same positive margin printed above.
+
+This completes the empirical frontier replay required for K'=84. Promotion
+still requires a compact merger certificate, exact positive component-gap
+arithmetic, a source-hash contract, independent static verification, and
+the ordinary DAG gates.
+
+## Preregistered K'=84 compact merger
+
+- **decision:** accept the two full captures only if all 148 jobs are
+  present, successful, memory-bounded, and lane-wise identical on the
+  independently implemented coverage/frontier keys
+- **script SHA-256:**
+  `11ef8d98a1cc07db73f4f6e6a17ebb975210a475cf08a8eaa525c4a5ea2a415a`
+- **primary capture SHA-256:**
+  `884e7bc9ee9c78b49e1324bb3c11ca0ca3d6044114f2bc88dd4cee196b2c916a`
+- **audit capture SHA-256:**
+  `11420a74fbebe5f63d717e633c9914c9089c3fb92546051e267c03b60ee1a850`
+- **envelope:** one remote parser job; expected peak below 128 MB and cost
+  below `$0.01`
+
+The merger additionally asserts the exact ordinary maximizer and margin,
+the offset source-unit formula `(74-offset)*5625`, the broader audit
+geometry count, and normalized primary/audit branch-label equality. A
+failure blocks node creation.
