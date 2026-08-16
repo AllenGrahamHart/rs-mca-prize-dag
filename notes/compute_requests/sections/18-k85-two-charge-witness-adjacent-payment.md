@@ -20,3 +20,15 @@
 `PASS` prints both exact option tables. A best price above the raw-safe leader
 is a current-router wall; a lower price identifies the next compressed edge
 family. `INCOMPLETE` changes no status. No outcome promotes K'=85.
+
+**Outcome:** `PASS`. Modal app `ap-mnimiGFuHSPQ7gNIcB3gMN` completed the
+exact option table; primary and independent values agree entry by entry. The
+capture SHA-256 is
+`d1ba20be24f8f86e8da708613f89f899341a4c3f34ee3eca515ce0c4a5ba0b1a`.
+
+The minimizing choice is the single support-6/7 edge, with price
+`36771696071065385390668923925145098778166086838`, below the exact raw-safe
+leader by `4641171945144391330559967461764780745140746516`. The disjoint
+choice `4+6` is slightly weaker, while edges 4 and 5 alone do not identify the
+minimum. This motivates a best-single-edge domination falsifier before any
+full support-disjoint replay.

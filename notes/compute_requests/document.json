@@ -20,6 +20,7 @@
     "notes/compute_requests/sections/15-k85-fixed-union-domination-falsifier.md",
     "notes/compute_requests/sections/16-k85-t23-witness-adjacent-payment.md",
     "notes/compute_requests/sections/17-k85-edge4-domination-falsifier.md",
-    "notes/compute_requests/sections/18-k85-two-charge-witness-adjacent-payment.md"
+    "notes/compute_requests/sections/18-k85-two-charge-witness-adjacent-payment.md",
+    "notes/compute_requests/sections/19-k85-best-single-edge-falsifier.md"
   ]
 }
