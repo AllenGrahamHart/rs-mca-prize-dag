@@ -89,11 +89,12 @@ def run_job(implementation: str, offset: int) -> dict[str, object]:
 
 
 @app.local_entrypoint()
-def main() -> None:
+def main(smoke: bool = False) -> None:
+    offsets = (41,) if smoke else range(1, 42)
     jobs = [
         (implementation, offset)
         for implementation in ("primary", "audit")
-        for offset in range(1, 42)
+        for offset in offsets
     ]
     completed = infrastructure_failures = 0
     for row in run_job.starmap(jobs, order_outputs=False):

@@ -14222,7 +14222,7 @@ raw-unsafe offset `1..41`; it does not itself prove the omitted lanes.
 - **base residual scanner SHA-256:**
   `b8899f40cec67c03924cb1944341b76010a574212f0889387ccdd3f14cd74440`
 - **dispatcher SHA-256:**
-  `7741ffb8c9d3a74dd0d93c04abdee3470a32c0b0c8881021e7e3e18ae90fa2e3`
+  `562a7aa4b219d7f0a299d2feca68d02bb2e6943538c0ce201908bacfa6ea5b47`
 - **merger SHA-256:**
   `e5c8012cd13ca6c17395fa1be91ce45f0af66042f65d2c58186c1feff3868040`
 - **theorem code archive SHA-256:**
@@ -14237,6 +14237,8 @@ raw-unsafe offset `1..41`; it does not itself prove the omitted lanes.
   five minutes and projected total cost below `$0.25`
 - **partial output:** every worker retains completed `m2` progress on timeout;
   successful wrappers store exact coverage, output hash, and peak RSS
+- **deployment gate:** a paired offset-41 smoke must agree before the full
+  82-job wave is launched
 
 `PASS` requires all 82 jobs, exact primary/audit agreement on every lane count,
 12,788,064 source units, 331,533 residual units, and no over-leader profile.
