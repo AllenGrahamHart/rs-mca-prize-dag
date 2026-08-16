@@ -13694,3 +13694,43 @@ PASS:       all 74 lanes complete and are safe; retain the exact maximum and
 FAIL:       retain each exact unsafe lane as an analytic obstruction
 INCOMPLETE: any timeout or missing lane; retain partial route information
 ```
+
+**Outcome:** `PASS` as a complete primary route-location wave. App
+`ap-1oAXY3d5xqakObFjYF0Ck6` completed all 74 lanes at 58--62 MB peak RSS;
+the raw capture SHA-256 is
+`884e7bc9ee9c78b49e1324bb3c11ca0ca3d6044114f2bc88dd4cee196b2c916a`.
+The wave evaluated 15,651,063 source units, 109,557,441 raw rows, and
+268,721,026 geometry rows. The exact global primary maximum is
+
+```text
+ordinary:
+s2=74/s3=55/s4=45/s5=37/ordinary-single/
+c6d3/c7d2/c8d1/c9d0/raw-safe
+premium 41388798786059119503097492734939028640066114130
+margin     44581160171407926086602515730765812413619
+```
+
+The two nearest offset lanes are offset 15, with margin
+`53789790696241039676955645542199668046166`, and offset 23, with margin
+`55884925238948819300051499174416861077550`. Every lane is safe, but this
+primary-only result does not promote K'=84.
+
+## Authorized K'=84 independent completion wave
+
+- **decision:** independently replay the same complete 74-lane partition
+  and test exact agreement of coverage keys, maxima, and margins
+- **audit wrapper SHA-256:**
+  `a9a323316bcbef966ad97ca3e24f66220aa41baf8d5115e7ca3f3205e3e37249`
+- **archives and batch runner:** unchanged from the primary wave above
+- **envelope:** 74 remote containers, one CPU and 1 GB each, 645-second
+  child wall; projected aggregate cost below `$1`
+
+```text
+PASS:       all audit lanes complete, are safe, and agree exactly with the
+            primary coverage and frontier; mint and verify a K'=84 node
+FAIL:       retain every disagreement or unsafe lane; do not promote
+INCOMPLETE: retain no row-closure conclusion
+```
+
+Unlike a near-active-only audit, this full replay can satisfy the existing
+K'=83 node's audit bar for the new row and is therefore closure-directed.
