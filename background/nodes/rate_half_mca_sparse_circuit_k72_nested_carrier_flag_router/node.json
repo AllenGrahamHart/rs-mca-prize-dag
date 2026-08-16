@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_sparse_circuit_k72_nested_carrier_flag_router",
+    "title": "K'=72 nested-carrier flag router",
+    "status": "PROVED",
+    "closure": "maximal-overlap active carrier cell split into an impossible nesting, paid six-dimensional unions, and exact 33/36 or 37-point survivor flags",
+    "statement": "At the K'=72 active maxima (28,30,31,31), maximal support-three inclusion in the support-four and support-five carriers yields residual sizes two and three. Two-point residual overlap is impossible; one-point and zero-point overlap route to exact nested or transverse fixed-union flags.",
+    "refs": [
+      "background/nodes/rate_half_mca_sparse_circuit_k72_nested_carrier_flag_router/statement.md",
+      "background/nodes/rate_half_mca_sparse_circuit_k72_nested_carrier_flag_router/proof.md",
+      "background/nodes/rate_half_mca_sparse_circuit_k72_nested_carrier_flag_router/claim_contract.md",
+      "background/nodes/rate_half_mca_sparse_circuit_k72_nested_carrier_flag_router/dependency_subdag.md",
+      "background/nodes/rate_half_mca_sparse_circuit_k72_nested_carrier_flag_router/attack.md",
+      "background/nodes/rate_half_mca_sparse_circuit_k72_nested_carrier_flag_router/audit.md",
+      "background/nodes/rate_half_mca_sparse_circuit_k72_nested_carrier_flag_router/result.md",
+      "background/nodes/rate_half_mca_sparse_circuit_k72_nested_carrier_flag_router/provenance.md",
+      "background/nodes/rate_half_mca_sparse_circuit_k72_nested_carrier_flag_router/source_contract.json",
+      "background/nodes/rate_half_mca_sparse_circuit_k72_nested_carrier_flag_router/verify.py",
+      "background/nodes/rate_half_mca_sparse_circuit_k72_nested_carrier_flag_router/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_k71_carrier_trichotomy_payment"},
+    {"from": "rate_half_mca_sparse_circuit_multicarrier_collision_charge"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_mca_rank11_k72_carrier_flag_split_section_census"},
+    {"to": "rate_half_band_crossing_location"}
+  ],
+  "refutes": []
+}

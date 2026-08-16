@@ -1,0 +1,32 @@
+{
+  "schema": "rate-half-mca-sparse-circuit-k72-nested-carrier-flag-router-v1",
+  "dependencies": [
+    "rate_half_mca_rank11_k71_carrier_trichotomy_payment",
+    "rate_half_mca_sparse_circuit_multicarrier_collision_charge"
+  ],
+  "parameters": {
+    "Kprime": 72,
+    "q": 62,
+    "m": 67544,
+    "maxima": {"2": 28, "3": 30, "4": 31, "5": 31},
+    "carrier_sizes": {"2": 29, "3": 32, "4": 34, "5": 35},
+    "premium_ceiling": 41100317939998934447573065780978817075733675000,
+    "active_caps": [
+      75914134508335899709894798966093890652808080,
+      244053066090492313450064227236486900662170200,
+      504548143592130314588511908104941831388621920,
+      706691758745348881775614811130828421379743420,
+      709014605156721508718484455384231706070672416,
+      506454724977873231111801170170441650224086320,
+      261393362018968337257639788063127069403580480,
+      92573629519330911905901880122906340406215850
+    ],
+    "cases": {
+      "overlap_two": {"status": "impossible", "union": 35},
+      "overlap_one_nested": {"union": 36, "dimension": 6, "premium": 40927662487098478497276587341527804463077554090},
+      "overlap_one_flag": {"outer_union": 33, "outer_dimension": 8, "inner_union": 36, "inner_dimension": 5, "premium": 41743241133084344805522492621560286981915950630},
+      "overlap_zero_transverse": {"union": 37, "dimension": 5, "premium": 41156461312059303906100655168764864206890896610},
+      "overlap_zero_nested": {"union": 37, "dimension": 6, "premium": 39812304798798306701090233419508429761518115230}
+    }
+  }
+}

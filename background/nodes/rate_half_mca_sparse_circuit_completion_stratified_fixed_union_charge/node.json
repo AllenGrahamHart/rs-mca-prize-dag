@@ -1,0 +1,31 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_sparse_circuit_completion_stratified_fixed_union_charge",
+    "title": "Completion-stratified fixed-union collision charge",
+    "status": "PROVED",
+    "closure": "exact inside/outside deletion stratification with global completion fallback and optional parallel-class refinement",
+    "statement": "A fixed g-dimensional vanishing space on u points bounds stratum-j outside completions by min(M_d,K-g-u) whenever j<=g, and by the global maximum M_d otherwise; exact deletion double counting gives a support and selected-incidence cap.",
+    "refs": [
+      "background/nodes/rate_half_mca_sparse_circuit_completion_stratified_fixed_union_charge/statement.md",
+      "background/nodes/rate_half_mca_sparse_circuit_completion_stratified_fixed_union_charge/proof.md",
+      "background/nodes/rate_half_mca_sparse_circuit_completion_stratified_fixed_union_charge/claim_contract.md",
+      "background/nodes/rate_half_mca_sparse_circuit_completion_stratified_fixed_union_charge/dependency_subdag.md",
+      "background/nodes/rate_half_mca_sparse_circuit_completion_stratified_fixed_union_charge/attack.md",
+      "background/nodes/rate_half_mca_sparse_circuit_completion_stratified_fixed_union_charge/audit.md",
+      "background/nodes/rate_half_mca_sparse_circuit_completion_stratified_fixed_union_charge/result.md",
+      "background/nodes/rate_half_mca_sparse_circuit_completion_stratified_fixed_union_charge/provenance.md",
+      "background/nodes/rate_half_mca_sparse_circuit_completion_stratified_fixed_union_charge/source_contract.json",
+      "background/nodes/rate_half_mca_sparse_circuit_completion_stratified_fixed_union_charge/verify.py",
+      "background/nodes/rate_half_mca_sparse_circuit_completion_stratified_fixed_union_charge/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_sparse_circuit_multicarrier_collision_charge"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_mca_rank11_k72_carrier_flag_split_section_census"}
+  ],
+  "refutes": []
+}

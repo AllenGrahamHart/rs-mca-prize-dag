@@ -40645,6 +40645,23 @@
    ]
   },
   {
+   "id": "rate_half_mca_rank11_k72_carrier_flag_split_section_census",
+   "title": "K'=72 carrier-flag split-section census",
+   "status": "TARGET",
+   "statement": "For the exact nested flag (33,8)<(36,5) with M4=M5=31, prove the printed weighted support-four/support-five selected-incidence cap. Equality strata are degree-34 split pencils and degree-35 split sections in a five-dimensional residual polynomial space.",
+   "attack_surface": "Falsify at small representable flags; otherwise adapt rich-flat transversality, split-pencil core classification, exchange compression, or a weighted joint census.",
+   "falsifier": "An admissible flag whose deduplicated minimal-circuit selected incidence exceeds the printed weighted cap.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_k72_carrier_flag_split_section_census/statement.md",
+    "background/nodes/rate_half_mca_rank11_k72_carrier_flag_split_section_census/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_k72_carrier_flag_split_section_census/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_k72_carrier_flag_split_section_census/attack.md",
+    "background/nodes/rate_half_mca_rank11_k72_carrier_flag_split_section_census/audit.md",
+    "background/nodes/rate_half_mca_rank11_k72_carrier_flag_split_section_census/result.md",
+    "background/nodes/rate_half_mca_rank11_k72_carrier_flag_split_section_census/provenance.md"
+   ]
+  },
+  {
    "id": "rate_half_mca_rank11_kernel_canonical_basis_globalizer",
    "title": "Canonical rank bases globalize every fixed kernel chart",
    "status": "PROVED",
@@ -41734,6 +41751,26 @@
    ]
   },
   {
+   "id": "rate_half_mca_sparse_circuit_completion_stratified_fixed_union_charge",
+   "title": "Completion-stratified fixed-union collision charge",
+   "status": "PROVED",
+   "closure": "exact inside/outside deletion stratification with global completion fallback and optional parallel-class refinement",
+   "statement": "A fixed g-dimensional vanishing space on u points bounds stratum-j outside completions by min(M_d,K-g-u) whenever j<=g, and by the global maximum M_d otherwise; exact deletion double counting gives a support and selected-incidence cap.",
+   "refs": [
+    "background/nodes/rate_half_mca_sparse_circuit_completion_stratified_fixed_union_charge/statement.md",
+    "background/nodes/rate_half_mca_sparse_circuit_completion_stratified_fixed_union_charge/proof.md",
+    "background/nodes/rate_half_mca_sparse_circuit_completion_stratified_fixed_union_charge/claim_contract.md",
+    "background/nodes/rate_half_mca_sparse_circuit_completion_stratified_fixed_union_charge/dependency_subdag.md",
+    "background/nodes/rate_half_mca_sparse_circuit_completion_stratified_fixed_union_charge/attack.md",
+    "background/nodes/rate_half_mca_sparse_circuit_completion_stratified_fixed_union_charge/audit.md",
+    "background/nodes/rate_half_mca_sparse_circuit_completion_stratified_fixed_union_charge/result.md",
+    "background/nodes/rate_half_mca_sparse_circuit_completion_stratified_fixed_union_charge/provenance.md",
+    "background/nodes/rate_half_mca_sparse_circuit_completion_stratified_fixed_union_charge/source_contract.json",
+    "background/nodes/rate_half_mca_sparse_circuit_completion_stratified_fixed_union_charge/verify.py",
+    "background/nodes/rate_half_mca_sparse_circuit_completion_stratified_fixed_union_charge/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_mca_sparse_circuit_cross_support_collision_charge",
    "title": "Small-source cross-support collision charge",
    "status": "PROVED",
@@ -41807,6 +41844,26 @@
     "background/nodes/rate_half_mca_sparse_circuit_k71_carrier_position_trichotomy/source_contract.json",
     "background/nodes/rate_half_mca_sparse_circuit_k71_carrier_position_trichotomy/verify.py",
     "background/nodes/rate_half_mca_sparse_circuit_k71_carrier_position_trichotomy/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_mca_sparse_circuit_k72_nested_carrier_flag_router",
+   "title": "K'=72 nested-carrier flag router",
+   "status": "PROVED",
+   "closure": "maximal-overlap active carrier cell split into an impossible nesting, paid six-dimensional unions, and exact 33/36 or 37-point survivor flags",
+   "statement": "At the K'=72 active maxima (28,30,31,31), maximal support-three inclusion in the support-four and support-five carriers yields residual sizes two and three. Two-point residual overlap is impossible; one-point and zero-point overlap route to exact nested or transverse fixed-union flags.",
+   "refs": [
+    "background/nodes/rate_half_mca_sparse_circuit_k72_nested_carrier_flag_router/statement.md",
+    "background/nodes/rate_half_mca_sparse_circuit_k72_nested_carrier_flag_router/proof.md",
+    "background/nodes/rate_half_mca_sparse_circuit_k72_nested_carrier_flag_router/claim_contract.md",
+    "background/nodes/rate_half_mca_sparse_circuit_k72_nested_carrier_flag_router/dependency_subdag.md",
+    "background/nodes/rate_half_mca_sparse_circuit_k72_nested_carrier_flag_router/attack.md",
+    "background/nodes/rate_half_mca_sparse_circuit_k72_nested_carrier_flag_router/audit.md",
+    "background/nodes/rate_half_mca_sparse_circuit_k72_nested_carrier_flag_router/result.md",
+    "background/nodes/rate_half_mca_sparse_circuit_k72_nested_carrier_flag_router/provenance.md",
+    "background/nodes/rate_half_mca_sparse_circuit_k72_nested_carrier_flag_router/source_contract.json",
+    "background/nodes/rate_half_mca_sparse_circuit_k72_nested_carrier_flag_router/verify.py",
+    "background/nodes/rate_half_mca_sparse_circuit_k72_nested_carrier_flag_router/verify_audit.py"
    ]
   },
   {
@@ -78985,6 +79042,16 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_mca_rank11_k71_carrier_trichotomy_payment",
+   "to": "rate_half_mca_sparse_circuit_k72_nested_carrier_flag_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_k72_carrier_flag_split_section_census",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_mca_rank11_kernel_canonical_basis_globalizer",
    "to": "rate_half_mca_rank11_kernel_corank1_projective_pair_cap",
    "kind": "req"
@@ -79800,6 +79867,11 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_mca_sparse_circuit_completion_stratified_fixed_union_charge",
+   "to": "rate_half_mca_rank11_k72_carrier_flag_split_section_census",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_mca_sparse_circuit_cross_support_collision_charge",
    "to": "rate_half_mca_rank11_k60_k70_cross_support_collision_payment",
    "kind": "ev"
@@ -79875,8 +79947,23 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_mca_sparse_circuit_k72_nested_carrier_flag_router",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_sparse_circuit_k72_nested_carrier_flag_router",
+   "to": "rate_half_mca_rank11_k72_carrier_flag_split_section_census",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_mca_sparse_circuit_multicarrier_collision_charge",
    "to": "rate_half_mca_rank11_k71_carrier_trichotomy_payment",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_sparse_circuit_multicarrier_collision_charge",
+   "to": "rate_half_mca_sparse_circuit_completion_stratified_fixed_union_charge",
    "kind": "req"
   },
   {
@@ -79887,6 +79974,11 @@
   {
    "from": "rate_half_mca_sparse_circuit_multicarrier_collision_charge",
    "to": "rate_half_mca_sparse_circuit_k71_carrier_position_trichotomy",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_sparse_circuit_multicarrier_collision_charge",
+   "to": "rate_half_mca_sparse_circuit_k72_nested_carrier_flag_router",
    "kind": "req"
   },
   {

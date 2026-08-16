@@ -1,0 +1,26 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_k72_carrier_flag_split_section_census",
+    "title": "K'=72 carrier-flag split-section census",
+    "status": "TARGET",
+    "statement": "For the exact nested flag (33,8)<(36,5) with M4=M5=31, prove the printed weighted support-four/support-five selected-incidence cap. Equality strata are degree-34 split pencils and degree-35 split sections in a five-dimensional residual polynomial space.",
+    "attack_surface": "Falsify at small representable flags; otherwise adapt rich-flat transversality, split-pencil core classification, exchange compression, or a weighted joint census.",
+    "falsifier": "An admissible flag whose deduplicated minimal-circuit selected incidence exceeds the printed weighted cap.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_k72_carrier_flag_split_section_census/statement.md",
+      "background/nodes/rate_half_mca_rank11_k72_carrier_flag_split_section_census/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_k72_carrier_flag_split_section_census/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_k72_carrier_flag_split_section_census/attack.md",
+      "background/nodes/rate_half_mca_rank11_k72_carrier_flag_split_section_census/audit.md",
+      "background/nodes/rate_half_mca_rank11_k72_carrier_flag_split_section_census/result.md",
+      "background/nodes/rate_half_mca_rank11_k72_carrier_flag_split_section_census/provenance.md"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location"}
+  ],
+  "refutes": []
+}
