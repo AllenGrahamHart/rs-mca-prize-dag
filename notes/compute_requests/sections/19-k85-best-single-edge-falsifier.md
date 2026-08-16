@@ -42,3 +42,11 @@ raw-unsafe units, and 181,450 deduplicated carrier profiles. Capture SHA-256:
 `9b34ca0dfa9b28db03f3568af47c848e8e4728912273c57ed3166565d1ceec59`.
 This proves the printed finite offset-1 domination statement and authorizes
 the preregistered offset-23 lane; the full row remains open.
+
+**Offset-23 outcome:** `SURVIVED` exhaustively. Modal app
+`ap-ybr2br69sCjzR8D3bGRARc` checked all 300,352 source units, all 7,598
+raw-unsafe units, and 2,018,406 deduplicated carrier profiles. Capture
+SHA-256:
+`539350d9dff7c463386adc9a571d3151e605b7711315c5ea293ab2e37003c3bb`.
+This proves the printed finite offset-23 domination statement and authorizes
+offset 41, the last lane containing any raw-unsafe unit.
