@@ -13549,3 +13549,27 @@ the maximizer changed from K'=83's offset-two/full-fallback template to an
 ordinary single-support-three template. Analyze this branch and the
 unsampled-offset domination problem symbolically before any full K'=84
 wave.
+
+## Preregistered one-sided raw-template scan
+
+- **decision:** determine whether the new ordinary one-sided support-2/3
+  envelope has a short stable family of active defect templates, and
+  whether its exact ceiling margin crosses near the K'=84 frontier
+- **interval:** every integer `K'=83..128`
+- **script SHA-256:**
+  `7946d6aa8174768494322aaae67b2472f351dd42fc2d9e82d07c698a23de84f1`
+- **scope:** exact raw maximum over both one-sided branches, all
+  support-4/5 Pareto vectors, and all support-6/9 Pareto vectors
+- **envelope:** one remote CPU, 1 GB, 645-second wall; projected cost below
+  `$0.02`
+
+```text
+CROSS:      report the first negative margin as the next raw analytic wall
+STABLE:     extract the finitely many active affine defect templates and
+            prove their binomial/floor margins on maximal intervals
+PROLIFERATE: stop the scan route if active templates do not compress;
+             do not replace proof by longer row enumeration
+INCOMPLETE: retain no conclusion after timeout or malformed output
+```
+
+This scan ignores geometry-required cells and cannot close any row.
