@@ -6629,3 +6629,13 @@ COORDINATOR**: consolidated #1161 comment (issuecomment-5303681282) at
 public head 8c3a30f9a — 31-node Shape-A cluster, tensor-rank-2
 exclusion + all-rank birationality headlined; blocking directive
 LIFTED. Chain: 2537/7553, all PASS, census UNCHANGED 231(167/37/27).
+
+## WAVE 67 INTEGRATED (2026-08-15 night, coordinator)
+
+**MERGED exact pin 90178b01d (cycles 363-365, +7 nodes, census-neutral;
+14/14 replayed; markers clean).** The K'=54 balanced deep joint wall
+fell the evening it was named: K'=54..59 (small-support collisions),
+K'=60..70 (cross-support collisions), K'=71 (carrier trichotomy).
+CLOSED PREFIX K'=10..71; remaining rank-nine 72..15528; next =
+classify the M3=M2+2 carrier position at K'=72. Exports to #1170
+continuous. Chain: 2544/7574, all PASS, census UNCHANGED.
