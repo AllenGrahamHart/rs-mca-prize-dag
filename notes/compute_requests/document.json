@@ -16,6 +16,7 @@
     "notes/compute_requests/sections/11-k83-adjacent-support-payment.md",
     "notes/compute_requests/sections/12-k84-adjacent-support-route-pilot.md",
     "notes/compute_requests/sections/13-k85-adjacent-support-route-pilot.md",
-    "notes/compute_requests/sections/14-k85-raw-threshold-offset-envelope.md"
+    "notes/compute_requests/sections/14-k85-raw-threshold-offset-envelope.md",
+    "notes/compute_requests/sections/15-k85-fixed-union-domination-falsifier.md"
   ]
 }
