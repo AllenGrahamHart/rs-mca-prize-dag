@@ -1,0 +1,29 @@
+{
+  "app": "rs-mca-positive-433-1b-o0b-fff-r76-r0-block-pilot",
+  "collection_complete": true,
+  "field": 2130706433,
+  "row": {
+    "block_index": 0,
+    "block_size": 128,
+    "graph_basis_sha256": "7f59b5557597f429a3a56914cd5aad5c988902af6d88a3ef01580aaacbdd5d9e",
+    "graph_basis_size": 48,
+    "input_term_count": 128,
+    "partial_stderr": "",
+    "partial_stdout": "INPUT_TERMS=128\nRAW_DEG=128,RAW_SIZE=1232\n",
+    "product_multiplier": 1,
+    "program_sha256": "6cecc2164f63001457929bf0cde0be287381a482d89ed124b1725484fca73f60",
+    "relation": "exact R76[0] block-square pilot",
+    "source_family": "M0",
+    "source_index": 0,
+    "source_polynomial_sha256": "4dc6a43d99611455c3ffadf53c2f2489f0e252371c280c138377ecc2b0a44839",
+    "source_term_count": 1152,
+    "status": "TIMEOUT",
+    "target_coefficient": 0,
+    "term_end": 128,
+    "term_start": 0
+  },
+  "schema": "rate-half-kb-positive-433-1b-o0b-fff-r76-r0-block-pilot-v1",
+  "source_brackets_sha256": "08dc7fefd108d4b8d17a1c7a5345f37312b65b9a74389cf7e7dfc94827b0446f",
+  "source_graph_sha256": "5a2ecd10e0be462a9a695d0a880227cd995de5952f999fc93ec17282b9fe94c1",
+  "source_program_sha256": "e42f2fb807ac8d3813cc6670ea249daefc310965f0cb86d6d57dc0943deb1f7c"
+}

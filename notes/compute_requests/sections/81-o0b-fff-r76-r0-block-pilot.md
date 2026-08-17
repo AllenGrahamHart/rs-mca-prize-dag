@@ -38,4 +38,13 @@ tools/ramguard modal -- timeout --signal=TERM --kill-after=15s 150s \
   experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_fff_r76_r0_block_pilot_modal.py
 ```
 
-**Outcome:** preregistered; not yet run.
+**Outcome:** `INCOMPLETE_TIMEOUT`. Modal app
+`ap-At0hOIj97ZuTPfosolIzNn` expanded the 128-term block square to degree
+128 with 1,232 terms, then timed out reducing it. Result SHA-256:
+`de86481d0a26482f125eb81533f1313996603b2c92453d9ae2f2e4aa55e061d6`.
+The checker accepts the timeout and rejects all three applicable hostile
+mutations. The bottleneck is high-degree reduction, not raw term count.
+Smaller term blocks would create hundreds of shards without addressing the
+one-dimensional coefficient geometry, so term-block multiplication is
+retired. The next architecture passes to the generic zero-dimensional fiber
+over `F_p(t)` and records every denominator as an exceptional finite leaf.
