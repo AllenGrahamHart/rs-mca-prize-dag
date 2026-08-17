@@ -1,0 +1,38 @@
+{
+  "app": "rs-mca-positive-433-1b-o0b-fff-generic-system-julia",
+  "collection_complete": true,
+  "field": 2130706433,
+  "row": {
+    "basis_denominator_roots_open": true,
+    "coefficient_field": "GF(2130706433)(t)",
+    "engine": "AbstractAlgebra+Groebner.jl",
+    "equation_order": [
+      "q5",
+      "q7",
+      "q6"
+    ],
+    "fiber_variables": [
+      "E",
+      "s",
+      "x",
+      "r",
+      "c",
+      "b"
+    ],
+    "omitted_finite_pair": "q4",
+    "packet_sha256": "fbeda61593e73cdcb7bf1e2baa1ebe8b098a7025f834135b3e02d2c291d50cd9",
+    "partial_stderr": "\u250c Warning: Groebner.jl does not have a native implementation for the given field: Rational function field over F.\n\u2502 Falling back to a generic implementation (may be slow).\n\u2502 If this is unexpected, please consider submitting a GitHub issue.\n\u2514 @ Groebner ~/.julia/packages/Groebner/sLuRA/src/input_output/AbstractAlgebra.jl:78\n",
+    "partial_stdout": "INPUT_COMPLETE 10 13\n",
+    "program_sha256": "51c308daf9d8136fc26f29f51252a4b6b0a15f1b8ab6efda2c3e73dc3850a260",
+    "relation": "generic admissible FFF q5-q7-q6 necessary subsystem",
+    "source_basis_sha256": "661fcbaa51996c4051f799c6ac3c56d95ea213f56305818ffedb6d0859531aa2",
+    "source_basis_size": 10,
+    "source_quotient_dimension": 8,
+    "status": "TIMEOUT",
+    "transformation_denominators_open": true
+  },
+  "schema": "rate-half-kb-positive-433-1b-o0b-fff-generic-system-julia-v1",
+  "source_cache_sha256": "28c97e75aa1fd80565ad926e95ab2eacf4ce62a692520ca2662de6845ee0ddd8",
+  "source_generic_sha256": "c679e0c16cf2e64555c0c50a12eda54b8618e024563d7b6caabf5268bdaf518e",
+  "source_program_sha256": "4fb572a9b524f9e05533c7f844f58c529470a1f4aaf25f9de3c9f62a0c61a2d7"
+}

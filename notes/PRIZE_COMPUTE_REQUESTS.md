@@ -17724,4 +17724,12 @@ tools/ramguard modal -- timeout --signal=TERM --kill-after=15s 420s \
   experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_fff_generic_system_julia_modal.py
 ```
 
-**Outcome:** preregistered; not yet run.
+**Outcome:** `INCOMPLETE_TIMEOUT`. Modal app
+`ap-WmwCjoXxq9zHBUxYo4xL44` validated and constructed all 13 input
+polynomials, then exceeded the 300-second Julia wall during the first
+Groebner computation. It produced no basis or mathematical status. Result
+SHA-256:
+`13cc45ebcda366c4a659e032f3ea63bddddc2267dc2877f3574d250ca4c84ef5`.
+The checker accepts the exact timeout transcript and rejects all three
+applicable hostile mutations. The monolithic extension is retired; continue
+incrementally with `q5`, then `q7`, then `q6`.
