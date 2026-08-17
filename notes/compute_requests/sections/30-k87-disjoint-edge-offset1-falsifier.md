@@ -37,3 +37,25 @@ offset-1 source units and every deduplicated carrier profile. `INCOMPLETE`
 retains partial checkpoints and changes no status. Offsets 9, 23, and 43
 already inherit survival because this optimizer includes every best-single
 choice. This campaign alone cannot promote `K'=87`.
+
+**Outcome:** `FALSIFIED`. Modal app `ap-cJPrOXXEvVBCRydRzokVWK` completed
+both jobs at 31--32 MB peak RSS. The paired checker accepted 168,060 source
+units, 9,217 raw-unsafe units, and 144,439 deduplicated profiles per
+implementation before both traversals reached the same witness:
+
+```text
+m2=28, m3=29, s2=49, s3=48, s4=48, s5=47
+case=F23__N4_t0__N5_t0
+charges=(34,6),(36,5), high=c6F/c7F/c8F/c9F
+```
+
+Only edges 4 and 5 are available, so no two-edge support-disjoint subset
+exists. The optimized price is
+`41489774300553901192839119028686282570642878551`, above the exact raw-safe
+leader by `28875175078457354958072343663520239143833856`. Capture SHA-256:
+`dcc663d48ea02daa4267f9a13b4af6889f66d8af9738e35af96df4e42c400e23`.
+
+The complete support-disjoint campaign is therefore blocked. The next route
+must strengthen one pair bound or derive a genuine simultaneous support-
+`4/5/6` inequality from the shared dimension-six fixed union; overlapping
+pair charges may not simply be added.
