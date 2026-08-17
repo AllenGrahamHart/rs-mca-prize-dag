@@ -17636,7 +17636,7 @@ fibers.
 - **source result SHA-256:**
   `c679e0c16cf2e64555c0c50a12eda54b8618e024563d7b6caabf5268bdaf518e`
 - **launcher SHA-256:**
-  `35abdb889ffc0e6b9770a9663a92696cee1bf3897bcf8ba13e814d9750ebd3a0`
+  `f6c461bcafcc1f13b3f082d72ac2120f5fa6eb2cd430f07750b304edc01a1cf3`
 - **outcome-neutral checker SHA-256:**
   `c99b027800ac50fbc4a5301cdd506d795db5882418ade1428f3a8c38751faaaf`
 - **method:** for every denominator compute `gcd(D,t^p-t)` and factor its
@@ -17663,4 +17663,8 @@ tools/ramguard modal -- timeout --signal=TERM --kill-after=15s 240s \
   experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_fff_generic_t_denominator_roots_modal.py
 ```
 
-**Outcome:** preregistered; not yet run.
+**Outcome:** first launch `ap-xqXYpg7uKj6R6yoCrP5nRa` was rejected before
+factorization because the pinned `fmpz_mod_poly` API has no convenience
+`.lcm()` method. No mathematical output was produced. The repair uses the
+exact polynomial identity `lcm(A,B)=A*B/gcd(A,B)` and retains the same scope
+and envelope; rerun not yet launched.

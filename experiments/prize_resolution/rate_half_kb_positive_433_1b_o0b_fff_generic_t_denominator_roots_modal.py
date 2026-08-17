@@ -82,7 +82,8 @@ def collect_roots():
     for index, values in enumerate(denominators):
         polynomial = context(values)
         require(not polynomial.is_zero(), "zero denominator")
-        lcm = monic(lcm.lcm(polynomial))
+        common = lcm.gcd(polynomial)
+        lcm = monic((lcm * polynomial) // common)
         root_part, roots = field_part(polynomial)
         rows.append({
             "index": index,
