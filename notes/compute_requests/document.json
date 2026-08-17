@@ -40,6 +40,7 @@
     "notes/compute_requests/sections/35-k87-clipped-offset1-audit-resume.md",
     "notes/compute_requests/sections/36-k87-clipped-completion-wave.md",
     "notes/compute_requests/sections/37-k87-clipped-completion-shards.md",
-    "notes/compute_requests/sections/38-k87-clipped-completion-microshards.md"
+    "notes/compute_requests/sections/38-k87-clipped-completion-microshards.md",
+    "notes/compute_requests/sections/39-k87-clipped-completion-ranges.md"
   ]
 }
