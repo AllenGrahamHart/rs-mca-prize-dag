@@ -17665,6 +17665,20 @@ tools/ramguard modal -- timeout --signal=TERM --kill-after=15s 240s \
 
 **Outcome:** first launch `ap-xqXYpg7uKj6R6yoCrP5nRa` was rejected before
 factorization because the pinned `fmpz_mod_poly` API has no convenience
-`.lcm()` method. No mathematical output was produced. The repair uses the
-exact polynomial identity `lcm(A,B)=A*B/gcd(A,B)` and retains the same scope
-and envelope; rerun not yet launched.
+`.lcm()` method. No mathematical output was produced. The exact-division
+repair completed in Modal app `ap-OWgH6QIeyDAsAMnej0nU6T` in 0.017 seconds.
+
+The raw degree sum 1,013 collapses to an LCM of degree 49. Its deployed-field
+root set is exactly
+
+```text
+0, 1, 16711679, 666570304, 676802667, 1141382033,
+2113994754, 2130706432
+```
+
+The per-denominator root union agrees with the independent LCM Frobenius
+gcd. The hostile checker reconstructs all 44 linear root polynomials and
+rejects all four mutations. Result SHA-256:
+`7489a4c860059240395ed0e1b264f5643ba58fe257076781a0bb596e582738b0`.
+These eight values are the complete basis-denominator exceptional set;
+future reductions may enlarge it.

@@ -1,0 +1,801 @@
+{
+  "app": "rs-mca-positive-433-1b-o0b-fff-denominator-roots",
+  "collection_complete": true,
+  "field": 2130706433,
+  "launcher_sha256": "f6c461bcafcc1f13b3f082d72ac2120f5fa6eb2cd430f07750b304edc01a1cf3",
+  "row": {
+    "denominator_count": 44,
+    "elapsed_seconds": 0.016786670999999975,
+    "field_root_polynomial": [
+      0,
+      1377402312,
+      530502223,
+      354048571,
+      2130706432,
+      753304121,
+      1600204210,
+      1776657862,
+      1
+    ],
+    "lcm_degree": 49,
+    "lcm_sha256": "046143bb13ed6c21874fef3db4b73f8eb8829cbcb10eed25c38ca6a99fcc2b0e",
+    "method": "FLINT gcd(D,t^p-t), linear factorization, LCM union check",
+    "raw_degree_sum": 1013,
+    "root_count": 8,
+    "roots": [
+      0,
+      1,
+      16711679,
+      666570304,
+      676802667,
+      1141382033,
+      2113994754,
+      2130706432
+    ],
+    "rows": [
+      {
+        "degree": 0,
+        "denominator_sha256": "080a9ed428559ef602668b4c00f114f1a11c3f6b02a435f0bdc154578e4d7f22",
+        "field_root_polynomial": [
+          1
+        ],
+        "index": 0,
+        "roots": []
+      },
+      {
+        "degree": 19,
+        "denominator_sha256": "a54fd5fcc69a047c5f8d51e83d4ef77029dad5dd7a1315238edc6b048e4e6d19",
+        "field_root_polynomial": [
+          0,
+          165563158,
+          972612721,
+          1
+        ],
+        "index": 1,
+        "roots": [
+          0,
+          16711679,
+          1141382033
+        ]
+      },
+      {
+        "degree": 18,
+        "denominator_sha256": "4a05a326e421fae6edc836565f0f9874515e2a254052a24dccf91b9574ff8ad5",
+        "field_root_polynomial": [
+          0,
+          989324400,
+          1
+        ],
+        "index": 2,
+        "roots": [
+          0,
+          1141382033
+        ]
+      },
+      {
+        "degree": 17,
+        "denominator_sha256": "1f9be55f01c86f6adf096f33e9a89741a7318af9300c944aabcb2eb415d5ea7e",
+        "field_root_polynomial": [
+          989324400,
+          1
+        ],
+        "index": 3,
+        "roots": [
+          1141382033
+        ]
+      },
+      {
+        "degree": 20,
+        "denominator_sha256": "579f4b30339ba1567932fc1664718f2b8f003f851342eb30526b610ee378bbbd",
+        "field_root_polynomial": [
+          0,
+          165563158,
+          972612721,
+          1
+        ],
+        "index": 4,
+        "roots": [
+          0,
+          16711679,
+          1141382033
+        ]
+      },
+      {
+        "degree": 18,
+        "denominator_sha256": "652f34279b3f4a3da9a71708fbfe266c13ef71e659dcf17bdd9e0884f2f22e88",
+        "field_root_polynomial": [
+          165563158,
+          972612721,
+          1
+        ],
+        "index": 5,
+        "roots": [
+          16711679,
+          1141382033
+        ]
+      },
+      {
+        "degree": 22,
+        "denominator_sha256": "1c926c603b4a3335356dcd78fb6660f80af566ade9b209973889b24abb5d97a0",
+        "field_root_polynomial": [
+          0,
+          1141382033,
+          2130706432,
+          0,
+          0,
+          989324400,
+          1
+        ],
+        "index": 6,
+        "roots": [
+          0,
+          1,
+          16711679,
+          1141382033,
+          2113994754,
+          2130706432
+        ]
+      },
+      {
+        "degree": 20,
+        "denominator_sha256": "6891298e84b41853117184c27a220a8a9980b02eda52da5f25cd0c6673003e7e",
+        "field_root_polynomial": [
+          0,
+          165563158,
+          959107196,
+          1006036078,
+          1
+        ],
+        "index": 7,
+        "roots": [
+          0,
+          1,
+          1141382033,
+          2113994754
+        ]
+      },
+      {
+        "degree": 20,
+        "denominator_sha256": "d665ed7753180e9b1e61daf3d022ff0825116ff2ffd98ffc9e555a8999263750",
+        "field_root_polynomial": [
+          165563158,
+          1124670354,
+          1965143274,
+          1006036079,
+          1
+        ],
+        "index": 8,
+        "roots": [
+          1,
+          1141382033,
+          2113994754,
+          2130706432
+        ]
+      },
+      {
+        "degree": 22,
+        "denominator_sha256": "bd3bbd96d900c496da6b1ba0dc87ab7d9d59c8e7cfc08362b425efac2ef1e5ab",
+        "field_root_polynomial": [
+          0,
+          1141382033,
+          989324399,
+          1141382034,
+          989324399,
+          1
+        ],
+        "index": 9,
+        "roots": [
+          0,
+          1,
+          16711679,
+          1141382033,
+          2113994754
+        ]
+      },
+      {
+        "degree": 19,
+        "denominator_sha256": "b01d2ab558e7b9c5b892d59380f8bf567c525f44624d134f07c2142432045997",
+        "field_root_polynomial": [
+          1141382033,
+          2130706432,
+          989324400,
+          1
+        ],
+        "index": 10,
+        "roots": [
+          1,
+          1141382033,
+          2130706432
+        ]
+      },
+      {
+        "degree": 20,
+        "denominator_sha256": "8d3fd7e8dae9e7d8fe1d617ffa6c09ac9d40e0d566574a15892a5ff466880a8e",
+        "field_root_polynomial": [
+          1141382033,
+          989324399,
+          1141382034,
+          989324399,
+          1
+        ],
+        "index": 11,
+        "roots": [
+          1,
+          16711679,
+          1141382033,
+          2113994754
+        ]
+      },
+      {
+        "degree": 22,
+        "denominator_sha256": "30d7091d558f31c98e1f6765f0ec87a22a03d541757c1585f5d5bd8de11107ef",
+        "field_root_polynomial": [
+          0,
+          165563158,
+          1124670354,
+          1965143274,
+          1006036079,
+          1
+        ],
+        "index": 12,
+        "roots": [
+          0,
+          1,
+          1141382033,
+          2113994754,
+          2130706432
+        ]
+      },
+      {
+        "degree": 18,
+        "denominator_sha256": "fc3224015ee2a779119f212a16a0bac34ce001c9434321f3d74a1312c1cfe0eb",
+        "field_root_polynomial": [
+          1965143275,
+          1006036079,
+          1
+        ],
+        "index": 13,
+        "roots": [
+          1141382033,
+          2113994754
+        ]
+      },
+      {
+        "degree": 19,
+        "denominator_sha256": "14da39e30d3f0689fb1ab6785f5c650a7c94aade3297485cad3b368666ebe845",
+        "field_root_polynomial": [
+          1965143275,
+          1006036079,
+          1
+        ],
+        "index": 14,
+        "roots": [
+          1141382033,
+          2113994754
+        ]
+      },
+      {
+        "degree": 20,
+        "denominator_sha256": "fa6e2245cae107a0f584b79b51e5b53a288cada4ba6f1cd200fc4b603b0b1a30",
+        "field_root_polynomial": [
+          1965143275,
+          1158093712,
+          165563157,
+          972612721,
+          1
+        ],
+        "index": 15,
+        "roots": [
+          1,
+          16711679,
+          1141382033,
+          2130706432
+        ]
+      },
+      {
+        "degree": 18,
+        "denominator_sha256": "08c9f488090a1484db2d4f8f2f0603b7e75a9f4cc1a92c8e2a5b7057048eafbd",
+        "field_root_polynomial": [
+          1141382033,
+          989324399,
+          1
+        ],
+        "index": 16,
+        "roots": [
+          1,
+          1141382033
+        ]
+      },
+      {
+        "degree": 19,
+        "denominator_sha256": "762cde92c00ca76e8183ffb25bf0ecf23840eb348200d7373d95354a878218fe",
+        "field_root_polynomial": [
+          1965143275,
+          1323656870,
+          972612720,
+          1
+        ],
+        "index": 17,
+        "roots": [
+          1,
+          16711679,
+          1141382033
+        ]
+      },
+      {
+        "degree": 19,
+        "denominator_sha256": "ebd9b45f9253b5ab6b92f8ea3de1e4b8c8afb5917d5787d638cb54bccedaff84",
+        "field_root_polynomial": [
+          165563158,
+          972612721,
+          1
+        ],
+        "index": 18,
+        "roots": [
+          16711679,
+          1141382033
+        ]
+      },
+      {
+        "degree": 20,
+        "denominator_sha256": "b58ce86303aa911e10f5fe4bb8a04c6f4bac2b90dc033b1467918311b4d5b72f",
+        "field_root_polynomial": [
+          989324400,
+          1,
+          989324400,
+          1
+        ],
+        "index": 19,
+        "roots": [
+          16711679,
+          1141382033,
+          2113994754
+        ]
+      },
+      {
+        "degree": 19,
+        "denominator_sha256": "4f7bbbe8c13471b0cd84ea7914de080fa3dff48dc15d561d27dd769159f4e6ad",
+        "field_root_polynomial": [
+          989324400,
+          1,
+          989324400,
+          1
+        ],
+        "index": 20,
+        "roots": [
+          16711679,
+          1141382033,
+          2113994754
+        ]
+      },
+      {
+        "degree": 41,
+        "denominator_sha256": "0644a0268bdaab5ba32f893600f75f56139a3359d59dfb0d5bb2bad4fe124f58",
+        "field_root_polynomial": [
+          0,
+          260462145,
+          340184440,
+          110638471,
+          30575810,
+          1759605816,
+          1759946183,
+          1
+        ],
+        "index": 21,
+        "roots": [
+          0,
+          1,
+          16711679,
+          666570304,
+          676802667,
+          1141382033,
+          2130706432
+        ]
+      },
+      {
+        "degree": 39,
+        "denominator_sha256": "6567df1bb5094fed00dd82db09dad502156f687d305a614ce829fa8ac508457a",
+        "field_root_polynomial": [
+          0,
+          1377402312,
+          1283806344,
+          1954252781,
+          1776657861,
+          1
+        ],
+        "index": 22,
+        "roots": [
+          0,
+          1,
+          666570304,
+          676802667,
+          1141382033
+        ]
+      },
+      {
+        "degree": 39,
+        "denominator_sha256": "3120caf5363728f316a47850b33f5bbd1b65c4adb667f483c34cb470d451314c",
+        "field_root_polynomial": [
+          1377402312,
+          530502223,
+          1107352692,
+          1600204209,
+          1776657862,
+          1
+        ],
+        "index": 23,
+        "roots": [
+          1,
+          666570304,
+          676802667,
+          1141382033,
+          2130706432
+        ]
+      },
+      {
+        "degree": 41,
+        "denominator_sha256": "69673ba2f3df05425b5692d8e7c9099311e591a132348fb3cfa3c916cf8f93e1",
+        "field_root_polynomial": [
+          0,
+          260462145,
+          79722295,
+          30916176,
+          2130366067,
+          1759946182,
+          1
+        ],
+        "index": 24,
+        "roots": [
+          0,
+          1,
+          16711679,
+          666570304,
+          676802667,
+          1141382033
+        ]
+      },
+      {
+        "degree": 39,
+        "denominator_sha256": "9dae3f39e274308c45cf99caa55ec01e200660e7dca1884337c110243f741e7b",
+        "field_root_polynomial": [
+          260462145,
+          79722295,
+          30916176,
+          2130366067,
+          1759946182,
+          1
+        ],
+        "index": 25,
+        "roots": [
+          1,
+          16711679,
+          666570304,
+          676802667,
+          1141382033
+        ]
+      },
+      {
+        "degree": 42,
+        "denominator_sha256": "5d8bcde54b585faf5c3d5c1fb66dd596bddc27ae4b8715dc9aa079291d74f4ce",
+        "field_root_polynomial": [
+          0,
+          260462145,
+          340184440,
+          110638471,
+          30575810,
+          1759605816,
+          1759946183,
+          1
+        ],
+        "index": 26,
+        "roots": [
+          0,
+          1,
+          16711679,
+          666570304,
+          676802667,
+          1141382033,
+          2130706432
+        ]
+      },
+      {
+        "degree": 24,
+        "denominator_sha256": "67371e1cc5523746d14b692d8e1f0eb42eb5e19a4078fe037e25a3932a188ffa",
+        "field_root_polynomial": [
+          0,
+          989324400,
+          1,
+          989324400,
+          1
+        ],
+        "index": 27,
+        "roots": [
+          0,
+          16711679,
+          1141382033,
+          2113994754
+        ]
+      },
+      {
+        "degree": 23,
+        "denominator_sha256": "4387b74da280a105f43196d981562f8b95437c39253dec91a5375c27f5e7f960",
+        "field_root_polynomial": [
+          0,
+          989324400,
+          1,
+          989324400,
+          1
+        ],
+        "index": 28,
+        "roots": [
+          0,
+          16711679,
+          1141382033,
+          2113994754
+        ]
+      },
+      {
+        "degree": 22,
+        "denominator_sha256": "0883ed09722a209167f1d0da3ae2b9c3e1b47625c7df8b16261378125adc028b",
+        "field_root_polynomial": [
+          0,
+          989324400,
+          1,
+          989324400,
+          1
+        ],
+        "index": 29,
+        "roots": [
+          0,
+          16711679,
+          1141382033,
+          2113994754
+        ]
+      },
+      {
+        "degree": 26,
+        "denominator_sha256": "68ecf219c1bd1726600f74a0b7a1ce63e51f796176de469920d7e59a3df930c3",
+        "field_root_polynomial": [
+          0,
+          989324400,
+          1,
+          989324400,
+          1
+        ],
+        "index": 30,
+        "roots": [
+          0,
+          16711679,
+          1141382033,
+          2113994754
+        ]
+      },
+      {
+        "degree": 22,
+        "denominator_sha256": "da1fe9ab391607380a08b4815dc44daac63583a505463f05d6c7b96abedac2dd",
+        "field_root_polynomial": [
+          0,
+          989324400,
+          1,
+          989324400,
+          1
+        ],
+        "index": 31,
+        "roots": [
+          0,
+          16711679,
+          1141382033,
+          2113994754
+        ]
+      },
+      {
+        "degree": 25,
+        "denominator_sha256": "84b6bbdeb92d029d867e0b49d500967c030effdbb01030ca9f45ddaf77eedcdd",
+        "field_root_polynomial": [
+          0,
+          989324400,
+          1,
+          989324400,
+          1
+        ],
+        "index": 32,
+        "roots": [
+          0,
+          16711679,
+          1141382033,
+          2113994754
+        ]
+      },
+      {
+        "degree": 22,
+        "denominator_sha256": "a57b6fb3e77d132bc22501ece2e66d7a64e17b9c968fb88c94016f3d8b539599",
+        "field_root_polynomial": [
+          0,
+          989324400,
+          1,
+          989324400,
+          1
+        ],
+        "index": 33,
+        "roots": [
+          0,
+          16711679,
+          1141382033,
+          2113994754
+        ]
+      },
+      {
+        "degree": 23,
+        "denominator_sha256": "eb2fd0a8d3b967694d0fe6952fddbbbd3a6cf2192ad8e0ef404173b9085f2ce5",
+        "field_root_polynomial": [
+          0,
+          989324400,
+          1,
+          989324400,
+          1
+        ],
+        "index": 34,
+        "roots": [
+          0,
+          16711679,
+          1141382033,
+          2113994754
+        ]
+      },
+      {
+        "degree": 21,
+        "denominator_sha256": "12f7cfa43e51802ca6597bbe91240ecfdd8db65da3a1729c59eb81b4c2bfbef2",
+        "field_root_polynomial": [
+          989324400,
+          1,
+          989324400,
+          1
+        ],
+        "index": 35,
+        "roots": [
+          16711679,
+          1141382033,
+          2113994754
+        ]
+      },
+      {
+        "degree": 24,
+        "denominator_sha256": "3a18480e9ce2ce6a6f6ccf0b7d6a4012428a3f7077ba763d6462e36b4ff8e4f1",
+        "field_root_polynomial": [
+          0,
+          989324400,
+          1,
+          989324400,
+          1
+        ],
+        "index": 36,
+        "roots": [
+          0,
+          16711679,
+          1141382033,
+          2113994754
+        ]
+      },
+      {
+        "degree": 22,
+        "denominator_sha256": "84959b9aee201cd5a8359939e0afeef47f3678b8b8cfe019d35849e66d1c2dfd",
+        "field_root_polynomial": [
+          989324400,
+          1,
+          989324400,
+          1
+        ],
+        "index": 37,
+        "roots": [
+          16711679,
+          1141382033,
+          2113994754
+        ]
+      },
+      {
+        "degree": 24,
+        "denominator_sha256": "308773ed4ea8cacb89262ca23ad831806affeddf2c1210b961e0e41e93847567",
+        "field_root_polynomial": [
+          0,
+          989324400,
+          1,
+          989324400,
+          1
+        ],
+        "index": 38,
+        "roots": [
+          0,
+          16711679,
+          1141382033,
+          2113994754
+        ]
+      },
+      {
+        "degree": 20,
+        "denominator_sha256": "336ef44bfcc512fc18ffdf58beca99261db34729d1b72274c137a37e200e7825",
+        "field_root_polynomial": [
+          1965143275,
+          1006036079,
+          1
+        ],
+        "index": 39,
+        "roots": [
+          1141382033,
+          2113994754
+        ]
+      },
+      {
+        "degree": 21,
+        "denominator_sha256": "0adc31541e234431e392e4efd8cd744acc3c234fa14b20b739efecc7a6ce1875",
+        "field_root_polynomial": [
+          0,
+          989324400,
+          1,
+          989324400,
+          1
+        ],
+        "index": 40,
+        "roots": [
+          0,
+          16711679,
+          1141382033,
+          2113994754
+        ]
+      },
+      {
+        "degree": 20,
+        "denominator_sha256": "22ec46039b1505e542ee0151d58f9e37fff381a783b7343932b79ec0a7de34a9",
+        "field_root_polynomial": [
+          989324400,
+          1,
+          989324400,
+          1
+        ],
+        "index": 41,
+        "roots": [
+          16711679,
+          1141382033,
+          2113994754
+        ]
+      },
+      {
+        "degree": 23,
+        "denominator_sha256": "1f075665164ac78aa91f2894b0c52d732ffa341811cc61dd51dd4e904318a584",
+        "field_root_polynomial": [
+          0,
+          989324400,
+          1,
+          989324400,
+          1
+        ],
+        "index": 42,
+        "roots": [
+          0,
+          16711679,
+          1141382033,
+          2113994754
+        ]
+      },
+      {
+        "degree": 21,
+        "denominator_sha256": "3b882257e912cfda88c32dcafae9f7b131dec401b32e87705a0db638383d2f45",
+        "field_root_polynomial": [
+          989324400,
+          1,
+          989324400,
+          1
+        ],
+        "index": 43,
+        "roots": [
+          16711679,
+          1141382033,
+          2113994754
+        ]
+      }
+    ],
+    "rows_sha256": "9ebe8412ac8c3a1024ba2ceb08b62fa1fda5e3c64e7a1f50ca0a8f9150fc6467",
+    "status": "COMPLETE"
+  },
+  "schema": "rate-half-kb-positive-433-1b-o0b-fff-denominator-roots-v1",
+  "source_sha256": "c679e0c16cf2e64555c0c50a12eda54b8618e024563d7b6caabf5268bdaf518e"
+}
