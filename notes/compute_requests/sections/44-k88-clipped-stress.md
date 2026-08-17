@@ -42,3 +42,22 @@ carrier profiles. Both return `SURVIVED`; peak RSS was 32--37 MB. Capture
 SHA-256: `04fe3e31de6b38ea3923c68ddbb782fb168267248245f19105e4c470ed67e31e`.
 This authorizes the preregistered eight-job stress and has no standalone
 mathematical status effect.
+
+**Outcome:** `FALSIFIED`. Modal app `ap-wRAeaUK4rE5XK6sVdD5Ks4` completed
+all eight jobs at peak RSS 32--45 MB. Capture SHA-256:
+`728042953d357095b0defbde413041d683a9d40b5fe8e53288ba27d218df8bc2`.
+Offsets 22, 30, and 44 survive exhaustive paired scans; both orientations
+return the same first offset-1 witness:
+
+```text
+m2=32, m3=33, s2=46, s3=45, s4=45, s5=44
+case=F23__N4_t0__N5_t2
+charges=(38,6),(38,6), high=c6F/c7F/c8F/c9F
+```
+
+Its raw premium is
+`49355312964508839635000536009148053954853701245`. Support-5/6 raw clipping
+leaves `41549359934887745801059698148276349327209870125`, above the exact
+raw-safe leader by `64430137261308589353929386530718398473023425`. The direct
+K'=87 raw-clipped continuation is therefore blocked, and no complete K'=88
+clipped wave is authorized.

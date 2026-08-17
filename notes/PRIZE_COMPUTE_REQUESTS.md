@@ -15517,6 +15517,25 @@ carrier profiles. Both return `SURVIVED`; peak RSS was 32--37 MB. Capture
 SHA-256: `04fe3e31de6b38ea3923c68ddbb782fb168267248245f19105e4c470ed67e31e`.
 This authorizes the preregistered eight-job stress and has no standalone
 mathematical status effect.
+
+**Outcome:** `FALSIFIED`. Modal app `ap-wRAeaUK4rE5XK6sVdD5Ks4` completed
+all eight jobs at peak RSS 32--45 MB. Capture SHA-256:
+`728042953d357095b0defbde413041d683a9d40b5fe8e53288ba27d218df8bc2`.
+Offsets 22, 30, and 44 survive exhaustive paired scans; both orientations
+return the same first offset-1 witness:
+
+```text
+m2=32, m3=33, s2=46, s3=45, s4=45, s5=44
+case=F23__N4_t0__N5_t2
+charges=(38,6),(38,6), high=c6F/c7F/c8F/c9F
+```
+
+Its raw premium is
+`49355312964508839635000536009148053954853701245`. Support-5/6 raw clipping
+leaves `41549359934887745801059698148276349327209870125`, above the exact
+raw-safe leader by `64430137261308589353929386530718398473023425`. The direct
+K'=87 raw-clipped continuation is therefore blocked, and no complete K'=88
+clipped wave is authorized.
 ## Preregistered K'=88 dual-adjacent offset-1 repair
 
 - **decision:** test whether independently raw-clipping both available
@@ -15550,3 +15569,22 @@ orientations. `PASS` requires paired agreement on all 480,557 offset-1 source
 units, all 27,562 raw-unsafe units, and every carrier profile. `INCOMPLETE`
 changes no mathematical status. This probe tests one minimal repair only; it
 cannot promote `K'=88` or authorize a complete wave by itself.
+
+**Outcome:** `FALSIFIED`. Modal app `ap-aTuDyBgYFIDDAPQ92IvcS5` completed
+both jobs at peak RSS 58--62 MB. Capture SHA-256:
+`594c93e9528066be44fa3ab62115eb696a8c0e465fc01a7d65e6f4419d542ee1`.
+Both orientations return the same offset-1 witness as the support-5/6
+stress after 197,071 source units, 14,986 raw-unsafe units, and 216,326
+carrier profiles. Independently raw-clipping support 4/5 lowers the repaired
+premium by
+
+```text
+4547111877997214766571212941786435342449200,
+```
+
+but the resulting
+`41544812823009748586293126935334562891867420925` still exceeds the leader
+by `59883025383311374587358173588931963130574225`. Independent overlapping
+adjacent-edge alternatives are therefore insufficient. The next finite
+repair would need a proved joint support-4/5/6 cap or a different carrier
+charge; neither is claimed here.

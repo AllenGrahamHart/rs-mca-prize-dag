@@ -31,3 +31,22 @@ orientations. `PASS` requires paired agreement on all 480,557 offset-1 source
 units, all 27,562 raw-unsafe units, and every carrier profile. `INCOMPLETE`
 changes no mathematical status. This probe tests one minimal repair only; it
 cannot promote `K'=88` or authorize a complete wave by itself.
+
+**Outcome:** `FALSIFIED`. Modal app `ap-aTuDyBgYFIDDAPQ92IvcS5` completed
+both jobs at peak RSS 58--62 MB. Capture SHA-256:
+`594c93e9528066be44fa3ab62115eb696a8c0e465fc01a7d65e6f4419d542ee1`.
+Both orientations return the same offset-1 witness as the support-5/6
+stress after 197,071 source units, 14,986 raw-unsafe units, and 216,326
+carrier profiles. Independently raw-clipping support 4/5 lowers the repaired
+premium by
+
+```text
+4547111877997214766571212941786435342449200,
+```
+
+but the resulting
+`41544812823009748586293126935334562891867420925` still exceeds the leader
+by `59883025383311374587358173588931963130574225`. Independent overlapping
+adjacent-edge alternatives are therefore insufficient. The next finite
+repair would need a proved joint support-4/5/6 cap or a different carrier
+charge; neither is claimed here.

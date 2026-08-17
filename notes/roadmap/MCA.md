@@ -43,7 +43,12 @@ certificates required by the challenge.
   row `K'=88`, paired raw scans classify all 18,741,723 source units and
   leave exactly 622,895 raw-unsafe units on offsets `1..44`. This is a
   bounded adjacent-row probe, not a substitute for the 508-container
-  synchronization theorem or a claim beyond `K'=88`.
+  synchronization theorem or a claim beyond `K'=88`. The K'=87 raw-clipped
+  continuation is exactly false at one offset-1 profile: support-5/6 clipping
+  misses the leader by `64430137261308589353929386530718398473023425`, and
+  separately clipping support 4/5 still misses by
+  `59883025383311374587358173588931963130574225`. A joint three-support
+  theorem, not independent overlapping edges, is the remaining finite repair.
 - The Mersenne full-lift mean-Gram route now pays through direction support
   `e=98231`.  At residue two, a two-boundary-layer anchor split and a
   boundary missed-set dichotomy give `16486411<16777215`; the residual
