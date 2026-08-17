@@ -17,7 +17,7 @@ REPRESENTATIVES = (
 )
 CORE = HERE / "rate_half_kb_positive_433_1b_o0b_split_cell0_outside_core.py"
 RESULT = HERE / "rate_half_kb_positive_433_1b_o0b_split_cell0_component_outside_result.json"
-LAUNCHER_SHA256 = "d1e49937e287e2542b0999f81a9afee0e6302c563f7c11f8ab01c6abf70ff2ec"
+LAUNCHER_SHA256 = "04ae51440703ad0116e33ce6a4c7f3312eff748cd8c3fa1a1d326c4d465f5d48"
 COMPONENTS_SHA256 = "2fd2d65ebd033d8cd784f428d31d9b49eb66c4b6a059326ed7efcd60d53ed100"
 REPRESENTATIVES_SHA256 = "658ae5f1f3c0667df2cece818e0c89a752ce9cdf7c4f6f421fc4a721134b8fa4"
 CORE_SHA256 = "5cd86020b601b68e9a4295d55d057ec0e029dede334397e6bc51f9d840e5561f"

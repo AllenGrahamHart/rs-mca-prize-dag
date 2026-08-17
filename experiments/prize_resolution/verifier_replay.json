@@ -9,7 +9,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cell0_component_v4_quotient/verify.py",
-      "seconds": 1.168864,
+      "seconds": 1.48652,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "RATE_HALF_KB_POSITIVE_433_1B_O0B_SPLIT_CELL0_COMPONENT_VERIFY_PASS raw=2520 reps=708 profile=2:156,4:552\n"
@@ -17,7 +17,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cell0_component_v4_quotient/verify_audit.py",
-      "seconds": 1.06148,
+      "seconds": 1.217624,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "RATE_HALF_KB_POSITIVE_433_1B_O0B_SPLIT_CELL0_COMPONENT_AUDIT_PASS raw=2520 reps=708 mutations=2/2\n"
@@ -25,10 +25,10 @@
     {
       "returncode": 0,
       "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cell0_component_v4_quotient/verify_outside_pilot.py",
-      "seconds": 0.058296,
+      "seconds": 0.147041,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_KB_POSITIVE_433_1B_O0B_SPLIT_CELL0_OUTSIDE_CHECK_PASS state=PRELAUNCH full=708 pilot=24 mutations=3/3\n"
+      "stdout_tail": "RATE_HALF_KB_POSITIVE_433_1B_O0B_SPLIT_CELL0_OUTSIDE_CHECK_PASS state=INCOMPLETE scope=pilot rows=24/24 unit=0 nonunit=0 mutations=3/3\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

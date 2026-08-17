@@ -15728,9 +15728,9 @@ own PROVED DAG node; cell-11 assembly and cell-14 transport remain separate.
 - **scope:** 24 canonical representatives covering all 56
   `component/lane-orbit/outside-sign/missing-record` strata
 - **launcher SHA-256:**
-  `d1e49937e287e2542b0999f81a9afee0e6302c563f7c11f8ab01c6abf70ff2ec`
+  `04ae51440703ad0116e33ce6a4c7f3312eff748cd8c3fa1a1d326c4d465f5d48`
 - **checker SHA-256:**
-  `b5b4591a7784523fb8c9d8536a8f17b749c0dfd8931bbe5b9b82bec1aad04988`
+  `74770cfadbfa1275fe58fbee187b40e00cea8e8526ff3dc07347a8011c8046b5`
 - **outside-core SHA-256:**
   `5cd86020b601b68e9a4295d55d057ec0e029dede334397e6bc51f9d840e5561f`
 - **representative manifest SHA-256:**
@@ -15770,3 +15770,12 @@ nonunit row is retained with its six generators and complete guard list for
 route analysis. `TIMEOUT`, `ERROR`, `REMOTE_ERROR`, client interruption, or
 an incomplete checkpoint is `INCOMPLETE` and authorizes only a bounded repair
 or resumption. No pilot outcome closes cell `0`.
+
+The first deployment smoke, Modal app `ap-6GEKxb3H9szvhPpQ0AyIIo`, is
+`INCOMPLETE`: all 24 rows returned `REMOTE_ERROR` before CAS startup because
+the validated pure outside core was not mounted into the remote image. The
+checkpoint SHA-256 is
+`a68188167e669240aff40d5df0cfc389eee8c2459d8438922ba6163b48f97c61`.
+No row reached Singular and the run has no mathematical status. Launcher
+`04ae5144...` adds the missing immutable core mount; all case, solver, wall,
+and outcome contracts are unchanged for the bounded rerun.

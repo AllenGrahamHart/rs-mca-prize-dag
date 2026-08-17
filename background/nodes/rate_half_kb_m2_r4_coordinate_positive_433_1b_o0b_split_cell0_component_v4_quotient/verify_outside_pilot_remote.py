@@ -12,7 +12,7 @@ NODE = Path(__file__).resolve().parent
 ROOT = NODE.parents[2]
 LAUNCHER = (ROOT / "experiments/prize_resolution" /
             "rate_half_kb_positive_433_1b_o0b_split_cell0_component_outside_modal.py")
-LAUNCHER_SHA256 = "d1e49937e287e2542b0999f81a9afee0e6302c563f7c11f8ab01c6abf70ff2ec"
+LAUNCHER_SHA256 = "04ae51440703ad0116e33ce6a4c7f3312eff748cd8c3fa1a1d326c4d465f5d48"
 
 if hashlib.sha256(LAUNCHER.read_bytes()).hexdigest() != LAUNCHER_SHA256:
     raise RuntimeError("canonical launcher custody")

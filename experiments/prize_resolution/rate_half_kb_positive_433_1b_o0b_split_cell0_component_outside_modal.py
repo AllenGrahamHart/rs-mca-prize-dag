@@ -20,6 +20,7 @@ REPRESENTATIVES = (
 CORE = DIRECTORY / "rate_half_kb_positive_433_1b_o0b_split_cell0_outside_core.py"
 RESULT = DIRECTORY / "rate_half_kb_positive_433_1b_o0b_split_cell0_component_outside_result.json"
 REMOTE_COMPONENTS = "/root/components.json"
+REMOTE_CORE = "/root/rate_half_kb_positive_433_1b_o0b_split_cell0_outside_core.py"
 PRIME = 2130706433
 IOTA = 16711679
 FULL_REPRESENTATIVES_SHA256 = (
@@ -38,6 +39,7 @@ image = (
     .apt_install("singular")
     .pip_install("sympy==1.14.0")
     .add_local_file(COMPONENTS, REMOTE_COMPONENTS)
+    .add_local_file(CORE, REMOTE_CORE)
 )
 
 core_spec = importlib.util.spec_from_file_location("cell0_outside_core", CORE)
