@@ -16174,3 +16174,16 @@ All-unit completion authorizes the full pinned 24-representative pilot after
 subtracting already closed rows. A nonunit becomes the next algebraic target.
 Timeouts authorize only a stratum-specific decomposition. This six-case run
 does not authorize the 1,416-case campaign.
+
+**Outcome:** `INCOMPLETE_TIMEOUT`. Modal app
+`ap-HONZUndkEeMfHPJ450zO9c` returned all six pinned rows, each with status
+`TIMEOUT`; result SHA-256:
+`ebf5de0ff545dbba76db9f638aea5cd2bf0a013be51896c51aec5a7418ab3f11`.
+The outcome-neutral checker accepts the complete ordered collection and
+rejects all three hostile mutations. Rows 1 and 3 finished their initial
+ideals, respectively at dimension/size `(3,114)` and `(3,120)`, then timed
+out before completing the first guard saturation. Rows 0, 2, 4, and 5 did
+not finish the initial basis within 240 seconds. Thus this result says
+nothing about emptiness of any row. It rejects the six-case uniform campaign
+as the next endpoint and authorizes only equation-order and first-guard
+diagnostics on representatives of the two observed timeout modes.

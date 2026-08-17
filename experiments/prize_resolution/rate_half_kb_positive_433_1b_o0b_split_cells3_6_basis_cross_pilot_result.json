@@ -1,0 +1,153 @@
+{
+  "app": "rs-mca-positive-433-1b-o0b-cells3-6-basis-cross-pilot",
+  "collection_complete": true,
+  "expected_case_count": 6,
+  "field": 2130706433,
+  "processed_case_count": 6,
+  "remote_errors": [],
+  "rows": [
+    {
+      "basis_sha256": "20d4032b93acc1f0918efea258978bf830a4a7de389442b519e9496f9b6e9df4",
+      "cell": 3,
+      "common_basis_size": 21,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "guard_count": 40,
+      "index": 0,
+      "lane": "S0",
+      "outside_equation_count": 5,
+      "packet_sha256": "fbeda61593e73cdcb7bf1e2baa1ebe8b098a7025f834135b3e02d2c291d50cd9",
+      "pairing_index": 0,
+      "partial_stderr": "",
+      "partial_stdout": "",
+      "program_sha256": "a36df7dcaf93dbfeb5074f3ceb2c41693c256e301d4984b81dc4efacb57d45da",
+      "rank_cofactor_count": 6,
+      "sigma_o": -1,
+      "status": "TIMEOUT",
+      "xi_index": 2
+    },
+    {
+      "basis_sha256": "20d4032b93acc1f0918efea258978bf830a4a7de389442b519e9496f9b6e9df4",
+      "cell": 3,
+      "common_basis_size": 21,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "guard_count": 40,
+      "index": 1,
+      "lane": "S0",
+      "outside_equation_count": 5,
+      "packet_sha256": "fbeda61593e73cdcb7bf1e2baa1ebe8b098a7025f834135b3e02d2c291d50cd9",
+      "pairing_index": 0,
+      "partial_stderr": "",
+      "partial_stdout": "INITIAL_DIM=3,INITIAL_SIZE=114\n",
+      "program_sha256": "36eccb48c1aca5c00456b8695039ed5215aca478d4f97c9096e4427c149183fc",
+      "rank_cofactor_count": 6,
+      "sigma_o": 1,
+      "status": "TIMEOUT",
+      "xi_index": 0
+    },
+    {
+      "basis_sha256": "f9e7054412eae0ecbd2d0369bbd4ddb9e7ba80b29e59f02ca86cb24ef7a9725e",
+      "cell": 3,
+      "common_basis_size": 21,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "guard_count": 40,
+      "index": 2,
+      "lane": "S0",
+      "outside_equation_count": 5,
+      "packet_sha256": "51278b32abf7a566d265db9c49748dedb3709b88d48efeebad669cc85153ce38",
+      "pairing_index": 0,
+      "partial_stderr": "",
+      "partial_stdout": "",
+      "program_sha256": "cce3a126c27fe570aaec9ac2f2eec51ee288c86998d88ea9c209f6c24738310e",
+      "rank_cofactor_count": 6,
+      "sigma_o": 1,
+      "status": "TIMEOUT",
+      "xi_index": 6
+    },
+    {
+      "basis_sha256": "f9e7054412eae0ecbd2d0369bbd4ddb9e7ba80b29e59f02ca86cb24ef7a9725e",
+      "cell": 3,
+      "common_basis_size": 21,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "guard_count": 40,
+      "index": 3,
+      "lane": "SDE",
+      "outside_equation_count": 5,
+      "packet_sha256": "51278b32abf7a566d265db9c49748dedb3709b88d48efeebad669cc85153ce38",
+      "pairing_index": 0,
+      "partial_stderr": "",
+      "partial_stdout": "INITIAL_DIM=3,INITIAL_SIZE=120\n",
+      "program_sha256": "8e6bdec75e86d1f5a3db8e797ec0b9db91be7b6f1296721818a9abdf79243e0f",
+      "rank_cofactor_count": 6,
+      "sigma_o": -1,
+      "status": "TIMEOUT",
+      "xi_index": 0
+    },
+    {
+      "basis_sha256": "20d4032b93acc1f0918efea258978bf830a4a7de389442b519e9496f9b6e9df4",
+      "cell": 3,
+      "common_basis_size": 21,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "guard_count": 40,
+      "index": 4,
+      "lane": "SDE",
+      "outside_equation_count": 5,
+      "packet_sha256": "fbeda61593e73cdcb7bf1e2baa1ebe8b098a7025f834135b3e02d2c291d50cd9",
+      "pairing_index": 0,
+      "partial_stderr": "",
+      "partial_stdout": "",
+      "program_sha256": "f13df56f25032fcb97b2e5c2db149c60c1948ec4349a72c6de6978eab38fdf59",
+      "rank_cofactor_count": 6,
+      "sigma_o": 1,
+      "status": "TIMEOUT",
+      "xi_index": 2
+    },
+    {
+      "basis_sha256": "f9e7054412eae0ecbd2d0369bbd4ddb9e7ba80b29e59f02ca86cb24ef7a9725e",
+      "cell": 3,
+      "common_basis_size": 21,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "guard_count": 40,
+      "index": 5,
+      "lane": "SDE",
+      "outside_equation_count": 5,
+      "packet_sha256": "51278b32abf7a566d265db9c49748dedb3709b88d48efeebad669cc85153ce38",
+      "pairing_index": 0,
+      "partial_stderr": "",
+      "partial_stdout": "",
+      "program_sha256": "ceaa6cd4d79ef67958afc4055824935dc7ff5b1c28a872ea5388ccf79b83d5f1",
+      "rank_cofactor_count": 6,
+      "sigma_o": 1,
+      "status": "TIMEOUT",
+      "xi_index": 6
+    }
+  ],
+  "schema": "rate-half-kb-positive-433-1b-o0b-split-cells3-6-basis-cross-pilot-v1",
+  "selected_cases_sha256": "2e1eea3589e0737e9efa7a3a49a0492d6fece4577b93a36eb1f6badf0b499b42",
+  "source_basis_sha256": "bda163ed7bdb961c115cebbe910dd3d991307bd53cddf4770925697d1a5e7c4e",
+  "source_cache_sha256": "28c97e75aa1fd80565ad926e95ab2eacf4ce62a692520ca2662de6845ee0ddd8",
+  "source_cases_sha256": "dfbbee76c4d04f71d65b2c3b9fea83b9fbdb8e86cd0ff26f76fef591e1d49fbc",
+  "source_compiler_sha256": "048e38650d7ab98ee9c21d081d4908ed067f57fe483a6e4b6890fab3fa755b03",
+  "source_program_sha256": "2298a72b7d45f6e920244836f4e7fa3589c80a8e5a254ca03ee9971053a57670",
+  "status_counts": {
+    "TIMEOUT": 6
+  },
+  "unit_count": 0
+}
