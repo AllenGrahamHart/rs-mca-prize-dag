@@ -21,8 +21,10 @@ This is a strict algebraic simplification, not a chart closure.
 
 1. Work in the five-variable base graph `x,t,r,c,b`, before adjoining
    the free variables `E,s`.
-2. Saturate that one-dimensional graph by the 16 route guards and the
-   required nonzero `x,a0m,a2m` factors. Record every exact stage.
+2. The source 21-element common basis is already saturated by all 16 route
+   guards and the six-cofactor rank ideal. Do not repeat those operations.
+   Saturate the graph only by the new required nonzero
+   `x,a0m,a2m` factors and record every exact stage.
 3. If the admissible graph becomes unit, close `FFF` immediately. If it
    survives, use the smaller saturated basis for coefficient-wise
    `q5` reduction and low-degree `s,E` resultants.
