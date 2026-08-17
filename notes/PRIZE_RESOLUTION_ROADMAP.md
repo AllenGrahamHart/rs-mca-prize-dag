@@ -41906,3 +41906,1947 @@ delta-star movement:   none
 compute:               exact local arithmetic under 1 GiB cap; no Modal spend
 next route action:     classify the M3=M2+2 carrier position at K'=72
 ```
+
+# Cycle 366: MCA rank-11 K'=72 carrier flag and split-section wall (2026-08-16)
+
+Cycle 365 left the first open row at `K'=72`, where the support-three
+completion maximum is two above the support-two maximum.  A two-step carrier
+atlas now isolates the leading nonnested geometry and replaces part of the
+raw completion envelope by two unconditional charges.
+
+## Cycle pins
+
+```text
+our start:       90178b01dba1b5fdd0c3e955e060ad41c8e7a21a
+our end:         cycle commit containing this record
+canonical prize: 28a62b400
+upstream main:   93fba1be3f3299b0ba4708d88715377bbb656e45
+open upstream:   #1170 at 1ca90d4c570e3630b62c4cca084549282f1d7418
+rich-flat stack: #1171..#1173, tip 2788d5ec3fb4b1d6f9c43a58a86ec2381e5f6804
+```
+
+## Completion-stratified fixed-union theorem
+
+Suppose a `g`-dimensional correction subspace vanishes on a fixed `u`-point
+union, and every independent support-`d` deletion has at most `M_d`
+completions.  For a circuit with exactly `j` points outside the union, the
+inside deletion points impose no further conditions on the vanishing
+subspace.  The outside completion budget is therefore
+
+```text
+B_j=min(M_d,K'-g-u),  j<=g,
+B_j=M_d,              j>g.
+```
+
+Exact outside-point exposure gives the circuit-support cap
+
+```text
+C(u,d)+sum_(j=1)^d floor(
+  C(u,d-j) C(m-u,j-1) B_j / j
+).
+```
+
+If the union contains a parallel class of size `b` and `d>=3`, minimality
+replaces each inside binomial by
+
+```text
+I_b(u,r)=C(u-b,r)+b C(u-b,r-1),
+```
+
+because a minimal circuit cannot contain two points from one projective
+parallel class.  This theorem is unconditional and reusable beyond `K'=72`.
+
+## K'=72 carrier-flag router
+
+At the active completion values
+
+```text
+M_2=28, M_3=30, M_4=M_5=31,
+```
+
+the maximal-overlap carriers satisfy `D_3 subset D_4,D_5`, with residual
+sizes two and three beyond `D_3`.
+
+- Residual overlap two is impossible: it would put four points of the
+  support-five circuit into a rank-three proper subspace.
+- With one shared residual point outside the support-three span, a
+  six-dimensional space vanishes on the 36-point union.
+- With one shared residual point inside that span, there is a flag
+  `(33,8)<(36,5)`.
+- With disjoint residuals, a five-dimensional space vanishes on a 37-point
+  union; if the carriers are nested, its dimension rises to six.
+
+The `(36,6)` and nested `(37,6)` branches pay.  The transverse `(37,5)`
+branch remains slightly unsafe, and the `(33,8)<(36,5)` flag is the leading
+unresolved cell.
+
+## Exact split-section target
+
+Let `I_4,I_5` be the first-match-deduplicated selected eleven-set incidences
+of support-four and support-five circuits in the leading flag cell.  The
+needed weighted census is
+
+```text
+21 I_4 + 15 I_5
+ <= 20552964203529559475043545396584734873674935990.
+```
+
+Independent fixed-union caps give
+
+```text
+21 I_4 + 15 I_5
+ <= 21195887396614969832992972237166204779857211620,
+```
+
+leaving the exact reduction
+
+```text
+642923193085410357949426840581469906182275630.
+```
+
+Even lowering both support-four and support-five completion budgets from 31
+to 30 leaves a deficit of
+
+```text
+29448888899741560716988382745385742184901730.
+```
+
+Thus a uniform maximum drop is insufficient.  After dividing the common
+36-point locator, the equality strata are two-dimensional residual pencils
+with a common split degree-34 core and fully split degree-35 sections of a
+five-dimensional residual polynomial space.  The next theorem must couple
+these weighted strata without reusing a circuit through several owners.
+
+## Upstream overlap
+
+Upstream PRs `#1171` and `#1172` route rank-one pair anticodes and force a
+rank-two common-factor terminal.  PR `#1173` pays an anchored transverse
+rich-flat branch and emits a larger common-locator flag.  Its greedy
+transversality mechanism and factor-flag language are useful candidate tools
+for the K72 census, but its dimensions, ownership unit, and deployed row are
+different.  It is motivation, not a logical dependency and not a proof of
+the finite split-section target.
+
+Primary and independently coded Modal replays pass for both new theorem
+packets.  The full graph replay independently compiled 2,547 nodes and 7,581
+edges, then passed reachability, status propagation, reference, and red-leaf
+checks at 161 MB peak RSS.  Its exact generated SHA-256 is
+`0a6222cd90014d82edb91940652ff3c3ed31cf51e7b51c81ac84479a2c07a60b`.
+
+```text
+result:                NARROWED K'=72 to a weighted split-section census
+newly closed rows:     none
+closed prefix:         10..71
+remaining rank nine:  72..15528
+new nodes:             2 PROVED, 1 TARGET
+new premise:           K'=72 carrier-flag split-section census
+critical status delta: none; exact evidence frontier refined at first wall
+upstream delta:         none; #1173 recorded as a nondependency analogue
+delta-star movement:   none
+compute:               Modal replays, 58--60 MB peak RSS; negligible spend
+next route action:     falsify or prove the weighted residual split-section census,
+                       then replay the complete K'=72 carrier atlas
+```
+# Cycle 367: MCA K'=72 flat-circuit coupling closes the split-section census (2026-08-16)
+
+Cycle 366 isolated the leading `(33,8)<(36,5)` flag and left a weighted
+support-four/support-five target.  A direct circuit-minimality coupling now
+closes that target without classifying individual degree-34 split cores.
+
+## Cycle pins
+
+```text
+our start:       e1c3640c0
+our end:         cycle commit containing this record
+canonical prize: 28a62b400
+upstream main:   93fba1be3f3299b0ba4708d88715377bbb656e45
+open upstream:   #1170 at 1ca90d4c570e3630b62c4cca084549282f1d7418
+```
+
+## Flat-circuit coupling theorem
+
+Let a finite matroid on `N` labelled elements have every rank-three flat of
+size at most `B` and every rank-four flat of size at most `B+1`.  If `C_4`
+and `C_5` count four- and five-circuit supports, then
+
+```text
+5 C_5 <= (B-3) C(N,4) - (N-B) C_4.                (FC)
+```
+
+For a rank-three flat `F` of size `b`, every independent triple in `F` and
+point outside `F` gives an independent four-set.  Its rank-four closure has
+at most `B+1` points, and a five-circuit completion cannot return to `F`
+without containing a dependent proper subset.  Relative to the unrestricted
+`B-3` completion ceiling, this loses at least `b-3` completions.  Each
+independent four-set has only four triples.  Summing these witnesses and
+using
+
+```text
+sum_F t_F(b-3) >= 4 C_4
+```
+
+proves `(FC)`.  The theorem is matroidal; representability is not needed.
+
+## K'=72 specialization
+
+Divide the 36-point flag locator from the five-dimensional correction
+space.  Residual degree is at most 35 on
+
+```text
+N=67544-36=67508
+```
+
+outside points.  An independent triple in the original outside evaluation
+matroid leaves a two-dimensional residual annihilator and therefore a closure
+of at most 34 points; an independent four-set leaves one residual section
+and therefore a closure of at most 35 points.  Thus `(FC)` applies to the
+original restricted matroid and gives
+
+```text
+5 C_5 <= 31 C(67508,4) - 67474 C_4.
+```
+
+The independent-triple cap is
+
+```text
+C_4 <= floor(31 C(67508,3)/4)=397371647886059.
+```
+
+The exact selected-incidence objective is increasing in `C_4`: one extra
+four-circuit can reduce the integer five-circuit cap by at most 13,495, while
+
+```text
+21 C(m-4,7) - 15*13495 C(m-5,6)
+ = 195 C(m-5,6) > 0.
+```
+
+At the endpoint, `C_5<=2463704216893565`.  Keeping ordinary `C(36,r)` caps
+for every lower inside/outside stratum, with no parallel-class refinement,
+gives
+
+```text
+I_4 <= 506389674857089789010503158660245768712830400,
+I_5 <=   2212036714331204501716306860191372678671248,
+
+21 I_4 + 15 I_5
+ <= 10667363722713853636746310934768031733149507120.
+```
+
+This is below the required split-section cap by
+
+```text
+9885600480815705838297234461816703140525428870.
+```
+
+The previously red K72 split-section census is therefore `PROVED`.
+
+## Atlas boundary
+
+Exploratory atlas replay confirmed that paying the original two-step flag
+reveals the same carrier-size trichotomy at the adjacent one-step cell.  More
+generally, whenever `(M_3,M_4,M_5)=(30,31,31)` and `1<=M_2<=29`, the carrier
+sizes remain `(32,34,35)` and maximal overlaps have residual sizes two and
+three.  This is a route compression opportunity, not yet a promoted row
+closure.
+
+A broad replay expanding the full invariant family exceeded the 270-second
+Modal subprocess ceiling.  It produced no counterexample, but its truncated
+diagnostic is not used as evidence.  The next replay must Pareto-compress the
+family before geometry expansion and emit only the maximal branches.
+
+Primary and independent Modal checks pass for the generic theorem and K72
+specialization, including sharp uniform-matroid controls and 12 hostile
+contract mutations.  Peak RSS was 60 MB.  The manifest replay compiled
+2,548 nodes and 7,582 edges with SHA-256
+`78a5003244e09c68b8f41775714465665c7c005132746194dd0073c9b43ef646`.
+
+```text
+result:                PROVED K'=72 weighted split-section census
+newly closed rows:     none
+closed prefix:         10..71
+remaining rank nine:  72..15528
+new nodes:             1 PROVED
+status promotion:      1 TARGET -> PROVED
+new premise:           none
+critical status delta: none; one background route node promoted green
+upstream delta:         none; flat-circuit theorem is a future #1170 export
+delta-star movement:   none
+compute:               exact Modal arithmetic, <=61 MB; one atlas timeout
+next route action:     build a Pareto-compressed complete K'=72 atlas replay,
+                       then close the row or isolate its next exact survivor
+```
+
+# Cycle 368: MCA K'=72 full carrier atlas payment (2026-08-16)
+
+The split-section coupling from Cycle 367 extends to every fixed carrier
+union of dimension at least five.  Combined with an exact pairwise carrier
+atlas, this closes the complete `K'=72` row without requiring the bespoke
+three-carrier flag as a live dependency.
+
+## Cycle pins
+
+```text
+our start:       9e16311b8
+our end:         cycle commit containing this record
+canonical prize: 28a62b400
+upstream main:   93fba1be3f3299b0ba4708d88715377bbb656e45
+open upstream:   #1170..#1173; #1170 at 1ca90d4c570e3630b62c4cca084549282f1d7418
+```
+
+## Pairwise carrier atlas
+
+For an attaining carrier `B_c`, the support-two projective point is
+transverse, lies in a proper deletion span, or is in full-completion
+position.  The first two positions give the conservative fixed unions
+
+```text
+T_c: (b_2+|B_c|,10-c),
+A_c: (b_2+|B_c|-1,11-c).
+```
+
+If supports three and `d in {4,5}` are both full, put
+
+```text
+r_3=M_3-M_2+1,  r_d=M_d-M_2+d-2.
+```
+
+Minimality of `A_d union {p}` for `p in B_2` forces at least `d-2`
+anchors outside the support-three rank-two flat.  Hence the residual overlap
+has the exact range
+
+```text
+0<=t<=min(r_3,M_d-M_2).
+```
+
+The union size is `b_2+r_3+r_d-t`; its fixed vanishing dimension is `10-d`
+at `t=0` and `11-d` at positive overlap.  The support-four and support-five
+alternatives combine by Cartesian product, with no conjectural relation
+between their residuals.
+
+## Fixed-union coupled charge
+
+Let a `g>=5` dimensional correction subspace vanish on `u` fixed points.
+Put
+
+```text
+R=K-u-g,  B=R+3,  N=m-u.
+```
+
+For an independent triple or four-set in the original evaluation matroid
+outside the union, intersection with the vanishing subspace leaves `g-3` or
+`g-4` residual polynomials.  Their gcd-degree bound certifies rank-three
+flat size at most `B` and rank-four flat size at most `B+1`.  It is the
+original outside matroid to which flat-circuit coupling applies; no circuit
+is transferred to the subspace matroid.
+
+After adding exact lower inside/outside strata, the joint selected-incidence
+cap is
+
+```text
+21 (L_4+X_4) C(m-4,7)+15 (L_5+X_5) C(m-5,6),
+```
+
+where
+
+```text
+X_4=min(floor(R C(N,3)/4), floor(R C(N,4)/(N-B))),
+X_5=floor((R C(N,4)-(N-B)X_4)/5).
+```
+
+The endpoint is valid because the exact integer weighted envelope is
+nondecreasing whenever `K>=g+5`.
+
+## Complete K'=72 replay
+
+The conservative stream evaluated 7,991,221 leaves.  Exactly 36 distinct
+defect tuples exceeded the safe premium ceiling; every other conservative
+leaf was safe.  Exhaustive pairwise rerouting of those 36 tuples produced
+8,057 exact charged leaves, all safe.  Seven disjoint pre-routed geometry
+lanes covered another 113,124,235 exact leaves, all safe.
+
+The global completion premium is the largest already-safe conservative leaf:
+
+```text
+P_72 = 41089877204729279662874647920595743958596178333,
+ceiling-P_72 = 10440735269654784698417860383073117137496667.
+```
+
+The exact component payment is positive:
+
+```text
+demand-capacity
+=52200017935756118667066163970702686810349690944821612538425.
+```
+
+Thus `K'=72` is closed and the proved prefix advances to `10..72`.
+Primary and independent theorem verifiers pass remotely.  The independent
+row audit recomputes all 8,057 exceptional routes; peak RSS is 59 MB.  The
+seven larger exhaustive lanes ran separately on Modal at 59--62 MB.
+The manifest replay compiles 2,551 nodes and 7,589 edges, passes reference,
+acyclicity, reachability, status-propagation, protocol, crosswalk, and orbit
+checks, and has generated DAG SHA-256
+`ec14ade0991fbd423dfb778a718c97c50014c908c09834e170cc22a7c71d2f7c`.
+
+```text
+result:                CLOSED K'=72
+newly closed rows:     72
+closed prefix:         10..72
+remaining rank nine:  73..15528
+new nodes:             3 PROVED
+new premise:           none
+critical status delta: none; exact evidence frontier advanced one row
+upstream delta:         none; both generic theorems are candidates for #1170
+delta-star movement:   none
+compute:               exact bounded Modal lanes, 59--62 MB peak RSS
+next route action:     test whether the pairwise atlas and coupled charge
+                       close K'=73, or isolate its first exact survivor
+```
+# Cycle 369: MCA K'=73 full carrier atlas payment (2026-08-16)
+
+The generic pairwise carrier atlas and fixed-union support-4/5 coupling from
+Cycle 368 close the adjacent `K'=73` row without a new structural theorem.
+The only additional work is a larger exact conservative frontier and its
+finite coupled reroute.
+
+## Cycle pins
+
+```text
+our start:       9adad693f
+our end:         cycle commit containing this record
+canonical prize: 28a62b400
+upstream main:   93fba1be3f3299b0ba4708d88715377bbb656e45
+open upstream:   #1170..#1173; tips unchanged at inspection
+```
+
+## Exact frontier
+
+At `K'=73`, `q=63`, `m=67545`, and `n=1048649`. The streamed conservative
+atlas evaluates 8,551,382 leaves. Exactly 218 distinct defect tuples exceed
+the safe premium ceiling. The largest conservative leaf already below the
+ceiling is
+
+```text
+s2=41/s3=33/s4=33/s5=31/c6F/c7F/c8F/c9F/carrier32_plain,
+```
+
+with
+
+```text
+P_73 = 41123952182016259764480350052978913220338995240,
+ceiling-P_73 = 424186681733896065660200756292351785430362.
+```
+
+The 218 exceptional tuples expand to 71,806 exact pairwise-carrier charges.
+Every charge is safe. Their maximum is
+
+```text
+32133901221158725309935103349312670983455197672,
+```
+
+leaving margin
+`8990475147539268350610906904422534588669227930`.
+
+## Geometry lanes and payment
+
+Seven disjoint pre-routed geometry lanes evaluate another 118,892,669 exact
+leaves. Their maximum is the one-step value
+
+```text
+35688968442860327556985962346044983398767741600,
+```
+
+which is strictly below `P_73`. Thus `P_73` is the global premium. Exact
+integral capacity arithmetic gives
+
+```text
+demand-capacity
+=2120784774514292837614781442321448802184060878375874298355>0.
+```
+
+The new PROVED packet pins all replay sources and the 218-cell frontier.
+Its primary verifier rejects seven hostile mutations; its independent audit
+recomputes all 71,806 exceptional routes. Both pass under the 256 MB local
+RAM guard, while full frontier and lane enumerations ran on Modal at 58--62
+MB peak RSS.
+
+The manifest replay compiles 2,552 nodes and 7,593 edges and passes reference,
+acyclicity, reachability, status-propagation, protocol, crosswalk, orbit, and
+harness checks. Generated DAG SHA-256:
+`d8d0b7a0bbff80d67fb47984dd5fe4dc8f9655e551c1baf13ec402d7f8b6a71d`.
+
+```text
+result:                CLOSED K'=73
+newly closed rows:     73
+closed prefix:         10..73
+remaining rank nine:  74..15528
+new nodes:             1 PROVED
+new premise:           none
+critical status delta: none; exact evidence frontier advanced one row
+upstream delta:         none; K'=72..73 extension is a candidate for #1170
+delta-star movement:   none
+compute:               exact bounded Modal lanes, 58--62 MB peak RSS
+next route action:     replay the same atlas at K'=74 and isolate either a
+                       closed row or the first genuine structural survivor
+```
+# Cycle 370: MCA K'=74 full carrier atlas payment (2026-08-16)
+
+The generic pairwise carrier atlas and fixed-union support-4/5 coupling also
+close `K'=74`. This cycle first vendors the proved `K'=72,73` extension to
+upstream PR #1170, then advances the local exact frontier by one row.
+
+## Cycle pins
+
+```text
+our start:       fdef16d4b
+our end:         cycle commit containing this record
+canonical prize: 28a62b400
+upstream main:   93fba1be3f3299b0ba4708d88715377bbb656e45
+upstream PR:     #1170 head 5d3cda9475b03777c488e35ab152231bd338da71
+```
+
+## Exact frontier
+
+At `K'=74`, `q=64`, `m=67546`, and `n=1048650`. The conservative atlas
+evaluates 8,869,588 leaves. Exactly 729 distinct defect tuples exceed the
+safe premium ceiling. To avoid another long payload, the node stores their
+canonical lexicographic SHA-256 rather than copying the list:
+
+```text
+e036791483f8f10702731c02172071ce6106a1587f1996439640f08122162cf4.
+```
+
+The largest conservative leaf already below the ceiling is
+
+```text
+s2=32/s3=31/s4=32/s5=30/c6F/c7F/c8F/c9F/offset1_plain,
+```
+
+with
+
+```text
+P_74 = 41148280931947468743645570894078252803553423792,
+ceiling-P_74 = 151207872362754098743792508682842947287405.
+```
+
+The 729 exceptional tuples expand to 338,149 exact pairwise-carrier charges.
+Every charge is safe. Their maximum is
+
+```text
+32837046420997427924790365894433685328482435320,
+```
+
+leaving margin
+`8311385718822403572953948792153250318018275877`. Two tuples tie at this
+maximum, and the contract explicitly makes no unique-maximizer claim.
+
+## Geometry lanes and payment
+
+Seven disjoint geometry lanes evaluate another 124,851,888 exact leaves.
+Their maximum is the one-step value
+
+```text
+36187398164184684606907419896584782044225756904,
+```
+
+strictly below `P_74`. Exact integral capacity arithmetic then gives
+
+```text
+demand-capacity
+=755986378881174710705888877305550381612101047062792678211>0.
+```
+
+The primary verifier pins the compact contract and rejects eight hostile
+mutations. The remote audit reconstructs the full conservative frontier,
+digest, reroute, and payment at 61 MB peak RSS. The seven geometry lanes ran
+as independent Modal tasks at 59--62 MB peak RSS.
+
+The manifest replay compiles 2,553 nodes and 7,597 edges and passes reference,
+acyclicity, reachability, status-propagation, sectioned-document, protocol,
+crosswalk, orbit, and critical-harness checks. Generated DAG SHA-256:
+`8b359112c4fa4de5c532d2125f8099c56241dbde91108dce1fa866439b2c7872`.
+
+```text
+result:                CLOSED K'=74
+newly closed rows:     74
+closed prefix:         10..74
+remaining rank nine:  75..15528
+new nodes:             1 PROVED
+new premise:           none
+critical status delta: none; exact evidence frontier advanced one row
+upstream delta:         PR #1170 advanced through K'=73
+delta-star movement:   none
+compute:               exact sharded Modal lanes, 59--62 MB peak RSS
+next route action:     replay the same compact atlas at K'=75 and stop only
+                       at a genuine structural survivor or a closed row
+```
+# Cycle 371: MCA K'=75 full carrier atlas payment (2026-08-16)
+
+The same proved carrier atlas closes the next row. This cycle also
+parameterizes the compact frontier audit and extracts one shared contract
+validator, so later rows need only small row-specific contracts and wrappers.
+
+## Exact frontier
+
+At `K'=75`, `q=65`, `m=67547`, and `n=1048651`, the conservative stream has
+9,479,358 leaves and 1,995 above-ceiling defect tuples. Their canonical
+lexicographic digest is
+
+```text
+49a191e500624b4f98761863cbce004d3dc2911055c7e24b8b966a2b99e2d440.
+```
+
+The largest already-safe leaf is
+
+```text
+s2=43/s3=36/U23/s4=37/s5=32/c6F/c7F/c8F/c9F/ordinary,
+```
+
+with premium and margin
+
+```text
+P_75 = 41172442942616752083301734067206968949181736144,
+ceiling-P_75 = 42309306941100164131542711491454099991233.
+```
+
+The exact reroute has 1,228,878 evaluations and is entirely safe. Its maximum
+is `33540409167198343349228340842477255779539196790`, leaving margin
+`7632076084725349834237524767441204623742530587`. The seven geometry lanes
+contain 131,010,586 leaves and have maximum
+`36818718942605286540367916391174777496642019789`, below `P_75`.
+
+Exact integral capacity arithmetic gives
+
+```text
+demand-capacity
+=211531709609936637728192389252911579074455707755248457894>0.
+```
+
+## Replay refactor
+
+The compact audit now accepts the requested row as an argument, with `74` as
+the backward-compatible default. A shared compact-contract API validates
+source hashes, active conservative caps, thresholds, lane partitions, floor
+placement, and exact payment arithmetic. K'=74 and K'=75 each retain a thin
+row-specific primary and remote-audit wrapper. Both full audits pass on Modal
+at 58 MB peak RSS; both primary wrappers reject eight hostile mutations.
+
+The manifest compiles 2,554 nodes and 7,601 edges. Generated DAG SHA-256:
+`aae742a3cb5374366320c5664541c35657464518db1401fc4383dce37168ac48`.
+
+```text
+result:                CLOSED K'=75
+newly closed rows:     75
+closed prefix:         10..75
+remaining rank nine:  76..15528
+new nodes:             1 PROVED
+new premise:           none
+critical status delta: none; exact evidence frontier advanced one row
+upstream delta:         none; batch K'=74..75 for the next #1170 extension
+delta-star movement:   none
+compute:               exact sharded Modal lanes, 58--62 MB peak RSS
+next route action:     probe K'=76 with the parameterized compact audit
+```
+# Cycle 372: MCA K'=76 full carrier atlas payment (2026-08-16)
+
+The parameterized carrier atlas closes a third adjacent row. The global
+maximum has now moved from the all-fallback high-support branch to an exact
+high-support defect branch, which the shared validator was extended to
+reconstruct directly.
+
+## Exact frontier and payment
+
+At `K'=76`, the conservative stream has 9,817,234 leaves and 3,800 unsafe
+defect tuples. Their canonical digest is
+
+```text
+62a15ec0cd3c05e2d8040a027b64be37e38995076d4d46da61ec5afdee7f895e.
+```
+
+The largest safe conservative leaf is
+
+```text
+s2=54/s3=35/U23/s4=34/s5=33/c6d3/c7d2/c8d1/c9d0/ordinary,
+```
+
+with
+
+```text
+P_76 = 41196532360070121067065901849561255059392646057,
+ceiling-P_76 = 3343498479116787180719767118068070898738.
+```
+
+All 2,689,092 reroute evaluations are safe, with maximum
+`34322333430853669387933267678391560032676518774`. The seven geometry lanes
+contain 137,366,383 leaves and have maximum
+`37421755192298946544884408866447573734456950687`, also below `P_76`.
+Exact component arithmetic gives
+
+```text
+demand-capacity
+=16716320840480454509867840664707020900684182599020170034>0.
+```
+
+The primary contract rejects eight hostile mutations. The full remote audit
+reconstructs the digest, reroute, and payment at 57 MB peak RSS.
+
+The manifest compiles 2,555 nodes and 7,605 edges. Generated DAG SHA-256:
+`d220383da6a5244a0268329fe5db9cc9db534dc6b964329204efb7cdb03f531d`.
+
+```text
+result:                CLOSED K'=76
+newly closed rows:     76
+closed prefix:         10..76
+remaining rank nine:  77..15528
+new nodes:             1 PROVED
+new premise:           none
+critical status delta: none; exact evidence frontier advanced one row
+upstream delta:         none; batch K'=74..76 for the next #1170 extension
+delta-star movement:   none
+compute:               exact sharded Modal lanes, 57--61 MB peak RSS
+next route action:     probe K'=77; the shrinking premium margin suggests a
+                       nearby exact method wall
+```
+# Cycle 373: MCA K'=77 full carrier atlas payment (2026-08-16)
+
+The parameterized carrier atlas closes `K'=77`. The five-step geometry lane
+crossed the default runner's 270-second limit, so this cycle also adds a
+bounded 10-minute, 1 GB Modal runner and records only its completed replay.
+
+## Exact frontier and payment
+
+The conservative stream has 10,475,101 leaves and 7,657 above-ceiling tuples.
+Their canonical digest is
+
+```text
+f2bac3ee68fdc243f1a7ed7101dcaa72ba7ecd4c278ce4cb4d7b0a4466e774a9.
+```
+
+The largest safe leaf is
+
+```text
+s2=42/s3=37/s4=34/s5=35/c6d3/c7d2/c8d1/c9d0/carrier32_plain,
+```
+
+with premium `41220567597231178491653121647453619450645179178` and margin
+`15896082187058434500851976235556574069096`. All 6,623,568 reroute
+evaluations are safe. The seven geometry lanes contain 143,928,183 leaves;
+their maximum is `37927152249618150254202496789638286615058058210`, below the
+safe leaf. Exact component arithmetic gives gap
+
+```text
+79474840980250192811328546134901531018600026108436267508>0.
+```
+
+The primary verifier rejects eight hostile mutations. The full remote audit
+reconstructs the digest, reroute, and payment at 60 MB peak RSS. The completed
+five-step lane also used 60 MB under the bounded-long runner.
+
+The manifest compiles 2,556 nodes and 7,609 edges. Generated DAG SHA-256:
+`e73145adf9b1788a71ce8d7fa8730acafac4ab4cf38bbc881928b34c37d29ffe`.
+
+```text
+result:                CLOSED K'=77
+newly closed rows:     77
+closed prefix:         10..77
+remaining rank nine:  78..15528
+new nodes:             1 PROVED
+new premise:           none
+critical status delta: none; exact evidence frontier advanced one row
+upstream delta:         none; batch K'=74..77 for the next #1170 extension
+delta-star movement:   none
+compute:               exact sharded Modal lanes, 58--62 MB peak RSS
+next route action:     assess K'=78 cost before another full lane scan
+```
+# Cycle 374: MCA K'=78 full carrier atlas payment (2026-08-16)
+
+The parameterized carrier atlas closes `K'=78`. The full frontier and all
+seven geometry lanes were replayed in bounded 1 GB Modal containers; every
+job stayed at or below 61 MB peak RSS.
+
+## Exact frontier and payment
+
+The conservative stream has 10,837,645 leaves and 11,552 above-ceiling
+tuples. Their canonical digest is
+
+```text
+bce3cdddfa5da0272f099e17bcb671876f9092e103b51ffa04b9aa7919d49cd7.
+```
+
+The largest safe leaf is
+
+```text
+s2=50/s3=38/s4=36/s5=37/c6d2/c7d1/c8d1/c9d0/carrier32_plain,
+```
+
+with premium `41244614753758628801860143341643171244170576450` and margin
+`13865957965092782628483685711822437366639`. All 10,115,441 reroute
+evaluations are safe. The seven geometry lanes contain 150,693,396 leaves;
+their maximum is `38552393090078383126619984181387841064702317594`, below the
+safe leaf. Exact component arithmetic gives gap
+
+```text
+69324931221842548818784073274469783546449231843657033123>0.
+```
+
+The primary verifier rejects eight hostile mutations. The full remote audit
+independently reconstructs the digest, reroute, and payment at 60 MB peak
+RSS.
+
+The manifest compiles 2,557 nodes and 7,613 edges. Generated DAG SHA-256:
+`688c3ad7b8177017c667a7a430c42aa6a53471aae12cef96764d57c6204de32f`.
+
+```text
+result:                CLOSED K'=78
+newly closed rows:     78
+closed prefix:         10..78
+remaining rank nine:  79..15528
+new nodes:             1 PROVED
+new premise:           none
+critical status delta: none; exact evidence frontier advanced one row
+upstream delta:         none; batch K'=74..78 for the next #1170 extension
+delta-star movement:   none
+compute:               exact sharded Modal lanes, 58--61 MB peak RSS
+next route action:     vendor K'=74..78 upstream before probing K'=79
+```
+# Cycle 375: MCA K'=74..78 compact upstream export (2026-08-16)
+
+The five proved carrier-atlas rows were exported as one reviewable extension
+of draft upstream PR #1170:
+
+```text
+https://github.com/przchojecki/rs-mca/pull/1170
+review range:
+b4bad860750f91955dbaead8f2b5a0fdef1f1343
+  ..0b6cb72c025ddaafbddd92e3daf398e5993ef320
+```
+
+The export uses Przemek's base-field-normalized split-pencil terminology and
+retains the existing full-completion pairwise carrier atlas and flat-coupled
+support-four/support-five census. It adds a separate compact certificate for
+`K'=74..78`: canonical SHA-256 digests replace an expanded 25,733-tuple
+payload, while an optional one-row verifier reconstructs the conservative
+frontier and complete reroute.
+
+All five fresh upstream full replays pass:
+
+```text
+rows:                     74,75,76,77,78
+exceptional cells:        729,1995,3800,7657,11552
+total reroute leaves:     20995128
+peak RSS per Modal job:   57--58 MB
+closed rank-nine prefix:  10..78
+first open rank-nine row: 79
+```
+
+The primary verifier recomputes every row payment and rejects eight hostile
+mutations. An independent implementation recomputes the exact capacity
+arithmetic. Grande Finale builds in three passes at 175 pages.
+
+```text
+upstream commit:          0b6cb72c025ddaafbddd92e3daf398e5993ef320
+compact manifest:         20dff5ce1c9634f9cd99e2cbacd4809fc860894f4549265a6f8b69176c0843c4
+primary verifier:         b3be282aa7ecc1696c53bc46a1a96702a03f7892db672ff1292090981480157a
+independent verifier:     55717ab77ccae0fdb7b774867ab95d1bb7b02b55a2979ad016114f01a36196a1
+full-frontier verifier:   4da8cfa98aa22cfde6cf14ebfda687371cff28a35c7e8c04ffca10c8bebcdbe5
+paper PDF:                ff4837ec8438f469f7d8d9b872e341c216fb61e6029062e36afc508191e1ec2d
+```
+
+The live open queue still contains complementary rank-eleven router PRs
+#1171--#1173. No overlap was imported and no claim was made that this packet
+pays rank eight, chronology, aggregate error rank eleven, KoalaBear, or
+either prize problem. The canonical `prize` worktree remained clean at its
+earlier `K'=71` integration point throughout this export.
+
+```text
+start:                   9526b45dc
+DAG delta:               none; integration-only cycle
+critical status delta:   none; 167 green / 37 amber / 27 red math orbit
+upstream delta:          PR #1170 extended through K'=78 at 0b6cb72
+delta-star movement:     none
+compute:                 five bounded exact Modal replays, 57--58 MB RSS
+next route action:       probe K'=79 with the same complete atlas before
+                         deciding whether a new geometric charge is needed
+```
+# Cycle 376: MCA K'=79 full carrier atlas payment (2026-08-16)
+
+The parameterized carrier atlas closes `K'=79`. The full frontier and all
+seven geometry lanes were replayed in bounded 1 GB Modal containers; every
+job stayed at or below 64 MB peak RSS.
+
+## Exact frontier and payment
+
+The conservative stream has 11,546,087 leaves and 19,406 above-ceiling
+tuples. Their canonical digest is
+
+```text
+10faebceb497f80e1a7ec6240c304ced8f7999bd15d185eb87d926df0fb6c76a.
+```
+
+The largest safe leaf is
+
+```text
+s2=59/s3=43/U23/s4=41/s5=36/c6F/c7F/c8F/c9F/ordinary,
+```
+
+with premium `41268581039515451359223235239395447056496741638` and margin
+`90041821230008310313867459260514662563833`. All 19,114,557 reroute
+evaluations are safe. The seven geometry lanes contain 157,671,136 leaves;
+their maximum is `39155883271390100828809596211624350117737071281`, below the
+safe leaf. Exact component arithmetic gives gap
+
+```text
+450177555678029181663225127809721029656401221977920938493>0.
+```
+
+The primary verifier rejects eight hostile mutations. The full remote audit
+independently reconstructs the digest, reroute, and payment at low peak RSS.
+
+The manifest compiles 2,558 nodes and 7,617 edges. Generated DAG SHA-256:
+`baa1f3958f15c9b6d3a286621667ceb1396f6263d9c7b00c851cd6ab63dfd95e`.
+
+```text
+result:                CLOSED K'=79
+newly closed rows:     79
+closed prefix:         10..79
+remaining rank nine:  80..15528
+new nodes:             1 PROVED
+new premise:           none
+critical status delta: none; exact evidence frontier advanced one row
+upstream delta:         none; keep the next export batched and reviewable
+delta-star movement:   none
+compute:               exact sharded Modal lanes, 61--64 MB peak RSS
+next route action:     probe K'=80 with the same complete atlas before
+                       deciding whether a new geometric charge is needed
+```
+# Cycle 377: MCA K'=80 full carrier atlas payment (2026-08-16)
+
+The parameterized carrier atlas closes `K'=80`. The full frontier and all
+seven geometry lanes were replayed in bounded 1 GB Modal containers; every
+job stayed at or below 63 MB peak RSS.
+
+## Exact frontier and payment
+
+The conservative stream has 11,929,729 leaves and 26,104 above-ceiling
+tuples. Their canonical digest is
+
+```text
+911406bd5364eea9ad69c2d82d6263db31f43f5e9d3d04f0cfdedd9a36eb47bc.
+```
+
+The largest safe leaf is
+
+```text
+s2=66/s3=40/s4=40/s5=41/c6d3/c7d2/c8d1/c9d0/carrier32_plain,
+```
+
+with premium `41292698225299493655203544545324133071167827372` and margin
+`12651432337345356124303501333284331916464`. All 24,962,791 reroute
+evaluations are safe. The seven geometry lanes contain 164,858,603 leaves;
+their maximum is `39668547314355452559959739197487065940915191238`, below the
+safe leaf. Exact component arithmetic gives gap
+
+```text
+63252728650428501280250074863279553490282355009311230439>0.
+```
+
+The primary verifier rejects eight hostile mutations. The full remote audit
+independently reconstructs the digest, reroute, and payment at low peak RSS.
+
+## Synchronization
+
+Canonical `prize` remains at its integrated `K'=10..71` prefix. Upstream
+`main` remains `93fba1b`; PR #1170 is mergeable and unreviewed. PRs
+#1171--#1173 add complementary rank-one, fixed-endpoint, and rich-flat
+routers, but each explicitly claims zero active-v4 ledger movement and no
+rank-eleven payment. They do not supersede this exact carrier-atlas route.
+
+The manifest compiles 2,559 nodes and 7,621 edges. Generated DAG SHA-256:
+`c27c2e83586855a142b404bcc1db9d4650620beb30b2af038c3d9459d7e6620c`.
+
+```text
+result:                CLOSED K'=80
+newly closed rows:     80
+closed prefix:         10..80
+remaining rank nine:  81..15528
+new nodes:             1 PROVED
+new premise:           none
+critical status delta: none; exact evidence frontier advanced one row
+upstream delta:         none; keep the next export batched and reviewable
+delta-star movement:   none
+compute:               exact sharded Modal lanes, 61--63 MB peak RSS
+next route action:     test whether the K'=74..80 atlas admits a block or
+                       symbolic continuation before probing more rows
+```
+# Cycle 378: MCA K'=81 full carrier atlas payment (2026-08-16)
+
+The complete carrier atlas closes `K'=81`. The compact stream contains
+12,695,949 leaves and 39,570 exact above-ceiling defect tuples, with digest
+
+```text
+5e8c37955cd9842170149c8021e77d6072be9a769df01e8d82bd11d4caaa5c20.
+```
+
+The largest safe leaf has premium
+`41316738803727121977844753592626079710298860916`, leaving positive
+ceiling margin `9200732869233857603364615518182428928433`. All
+40,569,326 reroute evaluations and 172,265,121 geometry evaluations are
+safe. Exact component payment leaves gap
+
+```text
+46000440427984175715360686273569212546246763017890480411>0.
+```
+
+```text
+result:                CLOSED K'=81
+newly closed rows:     81
+closed prefix:         10..81
+remaining rank nine:  82..15528
+new nodes:             1 PROVED
+new premise:           none
+critical status delta: none; exact evidence frontier advanced one row
+delta-star movement:   none
+compute:               exact sharded Modal replay, 58--62 MB peak RSS
+next route action:     complete K'=82 and locate the first atlas wall
+```
+# Cycle 379: MCA K'=82 full carrier atlas payment (2026-08-16)
+
+The complete carrier atlas closes `K'=82`. The compact stream contains
+13,101,284 leaves and 49,900 exact above-ceiling defect tuples, with digest
+
+```text
+d8e7a8286cffeeb8af99e9ea283d9ff2c0cc6c86730c84062ec01ec85c6fa0c5.
+```
+
+The largest safe leaf has premium
+`41340768193812712537232048213849077199458005267`, leaving positive
+ceiling margin `14269266235451710755032134164017670137549`. All
+48,822,291 reroute evaluations and 179,887,680 geometry evaluations are
+safe. Exact component payment leaves gap
+
+```text
+71341331255235112573601253115194194916813205966998398786>0.
+```
+
+```text
+result:                CLOSED K'=82
+newly closed rows:     82
+closed prefix:         10..82
+remaining rank nine:  83..15528
+new nodes:             1 PROVED
+new premise:           none
+critical status delta: none; exact evidence frontier advanced one row
+delta-star movement:   none
+compute:               exact sharded Modal replay, 61--63 MB peak RSS
+next route action:     isolate K'=83 before any further row enumeration
+```
+# Cycle 380: MCA K'=83 triple-carrier route cut (2026-08-16)
+
+The current complete pairwise carrier atlas first fails at `K'=83`. Its
+active `one_geom` cell has defects `(50,49,49,48)`, completion maxima
+`(23,24,24,25)`, and label `F23__N4_t0__N5_t2`. The exact premium is
+
+```text
+41411584407693108041789796771180703922717609427,
+```
+
+above the safe ceiling by
+
+```text
+46770156546844646871611081711174519620031307.
+```
+
+The cell forces two six-dimensional spaces inside the same
+eight-dimensional `H_3`. Their intersection has dimension at least four
+on a union of size `29..32`. A bounded exact replay applied all four
+ordinary fixed-union caps; none changes the premium. This proves a route
+cut, not a counterexample to MCA.
+
+The inherited branch-free baseline is already far above the ceiling at
+`K'=81` and worsens at sampled later checkpoints, so the finite route
+cannot be continued by reverting to uncoupled total capacities.
+
+```text
+result:                PROVED first pairwise-atlas wall at K'=83
+closed prefix:         10..82
+remaining rank nine:  83..15528
+new nodes:             1 PROVED route cut
+new premise:           none
+critical status delta: none
+delta-star movement:   none
+compute:               one active-cell Modal replay, 60 MB peak RSS
+falsified continuation: pairwise atlas plus automatic Grassmann cap
+next route action:     derive a nonseparable triple-carrier support-3/4/5
+                       census for the explicit (23,24,24,25) cell
+```
+# Cycle 381: MCA K'=79..82 and K'=83 wall upstream export (2026-08-16)
+
+The four proved full-carrier-atlas row closures and the proved pairwise-atlas
+method wall were exported to upstream draft PR #1170 at commit
+`6b4902ccc5b4df02dddaea4969f3278dfc829953`. The packet is stacked on the
+same exact PR #1169 head and does not overlap the complementary rich-flat
+router in PRs #1171--#1173.
+
+The export contains a compact hash-pinned manifest, primary and independent
+exact verifiers, an optional one-row full-frontier verifier, source-tree and
+source-contract custody, the paper proposition, and explicit nonclaims. A
+fresh full replay of `K'=82` on Modal reconstructed 49,900 exceptional
+tuples and 48,822,291 reroute evaluations at 67 MB peak RSS. The paper builds
+in three passes at 176 pages.
+
+PR #1170 remains draft, open, and mergeable. Its only reported check failure
+is the repository's unrelated Vercel authorization gate. The review boundary
+now prints the closed prefix `K'=10..82`, first open rank-nine row
+`K'=83`, and the exact nonseparable support-`3/4/5` triple-carrier target.
+
+```text
+result:                EXPORTED K'=79..82 closures and K'=83 route cut
+starting local pin:    42ad09faf86b9a3624a361b2cc8d1a57f201501c
+upstream PR:           #1170
+upstream commit:       6b4902ccc5b4df02dddaea4969f3278dfc829953
+DAG status delta:      none; source nodes were already PROVED
+upstream terminal:     rank-nine split-pencil prefix advanced to 10..82
+delta-star movement:   none
+new assumptions:       none
+live compute requests: none
+next route action:     derive or falsify a genuinely nonseparable
+                       support-3/4/5 triple-carrier census in the explicit
+                       K'=83 (23,24,24,25) active cell
+```
+# Cycle 382: MCA K'=83 adjacent-support carrier payment (2026-08-16)
+
+The former K'=83 route wall is paid. Three generic analytic nodes were
+proved: adjacent-flat circuit coupling, single completion carriers, and the
+fixed-union adjacent-support census. The last theorem couples every pair
+`d/(d+1)` with `d<=g-1`; disjoint pairs may be charged simultaneously.
+
+An exact support-2/3 audit repaired two provenance omissions in the earlier
+frontier. The complete partition is one ordinary lane plus offsets `1..72`,
+with every exact offset pair retained before geometry. The former ordinary
+wall `(M_2,M_3,M_4,M_5)=(18,18,36,36)` is paid in both exhaustive `T23/A23`
+positions by the disjoint support pairs 4/5 and 6/7.
+
+Primary and independent Modal implementations certify all 73 lanes. The
+global completion premium is
+
+```text
+41364793335621487128860475977676014245181683050,
+```
+
+at offset 2, below the exact ceiling by
+
+```text
+20915524776266057709711793515157915895070.
+```
+
+Exact component arithmetic leaves positive gap
+
+```text
+104570295123758938048546273477992878508577141441163332394.
+```
+
+```text
+result:                CLOSED K'=83
+newly closed rows:     83
+closed prefix:         10..83
+remaining rank nine:  84..15528
+new nodes:             4 PROVED
+new premise:           none
+critical status delta: none; exact evidence frontier advanced one row
+delta-star movement:   none
+compute:               73 primary/audit lanes, 63 MB peak RSS
+next route action:     test K'=84 and seek a symbolic adjacent-support
+                       continuation before further row-by-row enumeration
+```
+# Cycle 383: MCA K'=83 adjacent-support upstream export (2026-08-16)
+
+The proved adjacent-flat coupling, single-completion carrier, fixed-union
+adjacent-support census, and exact `K'=83` payment were exported to draft
+upstream PR #1170 at commit
+`e356ef800479d3e3c4c00218b63b1ae898b58362`. The PR remains stacked on
+the exact PR #1169 head and explicitly leaves the complementary rich-flat
+router in PRs #1171--#1173 unchanged.
+
+The export contains a hash-pinned manifest, primary and independent exact
+verifiers, all six source tree/contract pins, the three analytic
+propositions used by the row payment, the rebuilt 178-page paper, and
+explicit nonclaims. The historical `K'=83` pairwise-atlas wall remains a
+valid method limitation, but no longer defines the active frontier.
+
+The PR review boundary now records the closed rank-nine prefix `K'=10..83`,
+the first open row `K'=84`, the exact 73-lane payment, and the requirement
+to seek a symbolic adjacent-support continuation before further row-by-row
+enumeration. The only reported check failure is the repository's unrelated
+Vercel authorization gate.
+
+```text
+result:                EXPORTED K'=83 closure
+starting local pin:    f6849a90abfa9c8fe2e7b62dfbd2e510165957d1
+upstream PR:           #1170
+upstream commit:       e356ef800479d3e3c4c00218b63b1ae898b58362
+DAG status delta:      none; source nodes were already PROVED
+upstream terminal:     rank-nine split-pencil prefix advanced to 10..83
+delta-star movement:   none
+new assumptions:       none
+live compute requests: none
+next route action:     derive the K'-parametric adjacent-support envelope
+                       and use K'=84 only as a route-locating diagnostic
+```
+# Cycle 384: MCA K'=84 adjacent-support payment (2026-08-16)
+
+The proved fixed-union adjacent-support router was extended by one exact row.
+For `q=74`, the support-2/3 partition is one ordinary lane plus offsets
+`1..73`. Complete primary and independently written audit waves each
+finished all 74 lanes under 62 MB peak RSS. The compact merger certified all
+148 jobs, exact coverage-key agreement, 15,651,063 source units, 109,557,441
+raw rows, and the independently broader audit geometry ledger.
+
+The global maximum is the ordinary raw-safe template
+
+```text
+s2=74/s3=55/s4=45/s5=37/ordinary-single/
+c6d3/c7d2/c8d1/c9d0/raw-safe
+```
+
+with premium
+`41388798786059119503097492734939028640066114130`, below the exact safe
+ceiling by `44581160171407926086602515730765812413619`. Substitution into
+the integral rank-nine component ledger leaves positive gap
+`222890179708699305421112332292209416493280153112001413582`.
+
+The new node
+`rate_half_mca_rank11_k84_adjacent_support_carrier_payment` is therefore
+`PROVED`, extending the finite rank-nine closed prefix to `K'=10..84`.
+The parity-stable raw support-three family was also diagnosed: after its
+mandatory `A45+A67` payment it is harmless at K'=84, remains safe only
+through K'=110, and crosses at K'=111/112. That later crossing is a route
+boundary, not an interval theorem or a counterexample to the row claim.
+
+```text
+result:                K'=84 PROVED
+starting local pin:    e356ef800479d3e3c4c00218b63b1ae898b58362 (upstream export)
+primary app:           ap-1oAXY3d5xqakObFjYF0Ck6
+audit app:             ap-CE1YUXVUmNXrwze1lDP6Wn
+merger app:            ap-UwcGaJZm4Wst0Ozq1NMRIp
+payment app:           ap-H3we0j1uIdfDebkyKPSRbR
+DAG status delta:      +1 PROVED
+rank-nine prefix:      10..84
+first open row:        K'=85
+delta-star movement:   none
+new assumptions:       none
+next route action:     extract a parametric domination theorem from the
+                       raw-safe ordinary/offset templates before another
+                       broad finite-row wave
+```
+# Cycle 385: MCA K'=84 adjacent-support upstream export (2026-08-16)
+
+The proved exact `K'=84` adjacent-support payment was exported as a narrow
+extension of draft upstream PR #1170 at commit
+`cba05d4ca6c8cb08fd3444a72a55f298fe47b0bc`. The PR remains stacked on
+the exact PR #1169 head. Open PRs #1171--#1173 still address the
+complementary minimizing-pair/rich-flat route and are neither dependencies
+nor superseded results.
+
+This extension introduces no new analytic theorem. It pins the preceding
+`K'=83` certificate, the proved prize-DAG source node, both router sources,
+two complete 74-lane captures, the compact merger, and the exact component
+payment. Primary and independent compact verifiers reconstruct the premium
+ceiling and component ledger; the primary rejects six hostile mutations.
+
+The upstream paper and route ledger now record closed rank-nine prefix
+`K'=10..84`, first open row `K'=85`, premium margin
+`44581160171407926086602515730765812413619`, and component gap
+`222890179708699305421112332292209416493280153112001413582`. The rebuilt
+Grande Finale is 178 pages with SHA-256
+`3a508a300cd6e5e726a4e5b342339113a34d0988680c7f5b80e3eb0c4dbece80`.
+
+```text
+result:                EXPORTED K'=84 closure
+starting local pin:    9a0baa42b35790f1e0d383e18dd721bcb7d9a86c
+upstream PR:           #1170
+upstream commit:       cba05d4ca6c8cb08fd3444a72a55f298fe47b0bc
+manifest SHA-256:      4317c574e73626e2491e3dcfc777ab7e09c98333493f9161eb432a5ecfa355e3
+primary verifier:      55c2586177919e5d9141a5f42e89d6f94e7a8692c8f197c009a5349e1b663b3d
+independent verifier:  73d3b364336197b403dcfa13fc2f8c37bdd8ccb8499a387e062f9642220f4c51
+DAG status delta:      none; source node was already PROVED
+upstream terminal:     rank-nine split-pencil prefix advanced to 10..84
+delta-star movement:   none
+new assumptions:       none
+live compute requests: none
+next route action:     derive a K'-parametric adjacent-support domination
+                       theorem; use K'=85 only as a route-locating diagnostic
+```
+## Work cycle 386: K'=85 raw-threshold envelope
+
+### Pins
+
+- starting Codex pin: `769fc9994d54909841fd4326be13927fab28c87c`
+- preregistered source pin: `2a8728f9e541cb15eeb3cc5854b3d16a4e694ed4`
+- canonical Fable prize pin: `28a62b40060c39c8ee35deaac819f33f18824303`
+- upstream main pin: `93fba1be3f3299b0ba4708d88715377bbb656e45`
+- relevant upstream PR: `#1170` (proved prefix through K'=84)
+- critical snapshot before DAG changes: 27 `TARGET`, 37 `CONDITIONAL`
+
+### Result: NARROWED
+
+Two exact implementations classified every pre-geometry unit in all 74
+positive support-2/3 offset lanes at K'=85. Modal app
+`ap-rTfQtYZuTdgjfk5IWhal5W` passed all 148 jobs in about 27 seconds. Its
+capture SHA-256 is
+`5832710721306c16477523b02303fb6f45fb293f6ea53c71e26bad2a9babac13`.
+The merger certified 16,028,400 source units and 112,198,800 raw rows per
+implementation with exact profile and classification-digest agreement.
+
+The exact partition is:
+
+```text
+raw-safe units       15,696,867
+raw-unsafe units        331,533
+unsafe offsets              1..41
+fully safe offsets          42..74
+```
+
+The global raw-safe leader occurs at offset 11 and branch
+
+```text
+s2=56/s3=45/s4=58/s5=37/offset11/c6F/c7F/c8F/c9F
+```
+
+with premium
+`41412868016209776721228891386909879523306833354` and positive ceiling
+margin `1793645398692419426975603430807602228515`.
+
+### Burn-down
+
+- node/workboard item attacked: local `rate_half_band_crossing_location`,
+  through the first open rank-nine component row K'=85
+- DAG status delta: none; K'=85 remains unproved
+- upstream terminal delta: none; K'=84 remains the last exportable prefix
+- route delta: the unsampled-offset question is closed exactly; the remaining
+  row obligation is a finite 331,533-unit post-carrier domination theorem
+- delta-star bracket movement: none
+- new assumptions: none
+- live compute request: test fixed-union-only domination against the offset-11
+  leader before pricing any adjacent-support edge
+- next route-deciding action: falsify the fixed-union-only domination on
+  offsets 11, 1, 23, and 41; if it survives, extend its exact certificate,
+  otherwise retain the first witness and identify the one missing adjacent
+  charge
+## Work cycle 387: K'=85 best-single adjacent payment
+
+### Pins
+
+- starting Codex pin: `197c7d3e98d477568c784a62289365d9b4a3a326`
+- canonical Fable prize pin: `28a62b40060c39c8ee35deaac819f33f18824303`
+- upstream main pin: `93fba1be3f3299b0ba4708d88715377bbb656e45`
+- relevant upstream PR: `#1170` (proved prefix through K'=84)
+- critical snapshot before DAG changes: 27 `TARGET`, 37 `CONDITIONAL`
+
+### Result: PROVED
+
+Four progressively weaker candidate payments were attacked before the full
+wave. Fixed-union-only and edge-4-only domination were falsified by exact
+witnesses; witness replay identified adjacent edges 4 and 6 as real but
+case-dependent charges. This led to the honest statement: each residual
+profile may use its best individually valid single adjacent edge, without
+composing overlapping edges.
+
+The paired exhaustive wave completed as Modal app
+`ap-avKuaBEl3bNsvVug235bXS`. Its capture SHA-256 is
+`a2a47722b66ff40ed83b44c47dc725b341700ffc2c9653a61e63f7dff1fedfa8`.
+Primary and independent traversals agree on all 41 residual offsets,
+12,788,064 source units, 331,533 raw-unsafe units, and 49,090,656
+deduplicated carrier profiles per implementation. Every profile is at most
+the exact offset-11 leader
+
+```text
+P_85=41412868016209776721228891386909879523306833354.
+```
+
+Together with the paired ordinary lane and complete raw-threshold envelope,
+this certifies the whole `K'=85` carrier frontier. Modal app
+`ap-9R6TUWXTLwS11AiqMsAem5` then gave exact safe-ceiling margin
+`1793645398692419426975603430807602228515` and positive component gap
+
+```text
+8967598503742781003071510733325918643075973211834024001.
+```
+
+The compact node
+`rate_half_mca_rank11_k85_best_single_adjacent_payment` is therefore
+`PROVED`, extending the finite rank-nine closed prefix to `K'=10..85`.
+
+### Burn-down
+
+- node/workboard item attacked: local `rate_half_band_crossing_location`,
+  through the first open rank-nine component row `K'=85`
+- DAG status delta: one new proved background certificate; critical status
+  labels unchanged
+- finite-row delta: closed prefix advanced from `10..84` to `10..85`
+- upstream terminal delta: none until PR `#1170` is extended and accepted
+- route delta: raw safety alone is insufficient, but one individually valid
+  adjacent edge pays every residual profile at `K'=85`
+- delta-star bracket movement: none
+- new assumptions: none
+- first open finite row: `K'=86`
+- next route-deciding action: export the compact K'=85 packet upstream, then
+  test whether `K'=86` admits the same best-single theorem or exposes the
+  predicted adjacent-support crossing
+# Cycle 388: MCA K'=85 best-single upstream export (2026-08-17)
+
+The proved exact `K'=85` best-single adjacent-support payment was exported
+as an extension of draft upstream PR #1170 at commit
+`7356a104a4ec2d21f6c0fc32a3fb3c394cf5e8cf`. The PR remains stacked on the
+exact PR #1169 head. Open PRs #1171--#1173 still address the complementary
+minimizing-pair/rich-flat route and are neither dependencies nor superseded
+results.
+
+The export preserves the route repair discovered during falsification.
+Fixed-union-only domination and fixed edge-4 domination are false. The
+proved statement instead takes the best individually valid single adjacent
+edge for each residual carrier profile and explicitly forbids simultaneous
+overlapping-edge composition.
+
+The certificate pins the preceding `K'=84` packet, the public prize-DAG
+source node, three paired finite waves, every mathematical source, and the
+component-payment output. Primary and independent compact verifiers
+reconstruct the finite coverage identities, premium ceiling, and component
+ledger; the primary rejects seven hostile mutations.
+
+The upstream paper and route ledger now record closed rank-nine prefix
+`K'=10..85`, first open row `K'=86`, premium margin
+`1793645398692419426975603430807602228515`, and component gap
+`8967598503742781003071510733325918643075973211834024001`. The rebuilt
+Grande Finale is 179 pages with SHA-256
+`55965d8b6c26e5e7d0c85649d5e672ea50a5c1da7a46dba0ba7142770794bf19`.
+The sole GitHub check remains the repository-wide Vercel authorization
+failure; it is unrelated to this mathematical packet.
+
+```text
+result:                EXPORTED K'=85 closure
+starting local pin:    c4fdef465aabc8abae7a18b9694bed9cf34e362b
+upstream PR:           #1170
+upstream commit:       7356a104a4ec2d21f6c0fc32a3fb3c394cf5e8cf
+manifest SHA-256:      ae598632a204181a0ef0cc8895c077af22d16587f2ab209b7cebb3e26c2cb5ee
+primary verifier:      527b5f8be7863d67e59d338fa95871aa087a38513585efc89f4f87db80db50e7
+independent verifier:  15b58870dbaff03768c4d8bfa196cede8302bfc9ac7c3ac5e06f65f5813e4e6c
+DAG status delta:      none; source node was already PROVED
+upstream terminal:     rank-nine split-pencil prefix advanced to 10..85
+delta-star movement:   none
+new assumptions:       none
+live compute requests: none
+next route action:     test best-single domination at K'=86 while deriving
+                       a K'-parametric adjacent-support continuation
+```
+## Work cycle 389: K'=86 raw-threshold envelope
+
+### Pins
+
+- starting Codex pin: `56cce936a0cdc8bc49cfda03f3e10e026613f1d2`
+- canonical Fable prize pin: `28a62b40060c39c8ee35deaac819f33f18824303`
+- upstream main pin: `93fba1be3f3299b0ba4708d88715377bbb656e45`
+- relevant upstream PR: `#1170` at K'=85 head `7356a104`
+- critical snapshot before DAG changes: 27 `TARGET`, 37 `CONDITIONAL`
+
+### Result: NARROWED
+
+The initial full-geometry pilot was formally incomplete: nine jobs finished,
+but the independent offset-23 job exceeded its 645-second wall. Four paired
+lanes agreed and were safe. Rather than fund a longer redundant geometry
+run, the route switched to the cheaper complete raw-threshold classification.
+
+Modal app `ap-kjz4PvurdW9cunGO3pse1N` passed all 150 raw jobs. Its capture
+SHA-256 is
+`7aa3c934e610aa717ba25b8b7acf424c0f59ad068ec294eac5b448d9abb81612`.
+Primary and independent traversals agree on 16,897,650 source units and
+118,283,550 raw rows per implementation.
+
+```text
+raw-safe units       16,482,237
+raw-unsafe units        415,413
+unsafe offsets              1..42
+fully safe offsets          43..75
+```
+
+The global raw-safe leader occurs at offset 32 and branch
+
+```text
+s2=73/s3=41/s4=39/s5=57/offset32/c6F/c7F/c8F/c9F
+```
+
+with premium
+`41436891148468120556440841127823744176664445997` and positive ceiling
+margin `2429142732593969226237923721701123878841`.
+
+### Burn-down
+
+- node/workboard item attacked: local `rate_half_band_crossing_location`,
+  through the first open rank-nine component row `K'=86`
+- DAG status delta: none; `K'=86` remains unproved
+- upstream terminal delta: none; `K'=85` remains the last exportable prefix
+- route delta: all unsampled-offset uncertainty is removed; the remaining
+  row obligation is a finite 415,413-unit post-carrier domination theorem
+- delta-star bracket movement: none
+- new assumptions: none
+- next route-deciding action: adapt the K'=85 best-single residual scanner
+  to offsets `1..42`, first stress the likely leaders, and launch a complete
+  paired residual wave only if the statement survives
+## Work cycle 390: K'=86 best-single adjacent payment
+
+### Pins
+
+- starting Codex pin: `236ef2bcb`
+- canonical Fable prize pin: `28a62b40060c39c8ee35deaac819f33f18824303`
+- upstream main pin: `93fba1be3f3299b0ba4708d88715377bbb656e45`
+- relevant upstream PR: `#1170` at K'=85 head `7356a104`
+- critical snapshot before DAG changes: 27 `TARGET`, 37 `CONDITIONAL`
+
+### Result: PROVED
+
+The K'=86 raw envelope left exactly 415,413 unsafe units on offsets 1..42.
+An eight-job adversarial stress wave survived offsets 1, 23, 32, and 42 with
+4,954,135 carrier profiles per implementation. The complete paired wave then
+passed all 84 jobs as Modal app `ap-HSdSkI0KYmWfnz0jL0Bron`. Capture SHA-256:
+`bc67b9fa9ffa6b386d5d5f9e053e2d5a99a8451f2e9ae8d03c0095cc6f867349`.
+
+```text
+source units per implementation       13,571,481
+raw-unsafe units per implementation      415,413
+carrier profiles per implementation   62,159,220
+completion premium
+  41436891148468120556440841127823744176664445997
+safe-ceiling margin
+  2429142732593969226237923721701123878841
+```
+
+The broader route pilot had been incomplete in an unrelated offset-23 audit
+job. A dedicated checker now verifies the two completed ordinary jobs inside
+that pinned capture: 504,660 source units, 3,532,620 raw rows, and equal
+2,718,499-row geometry traversals, all below the global leader.
+
+Modal app `ap-3mwC5dZ9yYxOTcOJx9JygE` independently reconstructed the exact
+component payment. Capture SHA-256:
+`252d9dfa3f4c6e819a706a54e437aae1337907473e3dd3113bff460764007f3e`.
+The exact component gap is
+
+```text
+12144862496270285686198005257330878943217549361781518735>0.
+```
+
+The compact node
+`rate_half_mca_rank11_k86_best_single_adjacent_payment` is therefore
+`PROVED`, extending the finite rank-nine prefix from `10..85` to `10..86`.
+
+### Burn-down
+
+- node/workboard item attacked: local `rate_half_band_crossing_location`,
+  through the first open rank-nine component row `K'=86`
+- DAG status delta: one new background `PROVED` node; critical-folder status
+  counts unchanged
+- upstream terminal delta: none yet; `K'=85` remains the last exported prefix
+- route delta: the K'=86 finite row is closed without new assumptions
+- delta-star bracket movement: none
+- next route-deciding action: export K'=86 onto upstream PR `#1170`, then
+  probe `K'=87` with the same raw-threshold-first stopping discipline
+## Work cycle 391: export K'=86 best-single payment upstream
+
+### Pins
+
+- source Codex pin: `a0f03f3af3b8bffb303dfe8e0b338b40e49da5ee`
+- source node tree: `5d5e1503591ec1ebca92847538f3b1a7d6ef6dfb`
+- source contract SHA-256:
+  `b318de9938264a3306372b473513b1975e6941204a39c03d07a5ff16b62e896f`
+- canonical Fable prize pin: `28a62b40060c39c8ee35deaac819f33f18824303`
+- upstream main pin: `93fba1be3f3299b0ba4708d88715377bbb656e45`
+- upstream PR: `#1170`, advanced from `7356a104` to `7214947e`
+
+### Result: EXPORTED
+
+PR `#1170` now carries the complete K'=86 supplemental packet on the same
+base-field-normalized split-pencil review lane as K'=83..85. The packet adds:
+
+- source-bound manifest
+  `kb-mca-rank11-k86-best-single-adjacent-payment-v1`;
+- compact primary verifier with eight hostile mutations;
+- independent finite-coverage and exact-arithmetic audit;
+- the K'=86 proposition and proof in Grande Finale;
+- updated `agents.md`, threshold ledger, and agent log.
+
+Control pins:
+
+```text
+manifest
+  d0869e5755252d08a59bfe763fd33c5032796ebc67ca410c7432d98d05762072
+primary verifier
+  a1078fb15349df3cf40000d90da98dfb5dcf8cf149b7f9a333b72121afd2b68a
+independent verifier
+  fabb09251f7d0b453ed4f2110dee233cefe4294c9b1f473a44e5911f61ad1de3
+Grande Finale PDF, 180 pages
+  4c3fa80a89397d0b131aae52a6f15b5f7a687ac0f5cf556464610094548566f0
+```
+
+The PR remains draft and GitHub reports it mergeable. The only status is the
+repository-wide Vercel failure `Authorization required to deploy`; there are
+no code check runs on the head.
+
+### Burn-down
+
+- upstream terminal delta: rank-nine closed prefix advances `10..85` to
+  `10..86`; first open rank-nine row advances to `K'=87`
+- active-v4 ledger movement: none
+- prize terminal movement: none
+- nonclaims retained: rank eight, chronology, aggregate error rank eleven,
+  KoalaBear, and both prize problems remain open
+- next route-deciding action: attack K'=87 locally with the raw-threshold
+  envelope before selecting a carrier theorem
+## Work cycle 392: K'=87 raw-threshold envelope
+
+### Pins
+
+- starting Codex pin: `fdc4a2718`
+- canonical Fable prize pin: `28a62b40060c39c8ee35deaac819f33f18824303`
+- upstream main pin: `93fba1be3f3299b0ba4708d88715377bbb656e45`
+- relevant upstream PR: `#1170` at K'=86 head `7214947e`
+- critical snapshot before DAG changes: 27 `TARGET`, 37 `CONDITIONAL`
+
+### Result: NARROWED
+
+The preregistered complete raw-threshold wave passed all 152 jobs as Modal
+app `ap-xwOdMdTBRKtC2aIHtpRSw0`. Capture SHA-256:
+`2722d7811cf29e425bd67fd49a46f586efe2f21c0dda698e369dcfe4fd48b449`.
+Primary and independent traversals agree on all 76 offsets, all
+17,801,784 source units, and all 124,612,488 raw rows per implementation.
+
+```text
+raw-safe units       17,290,107
+raw-unsafe units        511,677
+unsafe offsets              1..43
+fully safe offsets          44..76
+```
+
+The global raw-safe leader occurs at offset 9 and branch
+
+```text
+s2=55/s3=46/s4=37/s5=30/offset9/c6F/c7F/c8F/c9F
+```
+
+with premium
+`41460899125475443837881046685022762331499044695`. The exact safe ceiling is
+`41460914669043067085305042221812436226076443389`, leaving positive margin
+`15543567623247423995536789673894577398694`.
+
+### Burn-down
+
+- node/workboard item attacked: local `rate_half_band_crossing_location`,
+  through the first open rank-nine component row `K'=87`
+- DAG status delta: none; `K'=87` remains unproved
+- upstream terminal delta: none; `K'=86` remains the last exported prefix
+- route delta: all raw-offset uncertainty is removed; the row is reduced to
+  a finite 511,677-unit post-carrier domination theorem
+- delta-star bracket movement: none
+- new assumptions: none
+- next route-deciding action: adapt the K'=86 best-single theorem to offsets
+  `1..43`, stress offsets `1`, `23`, `9`, and `43`, and run the complete
+  paired residual wave only if all four survive
+## Work cycle 393: K'=87 best-single route cut
+
+### Pins
+
+- starting Codex pin: `c1a3c5123`
+- canonical Fable prize pin: `28a62b40060c39c8ee35deaac819f33f18824303`
+- upstream main pin: `93fba1be3f3299b0ba4708d88715377bbb656e45`
+- relevant upstream PR: `#1170` at K'=86 head `7214947e`
+- critical snapshot before DAG changes: 27 `TARGET`, 37 `CONDITIONAL`
+
+### Result: ROUTE CUT
+
+The paired best-single stress wave completed all eight jobs as Modal app
+`ap-LHOZ5HAjGEZi9RzlEHSHZH`. Capture SHA-256:
+`28384df190292e49aeb22ded3194f83037700654293fe5ba4518ffd2680a5501`.
+Primary and independent traversals agree exactly. Offsets 9, 23, and 43
+survive; offset 1 is falsified at
+
+```text
+m2=27, m3=28, s2=50, s3=49, s4=48, s5=47
+case=F23__N4_t2__N5_t0
+charges=(32,7),(36,5), high=c6F/c7F/c8F/c9F
+```
+
+The best single adjacent edge leaves premium
+`41535717484613459403166619514559682376379208865`, exceeding the exact
+K'=87 raw-safe leader by
+`74818359138015565285572829536920044880164170`. This is the first finite row
+where the proved K'=85/K'=86 best-single continuation fails.
+
+### Burn-down
+
+- node/workboard item attacked: local `rate_half_band_crossing_location`, at
+  first open rank-nine component row `K'=87`
+- DAG status delta: none; no false statement was promoted
+- upstream terminal delta: none; `K'=86` remains the last exported prefix
+- route delta: a complete best-single wave is blocked by a paired exact
+  witness; three route-deciding lanes nevertheless survive
+- delta-star bracket movement: none
+- new assumptions: none
+- next route-deciding action: compute the exact support-disjoint option table
+  on the witness, testing the non-overlapping edge set `4+6` before designing
+  any broader residual scanner
+## Work cycle 394: K'=87 disjoint-edge witness repair
+
+### Pins
+
+- starting Codex pin: `bf798b434`
+- canonical Fable prize pin: `28a62b40060c39c8ee35deaac819f33f18824303`
+- upstream main pin: `93fba1be3f3299b0ba4708d88715377bbb656e45`
+- relevant upstream PR: `#1170` at K'=86 head `7214947e`
+- critical snapshot before DAG changes: 27 `TARGET`, 37 `CONDITIONAL`
+
+### Result: NARROWED
+
+Modal app `ap-wLdIVTwSfqoHqcbrTReo02` evaluated every support-disjoint
+adjacent-edge option on the exact best-single counterexample. Capture
+SHA-256:
+`9edcb2b46da5f9cb3aa97bcc8f230e0725bc7b2cd72e214477f4c5ece34ba82b`.
+Primary and independent atlases agree exactly.
+
+The valid non-overlapping edge set `4+6` lowers the witness to
+`37213564927666895824914633823577105351210858112`, leaving positive margin
+`4247334197808548012966412861445656980288186583` below the K'=87 raw-safe
+leader. All single-edge choices fail on this profile.
+
+### Burn-down
+
+- node/workboard item attacked: local `rate_half_band_crossing_location`, at
+  first open rank-nine component row `K'=87`
+- DAG status delta: none; one witness is repaired, not the complete row
+- upstream terminal delta: none; `K'=86` remains the last exported prefix
+- route delta: the first best-single obstruction is paid by a proved
+  support-disjoint composition; overlapping-edge composition remains forbidden
+- delta-star bracket movement: none
+- new assumptions: none
+- next route-deciding action: exhaust offset 1 with paired support-disjoint
+  pricing; best-single-surviving offsets 9, 23, and 43 inherit survival
+  without recomputation
+## Work cycle 395: K'=87 disjoint-edge route cut
+
+### Pins
+
+- starting Codex pin: `75c4e2e90`
+- canonical Fable prize pin: `28a62b40060c39c8ee35deaac819f33f18824303`
+- upstream main pin: `93fba1be3f3299b0ba4708d88715377bbb656e45`
+- relevant upstream PR: `#1170` at K'=86 head `7214947e`
+- critical snapshot before DAG changes: 27 `TARGET`, 37 `CONDITIONAL`
+
+### Result: ROUTE CUT
+
+The paired offset-1 support-disjoint falsifier completed as Modal app
+`ap-cJPrOXXEvVBCRydRzokVWK`. Capture SHA-256:
+`dcc663d48ea02daa4267f9a13b4af6889f66d8af9738e35af96df4e42c400e23`.
+Primary and independent traversals agree exactly on the first obstruction:
+
+```text
+m2=28, m3=29, s2=49, s3=48, s4=48, s5=47
+case=F23__N4_t0__N5_t0
+charges=(34,6),(36,5), high=c6F/c7F/c8F/c9F
+```
+
+The only available adjacent edges are 4 and 5. They overlap at support 5,
+so the proved disjoint optimizer can use at most one. Its best price exceeds
+the K'=87 leader by
+`28875175078457354958072343663520239143833856`.
+
+### Burn-down
+
+- node/workboard item attacked: local `rate_half_band_crossing_location`, at
+  first open rank-nine component row `K'=87`
+- DAG status delta: none; no overlapping charge was assumed
+- upstream terminal delta: none; `K'=86` remains the last exported prefix
+- route delta: both best-single and support-disjoint continuations are now
+  cut by paired exact witnesses
+- delta-star bracket movement: none
+- new assumptions: none
+- next route-deciding action: derive and test a simultaneous support-`4/5/6`
+  fixed-union inequality, or strengthen one of the two adjacent-pair caps,
+  before any additional row-wide wave
+## Work cycle 396: K'=87 joint-456 route wall
+
+### Pins
+
+- starting Codex pin: `a927ea5d9`
+- canonical Fable prize pin: `28a62b40060c39c8ee35deaac819f33f18824303`
+- upstream main pin: `93fba1be3f3299b0ba4708d88715377bbb656e45`
+- relevant upstream PR: `#1170` at K'=86 head `7214947e`
+- critical snapshot before DAG changes: 27 `TARGET`, 37 `CONDITIONAL`
+
+### Result: ROUTE WALL
+
+The simultaneous support-`4/5/6` LP probe completed as Modal app
+`ap-D2TbRHCVUrcU61tRsOC4we`. Capture SHA-256:
+`e7a5bd7c42cf067f377aac6176d75c887f371c1c019b3e33fc9ee4bb2eb6e76f`.
+Two exact rational implementations agree on every stratum and on cap
+`26934334803635047410267405026838894905450545600`.
+
+The consequence is valid but insufficient. It leaves the obstruction above
+the K'=87 leader by
+`861283046046284527325636787894941163714537850`, and is weaker here than
+the strongest existing adjacent-pair option.
+
+### Burn-down
+
+- node/workboard item attacked: local `rate_half_band_crossing_location`, at
+  first open rank-nine component row `K'=87`
+- DAG status delta: none; no insufficient inequality was promoted
+- upstream terminal delta: none; `K'=86` remains the last exported prefix
+- route delta: simple simultaneous use of the two adjacent inequalities is
+  proved arithmetically insufficient on the exact wall
+- delta-star bracket movement: none
+- new assumptions: none
+- next route-deciding action: solve the support-`4/5` fixed-union stratum LP
+  with the witness's global raw support caps imposed before aggregation; if
+  this also fails, return to the nested-carrier flag geometry
+## Work cycle 397: K'=87 clipped-45 route wall
+
+### Pins
+
+- starting Codex pin: `c45067434`
+- canonical Fable prize pin: `28a62b40060c39c8ee35deaac819f33f18824303`
+- upstream main pin: `93fba1be3f3299b0ba4708d88715377bbb656e45`
+- relevant upstream PR: `#1170` at K'=86 head `7214947e`
+- critical snapshot before DAG changes: 27 `TARGET`, 37 `CONDITIONAL`
+
+### Result: ROUTE WALL
+
+Modal app `ap-cCC7w2ZcDACsgqKNJS19Ij` solved the `(36,5)` support-4/5
+fixed-union LP with the witness's raw global support caps imposed before
+aggregation. Capture SHA-256:
+`4f3bef9931e692f12b85432719730f433fcb0603cf894982c06a5e9458895120`.
+The two exact allocation orders agree, but the resulting repaired premium
+still exceeds the K'=87 leader by
+`527046372060980182985446452501713227668364930`.
+
+### Burn-down
+
+- node/workboard item attacked: local `rate_half_band_crossing_location`, at
+  first open rank-nine component row `K'=87`
+- DAG status delta: none; an insufficient valid refinement was not promoted
+- upstream terminal delta: none; `K'=86` remains the last exported prefix
+- route delta: pre-aggregation raw clipping strengthens support 4/5 but not
+  enough; the best extant witness payment is the support-5/6 edge
+- delta-star bracket movement: none
+- new assumptions: none
+- next route-deciding action: apply the exact clipped-stratum optimization to
+  support 5/6 on the witness's `(34,6)` carrier
+## Work cycle 398: K'=87 clipped-56 witness repair
+
+### Pins
+
+- starting Codex pin: `7317391d9`
+- canonical Fable prize pin: `28a62b40060c39c8ee35deaac819f33f18824303`
+- upstream main pin: `93fba1be3f3299b0ba4708d88715377bbb656e45`
+- relevant upstream PR: `#1170` at K'=86 head `7214947e`
+- critical snapshot before DAG changes: 27 `TARGET`, 37 `CONDITIONAL`
+
+### Result: NARROWED
+
+Modal app `ap-0M46E2HegLDfuwCNvdJTUm` solved the `(34,6)` support-5/6
+fixed-union LP after imposing the witness's raw support caps before
+aggregation. Capture SHA-256:
+`3f5c2073ae746ba1c546fbc49afa09941280438c94989b9f614bf812a8f42eab`.
+The two exact allocation orders agree.
+
+The resulting cap repairs the support-disjoint counterexample with positive
+margin `1929093338019885320682606421709317172772593344`. The raw support-5
+cap is active, proving that the refinement supplies new arithmetic strength.
+
+### Burn-down
+
+- node/workboard item attacked: local `rate_half_band_crossing_location`, at
+  first open rank-nine component row `K'=87`
+- DAG status delta: none; one witness is repaired, not the full lane
+- upstream terminal delta: none; `K'=86` remains the last exported prefix
+- route delta: a generic-looking pre-aggregation refinement now has positive
+  witness margin after four exact route cuts
+- delta-star bracket movement: none
+- new assumptions: none
+- next route-deciding action: prove and package the generic raw-clipped
+  adjacent-support theorem, then exhaust offset 1 with paired implementations
+## Work cycle 399: raw-clipped adjacent-support theorem
+
+### Pins
+
+- starting Codex pin: `b30896e0d`
+- canonical Fable prize pin: `28a62b40060c39c8ee35deaac819f33f18824303`
+- upstream main pin: `93fba1be3f3299b0ba4708d88715377bbb656e45`
+- relevant upstream PR: `#1170` at K'=86 head `7214947e`
+- critical snapshot before DAG changes: 27 `TARGET`, 37 `CONDITIONAL`
+
+### Result: PROVED
+
+The new background node
+`rate_half_mca_sparse_circuit_raw_clipped_adjacent_support_coupling` proves a
+generic refinement of the fixed-union adjacent-support theorem. Independent
+raw selected-incidence caps on supports `d` and `d+1` may be imposed inside
+the exact fixed-union stratum polytope before the weighted objective is
+maximized.
+
+The proof is a fractional-knapsack exchange argument. Fixing total support
+`d` fills uncoupled strata first and then uses increasing loss ratios
+`b_i/a_i`; fixing support `d+1` gives the reverse dual order `a_i/b_i`.
+Both exact rational verifiers reconstruct the K'=87 `(u,g,d)=(34,6,5)`
+specialization and cap
+
+```text
+14207926136094898913594751174330524101924656533.
+```
+
+The theorem explicitly floors selected-incidence caps by their extension
+factors and forbids composition on overlapping support pairs.
+
+### Burn-down
+
+- node/workboard item attacked: local `rate_half_band_crossing_location`
+- DAG status delta: one new background `PROVED` theorem; critical-folder
+  status counts unchanged
+- graph replay: 2,571 nodes, 7,667 edges; manifest and full prize-DAG checks
+  pass under the 256 MB RAM guard
+- upstream terminal delta: none; `K'=86` remains the last exported prefix
+- route delta: the first K'=87 support-disjoint witness now has a proved,
+  reusable repair rather than a numerical-only observation
+- delta-star bracket movement: none
+- new assumptions: none
+- next route-deciding action: build paired K'=87 adapters using the clipped
+  adjacent cap and exhaust offset 1 before launching any full-row wave
+## Work cycle 400: K'=87 clipped offset-1 survival
+
+### Pins
+
+- starting Codex pin: `cc3d71dfe`
+- canonical Fable prize pin: `28a62b40060c39c8ee35deaac819f33f18824303`
+- upstream main pin: `93fba1be3f3299b0ba4708d88715377bbb656e45`
+- relevant upstream PR: `#1170` at K'=86 head `7214947e`
+- critical snapshot before DAG changes: 27 `TARGET`, 37 `CONDITIONAL`
+
+### Result: NARROWED
+
+The first deployment retained a complete primary survival but timed out the
+uncached audit after `m2=38`. A cached audit-only resume then completed as
+Modal app `ap-ce2sclOGAj09BOGbmk6i7Z`. Its capture SHA-256 is
+`da7e3ec56563f0af995a44fe7a264f5515b48ff759d18519593bc1d00f1d9831`;
+the original paired capture is pinned by
+`7fd211a2ca2a19de5f483eebcc69a29549e529cdaa713431b86645434f0f11ff`.
+
+The merged primary and independent traversals agree on all 462,384 source
+units, 23,104 raw-unsafe units, and 267,056 carrier profiles. Every clipped
+price is at most the K'=87 leader.
+
+### Burn-down
+
+- node/workboard item attacked: local `rate_half_band_crossing_location`, at
+  first open rank-nine component row `K'=87`
+- DAG status delta: none; only one of 43 unsafe offsets is complete
+- upstream terminal delta: none; `K'=86` remains the last exported prefix
+- route delta: the clipped theorem survives the largest and previously
+  falsifying lane; exact memoization reduces the independent runtime sharply
+- delta-star bracket movement: none
+- new assumptions: none
+- next route-deciding action: run a paired cached wave over offsets `1..43`;
+  stop row promotion if any exact paired witness survives the stronger router

@@ -13100,3 +13100,2221 @@ evidence under the strict compute rule and cannot support a `PROVED` status.
 Do not rerun or enlarge it merely for audit completeness. A future theorem-
 bearing campaign must preregister aggregate container-time accounting and a
 full per-shard certificate before launch.
+## K'=83 support-5/6 carrier-frontier diagnostic (INCOMPLETE)
+
+- **target:** repair the claimed first wall at
+  `rate_half_mca_rank11_k83_pairwise_atlas_triple_carrier_wall`
+- **source start:** `714cd8458`; uncommitted experimental router and analytic
+  theorem nodes were used after that pin
+- **script:**
+  `experiments/prize_resolution/rate_half_mca_rank11_k83_stratified56_lane_probe.py`
+- **envelope:** one CPU and 1 GB per lane; measured peak RSS `60--61 MB`
+- **status effect:** diagnostic only; no DAG promotion from this campaign
+
+The first complete plain-frontier replay found two cells above the exact
+premium ceiling `41364814251146263394918185689469529403097578120`:
+
+```text
+ordinary:       48823218479219528366674899867061323445817347365
+  s2=44/s3=37/U23/s4=37/s5=37/c6F/c7F/c8F/c9F
+carrier32:      47607497915597011275062723646851407786954935075
+  s2=44/s3=43/s4=37/s5=37/c6F/c7F/c8F/c9F
+```
+
+The old offset-lane reruns completed lanes one through five. Lane one was
+safe at `39633799344485339625076021189757227349617183809`. Lanes two
+through five were unsafe only on cells deliberately left `plain` by the
+K'=72-era implementation. Their maxima were respectively
+
+```text
+48783905667574087508920103887361714400981382257
+48348402162021094645514147182990352368730621550
+47912801724652164241916586247137000096365503413
+47477104341394433057921308982733002380752506610.
+```
+
+The offset-six app timed out after 590 seconds and emitted no useful partial
+certificate. The six old-lane apps in that launch wave were
+`ap-QpukROdm56bYlGNaN50zKk`, `ap-oE2Y2Yks4BKveY5jEzw2fn`,
+`ap-mHzkJ85vvxFSuNRik3YcHe`, `ap-j8ZR9KC0lmNegQziNNCEu6`,
+`ap-byMLjB7ltmGiZYr6A8OAdT`, and `ap-FTO4glZYB671vfDc4JBmH2`.
+
+The proof audit showed that these plain cells are covered by the already
+proved full-completion pairwise-carrier atlas; the executable router had
+only instantiated the subcases needed through K'=82. Corrected exploratory
+apps `ap-2Y2o1UE58RDlmWcVzdCvnV`, `ap-0Ai6Bt9c5t4C8HCs7KwXbw`,
+`ap-eLJZBZf17FWTVGjbDHtGrM`, `ap-X4Ln2LrAh3sev1ArEGT117`,
+`ap-MIig66IDp5uszg7YiJsPA2`, `ap-ajWzfmdFDI28d1wsBvzsaq`, and
+`ap-wIUyDQhqglQ3ZCHTA2u2eB` were all manually aborted when aggregate wall
+time crossed the protocol limit. They emitted no retained result.
+
+This campaign violated the intended preregistration order and did not have
+resumable checkpoints. Do not cite it as a computational proof or rerun the
+broad Cartesian product. A future replay must first Pareto-compress the
+geometry signatures, emit deterministic per-lane checkpoints, and stop with
+explicit `PASS`, `FAIL`, or `INCOMPLETE` output inside a five-minute aggregate
+and `$1` campaign envelope. The analytic outputs that survive independently
+are the adjacent-flat circuit coupling and its fixed-union support-5/6
+corollary; both have proof-based node-local audits.
+
+## Preregistered K'=83 threshold-pruned complete frontier replay
+
+- **mathematical decision:** determine whether the proved pairwise-carrier
+  atlas plus the proved fixed-union support-5/6 coupling closes the complete
+  K'=83 rank-nine component frontier
+- **lanes:** `ordinary`, `carrier32`, and exact offsets `1..6`; together these
+  partition every support-2/3 position emitted by the proved finite router
+- **primary:**
+  `rate_half_mca_rank11_k83_threshold_frontier_replay.py`, SHA-256
+  `e9cfef842bada08b53f1fb63d764f674b0f7a9374b5d8aff9f6c80ffad7847dd`
+- **independent implementation:**
+  `rate_half_mca_rank11_k83_threshold_frontier_audit.py`, SHA-256
+  `2a196bcdca9c6155398df3bf7d0326b4461e394b8dd1a2294ab3c7cf3b0aff49`
+- **formula source:** K'=83 stratified router SHA-256
+  `069999aee001ee12cc0bfcaf2f8032594b4bef608163584ca06c452ae58e25d4`
+- **dependency archive:** `/tmp/k72-deps.tar.gz`, SHA-256
+  `5ee5d10a20f1e47b1e5400d10177e33bafdc83c0e9b516d6d12dfe0fad93aaf8`
+- **code archive:** `/tmp/k83-threshold-frontier-code.tar.gz`, SHA-256
+  `bcf3bfa31f91bdad88614f873e20ed27b4148dcc3f8597bf6b2e2c886db949f0`
+- **runner:** `tools/modal_run_script_checkpointed.py`, SHA-256
+  `8b387d5efaf7d4bfd434e98ac922324899bf8aa7d611ef4599757289eee07edf`
+
+The threshold proof is exact: if the uncharged premium of one geometry unit
+is already at most the ceiling, every fixed-union and joint charge can only
+lower it, so the complete alternative product need not be expanded. Every
+raw-unsafe unit is expanded through all exhaustive `T/A/F` alternatives.
+Each lane flushes a complete checkpoint with source-unit, raw-row,
+raw-safe-unit, expanded-unit, and geometry-row counts before the next lane.
+The checkpointed runner returns these records even after a hard timeout.
+
+Pilot: the nine diagnosed maximizers replay locally under RAMguard in 3.5
+seconds at the previously measured 61 MB dependency footprint. Campaign
+ceiling: two parallel one-CPU-equivalent/1 GB containers, 285-second child
+hard stop, under five minutes observed wall and under `$1` conservative cost.
+
+```text
+PASS: primary and audit both cover 8/8 lanes, agree on the exact maximum,
+      and place it at or below the ceiling; mint a K'=83 payment node.
+FAIL: preserve the exact leading branch as the next analytic wall.
+INCOMPLETE: retain complete lane checkpoints as evidence only; no promotion.
+```
+
+**Outcome:** `INCOMPLETE`. Primary app `ap-MoCjCkKzQdsFoaDpSgySte`
+and independent app `ap-y3fYR39AKHhomN0R79gHTf` both reached the 285-second
+child wall at 60 MB while processing the first combined ordinary lane. Each
+returned only its `START` record, so no coverage or status claim is retained.
+The failure is computational granularity, not mathematical evidence.
+
+## Preregistered K'=83 offset-7 sharding pilot
+
+The finite router decomposes the failed ordinary lane into a true plain
+residue and offsets `7..36`. The revised primary SHA-256 is
+`692218a499f84739a1e6ce671cadf184da279b53085431d7485989dffa82170d`;
+the revised independent SHA-256 is
+`e10ac6915fdf611d0703cbf6d1c57c71e7e9e1b14177cd1bb62b5a856c274a23`;
+and the code archive `/tmp/k83-threshold-frontier-sharded-code.tar.gz` has
+SHA-256 `6bfaf2ac8292645e39f50d4f0b2dbfb20266d477667aee423f87c084b3f1dc56`.
+All other pinned sources and the checkpointed runner are unchanged.
+
+Pilot exactly one lane, `offset7`, in primary and independent containers.
+This lane has 32 support-2/3 source rows and 5,476 exact support-4/5 rows.
+Both implementations flush progress every 1,000 source units and a complete
+coverage record on success. Hard wall remains 285 seconds per child; campaign
+wall is five minutes and conservative cost is below `$0.05`.
+
+```text
+PASS: exact maxima and coverage counts agree; use measured expansion and wall
+      time to authorize or reject the 38-lane parallel campaign.
+FAIL: retain the exact offset-7 wall.
+INCOMPLETE: use progress counts to redesign the per-unit geometry optimizer;
+            do not launch the 38-lane campaign.
+```
+
+**Pilot outcome:** `PASS`. Primary app `ap-jmgm9FhgNcjwq96l2zR3gJ`
+and independent app `ap-l9ISWe18boAySpaly1diZi` agree on:
+
+```text
+source units:       175232
+raw rows:           1226624
+raw-safe units:     167536
+expanded units:       7696
+maximum: 41364700171905693710376221140276840019247232410
+margin:     114079240569684541964549192689383850345710
+active:  s2=47/s3=40/s4=32/s5=47/c6F/c7F/c8F/c9F/raw-safe
+```
+
+Primary deduplication evaluated 3,898,321 geometry rows; the independent
+all-label implementation evaluated 3,945,508. Both returned the same exact
+maximum. Peak RSS was 60 MB and observed wall was well below two minutes.
+
+## Authorized K'=83 38-lane parallel completion wave
+
+Launch primary and independent containers for each disjoint lane
+
+```text
+ordinary, carrier32, offset1, ..., offset36.
+```
+
+The 76-container peak is below the account limit of 100. Every child has the
+same 285-second hard wall and periodic checkpoints as the pilot. Using the
+offset-7 measured work as a conservative per-lane upper for the smaller
+offsets and the published Modal CPU/memory unit scale, projected total cost
+is below `$1`; observed campaign wall remains below five minutes because the
+lanes run in parallel. Source hashes, archive hashes, theorem versions, and
+PASS/FAIL/INCOMPLETE effects are exactly those of the offset-7 pilot.
+
+To protect WSL RAM, the wave uses one local Modal client and remote
+`starmap`, not 76 resident local clients. The batch runner is
+`tools/modal_run_script_checkpointed_batch.py`, SHA-256
+`9ca25d723d6ec0d616e334cc3fbd7354a0ef0752b1986f331e655dea5db59043`.
+It allocates one CPU and 1 GB per remote child, returns each child's flushed
+stdout independently, and emits a final expected/completed/failures ledger.
+
+The wave is proof-usable only if all 38 primary lanes and all 38 independent
+lanes complete, lane maxima agree pairwise, and the global maximum is at most
+the exact ceiling. Any missing or disagreeing lane makes the wave
+`INCOMPLETE`; no partial prefix promotes K'=83.
+
+**Wave outcome:** `INCOMPLETE`, with exact route information. Batch app
+`ap-FCVIzeLq0GH1yjqXU9SPha` completed all 76 jobs at 58--60 MB. Exactly two
+jobs returned mathematical `FAIL`, namely primary and audit `ordinary`; no
+job timed out. The other 37 lane pairs returned `PASS`. Raw batch SHA-256 is
+`87bbe929745cd26acfe445bade74517325d79befe99b97da10ac08cdbbf84922`.
+
+Both implementations agree on the ordinary wall:
+
+```text
+defects:  (73,37,37,37)
+maxima:   (0,36,36,36)
+high:     c6d3/c7d2/c8d1/c9d0
+premium:  46067025990627744112258469425635158852400659940
+deficit:   4702211739481480717340283736165629449303081820
+```
+
+The cell has an unconditional support-three completion carrier of size 38
+and eight-dimensional annihilator. A focused exact replay applies that
+`(38,8)` fixed-union charge plus the proved support-4/5 and support-5/6
+couplings and obtains premium
+`34180322136602231166354248419499424949751610015`, safely below the ceiling
+by `7184492114544032228563937269970104453345968105`.
+
+The same audit found a second completeness issue: pre-charge Pareto
+compression of support-2/3 vectors cannot preserve offset-dependent carrier
+provenance. Therefore the former lanes through offset 36 are evidence only.
+The corrected exact partition is one ordinary lane plus offsets `1..72`,
+with every exact defect pair retained before geometry.
+
+## Preregistered exact-router repair pilot
+
+- **primary SHA-256:**
+  `bd55cb64beff7a2acc119030fed42968c8b251247131213cdc15d446aa5b7f55`
+- **independent SHA-256:**
+  `7022c625a3039b2aae96306e69ea1c1c09416a5498081978667ce5ea12c0868f`
+- **code archive:** `/tmp/k83-threshold-frontier-exact-code.tar.gz`, SHA-256
+  `f7af236d6886d1ad7681bd39e72306b3c25a91d26e6b1d3f54c8c0937bc979ac`
+- **pilot lanes:** repaired `ordinary` and exact `offset7`, primary plus audit
+
+The repaired ordinary router retains every positive single support-two or
+support-three carrier before Pareto compression, while positive
+`M3-M2=offset` rows are partitioned exactly for all offsets `1..72`.
+The four pilot children use one CPU, 1 GB, periodic checkpoints, and the
+285-second hard wall. Conservative campaign cost is below `$0.10`.
+
+```text
+PASS: both implementations agree and both lanes are safe; authorize two
+      <=66-container exact-offset waves for offsets 1..72.
+FAIL: retain the exact repaired wall.
+INCOMPLETE: refine the failing lane only; no broad rerun.
+```
+
+**Pilot outcome:** `FAIL`, with a narrower exact wall. Modal batch app
+`ap-IyNq9TiXnzgFvRFLmwRYqB` completed all four jobs at 57--60 MB without a
+timeout. Primary and audit agree that exact offset 7 is safe, but the repaired
+ordinary lane has
+
+```text
+defects:  (55,55,37,37)
+maxima:   (18,18,36,36)
+high:     c6F/c7F/c8F/c9F
+premium:  44127003119745923941522954461412336564614624900
+deficit:   2762188868599660546604768771942807161517046780
+```
+
+The broad exact-offset waves remain unauthorized until this cell is paid.
+
+## Preregistered K'=83 adjacent-high fixed-union probe
+
+The ordinary wall already has exhaustive support-2/3 alternatives
+`T23=(u,g)=(39,7)` and `A23=(38,8)`. The generic adjacent-flat circuit
+coupling applies not only to supports 5/6 but to every adjacent support pair
+`d/(d+1)` with `g>=d+1`. The targeted script evaluates the exact wall under
+all disjoint matchings of the available pairs `4/5,5/6,6/7,7/8`; overlapping
+pairs are never charged simultaneously.
+
+- **script:**
+  `experiments/prize_resolution/rate_half_mca_rank11_k83_adjacent_high_support_probe.py`
+- **scope:** one container, one CPU, 1 GB, 285-second child wall
+- **expected cost:** below `$0.01`
+
+```text
+SAFE: both exhaustive T23/A23 alternatives are below the ceiling; generalize
+      the adjacent-support fixed-union theorem and repair the exact router.
+WALL: at least one exhaustive alternative remains unpaid; preserve it as the
+      next analytic wall.
+INCOMPLETE: retain no mathematical conclusion.
+```
+
+**Outcome:** `SAFE`. Modal app `ap-ltflETo1CTk9D8ndmZOGnD` used 63 MB and
+returned in under one minute. The script SHA-256 is
+`999c5a815285d4e989b4a176ec332526d9e266208e4e11fd91f5a10a76c892c3`.
+Both routes select the support-disjoint pairs 4/5 and 6/7:
+
+```text
+T23 (39,7): premium 28580257237466146031071834658493035776688499195
+             margin 12784557013680117363846351030976493626409078925
+A23 (38,8): premium 28138384063262743811603676163266039013680815843
+             margin 13226430187883519583314509526203490389416762277
+```
+
+## Preregistered adjacent-router exact pilot
+
+The generic theorem has now been minted as
+`rate_half_mca_sparse_circuit_fixed_union_adjacent_support_coupling`. The
+primary and independent routers retain fixed-union provenance through
+Pareto compression and optimize only over support-disjoint adjacent pairs.
+
+- **primary SHA-256:**
+  `1c19b328e667feb49b44c6e70744a37237c3a0dae8f09e55595108f31e9bf9b7`
+- **independent SHA-256:**
+  `77dabfcfa552f7a1c5939f110b5142742bacd5df3c71947b1d8090030b24a7bf`
+- **archive:** `/tmp/k83-threshold-frontier-adjacent-code.tar.gz`, SHA-256
+  `327c677b870233b5b43609203a45c12ca478a719da3b9391c61860d9ddbe6b49`
+- **lanes:** exact `ordinary` and `offset7`, primary plus audit
+- **envelope:** four one-CPU, 1 GB containers; 285-second child wall; below
+  `$0.10` conservative cost
+
+```text
+PASS: both implementations agree on complete safe lanes; authorize the two
+      exact offset waves.
+FAIL: preserve the exact maximizing branch as the next analytic wall.
+INCOMPLETE: reduce computational granularity without making a coverage claim.
+```
+
+**Outcome:** `PASS`. Batch app `ap-Qr5dCpKMRHiLusDi0QczQU` completed all
+four jobs at 63 MB without timeout. The raw output SHA-256 is
+`73d8348274b25911e7d0b13a404b2adb57ff24d022043be1b7d6ebed7548cb25`.
+Primary and audit agree exactly:
+
+```text
+ordinary:  maximum 41363991498791696492883838631369698521229319916
+           margin      822752354566902034347058099830881868258204
+offset 7:  maximum 41364734718541076704831964436177797049983165655
+           margin       79532605186690086221253291732353114412465
+```
+
+## Authorized adjacent-router exact offset waves
+
+The remaining exact partition is offsets `1..72`. Run primary and audit for
+offsets `1..36` in wave A and `37..72` in wave B. Each wave has 72 containers,
+below the account limit of 100. Source, archive, dependency, runner, memory,
+and timeout hashes are exactly those of the passing adjacent-router pilot.
+The duplicated offset-7 pilot is intentionally rerun inside wave A so each
+wave output is a self-contained interval certificate.
+
+Conservative cost remains below `$1` across both waves based on the measured
+pilot. A wave is proof-usable only if all 72 jobs complete, every primary and
+audit lane pair agrees on coverage, maximum, and margin, and every margin is
+positive. Any missing lane makes the K'=83 payment `INCOMPLETE`.
+
+**Wave-A checkpoint:** the local Modal client was mistakenly launched under
+RAMguard's five-minute `local` profile. It returned 64/72 remote checkpoints
+before the local wall: all 36 primary lanes and 27 audit lanes were safe;
+`audit:offset19` alone reached the 285-second child wall after 265,000 of
+295,704 units, and audit offsets 20--28 were not returned. The partial output
+SHA-256 is `dc2e285843645a3d5f0fa3e96dd2bab0a7b63ceffcf790db025405546dcf69f0`.
+These complete per-lane checkpoints remain proof-usable after a successful
+repair supplies every missing lane.
+
+## Authorized wave-A audit repair
+
+Rerun only audit offsets `19..28`. The mathematical source and archive are
+unchanged. The batch runner now accepts one audit implementation, gives each
+remote child a 645-second hard wall, and is itself launched under RAMguard's
+12-hour `modal` profile. Its SHA-256 is
+`bbe9f1100d8d6add611794e24e02d57ab0f57903a15195a944e6fe640ca98922`.
+The ten-container repair remains below `$0.20` conservative cost. The longer
+wall changes no theorem or search space; periodic checkpoints and the 1 GB
+memory cap remain unchanged.
+
+**Wave-B outcome:** `PASS`. Batch app `ap-cEUnaW2ssU1ObLbSSllkVv`
+completed all 72 primary/audit jobs for offsets 37--72 without failure or
+timeout. The raw output SHA-256 is
+`e7714f76c755f4908c56bd55c551e2e0c6e39d025b00dad997fa81e9e36bb3e6`.
+Its maximum occurs at offset 37:
+
+```text
+premium: 41347932347360629348777920971056540502170790055
+margin:     16881903785634046140264718412988900926788065
+```
+
+**Wave-A repair outcome:** `PASS`. Batch app
+`ap-DTDRrKPV8NvHxqZC4Q9ULg` completed all ten audit offsets 19--28 under
+the extended wall with no failure or timeout. The raw output SHA-256 is
+`b4adf54a2d0f776a40cd8698f1950be1875b9f709a581cabd85ab17b5e50930b`.
+
+**Exact merger outcome:** `PASS`. The compact checker consumed the pilot,
+partial wave A, wave-A repair, and wave B. It found all 146 required jobs
+covering exactly `ordinary + offsets 1..72`; all primary/audit coverage keys
+and maxima agree and all margins are positive. Its final certificate is
+
+```text
+lanes:                 73
+jobs:                 146
+global lane:          offset2
+global maximum:       41364793335621487128860475977676014245181683050
+minimum margin:           20915524776266057709711793515157915895070
+primary geometry rows: 203167790
+audit geometry rows:   393886640
+```
+
+The checker SHA-256 is
+`c694c40dff948cff07d3fe8a0775047ae09ae2517063a2b654dc2a1cd713ad44`.
+This authorizes a `PROVED` K'=83 payment node; no later row is claimed.
+## Preregistered K'=84 adjacent-support route pilot
+
+- **decision:** determine whether the first new row already breaks the
+  proved K'=83 adjacent-support router, and identify the exact first
+  obstruction if it does
+- **scope:** `ordinary`, exact offsets `1`, `2`, `7`, and the new terminal
+  offset `73`, in both primary and independent implementations
+- **primary wrapper SHA-256:**
+  `a3f55cf0627f63b9786d3f44f526bb44c62d223152424099f1039df04d272a20`
+- **audit wrapper SHA-256:**
+  `a9a323316bcbef966ad97ca3e24f66220aa41baf8d5115e7ca3f3205e3e37249`
+- **hash-pinned K'=83 code archive SHA-256:**
+  `327c677b870233b5b43609203a45c12ca478a719da3b9391c61860d9ddbe6b49`
+- **dependency archive SHA-256:**
+  `5ee5d10a20f1e47b1e5400d10177e33bafdc83c0e9b516d6d12dfe0fad93aaf8`
+- **batch runner SHA-256:**
+  `bbe9f1100d8d6add611794e24e02d57ab0f57903a15195a944e6fe640ca98922`
+- **envelope:** ten remote containers, one CPU and 1 GB each, 645-second
+  child wall; projected cost below `$0.20`
+- **local safety:** one RAM-guarded Modal client; no local enumeration
+
+The wrappers change only the row parameters to `K'=84`, `q=74`,
+`m'=67556`, and `n'=1048660`. The theorem and router sources imported by
+the wrappers are the unchanged hash-pinned K'=83 implementations. The five
+lanes are route-locating, not an exhaustive row certificate.
+
+```text
+PASS:       both implementations agree and all five lanes are safe;
+            analyze the active templates symbolically before authorizing
+            any remaining-lane wave
+FAIL:       both implementations agree on an unsafe lane; retain its exact
+            branch as the next analytic wall and do not launch broadly
+INCOMPLETE: any timeout, missing lane, or implementation disagreement;
+            retain no mathematical conclusion
+```
+
+No outcome of this pilot promotes `K'=84` or changes a DAG status.
+
+**Outcome:** `PASS` as a route-locating pilot, with no row promotion.
+Modal app `ap-Srv9CDnQL721xYGzAUZoR6` completed all ten jobs without a
+timeout at 58--62 MB peak RSS. The raw capture SHA-256 is
+`4024f6ad84c050540bfa3c32088e4768a3ca5abf798f95bc8624d054178f9ff4`.
+Primary and audit agree exactly on every maximum:
+
+```text
+ordinary:  41388798786059119503097492734939028640066114130
+           margin 44581160171407926086602515730765812413619
+offset 1:  41388509655129434578015936172698056050247199551
+           margin 333712089856333007643164756703355631328198
+offset 2:  41387937303860893532474667943101838831996305858
+           margin 906063358397378548911394352920573882221891
+offset 7:  41388695386454290912259500164616925968496091874
+           margin 147980764999998764079172837833437382435875
+offset 73:   207313827489437078117773167012308731551794440
+           margin 41181529539729853832905806170442450674326733309
+```
+
+The new leading branch is
+
+```text
+s2=74/s3=55/s4=45/s5=37/ordinary-single/
+c6d3/c7d2/c8d1/c9d0/raw-safe.
+```
+
+Thus the adjacent-support router has not failed at the first new row, but
+the maximizer changed from K'=83's offset-two/full-fallback template to an
+ordinary single-support-three template. Analyze this branch and the
+unsampled-offset domination problem symbolically before any full K'=84
+wave.
+
+## Preregistered one-sided raw-template scan
+
+- **decision:** determine whether the new ordinary one-sided support-2/3
+  envelope has a short stable family of active defect templates, and
+  whether its exact ceiling margin crosses near the K'=84 frontier
+- **interval:** every integer `K'=83..128`
+- **script SHA-256:**
+  `7946d6aa8174768494322aaae67b2472f351dd42fc2d9e82d07c698a23de84f1`
+- **scope:** exact raw maximum over both one-sided branches, all
+  support-4/5 Pareto vectors, and all support-6/9 Pareto vectors
+- **envelope:** one remote CPU, 1 GB, 645-second wall; projected cost below
+  `$0.02`
+
+```text
+CROSS:      report the first negative margin as the next raw analytic wall
+STABLE:     extract the finitely many active affine defect templates and
+            prove their binomial/floor margins on maximal intervals
+PROLIFERATE: stop the scan route if active templates do not compress;
+             do not replace proof by longer row enumeration
+INCOMPLETE: retain no conclusion after timeout or malformed output
+```
+
+This scan ignores geometry-required cells and cannot close any row.
+
+**Outcome:** `INCOMPLETE`, and the scan exposed a wrong endpoint rather
+than a ceiling crossing. Modal app `ap-Rzy1Aw2D71418NHszc7XLf` reached its
+645-second child wall at 61 MB peak RSS after printing complete rows
+`K'=83..105`; the raw capture SHA-256 is
+`20add11719a44044c14fe93d44a31ee3cc6068b6fac1e351b9a9fe9cf2a09787`.
+All 23 completed rows have the same parity family
+
+```text
+source=3,
+M3=floor(q/2),
+s2=q,
+s3=s4=s5=ceil(q/2),
+c6d2/c7d1/c8d1/c9d0.
+```
+
+Its *raw* premium already exceeds the ceiling at `K'=83`; for example at
+`K'=84` it is
+`46986000759234275253755854037693521002636288520`, with margin
+`-5597157392014984342732274700238761596757760771`. This is not a
+counterexample to the adjacent-support route. The family lies in the
+geometry-required support-three cell, where the theorem mandates the
+single-completion carrier `(u,g)=(M3+2,8)`. The scan omitted exactly that
+charge. Consequently no first-crossing or interval-stability conclusion is
+retained, and extending this raw scan would test the wrong quantity.
+
+The useful route information is the compressed parity family itself. The
+next preregistered object must be its **post-charge** adjacent-support
+premium, compared with the raw-safe ordinary leader and the other charged
+families. A row or interval can be promoted only after that charged envelope
+is bounded analytically and independently replayed.
+
+## Preregistered support-three post-charge parity evaluation
+
+- **decision:** identify the active adjacent-pair charge and exact margin of
+  the isolated parity family after its mandatory single-completion carrier
+- **interval:** every integer `K'=83..128`; this is 46 evaluations of one
+  explicit template, not a frontier enumeration
+- **script SHA-256:**
+  `74f621ef2c8609c0a296d999a5a161fbad0811c3bfa5fcb3f11d3f5ec9e9c9e2`
+- **template:** `q=K'-10`, `M3=floor(q/2)`,
+  `s2=q`, `s3=s4=s5=ceil(q/2)`, high branch
+  `c6d2/c7d1/c8d1/c9d0`, carrier `(M3+2,8)`
+- **envelope:** one remote CPU, 1 GB, 120-second child wall; projected cost
+  below `$0.01`
+
+```text
+STABLE:     one adjacent-charge choice per parity; extract and prove the
+            corresponding exact floor/binomial inequalities
+SWITCH:     finitely many charge changes; split the symbolic interval there
+UNSAFE:     a negative post-charge margin is a genuine route obstruction
+INCOMPLETE: retain no mathematical conclusion
+```
+
+This evaluation can reject or simplify the proposed symbolic route. It
+cannot establish domination over the remaining K'=84 lane families and
+cannot promote a row by itself.
+
+Two setup-only launches preceded the hash above. App
+`ap-QTHBoe6Q240zH2Vm65f0TS` used a stale dependency archive and failed
+before its first row because that archive predates the all-adjacent router.
+App `ap-tlQ731qAm1fuxQFA3G8VZ6` used the correct archive but timed out after
+270 seconds because the script enumerated complete support-4/5 and
+support-6/9 Pareto frontiers merely to retrieve named vectors; the generic
+runner buffered stdout, so it returned no partial rows. Neither launch
+produced mathematical evidence. The hash-pinned revision constructs those
+same named vectors directly from `exact_cross_caps` and `source_options`.
+
+**Outcome:** `SWITCH`, with a stable pricing choice and a genuine later
+route obstruction. App `ap-rhsmO9Z7XoNV3I6u1ihRay` completed all 46 rows at
+59 MB peak RSS. The raw capture SHA-256 is
+`61a0884cc7d996512e6576c303b3746213db0c66122dce5cf29c28c94f665214`.
+Every row selects the disjoint adjacent-pair charge `A45+A67`.
+
+At the target row `K'=84`, the post-charge premium is
+`30754765486431054133282031534055508984798589537`, safely below the exact
+ceiling by `10634077880788236777741547803399250421079938212`. Thus the raw
+support-three parity wall isolated above is not the K'=84 obstruction. The
+same formula remains safe through `K'=110`, then first fails at `K'=111`
+for odd `q` and `K'=112` for even `q`:
+
+```text
+K'=109: margin  509212654944121696349789160479105006945656208
+K'=110: margin  296412497742911062432803390572960247010652784
+K'=111: margin -289287180359720419070152831788781417392816816
+K'=112: margin -502245759142497481996161240413431098141610146
+```
+
+The crossing limits this particular carrier formula; it does not falsify
+the row theorem or affect K'=84. For K'=84 the full pilot's raw-safe
+ordinary leader remains much larger than this charged family. The immediate
+analytic task is therefore to prove the `A45+A67` reduction for the parity
+cell and then establish domination over all other K'=84 ordinary and offset
+families, without extending this formula past its observed crossing.
+
+## Authorized K'=84 primary route-location wave
+
+- **decision:** find the exact maximum and any unsafe lane among the complete
+  partition `ordinary, offset1, ..., offset73`
+- **primary wrapper SHA-256:**
+  `a3f55cf0627f63b9786d3f44f526bb44c62d223152424099f1039df04d272a20`
+- **hash-pinned K'=83 code archive SHA-256:**
+  `327c677b870233b5b43609203a45c12ca478a719da3b9391c61860d9ddbe6b49`
+- **dependency archive SHA-256:**
+  `5ee5d10a20f1e47b1e5400d10177e33bafdc83c0e9b516d6d12dfe0fad93aaf8`
+- **batch runner SHA-256:**
+  `bbe9f1100d8d6add611794e24e02d57ab0f57903a15195a944e6fe640ca98922`
+- **envelope:** 74 remote containers, one CPU and 1 GB each, 645-second
+  child wall; projected aggregate cost below `$1`
+
+The parity evaluation has discharged the raw-wall ambiguity that blocked a
+broad launch: its mandatory carrier is safe by more than `10^43` at K'=84.
+This wave remains route-locating because it uses only the primary
+implementation. It does not promote K'=84 even if every lane passes.
+
+```text
+PASS:       all 74 lanes complete and are safe; retain the exact maximum and
+            authorize an independent replay of the active/near-active lanes
+FAIL:       retain each exact unsafe lane as an analytic obstruction
+INCOMPLETE: any timeout or missing lane; retain partial route information
+```
+
+**Outcome:** `PASS` as a complete primary route-location wave. App
+`ap-1oAXY3d5xqakObFjYF0Ck6` completed all 74 lanes at 58--62 MB peak RSS;
+the raw capture SHA-256 is
+`884e7bc9ee9c78b49e1324bb3c11ca0ca3d6044114f2bc88dd4cee196b2c916a`.
+The wave evaluated 15,651,063 source units, 109,557,441 raw rows, and
+268,721,026 geometry rows. The exact global primary maximum is
+
+```text
+ordinary:
+s2=74/s3=55/s4=45/s5=37/ordinary-single/
+c6d3/c7d2/c8d1/c9d0/raw-safe
+premium 41388798786059119503097492734939028640066114130
+margin     44581160171407926086602515730765812413619
+```
+
+The two nearest offset lanes are offset 15, with margin
+`53789790696241039676955645542199668046166`, and offset 23, with margin
+`55884925238948819300051499174416861077550`. Every lane is safe, but this
+primary-only result does not promote K'=84.
+
+## Authorized K'=84 independent completion wave
+
+- **decision:** independently replay the same complete 74-lane partition
+  and test exact agreement of coverage keys, maxima, and margins
+- **audit wrapper SHA-256:**
+  `a9a323316bcbef966ad97ca3e24f66220aa41baf8d5115e7ca3f3205e3e37249`
+- **archives and batch runner:** unchanged from the primary wave above
+- **envelope:** 74 remote containers, one CPU and 1 GB each, 645-second
+  child wall; projected aggregate cost below `$1`
+
+```text
+PASS:       all audit lanes complete, are safe, and agree exactly with the
+            primary coverage and frontier; mint and verify a K'=84 node
+FAIL:       retain every disagreement or unsafe lane; do not promote
+INCOMPLETE: retain no row-closure conclusion
+```
+
+Unlike a near-active-only audit, this full replay can satisfy the existing
+K'=83 node's audit bar for the new row and is therefore closure-directed.
+
+**Outcome:** `PASS`. App `ap-CE1YUXVUmNXrwze1lDP6Wn` completed all 74
+independent lanes at 59--62 MB peak RSS; the raw capture SHA-256 is
+`11420a74fbebe5f63d717e633c9914c9089c3fb92546051e267c03b60ee1a850`.
+For every lane, primary and audit agree exactly on source units, raw rows,
+raw-safe units, expanded units, maximum, margin, and active branch after
+normalizing the terminal label `raw-safe`/`raw`. The audit evaluated
+520,900,317 labelled geometry rows, at least the primary's 268,721,026.
+Both implementations therefore return the same ordinary global maximum and
+the same positive margin printed above.
+
+This completes the empirical frontier replay required for K'=84. Promotion
+still requires a compact merger certificate, exact positive component-gap
+arithmetic, a source-hash contract, independent static verification, and
+the ordinary DAG gates.
+
+## Preregistered K'=84 compact merger
+
+- **decision:** accept the two full captures only if all 148 jobs are
+  present, successful, memory-bounded, and lane-wise identical on the
+  independently implemented coverage/frontier keys
+- **script SHA-256:**
+  `11ef8d98a1cc07db73f4f6e6a17ebb975210a475cf08a8eaa525c4a5ea2a415a`
+- **primary capture SHA-256:**
+  `884e7bc9ee9c78b49e1324bb3c11ca0ca3d6044114f2bc88dd4cee196b2c916a`
+- **audit capture SHA-256:**
+  `11420a74fbebe5f63d717e633c9914c9089c3fb92546051e267c03b60ee1a850`
+- **envelope:** one remote parser job; expected peak below 128 MB and cost
+  below `$0.01`
+
+The merger additionally asserts the exact ordinary maximizer and margin,
+the offset source-unit formula `(74-offset)*5625`, the broader audit
+geometry count, and normalized primary/audit branch-label equality. A
+failure blocks node creation.
+
+**Outcome:** `PASS`. App `ap-UwcGaJZm4Wst0Ozq1NMRIp` completed at 72 MB
+peak RSS. The merger capture SHA-256 is
+`abc5638fba58fee000c0e8552ea449c4f8058713da3b784a989bf454235633a8`.
+It certified 148 jobs, 74 lanes, 15,651,063 source units, 109,557,441 raw
+rows, both input hashes, the two geometry totals, and the printed global
+maximum and margin.
+
+## Preregistered K'=84 component payment
+
+- **decision:** substitute the merger-certified premium into the exact
+  rank-nine ledger and require a positive integral component gap
+- **script SHA-256:**
+  `391232fc91db032d2599c18e47ad5f9368cf3b9650ede0634972ad118f941207`
+- **input premium:**
+  `41388798786059119503097492734939028640066114130`
+- **envelope:** one remote exact-integer job; expected peak below 128 MB and
+  cost below `$0.01`
+
+The script independently reconstructs the row marks, kernel capacity, safe
+ceiling, full-rank capacity, required incidence, and final gap from the
+hash-pinned rank-nine ledger. A nonpositive gap blocks promotion.
+
+**Outcome:** `PASS`. App `ap-H3we0j1uIdfDebkyKPSRbR` completed at 58 MB
+peak RSS; the capture SHA-256 is
+`58b8a3077d2dc80444b91a9b0057f6ad47a9fd07a0bce0456904522cc4d054c5`.
+The exact total capacity is
+`920610888896792835227342245208088849044544034113385622333558298`
+against required incidence
+`920611111786972543926647666320421141253960527393538734334971880`,
+leaving positive gap
+`222890179708699305421112332292209416493280153112001413582`.
+Together with the merger certificate and the proved analytic dependencies,
+this authorizes a K'=84 `PROVED` node; no larger row is authorized.
+## Preregistered K'=85 adjacent-support route pilot
+
+- **decision:** determine whether the first open row already breaks the
+  proved adjacent-support router, and isolate the exact active obstruction
+  or nearest safe competitors for a symbolic domination theorem
+- **scope:** `ordinary`, offsets `1`, `15`, `23`, and the new terminal
+  offset `74`, in both primary and independent implementations
+- **primary wrapper SHA-256:**
+  `363cae26e7c0258b27ec27da25b313f8214f6211aa1b891b8c7f506d4987d043`
+- **audit wrapper SHA-256:**
+  `b0bf02ad6dbf6a6c47556a0e8f8d59a82802f83feec1146d22e8ef4b1b7ecaec`
+- **hash-pinned K'=83 code archive SHA-256:**
+  `327c677b870233b5b43609203a45c12ca478a719da3b9391c61860d9ddbe6b49`
+- **dependency archive SHA-256:**
+  `5ee5d10a20f1e47b1e5400d10177e33bafdc83c0e9b516d6d12dfe0fad93aaf8`
+- **batch runner SHA-256:**
+  `bbe9f1100d8d6add611794e24e02d57ab0f57903a15195a944e6fe640ca98922`
+- **envelope:** ten remote containers, one CPU and 1 GB each, 645-second
+  child wall; projected cost below `$0.20`
+- **local safety:** one RAM-guarded Modal client; no local enumeration
+
+The wrappers change only the row parameters to `K'=85`, `q=75`,
+`m'=67557`, and `n'=1048661`. The theorem and router sources are the
+unchanged hash-pinned implementations used to prove `K'=83,84`. The five
+lanes are route-locating and are not an exhaustive row certificate.
+
+```text
+PASS:       both implementations agree and all five lanes are safe;
+            retain the active templates as the symbolic comparison target
+FAIL:       both implementations agree on an unsafe lane; retain its exact
+            branch as the next analytic wall and do not launch broadly
+INCOMPLETE: any timeout, missing lane, or implementation disagreement;
+            retain no mathematical conclusion
+```
+
+No outcome of this pilot promotes `K'=85`, changes a DAG status, or
+authorizes a further finite-row sequence. A complete row replay is permitted
+only after the pilot yields a compressed analytic target.
+
+**Outcome:** `PASS` as a five-lane route diagnostic, with no row promotion.
+Modal app `ap-d16UIhECIz7nYzMEAZr8d7` completed all ten jobs without
+timeout at 60--61 MB peak RSS. The raw capture SHA-256 is
+`5a6ee4f212571eae022ed943c6062e95f6b6a2ccb186dbf4338f1b0cf2f45327`.
+The compact checker SHA-256 is
+`32aa55ce1a31605c7d72678e51855af808a92ccf70a70f029aeaa11d0930134f`.
+It verifies capture custody, all ten unique jobs, memory bounds, the
+`(75-offset)*5776` offset coverage formula, and exact primary/audit
+agreement after normalizing `raw-safe`/`raw` labels.
+
+```text
+lane       premium                                             margin
+ordinary   41412365746418147165613731954651963334663476202     504063437028248034586407861346996245585667
+offset1    41411760082934660310280558759570874584832643708    1109726920515103367759602942435746076418161
+offset15   41412416367203894003110488620063995835872421748     453442651281410537829742449314495036640121
+offset23   41412551195797006461218092083466032200066465196     318614058168952430226279047278130842596673
+offset74     210292675086224485821192607404237233442773250   41202577134768950927827125755109073097466288619
+```
+
+The sampled leader is offset 23 with branch
+
+```text
+s2=67/s3=44/s4=39/s5=54/offset23/c6F/c7F/c8F/c9F/raw-safe.
+```
+
+The ordinary leader changed to
+
+```text
+s2=75/s3=56/s4=46/s5=41/ordinary-single/
+c6d3/c7d2/c8d1/c9d0/raw-safe.
+```
+
+Thus the K'=84 ordinary maximizer is not a stable adjacent-row formula.
+The next analytic target is a domination certificate over the unsampled
+offsets, beginning with the raw-safe full-fallback family containing
+offsets 15 and 23. No complete K'=85 wave is authorized by this outcome.
+## Preregistered K'=85 raw-threshold offset envelope
+
+- **decision:** identify the exact global raw-safe leader over all 74 positive
+  support-2/3 offset lanes, and isolate the complete residual population whose
+  raw premium exceeds the safe ceiling and therefore needs carrier geometry
+- **scope:** offsets `1..74`, both a primary exact traversal and an independently
+  written reconstruction of the support-2/3 and support-4/5 vectors
+- **primary SHA-256:**
+  `b13ab1262105d53694407a9c448362bfa85b7914e6fce6242b715f2436c63b3b`
+- **audit SHA-256:**
+  `90380f5d1f8191172dae43e90b9802873ed6f680a2bc41a49d50d3dade10f59c`
+- **dispatcher SHA-256:**
+  `f305528a1336c949bccd321799e56ecfa9edd5a8a8757836a9a99afb9929b888`
+- **merger SHA-256:**
+  `28d9289be8c0e741a364a72884e171154ff0186ea732b1f1cdda3990c3ea333c`
+- **theorem code archive SHA-256:**
+  `327c677b870233b5b43609203a45c12ca478a719da3b9391c61860d9ddbe6b49`
+- **dependency archive SHA-256:**
+  `5ee5d10a20f1e47b1e5400d10177e33bafdc83c0e9b516d6d12dfe0fad93aaf8`
+- **envelope:** 148 remote jobs, one CPU and 256 MB each, 165-second child
+  timeout and 180-second container timeout; conservative campaign wall below
+  five minutes and projected total cost below `$1`
+- **partial-output contract:** every completed `m2` slice prints exact safe and
+  unsafe counts plus extrema before the next slice begins
+- **local safety:** one RAM-guarded Modal client; no local enumeration
+
+The scan evaluates only the pre-geometry raw threshold split. It does not
+price any unsafe unit and cannot promote K'=85. The complete paired capture is
+accepted only if all 148 unique jobs finish below 128 MB, both traversals agree
+on every offset classification digest and profile, and the exact coverage
+identity
+
+```text
+sum_{d=1}^{74} (75-d) * 76^2
+```
+
+holds. `PASS` names the exact raw-safe maximizer and a finite residual geometry
+population. `FAIL` is any disagreement or malformed coverage. `INCOMPLETE`
+retains only printed partial slices and changes no mathematical status.
+
+The first launch, Modal app `ap-fxCF0n6O4e0LYYDe0MaIPP`, was
+`INCOMPLETE`: Modal relocated the dispatcher module to `/root`, exposing an
+invalid local-only `parents[2]` path during container import. No mathematical
+job started and no output was retained. The repaired dispatcher uses
+module-relative mounted paths in both environments; all mathematical sources
+and the merger are unchanged.
+
+The second launch, Modal app `ap-ld231Otrj4iOwrf8WgXUbz`, was also
+`INCOMPLETE`: all 148 workers started, but the mounted archives were in `/tmp`
+while the subprocess working directory was `/root`, so every worker failed the
+same archive-discovery check before enumeration (22--24 MB peak, about 0.05
+seconds each). The dispatcher now runs workers from `/tmp` and exposes a
+four-job offset-1/offset-74 smoke mode that must pass before the full wave is
+retried.
+
+The repaired-directory offset-74 smoke, Modal app
+`ap-mK2HJJflmciBb31TLyqtUv`, passed in both implementations at 28--29 MB.
+It also exposed an unnecessary quadratic Pareto-frontier construction in the
+primary traversal before low offsets were launched. Both traversals now cache
+the raw value for duplicate local vectors; the primary constructs only the
+exact support-4/5 rows required by this scan. The widened smoke tests both the
+largest and smallest workloads.
+
+The widened smoke passed as Modal app `ap-A4OvyImj1fVp8vssAhI202`: all four
+jobs completed in about 17 seconds at 25--29 MB. Primary and audit agreed on
+the complete classification digests. Offset 1 has 15,702 unsafe units and
+safe maximum
+`41411760082934660310280558759570874584832643708`; offset 74 has no unsafe
+units and safe maximum
+`210292675086224485821192607404237233442773250`. The smoke capture SHA-256
+is `e7dd954638698b2fe4050ddcba35e2f17e9156ba542086d4982141dbfb209982`.
+This authorizes the preregistered full wave, but no row promotion.
+
+**Outcome:** `PASS` as an exact route decomposition, with no K'=85
+promotion. Modal app `ap-rTfQtYZuTdgjfk5IWhal5W` completed all 148 jobs in
+about 27 seconds. The capture SHA-256 is
+`5832710721306c16477523b02303fb6f45fb293f6ea53c71e26bad2a9babac13`.
+The preregistered merger accepted all 16,028,400 source units and
+112,198,800 raw rows per implementation, with exact primary/audit agreement
+on every offset profile and classification digest.
+
+There are 15,696,867 raw-safe units and 331,533 raw-unsafe units. Every
+offset `42..74` is entirely raw-safe; the residual is confined exactly to
+offsets `1..41`. The global raw-safe leader is offset 11,
+
+```text
+s2=56/s3=45/s4=58/s5=37/offset11/c6F/c7F/c8F/c9F
+```
+
+with premium
+`41412868016209776721228891386909879523306833354`, only
+`1793645398692419426975603430807602228515` below the safe ceiling. Hence
+K'=85 closes if every one of the 331,533 residual units, after its exhaustive
+carrier case and adjacent-support payment, is at most this printed leader.
+The next falsifier first removes adjacent-support pricing and asks whether
+the fixed-union caps alone already imply that domination; a counterexample
+will name the exact missing adjacent edge instead of authorizing a broad wave.
+## Preregistered K'=85 fixed-union-only domination falsifier
+
+- **decision:** test the deliberately stronger claim that every raw-unsafe
+  residual carrier case is already at most the exact offset-11 leader after
+  componentwise fixed-union caps, before any adjacent-support price
+- **ordered scope:** offset 11 first; offsets 1, 23, and 41 only if every prior
+  lane survives
+- **falsifier SHA-256:**
+  `a55a8353b837e3c83e39eb27fe65590c0f9f91eadcf9fa0d32ae2020ecc0502e`
+- **independent witness audit SHA-256:**
+  `3beb23b1ec7bfa09bf7e6c6ca67d8f450dde6707aed4d4661383965eb533b138`
+- **dispatcher SHA-256:**
+  `1efe1237d1ec5838aba4aceca30bd96cbe3ee045c66a22b1b3907017bc1aa14a`
+- **theorem code archive SHA-256:**
+  `327c677b870233b5b43609203a45c12ca478a719da3b9391c61860d9ddbe6b49`
+- **dependency archive SHA-256:**
+  `5ee5d10a20f1e47b1e5400d10177e33bafdc83c0e9b516d6d12dfe0fad93aaf8`
+- **stopping rule:** stop at the first exact witness above the leader and replay
+  only that witness in the independent implementation
+- **envelope:** one CPU, 256 MB, 160-second scan wall and 15-second witness
+  audit wall per launch; projected total cost below `$0.05`
+- **partial output:** every completed `m2` slice prints units, unsafe units, and
+  carrier cases checked
+- **local safety:** one RAM-guarded Modal client; no local enumeration
+
+`FALSIFIED` rejects only the fixed-union-only shortcut and names the exact
+carrier case whose adjacent-support payment remains necessary. `SURVIVED`
+authorizes the next offset but is not a proof outside the completed lane.
+`INCOMPLETE` changes no mathematical status. No outcome promotes K'=85 by
+itself.
+
+**Outcome:** `FALSIFIED` at the first checked residual case, with independent
+exact replay. Modal app `ap-319YToKIcY6UC4VZUEIZ0a` returned the offset-11
+witness
+
+```text
+m2=1, m3=12, s2=74, s3=63, s4=s5=37, m4=m5=38
+case=T23, fixed-union charge=(16,7), high=c6F/c7F/c8F/c9F
+```
+
+after 2,850 source units, one unsafe unit, and one carrier case. The raw and
+fixed-union-only premiums are both
+`42141786157949900288596401924882914598461995992`, exceeding the exact
+offset-11 leader by
+`728918141740123567367510537973035075155162638`. The independent witness
+audit agreed on every coordinate, charge, branch, and integer. The capture
+SHA-256 is
+`2e9a646df4e4fd6dc1626360d9fe8a78bfdccf93766f002422a646dfdf07e4d1`.
+
+Thus the fixed-union-only route is dead and offsets 1, 23, and 41 are not
+launched. This does not refute the proved adjacent-support theorem or K'=85;
+it localizes the next obligation to the support-disjoint adjacent edges
+available for the single `(16,7)` charge.
+## Preregistered K'=85 first-witness adjacent payment
+
+- **decision:** on the independently replayed offset-11 `T23` witness, print
+  every support-disjoint adjacent-edge price and decide whether the primary
+  and independent atlas both reduce it below the exact raw-safe leader
+- **scope:** one fixed witness, union 16, dimension 7, available edges 4--5,
+  5--6, and 6--7; choices `none`, `4`, `5`, `6`, and `4+6`
+- **analyzer SHA-256:**
+  `2a63f64023dc04c3a33de293797873dbc9c4d9275dd8486eb31286af2f78724b`
+- **dispatcher SHA-256:**
+  `be2379bf01c3261489b619a550102e22fc10767e59a019396bda2be3b6e5ef10`
+- **theorem code archive SHA-256:**
+  `327c677b870233b5b43609203a45c12ca478a719da3b9391c61860d9ddbe6b49`
+- **dependency archive SHA-256:**
+  `5ee5d10a20f1e47b1e5400d10177e33bafdc83c0e9b516d6d12dfe0fad93aaf8`
+- **envelope:** one CPU, 256 MB, 20-second child wall; projected cost below
+  `$0.01`
+- **local safety:** one RAM-guarded Modal client; no local mathematical run
+
+`PASS` prints both exact option tables and their minimizing edge sets. A price
+above the leader is a route wall, not a counterexample to the prize theorem.
+`INCOMPLETE` changes no status. This witness calculation cannot promote K'=85.
+
+**Outcome:** `PASS`. Modal app `ap-nJpFGfIsUMBAkL2Ni6Sh2O` completed the
+exact analyzer, and the primary and independent formulas agreed on every edge
+cap and every option price. The capture SHA-256 is
+`9d64a2170614a3c0dae2aef3dd344be231410b1a1a856a38958208686688871e`.
+
+The minimizing choice is the single support-4/5 edge. It lowers the witness
+from `42141786157949900288596401924882914598461995992` to
+`38031713645027467636162531245586474415179105992`, below the exact raw-safe
+leader by `3381154371182309085066360141323405108127727362`. Choices `5`, `6`,
+and `4+6` are all weaker on this witness. This identifies an edge-4-only
+domination theorem as the next strict, falsifiable compression of the full
+adjacent atlas.
+## Preregistered K'=85 edge-4-only domination falsifier
+
+- **decision:** test whether the support-4/5 adjacent edge alone pays every
+  deduplicated carrier profile of every raw-unsafe unit below the exact
+  offset-11 leader
+- **ordered scope:** offset 11 first; offsets 1, 23, and 41 only after survival
+- **falsifier SHA-256:**
+  `b8899f40cec67c03924cb1944341b76010a574212f0889387ccdd3f14cd74440`
+- **independent witness audit SHA-256:**
+  `8c80fa8e1d338b0366017a15f2f02cd6f1af388c0101019baa733361eebed2d6`
+- **dispatcher SHA-256:**
+  `32e7b9c7dcc76d84f2703a5111c658c8b5e07c63e676d3eebf92c21add94acca`
+- **theorem code archive SHA-256:**
+  `327c677b870233b5b43609203a45c12ca478a719da3b9391c61860d9ddbe6b49`
+- **dependency archive SHA-256:**
+  `5ee5d10a20f1e47b1e5400d10177e33bafdc83c0e9b516d6d12dfe0fad93aaf8`
+- **stopping rule:** stop at the first exact over-leader profile and replay it
+  with the independent adjacent-pair formula
+- **compression:** carrier labels with the same combined fixed-union vector and
+  edge-4 cap are evaluated once per residual unit
+- **envelope:** one CPU, 256 MB, 215-second child wall per offset; projected
+  total cost below `$0.10`
+- **partial output:** every completed `m2` slice prints source, unsafe, and
+  deduplicated-profile counts
+
+`FALSIFIED` identifies the next adjacent edge or multi-edge obligation.
+`SURVIVED` proves only the completed offset. `INCOMPLETE` changes no status.
+No pilot outcome promotes K'=85.
+
+**Outcome:** `FALSIFIED` with independent replay. Modal app
+`ap-9vbq0eXPV4MZrebuGnSVQr` reached offset 11, `m2=13`, after 73,163 source
+units, 2,013 raw-unsafe units, and 238,306 deduplicated geometry profiles. The
+first witness is
+
+```text
+s2=62, s3=51, s4=s5=50, m4=m5=25
+case=F23__N4_t12__N5_t12
+charges=(28,7),(29,6), high=c6F/c7F/c8F/c9F
+```
+
+The raw premium is
+`41678537170179082697698056961638084480681707238`. Replacing supports 4/5
+by the edge-4 cap alone gives
+`41744966619586153218005378051509525640461543488`, still above the exact
+leader by `332098603376376496776486664599646117154710134`; the real minimizer
+would therefore reject that replacement in favor of the raw base or another
+edge choice. Primary and audit agree exactly. Capture SHA-256:
+`c3730780f2404242608fbb2f32dee46f4e7cfa4adbad9cbd7226b9eb945042fa`.
+
+Thus offsets 1, 23, and 41 are not launched. The next exact action is to print
+all support-disjoint prices on this two-charge witness and identify the
+minimal additional edge set.
+## Preregistered K'=85 two-charge witness adjacent payment
+
+- **decision:** print every support-disjoint adjacent-edge price on the exact
+  edge-4 counterexample and identify the minimal edge set in both the primary
+  and independent atlas
+- **scope:** offset 11, `m2=13`, `s4=s5=50`, case
+  `F23__N4_t12__N5_t12`, charges `(28,7),(29,6)`
+- **analyzer SHA-256:**
+  `44faccd0305d374557650c8bfc3b40f3aaa97717e46b154568cbadb3ec77bf3a`
+- **dispatcher SHA-256:**
+  `d93bfb284f268fcbda93a75558c173538e341bb5420521c7692f45cf98427529`
+- **theorem code archive SHA-256:**
+  `327c677b870233b5b43609203a45c12ca478a719da3b9391c61860d9ddbe6b49`
+- **dependency archive SHA-256:**
+  `5ee5d10a20f1e47b1e5400d10177e33bafdc83c0e9b516d6d12dfe0fad93aaf8`
+- **envelope:** one CPU, 256 MB, 20-second child wall; projected cost below
+  `$0.01`
+- **local safety:** one RAM-guarded Modal client; no local mathematical run
+
+`PASS` prints both exact option tables. A best price above the raw-safe leader
+is a current-router wall; a lower price identifies the next compressed edge
+family. `INCOMPLETE` changes no status. No outcome promotes K'=85.
+
+**Outcome:** `PASS`. Modal app `ap-mnimiGFuHSPQ7gNIcB3gMN` completed the
+exact option table; primary and independent values agree entry by entry. The
+capture SHA-256 is
+`d1ba20be24f8f86e8da708613f89f899341a4c3f34ee3eca515ce0c4a5ba0b1a`.
+
+The minimizing choice is the single support-6/7 edge, with price
+`36771696071065385390668923925145098778166086838`, below the exact raw-safe
+leader by `4641171945144391330559967461764780745140746516`. The disjoint
+choice `4+6` is slightly weaker, while edges 4 and 5 alone do not identify the
+minimum. This motivates a best-single-edge domination falsifier before any
+full support-disjoint replay.
+## Preregistered K'=85 best-single-edge domination falsifier
+
+- **decision:** test whether the best of the raw base and every available
+  single adjacent edge pays every deduplicated carrier profile below the exact
+  offset-11 leader, while deliberately excluding multi-edge choices
+- **ordered scope:** offset 11 first; offsets 1, 23, and 41 only after survival
+- **adapter SHA-256:**
+  `2c94b7432cd4c9d37a49288298761cbff9227a07f694fe80ec259ef19e724505`
+- **base residual scanner SHA-256:**
+  `b8899f40cec67c03924cb1944341b76010a574212f0889387ccdd3f14cd74440`
+- **independent witness audit SHA-256:**
+  `4e938710a8668ed013050f5f1e0979a8c0eb1db76d9dfd47d2c8edf24092b7f6`
+- **dispatcher SHA-256:**
+  `cdd76442d2e303214a13e8b17f9491975cab5464d8e437fc98a0d01d91574d4c`
+- **theorem code archive SHA-256:**
+  `327c677b870233b5b43609203a45c12ca478a719da3b9391c61860d9ddbe6b49`
+- **dependency archive SHA-256:**
+  `5ee5d10a20f1e47b1e5400d10177e33bafdc83c0e9b516d6d12dfe0fad93aaf8`
+- **stopping rule:** stop at the first over-leader profile and independently
+  maximize the best-single price over every high-support branch
+- **compression:** reuse the exact residual router and deduplicate by combined
+  fixed-union vector plus the complete adjacent-edge tuple
+- **envelope:** one CPU, 256 MB, 215-second child wall per offset; projected
+  total cost below `$0.10`
+- **partial output:** every completed `m2` slice prints exact coverage counts
+
+`FALSIFIED` demonstrates that a disjoint multi-edge choice is genuinely
+needed. `SURVIVED` proves only the completed offset. `INCOMPLETE` changes no
+status. No pilot outcome promotes K'=85.
+
+**Offset-11 outcome:** `SURVIVED` exhaustively. Modal app
+`ap-x4S2u8ZAef1I0q9N7AK45d` checked all 369,664 source units, all 12,281
+raw-unsafe units, and 936,749 deduplicated carrier profiles. Every best-single
+price is at most the exact raw-safe leader. Capture SHA-256:
+`3b2e0e353e54a4c1f20ab35a5f2775c0a956beb2db6b5c3de411e326daf24989`.
+This proves the printed finite offset-11 domination statement and authorizes
+the next preregistered lane, offset 1; it does not promote the full row.
+
+**Offset-1 outcome:** `SURVIVED` exhaustively. Modal app
+`ap-Wl6GfzOdL4g1bsp7AD8kx8` checked all 427,424 source units, all 15,702
+raw-unsafe units, and 181,450 deduplicated carrier profiles. Capture SHA-256:
+`9b34ca0dfa9b28db03f3568af47c848e8e4728912273c57ed3166565d1ceec59`.
+This proves the printed finite offset-1 domination statement and authorizes
+the preregistered offset-23 lane; the full row remains open.
+
+**Offset-23 outcome:** `SURVIVED` exhaustively. Modal app
+`ap-ybr2br69sCjzR8D3bGRARc` checked all 300,352 source units, all 7,598
+raw-unsafe units, and 2,018,406 deduplicated carrier profiles. Capture
+SHA-256:
+`539350d9dff7c463386adc9a571d3151e605b7711315c5ea293ab2e37003c3bb`.
+This proves the printed finite offset-23 domination statement and authorizes
+offset 41, the last lane containing any raw-unsafe unit.
+
+**Offset-41 outcome:** `SURVIVED` exhaustively. Modal app
+`ap-7Z7r5eg5OwghIbW5kYXbhj` checked all 196,384 source units, all 138
+raw-unsafe units, and 124,168 deduplicated carrier profiles. Capture SHA-256:
+`24da317a5c1ff321c46f4402d79c0680837ac04e2abe85e28e526f3032398855`.
+The four preregistered stress lanes 1, 11, 23, and 41 all survive. This
+authorizes a separately preregistered paired completion wave over every
+raw-unsafe offset `1..41`; it does not itself prove the omitted lanes.
+## Preregistered K'=85 best-single completion wave
+
+- **decision:** prove or refute the exact best-single-edge domination statement
+  on every raw-unsafe offset `1..41` with paired primary and independent
+  traversals
+- **scope:** 82 jobs; all 12,788,064 source units and all 331,533 raw-unsafe
+  units from the paired raw-threshold envelope
+- **primary adapter SHA-256:**
+  `2c94b7432cd4c9d37a49288298761cbff9227a07f694fe80ec259ef19e724505`
+- **independent adapter SHA-256:**
+  `f9a01624b5a11fbc30f58a4f4afca2aa75d9af96b35c69edddcdc7eef5e1fa1f`
+- **base residual scanner SHA-256:**
+  `cd1e9d2706c48be390387953c4abeea46958af258f132700809cf2393a5e4a90`
+- **dispatcher SHA-256:**
+  `0f82c3311b5bae5fa69e5b7847c9dc777a0ad5e48658b4733c8a8dd26b5fd505`
+- **merger SHA-256:**
+  `e5c8012cd13ca6c17395fa1be91ce45f0af66042f65d2c58186c1feff3868040`
+- **theorem code archive SHA-256:**
+  `327c677b870233b5b43609203a45c12ca478a719da3b9391c61860d9ddbe6b49`
+- **dependency archive SHA-256:**
+  `5ee5d10a20f1e47b1e5400d10177e33bafdc83c0e9b516d6d12dfe0fad93aaf8`
+- **preconditions:** offsets 1, 11, 23, and 41 survived exhaustive stress;
+  offsets 42..74 are entirely raw-safe; the paired ordinary lane is below the
+  exact offset-11 leader
+- **envelope:** one CPU and 256 MB per job, 270-second child wall and
+  285-second container wall; 82 containers, conservative campaign wall below
+  five minutes and projected total cost below `$0.25`
+- **partial output:** every worker retains completed `m2` progress on timeout;
+  successful wrappers store exact coverage, output hash, and peak RSS
+- **deployment gate:** paired offsets 2 and 41 must agree before the repaired
+  full 82-job wave is launched
+
+`PASS` requires all 82 jobs, exact primary/audit agreement on every lane count,
+12,788,064 source units, 331,533 residual units, and no over-leader profile.
+Together with the paired raw envelope and ordinary pilot, this authorizes a
+compact K'=85 component-payment certificate. `FALSIFIED` retains the first
+paired witness and blocks promotion. `INCOMPLETE` changes no status.
+
+The paired deployment smoke passed as Modal app
+`ap-io6hEGkfZQtfHfBccqWiHo`. Both offset-41 implementations report 196,384
+source units, 138 raw-unsafe units, 124,168 profiles, and the same exact leader
+at 31--33 MB peak RSS. The smoke capture SHA-256 is
+`e51e3be06123a0e5a654a071eeded4b76b9aabcb2172828978b54d7669895b0d`.
+This authorizes the full wave from the pinned sources; it does not itself
+promote K'=85.
+
+The first full launch, Modal app `ap-o86zjFxfuNrY2qg9YGj9aW`, was
+`INCOMPLETE` before omitted-lane enumeration. The reusable base scanner still
+enforced the stress-only input set `{1,11,23,41}`, so 74 jobs rejected their
+offset at the input guard; all eight stress jobs again passed pairwise at
+30--35 MB. The capture SHA-256 is
+`c080c618af3a05c311e55039297405952ba011684234a21f6a7ae2d72d6f26ec`.
+The repair widens only that guard to the already preregistered interval
+`1..41`; formulas, traversal, adapters, and merger are unchanged. A new paired
+smoke must pass before relaunch.
+
+The repaired paired smoke passed as Modal app
+`ap-cnvj6o0mqfgRMqdV9Pxrg4`. Formerly blocked offset 2 agrees exactly on
+421,648 source units, 15,377 unsafe units, and 225,910 profiles; offset 41
+again agrees on 196,384, 138, and 124,168 respectively. All four jobs used
+31--32 MB. Capture SHA-256:
+`2b2295688002ced4b1c35bcd377b2a82b0e1298ae509a23749be57371f76bb6e`.
+This exercises the repaired guard and authorizes the full relaunch.
+
+**Outcome:** `PASS`. The repaired full wave completed as Modal app
+`ap-avKuaBEl3bNsvVug235bXS`. All 82 jobs passed below the memory limit, and
+the preregistered merger accepted exact primary/audit agreement on all 41
+offsets, 12,788,064 source units, all 331,533 raw-unsafe units, and 49,090,656
+deduplicated carrier profiles per implementation. The capture SHA-256 is
+`a2a47722b66ff40ed83b44c47dc725b341700ffc2c9653a61e63f7dff1fedfa8`.
+
+Every residual profile is at most the exact raw-safe offset-11 leader
+`41412868016209776721228891386909879523306833354`. Together with the paired
+raw-threshold envelope, fully safe offsets 42..74, and the paired ordinary
+lane, this certifies the complete K'=85 carrier frontier. Promotion still
+requires the exact positive component-payment arithmetic and compact node
+contract.
+## Preregistered K'=85 component payment
+
+- **decision:** substitute the merger-certified K'=85 frontier premium into
+  the exact rank-nine ledger and require a positive integral component gap
+- **input premium:**
+  `41412868016209776721228891386909879523306833354`
+- **expected safe-ceiling margin:**
+  `1793645398692419426975603430807602228515`
+- **payment script SHA-256:**
+  `8e3fa571c1930f11a8c0a38b6595ff6e4b712158d2d84792912db5c88285ebe8`
+- **dispatcher SHA-256:**
+  `a054f7b2139bd7decae3a733e87558a23c9963acefeb3e44bb53a9ee4ab5decd`
+- **dependency archive SHA-256:**
+  `5ee5d10a20f1e47b1e5400d10177e33bafdc83c0e9b516d6d12dfe0fad93aaf8`
+- **envelope:** one CPU, 256 MB, 20-second child wall; projected cost below
+  `$0.01`
+- **local safety:** one RAM-guarded Modal client; no local mathematical run
+
+`PASS` independently reconstructs the marks, kernel, safe ceiling, full-rank
+capacity, required incidence, and a strictly positive gap. This authorizes a
+compact K'=85 `PROVED` node when combined with the paired frontier captures and
+analytic DAG gates. `INCOMPLETE` or a nonpositive gap blocks promotion.
+
+**Outcome:** `PASS`. Modal app `ap-9R6TUWXTLwS11AiqMsAem5` independently
+reconstructed the exact row and returned safe-ceiling remainder
+`15362028411627110`, full-rank capacity
+`920664857300015914310061122145042076654631136279218382941612598`, total
+capacity
+`920761032600863899558839605552732140962924224823394196355672563`, and
+required incidence
+`920761041568462403301620608624242874288842867899367408189696564`.
+The resulting component gap is
+
+```text
+8967598503742781003071510733325918643075973211834024001>0.
+```
+
+The capture SHA-256 is
+`e3bf7fdbd3c6b87ea2bb82bd2520f6ffff5e76353e0698e8df7494bf75745799`.
+Together with the complete paired frontier, this authorizes the compact
+K'=85 `PROVED` node and extends the finite closed prefix to `10..85`.
+## Preregistered K'=86 adjacent-support route pilot
+
+- **decision:** test whether the complete K'=85 best-single mechanism still
+  has positive room at the next row and identify the first exact unsafe lane
+  if it does not
+- **scope:** `ordinary`, offsets `11`, `23`, `41`, and terminal offset `75`,
+  in both primary and independent implementations
+- **primary wrapper SHA-256:**
+  `ca6ffd6766d1e4aac72d98ea09fa30c5d1b100a01c2e51e5e7673bfc92f33106`
+- **audit wrapper SHA-256:**
+  `ceab00de841839ee0c76eb440e847f27aeb524d11dc6646742f774991817a2ef`
+- **checker SHA-256:**
+  `8373bebdc09e49f55281703c404ec44283fd10e1f766ad4d9eb066ef46b91eef`
+- **hash-pinned K'=83 code archive SHA-256:**
+  `327c677b870233b5b43609203a45c12ca478a719da3b9391c61860d9ddbe6b49`
+- **dependency archive SHA-256:**
+  `5ee5d10a20f1e47b1e5400d10177e33bafdc83c0e9b516d6d12dfe0fad93aaf8`
+- **batch runner SHA-256:**
+  `bbe9f1100d8d6add611794e24e02d57ab0f57903a15195a944e6fe640ca98922`
+- **envelope:** ten remote containers, one CPU and 1 GB each, 645-second
+  child wall; projected cost below `$0.20`
+- **local safety:** one RAM-guarded Modal client; no local enumeration
+
+The wrappers change only the row parameters to `K'=86`, `q=76`,
+`m'=67558`, and `n'=1048662`. The theorem and router sources are the same
+hash-pinned implementations used at `K'=83..85`. An unsafe mathematical
+lane exits normally and is retained as a route outcome; only timeout,
+malformed output, or implementation disagreement makes the batch incomplete.
+
+```text
+SAFE PILOT:   both implementations agree and all five lanes are safe;
+              locate unsampled and residual leaders before any broad wave
+UNSAFE PILOT: both implementations agree and at least one lane is unsafe;
+              retain the exact branch as the next theorem obstruction
+INCOMPLETE:   timeout, missing lane, or implementation disagreement;
+              retain no mathematical conclusion
+```
+
+No outcome promotes `K'=86`, changes a DAG status, or authorizes interval
+extrapolation. A broader finite wave is permitted only if this pilot leaves
+a sharply typed residual statement.
+
+**Outcome:** `INCOMPLETE`, with exact partial checkpoints retained and no row
+promotion. Modal app `ap-OP9ryrK2YdHRg463E43ktv` completed nine of ten jobs
+before the local client reached its five-minute RAMguard wall. Capture
+SHA-256:
+`d343b18cfef00d6a1dff8634a2ffe8b8574d25a59cf44f43d4c3862e47c8a4d8`.
+Primary and audit agree exactly, and remain safe, on ordinary and offsets 11,
+41, and 75. Primary offset 23 is also safe. The sampled paired leader is the
+ordinary lane with premium
+`41436497718685364991538520386265961874369213524` and positive margin
+`395858925488158871546979481504003419111314`.
+
+Only audit offset 23 was missing. A one-job repair app
+`ap-pejd1RneFmD0oc2yq2QjSZ` reached its preregistered 645-second child
+timeout at 62 MB; repair-capture SHA-256:
+`3a642fe1566ba8ffeb9282ed0d121928752c0ef69eabb58704cb9984455e7913`.
+No longer full-geometry rerun is authorized. The next route action uses the
+much cheaper complete paired raw-threshold envelope to locate every residual
+offset before selecting any further geometry theorem.
+## Preregistered K'=86 raw-threshold offset envelope
+
+- **decision:** identify the exact global raw-safe leader over all 75 positive
+  support-2/3 offsets and isolate the complete population requiring carrier
+  geometry
+- **scope:** offsets `1..75`, both the primary traversal and the independently
+  written reconstruction
+- **primary K'=86 adapter SHA-256:**
+  `e37b36fec4eab6286e353e54027b87235f0369947c814e795bcbff7a7aa8a68d`
+- **independent K'=86 adapter SHA-256:**
+  `429336fefdf47623184b2d2f2e21953f50be7fe07dda2c1e8ba054e4af637d74`
+- **primary base SHA-256:**
+  `b13ab1262105d53694407a9c448362bfa85b7914e6fce6242b715f2436c63b3b`
+- **independent base SHA-256:**
+  `90380f5d1f8191172dae43e90b9802873ed6f680a2bc41a49d50d3dade10f59c`
+- **dispatcher SHA-256:**
+  `b7614800264d3b94798c5b36691bfde6225e9230727199d72b59b3a18555bdd6`
+- **merger SHA-256:**
+  `78d96a7ef3708d488966fe2425f49f7c84152839225a971e5fde7cb3d5ec45bc`
+- **theorem code archive SHA-256:**
+  `327c677b870233b5b43609203a45c12ca478a719da3b9391c61860d9ddbe6b49`
+- **dependency archive SHA-256:**
+  `5ee5d10a20f1e47b1e5400d10177e33bafdc83c0e9b516d6d12dfe0fad93aaf8`
+- **envelope:** 150 remote jobs, one CPU and 256 MB each, 165-second child
+  timeout and 180-second container timeout; projected total cost below `$1`
+- **local safety:** one `modal`-profile RAMguard client; no local enumeration
+
+The adapters alter only `K'=86`, `q=76`, `m'=67558`, `n'=1048662`, and the
+derived exact safe ceiling. They call the two independently implemented,
+hash-pinned K'=85 scanners. A four-job offset-1/offset-75 smoke must pass
+before the complete wave.
+
+The full capture is accepted only if all 150 jobs finish below 128 MB, both
+implementations agree on every offset classification digest and profile, and
+
+```text
+sum_{d=1}^{75} (76-d) * 77^2
+```
+
+source units are classified. `PASS` names the exact raw-safe maximizer and
+finite residual population. `FAIL` is an implementation disagreement or
+malformed coverage. `INCOMPLETE` retains partial checkpoints and changes no
+mathematical status. This scan alone cannot promote `K'=86`.
+
+The paired deployment smoke passed as Modal app
+`ap-exYBHBmoQGphWMxVn85Cnz`. Primary and independent implementations agree
+exactly on offset 1 (444,675 units, 19,178 unsafe) and terminal offset 75
+(5,929 units, all safe), including both classification digests. All four
+jobs used 25--29 MB. Smoke-capture SHA-256:
+`11fb92f8c98a8e07bbadc87bc97b044479462bcb6da11863c894650dce7404c0`.
+This validates both adapters and authorizes the preregistered full wave; it
+does not itself promote `K'=86`.
+
+**Outcome:** `PASS` as an exact route decomposition, with no `K'=86`
+promotion. Modal app `ap-kjz4PvurdW9cunGO3pse1N` completed all 150 jobs.
+The capture SHA-256 is
+`7aa3c934e610aa717ba25b8b7acf424c0f59ad068ec294eac5b448d9abb81612`.
+The checker accepted all 16,897,650 source units and 118,283,550 raw rows
+per implementation, with exact agreement on every offset profile and
+classification digest.
+
+There are 16,482,237 raw-safe units and 415,413 raw-unsafe units. Every
+offset `43..75` is entirely raw-safe; the residual is confined exactly to
+offsets `1..42`. The global raw-safe leader is offset 32,
+
+```text
+s2=73/s3=41/s4=39/s5=57/offset32/c6F/c7F/c8F/c9F
+```
+
+with premium
+`41436891148468120556440841127823744176664445997`, only
+`2429142732593969226237923721701123878841` below the exact safe ceiling.
+Hence `K'=86` closes if every residual profile is at most this leader after
+a proved carrier charge.
+
+The preregistered checker printed unsafe offsets in completion order. A
+presentation-only repair sorts that list without changing parsing,
+coverage, digest comparison, or extrema; repaired checker SHA-256:
+`2a32a19df70f098fee290c96545d704f1de1479a995876c50876d8fc79d25f86`.
+The pinned capture passes the repaired checker with unsafe offsets exactly
+`1..42`.
+## Preregistered K'=86 best-single-edge stress falsifier
+
+- **decision:** test whether the best of the raw price and each available
+  single adjacent edge pays every deduplicated carrier profile below the exact
+  K'=86 raw-safe leader on four route-deciding offsets
+- **ordered scope:** offsets `32` (the raw-safe leader), `1` (largest lane),
+  `23` (interior stress), and `42` (last raw-unsafe lane), evaluated in one
+  paired deployment
+- **primary adapter SHA-256:**
+  `8a2ec9877e317798e615e14d0e23b2f0c65d927a109985c7aec160c1cc65db97`
+- **independent-pricing adapter SHA-256:**
+  `ad37ddbfa7920e57ad912b523751d9415944f8e16459c49bb7973a86e386cd10`
+- **shared K'=86 traversal core SHA-256:**
+  `2eb7f85cf6fb4311874f453c75fc868796dbc726599462e12b640e98fe2a9939`
+- **K'=85 primary formula adapter SHA-256:**
+  `2c94b7432cd4c9d37a49288298761cbff9227a07f694fe80ec259ef19e724505`
+- **K'=85 independent formula adapter SHA-256:**
+  `f9a01624b5a11fbc30f58a4f4afca2aa75d9af96b35c69edddcdc7eef5e1fa1f`
+- **K'=85 residual base SHA-256:**
+  `cd1e9d2706c48be390387953c4abeea46958af258f132700809cf2393a5e4a90`
+- **dispatcher SHA-256:**
+  `dc2e0c69e0aa8928e24cc3777f744d3394716f70ebd6970e3c8bcf27b72fe325`
+- **checker SHA-256:**
+  `8961626415452cf5de84e8cc5194c47c40eba8d56d1a13f6c4f3989828d5d3cd`
+- **theorem code archive SHA-256:**
+  `327c677b870233b5b43609203a45c12ca478a719da3b9391c61860d9ddbe6b49`
+- **dependency archive SHA-256:**
+  `5ee5d10a20f1e47b1e5400d10177e33bafdc83c0e9b516d6d12dfe0fad93aaf8`
+- **envelope:** eight jobs, one CPU and 256 MB each, 300-second child wall
+  and 315-second container wall; projected total cost below `$0.10`
+- **local safety:** one `modal`-profile RAMguard client; no local enumeration
+
+The adapters alter only `K'=86`, `q=76`, `m'=67558`, `n'=1048662`, the
+derived exact ceiling, and the exact raw-safe offset-32 leader. They retain
+the proved K'=85 carrier formulas. Both implementations share the explicit
+row-generic source-unit traversal, while the adjacent-edge prices are rebuilt
+by the primary router and the separately implemented audit formulas.
+
+`FALSIFIED` requires a paired exact over-leader witness and blocks a full
+best-single campaign. `SURVIVED` requires paired agreement on all four lanes,
+1,221,374 completed source units, and every carrier profile at or below the
+leader. `INCOMPLETE` retains partial checkpoints and changes no mathematical
+status. Survival authorizes a separately preregistered completion wave over
+offsets `1..42`; this stress campaign alone cannot promote `K'=86`.
+
+**Outcome:** `SURVIVED`. Modal app `ap-5YQpAxDUQx8BshC5cCrqxM` completed all
+eight jobs at 29--34 MB peak RSS. The paired checker accepted all 1,221,374
+source units and 4,954,135 deduplicated carrier profiles per implementation,
+with exact agreement on offsets 1, 23, 32, and 42. Capture SHA-256:
+`8499f33db4c4bcd20b7c2e8b8bc170d3d6beb7f33421539d43f1e6165e5301ba`.
+The raw-safe leader lane, the largest lane, the interior stress lane, and the
+last raw-unsafe lane all survive. This authorizes the separately pinned full
+completion wave; it does not promote `K'=86`.
+## Preregistered K'=86 best-single completion wave
+
+- **decision:** prove or refute the exact best-single-edge domination statement
+  on every raw-unsafe offset `1..42` with paired primary and independent-price
+  traversals
+- **scope:** 84 jobs; all 13,571,481 source units and all 415,413 raw-unsafe
+  units from the paired raw-threshold envelope
+- **primary adapter SHA-256:**
+  `8a2ec9877e317798e615e14d0e23b2f0c65d927a109985c7aec160c1cc65db97`
+- **independent-pricing adapter SHA-256:**
+  `ad37ddbfa7920e57ad912b523751d9415944f8e16459c49bb7973a86e386cd10`
+- **shared K'=86 traversal core SHA-256:**
+  `2eb7f85cf6fb4311874f453c75fc868796dbc726599462e12b640e98fe2a9939`
+- **K'=85 primary formula adapter SHA-256:**
+  `2c94b7432cd4c9d37a49288298761cbff9227a07f694fe80ec259ef19e724505`
+- **K'=85 independent formula adapter SHA-256:**
+  `f9a01624b5a11fbc30f58a4f4afca2aa75d9af96b35c69edddcdc7eef5e1fa1f`
+- **K'=85 residual base SHA-256:**
+  `cd1e9d2706c48be390387953c4abeea46958af258f132700809cf2393a5e4a90`
+- **dispatcher SHA-256:**
+  `4f47b9d541eddbd633e96d94d6aab473b3b1da9a8ede8c9726e1016cbe4ddc56`
+- **merger SHA-256:**
+  `d7e83244e5b674c05c710d4930b85616115616d9ac53bd068328a8db7dd1e932`
+- **theorem code archive SHA-256:**
+  `327c677b870233b5b43609203a45c12ca478a719da3b9391c61860d9ddbe6b49`
+- **dependency archive SHA-256:**
+  `5ee5d10a20f1e47b1e5400d10177e33bafdc83c0e9b516d6d12dfe0fad93aaf8`
+- **precondition:** offsets 1, 23, 32, and 42 survived exact paired stress,
+  including 4,954,135 carrier profiles per implementation
+- **envelope:** one CPU and 256 MB per job, 300-second child wall and
+  315-second container wall; 84 containers and projected total cost below
+  `$0.50`
+- **partial output:** every worker retains completed `m2` progress on timeout;
+  successful wrappers store exact coverage, output hash, and peak RSS
+- **local safety:** one `modal`-profile RAMguard client; no local enumeration
+
+`PASS` requires all 84 jobs, exact primary/audit agreement on every lane
+count, 13,571,481 source units, 415,413 residual units, and no over-leader
+profile. Together with the paired raw envelope and fully safe offsets
+`43..75`, this proves the finite best-single carrier statement for the
+nonordinary K'=86 frontier. `FALSIFIED` retains the first paired witness and
+blocks promotion. `INCOMPLETE` changes no status.
+
+Even on `PASS`, promotion requires the ordinary-lane coverage contract and
+the exact positive component-payment arithmetic to be stated and verified in
+a compact DAG node.
+
+**Outcome:** `PASS`. Modal app `ap-HSdSkI0KYmWfnz0jL0Bron` completed all 84
+jobs below the memory limit. The merger accepted exact primary/audit agreement
+on all 42 offsets, all 13,571,481 source units, all 415,413 raw-unsafe units,
+and 62,159,220 deduplicated carrier profiles per implementation. Capture
+SHA-256:
+`bc67b9fa9ffa6b386d5d5f9e053e2d5a99a8451f2e9ae8d03c0095cc6f867349`.
+
+Every residual profile is at most the exact raw-safe offset-32 leader
+`41436891148468120556440841127823744176664445997`. Together with the paired
+raw-threshold envelope, fully safe offsets `43..75`, and the paired ordinary
+lane, this certifies the complete K'=86 carrier frontier. Promotion still
+requires the exact positive component-payment arithmetic and compact node
+contract.
+## Preregistered K'=86 component payment
+
+- **decision:** substitute the merger-certified K'=86 frontier premium into
+  the exact rank-nine ledger and require a positive integral component gap
+- **input premium:**
+  `41436891148468120556440841127823744176664445997`
+- **expected safe-ceiling margin:**
+  `2429142732593969226237923721701123878841`
+- **payment script SHA-256:**
+  `fc2f9a1c6f406063ca305a6744852680fdf363c422fa6a9586db9b071752cc65`
+- **dispatcher SHA-256:**
+  `55e75f6cd7ee5bb5facdaf005d4bad397fc37c9b29a206c2b18d1f081333aaeb`
+- **dependency archive SHA-256:**
+  `5ee5d10a20f1e47b1e5400d10177e33bafdc83c0e9b516d6d12dfe0fad93aaf8`
+- **envelope:** one CPU, 256 MB, 20-second child wall; projected cost below
+  `$0.01`
+- **local safety:** one RAM-guarded Modal client; no local mathematical run
+
+`PASS` independently reconstructs the marks, kernel, safe ceiling, full-rank
+capacity, required incidence, and a strictly positive gap. This authorizes a
+compact K'=86 `PROVED` node when combined with the paired frontier captures
+and analytic DAG gates. `INCOMPLETE` or a nonpositive gap blocks promotion.
+
+**Outcome:** `PASS`. Modal app `ap-3mwC5dZ9yYxOTcOJx9JygE` independently
+reconstructed the exact row and returned safe-ceiling remainder
+`227261548525136411`, full-rank capacity
+`920812197157351151323326240869770734642178201951825815213388613`, total
+capacity
+`920910981401515382507267812115889364849258449737790776660916953`, and
+required incidence
+`920910993546377878777553498313894622180137392955340138442435688`.
+The resulting component gap is
+
+```text
+12144862496270285686198005257330878943217549361781518735>0.
+```
+
+Capture SHA-256:
+`252d9dfa3f4c6e819a706a54e437aae1337907473e3dd3113bff460764007f3e`.
+Together with the complete paired frontier and the separately checked
+ordinary slice, this authorizes the compact K'=86 `PROVED` node and extends
+the finite closed prefix to `10..86`.
+## Preregistered K'=87 raw-threshold offset envelope
+
+- **decision:** identify the exact global raw-safe leader over all 76 positive
+  support-2/3 offsets and isolate the complete population requiring carrier
+  geometry
+- **scope:** offsets `1..76`, both the primary traversal and the independently
+  written reconstruction
+- **primary K'=87 adapter SHA-256:**
+  `d85f91f5cfbfbaa4550377cc0096b194108bbc8bdd660b9e3f680ef6a83e08c5`
+- **independent K'=87 adapter SHA-256:**
+  `b968b55cd98d04224ed3ef36bc8e14b83614f8e60257a76546fdfe87200a41d8`
+- **primary base SHA-256:**
+  `b13ab1262105d53694407a9c448362bfa85b7914e6fce6242b715f2436c63b3b`
+- **independent base SHA-256:**
+  `90380f5d1f8191172dae43e90b9802873ed6f680a2bc41a49d50d3dade10f59c`
+- **dispatcher SHA-256:**
+  `188db97045b5d97162e5038822b016805a9fb4299ec6b61bd71883ed9d114de2`
+- **merger SHA-256:**
+  `e7dbbd4145bc9924806f9fc1e85d1593ec77c67d898e69633fe0c56e5b51ca38`
+- **theorem code archive SHA-256:**
+  `327c677b870233b5b43609203a45c12ca478a719da3b9391c61860d9ddbe6b49`
+- **dependency archive SHA-256:**
+  `5ee5d10a20f1e47b1e5400d10177e33bafdc83c0e9b516d6d12dfe0fad93aaf8`
+- **envelope:** 152 remote jobs, one CPU and 256 MB each, 165-second child
+  timeout and 180-second container timeout; projected total cost below `$1`
+- **local safety:** one `modal`-profile RAMguard client; no local enumeration
+
+The adapters alter only `K'=87`, `q=77`, `m'=67559`, `n'=1048663`, and the
+derived exact safe ceiling. They call the two independently implemented,
+hash-pinned K'=85 scanners. A four-job offset-1/offset-76 smoke must pass
+before the complete wave.
+
+The full capture is accepted only if all 152 jobs finish below 128 MB, both
+implementations agree on every offset classification digest and profile, and
+
+```text
+sum_{d=1}^{76} (77-d) * 78^2 = 17,801,784
+```
+
+source units are classified. `PASS` names the exact raw-safe maximizer and
+finite residual population. `FAIL` is an implementation disagreement or
+malformed coverage. `INCOMPLETE` retains partial checkpoints and changes no
+mathematical status. This scan alone cannot promote `K'=87`.
+
+The paired deployment smoke passed as Modal app
+`ap-vTfGBIN3tpyW7Yp0fZhRM6`. Primary and independent implementations agree
+exactly on offset 1 (462,384 units, 23,104 unsafe) and terminal offset 76
+(6,084 units, all safe), including both classification digests and complete
+`m2` profiles. All four jobs used 25--28 MB. Smoke-capture SHA-256:
+`9abaa530060708007b1c1faa24653a448154997a8ef6268dccb8793586358e69`.
+This validates both adapters and authorizes the preregistered full wave; it
+does not itself promote `K'=87`.
+
+The complete paired wave passed as Modal app
+`ap-xwOdMdTBRKtC2aIHtpRSw0`. Capture SHA-256:
+`2722d7811cf29e425bd67fd49a46f586efe2f21c0dda698e369dcfe4fd48b449`.
+All 152 jobs completed below 128 MB, and the primary and independent
+implementations agree on every offset classification and profile.
+
+```text
+source units per implementation       17,801,784
+raw rows per implementation          124,612,488
+raw-safe units                         17,290,107
+raw-unsafe units                          511,677
+unsafe offsets                              1..43
+fully safe offsets                         44..76
+```
+
+The exact raw-safe leader is offset 9,
+
+```text
+s2=55/s3=46/s4=37/s5=30/offset9/c6F/c7F/c8F/c9F
+```
+
+with premium `41460899125475443837881046685022762331499044695`, strictly
+below the exact safe ceiling
+`41460914669043067085305042221812436226076443389` by
+`15543567623247423995536789673894577398694`. The raw envelope is therefore
+complete. The remaining `K'=87` obligation is a finite 511,677-unit
+post-carrier payment over offsets `1..43`.
+## Preregistered K'=87 best-single-edge stress falsifier
+
+- **decision:** test whether the best of the raw price and each available
+  single adjacent edge pays every deduplicated carrier profile below the exact
+  K'=87 raw-safe leader on four route-deciding offsets
+- **ordered scope:** offsets `9` (the raw-safe leader), `1` (largest lane),
+  `23` (interior stress), and `43` (last raw-unsafe lane), evaluated in one
+  paired deployment
+- **primary adapter SHA-256:**
+  `f2ef06960e42febe620dcfa7ecddf2d7207532462e764e0b767a98416f45de53`
+- **independent-pricing adapter SHA-256:**
+  `d4c6baed6e30a3acea25b808a6320589fc1b7aadd401da1a4fac0566b17df627`
+- **shared K'=87 traversal core SHA-256:**
+  `53b1d80cabff9cf1995043195b91e8b1e96013ffcb8aaacf5642591a88cd3e0a`
+- **K'=85 primary formula adapter SHA-256:**
+  `2c94b7432cd4c9d37a49288298761cbff9227a07f694fe80ec259ef19e724505`
+- **K'=85 independent formula adapter SHA-256:**
+  `f9a01624b5a11fbc30f58a4f4afca2aa75d9af96b35c69edddcdc7eef5e1fa1f`
+- **K'=85 residual base SHA-256:**
+  `cd1e9d2706c48be390387953c4abeea46958af258f132700809cf2393a5e4a90`
+- **dispatcher SHA-256:**
+  `951b2c2f3b560fd4df4dadf2da51d896c81207a8bd6890d468007f896144514d`
+- **checker SHA-256:**
+  `d03a0018a439f1fdde77fc8f74cd7388aef4520cdab9b5b5bdcce6179b0b1d7e`
+- **theorem code archive SHA-256:**
+  `327c677b870233b5b43609203a45c12ca478a719da3b9391c61860d9ddbe6b49`
+- **dependency archive SHA-256:**
+  `5ee5d10a20f1e47b1e5400d10177e33bafdc83c0e9b516d6d12dfe0fad93aaf8`
+- **envelope:** eight jobs, one CPU and 256 MB each, 360-second child wall
+  and 375-second container wall; projected total cost below `$0.15`
+- **local safety:** one `modal`-profile RAMguard client; no local enumeration
+
+The adapters alter only `K'=87`, `q=77`, `m'=67559`, `n'=1048663`, the
+derived exact ceiling, and the exact raw-safe offset-9 leader. They retain the
+proved K'=85 carrier formulas. Both implementations share the explicit
+row-generic source-unit traversal, while the adjacent-edge prices are rebuilt
+by the primary router and the separately implemented audit formulas.
+
+`FALSIFIED` requires a paired exact over-leader witness and blocks a full
+best-single campaign. `SURVIVED` requires paired agreement on all four lanes,
+1,411,488 completed source units, and every carrier profile at or below the
+leader. `INCOMPLETE` retains partial checkpoints and changes no mathematical
+status. Survival authorizes a separately preregistered completion wave over
+offsets `1..43`; this stress campaign alone cannot promote `K'=87`.
+
+**Outcome:** `FALSIFIED`. Modal app `ap-LHOZ5HAjGEZi9RzlEHSHZH` completed all
+eight jobs at 30--34 MB peak RSS. The paired checker accepted 1,111,080
+completed source units and 4,333,348 deduplicated carrier profiles per
+implementation. Offsets 9, 23, and 43 survived exhaustively, while both
+implementations returned the same first offset-1 witness:
+
+```text
+m2=27, m3=28, s2=50, s3=49, s4=48, s5=47
+case=F23__N4_t2__N5_t0
+charges=(32,7),(36,5), high=c6F/c7F/c8F/c9F
+```
+
+Its raw premium is
+`46081464205190838687203932464720858867144442465`. The best single adjacent
+edge leaves
+`41535717484613459403166619514559682376379208865`, above the exact raw-safe
+leader by `74818359138015565285572829536920044880164170`. Capture SHA-256:
+`28384df190292e49aeb22ded3194f83037700654293fe5ba4518ffd2680a5501`.
+
+The full best-single wave is therefore blocked. This witness has available
+edges 4, 5, and 6, so the next bounded action is to print the complete
+support-disjoint option table and test whether edge set `4+6` supplies the
+minimal valid repair.
+## Preregistered K'=87 residual-witness adjacent payment
+
+- **decision:** print every support-disjoint adjacent-edge price on the exact
+  best-single counterexample and identify the minimal edge set in both the
+  primary and independent atlas
+- **scope:** offset 1, `m2=27`, `s4=48`, `s5=47`, case
+  `F23__N4_t2__N5_t0`, charges `(32,7),(36,5)`
+- **K'=87 adapter SHA-256:**
+  `a66f4235d0651bd35d3ccbe749beb6ea5f52c6b2198bc1460bf13f3fe7907a00`
+- **base paired analyzer SHA-256:**
+  `44faccd0305d374557650c8bfc3b40f3aaa97717e46b154568cbadb3ec77bf3a`
+- **dispatcher SHA-256:**
+  `64bca2a9e0ce3d6b0f69ed664db3a18e01e8348dcde9bc3e046ec6c4116c506e`
+- **theorem code archive SHA-256:**
+  `327c677b870233b5b43609203a45c12ca478a719da3b9391c61860d9ddbe6b49`
+- **dependency archive SHA-256:**
+  `5ee5d10a20f1e47b1e5400d10177e33bafdc83c0e9b516d6d12dfe0fad93aaf8`
+- **envelope:** one CPU, 256 MB, 20-second child wall and 30-second container
+  wall; projected cost below `$0.01`
+- **local safety:** one RAM-guarded Modal client; no local mathematical run
+
+The adapter changes only `K'=87`, `q=77`, `m'=67559`, the exact safe ceiling,
+and the raw-safe leader. The base analyzer enumerates all support-disjoint
+subsets of the available edges and independently reconstructs every adjacent
+pair cap.
+
+`PASS` prints both exact option tables. A best price above the leader is a
+current adjacent-router wall; a lower price identifies the next compressed
+edge family. `INCOMPLETE` changes no status. This one-witness calculation
+cannot promote `K'=87`.
+
+**Outcome:** `PASS`. Modal app `ap-wLdIVTwSfqoHqcbrTReo02` completed the
+paired exact option table. Primary and independent values agree entry by
+entry. Capture SHA-256:
+`9edcb2b46da5f9cb3aa97bcc8f230e0725bc7b2cd72e214477f4c5ece34ba82b`.
+
+The minimizing valid choice is the support-disjoint edge set `4+6`, with
+price `37213564927666895824914633823577105351210858112`, below the exact
+raw-safe leader by `4247334197808548012966412861445656980288186583`.
+Every single edge remains above the leader:
+
+```text
+edge 4  41697268189301188466486299088841700382091277312
+edge 5  41535717484613459403166619514559682376379208865
+edge 6  41597760943556546045632267199456263836264023265
+```
+
+This repairs the single witness but not the row. It authorizes an exhaustive
+paired offset-1 falsifier using the proved support-disjoint optimizer.
+## Preregistered K'=87 support-disjoint offset-1 falsifier
+
+- **decision:** exhaust the complete offset-1 residual lane using the best
+  support-disjoint subset of available adjacent edges
+- **scope:** paired primary and independent traversals of offset 1; no other
+  offset is launched in this campaign
+- **primary adapter SHA-256:**
+  `9aa4ff7e6d71face083b427d06519486ec50a6c6554203007a7f9be07abdb5c8`
+- **independent-pricing adapter SHA-256:**
+  `f4d447913771dde26e085d56fbfdef0fec6ba702183f99f403dccfe2f2a98e22`
+- **K'=87 best-single primary base SHA-256:**
+  `f2ef06960e42febe620dcfa7ecddf2d7207532462e764e0b767a98416f45de53`
+- **K'=87 best-single audit base SHA-256:**
+  `d4c6baed6e30a3acea25b808a6320589fc1b7aadd401da1a4fac0566b17df627`
+- **K'=87 traversal core SHA-256:**
+  `53b1d80cabff9cf1995043195b91e8b1e96013ffcb8aaacf5642591a88cd3e0a`
+- **dispatcher SHA-256:**
+  `964a08d370022a2ce6fde495346e3bed3c3b8ed2907cc8ab9b0a8a210399ac6c`
+- **checker SHA-256:**
+  `8dd3942479fdcb34b93908629039ed1e33484015de07a314fcc55fef1950c02f`
+- **theorem code archive SHA-256:**
+  `327c677b870233b5b43609203a45c12ca478a719da3b9391c61860d9ddbe6b49`
+- **dependency archive SHA-256:**
+  `5ee5d10a20f1e47b1e5400d10177e33bafdc83c0e9b516d6d12dfe0fad93aaf8`
+- **envelope:** two jobs, one CPU and 256 MB each, 480-second child wall and
+  495-second container wall; projected total cost below `$0.10`
+- **local safety:** one `modal`-profile RAMguard client; no local enumeration
+
+The primary adapter calls the proved `priced_all_adjacent` optimizer; the
+independent adapter calls its separately implemented `price` reconstruction.
+Both enumerate only edge sets with pairwise disjoint support pairs. No
+overlapping adjacent charges are composed.
+
+`FALSIFIED` requires a paired exact over-leader witness and blocks a complete
+support-disjoint campaign. `SURVIVED` requires exact agreement on all 462,384
+offset-1 source units and every deduplicated carrier profile. `INCOMPLETE`
+retains partial checkpoints and changes no status. Offsets 9, 23, and 43
+already inherit survival because this optimizer includes every best-single
+choice. This campaign alone cannot promote `K'=87`.
+
+**Outcome:** `FALSIFIED`. Modal app `ap-cJPrOXXEvVBCRydRzokVWK` completed
+both jobs at 31--32 MB peak RSS. The paired checker accepted 168,060 source
+units, 9,217 raw-unsafe units, and 144,439 deduplicated profiles per
+implementation before both traversals reached the same witness:
+
+```text
+m2=28, m3=29, s2=49, s3=48, s4=48, s5=47
+case=F23__N4_t0__N5_t0
+charges=(34,6),(36,5), high=c6F/c7F/c8F/c9F
+```
+
+Only edges 4 and 5 are available, so no two-edge support-disjoint subset
+exists. The optimized price is
+`41489774300553901192839119028686282570642878551`, above the exact raw-safe
+leader by `28875175078457354958072343663520239143833856`. Capture SHA-256:
+`dcc663d48ea02daa4267f9a13b4af6889f66d8af9738e35af96df4e42c400e23`.
+
+The complete support-disjoint campaign is therefore blocked. The next route
+must strengthen one pair bound or derive a genuine simultaneous support-
+`4/5/6` inequality from the shared dimension-six fixed union; overlapping
+pair charges may not simply be added.
+## Preregistered K'=87 simultaneous support-4/5/6 witness probe
+
+- **decision:** test whether retaining the shared support-5 stratum in the
+  two proved adjacent-flat inequalities pays the exact support-disjoint
+  counterexample
+- **scope:** one fixed witness and its dimension-six charge `(u,g)=(34,6)`;
+  no residual lane scan
+- **probe SHA-256:**
+  `e4869f37c3eab008a2d17e829ec33bfba1612018c8b99be8f908af389fa7a986`
+- **dispatcher SHA-256:**
+  `d62f08a5741d4720bef0b0e43d15cb2d74617e0569e62db0b1ef20feb8bacfd3`
+- **K'=87 witness adapter SHA-256:**
+  `a66f4235d0651bd35d3ccbe749beb6ea5f52c6b2198bc1460bf13f3fe7907a00`
+- **base witness analyzer SHA-256:**
+  `44faccd0305d374557650c8bfc3b40f3aaa97717e46b154568cbadb3ec77bf3a`
+- **theorem code archive SHA-256:**
+  `327c677b870233b5b43609203a45c12ca478a719da3b9391c61860d9ddbe6b49`
+- **dependency archive SHA-256:**
+  `5ee5d10a20f1e47b1e5400d10177e33bafdc83c0e9b516d6d12dfe0fad93aaf8`
+- **envelope:** one CPU, 256 MB, 20-second child wall and 30-second container
+  wall; projected cost below `$0.01`
+- **local safety:** one RAM-guarded Modal client; no local mathematical run
+
+For each intersection stratum `i=0,1,2`, the probe simultaneously imposes
+the proved `(4,5)` and `(5,6)` instances of `(FAS1)`, together with the
+proved `(FAS2)` individual caps on supports 4 and 5. It maximizes the weighted
+`C4+C5+C6` objective over the resulting rational polytope. One implementation
+uses the explicit support-5 breakpoints; the audit independently enumerates
+all LP vertices with exact rational arithmetic. The remaining strata use the
+same direct completion caps printed in the proved fixed-union theorem.
+
+This does not add overlapping pair bounds. It uses two simultaneous
+inequalities sharing one variable and solves their joint feasible region.
+`PASS` requires exact agreement of both LP implementations and prints the
+resulting witness price. A nonpositive margin is a route wall. A positive
+margin authorizes theorem packaging and a separately preregistered lane
+falsifier; this probe alone cannot promote `K'=87`.
+
+**Outcome:** arithmetic `PASS`, route wall. Modal app
+`ap-D2TbRHCVUrcU61tRsOC4we` completed the probe, and the explicit-breakpoint
+and independent vertex-enumeration LPs agree exactly in every stratum. The
+simultaneous cap is
+`26934334803635047410267405026838894905450545600`. Substitution leaves
+premium `42322182171521728365206683472917703495213582545`, still above the
+K'=87 leader by `861283046046284527325636787894941163714537850`. Capture
+SHA-256: `e7a5bd7c42cf067f377aac6176d75c887f371c1c019b3e33fc9ee4bb2eb6e76f`.
+
+Thus the valid shared-stratum consequence is weaker on this witness than the
+existing strongest adjacent-pair option. It is retained as an exact route
+cut and does not authorize a lane scan. The next candidate should retain the
+raw global support-4 and support-5 caps inside the fixed-union `(4,5)`
+stratum LP instead of applying them only after the weighted pair cap has been
+collapsed.
+## Preregistered K'=87 raw-clipped support-4/5 witness probe
+
+- **decision:** test the proved `(36,5)` support-4/5 stratum inequalities
+  after imposing the witness's global raw support-4 and support-5 caps before
+  the weighted optimization is collapsed
+- **scope:** one exact support-disjoint counterexample; no residual lane scan
+- **probe SHA-256:**
+  `fa24a164437f518ff5a441ccd03bd68e1aedc3b50e20045ade278a45d50f9293`
+- **dispatcher SHA-256:**
+  `eea1153b5436678bcc3d946d0d1ee5e6dcd54a21fdab82720813f94525d01bfa`
+- **K'=87 witness adapter SHA-256:**
+  `a66f4235d0651bd35d3ccbe749beb6ea5f52c6b2198bc1460bf13f3fe7907a00`
+- **base witness analyzer SHA-256:**
+  `44faccd0305d374557650c8bfc3b40f3aaa97717e46b154568cbadb3ec77bf3a`
+- **theorem code archive SHA-256:**
+  `327c677b870233b5b43609203a45c12ca478a719da3b9391c61860d9ddbe6b49`
+- **dependency archive SHA-256:**
+  `5ee5d10a20f1e47b1e5400d10177e33bafdc83c0e9b516d6d12dfe0fad93aaf8`
+- **envelope:** one CPU, 256 MB, 20-second child wall and 30-second container
+  wall; projected cost below `$0.01`
+- **local safety:** one RAM-guarded Modal client; no local mathematical run
+
+The primary implementation fixes the total support-4 count, fills uncoupled
+strata first, and allocates the coupled count in increasing loss ratio. The
+audit independently fixes total support 5 and allocates in the reverse dual
+order. Both use exact rational arithmetic and must agree on the optimum and
+the two aggregate counts. The raw selected-incidence caps are converted to
+circuit caps by flooring against their exact extension factors, matching the
+normalization already used by the proved adjacent-support router.
+
+`PASS` requires exact agreement and prints the repaired witness price. A
+nonpositive margin is a route wall. A positive margin authorizes packaging
+the clipped fixed-union theorem and a separately preregistered offset-1
+falsifier. This one-witness probe cannot promote `K'=87`.
+
+**Outcome:** arithmetic `PASS`, route wall. Modal app
+`ap-cCC7w2ZcDACsgqKNJS19Ij` completed the probe. The support-4-oriented and
+support-5-oriented exact optimizers agree on cap
+`15826982470121619978034510012906276872113956680`. The repaired premium is
+`41987945497536424020866493137524475559167409625`, still above the K'=87
+leader by `527046372060980182985446452501713227668364930`. Capture SHA-256:
+`4f3bef9931e692f12b85432719730f433fcb0603cf894982c06a5e9458895120`.
+
+The clipped support-4/5 route is therefore insufficient and does not
+authorize a lane scan. The exact support-4 raw cap is active at the optimum,
+so the clipping is nonvacuous; however, the witness's stronger existing
+single edge is support 5/6. The next bounded action is the analogous
+raw-clipped support-5/6 stratum LP for the `(34,6)` charge.
+## Preregistered K'=87 raw-clipped support-5/6 witness probe
+
+- **decision:** test the proved `(34,6)` support-5/6 stratum inequalities
+  after imposing the witness's global raw support-5 and support-6 caps before
+  weighted aggregation
+- **scope:** one exact support-disjoint counterexample; no residual lane scan
+- **probe SHA-256:**
+  `d6dce1376dd21fb148eda763cecddca3e73ac1d7a81418c087e85fa8d4548d00`
+- **dispatcher SHA-256:**
+  `1e27476d06856eb3faf2983257ab401574143d59d860f55039723003c9019e68`
+- **K'=87 witness adapter SHA-256:**
+  `a66f4235d0651bd35d3ccbe749beb6ea5f52c6b2198bc1460bf13f3fe7907a00`
+- **base witness analyzer SHA-256:**
+  `44faccd0305d374557650c8bfc3b40f3aaa97717e46b154568cbadb3ec77bf3a`
+- **theorem code archive SHA-256:**
+  `327c677b870233b5b43609203a45c12ca478a719da3b9391c61860d9ddbe6b49`
+- **dependency archive SHA-256:**
+  `5ee5d10a20f1e47b1e5400d10177e33bafdc83c0e9b516d6d12dfe0fad93aaf8`
+- **envelope:** one CPU, 256 MB, 20-second child wall and 30-second container
+  wall; projected cost below `$0.01`
+- **local safety:** one RAM-guarded Modal client; no local mathematical run
+
+The primary implementation fixes total support 5 and allocates its coupled
+strata in increasing support-6 loss ratio. The audit fixes total support 6
+and traverses the reverse dual allocation. Both use exact rational arithmetic
+and must agree on the weighted optimum and both aggregate counts. The raw
+selected-incidence caps are normalized by their exact extension factors as
+in the proved adjacent-support router.
+
+`PASS` requires exact agreement and prints the repaired witness price. A
+nonpositive margin is a route wall. A positive margin authorizes theorem
+packaging and a separately preregistered offset-1 falsifier. This one-witness
+probe cannot promote `K'=87`.
+
+**Outcome:** `PASS` with positive margin. Modal app
+`ap-0M46E2HegLDfuwCNvdJTUm` completed the probe. The support-5-oriented and
+support-6-oriented exact optimizers agree on cap
+`14207926136094898913594751174330524101924656533`. The repaired premium is
+`39531805787455558517198440263313445158726451351`, below the K'=87 leader by
+`1929093338019885320682606421709317172772593344`. Capture SHA-256:
+`3f5c2073ae746ba1c546fbc49afa09941280438c94989b9f614bf812a8f42eab`.
+
+The witness's exact raw support-5 count is active at the optimum, so the
+pre-aggregation clipping is genuinely stronger than the previously deployed
+support-5/6 cap. This repairs one witness, not the row. The next action is to
+package the generic raw-clipped adjacent-support theorem with an independent
+verifier, then preregister a paired offset-1 falsifier using it.
+## Preregistered K'=87 raw-clipped offset-1 falsifier
+
+- **decision:** exhaust offset 1 using the proved raw-clipped support-5/6 cap
+  on every eligible carrier, combined only with support-disjoint adjacent
+  edges
+- **scope:** paired primary and independent traversals of offset 1; no other
+  residual offset
+- **generic clipped evaluator SHA-256:**
+  `514cbeabc44f04ea4e153415dcddab1878069cefeaa12dea931f60edf9c0e18a`
+- **charge-retaining traversal core SHA-256:**
+  `ea0cc3fc67e7079a34a0bbabbe8c5953b0791944f05bc64659d80c9470036c13`
+- **primary adapter SHA-256:**
+  `27e0eaa88d6238de3d86205ab907d2caa1f997212ad0ea2b9ea4533f7924f8d8`
+- **independent adapter SHA-256:**
+  `289ade06dfcb706efb8dcb020f20afe1ec9ccf25061d450438867ef2f59deb72`
+- **dispatcher SHA-256:**
+  `ab148aeea28ca762620ce24784e8e28c27a2f92a20bfeebe5d8294e570f2eb36`
+- **checker SHA-256:**
+  `21de7c78cbf9200fc01d506ce7fd3b389a6546df0285627ca4fe4a61a6018c8f`
+- **theorem code archive SHA-256:**
+  `327c677b870233b5b43609203a45c12ca478a719da3b9391c61860d9ddbe6b49`
+- **dependency archive SHA-256:**
+  `5ee5d10a20f1e47b1e5400d10177e33bafdc83c0e9b516d6d12dfe0fad93aaf8`
+- **envelope:** two jobs, one CPU and 256 MB each, 720-second child wall and
+  735-second container wall; projected total cost below `$0.15`
+- **local safety:** one `modal`-profile RAMguard client; no local enumeration
+
+The primary adapter evaluates the clipped LP by fixing support 5; the audit
+fixes support 6. For each profile, the resulting edge-5 cap is minimized with
+the previously proved adjacent cap. The final optimizer enumerates only
+support-disjoint edge subsets. No overlapping pair bounds are composed.
+
+`FALSIFIED` requires a paired exact over-leader witness. `SURVIVED` requires
+agreement on all 462,384 source units and every deduplicated carrier profile.
+`INCOMPLETE` retains partial checkpoints and changes no status. Survival
+authorizes a separately preregistered complete offsets-`1..43` wave; this
+campaign alone cannot promote `K'=87`.
+
+**First deployment:** `INCOMPLETE`. Modal app
+`ap-VqJehuBkAEPuuHaRhAYPg6` produced one complete primary survival and one
+timed-out audit. The primary exhausted all 462,384 source units, all 23,104
+raw-unsafe units, and 267,056 deduplicated profiles. The audit reached the
+end of `m2=38` without a counterexample before its 720-second child wall.
+Capture SHA-256:
+`7fd211a2ca2a19de5f483eebcc69a29549e529cdaa713431b86645434f0f11ff`.
+
+The primary result is retained, but this capture does not establish paired
+survival and authorizes no full wave. A separately pinned cached audit resume
+will rerun only the independent orientation under a longer Modal wall.
+## Preregistered K'=87 clipped offset-1 audit completion
+
+- **decision:** complete only the independent upper-oriented audit after the
+  primary offset-1 traversal survived and the uncached audit timed out
+- **starting capture SHA-256:**
+  `7fd211a2ca2a19de5f483eebcc69a29549e529cdaa713431b86645434f0f11ff`
+- **cached audit adapter SHA-256:**
+  `9e4240355e5d5b1d59faf301d8087b63cf2fb2a1856d74f1551dc42e399f2296`
+- **unchanged upper-oriented adapter SHA-256:**
+  `289ade06dfcb706efb8dcb020f20afe1ec9ccf25061d450438867ef2f59deb72`
+- **generic clipped evaluator SHA-256:**
+  `514cbeabc44f04ea4e153415dcddab1878069cefeaa12dea931f60edf9c0e18a`
+- **dispatcher SHA-256:**
+  `1e8c9099c2485e7bc4d76e1dbd808fb1c80dfdbff4d363d3cea579ee25a69312`
+- **merger/checker SHA-256:**
+  `ce7f1b8ed7176434378bad780f6626a23fde00c50e30f92bb1333f2d89ad812d`
+- **theorem code archive SHA-256:**
+  `327c677b870233b5b43609203a45c12ca478a719da3b9391c61860d9ddbe6b49`
+- **dependency archive SHA-256:**
+  `5ee5d10a20f1e47b1e5400d10177e33bafdc83c0e9b516d6d12dfe0fad93aaf8`
+- **envelope:** one CPU and 256 MB, 1,920-second child wall and 1,935-second
+  container wall; projected cost below `$0.10`
+- **local safety:** one `modal`-profile RAMguard client; no local enumeration
+
+The cache changes no formula. It keys the exact upper-oriented cap by
+`(union,dimension,raw5,raw6)` and reuses repeated rational evaluations across
+deduplicated profiles. The merger accepts the earlier primary result only by
+its pinned capture hash and requires exact equality of all terminal coverage
+counts with the resumed audit.
+
+`FALSIFIED` is a paired route wall only after comparison with the pinned
+primary traversal. `PASS` requires both complete traversals to survive all
+462,384 source units and 23,104 raw-unsafe units with equal profile counts.
+`INCOMPLETE` changes no status.
+
+**Outcome:** `PASS`. Modal app `ap-ce2sclOGAj09BOGbmk6i7Z` completed the
+cached audit at 42 MB peak RSS with 34,051 exact cache entries. Resume-capture
+SHA-256:
+`da7e3ec56563f0af995a44fe7a264f5515b48ff759d18519593bc1d00f1d9831`.
+
+The hash-pinned merger agrees with the original primary survival on all
+462,384 source units, 23,104 raw-unsafe units, and 267,056 deduplicated
+profiles. Offset 1 is therefore exhaustively paid by the raw-clipped theorem
+in both orientations. This authorizes a separately preregistered paired wave
+over every raw-unsafe offset `1..43`; it does not promote `K'=87` by itself.
+## Preregistered K'=87 raw-clipped completion wave
+
+- **decision:** exhaust every raw-unsafe offset with paired cached
+  implementations of the proved raw-clipped adjacent-support router
+- **scope:** offsets `1..43`, primary lower-oriented and independent
+  upper-oriented traversals; 86 jobs total, below the account's 100-container
+  limit
+- **cached primary adapter SHA-256:**
+  `dd652f005ee31ed3229bd16039f16a8961306fbfe21a45d95737406a3e716f31`
+- **cached audit adapter SHA-256:**
+  `9e4240355e5d5b1d59faf301d8087b63cf2fb2a1856d74f1551dc42e399f2296`
+- **generic clipped evaluator SHA-256:**
+  `514cbeabc44f04ea4e153415dcddab1878069cefeaa12dea931f60edf9c0e18a`
+- **charge-retaining traversal core SHA-256:**
+  `ea0cc3fc67e7079a34a0bbabbe8c5953b0791944f05bc64659d80c9470036c13`
+- **dispatcher SHA-256:**
+  `da4816e607f1eee7e9f7559ce3634e115350a7367a5d7e582d588b540a6158ff`
+- **checker SHA-256:**
+  `92caef3cb3872b2c75ffa91bad21e0a745f281c1b2a8590005b7632368bd3f5e`
+- **theorem code archive SHA-256:**
+  `327c677b870233b5b43609203a45c12ca478a719da3b9391c61860d9ddbe6b49`
+- **dependency archive SHA-256:**
+  `5ee5d10a20f1e47b1e5400d10177e33bafdc83c0e9b516d6d12dfe0fad93aaf8`
+- **envelope:** one CPU and 256 MB per job, 900-second child wall and
+  915-second container wall; projected total cost below `$1`
+- **local safety:** one `modal`-profile RAMguard client; no local enumeration
+
+Each implementation memoizes exact rational cap specializations but retains
+its opposite allocation orientation. Every job emits per-slice progress and
+either an exact paired counterexample or a complete survival. The merger
+accepts `PASS` only if all 43 offset pairs agree, all 14,388,660 source units
+and 511,677 raw-unsafe units are covered per implementation, and every
+profile is at most the K'=87 leader.
+
+`FALSIFIED` preserves every paired exact witness and blocks row promotion.
+`INCOMPLETE` preserves completed jobs and changes no status. `PASS` closes
+only the nonordinary post-carrier lane; the ordinary lane and exact component
+payment remain separate obligations before `K'=87` can be promoted.
+
+**First launch:** infrastructure `INCOMPLETE` before any remote job started.
+Modal app `ap-CJGzce4t8apKw3zM04CRP9` stopped with local client error
+`can't start new thread`. The WSL host already had about 376 live threads;
+adding one dispatch thread per 86-job wave exceeded its local task headroom.
+No mathematical result was produced and no capture is accepted. The identical
+remote jobs will be sent as three sequential, hash-pinned shards of at most
+30 jobs each.
+## Preregistered K'=87 clipped completion shards
+
+- **decision:** execute the unchanged 86-job clipped wave in three sequential
+  shards to stay below the WSL client's thread ceiling
+- **fixed shards:** offsets `1..15` (30 jobs), `16..29` (28 jobs), and
+  `30..43` (28 jobs)
+- **shard dispatcher SHA-256:**
+  `ac42c17cc5b8f6c9b318cc07a43f2a300d9ab74e21936e4279ea0783d1e9860b`
+- **shard merger SHA-256:**
+  `660f99833062b5073393e0351d5b7067c47d2b8e77c3474715a377a6e974a964`
+- **unchanged full-wave checker SHA-256:**
+  `92caef3cb3872b2c75ffa91bad21e0a745f281c1b2a8590005b7632368bd3f5e`
+- **cached primary adapter SHA-256:**
+  `dd652f005ee31ed3229bd16039f16a8961306fbfe21a45d95737406a3e716f31`
+- **cached audit adapter SHA-256:**
+  `9e4240355e5d5b1d59faf301d8087b63cf2fb2a1856d74f1551dc42e399f2296`
+- **envelope:** no more than 30 simultaneous Modal jobs, one CPU and 256 MB
+  each, with the unchanged 900-second child wall; projected aggregate cost
+  below `$1`
+- **local safety:** shards launch sequentially under the `modal` RAMguard
+  profile; no local enumeration
+
+The merger validates each capture hash, exact shard boundary, job set, and
+batch terminal before emitting one canonical 86-job capture. The original
+full-wave checker then applies the unchanged mathematical acceptance
+contract. Sharding changes only local dispatch concurrency.
+
+`FALSIFIED`, `INCOMPLETE`, and `PASS` retain exactly the meanings in the
+parent completion-wave preregistration. No shard result alone changes the
+status of `K'=87`.
+
+**First shard launch:** infrastructure `INCOMPLETE` before remote work.
+Modal app `ap-Hh3xMzcVM9z85G3diycuXu` returned the same local
+`can't start new thread` error for the 30-job first shard. The current WSL
+task headroom is therefore below this dispatch size. No capture is accepted;
+the unchanged shard dispatcher will be used with at most eight jobs per
+launch.
+## Preregistered K'=87 clipped completion microshards
+
+- **decision:** dispatch the unchanged paired jobs in eleven sequential
+  microshards of at most eight jobs
+- **fixed offset partition:** `1..4`, `5..8`, `9..12`, `13..16`, `17..20`,
+  `21..24`, `25..28`, `29..32`, `33..36`, `37..40`, `41..43`
+- **unchanged shard dispatcher SHA-256:**
+  `ac42c17cc5b8f6c9b318cc07a43f2a300d9ab74e21936e4279ea0783d1e9860b`
+- **flexible contiguous merger SHA-256:**
+  `2fc0c0408227dd3cfdf175304bfad6e7b13a77782d33a4a4041b8ff1f8fd12dd`
+- **unchanged full-wave checker SHA-256:**
+  `92caef3cb3872b2c75ffa91bad21e0a745f281c1b2a8590005b7632368bd3f5e`
+- **envelope:** at most eight simultaneous Modal jobs, one CPU and 256 MB
+  each; shards launch sequentially and retain the 900-second child wall;
+  projected aggregate cost below `$1`
+- **local safety:** one small dispatch client at a time under the `modal`
+  RAMguard profile
+
+The merger reads each shard's own `(start,end)` terminal, verifies every
+capture hash and exact paired job set, proves that the ranges form a
+nonoverlapping contiguous partition of `1..43`, and emits the canonical
+86-job capture consumed by the unchanged checker. This is an infrastructure
+repair only; all mathematical source hashes remain those of the parent wave.
+
+**Observed launches.** Offsets `1..4` completed under Modal app
+`ap-iXONaPwRxMHjwZR515sOyi`; both implementations survived all four offsets,
+the batch terminal is complete, and the capture SHA-256 is
+`544b603dac9fd1ea858c36e530bb0263f6e11392a6d3b284d3baa1c266b9f7ca`.
+The next `5..8` launch, app `ap-tSoaoDf3sggiySe7XlduCG`, failed in the local
+Modal client with `can't start new thread` before remote work. No capture from
+that launch is accepted. Since even eight simultaneous dispatch calls are
+not reliable at the current WSL thread ceiling, the remainder moves to the
+two-container range protocol below.
+## Preregistered K'=87 clipped completion ranges
+
+- **decision:** retain the completed paired offsets `1..4`, then process the
+  remaining offsets in five sequential ranges with exactly two remote
+  workers per range
+- **fixed remaining ranges:** `5..12`, `13..20`, `21..28`, `29..36`,
+  `37..43`
+- **range dispatcher SHA-256:**
+  `97354bbbb4d1900e022028b569a46de00799f9724d79697e4281deb22cef1494`
+- **flexible contiguous merger SHA-256:**
+  `2fc0c0408227dd3cfdf175304bfad6e7b13a77782d33a4a4041b8ff1f8fd12dd`
+- **unchanged full-wave checker SHA-256:**
+  `92caef3cb3872b2c75ffa91bad21e0a745f281c1b2a8590005b7632368bd3f5e`
+- **pinned completed range:** offsets `1..4`, capture SHA-256
+  `544b603dac9fd1ea858c36e530bb0263f6e11392a6d3b284d3baa1c266b9f7ca`
+- **envelope:** exactly two simultaneous Modal containers per launch, one
+  primary and one independent audit, each with one CPU and 256 MB; offsets
+  execute sequentially inside each container with the unchanged 900-second
+  child wall and 7215-second range wall; projected aggregate cost below `$1`
+- **local safety:** one two-call Modal dispatch client at a time under the
+  `modal` RAMguard profile; no local enumeration or many-call fanout
+
+Each remote worker emits the unchanged per-offset `JOB_RESULT` records. The
+range terminal is accepted only when both implementations return one complete
+result for every assigned offset, with exit zero and peak RSS at most 128 MB.
+After all five launches, the existing flexible merger verifies capture hashes,
+paired job sets, and the exact contiguous partition `1..43`; the unchanged
+full-wave checker then applies the preregistered mathematical acceptance
+contract. This changes dispatch topology only. It does not weaken the paired
+independence, completeness, resource, or numerical criteria.
+
+**Observed launches.** Range `5..12` completed under Modal app
+`ap-dJ2eUU9a0u0jcJjXZiefIU`; both implementations survived every offset and
+agreed exactly, with peak RSS `39..43` MB. Its capture SHA-256 is
+`4f3f1d9e5f81aa3f8afdb3727d266eaa9f557ad2140b9d8b1c469919785918dd`.
+The first `13..20` attempt, app `ap-Lgc9MUPG1puo4Eua60ex2D`, failed in the
+local Modal client with `can't start new thread` before creating remote
+objects. No capture from that attempt is accepted. Intermittent failure at
+two calls motivates the one-call transport below.
+## Preregistered K'=87 clipped completion single-call ranges
+
+- **decision:** preserve the accepted offsets `1..12`, then execute each
+  remaining fixed range through one remote Modal call
+- **fixed remaining ranges:** `13..20`, `21..28`, `29..36`, `37..43`
+- **single-call dispatcher SHA-256:**
+  `56353323d5f4f322a9f26a6602228bd6245773d6a48979e3be2f7a39af4d38be`
+- **flexible contiguous merger SHA-256:**
+  `2fc0c0408227dd3cfdf175304bfad6e7b13a77782d33a4a4041b8ff1f8fd12dd`
+- **unchanged full-wave checker SHA-256:**
+  `92caef3cb3872b2c75ffa91bad21e0a745f281c1b2a8590005b7632368bd3f5e`
+- **accepted prefix captures:** offsets `1..4` at
+  `544b603dac9fd1ea858c36e530bb0263f6e11392a6d3b284d3baa1c266b9f7ca`;
+  offsets `5..12` at
+  `4f3f1d9e5f81aa3f8afdb3727d266eaa9f557ad2140b9d8b1c469919785918dd`
+- **envelope:** one Modal container per launch, one CPU and 256 MB; primary
+  and independent-audit children execute sequentially with the unchanged
+  900-second child wall and a 14415-second range wall; projected aggregate
+  cost below `$1`
+- **local safety:** one synchronous Modal remote call under the `modal`
+  RAMguard profile; the client inherits a 2 MB thread-stack soft limit while
+  retaining RAMguard's 1536 MB address-space ceiling; no local enumeration,
+  starmap, or concurrent dispatch
+
+The remote container runs the unchanged primary and audit source files as
+separate subprocesses and emits the same per-offset records. Sharing transport
+does not share implementation state: each child starts a fresh interpreter,
+constructs its own cache, and is hashed separately. Acceptance still requires
+both implementations at every offset, exact count agreement in the unchanged
+full-wave checker, exit zero, no timeout, and peak RSS at most 128 MB. The
+single-call protocol changes only the local Modal client's thread demand.
+
+**First single-call launch:** infrastructure `INCOMPLETE` before remote work.
+Modal app `ap-vFYKr9rxnNXfxQ7m8XpvLQ` initialized but the local client again
+returned `can't start new thread` before creating objects. No capture is
+accepted. Inspection showed that this WSL host uses RAMguard's `prlimit`
+fallback: the client has a 1536 MB virtual-address ceiling and an inherited
+8 MB stack reservation per thread. The retry retains the address-space
+ceiling and lowers only the inherited stack soft limit to 2 MB via
+`prlimit --stack=2097152`. This transport adjustment does not alter remote
+resources, source hashes, range boundaries, or acceptance criteria.

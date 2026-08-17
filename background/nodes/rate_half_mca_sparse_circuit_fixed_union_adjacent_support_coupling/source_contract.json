@@ -1,0 +1,35 @@
+{
+  "schema": "rate-half-mca-fixed-union-adjacent-support-coupling-v1",
+  "formula": {
+    "adjacent_coefficient": "N-R-d+1+i",
+    "inside_range": "0<=i<=d-2",
+    "dimension_range": "2<=d<=g-1"
+  },
+  "k83_specializations": [
+    {
+      "union": 39,
+      "dimension": 7,
+      "support_pair": [6, 7],
+      "weighted_cap": 8478017284861369165407480838331054035298100270
+    },
+    {
+      "union": 38,
+      "dimension": 8,
+      "support_pair": [6, 7],
+      "weighted_cap": 8477891688603714304309009575486384320706321023
+    },
+    {
+      "union": 38,
+      "dimension": 8,
+      "support_pair": [7, 8],
+      "weighted_cap": 3633080436157729709981007224570029178990915695
+    }
+  ],
+  "probe": {
+    "app_id": "ap-ltflETo1CTk9D8ndmZOGnD",
+    "script_sha256": "999c5a815285d4e989b4a176ec332526d9e266208e4e11fd91f5a10a76c892c3",
+    "safe_ceiling": 41364814251146263394918185689469529403097578120,
+    "T23_premium": 28580257237466146031071834658493035776688499195,
+    "A23_premium": 28138384063262743811603676163266039013680815843
+  }
+}

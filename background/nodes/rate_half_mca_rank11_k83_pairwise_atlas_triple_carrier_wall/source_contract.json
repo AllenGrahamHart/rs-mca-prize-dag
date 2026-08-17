@@ -1,0 +1,43 @@
+{
+  "schema": "rate-half-mca-rank11-k83-pairwise-atlas-triple-carrier-wall-v1",
+  "dependencies": [
+    "rate_half_mca_rank11_k82_full_carrier_atlas_payment",
+    "rate_half_mca_sparse_circuit_full_completion_pairwise_carrier_atlas",
+    "rate_half_mca_sparse_circuit_fixed_union_flat_coupled_45_charge"
+  ],
+  "replay_sources": {
+    "experiments/prize_resolution/rate_half_mca_rank11_carrier_interval_baseline_probe.py": "633ac3cbc8a498342dd71813f165deb5984c4b05a0c40ad1d28783562b30bfa8",
+    "experiments/prize_resolution/rate_half_mca_rank11_k83_triple_carrier_intersection_probe.py": "fcd5f523bee21cfcd72dbccf1665239dfb1bb3408e455eecf9d10bf666b8b561",
+    "experiments/prize_resolution/rate_half_mca_rank11_k72_two_step_probe.py": "6991370d37e04fd6224cb4e80d62db1d68bd0ce575502a5b7058562099242a29",
+    "tools/modal_run_script_long.py": "50fd8869d4f1d470a1118797721315b53c8c8dd3b4a0d2755711aec20704bfe9"
+  },
+  "parameters": {
+    "kprime": 83,
+    "q": 73,
+    "m": 67555,
+    "n": 1048659
+  },
+  "scope": "single exact cell; not a complete K'=83 frontier maximum",
+  "active_cell": {
+    "defects": [50, 49, 49, 48],
+    "completion_maxima": [23, 24, 24, 25],
+    "label": "F23__N4_t0__N5_t2",
+    "pairwise_charges": [[29, 6], [29, 6]],
+    "pairwise_maximum": 41411584407693108041789796771180703922717609427,
+    "safe_premium_ceiling": 41364814251146263394918185689469529403097578120,
+    "pairwise_margin": -46770156546844646871611081711174519620031307
+  },
+  "forced_intersection_rows": [
+    {"overlap45": 0, "triple_union": 32, "triple_dimension": 4, "maximum": 41411584407693108041789796771180703922717609427, "margin": -46770156546844646871611081711174519620031307},
+    {"overlap45": 1, "triple_union": 31, "triple_dimension": 4, "maximum": 41411584407693108041789796771180703922717609427, "margin": -46770156546844646871611081711174519620031307},
+    {"overlap45": 2, "triple_union": 30, "triple_dimension": 4, "maximum": 41411584407693108041789796771180703922717609427, "margin": -46770156546844646871611081711174519620031307},
+    {"overlap45": 3, "triple_union": 29, "triple_dimension": 4, "maximum": 41411584407693108041789796771180703922717609427, "margin": -46770156546844646871611081711174519620031307}
+  ],
+  "branch_free_baseline": [
+    {"kprime": 81, "baseline_premium": 94007459453687947894291152913097240382686737518, "safe_premium_ceiling": 41316748004459991211702356957241597892727789349, "margin": -52690711449227956682588795955855642489958948169},
+    {"kprime": 83, "baseline_premium": 96735817248988026889231098745064402053450607850, "safe_premium_ceiling": 41364814251146263394918185689469529403097578120, "margin": -55371002997841763494312913055594872650353029730},
+    {"kprime": 100, "baseline_premium": 119950129342120402394925036907883382746668804221, "safe_premium_ceiling": 41772944655156220291402012818446891138694189577, "margin": -78177184686964182103523024089436491607974614644}
+  ],
+  "conclusion": "The printed pairwise cell and its forced ordinary triple intersection remain above the K'=83 ceiling.",
+  "nonclaim": "No counterexample to the MCA theorem or impossibility result for a stronger triple-carrier census is claimed."
+}

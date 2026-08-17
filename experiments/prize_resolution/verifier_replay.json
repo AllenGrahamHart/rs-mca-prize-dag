@@ -2,41 +2,25 @@
   "complete": true,
   "counts": {
     "FAIL": 0,
-    "PASS": 4,
+    "PASS": 2,
     "TIMEOUT": 0
   },
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_k42_cross_support_defect_payment/verify.py",
-      "seconds": 0.337448,
+      "script": "background/nodes/rate_half_mca_rank11_k86_best_single_adjacent_payment/verify.py",
+      "seconds": 0.363216,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_RANK11_K42_CROSS_SUPPORT_DEFECT_PAYMENT_PASS branches=6 gap=4081031051590194485758587836050845115467905186032497191061176 wall=2590504432899371163130658487199612335023802688487478696166262 controls=12\n"
+      "stdout_tail": "{\"gap\": 12144862496270285686198005257330878943217549361781518735, \"margin\": 2429142732593969226237923721701123878841, \"premium\": 41436891148468120556440841127823744176664445997, \"status\": \"PASS\"}\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_k42_cross_support_defect_payment/verify_audit.py",
-      "seconds": 0.023886,
+      "script": "background/nodes/rate_half_mca_rank11_k86_best_single_adjacent_payment/verify_audit.py",
+      "seconds": 0.021509,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_RANK11_K42_CROSS_SUPPORT_DEFECT_PAYMENT_AUDIT_PASS gap=4081031051590194485758587836050845115467905186032497191061176 wall=2590504432899371163130658487199612335023802688487478696166262 branches=12\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_mca_sparse_circuit_cross_support_defect_carrier/verify.py",
-      "seconds": 0.024,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_SPARSE_CIRCUIT_CROSS_SUPPORT_DEFECT_CARRIER_PASS cases=640 special_cases=10 controls=10\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_mca_sparse_circuit_cross_support_defect_carrier/verify_audit.py",
-      "seconds": 0.032468,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_SPARSE_CIRCUIT_CROSS_SUPPORT_DEFECT_CARRIER_AUDIT_PASS field_checks=7 arithmetic_checks=40\n"
+      "stdout_tail": "{\"ceiling_remainder\": 227261548525136411, \"gap\": 12144862496270285686198005257330878943217549361781518735, \"status\": \"AUDIT_PASS\"}\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

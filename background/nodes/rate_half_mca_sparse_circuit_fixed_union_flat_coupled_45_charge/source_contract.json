@@ -1,0 +1,30 @@
+{
+  "schema": "rate-half-mca-sparse-circuit-fixed-union-flat-coupled-45-charge-v1",
+  "hypotheses": {
+    "minimum_dimension": 5,
+    "R": "K-u-g",
+    "B": "R+3",
+    "outside_points": "m-u",
+    "minimum_K_minus_g": 5
+  },
+  "weights": {"4": 21, "5": 15},
+  "formula": {
+    "lower": "C(u,d)+sum(j=1..d-1,floor(C(u,d-j)C(N,j-1)R/j))",
+    "X4": "min(floor(RC(N,3)/4),floor(RC(N,4)/(N-B)))",
+    "X5": "floor((RC(N,4)-(N-B)X4)/5)"
+  },
+  "k72_control": {
+    "K": 72,
+    "m": 67544,
+    "u": 36,
+    "g": 5,
+    "N": 67508,
+    "R": 31,
+    "B": 34,
+    "X4": 397371647886059,
+    "X5": 2463704216893565,
+    "I4": 506389674857089789010503158660245768712830400,
+    "I5": 2212036714331204501716306860191372678671248,
+    "weighted": 10667363722713853636746310934768031733149507120
+  }
+}

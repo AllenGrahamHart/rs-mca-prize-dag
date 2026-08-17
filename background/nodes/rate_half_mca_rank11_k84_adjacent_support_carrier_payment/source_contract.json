@@ -1,0 +1,83 @@
+{
+  "schema": "rate-half-mca-rank11-k84-adjacent-support-carrier-payment-v1",
+  "dependencies": [
+    "rate_half_mca_rank11_k83_adjacent_support_carrier_payment",
+    "rate_half_mca_sparse_circuit_single_completion_carrier",
+    "rate_half_mca_sparse_circuit_full_completion_pairwise_carrier_atlas",
+    "rate_half_mca_sparse_circuit_fixed_union_flat_coupled_45_charge",
+    "rate_half_mca_sparse_circuit_fixed_union_support56_coupling",
+    "rate_half_mca_sparse_circuit_fixed_union_adjacent_support_coupling"
+  ],
+  "sources": {
+    "experiments/prize_resolution/rate_half_mca_rank11_k84_threshold_frontier_replay.py": "a3f55cf0627f63b9786d3f44f526bb44c62d223152424099f1039df04d272a20",
+    "experiments/prize_resolution/rate_half_mca_rank11_k84_threshold_frontier_audit.py": "a9a323316bcbef966ad97ca3e24f66220aa41baf8d5115e7ca3f3205e3e37249",
+    "experiments/prize_resolution/rate_half_mca_rank11_k84_threshold_batch_check.py": "11ef8d98a1cc07db73f4f6e6a17ebb975210a475cf08a8eaa525c4a5ea2a415a",
+    "experiments/prize_resolution/rate_half_mca_rank11_k84_component_payment.py": "391232fc91db032d2599c18e47ad5f9368cf3b9650ede0634972ad118f941207",
+    "tools/modal_run_script_checkpointed_batch.py": "bbe9f1100d8d6add611794e24e02d57ab0f57903a15195a944e6fe640ca98922"
+  },
+  "archives": {
+    "k72-deps.tar.gz": "5ee5d10a20f1e47b1e5400d10177e33bafdc83c0e9b516d6d12dfe0fad93aaf8",
+    "k83-threshold-frontier-adjacent-code.tar.gz": "327c677b870233b5b43609203a45c12ca478a719da3b9391c61860d9ddbe6b49"
+  },
+  "captures": [
+    {
+      "role": "primary_wave",
+      "app_id": "ap-1oAXY3d5xqakObFjYF0Ck6",
+      "sha256": "884e7bc9ee9c78b49e1324bb3c11ca0ca3d6044114f2bc88dd4cee196b2c916a"
+    },
+    {
+      "role": "audit_wave",
+      "app_id": "ap-CE1YUXVUmNXrwze1lDP6Wn",
+      "sha256": "11420a74fbebe5f63d717e633c9914c9089c3fb92546051e267c03b60ee1a850"
+    },
+    {
+      "role": "compact_merger",
+      "app_id": "ap-UwcGaJZm4Wst0Ozq1NMRIp",
+      "sha256": "abc5638fba58fee000c0e8552ea449c4f8058713da3b784a989bf454235633a8"
+    },
+    {
+      "role": "component_payment",
+      "app_id": "ap-H3we0j1uIdfDebkyKPSRbR",
+      "sha256": "58b8a3077d2dc80444b91a9b0057f6ad47a9fd07a0bce0456904522cc4d054c5"
+    }
+  ],
+  "coverage": {
+    "lanes": 74,
+    "jobs": 148,
+    "partition": "ordinary plus offsets 1..73",
+    "source_units": 15651063,
+    "raw_rows": 109557441,
+    "ordinary_units": 457938,
+    "ordinary_raw_rows": 3205566,
+    "ordinary_raw_safe_units": 108047,
+    "ordinary_expanded_units": 1621,
+    "offset_units_formula": "(74-offset)*5625",
+    "primary_geometry_rows": 268721026,
+    "audit_geometry_rows": 520900317
+  },
+  "frontier": {
+    "global_lane": "ordinary",
+    "global_branch": "s2=74/s3=55/s4=45/s5=37/ordinary-single/c6d3/c7d2/c8d1/c9d0/raw-safe",
+    "completion_premium": 41388798786059119503097492734939028640066114130,
+    "safe_premium_ceiling": 41388843367219290911023579337454759405878527749,
+    "premium_ceiling_margin": 44581160171407926086602515730765812413619
+  },
+  "parameters": {
+    "kprime": 84,
+    "q": 74,
+    "m": 67556,
+    "n": 1048660,
+    "new_closed_prefix": [10, 84],
+    "next_open_row": 85
+  },
+  "row": {
+    "rank_nine_marks": 39247328779971425677247740613235199202799709484475284400119489640,
+    "kernel_capacity": 93601518385533824177297938504689665792389660928612396218844,
+    "record_floor": 274980728111260126,
+    "full_rank_capacity": 920517287378407301403164947269584159378751644452457009937339454,
+    "total_capacity": 920610888896792835227342245208088849044544034113385622333558298,
+    "required_component_incidence": 920611111786972543926647666320421141253960527393538734334971880,
+    "gap": 222890179708699305421112332292209416493280153112001413582
+  },
+  "nonclaim": "No K'=85 or full rank-nine interval closure is claimed."
+}

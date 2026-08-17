@@ -1,0 +1,86 @@
+{
+  "schema": "rate-half-mca-rank11-k72-full-carrier-atlas-payment-v1",
+  "dependencies": [
+    "rate_half_mca_rank11_k71_carrier_trichotomy_payment",
+    "rate_half_mca_sparse_circuit_full_completion_pairwise_carrier_atlas",
+    "rate_half_mca_sparse_circuit_fixed_union_flat_coupled_45_charge"
+  ],
+  "replay_sources": {
+    "experiments/prize_resolution/rate_half_mca_rank11_k72_two_step_probe.py": "6991370d37e04fd6224cb4e80d62db1d68bd0ce575502a5b7058562099242a29",
+    "experiments/prize_resolution/rate_half_mca_rank11_k72_plain_frontier_probe.py": "e7ead14696d3424ced596a5a43a70b60d9579858fd1fad1723594b56222f9021",
+    "experiments/prize_resolution/rate_half_mca_rank11_k72_active_cell_probe.py": "b7245f7aea6ae89a5962e805cc396d0ac6b3579b3bebebfb9fc892a24119d5ca",
+    "experiments/prize_resolution/rate_half_mca_rank11_k72_final_payment_probe.py": "2b60f57817b35b326a82aa0688bd6a93b8f5f3444fd68ef41d028a11d9be01ec"
+  },
+  "parameters": {
+    "kprime": 72,
+    "q": 62,
+    "m": 67544,
+    "n": 1048648,
+    "new_closed_prefix": [10, 72],
+    "next_open_row": 73
+  },
+  "plain_frontier": {
+    "evaluations": 7991221,
+    "unsafe_distinct_defect_tuples": 36,
+    "safe_maximum": 41089877204729279662874647920595743958596178333,
+    "safe_maximum_label": "s2=35/s3=32/s4=33/s5=31/c6F/c7F/c8F/c9F/carrier32_plain",
+    "safe_maximum_caps": [
+      73212674795391471746823052037386317755145360,
+      244053066090492313450064227236486900662170200,
+      472094544608188947205177792305949829979216048,
+      706691758745348881775614811130828421379743420,
+      709027139015413197330905510121377456615941752,
+      522771244609681714788212440213691499413080320,
+      261393362018968337257639788063127069403580480,
+      95294299740073511633014772555525779761850585
+    ]
+  },
+  "unsafe_defect_tuples": [
+    [32,31,32,31], [33,32,32,31], [38,31,31,31],
+    [34,32,32,31], [33,32,31,32], [33,32,32,32],
+    [39,31,31,31], [32,31,33,31], [32,31,32,32],
+    [35,32,32,31], [34,32,31,32], [34,32,32,32],
+    [40,31,31,31], [33,31,33,31], [36,32,32,31],
+    [35,32,31,32], [35,32,32,32], [41,31,31,31],
+    [33,32,33,31], [38,31,32,31], [37,32,32,31],
+    [36,32,31,32], [36,32,32,32], [42,31,31,31],
+    [34,32,33,31], [33,32,31,33], [33,32,33,32],
+    [33,32,32,33], [39,31,32,31], [38,32,32,31],
+    [37,32,31,32], [32,31,34,31], [32,31,33,32],
+    [32,31,32,33], [37,32,32,32], [43,31,31,31]
+  ],
+  "reroute": {
+    "cells": 36,
+    "evaluations": 8057,
+    "all_safe": true,
+    "maximum": 31430973522237705446704558558267588754434271701,
+    "active_defects": [33,32,32,31],
+    "active_geometry": "F23__N4_t0__N5_t2/c6F/c7F/c8F/c9F",
+    "premium_margin": 9669344417761229000868507222711228321299403299
+  },
+  "geometry_lanes": [
+    {"lane":"carrier32_geom","evaluations":40754,"maximum":31332005762026065759882484569990588130833580261},
+    {"lane":"one_geom","evaluations":15170953,"maximum":35086385884924358787108064569034674887022445357},
+    {"lane":"two_geom","evaluations":12368727,"maximum":34958260519627235753153180196942889199814374840},
+    {"lane":"three_geom","evaluations":15690948,"maximum":34863467777247905548314578246901215205859775395},
+    {"lane":"four_geom","evaluations":19308205,"maximum":34768648923152083716127586791438385735132736290},
+    {"lane":"five_geom","evaluations":23198952,"maximum":34673803952714831590421211161976656356012549345},
+    {"lane":"six_geom","evaluations":27345696,"maximum":34578932861310570347883556483216979910220849230}
+  ],
+  "geometry_total_evaluations": 113124235,
+  "row": {
+    "rank_nine_marks": 39229357279566017725826989784351192461174359875843815026454163520,
+    "kernel_capacity": 65454975883358251134075536608664707751021313354419751397380,
+    "record_floor": 274980728111260126,
+    "completion_premium": 41089877204729279662874647920595743958596178333,
+    "safe_premium_ceiling": 41100317939998934447573065780978817075733675000,
+    "premium_ceiling_margin": 10440735269654784698417860383073117137496667,
+    "full_rank_capacity": 918696029660449909192046590790563039608397442177584200634585699,
+    "total_capacity": 918761484636333267443180666327171704316148463490938620385983079,
+    "required_component_incidence": 918813684654269023561847732491142407002958813181883441998521504,
+    "gap": 52200017935756118667066163970702686810349690944821612538425,
+    "record_coefficient_cross": 142694187718668157024512412810935079058439761427,
+    "floor_record_raw_cross": 2871000986466586526688639018388647774569233001965188689613342
+  },
+  "nonclaim": "No K'=73 or full rank-nine interval closure is claimed."
+}

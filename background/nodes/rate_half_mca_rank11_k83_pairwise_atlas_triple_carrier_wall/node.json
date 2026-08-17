@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_k83_pairwise_atlas_triple_carrier_wall",
+    "title": "One pairwise carrier cell stalls at K'=83",
+    "status": "PROVED",
+    "closure": "exact active-cell reconstruction, pairwise support-4/5 charge replay, forced triple-intersection derivation, and exhaustive overlap audit",
+    "statement": "At K'=83 the printed pairwise carrier cell has premium 41411584407693108041789796771180703922717609427, exceeding the safe ceiling by 46770156546844646871611081711174519620031307; the forced four-dimensional intersection charge on every possible triple union leaves that premium unchanged. No complete-frontier maximum is claimed.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_k83_pairwise_atlas_triple_carrier_wall/statement.md",
+      "background/nodes/rate_half_mca_rank11_k83_pairwise_atlas_triple_carrier_wall/proof.md",
+      "background/nodes/rate_half_mca_rank11_k83_pairwise_atlas_triple_carrier_wall/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_k83_pairwise_atlas_triple_carrier_wall/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_k83_pairwise_atlas_triple_carrier_wall/attack.md",
+      "background/nodes/rate_half_mca_rank11_k83_pairwise_atlas_triple_carrier_wall/audit.md",
+      "background/nodes/rate_half_mca_rank11_k83_pairwise_atlas_triple_carrier_wall/result.md",
+      "background/nodes/rate_half_mca_rank11_k83_pairwise_atlas_triple_carrier_wall/provenance.md",
+      "background/nodes/rate_half_mca_rank11_k83_pairwise_atlas_triple_carrier_wall/replay.md",
+      "background/nodes/rate_half_mca_rank11_k83_pairwise_atlas_triple_carrier_wall/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_k83_pairwise_atlas_triple_carrier_wall/verify.py",
+      "background/nodes/rate_half_mca_rank11_k83_pairwise_atlas_triple_carrier_wall/verify_audit.py",
+      "experiments/prize_resolution/rate_half_mca_rank11_carrier_interval_baseline_probe.py",
+      "experiments/prize_resolution/rate_half_mca_rank11_k83_triple_carrier_intersection_probe.py",
+      "experiments/prize_resolution/rate_half_mca_rank11_k72_two_step_probe.py",
+      "tools/modal_run_script_long.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_k82_full_carrier_atlas_payment"},
+    {"from": "rate_half_mca_sparse_circuit_full_completion_pairwise_carrier_atlas"},
+    {"from": "rate_half_mca_sparse_circuit_fixed_union_flat_coupled_45_charge"}
+  ],
+  "alternatives": [],
+  "evidence_for": [{"to": "rate_half_band_crossing_location"}],
+  "refutes": []
+}

@@ -1,0 +1,107 @@
+{
+  "schema": "rate-half-mca-rank11-k85-best-single-adjacent-payment-v1",
+  "dependencies": [
+    "rate_half_mca_rank11_k84_adjacent_support_carrier_payment",
+    "rate_half_mca_sparse_circuit_single_completion_carrier",
+    "rate_half_mca_sparse_circuit_full_completion_pairwise_carrier_atlas",
+    "rate_half_mca_sparse_circuit_fixed_union_flat_coupled_45_charge",
+    "rate_half_mca_sparse_circuit_fixed_union_support56_coupling",
+    "rate_half_mca_sparse_circuit_fixed_union_adjacent_support_coupling"
+  ],
+  "sources": {
+    "experiments/prize_resolution/rate_half_mca_rank11_k85_threshold_frontier_replay.py": "363cae26e7c0258b27ec27da25b313f8214f6211aa1b891b8c7f506d4987d043",
+    "experiments/prize_resolution/rate_half_mca_rank11_k85_threshold_frontier_audit.py": "b0bf02ad6dbf6a6c47556a0e8f8d59a82802f83feec1146d22e8ef4b1b7ecaec",
+    "experiments/prize_resolution/rate_half_mca_rank11_k85_route_pilot_check.py": "32aa55ce1a31605c7d72678e51855af808a92ccf70a70f029aeaa11d0930134f",
+    "experiments/prize_resolution/rate_half_mca_rank11_k85_raw_threshold_offset_probe.py": "b13ab1262105d53694407a9c448362bfa85b7914e6fce6242b715f2436c63b3b",
+    "experiments/prize_resolution/rate_half_mca_rank11_k85_raw_threshold_offset_audit.py": "90380f5d1f8191172dae43e90b9802873ed6f680a2bc41a49d50d3dade10f59c",
+    "experiments/prize_resolution/rate_half_mca_rank11_k85_raw_threshold_wave_check.py": "28d9289be8c0e741a364a72884e171154ff0186ea732b1f1cdda3990c3ea333c",
+    "experiments/prize_resolution/rate_half_mca_rank11_k85_best_single_domination_falsifier.py": "2c94b7432cd4c9d37a49288298761cbff9227a07f694fe80ec259ef19e724505",
+    "experiments/prize_resolution/rate_half_mca_rank11_k85_best_single_domination_audit.py": "f9a01624b5a11fbc30f58a4f4afca2aa75d9af96b35c69edddcdc7eef5e1fa1f",
+    "experiments/prize_resolution/rate_half_mca_rank11_k85_edge4_domination_falsifier.py": "cd1e9d2706c48be390387953c4abeea46958af258f132700809cf2393a5e4a90",
+    "experiments/prize_resolution/rate_half_mca_rank11_k85_best_single_wave_check.py": "e5c8012cd13ca6c17395fa1be91ce45f0af66042f65d2c58186c1feff3868040",
+    "experiments/prize_resolution/rate_half_mca_rank11_k85_component_payment.py": "8e3fa571c1930f11a8c0a38b6595ff6e4b712158d2d84792912db5c88285ebe8"
+  },
+  "archives": {
+    "k72-deps.tar.gz": "5ee5d10a20f1e47b1e5400d10177e33bafdc83c0e9b516d6d12dfe0fad93aaf8",
+    "k83-threshold-frontier-adjacent-code.tar.gz": "327c677b870233b5b43609203a45c12ca478a719da3b9391c61860d9ddbe6b49"
+  },
+  "captures": [
+    {
+      "role": "route_pilot",
+      "app_id": "ap-d16UIhECIz7nYzMEAZr8d7",
+      "sha256": "5a6ee4f212571eae022ed943c6062e95f6b6a2ccb186dbf4338f1b0cf2f45327"
+    },
+    {
+      "role": "raw_threshold_wave",
+      "app_id": "ap-rTfQtYZuTdgjfk5IWhal5W",
+      "sha256": "5832710721306c16477523b02303fb6f45fb293f6ea53c71e26bad2a9babac13"
+    },
+    {
+      "role": "best_single_wave",
+      "app_id": "ap-avKuaBEl3bNsvVug235bXS",
+      "sha256": "a2a47722b66ff40ed83b44c47dc725b341700ffc2c9653a61e63f7dff1fedfa8"
+    },
+    {
+      "role": "component_payment",
+      "app_id": "ap-9R6TUWXTLwS11AiqMsAem5",
+      "sha256": "e3bf7fdbd3c6b87ea2bb82bd2520f6ffff5e76353e0698e8df7494bf75745799"
+    }
+  ],
+  "coverage": {
+    "partition": "ordinary plus offsets 1..74",
+    "ordinary": {
+      "jobs": 2,
+      "source_units": 492960,
+      "raw_rows": 3450720,
+      "raw_safe_units": 114561,
+      "expanded_units": 2439,
+      "primary_geometry_rows": 2643333,
+      "audit_geometry_rows": 2643333,
+      "premium": 41412365746418147165613731954651963334663476202
+    },
+    "raw_offsets": {
+      "lanes": 74,
+      "jobs": 148,
+      "source_units_per_implementation": 16028400,
+      "raw_rows_per_implementation": 112198800,
+      "raw_safe_units_per_implementation": 15696867,
+      "raw_unsafe_units_per_implementation": 331533,
+      "unsafe_offsets": [1, 41],
+      "fully_safe_offsets": [42, 74],
+      "offset_units_formula": "(75-offset)*5776"
+    },
+    "best_single_residual": {
+      "lanes": 41,
+      "jobs": 82,
+      "source_units_per_implementation": 12788064,
+      "unsafe_units_per_implementation": 331533,
+      "profiles_per_implementation": 49090656
+    }
+  },
+  "frontier": {
+    "global_lane": "offset11",
+    "global_branch": "s2=56/s3=45/s4=58/s5=37/offset11/c6F/c7F/c8F/c9F",
+    "completion_premium": 41412868016209776721228891386909879523306833354,
+    "safe_premium_ceiling": 41412869809855175413648318362513310330909061869,
+    "premium_ceiling_margin": 1793645398692419426975603430807602228515
+  },
+  "parameters": {
+    "kprime": 85,
+    "q": 75,
+    "m": 67557,
+    "n": 1048661,
+    "new_closed_prefix": [10, 85],
+    "next_open_row": 86
+  },
+  "row": {
+    "rank_nine_marks": 39248826551227994170027518309336112543745598545891471134161650340,
+    "kernel_capacity": 96175300847985248778483407690064308293088544175813414059965,
+    "record_floor": 274980728111260126,
+    "full_rank_capacity": 920664857300015914310061122145042076654631136279218382941612598,
+    "total_capacity": 920761032600863899558839605552732140962924224823394196355672563,
+    "required_component_incidence": 920761041568462403301620608624242874288842867899367408189696564,
+    "gap": 8967598503742781003071510733325918643075973211834024001,
+    "ceiling_remainder": 15362028411627110
+  },
+  "nonclaim": "No K'=86 or full rank-nine interval closure is claimed."
+}

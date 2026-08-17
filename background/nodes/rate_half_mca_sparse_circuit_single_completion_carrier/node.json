@@ -1,0 +1,27 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_sparse_circuit_single_completion_carrier",
+    "title": "Single completion carrier",
+    "status": "PROVED",
+    "closure": "deletion-span dependence and exact annihilator dimension",
+    "statement": "An independent support-c deletion attaining M_c completions supplies a fixed union of size M_c+c-1 on which its (11-c)-dimensional annihilator vanishes.",
+    "refs": [
+      "background/nodes/rate_half_mca_sparse_circuit_single_completion_carrier/statement.md",
+      "background/nodes/rate_half_mca_sparse_circuit_single_completion_carrier/proof.md",
+      "background/nodes/rate_half_mca_sparse_circuit_single_completion_carrier/claim_contract.md",
+      "background/nodes/rate_half_mca_sparse_circuit_single_completion_carrier/dependency_subdag.md",
+      "background/nodes/rate_half_mca_sparse_circuit_single_completion_carrier/attack.md",
+      "background/nodes/rate_half_mca_sparse_circuit_single_completion_carrier/audit.md",
+      "background/nodes/rate_half_mca_sparse_circuit_single_completion_carrier/result.md",
+      "background/nodes/rate_half_mca_sparse_circuit_single_completion_carrier/provenance.md",
+      "background/nodes/rate_half_mca_sparse_circuit_single_completion_carrier/source_contract.json",
+      "background/nodes/rate_half_mca_sparse_circuit_single_completion_carrier/verify.py",
+      "background/nodes/rate_half_mca_sparse_circuit_single_completion_carrier/verify_audit.py"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}
