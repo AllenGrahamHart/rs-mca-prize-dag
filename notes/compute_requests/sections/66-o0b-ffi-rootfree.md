@@ -42,4 +42,12 @@ tools/ramguard modal -- timeout --signal=TERM --kill-after=15s 360s \
   experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_ffi_rootfree_modal.py
 ```
 
-**Outcome:** preregistered; not yet run.
+**Outcome:** `INCOMPLETE_TIMEOUT`. Modal app `ap-uPS6ojTUMH6RZEV8jPGt44`
+returned the pinned row with status `TIMEOUT`; result SHA-256:
+`4c88245bd500ce7e9f9c40c34483b8e07f0017b095e622023b6194039cfe85e6`.
+The outcome-neutral checker accepts the exact necessary-superset ledger and
+rejects all three hostile mutations, including an attempted upgrade from
+necessity to equivalence. No transcript was printed within 240 seconds. This
+has no mathematical status. Further work must factor or branch on the two
+explicit determinant equations; repeating a broad 14-variable basis run is
+retired.
