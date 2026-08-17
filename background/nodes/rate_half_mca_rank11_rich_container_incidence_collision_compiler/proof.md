@@ -12,22 +12,25 @@ differ by at most one. If `I=qn+r`, this minimum is
 r binom(q+1,s)+(n-r)binom(q,s).                         (IC)
 ```
 
+All selected zero sets lie in the anchor-good set `G_0`, whose proved size is
+at most `m=1116048`. Embed `G_0` in an `m`-element universe if necessary;
+using this largest allowed universe gives the weakest valid incidence bound.
 For all 508 containers,
 
 ```text
-I=508*42453=21566124=20*1048576+594604.
+I=508*42453=21566124=19*1116048+361212.
 ```
 
-Thus some coordinate has multiplicity at least 21. Formula `(IC)` gives
+Thus some coordinate has multiplicity at least 20. Formula `(IC)` gives
 
 ```text
-sum_{i<j}|J_i intersect J_j|             >= 211121520,
-sum_{i<j<k}|J_i intersect J_j intersect J_k| >= 1308351400.
+sum_{i<j}|J_i intersect J_j|                 >= 197707236,
+sum_{i<j<k}|J_i intersect J_j intersect J_k| >= 1143217764.
 ```
 
 There are `binom(508,2)=128778` pairs and
 `binom(508,3)=21720556` triples. Taking ceilings of the two averages gives
-1640 and 61.
+1536 and 53.
 
 Every polynomial in `W_i+W_j` vanishes on `J_i intersect J_j`; similarly,
 the span of three containers vanishes on their triple intersection. Since
@@ -38,11 +41,11 @@ Finally, at least 254 of the 508 containers have the same dimension
 `r in {2,3}`. Apply the same argument to those 254 sets:
 
 ```text
-I'=254*42453=10783062=10*1048576+297302,
-pair-incidence minimum   =50158940,
-triple-incidence minimum =139207710.
+I'=254*42453=10783062=9*1116048+738630,
+pair-incidence minimum   =46825398,
+triple-incidence minimum =120338712.
 ```
 
 Division by `binom(254,2)=32131` and `binom(254,3)=2699004` gives ceilings
-1562 and 52. The maximum coordinate multiplicity is at least 11, and the
+1458 and 45. The maximum coordinate multiplicity is at least 10, and the
 typed spans have dimensions at most `2r` and `3r`. This proves every claim.

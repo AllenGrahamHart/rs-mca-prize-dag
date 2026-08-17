@@ -44182,16 +44182,21 @@ compiler. Choose 42453 actual zero coordinates from each container. Discrete
 convexity of coordinate incidence degrees gives:
 
 ```text
-one coordinate in at least 21 containers;
-one pair with at least 1640 common actual zeros;
-one triple with at least 61 common actual zeros.
+one coordinate in at least 20 containers;
+one pair with at least 1536 common actual zeros;
+one triple with at least 53 common actual zeros.
 ```
 
 The pair span has dimension at most 6 and the triple span at most 9. Also,
 254 containers have one common dimension `r in {2,3}`. In that typed
-subfamily the thresholds are 11 containers through one coordinate, a pair
-with 1562 common zeros and span dimension at most `2r`, and a triple with 52
+subfamily the thresholds are 10 containers through one coordinate, a pair
+with 1458 common zeros and span dimension at most `2r`, and a triple with 45
 common zeros and span dimension at most `3r`.
+
+The incidence universe is the anchor-good set `G_0`, using the proved upper
+bound `|G_0|<=m=1116048`. The earlier draft incorrectly substituted the code
+dimension `K=1048576`; the printed constants here are the corrected weaker
+values.
 
 Primary and independent exact-integer verifiers reproduce every incidence
 total and ceiling. No locator equality, global core, or chronology owner is
@@ -44206,7 +44211,7 @@ asserted.
   triple common-core inputs; the naive K'=88 finite carrier route is retired
 - upstream delta: compact strengthening suitable for PR `#1173`
 - new assumptions: none
-- next route-deciding action: combine the dimension-at-most-six 1640-core
-  pair and dimension-at-most-nine 61-core triple with a Wronskian or
+- next route-deciding action: combine the dimension-at-most-six 1536-core
+  pair and dimension-at-most-nine 53-core triple with a Wronskian or
   chronology-safe coalescence theorem; do not infer full locator
   synchronization from these intersections

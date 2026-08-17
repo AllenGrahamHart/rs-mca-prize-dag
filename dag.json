@@ -42084,7 +42084,7 @@
    "title": "Rank-eleven rich-container incidence collision compiler",
    "status": "PROVED",
    "closure": "exact double/triple incidence moments for the 508 promoted rich containers",
-   "statement": "Among any 508 promoted dimension-two/three rich containers with at least 42453 actual zero coordinates each, one coordinate belongs to at least 21 containers, one pair spans dimension at most 6 and has at least 1640 common zeros, and one triple spans dimension at most 9 and has at least 61 common zeros. A same-dimension subfamily of 254 containers has corresponding thresholds 11, 1562, and 52 with pair/triple span dimensions at most 2r and 3r. No locator synchronization or cross-bucket owner is claimed.",
+   "statement": "Among any 508 promoted dimension-two/three rich containers with at least 42453 actual zero coordinates each inside an anchor-good set of size at most 1116048, one coordinate belongs to at least 20 containers, one pair spans dimension at most 6 and has at least 1536 common zeros, and one triple spans dimension at most 9 and has at least 53 common zeros. A same-dimension subfamily of 254 containers has corresponding thresholds 10, 1458, and 45 with pair/triple span dimensions at most 2r and 3r. No locator synchronization or cross-bucket owner is claimed.",
    "refs": [
     "background/nodes/rate_half_mca_rank11_rich_container_incidence_collision_compiler/statement.md",
     "background/nodes/rate_half_mca_rank11_rich_container_incidence_collision_compiler/proof.md",

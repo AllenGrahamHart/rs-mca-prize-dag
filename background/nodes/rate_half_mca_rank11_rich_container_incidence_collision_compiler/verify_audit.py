@@ -16,7 +16,7 @@ def ceiling_ratio(numerator: int, denominator: int) -> int:
 
 
 def replay(count: int, expected):
-    n, h = 1_048_576, 42_453
+    n, h = 1_116_048, 42_453
     incidence = count * h
     low, high_count = divmod(incidence, n)
     low_count = n - high_count
@@ -31,6 +31,6 @@ def replay(count: int, expected):
     return observed
 
 
-assert replay(508, (21, 1_640, 61)) == (21, 1_640, 61)
-assert replay(254, (11, 1_562, 52)) == (11, 1_562, 52)
+assert replay(508, (20, 1_536, 53)) == (20, 1_536, 53)
+assert replay(254, (10, 1_458, 45)) == (10, 1_458, 45)
 print("RANK11_RICH_CONTAINER_INCIDENCE_COLLISION_AUDIT_OK")

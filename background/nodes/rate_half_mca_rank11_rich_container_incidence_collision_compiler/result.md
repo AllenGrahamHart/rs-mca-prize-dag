@@ -1,8 +1,8 @@
 # Result
 
 `PROVED`. The 508-container terminal necessarily contains explicit low-span
-collisions: a dimension-at-most-six pair with 1640 common actual zeros and a
-dimension-at-most-nine triple with 61. It also contains 21 distinct
+collisions: a dimension-at-most-six pair with 1536 common actual zeros and a
+dimension-at-most-nine triple with 53. It also contains 20 distinct
 containers through one actual coordinate and the stronger typed
 254-container incidence packet.
 
