@@ -35,3 +35,15 @@ agreement on all 462,384 source units and every deduplicated carrier profile.
 `INCOMPLETE` retains partial checkpoints and changes no status. Survival
 authorizes a separately preregistered complete offsets-`1..43` wave; this
 campaign alone cannot promote `K'=87`.
+
+**First deployment:** `INCOMPLETE`. Modal app
+`ap-VqJehuBkAEPuuHaRhAYPg6` produced one complete primary survival and one
+timed-out audit. The primary exhausted all 462,384 source units, all 23,104
+raw-unsafe units, and 267,056 deduplicated profiles. The audit reached the
+end of `m2=38` without a counterexample before its 720-second child wall.
+Capture SHA-256:
+`7fd211a2ca2a19de5f483eebcc69a29549e529cdaa713431b86645434f0f11ff`.
+
+The primary result is retained, but this capture does not establish paired
+survival and authorizes no full wave. A separately pinned cached audit resume
+will rerun only the independent orientation under a longer Modal wall.
