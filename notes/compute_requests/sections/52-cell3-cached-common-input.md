@@ -37,3 +37,20 @@ tools/ramguard modal -- timeout --signal=TERM --kill-after=15s 240s \
 A complete checked result certifies only reusable representation of already
 proved common algebra. It authorizes construction and preregistration of the
 repaired 24-representative outside pilot; it excludes no outside system.
+
+**Outcome:** `COMPLETE`. Modal app `ap-tR1KpzLy0sJ3HRhVkj0GRh` returned all
+four ordered source-sign packets in about 17 seconds. Result SHA-256:
+`28c97e75aa1fd80565ad926e95ab2eacf4ce62a692520ca2662de6845ee0ddd8`.
+Packet SHA-256 values, in sign order `--,-+,+-,++`, are
+
+```text
+fbeda61593e73cdcb7bf1e2baa1ebe8b098a7025f834135b3e02d2c291d50cd9
+0cf5d0801b2372dd5def2fa9696c42641b7b5f6cf14f507dd412e39c91375834
+51278b32abf7a566d265db9c49748dedb3709b88d48efeebad669cc85153ce38
+489da8fbad2072ed6518761aba2bb55208085283345b196ca78db445e1169f4c
+```
+
+The checker accepts all 12 equation hashes, 32 kernel hashes, and 24 rank
+cofactors. The Modal client printed its known nonfatal async-generator close
+warning after writing the complete checkpoint; the app exited zero and the
+result is independently accepted.
