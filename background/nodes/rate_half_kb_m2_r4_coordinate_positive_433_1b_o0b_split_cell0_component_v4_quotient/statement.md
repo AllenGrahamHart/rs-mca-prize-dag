@@ -21,9 +21,12 @@ total:                              708 representatives / 2,520 cases.
 
 The canonical representative list has SHA-256
 `23d7e403e420307b5466ffaf6d2af59d0cf9a4a93766b4d0bcf68231aba1a741`.
+A 24-representative pilot subcover meets all 56
+`component/lane-orbit/outside-sign/missing-record` strata and has SHA-256
+`47ef7c3a9a92ac2bcb08462377195c0576c2495b0ff1f7c0948103d10e02bc27`.
 
 ## Falsifier
 
 Failure of component-relation covariance, loss of a case under either
 action, noncommutation, a different orbit profile, or a different canonical
-representative hash.
+representative hash or pilot-cover hash.

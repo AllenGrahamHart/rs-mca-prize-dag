@@ -18,7 +18,13 @@
       "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cell0_component_v4_quotient/lineage.md",
       "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cell0_component_v4_quotient/verify.py",
       "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cell0_component_v4_quotient/verify_audit.py",
-      "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_split_cell0_component_quotient.py"
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cell0_component_v4_quotient/verify_outside_pilot.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cell0_component_v4_quotient/verify_outside_pilot_remote.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_split_cell0_component_quotient.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_split_cell0_component_representatives.json",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_split_cell0_outside_core.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_split_cell0_component_outside_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_split_cell0_component_outside_check.py"
     ]
   },
   "requires": [

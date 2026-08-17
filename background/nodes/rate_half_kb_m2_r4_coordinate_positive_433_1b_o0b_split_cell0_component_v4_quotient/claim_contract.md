@@ -5,5 +5,7 @@
 - The quotient uses only proved complete-system and identical-record actions.
 - Opposite-signed split `BC+/-` records are never exchanged.
 - The representative hash commits to order as well as membership.
+- The 24-case pilot is a complete stratum cover but not a complete case cover;
+  pilot output cannot exclude the 708-case ledger.
 - This node proves complete routing and equivalence only. It excludes no
   representative and does not close cell `0`, O0b, K3, MCA, or LIST.

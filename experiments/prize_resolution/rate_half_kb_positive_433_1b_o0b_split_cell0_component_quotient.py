@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Exact Klein-four quotient of the O0b split cell-0 component ledger."""
 
+import argparse
 from collections import Counter
 import hashlib
 import importlib.util
@@ -15,6 +16,9 @@ S0_PATH = HERE / "rate_half_kb_positive_433_1b_o0b_s0_v4_label_quotient.py"
 REPEATED_PATH = HERE / "rate_half_kb_positive_433_1b_o0b_repeated_outside_v4_quotient.py"
 COMPONENTS_PATH = (
     HERE / "rate_half_kb_positive_433_1b_cell0_principal_component_compiler_result.json"
+)
+MANIFEST_PATH = (
+    HERE / "rate_half_kb_positive_433_1b_o0b_split_cell0_component_representatives.json"
 )
 PRIME = 2130706433
 INV2 = pow(2, -1, PRIME)
@@ -188,8 +192,11 @@ def orbit_profile(rows, first_action, second_action):
         require(orbit <= rows, "orbit closure")
         unseen -= orbit
         orbits.append(tuple(sorted(orbit)))
-    return dict(sorted(Counter(map(len, orbits)).items())), tuple(
-        orbit[0] for orbit in sorted(orbits)
+    orbits = tuple(sorted(orbits))
+    return (
+        dict(sorted(Counter(map(len, orbits)).items())),
+        tuple(orbit[0] for orbit in orbits),
+        orbits,
     )
 
 
@@ -210,8 +217,10 @@ def representative_manifest(destination=None,
     )
     s0_rows = {row for row in rows if row[1] == "S0"}
     repeated_rows = rows - s0_rows
-    s0_profile, s0_representatives = orbit_profile(s0_rows, first, second)
-    repeated_profile, repeated_representatives = orbit_profile(
+    s0_profile, s0_representatives, s0_orbits = orbit_profile(
+        s0_rows, first, second
+    )
+    repeated_profile, repeated_representatives, repeated_orbits = orbit_profile(
         repeated_rows, first, second
     )
     require(s0_profile == {2: 36, 4: 192}, "S0 component quotient")
@@ -220,13 +229,30 @@ def representative_manifest(destination=None,
     representatives = tuple(sorted(s0_representatives + repeated_representatives))
     require(len(representatives) == 708, "component representative census")
     encoded = json.dumps(representatives, separators=(",", ":"))
+
+    pilot_owners = {}
+    for orbit in tuple(sorted(s0_orbits + repeated_orbits)):
+        representative = orbit[0]
+        for row in orbit:
+            component, lane, sigma_o, _, xi, _ = row
+            lane_orbit = "S0" if lane == "S0" else "SDE/SDF"
+            pilot_owners.setdefault((component, lane_orbit, sigma_o, xi),
+                                    representative)
+    require(len(pilot_owners) == 56, "pilot stratum cover")
+    pilot_representatives = tuple(sorted(set(pilot_owners.values())))
+    pilot_encoded = json.dumps(pilot_representatives, separators=(",", ":"))
     return {
         "raw_cases": len(rows),
         "s0_profile": s0_profile,
         "repeated_profile": repeated_profile,
         "representative_count": len(representatives),
         "representatives_sha256": hashlib.sha256(encoded.encode()).hexdigest(),
+        "pilot_stratum_count": len(pilot_owners),
+        "pilot_representative_count": len(pilot_representatives),
+        "pilot_representatives_sha256":
+            hashlib.sha256(pilot_encoded.encode()).hexdigest(),
         "representatives": representatives,
+        "pilot_representatives": pilot_representatives,
     }
 
 
@@ -238,16 +264,31 @@ def verify(destination=None, s0_d_permutation=S0.D_PERMUTATION,
     )
     result = dict(result)
     result.pop("representatives")
+    result.pop("pilot_representatives")
     result["component_rows"] = component_rows
     return result
 
 
 def main():
-    result = verify()
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--write-manifest", action="store_true")
+    args = parser.parse_args()
+    manifest = representative_manifest()
+    result = dict(manifest)
+    result.pop("representatives")
+    result["component_rows"] = verify_component_action()
+    if args.write_manifest:
+        payload = {
+            "schema": "rate-half-kb-positive-433-1b-o0b-split-cell0-component-representatives-v1",
+            **result,
+            "representatives": manifest["representatives"],
+        }
+        MANIFEST_PATH.write_text(json.dumps(payload, indent=2, sort_keys=True) + "\n")
     print(
         "RATE_HALF_KB_POSITIVE_433_1B_O0B_SPLIT_CELL0_COMPONENT_QUOTIENT_PASS "
         f"raw={result['raw_cases']} reps={result['representative_count']} "
-        f"sha256={result['representatives_sha256']}"
+        f"sha256={result['representatives_sha256']} "
+        f"manifest={'written' if args.write_manifest else 'not-written'}"
     )
 
 

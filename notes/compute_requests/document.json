@@ -50,6 +50,7 @@
     "notes/compute_requests/sections/45-k88-dual-adjacent-offset1.md",
     "notes/compute_requests/sections/46-k88-joint456-witness-route-probe.md",
     "notes/compute_requests/sections/47-cell11-guard-boundary-classifier.md",
-    "notes/compute_requests/sections/48-cell11-guard-boundary-direct-replay.md"
+    "notes/compute_requests/sections/48-cell11-guard-boundary-direct-replay.md",
+    "notes/compute_requests/sections/49-o0b-split-cell0-outside-pilot.md"
   ]
 }
