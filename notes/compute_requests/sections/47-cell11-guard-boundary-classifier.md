@@ -33,3 +33,13 @@ cell-11 guard-complement theorem after an independent verifier is written.
 packet for direct outside replay. `REMOTE_ERROR` preserves all completed row
 shards and authorizes only the failed rows to be resumed. No numerical or
 generic conclusion can move DAG status.
+
+**Outcome:** `GUARDED_GUARD_BOUNDARY_PRESENT`. Modal app
+`ap-3TLwrDgciRiO4GZRVuf9HS` completed all eight rows. Result SHA-256:
+`e01e1a6ceaf55f530c0bd62549c9d64b18e5eeacc5a95be24c543c18f6fbcac5`.
+There are 160 guarded source points: 128 on the four `BC-` towers and 32 on
+the four `BC+` towers, supported over six and two base values respectively.
+Thus the registered guards are genuine specialized fibers, not merely
+function-field pivot artifacts. The pre-registered consequence is the direct
+finite outside replay below; no exclusion or DAG status change follows from
+this classifier alone.
