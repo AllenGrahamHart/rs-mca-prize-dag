@@ -128,7 +128,7 @@ def build(packet_row, basis_row):
     )
     program = f"""
 LIB "elim.lib";
-ring R={PRIME},(e,s,t,r,c,b),(dp(2),dp(4));
+ring R={PRIME},(e,s,t,r,c,b),dp;
 option(redSB);
 {chr(10).join(basis_definitions)}
 {chr(10).join(kernel_definitions)}
@@ -163,7 +163,7 @@ print("END"); quit;
         "program": program,
         "relation": "necessary FFF ratio-reduction superset",
         "variable_count": 6,
-        "block_order": ["dp(2)", "dp(4)"],
+        "block_order": ["dp"],
         "common_basis_size": 21,
         "outside_equation_order": [7, 5, 4, 6],
         "route_guard_count": len(packet["route_guards"]),

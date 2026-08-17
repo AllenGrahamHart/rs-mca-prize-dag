@@ -16969,13 +16969,13 @@ hostile mutations. Together with the closed `k2=0` branch, this proves
 - **launcher SHA-256:**
   `7d6ef24e5c3c50010ea714ef04e1e357887918692c3074c740ff9b9fa84c4232`
 - **outcome-neutral checker SHA-256:**
-  `eb8e2bf9c87701981b846a5ba92c0dd0e29453b2474424f16f48884d41ff3110`
+  `86ecfcac32363a0e8546b34cc62d6cba104a57c460ba917df101041f536a7db2`
 - **program core SHA-256:**
-  `2cf4749d3dfeea78482982206a6383c2fa58234aefcded7ba083b7e6062a914b`
+  `e1e7d17d0269b739d4952d2951f0ea094e819aa3b8c4827e781abff729b196c0`
 - **IFF-unit result SHA-256:**
   `5485816c745c18d1514200cc1bba057662c03319f7820883e7010ecb723b93c3`
-- **input ledger:** variables `e,s,t,r,c,b` with block order
-  `(dp(2),dp(4))`; 21-element common basis; equations in order
+- **input ledger:** variables `e,s,t,r,c,b` with ordinary `dp` order;
+  21-element common basis; equations in order
   `q7,q5,q4,q6`; 16 route guards; guards `e,s,a0m,a2m`; six rank
   cofactors
 - **envelope:** one CPU, 4 GiB, 240-second Singular child wall and

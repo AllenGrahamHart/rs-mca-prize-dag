@@ -47,7 +47,7 @@ def verify(payload=None):
     require(row["status"] in {"COMPLETE", "TIMEOUT"}, "row status")
     require(row["relation"] == "necessary FFF ratio-reduction superset" and
             row["variable_count"] == 6 and
-            row["block_order"] == ["dp(2)", "dp(4)"] and
+            row["block_order"] == ["dp"] and
             row["common_basis_size"] == 21 and
             row["outside_equation_order"] == [7, 5, 4, 6] and
             row["route_guard_count"] == 16 and
