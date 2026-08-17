@@ -15318,3 +15318,63 @@ fallback: the client has a 1536 MB virtual-address ceiling and an inherited
 ceiling and lowers only the inherited stack soft limit to 2 MB via
 `prlimit --stack=2097152`. This transport adjustment does not alter remote
 resources, source hashes, range boundaries, or acceptance criteria.
+
+**Outcome:** `PASS`. The accepted range captures are:
+
+| Offsets | Modal app | Capture SHA-256 |
+|---|---|---|
+| `1..4` | `ap-iXONaPwRxMHjwZR515sOyi` | `544b603dac9fd1ea858c36e530bb0263f6e11392a6d3b284d3baa1c266b9f7ca` |
+| `5..12` | `ap-dJ2eUU9a0u0jcJjXZiefIU` | `4f3f1d9e5f81aa3f8afdb3727d266eaa9f557ad2140b9d8b1c469919785918dd` |
+| `13..20` | `ap-xr0f01RFscUvWkrGvn7VGk` | `1406c04aef22bfa96037221ebb6c47a94258fb3e54014e117a5b9a6090dba2fb` |
+| `21..28` | `ap-qFATW8MSFF0dzBoqm4ekA9` | `ee4c260ba13112abd17f02d37957c5eae131c713cc1f51254a9e2387b65cfc0c` |
+| `29..36` | `ap-KzzGy55iKSUXT04uVv7UOh` | `28bbc2311b0845e7deba6b8e5f4cacdafb32ed65d5b9057871ac043aab98b55b` |
+| `37..43` | `ap-TLGJytlHAZRLOm0pn0e8Oh` | `e9d41feff81a9e2e809b54bcb80c2c802c6d2c140d9481bc8f527a5f5b9df784` |
+
+The flexible merger accepted the exact contiguous partition `1..43` and
+emitted canonical capture SHA-256
+`6f8064320850e0009c18c967e2b61ec5b4d77c51e1c2afb4bee6fc41921e5cd8`.
+The unchanged full-wave checker reports 86 jobs, 43 offsets, 14,388,660
+source units, 511,677 raw-unsafe units, and 77,179,660 carrier profiles per
+implementation. Primary and independent audit agree exactly; all offsets
+survive and no falsifying witness remains. Observed peak RSS was `31..45` MB.
+
+This closes the K'=87 nonordinary clipped-support residual. It does not by
+itself promote the row: the ordinary lane and exact component payment remain
+separate required gates.
+## Preregistered K'=87 ordinary-lane payment
+
+- **decision:** replay the complete ordinary lane through the pinned primary
+  and independent K'=83 routers after substituting only the K'=87 row data
+- **primary adapter SHA-256:**
+  `a9382db987ce51906dedd510d028ebf688a141455c147f617bda60a7c9b334c9`
+- **audit adapter SHA-256:**
+  `338d35ca79a5a54e6c869f913bf4a25f52e1cd0351b20ce3df3142494c735af3`
+- **single-call dispatcher SHA-256:**
+  `fce317eda0003bef6d515484f636b54d497cb6158a26907de13f7de4d3674565`
+- **checker SHA-256:**
+  `60fde0ea89ffccb94f61c9fd824faa5656ad2689af4c532d6aaea62a7131cdff`
+- **hash-pinned K'=83 code archive SHA-256:**
+  `327c677b870233b5b43609203a45c12ca478a719da3b9391c61860d9ddbe6b49`
+- **dependency archive SHA-256:**
+  `5ee5d10a20f1e47b1e5400d10177e33bafdc83c0e9b516d6d12dfe0fad93aaf8`
+- **envelope:** one Modal container, one CPU and 1 GB; fresh primary and
+  audit subprocesses execute sequentially with 900-second child walls and an
+  1815-second container wall; projected cost below `$0.20`
+- **local safety:** one synchronous client under the `modal` RAMguard profile
+  and a 2 MB inherited thread-stack limit; no local enumeration
+
+The adapters set `K'=87`, `q=77`, `m'=67559`, and `n'=1048663`, then derive
+the exact safe premium ceiling from the pinned ledger. The checker requires
+both subprocesses to finish below 128 MB RSS and to agree exactly on source
+units, raw rows, raw-safe units, expanded units, geometry rows, premium,
+margin, and normalized active branch. It independently checks the seven-row
+high-stratum multiplicity and recomputes safety from the printed ceiling.
+
+```text
+PASS:       paired exact agreement and nonnegative ordinary margin;
+UNSAFE:     paired exact agreement but negative ordinary margin;
+INCOMPLETE: timeout, resource breach, malformed output, or disagreement.
+```
+
+Only `PASS`, combined with the completed clipped nonordinary wave and a
+strict exact component gap, permits a K'=87 proof-node promotion.
