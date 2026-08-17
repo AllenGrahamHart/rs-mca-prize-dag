@@ -28,3 +28,10 @@ contract. Sharding changes only local dispatch concurrency.
 `FALSIFIED`, `INCOMPLETE`, and `PASS` retain exactly the meanings in the
 parent completion-wave preregistration. No shard result alone changes the
 status of `K'=87`.
+
+**First shard launch:** infrastructure `INCOMPLETE` before remote work.
+Modal app `ap-Hh3xMzcVM9z85G3diycuXu` returned the same local
+`can't start new thread` error for the 30-job first shard. The current WSL
+task headroom is therefore below this dispatch size. No capture is accepted;
+the unchanged shard dispatcher will be used with at most eight jobs per
+launch.
