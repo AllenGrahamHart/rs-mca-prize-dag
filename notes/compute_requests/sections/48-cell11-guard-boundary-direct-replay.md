@@ -31,3 +31,13 @@ candidate and sends only that finite packet to the original raw-system
 replay. `REMOTE_ERROR` authorizes resumption of failed rows only. A candidate
 is not by itself a counterexample: distinctness and the full raw cell system
 remain downstream checks.
+
+**Outcome:** `DIRECT_BOUNDARY_EXCLUDED` on all eight rows. Modal app
+`ap-N2SEkWDjWZRMukWgjlgrHL`; result SHA-256:
+`9b7f9907253e05c2d197b1e126962d3a8c9bc563be0e315353b368d47bd9efb0`.
+The replay covers 160 source points, 320 colored cases, and 34,560 uncolored
+formal endpoint/matching cases, with zero denominator failures and zero
+candidates. The independent pure modular verifier reproduces every common-
+kernel value and finds a constant three-equation gcd in all 34,560 uncolored
+cases. The registered-guard boundary exclusion is therefore promoted in its
+own PROVED DAG node; cell-11 assembly and cell-14 transport remain separate.
