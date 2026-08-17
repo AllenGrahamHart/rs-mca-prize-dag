@@ -1,0 +1,14 @@
+{
+  "schema": "rate-half-kb-positive-433-1b-o0b-split-cells3-6-basis-cross-pilot-cases-v1",
+  "case_count": 6,
+  "coverage": "one representative for each lane-orbit/xi-orbit pair, with both outside and first-source signs represented",
+  "cases_sha256": "2e1eea3589e0737e9efa7a3a49a0492d6fece4577b93a36eb1f6badf0b499b42",
+  "cases": [
+    [3, "S0", -1, -1, -1, 2, 0],
+    [3, "S0", 1, -1, -1, 0, 0],
+    [3, "S0", 1, 1, -1, 6, 0],
+    [3, "SDE", -1, 1, -1, 0, 0],
+    [3, "SDE", 1, -1, -1, 2, 0],
+    [3, "SDE", 1, 1, -1, 6, 0]
+  ]
+}

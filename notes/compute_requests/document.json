@@ -57,6 +57,7 @@
     "notes/compute_requests/sections/52-cell3-cached-common-input.md",
     "notes/compute_requests/sections/53-o0b-split-cells3-6-cached-pilot.md",
     "notes/compute_requests/sections/54-cell3-global-common-basis.md",
-    "notes/compute_requests/sections/55-o0b-cells3-6-basis-diagnostic.md"
+    "notes/compute_requests/sections/55-o0b-cells3-6-basis-diagnostic.md",
+    "notes/compute_requests/sections/56-o0b-cells3-6-basis-cross-pilot.md"
   ]
 }
