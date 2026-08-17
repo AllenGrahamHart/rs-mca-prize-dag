@@ -6610,3 +6610,72 @@ K'=11 circuit closure; spot-audit confirms its chart capacities
 rate_half_mca_rank11_k11_circuit_split_pencil_payment node (wave-65
 replayed). Upstream queue now holds 8 of our PRs. Nothing to import;
 census untouched.
+
+## WAVE 66 INTEGRATED + PACKAGE B DISCHARGED (2026-08-15 evening, coordinator)
+
+**MERGED (worktree at 57196dc8c; cycles ~347-362, +34 nodes, census-neutral;
+68/68 replayed; markers clean).** THE K' LADDER COLLAPSED IN BLOCKS:
+morning petal cut + minimal rank-9 row + K'=11 (circuit-shadow
+split-pencil, capacities 9274924665987729/9275866238180030) + K'=12
+(quotient-line circuit); afternoon K'=13, 14..21 (joint sparse
+shadows), 22 (integral near-saturation), 23 (completion-defect
+hierarchy), 24..40 (full shadow deficits, 17 rows in one cycle),
+41..45 (isolated-incidence / cross-support / ladder / lattice /
+carriers), 46..53 (deep joint defects). CLOSED PREFIX K'=10..53;
+remaining rank-nine 54..15528 (top boundary improved from 20617); next
+= the balanced deep joint wall at K'=54. Exports flowed to #1170
+throughout (incl. the K'=45 packet). **PACKAGE B DISCHARGED BY
+COORDINATOR**: consolidated #1161 comment (issuecomment-5303681282) at
+public head 8c3a30f9a — 31-node Shape-A cluster, tensor-rank-2
+exclusion + all-rank birationality headlined; blocking directive
+LIFTED. Chain: 2537/7553, all PASS, census UNCHANGED 231(167/37/27).
+
+## WAVE 67 INTEGRATED (2026-08-15 night, coordinator)
+
+**MERGED exact pin 90178b01d (cycles 363-365, +7 nodes, census-neutral;
+14/14 replayed; markers clean).** The K'=54 balanced deep joint wall
+fell the evening it was named: K'=54..59 (small-support collisions),
+K'=60..70 (cross-support collisions), K'=71 (carrier trichotomy).
+CLOSED PREFIX K'=10..71; remaining rank-nine 72..15528; next =
+classify the M3=M2+2 carrier position at K'=72. Exports to #1170
+continuous. Chain: 2544/7574, all PASS, census UNCHANGED.
+
+## WAVE 68 INTEGRATED (2026-08-17, coordinator)
+
+**MERGED exact pin ce890d2c8 (cycles ~366-406, +27 node dirs, 88 commits
+over two days; 53/54 local replays PASS; census-neutral).** The K'
+ladder ground 72..86 (incl. K'=74-86 full-carrier-atlas payments, K85
+Modal completion wave with dispatcher repairs, K86 raw threshold
+envelope; #1170 exported through K'=86). K'=87 IS THE FIRST REAL WALL:
+best-single and support-disjoint routes CUT; disjoint-edge and
+clipped56 witness REPAIRS; joint456 + clipped45 route walls; the
+raw-clipped adjacent-support coupling THEOREM (fractional-knapsack
+exchange, 47-digit exact cap at (u,g,d)=(34,6,5)); clipped offset-1
+survival certified (462,384 units, Modal app + capture SHA pinned;
+1 of 43 unsafe offsets). A SHARDED MODAL COMPLETION WAVE for the
+remaining offsets is LIVE (12h cap, ramguard modal, prereg committed
+pre-dispatch). REPLAY EXCEPTION: k82_full_carrier_atlas verify_audit
+is a REMOTE-TIER sharded-Modal audit (cycle 379 custody recorded);
+not locally replayable in the 5-min tier — primary verify.py PASS
+locally; accepted per the Modal-pinned standard. LESSON: tier-split
+the mass-replay loop (local vs remote-tier audits). UPSTREAM: Scott
+returned 08-15 23:37 with THREE rank-11 PRs (#1171 anticodes, #1172
+fixed-endpoint routing, #1173 anchored rich flats) — NEXT SWEEP
+TARGET. Chain: 2571/7667, all PASS, census UNCHANGED.
+
+## 2026-08-17 SCOTT ANTICODE STACK HARVESTED + CONVERGENCE BANKED
+
+#1171/#1172/#1173 audited and imported as ONE consolidated node
+(rate_half_mca_rank11_anticode_branch_payments_import): rank-one
+anticode branch PAID (tau=439, slack 450537037167154; ray cap 8147918),
+anchored partition PAID to h=42452 (slack 2007222636724), residuals =
+rank-two shared-locator edges (deg >= 134066) + heavy rich flats
+(>= 42453 columns). Every envelope identity independently recomputed
+(incl. 134066 = 2*1115609 - n); no collision with the local relative-
+ray frame (different objects). A1 gains the TWO-PROGRAM CONVERGENCE
+addendum: the anticode stack and the K'-ladder now share their
+residual surface — shared-locator edges = the shortening adapter's
+use case, rich flats = carrier-atlas objects, chronology = the #1169
+contract. Outward: #1172 comment (issuecomment-5313395446) offering
+the adapter for horn 1 + an additive-degree observation for horn 2.
+Chain: 2572/7668, all PASS, census UNCHANGED 231(167/37/27).
