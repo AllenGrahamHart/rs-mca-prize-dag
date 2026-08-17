@@ -17370,6 +17370,8 @@ modulo the 48-element basis. This eager-expansion program is retired.
   `41e5e3c518d84837502e3345b431f06b6e73eab819f4d204536b34fe2dac994c`
 - **program core SHA-256:**
   `4faa057513f7249d75a29143560c397f3a58db265621388450e0b81358ced61b`
+- **repaired program core SHA-256:**
+  `b73c4e888dc69353bc823c787babdf7c4b8b5d2a4c7efe708ffef16604f045ca`
 - **generated Singular SHA-256:**
   `5319dc99297235aaf21a036e1d73c648187b854c06bee004eb55034bc424d6d2`
 - **source raw core SHA-256:**
@@ -17401,4 +17403,9 @@ tools/ramguard modal -- timeout --signal=TERM --kill-after=15s 360s \
   experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_fff_r76_progressive_modal.py
 ```
 
-**Outcome:** preregistered; not yet run.
+**Outcome:** repaired and preregistered; not yet rerun. Initial app
+`ap-URgjIQYKcEHCmB9QuIKlcd` stopped before Singular because the remote
+build path redundantly called the local SymPy verifier, while the minimal
+image does not install SymPy. No algebraic stage ran. The repaired core
+removes only that remote verifier call; the raw core was reverified locally,
+and the generated Singular hash and 70-reduction ledger are unchanged.

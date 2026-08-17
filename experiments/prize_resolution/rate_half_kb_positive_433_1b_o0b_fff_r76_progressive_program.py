@@ -33,7 +33,6 @@ def kill_arrays(lines, *arrays):
 
 
 def build(packet_row, graph_payload, raw_core):
-    raw_core.verify_r76_decomposition()
     require(packet_row["status"] == "COMPLETE" and
             packet_row["epsilon"] == [-1, -1], "packet row")
     require(graph_payload["collection_complete"] is True and
