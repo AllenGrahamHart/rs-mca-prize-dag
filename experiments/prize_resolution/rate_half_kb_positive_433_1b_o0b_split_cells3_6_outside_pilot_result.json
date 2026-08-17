@@ -1,0 +1,333 @@
+{
+  "app": "rs-mca-positive-433-1b-o0b-split-cells3-6-outside-pilot",
+  "complete": false,
+  "expected_case_count": 24,
+  "field": 2130706433,
+  "processed_case_count": 24,
+  "representatives_sha256": "39fb277a94d8ee3a24e3a8f9e1f0bb50014665ca7c151659d4dc8fcd912392d6",
+  "rows": [
+    {
+      "cell": 3,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "error": "FunctionTimeoutError(\"Task's current input in-01M07RTHBTVWPH46RAA7BGAY3H:1786967311739-0 hit its timeout of 300s\")",
+      "lane": "S0",
+      "pairing_index": 0,
+      "sigma_o": -1,
+      "status": "REMOTE_ERROR",
+      "xi_index": 0
+    },
+    {
+      "cell": 3,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "error": "FunctionTimeoutError(\"Task's current input in-01M07RTHFZ2YW1GE7A1R282MP0:1786967311872-0 hit its timeout of 300s\")",
+      "lane": "S0",
+      "pairing_index": 0,
+      "sigma_o": -1,
+      "status": "REMOTE_ERROR",
+      "xi_index": 2
+    },
+    {
+      "cell": 3,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "error": "FunctionTimeoutError(\"Task's current input in-01M07RTHG2MHRT0VF6X19BKW1T:1786967311875-0 hit its timeout of 300s\")",
+      "lane": "S0",
+      "pairing_index": 0,
+      "sigma_o": -1,
+      "status": "REMOTE_ERROR",
+      "xi_index": 6
+    },
+    {
+      "cell": 3,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "error": "FunctionTimeoutError(\"Task's current input in-01M07RTHG5DJS9AA38R0VGMGF4:1786967311877-0 hit its timeout of 300s\")",
+      "lane": "S0",
+      "pairing_index": 0,
+      "sigma_o": -1,
+      "status": "REMOTE_ERROR",
+      "xi_index": 0
+    },
+    {
+      "cell": 3,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "error": "FunctionTimeoutError(\"Task's current input in-01M07RTHG7NEXQ3MDT0G9E7XY5:1786967311880-0 hit its timeout of 300s\")",
+      "lane": "S0",
+      "pairing_index": 0,
+      "sigma_o": -1,
+      "status": "REMOTE_ERROR",
+      "xi_index": 2
+    },
+    {
+      "cell": 3,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "error": "FunctionTimeoutError(\"Task's current input in-01M07RTHGATV1A5S8GWASSRBRW:1786967311884-0 hit its timeout of 300s\")",
+      "lane": "S0",
+      "pairing_index": 0,
+      "sigma_o": -1,
+      "status": "REMOTE_ERROR",
+      "xi_index": 6
+    },
+    {
+      "cell": 3,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "error": "FunctionTimeoutError(\"Task's current input in-01M07RTHGE2BVS8TAVDZGXBJSW:1786967311887-0 hit its timeout of 300s\")",
+      "lane": "S0",
+      "pairing_index": 0,
+      "sigma_o": 1,
+      "status": "REMOTE_ERROR",
+      "xi_index": 0
+    },
+    {
+      "cell": 3,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "error": "FunctionTimeoutError(\"Task's current input in-01M07RTHGHESFFADGRR790TQFJ:1786967311889-0 hit its timeout of 300s\")",
+      "lane": "S0",
+      "pairing_index": 0,
+      "sigma_o": 1,
+      "status": "REMOTE_ERROR",
+      "xi_index": 2
+    },
+    {
+      "cell": 3,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "error": "FunctionTimeoutError(\"Task's current input in-01M07RTHGMDV7SE8DEZ8JG76Q5:1786967311892-0 hit its timeout of 300s\")",
+      "lane": "S0",
+      "pairing_index": 0,
+      "sigma_o": 1,
+      "status": "REMOTE_ERROR",
+      "xi_index": 6
+    },
+    {
+      "cell": 3,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "error": "FunctionTimeoutError(\"Task's current input in-01M07RTHGQZJ8DT5WFR5MGZJ74:1786967311895-0 hit its timeout of 300s\")",
+      "lane": "S0",
+      "pairing_index": 0,
+      "sigma_o": 1,
+      "status": "REMOTE_ERROR",
+      "xi_index": 0
+    },
+    {
+      "cell": 3,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "error": "FunctionTimeoutError(\"Task's current input in-01M07RTHGTJSCXS3QVQX189MA3:1786967311899-0 hit its timeout of 300s\")",
+      "lane": "S0",
+      "pairing_index": 0,
+      "sigma_o": 1,
+      "status": "REMOTE_ERROR",
+      "xi_index": 2
+    },
+    {
+      "cell": 3,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "error": "FunctionTimeoutError(\"Task's current input in-01M07RTHGXSESM6ZC7VZF3G9VX:1786967311902-0 hit its timeout of 300s\")",
+      "lane": "S0",
+      "pairing_index": 0,
+      "sigma_o": 1,
+      "status": "REMOTE_ERROR",
+      "xi_index": 6
+    },
+    {
+      "cell": 3,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "error": "FunctionTimeoutError(\"Task's current input in-01M07RTHH04QBVDB34A8KCG1YD:1786967311905-0 hit its timeout of 300s\")",
+      "lane": "SDE",
+      "pairing_index": 0,
+      "sigma_o": -1,
+      "status": "REMOTE_ERROR",
+      "xi_index": 0
+    },
+    {
+      "cell": 3,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "error": "FunctionTimeoutError(\"Task's current input in-01M07RTHH3NZXPP2QMVJT95YBN:1786967311908-0 hit its timeout of 300s\")",
+      "lane": "SDE",
+      "pairing_index": 0,
+      "sigma_o": -1,
+      "status": "REMOTE_ERROR",
+      "xi_index": 2
+    },
+    {
+      "cell": 3,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "error": "FunctionTimeoutError(\"Task's current input in-01M07RTHH65ZT8WHE5YY4DXCKG:1786967311910-0 hit its timeout of 300s\")",
+      "lane": "SDE",
+      "pairing_index": 0,
+      "sigma_o": -1,
+      "status": "REMOTE_ERROR",
+      "xi_index": 6
+    },
+    {
+      "cell": 3,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "error": "FunctionTimeoutError(\"Task's current input in-01M07RTHH90JSXNCYSJ68C9V5M:1786967311913-0 hit its timeout of 300s\")",
+      "lane": "SDE",
+      "pairing_index": 0,
+      "sigma_o": -1,
+      "status": "REMOTE_ERROR",
+      "xi_index": 0
+    },
+    {
+      "cell": 3,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "error": "FunctionTimeoutError(\"Task's current input in-01M07RTHHCY2XXA2ZK65ADVA94:1786967311916-0 hit its timeout of 300s\")",
+      "lane": "SDE",
+      "pairing_index": 0,
+      "sigma_o": -1,
+      "status": "REMOTE_ERROR",
+      "xi_index": 2
+    },
+    {
+      "cell": 3,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "error": "FunctionTimeoutError(\"Task's current input in-01M07RTHHEFRPP0QQ3WQHHDZ6W:1786967311919-0 hit its timeout of 300s\")",
+      "lane": "SDE",
+      "pairing_index": 0,
+      "sigma_o": -1,
+      "status": "REMOTE_ERROR",
+      "xi_index": 6
+    },
+    {
+      "cell": 3,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "error": "FunctionTimeoutError(\"Task's current input in-01M07RTHHHSDCTM4DD502P6MV2:1786967311921-0 hit its timeout of 300s\")",
+      "lane": "SDE",
+      "pairing_index": 0,
+      "sigma_o": 1,
+      "status": "REMOTE_ERROR",
+      "xi_index": 0
+    },
+    {
+      "cell": 3,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "error": "FunctionTimeoutError(\"Task's current input in-01M07RTHHKRX2ZSDNY6Q35V809:1786967311924-0 hit its timeout of 300s\")",
+      "lane": "SDE",
+      "pairing_index": 0,
+      "sigma_o": 1,
+      "status": "REMOTE_ERROR",
+      "xi_index": 2
+    },
+    {
+      "cell": 3,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "error": "FunctionTimeoutError(\"Task's current input in-01M07RTHHP833098C939AGH02M:1786967311926-0 hit its timeout of 300s\")",
+      "lane": "SDE",
+      "pairing_index": 0,
+      "sigma_o": 1,
+      "status": "REMOTE_ERROR",
+      "xi_index": 6
+    },
+    {
+      "cell": 3,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "error": "FunctionTimeoutError(\"Task's current input in-01M07RTHHRYTPE0H8V5XTNYFZ6:1786967311929-0 hit its timeout of 300s\")",
+      "lane": "SDE",
+      "pairing_index": 0,
+      "sigma_o": 1,
+      "status": "REMOTE_ERROR",
+      "xi_index": 0
+    },
+    {
+      "cell": 3,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "error": "FunctionTimeoutError(\"Task's current input in-01M07RTHHV0SS7NQVNK1DVVJSA:1786967311932-0 hit its timeout of 300s\")",
+      "lane": "SDE",
+      "pairing_index": 0,
+      "sigma_o": 1,
+      "status": "REMOTE_ERROR",
+      "xi_index": 2
+    },
+    {
+      "cell": 3,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "error": "FunctionTimeoutError(\"Task's current input in-01M07RTHHYDB4HZ31Z37MXZ38R:1786967311935-0 hit its timeout of 300s\")",
+      "lane": "SDE",
+      "pairing_index": 0,
+      "sigma_o": 1,
+      "status": "REMOTE_ERROR",
+      "xi_index": 6
+    }
+  ],
+  "schema": "rate-half-kb-positive-433-1b-o0b-split-cells3-6-outside-pilot-v1",
+  "scope": "pilot",
+  "selected_cases_sha256": "a1853f2a70cd7fc46c173f1401e4b7e8820f9fa1c01e8a8b3571bfefa2969c96",
+  "source_core_sha256": "07d371aaf2beee7c3182e3ae2f65e0e3844a74e8730850d1d764714b07dfa46b",
+  "source_kernel_sha256": "e20ccb714b252f00ee3ce877ee68eff032f43deb877e2097919151436ddcf789",
+  "source_manifest_sha256": "409e0e0851f2cef35501123b3dcb5818318380a291864090a7792accf599dfc2",
+  "source_product_sha256": "ee4dcb25877e9101a544ee5896b9bf6890059d6398c78d7562127b0d1c53c293",
+  "status_counts": {
+    "REMOTE_ERROR": 24
+  },
+  "unit_count": 0
+}

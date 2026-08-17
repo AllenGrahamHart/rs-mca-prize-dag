@@ -15896,3 +15896,16 @@ any raw label. A complete nonunit row is retained with equations, guards, and
 cofactors for decomposition. `TIMEOUT`, `ERROR`, `REMOTE_ERROR`, interrupted
 client, or incomplete checkpoint is `INCOMPLETE`; no larger campaign is then
 authorized.
+
+**First outcome:** `INCOMPLETE`. Modal app
+`ap-feEnIyVR9k2To4heuY161N` returned 24/24 `REMOTE_ERROR` rows after every
+worker hit the 300-second function wall. Result SHA-256:
+`2a48b176a5c7a60f6a32ce9b234d18af57aa7b283142f4e1533065af0eb1d8fa`.
+Incomplete-checker SHA-256:
+`a62ab6cb6e7e5f725f65053f8f495d66f69113849deb61a8f9d2917dca124df8`.
+No worker returned a program hash or Singular transcript, so the run has no
+mathematical status. The failure rejects the architecture in which every
+case independently recompiles the same high-degree compact determinants.
+Do not rerun this launcher and do not authorize the complete campaign. The
+bounded repair is to compile the four source-sign common packets once, pin
+them, and make case workers consume those cached polynomials.

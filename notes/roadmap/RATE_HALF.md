@@ -444,6 +444,14 @@ a PROVED quotient, not an exclusion. The next route-deciding action is the
 24-case compact-common-curve O0b outside pilot; do not launch the complete
 1,416-case campaign until that pilot is complete and independently checked.
 
+The first direct pilot architecture is now rejected, without a mathematical
+outcome: all 24 Modal workers timed out while redundantly compiling the same
+compact common determinants, before returning any program transcript. Do not
+rerun that launcher. The next bounded step is a four-source-sign common input
+compiler whose pinned polynomial packets are consumed by lightweight
+case-specific workers; only that repaired 24-case pilot may decide whether a
+larger campaign is warranted.
+
 The positive `433-1b -> O0a` role-cell ledger has closed:
 
 ```text
