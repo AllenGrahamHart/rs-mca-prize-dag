@@ -1,0 +1,44 @@
+{
+  "app": "rs-mca-positive-433-1b-o0b-fff-r76-coefficients",
+  "collection_complete": true,
+  "field": 2130706433,
+  "row": {
+    "coefficient_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "coefficient_stages": [],
+    "coefficients": [],
+    "graph_basis_sha256": "7f59b5557597f429a3a56914cd5aad5c988902af6d88a3ef01580aaacbdd5d9e",
+    "graph_basis_size": 48,
+    "maximum_s_degree": 8,
+    "packet_sha256": "fbeda61593e73cdcb7bf1e2baa1ebe8b098a7025f834135b3e02d2c291d50cd9",
+    "partial_stderr": "",
+    "partial_stdout": "// ** G is no standard basis\n",
+    "program_sha256": "0cf19ceb9bba5f6c2b604f8d352a36c924bc34015538ee7cffe66565768c8d59",
+    "q6_E_degree": 2,
+    "q7_E_degree": 2,
+    "relation": "exact R76 coefficients on admissible FFF base graph",
+    "resultant_variable": "E",
+    "status": "TIMEOUT",
+    "variable_count": 5,
+    "variables": [
+      "x",
+      "t",
+      "r",
+      "c",
+      "b"
+    ]
+  },
+  "schema": "rate-half-kb-positive-433-1b-o0b-fff-r76-coefficients-v1",
+  "source_cache_sha256": "28c97e75aa1fd80565ad926e95ab2eacf4ce62a692520ca2662de6845ee0ddd8",
+  "source_graph_sha256": "5a2ecd10e0be462a9a695d0a880227cd995de5952f999fc93ec17282b9fe94c1",
+  "source_program_sha256": "7cb0d1b17e2c8175afd59a90be30b84f9409fdad457f3df454119fe2262a22f6"
+}

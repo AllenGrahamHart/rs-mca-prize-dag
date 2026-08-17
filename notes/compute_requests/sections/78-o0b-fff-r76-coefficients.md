@@ -46,4 +46,13 @@ tools/ramguard modal -- timeout --signal=TERM --kill-after=15s 360s \
   experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_fff_r76_coefficients_modal.py
 ```
 
-**Outcome:** preregistered; not yet run.
+**Outcome:** `INCOMPLETE_TIMEOUT`. Modal app
+`ap-VxiiWJZtzNSkcAlUHhTorY` timed out before coefficient 0. The retained
+transcript contains only Singular's standard-basis warning, so eager
+expansion of the intermediate resultant arrays is the bottleneck, not a
+specific final coefficient reduction. Result SHA-256:
+`741bd7a2bfb06f3074fe59809a40d5399ec98b65d94386eea6d6cfc95e2fe3b0`.
+The outcome-neutral checker accepts the empty exact prefix and rejects all
+three applicable hostile mutations. The next architecture performs every
+intermediate multiplication in the quotient ring, reducing immediately
+modulo the 48-element basis. This eager-expansion program is retired.
