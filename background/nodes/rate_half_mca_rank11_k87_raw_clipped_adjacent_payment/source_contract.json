@@ -1,0 +1,117 @@
+{
+  "schema": "rate-half-mca-rank11-k87-raw-clipped-adjacent-payment-v1",
+  "dependencies": [
+    "rate_half_mca_rank11_k86_best_single_adjacent_payment",
+    "rate_half_mca_sparse_circuit_raw_clipped_adjacent_support_coupling"
+  ],
+  "sources": {
+    "experiments/prize_resolution/rate_half_mca_rank11_k87_threshold_frontier_replay.py": "a9382db987ce51906dedd510d028ebf688a141455c147f617bda60a7c9b334c9",
+    "experiments/prize_resolution/rate_half_mca_rank11_k87_threshold_frontier_audit.py": "338d35ca79a5a54e6c869f913bf4a25f52e1cd0351b20ce3df3142494c735af3",
+    "experiments/prize_resolution/rate_half_mca_rank11_k87_ordinary_check.py": "60fde0ea89ffccb94f61c9fd824faa5656ad2689af4c532d6aaea62a7131cdff",
+    "experiments/prize_resolution/rate_half_mca_rank11_k87_raw_threshold_offset_probe.py": "d85f91f5cfbfbaa4550377cc0096b194108bbc8bdd660b9e3f680ef6a83e08c5",
+    "experiments/prize_resolution/rate_half_mca_rank11_k87_raw_threshold_offset_audit.py": "b968b55cd98d04224ed3ef36bc8e14b83614f8e60257a76546fdfe87200a41d8",
+    "experiments/prize_resolution/rate_half_mca_rank11_k87_raw_threshold_wave_check.py": "e7dbbd4145bc9924806f9fc1e85d1593ec77c67d898e69633fe0c56e5b51ca38",
+    "experiments/prize_resolution/rate_half_mca_rank11_k87_best_single_domination_falsifier.py": "f2ef06960e42febe620dcfa7ecddf2d7207532462e764e0b767a98416f45de53",
+    "experiments/prize_resolution/rate_half_mca_rank11_k87_best_single_domination_audit.py": "d4c6baed6e30a3acea25b808a6320589fc1b7aadd401da1a4fac0566b17df627",
+    "experiments/prize_resolution/rate_half_mca_rank11_k87_best_single_scan_core.py": "53b1d80cabff9cf1995043195b91e8b1e96013ffcb8aaacf5642591a88cd3e0a",
+    "experiments/prize_resolution/rate_half_mca_rank11_k85_best_single_domination_falsifier.py": "2c94b7432cd4c9d37a49288298761cbff9227a07f694fe80ec259ef19e724505",
+    "experiments/prize_resolution/rate_half_mca_rank11_k85_best_single_domination_audit.py": "f9a01624b5a11fbc30f58a4f4afca2aa75d9af96b35c69edddcdc7eef5e1fa1f",
+    "experiments/prize_resolution/rate_half_mca_rank11_k85_edge4_domination_falsifier.py": "cd1e9d2706c48be390387953c4abeea46958af258f132700809cf2393a5e4a90",
+    "experiments/prize_resolution/rate_half_mca_rank11_k87_clipped_domination_falsifier.py": "27e0eaa88d6238de3d86205ab907d2caa1f997212ad0ea2b9ea4533f7924f8d8",
+    "experiments/prize_resolution/rate_half_mca_rank11_k87_clipped_domination_audit.py": "289ade06dfcb706efb8dcb020f20afe1ec9ccf25061d450438867ef2f59deb72",
+    "experiments/prize_resolution/rate_half_mca_rank11_k87_clipped_domination_falsifier_cached.py": "dd652f005ee31ed3229bd16039f16a8961306fbfe21a45d95737406a3e716f31",
+    "experiments/prize_resolution/rate_half_mca_rank11_k87_clipped_domination_audit_cached.py": "9e4240355e5d5b1d59faf301d8087b63cf2fb2a1856d74f1551dc42e399f2296",
+    "experiments/prize_resolution/rate_half_mca_rank11_k87_clipped_scan_core.py": "ea0cc3fc67e7079a34a0bbabbe8c5953b0791944f05bc64659d80c9470036c13",
+    "experiments/prize_resolution/rate_half_mca_raw_clipped_adjacent_support.py": "514cbeabc44f04ea4e153415dcddab1878069cefeaa12dea931f60edf9c0e18a",
+    "experiments/prize_resolution/rate_half_mca_rank11_k87_clipped_wave_microshard_merge.py": "2fc0c0408227dd3cfdf175304bfad6e7b13a77782d33a4a4041b8ff1f8fd12dd",
+    "experiments/prize_resolution/rate_half_mca_rank11_k87_clipped_wave_check.py": "92caef3cb3872b2c75ffa91bad21e0a745f281c1b2a8590005b7632368bd3f5e",
+    "experiments/prize_resolution/rate_half_mca_rank11_k87_component_payment.py": "1e154be116c33854af85a5a01fd03e4a3c4e0b66d1e24bc1fe58c9f2f9c62713"
+  },
+  "archives": {
+    "k72-deps.tar.gz": "5ee5d10a20f1e47b1e5400d10177e33bafdc83c0e9b516d6d12dfe0fad93aaf8",
+    "k83-threshold-frontier-adjacent-code.tar.gz": "327c677b870233b5b43609203a45c12ca478a719da3b9391c61860d9ddbe6b49"
+  },
+  "captures": [
+    {
+      "role": "ordinary",
+      "app_id": "ap-t1IWAsyDidGwq0ZwwYO6yI",
+      "sha256": "06a550c1f65be3c2a7c4d96590188f5de6ca792c1f87e638f2fa7d5163b43519"
+    },
+    {
+      "role": "raw_threshold_wave",
+      "app_id": "ap-xwOdMdTBRKtC2aIHtpRSw0",
+      "sha256": "2722d7811cf29e425bd67fd49a46f586efe2f21c0dda698e369dcfe4fd48b449"
+    },
+    {
+      "role": "component_payment",
+      "app_id": "ap-JAw6W5GHktZA9TXLxcpMUY",
+      "sha256": "883f659486162495750adbc80c97d3224cdae6b3bdebf3429492a33189d95312"
+    }
+  ],
+  "clipped_ranges": [
+    {"offsets": [1, 4], "app_id": "ap-iXONaPwRxMHjwZR515sOyi", "sha256": "544b603dac9fd1ea858c36e530bb0263f6e11392a6d3b284d3baa1c266b9f7ca"},
+    {"offsets": [5, 12], "app_id": "ap-dJ2eUU9a0u0jcJjXZiefIU", "sha256": "4f3f1d9e5f81aa3f8afdb3727d266eaa9f557ad2140b9d8b1c469919785918dd"},
+    {"offsets": [13, 20], "app_id": "ap-xr0f01RFscUvWkrGvn7VGk", "sha256": "1406c04aef22bfa96037221ebb6c47a94258fb3e54014e117a5b9a6090dba2fb"},
+    {"offsets": [21, 28], "app_id": "ap-qFATW8MSFF0dzBoqm4ekA9", "sha256": "ee4c260ba13112abd17f02d37957c5eae131c713cc1f51254a9e2387b65cfc0c"},
+    {"offsets": [29, 36], "app_id": "ap-KzzGy55iKSUXT04uVv7UOh", "sha256": "28bbc2311b0845e7deba6b8e5f4cacdafb32ed65d5b9057871ac043aab98b55b"},
+    {"offsets": [37, 43], "app_id": "ap-TLGJytlHAZRLOm0pn0e8Oh", "sha256": "e9d41feff81a9e2e809b54bcb80c2c802c6d2c140d9481bc8f527a5f5b9df784"}
+  ],
+  "clipped_merged_sha256": "6f8064320850e0009c18c967e2b61ec5b4d77c51e1c2afb4bee6fc41921e5cd8",
+  "coverage": {
+    "partition": "ordinary plus offsets 1..76",
+    "ordinary": {
+      "jobs": 2,
+      "source_units": 542840,
+      "raw_rows": 3799880,
+      "raw_safe_units": 121895,
+      "expanded_units": 4385,
+      "primary_geometry_rows": 2940875,
+      "audit_geometry_rows": 2940875,
+      "premium": 41460244206367810395288131753780101229368111530
+    },
+    "raw_offsets": {
+      "lanes": 76,
+      "jobs": 152,
+      "source_units_per_implementation": 17801784,
+      "raw_rows_per_implementation": 124612488,
+      "raw_safe_units_per_implementation": 17290107,
+      "raw_unsafe_units_per_implementation": 511677,
+      "unsafe_offsets": [1, 43],
+      "fully_safe_offsets": [44, 76],
+      "offset_units_formula": "(77-offset)*6084"
+    },
+    "clipped_residual": {
+      "lanes": 43,
+      "jobs": 86,
+      "source_units_per_implementation": 14388660,
+      "unsafe_units_per_implementation": 511677,
+      "profiles_per_implementation": 77179660
+    }
+  },
+  "frontier": {
+    "global_lane": "offset9",
+    "global_branch": "s2=55/s3=46/s4=37/s5=30/offset9/c6F/c7F/c8F/c9F",
+    "completion_premium": 41460899125475443837881046685022762331499044695,
+    "safe_premium_ceiling": 41460914669043067085305042221812436226076443389,
+    "premium_ceiling_margin": 15543567623247423995536789673894577398694
+  },
+  "parameters": {
+    "kprime": 87,
+    "q": 77,
+    "m": 67559,
+    "n": 1048663,
+    "new_closed_prefix": [10, 87],
+    "next_open_row": 88
+  },
+  "row": {
+    "rank_nine_marks": 39251822161232243278275316442674108186111685491076612666319890850,
+    "kernel_capacity": 101428358503090898644576011950562401247281266078921010827210,
+    "record_floor": 274980728111260126,
+    "full_rank_capacity": 920959461652781618758411787796949507196105181499688874690276771,
+    "total_capacity": 921060890011284709657056363808900069597352462765767795701103981,
+    "required_component_incidence": 921060967723676391242250303252610946492991464556444164407248882,
+    "gap": 77712391681585193939443710876895639001790676368706144901,
+    "ceiling_remainder": 255238951391294095
+  },
+  "nonclaim": "No K'=88 or full rank-nine interval closure is claimed."
+}

@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_k87_raw_clipped_adjacent_payment",
+    "title": "Raw-clipped adjacent-support envelope closes K'=87",
+    "status": "PROVED",
+    "closure": "exact ordinary/offset partition, paired raw-threshold envelope, exhaustive raw-clipped adjacent-support payment, independent replay, and positive integral component gap",
+    "statement": "The exact K'=87 carrier frontier has completion premium 41460899125475443837881046685022762331499044695 below the safe ceiling by 15543567623247423995536789673894577398694, yielding a positive component-payment gap and extending the closed prefix to 10..87.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_k87_raw_clipped_adjacent_payment/statement.md",
+      "background/nodes/rate_half_mca_rank11_k87_raw_clipped_adjacent_payment/proof.md",
+      "background/nodes/rate_half_mca_rank11_k87_raw_clipped_adjacent_payment/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_k87_raw_clipped_adjacent_payment/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_k87_raw_clipped_adjacent_payment/attack.md",
+      "background/nodes/rate_half_mca_rank11_k87_raw_clipped_adjacent_payment/audit.md",
+      "background/nodes/rate_half_mca_rank11_k87_raw_clipped_adjacent_payment/result.md",
+      "background/nodes/rate_half_mca_rank11_k87_raw_clipped_adjacent_payment/provenance.md",
+      "background/nodes/rate_half_mca_rank11_k87_raw_clipped_adjacent_payment/replay.md",
+      "background/nodes/rate_half_mca_rank11_k87_raw_clipped_adjacent_payment/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_k87_raw_clipped_adjacent_payment/verify.py",
+      "background/nodes/rate_half_mca_rank11_k87_raw_clipped_adjacent_payment/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_k86_best_single_adjacent_payment"},
+    {"from": "rate_half_mca_sparse_circuit_raw_clipped_adjacent_support_coupling"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location"}
+  ],
+  "refutes": []
+}

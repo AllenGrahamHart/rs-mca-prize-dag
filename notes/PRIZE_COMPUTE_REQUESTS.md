@@ -15415,3 +15415,14 @@ gap. No rounded or floating-point quantity is used.
 
 `PASS` authorizes construction and adversarial replay of the K'=87 proof node.
 `INCOMPLETE` or a nonpositive gap leaves the row open.
+
+**Outcome:** `PASS`. Modal app `ap-JAw6W5GHktZA9TXLxcpMUY` reconstructed the
+exact row; capture SHA-256:
+`883f659486162495750adbc80c97d3224cdae6b3bdebf3429492a33189d95312`.
+The certified premium is below the exact safe ceiling by
+`15543567623247423995536789673894577398694`. Total capacity is
+`921060890011284709657056363808900069597352462765767795701103981`
+against required incidence
+`921060967723676391242250303252610946492991464556444164407248882`,
+leaving strict component gap
+`77712391681585193939443710876895639001790676368706144901`.
