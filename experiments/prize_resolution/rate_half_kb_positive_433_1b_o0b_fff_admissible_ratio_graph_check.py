@@ -77,9 +77,12 @@ def verify(payload=None):
                 row["basis"] == [] and "UNIT=1" in row["stdout"],
                 "unit result")
     else:
-        require(row["dimension"] == 1 and row["basis_size"] > 1 and
+        require(row["unit"] is False and
+                row["dimension"] == 1 and row["basis_size"] > 1 and
                 len(row["basis"]) == row["basis_size"] and
-                "UNIT=0" in row["stdout"], "nonunit result")
+                row["basis_sha256"] ==
+                hashlib.sha256(encoded.encode()).hexdigest(),
+                "nonunit result")
     return {"status": "COMPLETE", "unit": row["unit"]}
 
 

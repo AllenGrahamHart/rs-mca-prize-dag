@@ -10,6 +10,8 @@
   `9b8eb716542e1b1530a2285aee9fc079c2b4686148a4ca6350affc6a633266e0`
 - **outcome-neutral checker SHA-256:**
   `700c6c324ccdfd5c00f238cb0922b5ee674decf378152e81156d522bea53c2aa`
+- **post-run stdout-tail repair checker SHA-256:**
+  `6817767d7ea29bc1685447ccebce79494f36dda1b22bacf5b305981bc76923ad`
 - **program core SHA-256:**
   `ca31838daef0f684d5bfffe82e0336e490707ef8acb023af6a323e0a169c7aa3`
 - **generated Singular SHA-256:**
@@ -38,4 +40,19 @@ tools/ramguard modal -- timeout --signal=TERM --kill-after=15s 360s \
   experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_fff_admissible_ratio_graph_modal.py
 ```
 
-**Outcome:** preregistered; not yet run.
+**Outcome:** `COMPLETE_NONUNIT`. Modal app
+`ap-yefWfdW7toawtaFcRFwAG1` produced an initial graph basis of
+`(dimension 1,size 53)`; saturation by `x` retained size 53,
+`a0m` reduced it to size 48, and `a2m` retained size 48. The final
+basis SHA-256 is
+`7f59b5557597f429a3a56914cd5aad5c988902af6d88a3ef01580aaacbdd5d9e`;
+result SHA-256:
+`5a2ecd10e0be462a9a695d0a880227cd995de5952f999fc93ec17282b9fe94c1`.
+
+The preregistered checker rejected the otherwise valid payload because the
+48-polynomial basis pushed the earlier `UNIT=0` marker outside the retained
+30 kB stdout tail. The repaired checker removes only that redundant marker
+test and instead requires the explicit nonunit field, dimension, basis
+cardinality, and independently recomputed basis hash; it accepts the result
+and rejects all three hostile mutations. The graph is nonempty, so this is
+an exact input reduction rather than a chart closure.
