@@ -1,0 +1,155 @@
+{
+  "app": "rs-mca-positive-433-1b-o0b-iff-rational-reduction",
+  "collection_complete": true,
+  "field": 2130706433,
+  "row": {
+    "basis_sha256": "20d4032b93acc1f0918efea258978bf830a4a7de389442b519e9496f9b6e9df4",
+    "basis_size": 1,
+    "cofactor_basis_size": 1,
+    "cofactor_dimension": -1,
+    "common_basis_size": 21,
+    "dimension": -1,
+    "equation_stages": [
+      {
+        "basis_size": 42,
+        "dimension": 0,
+        "equation": 7
+      },
+      {
+        "basis_size": 44,
+        "dimension": 0,
+        "equation": 5
+      },
+      {
+        "basis_size": 44,
+        "dimension": 0,
+        "equation": 6
+      }
+    ],
+    "extra_guards": [
+      "k2",
+      "k5",
+      "a2m"
+    ],
+    "extra_stages": [
+      {
+        "basis_size": 1,
+        "dimension": -1,
+        "guard_index": 0
+      },
+      {
+        "basis_size": 1,
+        "dimension": -1,
+        "guard_index": 1
+      },
+      {
+        "basis_size": 1,
+        "dimension": -1,
+        "guard_index": 2
+      }
+    ],
+    "input_program": "",
+    "outside_equation_order": [
+      7,
+      5,
+      6
+    ],
+    "packet_sha256": "fbeda61593e73cdcb7bf1e2baa1ebe8b098a7025f834135b3e02d2c291d50cd9",
+    "program_sha256": "355951439fa3016507c41960e8901f77f33c2a85d9debdbf6fbd59cc37cf5a61",
+    "rank_cofactor_count": 6,
+    "relation": "necessary IFF rational-reduction superset",
+    "route_guard_count": 16,
+    "route_stages": [
+      {
+        "basis_size": 42,
+        "dimension": 0,
+        "guard_index": 0
+      },
+      {
+        "basis_size": 44,
+        "dimension": 0,
+        "guard_index": 1
+      },
+      {
+        "basis_size": 44,
+        "dimension": 0,
+        "guard_index": 2
+      },
+      {
+        "basis_size": 44,
+        "dimension": 0,
+        "guard_index": 3
+      },
+      {
+        "basis_size": 44,
+        "dimension": 0,
+        "guard_index": 4
+      },
+      {
+        "basis_size": 1,
+        "dimension": -1,
+        "guard_index": 5
+      },
+      {
+        "basis_size": 1,
+        "dimension": -1,
+        "guard_index": 6
+      },
+      {
+        "basis_size": 1,
+        "dimension": -1,
+        "guard_index": 7
+      },
+      {
+        "basis_size": 1,
+        "dimension": -1,
+        "guard_index": 8
+      },
+      {
+        "basis_size": 1,
+        "dimension": -1,
+        "guard_index": 9
+      },
+      {
+        "basis_size": 1,
+        "dimension": -1,
+        "guard_index": 10
+      },
+      {
+        "basis_size": 1,
+        "dimension": -1,
+        "guard_index": 11
+      },
+      {
+        "basis_size": 1,
+        "dimension": -1,
+        "guard_index": 12
+      },
+      {
+        "basis_size": 1,
+        "dimension": -1,
+        "guard_index": 13
+      },
+      {
+        "basis_size": 1,
+        "dimension": -1,
+        "guard_index": 14
+      },
+      {
+        "basis_size": 1,
+        "dimension": -1,
+        "guard_index": 15
+      }
+    ],
+    "status": "COMPLETE",
+    "stderr": "",
+    "stdout": "EQUATION=7,DIM=0,SIZE=42\nEQUATION=5,DIM=0,SIZE=44\nEQUATION=6,DIM=0,SIZE=44\nROUTE=0,DIM=0,SIZE=42\nROUTE=1,DIM=0,SIZE=44\nROUTE=2,DIM=0,SIZE=44\nROUTE=3,DIM=0,SIZE=44\nROUTE=4,DIM=0,SIZE=44\nROUTE=5,DIM=-1,SIZE=1\nROUTE=6,DIM=-1,SIZE=1\nROUTE=7,DIM=-1,SIZE=1\nROUTE=8,DIM=-1,SIZE=1\nROUTE=9,DIM=-1,SIZE=1\nROUTE=10,DIM=-1,SIZE=1\nROUTE=11,DIM=-1,SIZE=1\nROUTE=12,DIM=-1,SIZE=1\nROUTE=13,DIM=-1,SIZE=1\nROUTE=14,DIM=-1,SIZE=1\nROUTE=15,DIM=-1,SIZE=1\nEXTRA=0,DIM=-1,SIZE=1\nEXTRA=1,DIM=-1,SIZE=1\nEXTRA=2,DIM=-1,SIZE=1\nCOFACTOR_DIM=-1,COFACTOR_SIZE=1\nBEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nEND\n",
+    "unit": true,
+    "variable_count": 4
+  },
+  "schema": "rate-half-kb-positive-433-1b-o0b-iff-rational-reduction-v1",
+  "source_basis_sha256": "bda163ed7bdb961c115cebbe910dd3d991307bd53cddf4770925697d1a5e7c4e",
+  "source_cache_sha256": "28c97e75aa1fd80565ad926e95ab2eacf4ce62a692520ca2662de6845ee0ddd8",
+  "source_collapsed_unit_sha256": "38a44a30aa3421a67161acf5268d4bbfbe9e33903547e50259fc3f0da77efd03",
+  "source_program_sha256": "ce5ef23fee81c3065dbf66c35298abaa799198a4756ae1869a19b2382263d2ad"
+}

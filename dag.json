@@ -39150,6 +39150,29 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_iff_rational_branch_exclusion",
+   "title": "KoalaBear m2 r4 positive 433-1b/O0b xi2 pairing0 IFF rational-branch exclusion",
+   "status": "PROVED",
+   "closure": "the canonical IFF projective common-root chart is empty after an exact infinity split and a unit four-variable necessary superset",
+   "statement": "For the canonical cell-3 S0 case with sigma_o=-1, epsilon=(-1,-1), xi=2, and pairing=0, chart IFF has no admissible solution. Its q4 infinity equations split into the already-empty k2=k5=0 locus and a be=cf branch on which d,e,f are rationally forced; the cleared q7,q5,q6 base-only necessary superset is unit after exact admissibility saturation.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_iff_rational_branch_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_iff_rational_branch_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_iff_rational_branch_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_iff_rational_branch_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_iff_rational_branch_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_iff_rational_branch_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_iff_rational_branch_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_iff_rational_branch_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_iff_rational_branch_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_iff_rational_branch_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_iff_rational_branch_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_iff_rational_reduction_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_iff_rational_reduction_check.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_iff_rational_reduction_program.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_multifinite_infinity_leading_collapse",
    "title": "KoalaBear m2 r4 positive 433-1b/O0b xi2 pairing0 multi-finite infinity leading collapse",
    "status": "PROVED",
@@ -78417,6 +78440,11 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_matching_resultant_projective_charts",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_iff_rational_branch_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_matching_resultant_projective_charts",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_multifinite_infinity_leading_collapse",
    "kind": "req"
   },
@@ -78682,6 +78710,11 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cells3_6_v4_quotient",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_iff_rational_branch_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cells3_6_v4_quotient",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_multifinite_infinity_leading_collapse",
    "kind": "req"
   },
@@ -78752,6 +78785,16 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_ffi_fif_collapsed_common_exclusions",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_iff_rational_branch_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_ffi_fif_collapsed_common_exclusions",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_iff_rational_branch_exclusion",
    "to": "rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment",
    "kind": "ev"
   },

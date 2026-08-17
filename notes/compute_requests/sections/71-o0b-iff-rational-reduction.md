@@ -44,4 +44,15 @@ tools/ramguard modal -- timeout --signal=TERM --kill-after=15s 270s \
   experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_iff_rational_reduction_modal.py
 ```
 
-**Outcome:** preregistered; not yet run.
+**Outcome:** `COMPLETE_UNIT`. Modal app `ap-PDSXYqsKDmAp67vmdUw9kU`
+failed before Singular because the remote builder unnecessarily imported
+SymPy; app `ap-eoY557eS0JQZdQkGNwz10v` then exposed and preserved a staged
+ideal-extension syntax error. After those non-mathematical repairs, app
+`ap-1yCnh8r1A0yyUafO6gOTBR` completed with a unit basis; result SHA-256:
+`5485816c745c18d1514200cc1bba057662c03319f7820883e7010ecb723b93c3`.
+The equation stages are `q7: (dim 0,size 42)`,
+`q5: (dim 0,size 44)`, and `q6: (dim 0,size 44)`. Route saturation
+becomes unit at guard index 5, again exactly `b+1`; every later stage
+remains unit. The checker accepts the complete ledger and rejects all three
+hostile mutations. Together with the closed `k2=0` branch, this proves
+`IFF` empty.
