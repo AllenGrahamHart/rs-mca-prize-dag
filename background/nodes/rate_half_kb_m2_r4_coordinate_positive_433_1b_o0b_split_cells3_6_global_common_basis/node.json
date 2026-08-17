@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cells3_6_global_common_basis",
+    "title": "KoalaBear m2 r4 positive 433-1b/O0b split cells 3-6 global common bases",
+    "status": "PROVED",
+    "closure": "four guarded dimension-one 21-polynomial bases cover the union of all product-rank-five common charts in split cells 3 and 6",
+    "statement": "For each of the four source-sign rows in split-principal O0b cell 3, saturating the three compact common determinants by all sixteen route guards and then by the ideal of six product cofactors yields a dimension-one reduced basis of size 21. The four ordered basis hashes are pinned. The split common adapter copies these bases to all six O0b lanes, and B/C transport covers cell 6. This is a global union-of-charts common representation; it proves no outside exclusion.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cells3_6_global_common_basis/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cells3_6_global_common_basis/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cells3_6_global_common_basis/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cells3_6_global_common_basis/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cells3_6_global_common_basis/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cells3_6_global_common_basis/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cells3_6_global_common_basis/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cells3_6_global_common_basis/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cells3_6_global_common_basis/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cells3_6_global_common_basis/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cells3_6_global_common_basis/verify_audit.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell3_cached_common_input_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell3_cached_common_input_result.json",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell3_global_common_basis_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell3_global_common_basis_check.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell3_global_common_basis_result.json"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_compact_curve_kernel"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_principal_common_system_adapter"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_bc_ef_involution_quotient"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cells3_6_v4_quotient"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment"}
+  ],
+  "refutes": []
+}

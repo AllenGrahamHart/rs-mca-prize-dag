@@ -16062,3 +16062,19 @@ A checked result is a reusable algebraic representation of the already
 proved guarded common curve. It authorizes one preregistered outside-case
 diagnostic from the reduced basis; it does not authorize a 24- or 1,416-case
 campaign and excludes no outside system by itself.
+
+**Outcome:** `COMPLETE`. Modal app `ap-e7skPdzRi1PIPNxBo3VKdw` returned four
+dimension-one bases, each of size 21, in about two minutes. Result SHA-256:
+`bda163ed7bdb961c115cebbe910dd3d991307bd53cddf4770925697d1a5e7c4e`.
+Basis SHA-256 values in sign order `--,-+,+-,++` are
+
+```text
+20d4032b93acc1f0918efea258978bf830a4a7de389442b519e9496f9b6e9df4
+a27da16ead59ce535f5fd5017a97c7459de63fab60b1b27456cc82e7cbe20202
+f9e7054412eae0ecbd2d0369bbd4ddb9e7ba80b29e59f02ca86cb24ef7a9725e
+11e2e6e5abde49d1887ea4b677bcdbb0aefb02b9e7cf696f93e8b04f7b06b0b5
+```
+
+The checker accepts four distinct programs and bases and rejects 3/3 hostile
+mutations. The known nonfatal Modal async-generator close warning occurred
+after the complete checkpoint; the app exited zero.
