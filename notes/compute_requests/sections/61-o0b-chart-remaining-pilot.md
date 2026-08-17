@@ -39,3 +39,15 @@ tools/ramguard modal -- timeout --signal=TERM --kill-after=15s 360s \
   ~/.venvs/modal/bin/modal run \
   experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_chart_remaining_pilot_modal.py
 ```
+
+**Outcome:** `INCOMPLETE_FOUR_CHARTS_CLOSED`. Modal app
+`ap-Ie9cKPqFBjPpGsDFqbuo8X` returned all seven rows; result SHA-256:
+`09d854294bb4b0f3d33fc45f140f12ca86eebbb568c1f845a061b4143c50dba0`.
+The outcome-neutral checker accepts the collection and rejects all three
+hostile mutations. Every mask with exactly one finite root completed and
+became unit at guard 5, `b+1`: `FII` had initial dimension/size `(4,57)`,
+`IFI` had `(4,74)`, and `IIF` had `(4,62)`. Together with the all-infinity
+result, four of eight charts are closed. The masks `FFF`, `FFI`, `FIF`, and
+`IFF` timed out before printing an initial basis and have no mathematical
+status. Their repeated `b+1` boundary pattern authorizes a four-row direct
+Rabinowitsch test of the open set `b+1 != 0`, bypassing the raw initial basis.

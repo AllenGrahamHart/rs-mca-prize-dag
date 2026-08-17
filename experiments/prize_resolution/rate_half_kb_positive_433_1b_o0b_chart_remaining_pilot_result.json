@@ -1,0 +1,227 @@
+{
+  "app": "rs-mca-positive-433-1b-o0b-chart-remaining-pilot",
+  "case": [
+    3,
+    "S0",
+    -1,
+    -1,
+    -1,
+    2,
+    0
+  ],
+  "chart_masks": [
+    [
+      "finite",
+      "finite",
+      "finite"
+    ],
+    [
+      "finite",
+      "finite",
+      "infinity"
+    ],
+    [
+      "finite",
+      "infinity",
+      "finite"
+    ],
+    [
+      "finite",
+      "infinity",
+      "infinity"
+    ],
+    [
+      "infinity",
+      "finite",
+      "finite"
+    ],
+    [
+      "infinity",
+      "finite",
+      "infinity"
+    ],
+    [
+      "infinity",
+      "infinity",
+      "finite"
+    ]
+  ],
+  "collection_complete": true,
+  "excluded_closed_mask": [
+    "infinity",
+    "infinity",
+    "infinity"
+  ],
+  "expected_row_count": 7,
+  "field": 2130706433,
+  "processed_row_count": 7,
+  "remote_errors": [],
+  "rows": [
+    {
+      "basis_sha256": "20d4032b93acc1f0918efea258978bf830a4a7de389442b519e9496f9b6e9df4",
+      "chart_mask": [
+        "finite",
+        "finite",
+        "finite"
+      ],
+      "common_basis_size": 21,
+      "finite_root_count": 3,
+      "guard_count": 40,
+      "index": 0,
+      "matching_chart_equation_count": 6,
+      "outside_equation_count": 8,
+      "packet_sha256": "fbeda61593e73cdcb7bf1e2baa1ebe8b098a7025f834135b3e02d2c291d50cd9",
+      "partial_stderr": "",
+      "partial_stdout": "",
+      "program_sha256": "30af4df554a3125000208835e07f041be2283b8393c5e16c03fb605af5d30cba",
+      "rank_cofactor_count": 6,
+      "status": "TIMEOUT",
+      "variable_count": 10
+    },
+    {
+      "basis_sha256": "20d4032b93acc1f0918efea258978bf830a4a7de389442b519e9496f9b6e9df4",
+      "chart_mask": [
+        "finite",
+        "finite",
+        "infinity"
+      ],
+      "common_basis_size": 21,
+      "finite_root_count": 2,
+      "guard_count": 40,
+      "index": 1,
+      "matching_chart_equation_count": 6,
+      "outside_equation_count": 8,
+      "packet_sha256": "fbeda61593e73cdcb7bf1e2baa1ebe8b098a7025f834135b3e02d2c291d50cd9",
+      "partial_stderr": "",
+      "partial_stdout": "",
+      "program_sha256": "09a691152f2b423a0cf620e5f93d6dbbde91254363da360770c3783ae608105b",
+      "rank_cofactor_count": 6,
+      "status": "TIMEOUT",
+      "variable_count": 9
+    },
+    {
+      "basis_sha256": "20d4032b93acc1f0918efea258978bf830a4a7de389442b519e9496f9b6e9df4",
+      "chart_mask": [
+        "finite",
+        "infinity",
+        "finite"
+      ],
+      "common_basis_size": 21,
+      "finite_root_count": 2,
+      "guard_count": 40,
+      "index": 2,
+      "matching_chart_equation_count": 6,
+      "outside_equation_count": 8,
+      "packet_sha256": "fbeda61593e73cdcb7bf1e2baa1ebe8b098a7025f834135b3e02d2c291d50cd9",
+      "partial_stderr": "",
+      "partial_stdout": "",
+      "program_sha256": "b6b18bcbcb8a5595a533626e8d6a108fdea9e2f4fc8e2ce3d4b1580b91a0809b",
+      "rank_cofactor_count": 6,
+      "status": "TIMEOUT",
+      "variable_count": 9
+    },
+    {
+      "basis_sha256": "20d4032b93acc1f0918efea258978bf830a4a7de389442b519e9496f9b6e9df4",
+      "basis_size": 1,
+      "chart_mask": [
+        "finite",
+        "infinity",
+        "infinity"
+      ],
+      "common_basis_size": 21,
+      "dimension": -1,
+      "finite_root_count": 1,
+      "guard_count": 40,
+      "index": 3,
+      "input_program": "",
+      "matching_chart_equation_count": 6,
+      "outside_equation_count": 8,
+      "packet_sha256": "fbeda61593e73cdcb7bf1e2baa1ebe8b098a7025f834135b3e02d2c291d50cd9",
+      "program_sha256": "9c7dba53cad2f276c95b07898cc4251a48602a95f0d432909192f20f1ca77b12",
+      "rank_cofactor_count": 6,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "INITIAL_DIM=4,INITIAL_SIZE=57\nSAT=0,DIM=4,SIZE=34\nSAT=1,DIM=4,SIZE=34\nSAT=2,DIM=4,SIZE=34\nSAT=3,DIM=4,SIZE=32\nSAT=4,DIM=4,SIZE=22\nSAT=5,DIM=-1,SIZE=1\nSAT=6,DIM=-1,SIZE=1\nSAT=7,DIM=-1,SIZE=1\nSAT=8,DIM=-1,SIZE=1\nSAT=9,DIM=-1,SIZE=1\nSAT=10,DIM=-1,SIZE=1\nSAT=11,DIM=-1,SIZE=1\nSAT=12,DIM=-1,SIZE=1\nSAT=13,DIM=-1,SIZE=1\nSAT=14,DIM=-1,SIZE=1\nSAT=15,DIM=-1,SIZE=1\nSAT=16,DIM=-1,SIZE=1\nSAT=17,DIM=-1,SIZE=1\nSAT=18,DIM=-1,SIZE=1\nSAT=19,DIM=-1,SIZE=1\nSAT=20,DIM=-1,SIZE=1\nSAT=21,DIM=-1,SIZE=1\nSAT=22,DIM=-1,SIZE=1\nSAT=23,DIM=-1,SIZE=1\nSAT=24,DIM=-1,SIZE=1\nSAT=25,DIM=-1,SIZE=1\nSAT=26,DIM=-1,SIZE=1\nSAT=27,DIM=-1,SIZE=1\nSAT=28,DIM=-1,SIZE=1\nSAT=29,DIM=-1,SIZE=1\nSAT=30,DIM=-1,SIZE=1\nSAT=31,DIM=-1,SIZE=1\nSAT=32,DIM=-1,SIZE=1\nSAT=33,DIM=-1,SIZE=1\nSAT=34,DIM=-1,SIZE=1\nSAT=35,DIM=-1,SIZE=1\nSAT=36,DIM=-1,SIZE=1\nSAT=37,DIM=-1,SIZE=1\nSAT=38,DIM=-1,SIZE=1\nSAT=39,DIM=-1,SIZE=1\nCOFACTOR_DIM=-1,COFACTOR_SIZE=1\nBEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nEND\n",
+      "unit": true,
+      "variable_count": 8
+    },
+    {
+      "basis_sha256": "20d4032b93acc1f0918efea258978bf830a4a7de389442b519e9496f9b6e9df4",
+      "chart_mask": [
+        "infinity",
+        "finite",
+        "finite"
+      ],
+      "common_basis_size": 21,
+      "finite_root_count": 2,
+      "guard_count": 40,
+      "index": 4,
+      "matching_chart_equation_count": 6,
+      "outside_equation_count": 8,
+      "packet_sha256": "fbeda61593e73cdcb7bf1e2baa1ebe8b098a7025f834135b3e02d2c291d50cd9",
+      "partial_stderr": "",
+      "partial_stdout": "",
+      "program_sha256": "eb762f861833d50556b9e9a4f894b209230914900f1bdddd7cfcbdecbc4797d1",
+      "rank_cofactor_count": 6,
+      "status": "TIMEOUT",
+      "variable_count": 9
+    },
+    {
+      "basis_sha256": "20d4032b93acc1f0918efea258978bf830a4a7de389442b519e9496f9b6e9df4",
+      "basis_size": 1,
+      "chart_mask": [
+        "infinity",
+        "finite",
+        "infinity"
+      ],
+      "common_basis_size": 21,
+      "dimension": -1,
+      "finite_root_count": 1,
+      "guard_count": 40,
+      "index": 5,
+      "input_program": "",
+      "matching_chart_equation_count": 6,
+      "outside_equation_count": 8,
+      "packet_sha256": "fbeda61593e73cdcb7bf1e2baa1ebe8b098a7025f834135b3e02d2c291d50cd9",
+      "program_sha256": "21d786b593fde99e98460c3e3b622097ada4ffc8c853f3ae87593ed827cb0d81",
+      "rank_cofactor_count": 6,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "INITIAL_DIM=4,INITIAL_SIZE=74\nSAT=0,DIM=4,SIZE=53\nSAT=1,DIM=4,SIZE=51\nSAT=2,DIM=4,SIZE=51\nSAT=3,DIM=4,SIZE=50\nSAT=4,DIM=4,SIZE=43\nSAT=5,DIM=-1,SIZE=1\nSAT=6,DIM=-1,SIZE=1\nSAT=7,DIM=-1,SIZE=1\nSAT=8,DIM=-1,SIZE=1\nSAT=9,DIM=-1,SIZE=1\nSAT=10,DIM=-1,SIZE=1\nSAT=11,DIM=-1,SIZE=1\nSAT=12,DIM=-1,SIZE=1\nSAT=13,DIM=-1,SIZE=1\nSAT=14,DIM=-1,SIZE=1\nSAT=15,DIM=-1,SIZE=1\nSAT=16,DIM=-1,SIZE=1\nSAT=17,DIM=-1,SIZE=1\nSAT=18,DIM=-1,SIZE=1\nSAT=19,DIM=-1,SIZE=1\nSAT=20,DIM=-1,SIZE=1\nSAT=21,DIM=-1,SIZE=1\nSAT=22,DIM=-1,SIZE=1\nSAT=23,DIM=-1,SIZE=1\nSAT=24,DIM=-1,SIZE=1\nSAT=25,DIM=-1,SIZE=1\nSAT=26,DIM=-1,SIZE=1\nSAT=27,DIM=-1,SIZE=1\nSAT=28,DIM=-1,SIZE=1\nSAT=29,DIM=-1,SIZE=1\nSAT=30,DIM=-1,SIZE=1\nSAT=31,DIM=-1,SIZE=1\nSAT=32,DIM=-1,SIZE=1\nSAT=33,DIM=-1,SIZE=1\nSAT=34,DIM=-1,SIZE=1\nSAT=35,DIM=-1,SIZE=1\nSAT=36,DIM=-1,SIZE=1\nSAT=37,DIM=-1,SIZE=1\nSAT=38,DIM=-1,SIZE=1\nSAT=39,DIM=-1,SIZE=1\nCOFACTOR_DIM=-1,COFACTOR_SIZE=1\nBEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nEND\n",
+      "unit": true,
+      "variable_count": 8
+    },
+    {
+      "basis_sha256": "20d4032b93acc1f0918efea258978bf830a4a7de389442b519e9496f9b6e9df4",
+      "basis_size": 1,
+      "chart_mask": [
+        "infinity",
+        "infinity",
+        "finite"
+      ],
+      "common_basis_size": 21,
+      "dimension": -1,
+      "finite_root_count": 1,
+      "guard_count": 40,
+      "index": 6,
+      "input_program": "",
+      "matching_chart_equation_count": 6,
+      "outside_equation_count": 8,
+      "packet_sha256": "fbeda61593e73cdcb7bf1e2baa1ebe8b098a7025f834135b3e02d2c291d50cd9",
+      "program_sha256": "d54720e84714e7604cfde7e68cf9d9f2292c0e0a6e948680ca61385ff5c499af",
+      "rank_cofactor_count": 6,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "INITIAL_DIM=4,INITIAL_SIZE=62\nSAT=0,DIM=4,SIZE=38\nSAT=1,DIM=4,SIZE=38\nSAT=2,DIM=4,SIZE=38\nSAT=3,DIM=4,SIZE=36\nSAT=4,DIM=4,SIZE=28\nSAT=5,DIM=-1,SIZE=1\nSAT=6,DIM=-1,SIZE=1\nSAT=7,DIM=-1,SIZE=1\nSAT=8,DIM=-1,SIZE=1\nSAT=9,DIM=-1,SIZE=1\nSAT=10,DIM=-1,SIZE=1\nSAT=11,DIM=-1,SIZE=1\nSAT=12,DIM=-1,SIZE=1\nSAT=13,DIM=-1,SIZE=1\nSAT=14,DIM=-1,SIZE=1\nSAT=15,DIM=-1,SIZE=1\nSAT=16,DIM=-1,SIZE=1\nSAT=17,DIM=-1,SIZE=1\nSAT=18,DIM=-1,SIZE=1\nSAT=19,DIM=-1,SIZE=1\nSAT=20,DIM=-1,SIZE=1\nSAT=21,DIM=-1,SIZE=1\nSAT=22,DIM=-1,SIZE=1\nSAT=23,DIM=-1,SIZE=1\nSAT=24,DIM=-1,SIZE=1\nSAT=25,DIM=-1,SIZE=1\nSAT=26,DIM=-1,SIZE=1\nSAT=27,DIM=-1,SIZE=1\nSAT=28,DIM=-1,SIZE=1\nSAT=29,DIM=-1,SIZE=1\nSAT=30,DIM=-1,SIZE=1\nSAT=31,DIM=-1,SIZE=1\nSAT=32,DIM=-1,SIZE=1\nSAT=33,DIM=-1,SIZE=1\nSAT=34,DIM=-1,SIZE=1\nSAT=35,DIM=-1,SIZE=1\nSAT=36,DIM=-1,SIZE=1\nSAT=37,DIM=-1,SIZE=1\nSAT=38,DIM=-1,SIZE=1\nSAT=39,DIM=-1,SIZE=1\nCOFACTOR_DIM=-1,COFACTOR_SIZE=1\nBEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nEND\n",
+      "unit": true,
+      "variable_count": 8
+    }
+  ],
+  "schema": "rate-half-kb-positive-433-1b-o0b-chart-remaining-pilot-v1",
+  "source_all_infinity_sha256": "545a130914d9896d84a5215865fea7333a2af9f1f7f9d08bfc14d3587770bcaf",
+  "source_basis_sha256": "bda163ed7bdb961c115cebbe910dd3d991307bd53cddf4770925697d1a5e7c4e",
+  "source_cache_sha256": "28c97e75aa1fd80565ad926e95ab2eacf4ce62a692520ca2662de6845ee0ddd8",
+  "source_compiler_sha256": "048e38650d7ab98ee9c21d081d4908ed067f57fe483a6e4b6890fab3fa755b03",
+  "source_program_sha256": "277ad3a0d4489470eee9cef2c374b28d73aad333149ea415a3e55ea05549f4c5",
+  "unit_count": 3
+}
