@@ -1,0 +1,69 @@
+{
+  "app": "rs-mca-positive-433-1b-o0b-fff-ratio-graph",
+  "collection_complete": true,
+  "field": 2130706433,
+  "row": {
+    "basis_sha256": "20d4032b93acc1f0918efea258978bf830a4a7de389442b519e9496f9b6e9df4",
+    "basis_size": null,
+    "cofactor_basis_size": null,
+    "cofactor_dimension": null,
+    "common_basis_size": 21,
+    "dimension": null,
+    "equation_stages": [],
+    "extra_guards": [
+      "E",
+      "s",
+      "x",
+      "a0m",
+      "a2m"
+    ],
+    "extra_stages": [],
+    "graph_basis_size": 53,
+    "graph_dimension": 3,
+    "graph_relation": "a2m*x-a0m",
+    "normal_form_order": [
+      5,
+      7,
+      6
+    ],
+    "normal_stages": [
+      {
+        "degree": 46,
+        "equation": 5,
+        "term_count": 3126
+      }
+    ],
+    "omitted_finite_pair": "q4",
+    "outside_equation_order": [
+      5,
+      7,
+      6
+    ],
+    "packet_sha256": "fbeda61593e73cdcb7bf1e2baa1ebe8b098a7025f834135b3e02d2c291d50cd9",
+    "partial_stderr": "",
+    "partial_stdout": "GRAPH_DIM=3,GRAPH_SIZE=53\nNORMAL=5,DEG=46,SIZE=3126\n",
+    "program_sha256": "5c184f0bc3d20a5293e479d8c19aa16c12fb664710af6de1fbc9000dfd628cc7",
+    "q5_removed_factor": "a2m^4",
+    "q6_removed_factor": "a2m^2",
+    "rank_cofactor_count": 6,
+    "relation": "necessary FFF ratio-graph subsystem superset",
+    "route_guard_count": 16,
+    "route_stages": [],
+    "status": "TIMEOUT",
+    "variable_count": 7,
+    "variables": [
+      "E",
+      "s",
+      "x",
+      "t",
+      "r",
+      "c",
+      "b"
+    ]
+  },
+  "schema": "rate-half-kb-positive-433-1b-o0b-fff-ratio-graph-v1",
+  "source_basis_sha256": "bda163ed7bdb961c115cebbe910dd3d991307bd53cddf4770925697d1a5e7c4e",
+  "source_cache_sha256": "28c97e75aa1fd80565ad926e95ab2eacf4ce62a692520ca2662de6845ee0ddd8",
+  "source_program_sha256": "4375aa57ad1b1ec1aa85afd323e6bed5d4e6b7bd1c33e4ab15492a623a443898",
+  "source_timeout_sha256": "c4406f815ddbcc33618a91ddce56b8a51c4f2c541f746d28f2873df377d0f7ba"
+}

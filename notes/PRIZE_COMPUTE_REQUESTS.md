@@ -17170,4 +17170,15 @@ tools/ramguard modal -- timeout --signal=TERM --kill-after=15s 360s \
   experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_fff_ratio_graph_modal.py
 ```
 
-**Outcome:** preregistered; not yet run.
+**Outcome:** `INCOMPLETE_TIMEOUT`. Modal app
+`ap-WC4Rt0hC5xsMcfle0ioaP9` completed the ratio graph with
+`(dimension 3,basis size 53)` in the full `E,s` ring and reduced
+`q5` to degree 46 with 3,126 terms, then timed out while adjoining that
+normal form; result SHA-256:
+`9992611165f31733a3c497b27b93c39f65b621f9e3acc1489ab46c3d78e7096e`.
+The outcome-neutral checker accepts the retained stage prefix and rejects
+all four hostile mutations. The graph compression almost halves the normal
+form degree and removes 1,591 terms, but a global `q5` basis remains the
+bottleneck. The next architecture applies the required guard saturations to
+the one-dimensional base graph before constructing any outside-equation
+basis.
