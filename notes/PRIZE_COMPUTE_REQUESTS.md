@@ -17403,9 +17403,19 @@ tools/ramguard modal -- timeout --signal=TERM --kill-after=15s 360s \
   experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_fff_r76_progressive_modal.py
 ```
 
-**Outcome:** repaired and preregistered; not yet rerun. Initial app
+**Outcome:** `INCOMPLETE_TIMEOUT` after a repaired rerun. Initial app
 `ap-URgjIQYKcEHCmB9QuIKlcd` stopped before Singular because the remote
 build path redundantly called the local SymPy verifier, while the minimal
 image does not install SymPy. No algebraic stage ran. The repaired core
 removes only that remote verifier call; the raw core was reverified locally,
 and the generated Singular hash and 70-reduction ledger are unchanged.
+
+Repaired app `ap-Xoiw5moScs3NwvQPlhFuNs` completed all 61 intermediate
+quotient reductions and timed out on final coefficient 0. In particular,
+`M0[2]=0`, `M1[0]=0`, and the 12 nonzero `M)-coefficients have
+1,117--1,202 terms. Result SHA-256:
+`0a2173e080a4a5029713aa8fa8feea73056a5e84b8139bc780684d5545117d95`.
+The checker accepts all 61 stages and rejects all three applicable hostile
+mutations. Since coefficient 0 is exactly `M0[0]^2`, its raw square is the
+localized bottleneck. The next architecture retains the 14 `M)-array
+representatives before chunked quotient multiplication.

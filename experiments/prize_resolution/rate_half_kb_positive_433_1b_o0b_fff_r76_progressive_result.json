@@ -1,0 +1,416 @@
+{
+  "app": "rs-mca-positive-433-1b-o0b-fff-r76-progressive",
+  "collection_complete": true,
+  "field": 2130706433,
+  "row": {
+    "coefficient_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "coefficient_stages": [],
+    "coefficients": [],
+    "graph_basis_sha256": "7f59b5557597f429a3a56914cd5aad5c988902af6d88a3ef01580aaacbdd5d9e",
+    "graph_basis_size": 48,
+    "intermediate_reduction_count": 61,
+    "intermediate_stages": [
+      {
+        "degree": 11,
+        "family": "K",
+        "index": 0,
+        "term_count": 202
+      },
+      {
+        "degree": 11,
+        "family": "K",
+        "index": 1,
+        "term_count": 200
+      },
+      {
+        "degree": 7,
+        "family": "K",
+        "index": 2,
+        "term_count": 144
+      },
+      {
+        "degree": 11,
+        "family": "K",
+        "index": 3,
+        "term_count": 202
+      },
+      {
+        "degree": 10,
+        "family": "K",
+        "index": 4,
+        "term_count": 183
+      },
+      {
+        "degree": 11,
+        "family": "K",
+        "index": 5,
+        "term_count": 183
+      },
+      {
+        "degree": 11,
+        "family": "K",
+        "index": 6,
+        "term_count": 202
+      },
+      {
+        "degree": 11,
+        "family": "K",
+        "index": 7,
+        "term_count": 202
+      },
+      {
+        "degree": 2,
+        "family": "COMMON",
+        "index": 0,
+        "term_count": 1
+      },
+      {
+        "degree": 11,
+        "family": "COMMON",
+        "index": 1,
+        "term_count": 220
+      },
+      {
+        "degree": 10,
+        "family": "COMMON",
+        "index": 2,
+        "term_count": 199
+      },
+      {
+        "degree": 11,
+        "family": "P0",
+        "index": 0,
+        "term_count": 202
+      },
+      {
+        "degree": 11,
+        "family": "P0",
+        "index": 1,
+        "term_count": 195
+      },
+      {
+        "degree": 10,
+        "family": "P1",
+        "index": 0,
+        "term_count": 183
+      },
+      {
+        "degree": 11,
+        "family": "P1",
+        "index": 1,
+        "term_count": 193
+      },
+      {
+        "degree": 11,
+        "family": "P2",
+        "index": 0,
+        "term_count": 183
+      },
+      {
+        "degree": 7,
+        "family": "P2",
+        "index": 1,
+        "term_count": 139
+      },
+      {
+        "degree": -1,
+        "family": "A0",
+        "index": 0,
+        "term_count": 0
+      },
+      {
+        "degree": 22,
+        "family": "A0",
+        "index": 1,
+        "term_count": 382
+      },
+      {
+        "degree": -1,
+        "family": "A1",
+        "index": 0,
+        "term_count": 0
+      },
+      {
+        "degree": 22,
+        "family": "A1",
+        "index": 1,
+        "term_count": 391
+      },
+      {
+        "degree": -1,
+        "family": "A1",
+        "index": 2,
+        "term_count": 0
+      },
+      {
+        "degree": 21,
+        "family": "B0",
+        "index": 0,
+        "term_count": 355
+      },
+      {
+        "degree": 22,
+        "family": "B0",
+        "index": 1,
+        "term_count": 376
+      },
+      {
+        "degree": -1,
+        "family": "B1",
+        "index": 0,
+        "term_count": 0
+      },
+      {
+        "degree": 22,
+        "family": "B1",
+        "index": 1,
+        "term_count": 385
+      },
+      {
+        "degree": 18,
+        "family": "B1",
+        "index": 2,
+        "term_count": 328
+      },
+      {
+        "degree": 21,
+        "family": "C0",
+        "index": 0,
+        "term_count": 378
+      },
+      {
+        "degree": 22,
+        "family": "C0",
+        "index": 1,
+        "term_count": 388
+      },
+      {
+        "degree": -1,
+        "family": "C1",
+        "index": 0,
+        "term_count": 0
+      },
+      {
+        "degree": 22,
+        "family": "C1",
+        "index": 1,
+        "term_count": 397
+      },
+      {
+        "degree": 22,
+        "family": "C1",
+        "index": 2,
+        "term_count": 386
+      },
+      {
+        "degree": 42,
+        "family": "D0",
+        "index": 0,
+        "term_count": 726
+      },
+      {
+        "degree": 43,
+        "family": "D0",
+        "index": 1,
+        "term_count": 747
+      },
+      {
+        "degree": 44,
+        "family": "D0",
+        "index": 2,
+        "term_count": 758
+      },
+      {
+        "degree": -1,
+        "family": "D1",
+        "index": 0,
+        "term_count": 0
+      },
+      {
+        "degree": 43,
+        "family": "D1",
+        "index": 1,
+        "term_count": 756
+      },
+      {
+        "degree": 44,
+        "family": "D1",
+        "index": 2,
+        "term_count": 767
+      },
+      {
+        "degree": 44,
+        "family": "D1",
+        "index": 3,
+        "term_count": 762
+      },
+      {
+        "degree": -1,
+        "family": "D2",
+        "index": 0,
+        "term_count": 0
+      },
+      {
+        "degree": -1,
+        "family": "D2",
+        "index": 1,
+        "term_count": 0
+      },
+      {
+        "degree": 44,
+        "family": "D2",
+        "index": 2,
+        "term_count": 775
+      },
+      {
+        "degree": 44,
+        "family": "D2",
+        "index": 3,
+        "term_count": 770
+      },
+      {
+        "degree": 40,
+        "family": "D2",
+        "index": 4,
+        "term_count": 707
+      },
+      {
+        "degree": 22,
+        "family": "U",
+        "index": 0,
+        "term_count": 415
+      },
+      {
+        "degree": 22,
+        "family": "U",
+        "index": 1,
+        "term_count": 433
+      },
+      {
+        "degree": 22,
+        "family": "U",
+        "index": 2,
+        "term_count": 433
+      },
+      {
+        "degree": 64,
+        "family": "M0",
+        "index": 0,
+        "term_count": 1152
+      },
+      {
+        "degree": 65,
+        "family": "M0",
+        "index": 1,
+        "term_count": 1173
+      },
+      {
+        "degree": -1,
+        "family": "M0",
+        "index": 2,
+        "term_count": 0
+      },
+      {
+        "degree": 66,
+        "family": "M0",
+        "index": 3,
+        "term_count": 1180
+      },
+      {
+        "degree": 62,
+        "family": "M0",
+        "index": 4,
+        "term_count": 1117
+      },
+      {
+        "degree": -1,
+        "family": "M1",
+        "index": 0,
+        "term_count": 0
+      },
+      {
+        "degree": 65,
+        "family": "M1",
+        "index": 1,
+        "term_count": 1182
+      },
+      {
+        "degree": 66,
+        "family": "M1",
+        "index": 2,
+        "term_count": 1202
+      },
+      {
+        "degree": 66,
+        "family": "M1",
+        "index": 3,
+        "term_count": 1198
+      },
+      {
+        "degree": 62,
+        "family": "M1",
+        "index": 4,
+        "term_count": 1135
+      },
+      {
+        "degree": 64,
+        "family": "M2",
+        "index": 0,
+        "term_count": 1154
+      },
+      {
+        "degree": 65,
+        "family": "M2",
+        "index": 1,
+        "term_count": 1175
+      },
+      {
+        "degree": 66,
+        "family": "M2",
+        "index": 2,
+        "term_count": 1187
+      },
+      {
+        "degree": 66,
+        "family": "M2",
+        "index": 3,
+        "term_count": 1173
+      }
+    ],
+    "maximum_s_degree": 8,
+    "packet_sha256": "fbeda61593e73cdcb7bf1e2baa1ebe8b098a7025f834135b3e02d2c291d50cd9",
+    "partial_stderr": "",
+    "partial_stdout": "INTERMEDIATE=K,INDEX=0,DEG=11,SIZE=202\nINTERMEDIATE=K,INDEX=1,DEG=11,SIZE=200\nINTERMEDIATE=K,INDEX=2,DEG=7,SIZE=144\nINTERMEDIATE=K,INDEX=3,DEG=11,SIZE=202\nINTERMEDIATE=K,INDEX=4,DEG=10,SIZE=183\nINTERMEDIATE=K,INDEX=5,DEG=11,SIZE=183\nINTERMEDIATE=K,INDEX=6,DEG=11,SIZE=202\nINTERMEDIATE=K,INDEX=7,DEG=11,SIZE=202\nINTERMEDIATE=COMMON,INDEX=0,DEG=2,SIZE=1\nINTERMEDIATE=COMMON,INDEX=1,DEG=11,SIZE=220\nINTERMEDIATE=COMMON,INDEX=2,DEG=10,SIZE=199\nINTERMEDIATE=P0,INDEX=0,DEG=11,SIZE=202\nINTERMEDIATE=P0,INDEX=1,DEG=11,SIZE=195\nINTERMEDIATE=P1,INDEX=0,DEG=10,SIZE=183\nINTERMEDIATE=P1,INDEX=1,DEG=11,SIZE=193\nINTERMEDIATE=P2,INDEX=0,DEG=11,SIZE=183\nINTERMEDIATE=P2,INDEX=1,DEG=7,SIZE=139\nINTERMEDIATE=A0,INDEX=0,DEG=-1,SIZE=0\nINTERMEDIATE=A0,INDEX=1,DEG=22,SIZE=382\nINTERMEDIATE=A1,INDEX=0,DEG=-1,SIZE=0\nINTERMEDIATE=A1,INDEX=1,DEG=22,SIZE=391\nINTERMEDIATE=A1,INDEX=2,DEG=-1,SIZE=0\nINTERMEDIATE=B0,INDEX=0,DEG=21,SIZE=355\nINTERMEDIATE=B0,INDEX=1,DEG=22,SIZE=376\nINTERMEDIATE=B1,INDEX=0,DEG=-1,SIZE=0\nINTERMEDIATE=B1,INDEX=1,DEG=22,SIZE=385\nINTERMEDIATE=B1,INDEX=2,DEG=18,SIZE=328\nINTERMEDIATE=C0,INDEX=0,DEG=21,SIZE=378\nINTERMEDIATE=C0,INDEX=1,DEG=22,SIZE=388\nINTERMEDIATE=C1,INDEX=0,DEG=-1,SIZE=0\nINTERMEDIATE=C1,INDEX=1,DEG=22,SIZE=397\nINTERMEDIATE=C1,INDEX=2,DEG=22,SIZE=386\nINTERMEDIATE=D0,INDEX=0,DEG=42,SIZE=726\nINTERMEDIATE=D0,INDEX=1,DEG=43,SIZE=747\nINTERMEDIATE=D0,INDEX=2,DEG=44,SIZE=758\nINTERMEDIATE=D1,INDEX=0,DEG=-1,SIZE=0\nINTERMEDIATE=D1,INDEX=1,DEG=43,SIZE=756\nINTERMEDIATE=D1,INDEX=2,DEG=44,SIZE=767\nINTERMEDIATE=D1,INDEX=3,DEG=44,SIZE=762\nINTERMEDIATE=D2,INDEX=0,DEG=-1,SIZE=0\nINTERMEDIATE=D2,INDEX=1,DEG=-1,SIZE=0\nINTERMEDIATE=D2,INDEX=2,DEG=44,SIZE=775\nINTERMEDIATE=D2,INDEX=3,DEG=44,SIZE=770\nINTERMEDIATE=D2,INDEX=4,DEG=40,SIZE=707\nINTERMEDIATE=U,INDEX=0,DEG=22,SIZE=415\nINTERMEDIATE=U,INDEX=1,DEG=22,SIZE=433\nINTERMEDIATE=U,INDEX=2,DEG=22,SIZE=433\nINTERMEDIATE=M0,INDEX=0,DEG=64,SIZE=1152\nINTERMEDIATE=M0,INDEX=1,DEG=65,SIZE=1173\nINTERMEDIATE=M0,INDEX=2,DEG=-1,SIZE=0\nINTERMEDIATE=M0,INDEX=3,DEG=66,SIZE=1180\nINTERMEDIATE=M0,INDEX=4,DEG=62,SIZE=1117\nINTERMEDIATE=M1,INDEX=0,DEG=-1,SIZE=0\nINTERMEDIATE=M1,INDEX=1,DEG=65,SIZE=1182\nINTERMEDIATE=M1,INDEX=2,DEG=66,SIZE=1202\nINTERMEDIATE=M1,INDEX=3,DEG=66,SIZE=1198\nINTERMEDIATE=M1,INDEX=4,DEG=62,SIZE=1135\nINTERMEDIATE=M2,INDEX=0,DEG=64,SIZE=1154\nINTERMEDIATE=M2,INDEX=1,DEG=65,SIZE=1175\nINTERMEDIATE=M2,INDEX=2,DEG=66,SIZE=1187\nINTERMEDIATE=M2,INDEX=3,DEG=66,SIZE=1173\n",
+    "program_sha256": "5319dc99297235aaf21a036e1d73c648187b854c06bee004eb55034bc424d6d2",
+    "progressive_quotient_reduction": true,
+    "relation": "exact progressive R76 coefficients on admissible FFF base graph",
+    "resultant_variable": "E",
+    "source_relation": "exact R76 coefficients on admissible FFF base graph",
+    "status": "TIMEOUT",
+    "total_reduction_count": 70,
+    "variable_count": 5,
+    "variables": [
+      "x",
+      "t",
+      "r",
+      "c",
+      "b"
+    ]
+  },
+  "schema": "rate-half-kb-positive-433-1b-o0b-fff-r76-progressive-v1",
+  "source_cache_sha256": "28c97e75aa1fd80565ad926e95ab2eacf4ce62a692520ca2662de6845ee0ddd8",
+  "source_graph_sha256": "5a2ecd10e0be462a9a695d0a880227cd995de5952f999fc93ec17282b9fe94c1",
+  "source_program_sha256": "b73c4e888dc69353bc823c787babdf7c4b8b5d2a4c7efe708ffef16604f045ca",
+  "source_raw_core_sha256": "7cb0d1b17e2c8175afd59a90be30b84f9409fdad457f3df454119fe2262a22f6",
+  "source_raw_timeout_sha256": "741bd7a2bfb06f3074fe59809a40d5399ec98b65d94386eea6d6cfc95e2fe3b0"
+}
