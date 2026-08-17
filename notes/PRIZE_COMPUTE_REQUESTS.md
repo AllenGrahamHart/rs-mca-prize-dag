@@ -15378,3 +15378,40 @@ INCOMPLETE: timeout, resource breach, malformed output, or disagreement.
 
 Only `PASS`, combined with the completed clipped nonordinary wave and a
 strict exact component gap, permits a K'=87 proof-node promotion.
+
+**Outcome:** `PASS`. Modal app `ap-t1IWAsyDidGwq0ZwwYO6yI` completed both
+fresh subprocesses at peak RSS `33..37` MB. Capture SHA-256:
+`06a550c1f65be3c2a7c4d96590188f5de6ca792c1f87e638f2fa7d5163b43519`.
+The checker reports exact paired agreement on 542,840 source units, 3,799,880
+raw rows, 121,895 raw-safe units, 4,385 expanded units, and 2,940,875 geometry
+rows per implementation. The ordinary premium is
+`41460244206367810395288131753780101229368111530`, below the safe ceiling by
+`670462675256690016910468032334996708331859`. It is also strictly below the
+clipped-wave leader, so it does not change the candidate global premium.
+## Preregistered K'=87 exact component payment
+
+- **decision:** insert the larger of the certified ordinary and nonordinary
+  premiums into the pinned rank-nine component ledger and require a strict
+  positive incidence gap
+- **certified premium:**
+  `41460899125475443837881046685022762331499044695`
+- **payment script SHA-256:**
+  `1e154be116c33854af85a5a01fd03e4a3c4e0b66d1e24bc1fe58c9f2f9c62713`
+- **Modal dispatcher SHA-256:**
+  `c8e111c4c1bdc4f62f56598f3a7fa56615f4ca09d1c9bbf580c29b7e9ea483ab`
+- **dependency archive SHA-256:**
+  `5ee5d10a20f1e47b1e5400d10177e33bafdc83c0e9b516d6d12dfe0fad93aaf8`
+- **envelope:** one Modal container, one CPU and 256 MB, 30-second wall;
+  projected cost below `$0.01`
+- **local safety:** one synchronous client under the `modal` RAMguard profile
+  and a 2 MB inherited thread-stack limit; no local calculation
+
+The script independently derives the row marks, kernel capacity, record floor,
+safe premium ceiling, full-rank capacity, required incidence, and strict gap
+from the pinned ledger. It accepts only the exact K'=87 row and asserts both
+the known ceiling margin
+`15543567623247423995536789673894577398694` and a strictly positive component
+gap. No rounded or floating-point quantity is used.
+
+`PASS` authorizes construction and adversarial replay of the K'=87 proof node.
+`INCOMPLETE` or a nonpositive gap leaves the row open.

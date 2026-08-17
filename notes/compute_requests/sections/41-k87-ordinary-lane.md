@@ -35,3 +35,13 @@ INCOMPLETE: timeout, resource breach, malformed output, or disagreement.
 
 Only `PASS`, combined with the completed clipped nonordinary wave and a
 strict exact component gap, permits a K'=87 proof-node promotion.
+
+**Outcome:** `PASS`. Modal app `ap-t1IWAsyDidGwq0ZwwYO6yI` completed both
+fresh subprocesses at peak RSS `33..37` MB. Capture SHA-256:
+`06a550c1f65be3c2a7c4d96590188f5de6ca792c1f87e638f2fa7d5163b43519`.
+The checker reports exact paired agreement on 542,840 source units, 3,799,880
+raw rows, 121,895 raw-safe units, 4,385 expanded units, and 2,940,875 geometry
+rows per implementation. The ordinary premium is
+`41460244206367810395288131753780101229368111530`, below the safe ceiling by
+`670462675256690016910468032334996708331859`. It is also strictly below the
+clipped-wave leader, so it does not change the candidate global premium.
