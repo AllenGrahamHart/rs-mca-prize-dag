@@ -32,6 +32,13 @@ certificates required by the challenge.
   `2539543014780268202` and `3232479920013973566`, versus only
   `206105684094104220` available.  The next structural theorem must couple
   buckets, synchronize their factors, or assign a chronology-safe owner.
+  The same envelope has a quantitative survivor strengthening: every unsafe
+  line leaves at least `2007222636725` slopes in nontransverse groups. After
+  canonical hyperplane promotion and merging identical containers, this
+  forces at least `8106` represented rich row spaces and `508` distinct
+  dimension-two/three containers, each with `42453` common actual zeros and
+  an exact group-local shortening. This `508`-container family is the next
+  synchronization/collision target.
 - The Mersenne full-lift mean-Gram route now pays through direction support
   `e=98231`.  At residue two, a two-boundary-layer anchor split and a
   boundary missed-set dichotomy give `16486411<16777215`; the residual

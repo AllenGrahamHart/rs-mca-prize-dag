@@ -1,0 +1,31 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_rich_flat_residual_mass_compiler",
+    "title": "Rank-eleven rich-flat residual mass compiler",
+    "status": "PROVED",
+    "closure": "quantitative nontransverse mass, row-space population, and canonical rich-container partition",
+    "statement": "Every unsafe KoalaBear post-near affine-error-rank-eleven line leaves at least 2007222636725 selected slopes in non-42452-transverse rank-one/rank-two row-space groups. There are at least 8106 distinct such represented row spaces. Canonically extend each rich proper annihilator flat to a hyperplane and merge groups with the same promoted space W. This partitions the residual into distinct dimension-two/three affine containers satisfying R2*B2+R3*B3>=2007222636725, where R2=247628052 and R3=3953204973; hence B2+B3>=508. Every container has at least 42453 common actual zero coordinates inside the anchor-good set, all of its pair types agree with the received pair there, and the common-core adapter shortens that bucket exactly. No locator synchronization or cross-bucket chronology owner is claimed.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_rich_flat_residual_mass_compiler/statement.md",
+      "background/nodes/rate_half_mca_rank11_rich_flat_residual_mass_compiler/proof.md",
+      "background/nodes/rate_half_mca_rank11_rich_flat_residual_mass_compiler/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_rich_flat_residual_mass_compiler/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_rich_flat_residual_mass_compiler/audit.md",
+      "background/nodes/rate_half_mca_rank11_rich_flat_residual_mass_compiler/result.md",
+      "background/nodes/rate_half_mca_rank11_rich_flat_residual_mass_compiler/provenance.md",
+      "background/nodes/rate_half_mca_rank11_rich_flat_residual_mass_compiler/verify.py",
+      "background/nodes/rate_half_mca_rank11_rich_flat_residual_mass_compiler/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_anticode_branch_payments_import"},
+    {"from": "list_subsqrt_interleaving_collapse"},
+    {"from": "rate_half_kb_common_core_shortening_adapter_staircase_import"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location"}
+  ],
+  "refutes": []
+}

@@ -46,6 +46,9 @@ M_Q = {q: ordinary_cap(q) for q in range(1, S + 1)}
 R_Q = {q: OUTSIDE * M_Q[q] for q in range(1, S + 1)}
 R_Q[1] = RANK_ONE_CAP
 
+PR1173_PAID_TOTAL = 274_978_720_888_758_363
+RICH_RESIDUAL_FLOOR = B_STAR + 1 - PR1173_PAID_TOTAL
+
 
 def bucket_cost(q: int, delta: int) -> int:
     p = S - q
@@ -174,6 +177,16 @@ def main() -> None:
     assert M_Q[2] == 252
     assert all(M_Q[q] ** 2 < FIELD_SIZE for q in range(1, S + 1))
     print(json.dumps({"event": "caps", "M_q": M_Q, "R_q": R_Q}, sort_keys=True))
+    print(json.dumps({
+        "event": "rich_residual_mass",
+        "record_floor": RICH_RESIDUAL_FLOOR,
+        "minimum_nontransverse_row_spaces": (
+            RICH_RESIDUAL_FLOOR + R_Q[2] - 1
+        ) // R_Q[2],
+        "minimum_promoted_containers": (
+            RICH_RESIDUAL_FLOOR + R_Q[3] - 1
+        ) // R_Q[3],
+    }, sort_keys=True))
     print(json.dumps({"event": "exact_route_walls", **exact_route_walls()}, sort_keys=True))
     for terminal_dim in range(2, S + 1):
         print(json.dumps({"event": "terminal", **row(terminal_dim)}, sort_keys=True))
