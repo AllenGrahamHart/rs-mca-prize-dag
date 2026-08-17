@@ -60,6 +60,7 @@
     "notes/compute_requests/sections/55-o0b-cells3-6-basis-diagnostic.md",
     "notes/compute_requests/sections/56-o0b-cells3-6-basis-cross-pilot.md",
     "notes/compute_requests/sections/57-o0b-cells3-6-initial-prefix.md",
-    "notes/compute_requests/sections/58-o0b-cells3-6-single-extensions.md"
+    "notes/compute_requests/sections/58-o0b-cells3-6-single-extensions.md",
+    "notes/compute_requests/sections/59-o0b-cells3-6-q7-q5.md"
   ]
 }
