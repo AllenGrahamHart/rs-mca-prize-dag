@@ -16329,3 +16329,15 @@ tools/ramguard modal -- timeout --signal=TERM --kill-after=15s 360s \
   ~/.venvs/modal/bin/modal run \
   experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_split_cells3_6_q7_q5_modal.py
 ```
+
+**Outcome:** `INCOMPLETE_CANONICAL_REDUCTION_TIMEOUT`. Modal app
+`ap-PsMF23qtEZ5Lg6Ns1QWKJJ` returned the pinned row with status `TIMEOUT`;
+result SHA-256:
+`6181b927a81f77e973baffdf551628a77e04185ba04613e34900a68843200e64`.
+The outcome-neutral checker accepts the exact row and rejects all three
+hostile mutations. No normal-form marker was printed: after the valid `isSB`
+attribute was set, canonical reduction of `q5` modulo the 128-polynomial
+`q3+q7` basis did not finish within 240 seconds. This has no mathematical
+status. It rejects further equation-order tuning as the immediate endpoint;
+the next route should decompose the three matching resultants into their exact
+projective common-root charts before attempting another basis computation.

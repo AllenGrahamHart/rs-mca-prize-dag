@@ -1,0 +1,35 @@
+{
+  "app": "rs-mca-positive-433-1b-o0b-cells3-6-q7-q5",
+  "case": [
+    3,
+    "S0",
+    -1,
+    -1,
+    -1,
+    2,
+    0
+  ],
+  "collection_complete": true,
+  "field": 2130706433,
+  "row": {
+    "added_equation": "q5",
+    "normal_form_degree": null,
+    "normal_form_terms": null,
+    "packet_sha256": "fbeda61593e73cdcb7bf1e2baa1ebe8b098a7025f834135b3e02d2c291d50cd9",
+    "partial_stderr": "",
+    "partial_stdout": "",
+    "program_sha256": "7dc898a1267bf3e7e9855d552d4d4d8a9871cee599ca3b6a46c1518a7790b55c",
+    "source_basis_sha256": "679c448e3587f4bb11f39a6742aa7439d9b909ad68cf19834ca463d634c5aceb",
+    "source_basis_size": 128,
+    "source_equations": [
+      "q3",
+      "q7"
+    ],
+    "standard_basis_attribute_set": true,
+    "status": "TIMEOUT"
+  },
+  "schema": "rate-half-kb-positive-433-1b-o0b-cells3-6-q7-q5-v1",
+  "source_cache_sha256": "28c97e75aa1fd80565ad926e95ab2eacf4ce62a692520ca2662de6845ee0ddd8",
+  "source_compiler_sha256": "048e38650d7ab98ee9c21d081d4908ed067f57fe483a6e4b6890fab3fa755b03",
+  "source_single_extensions_sha256": "ce0396a9f6d951270a5ec3ba9b8371919020dcac75ca11af488d9fabc5e0edb9"
+}
