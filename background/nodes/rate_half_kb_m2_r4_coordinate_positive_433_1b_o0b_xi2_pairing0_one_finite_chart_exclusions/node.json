@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_one_finite_chart_exclusions",
+    "title": "KoalaBear m2 r4 positive 433-1b/O0b xi2 pairing0 one-finite chart exclusions",
+    "status": "PROVED",
+    "closure": "all three projective charts with exactly one finite matching root are empty after guards",
+    "statement": "For canonical case (cell 3,S0,sigma_o=-1,epsilon=(-1,-1),xi=2,pairing=0), each of the projective chart masks FII, IFI, and IIF is empty on the admissible locus. Their initial ideals have dimensions/sizes (4,57), (4,74), and (4,62), respectively, and exact saturation by guard b+1 makes every one unit.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_one_finite_chart_exclusions/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_one_finite_chart_exclusions/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_one_finite_chart_exclusions/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_one_finite_chart_exclusions/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_one_finite_chart_exclusions/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_one_finite_chart_exclusions/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_one_finite_chart_exclusions/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_one_finite_chart_exclusions/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_one_finite_chart_exclusions/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_one_finite_chart_exclusions/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_one_finite_chart_exclusions/verify_audit.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_projective_chart_program.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_chart_remaining_pilot_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_chart_remaining_pilot_check.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_chart_remaining_pilot_result.json"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_matching_resultant_projective_charts"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cells3_6_global_common_basis"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cells3_6_v4_quotient"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment"}
+  ],
+  "refutes": []
+}
