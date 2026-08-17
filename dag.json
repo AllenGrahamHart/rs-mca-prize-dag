@@ -38865,6 +38865,27 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cell0_component_v4_quotient",
+   "title": "KoalaBear m2 r4 positive 433-1b/O0b split cell-0 component Klein-four quotient",
+   "status": "PROVED",
+   "closure": "complete 2,520-case equal-sign A/B outside ledger reduced to 708 exact representatives",
+   "statement": "The split B/C--E/F involution preserves cell-0 component type and sends A_s to A_-s and B_s to B_-s, with x sent to -x. It commutes with the S0 D-sign action and the SDE/SDF duplicate-record action. On the complete 2,520 component-case ledger, S0 has 36 size-two and 192 size-four orbits, while SDE/SDF has 120 size-two and 360 size-four orbits. Thus exactly 708 canonical representatives cover every equal-sign cell-0 outside case. No representative is excluded.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cell0_component_v4_quotient/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cell0_component_v4_quotient/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cell0_component_v4_quotient/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cell0_component_v4_quotient/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cell0_component_v4_quotient/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cell0_component_v4_quotient/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cell0_component_v4_quotient/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cell0_component_v4_quotient/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cell0_component_v4_quotient/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cell0_component_v4_quotient/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cell0_component_v4_quotient/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_split_cell0_component_quotient.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_principal_common_system_adapter",
    "title": "KoalaBear m2 r4 positive 433-1b/O0b split principal common-system adapter",
    "status": "PROVED",
@@ -78128,6 +78149,11 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_repeated_outside_v4_quotient",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cell0_component_v4_quotient",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_repeated_outside_v4_quotient",
    "to": "rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment",
    "kind": "ev"
   },
@@ -78154,6 +78180,11 @@
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_s0_v4_label_quotient",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cell0_common_component_classification",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_s0_v4_label_quotient",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cell0_component_v4_quotient",
    "kind": "req"
   },
   {
@@ -78228,6 +78259,16 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cell0_common_component_classification",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cell0_component_v4_quotient",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cell0_common_component_classification",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cell0_component_v4_quotient",
    "to": "rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment",
    "kind": "ev"
   },

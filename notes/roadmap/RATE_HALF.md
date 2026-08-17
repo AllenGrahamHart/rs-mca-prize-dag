@@ -401,8 +401,11 @@ complete O0b owner remaining:          38,220 raw /10,722 representatives.
 The equal-sign common locus is covered by the four exact `A_s/B_s`
 component/sign families whose kernels satisfy all ten common rows. Its
 changed O0b outside ledger has 1,260 raw labels and 708 exact component-case
-representatives. This 708-case ledger is the next route-deciding target; the
-old 1,680-case O0a outside result is not imported.
+representatives. The complete Klein-four router is now PROVED and commits
+the canonical representative list by SHA-256
+`23d7e403e420307b5466ffaf6d2af59d0cf9a4a93766b4d0bcf68231aba1a741`.
+This 708-case ledger is the next route-deciding target; the old 1,680-case
+O0a outside result is not imported.
 
 The positive `433-1b -> O0a` role-cell ledger has closed:
 

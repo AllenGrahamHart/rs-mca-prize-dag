@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cell0_common_component_classification/verify.py",
-      "seconds": 0.628939,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cell0_component_v4_quotient/verify.py",
+      "seconds": 0.692041,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_KB_POSITIVE_433_1B_O0B_SPLIT_CELL0_COMMON_VERIFY_PASS closed=1260/354 owner=38220/10722 components=708\n"
+      "stdout_tail": "RATE_HALF_KB_POSITIVE_433_1B_O0B_SPLIT_CELL0_COMPONENT_VERIFY_PASS raw=2520 reps=708 profile=2:156,4:552\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cell0_common_component_classification/verify_audit.py",
-      "seconds": 0.509123,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cell0_component_v4_quotient/verify_audit.py",
+      "seconds": 0.614226,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_KB_POSITIVE_433_1B_O0B_SPLIT_CELL0_COMMON_AUDIT_PASS closed=1260/354 mutations=3/3\n"
+      "stdout_tail": "RATE_HALF_KB_POSITIVE_433_1B_O0B_SPLIT_CELL0_COMPONENT_AUDIT_PASS raw=2520 reps=708 mutations=2/2\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"
