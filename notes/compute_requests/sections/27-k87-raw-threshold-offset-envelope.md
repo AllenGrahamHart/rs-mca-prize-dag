@@ -41,3 +41,12 @@ source units are classified. `PASS` names the exact raw-safe maximizer and
 finite residual population. `FAIL` is an implementation disagreement or
 malformed coverage. `INCOMPLETE` retains partial checkpoints and changes no
 mathematical status. This scan alone cannot promote `K'=87`.
+
+The paired deployment smoke passed as Modal app
+`ap-vTfGBIN3tpyW7Yp0fZhRM6`. Primary and independent implementations agree
+exactly on offset 1 (462,384 units, 23,104 unsafe) and terminal offset 76
+(6,084 units, all safe), including both classification digests and complete
+`m2` profiles. All four jobs used 25--28 MB. Smoke-capture SHA-256:
+`9abaa530060708007b1c1faa24653a448154997a8ef6268dccb8793586358e69`.
+This validates both adapters and authorizes the preregistered full wave; it
+does not itself promote `K'=87`.
