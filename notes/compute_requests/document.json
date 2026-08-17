@@ -66,6 +66,7 @@
     "notes/compute_requests/sections/61-o0b-chart-remaining-pilot.md",
     "notes/compute_requests/sections/62-o0b-multifinite-boundary.md",
     "notes/compute_requests/sections/63-o0b-ffi-lifted-boundary.md",
-    "notes/compute_requests/sections/64-o0b-ffi-msolve.md"
+    "notes/compute_requests/sections/64-o0b-ffi-msolve.md",
+    "notes/compute_requests/sections/65-o0b-ffi-collapsed.md"
   ]
 }
