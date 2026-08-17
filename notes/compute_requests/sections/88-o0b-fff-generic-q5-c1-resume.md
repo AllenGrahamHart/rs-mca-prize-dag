@@ -29,4 +29,13 @@ tools/ramguard modal -- timeout --signal=TERM --kill-after=15s 780s \
   experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_fff_generic_q5_c1_resume_modal.py
 ```
 
-**Outcome:** preregistered; not yet run.
+**Outcome:** `COMPLETE`. Modal app
+`ap-cAjaWfMQ5IXbHuWAoxPmXR` reduced `C1` to fiber degree two with exactly
+eight quotient-basis terms. Normal-form SHA-256:
+`76be8227ceaae91dd6e96df64fbc80ee40f058fb9bb94bebaf7f69df66ee702d`.
+The result retains eight coefficient entries and six distinct denominators;
+result SHA-256
+`899f7706130a8ef3d6556ecc14aeda397868dcd8261db5f6df96c85519d3fc1c`.
+The checker verifies the complete ledger and rejects all four hostile
+mutations. Together with the frontier artifact, all three generic `q5`
+coefficients are now complete.
