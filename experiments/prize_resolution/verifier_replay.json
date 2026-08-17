@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_principal_common_system_adapter/verify.py",
-      "seconds": 0.054825,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_bc_ef_involution_quotient/verify.py",
+      "seconds": 2.519887,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_KB_POSITIVE_433_1B_O0B_SPLIT_COMMON_ADAPTER_VERIFY_PASS lanes=6 common_rows=60 adapted_rows=360 rank=5\n"
+      "stdout_tail": "RATE_HALF_KB_POSITIVE_433_1B_O0B_SPLIT_BC_EF_QUOTIENT_VERIFY_PASS states=360/180 rows=37800/18900 source_scales=4,8,48\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_principal_common_system_adapter/verify_audit.py",
-      "seconds": 0.031669,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_bc_ef_involution_quotient/verify_audit.py",
+      "seconds": 0.073358,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "PASS O0b split principal common-system adapter audit: 2/2\n"
+      "stdout_tail": "RATE_HALF_KB_POSITIVE_433_1B_O0B_SPLIT_BC_EF_QUOTIENT_AUDIT_PASS matrix_rows=4320 mutations=2/2\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

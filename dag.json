@@ -38758,6 +38758,27 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_bc_ef_involution_quotient",
+   "title": "KoalaBear m2 r4 positive 433-1b/O0b split B/C--E/F involution quotient",
+   "status": "PROVED",
+   "closure": "fixed-point-free exact involution halves the split-principal outside ledger from 37,800 formal rows to 18,900 representatives",
+   "statement": "On all six split-principal O0b lanes, simultaneous B<->C and E<->F is an exact guarded-system involution. It fixes S0, exchanges SDE and SDF, fixes the outside-cycle sign, acts on all fifteen common role cells with the printed source normalization table, and bijects all 105 missing-record/matching labels. Its action is fixed-point-free on the 360 lane/cell/source-sign states, giving 180 state orbits and exactly 18,900 formal-row orbits from 37,800 rows. No representative is excluded.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_bc_ef_involution_quotient/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_bc_ef_involution_quotient/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_bc_ef_involution_quotient/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_bc_ef_involution_quotient/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_bc_ef_involution_quotient/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_bc_ef_involution_quotient/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_bc_ef_involution_quotient/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_bc_ef_involution_quotient/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_bc_ef_involution_quotient/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_bc_ef_involution_quotient/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_bc_ef_involution_quotient/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_split_bc_ef_involution.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_principal_common_system_adapter",
    "title": "KoalaBear m2 r4 positive 433-1b/O0b split principal common-system adapter",
    "status": "PROVED",
@@ -78021,6 +78042,11 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_signed_edge_atlas",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_bc_ef_involution_quotient",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_signed_edge_atlas",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_principal_common_system_adapter",
    "kind": "req"
   },
@@ -78033,6 +78059,16 @@
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_signed_edge_atlas",
    "to": "rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_bc_ef_involution_quotient",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_principal_common_system_adapter",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_bc_ef_involution_quotient",
+   "kind": "req"
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_principal_common_system_adapter",

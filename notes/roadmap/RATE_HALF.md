@@ -369,8 +369,15 @@ The first comparison favors the split rank-five block: its common packet is
 exactly the proved O0a packet. A PROVED adapter identifies its 360 common
 rows with six copies of the 60-row O0a common atlas. Only the changed O0b
 outside graph remains; common-locus computations must be reused, not rerun.
-The next exact quotient to compile is simultaneous `B<->C`, `E<->F`, fixing
-`S0` and exchanging `SDE` with `SDF`.
+Simultaneous `B<->C`, `E<->F` is now a PROVED complete-system involution:
+it fixes `S0`, exchanges `SDE` with `SDF`, pays the nontrivial source
+normalizations in cells `0,1,2`, and bijects all 105 outside labels. It is
+fixed-point-free on the 360 lane/cell/source-sign states and reduces the
+split workboard exactly to 180 states and 18,900 label representatives.
+Thus the raw residual remains 39,480 labels, while the current exact
+representative workload is at most `18,900+1,680=20,580`. Seek a second
+exact quotient inside `S0` before launching representative exclusions; do
+not exchange the opposite-signed `BC` records.
 
 The positive `433-1b -> O0a` role-cell ledger has closed:
 
