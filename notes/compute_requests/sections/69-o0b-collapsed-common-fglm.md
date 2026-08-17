@@ -33,4 +33,13 @@ tools/ramguard modal -- timeout --signal=TERM --kill-after=15s 210s \
   experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_collapsed_common_fglm_modal.py
 ```
 
-**Outcome:** preregistered; not yet run.
+**Outcome:** `COMPLETE`. Modal app `ap-i9TwFIx6T8gWO23DUhKlcQ`
+computed vector-space degree 65 and a 20-element lexicographic basis; result
+SHA-256:
+`a72b2fe045538562352b3954b016dab60c5f8fdb01a22839088e72512d61f53f`.
+The outcome-neutral checker verifies dimension and degree preservation and
+rejects all three hostile mutations. The custodied factor verifier gives the
+first eliminant exactly as
+`b^3(b-1)^4(b+1)^5(b+8244070)(b+25179288)`. Thus the printed
+`b,b-1,b+1` guards leave only two possible `b` fibers,
+`2122462363` and `2105527145`, before the remaining guards are reapplied.
