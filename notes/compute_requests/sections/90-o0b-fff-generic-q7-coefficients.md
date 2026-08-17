@@ -35,4 +35,19 @@ tools/ramguard modal -- timeout --signal=TERM --kill-after=15s 480s \
   experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_fff_generic_q7_coefficients_modal.py
 ```
 
-**Outcome:** preregistered; not yet run.
+**Outcome:** `COMPLETE`. Modal app
+`ap-34Gk6WjaK7Ptlv0Jy93XKc` retained all seven staged representatives.
+Every value has fiber degree two and exactly eight quotient-basis terms. The
+`D0,D1,D2` hashes are
+
+```text
+D0 175919493e8500089bd1d528d2d768b83f9e47df021048ceea6ea637bf9a5b34
+D1 1d7f55723f5a0cee8ebe409c879a480637a0b0bd6fa5fb9d2b4a95f25cb7f8dd
+D2 d52a21d795e753e4aa04582fa3d67f65003a48b3406383db4a84730b528e961d
+```
+
+The 56 coefficient entries contain 24 distinct denominators. Result
+SHA-256:
+`37e2f17f8546e195024c23766f63cd36ba8681c115f3bf18f7410c19c902c45d`.
+The checker verifies every staged hash and rejects all four hostile
+mutations. The exact `q7` quadratic is ready for the `q5` extension.
