@@ -14746,3 +14746,27 @@ best-single campaign. `SURVIVED` requires paired agreement on all four lanes,
 leader. `INCOMPLETE` retains partial checkpoints and changes no mathematical
 status. Survival authorizes a separately preregistered completion wave over
 offsets `1..43`; this stress campaign alone cannot promote `K'=87`.
+
+**Outcome:** `FALSIFIED`. Modal app `ap-LHOZ5HAjGEZi9RzlEHSHZH` completed all
+eight jobs at 30--34 MB peak RSS. The paired checker accepted 1,111,080
+completed source units and 4,333,348 deduplicated carrier profiles per
+implementation. Offsets 9, 23, and 43 survived exhaustively, while both
+implementations returned the same first offset-1 witness:
+
+```text
+m2=27, m3=28, s2=50, s3=49, s4=48, s5=47
+case=F23__N4_t2__N5_t0
+charges=(32,7),(36,5), high=c6F/c7F/c8F/c9F
+```
+
+Its raw premium is
+`46081464205190838687203932464720858867144442465`. The best single adjacent
+edge leaves
+`41535717484613459403166619514559682376379208865`, above the exact raw-safe
+leader by `74818359138015565285572829536920044880164170`. Capture SHA-256:
+`28384df190292e49aeb22ded3194f83037700654293fe5ba4518ffd2680a5501`.
+
+The full best-single wave is therefore blocked. This witness has available
+edges 4, 5, and 6, so the next bounded action is to print the complete
+support-disjoint option table and test whether edge set `4+6` supplies the
+minimal valid repair.
