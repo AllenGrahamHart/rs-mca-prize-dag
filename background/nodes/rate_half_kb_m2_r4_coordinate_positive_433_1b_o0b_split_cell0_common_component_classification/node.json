@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cell0_common_component_classification",
+    "title": "KoalaBear m2 r4 positive 433-1b/O0b split cell-0 common-component classification",
+    "status": "PROVED",
+    "closure": "all 1,260 mixed-source-sign cell-0 labels excluded; equal signs reduced to four exact A/B common components",
+    "statement": "For split-principal O0b role cell 0, the imported six-cofactor common atlas is unit on both mixed source-sign rows. This excludes 1,260 raw outside labels, or 354 exact quotient representatives. Each equal-sign common point lies in one of A_s or B_s, and exact kernels satisfy all ten common Vieta rows on the four component/sign families. The live O0b owner frontier is therefore 38,220 raw labels or 10,722 representatives; its remaining cell-0 outside ledger is 1,260 raw labels represented by 708 component cases.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cell0_common_component_classification/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cell0_common_component_classification/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cell0_common_component_classification/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cell0_common_component_classification/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cell0_common_component_classification/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cell0_common_component_classification/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cell0_common_component_classification/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cell0_common_component_classification/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cell0_common_component_classification/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cell0_common_component_classification/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cell0_common_component_classification/verify_audit.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_split_cell0_common_classification.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_principal_common_charts_result.json",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell0_principal_component_compiler_result.json"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_principal_common_system_adapter"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell0_complete_exclusion"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_s0_v4_label_quotient"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_repeated_outside_v4_quotient"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment"}
+  ],
+  "refutes": []
+}

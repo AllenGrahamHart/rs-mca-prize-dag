@@ -377,14 +377,32 @@ split workboard exactly to 180 states and 18,900 label representatives.
 Inside `S0`, composition with the proved `d->-d` label action gives a
 Klein-four quotient: 12,600 raw rows become 3,420 representatives. The
 paired `SDE/SDF` lanes have a second Klein-four quotient from their identical
-repeated outside copies: 25,200 raw rows become 7,200 representatives. Thus
-the raw residual remains 39,480 labels, while the current exact
+repeated outside copies: 25,200 raw rows become 7,200 representatives. At
+that quotient stage the raw residual was 39,480 labels, while the exact
 representative workload is `3,420+7,200+456=11,076`: duplicate common-role
 exchange and `d->-d` reduce the 1,680 repeated-BC cells-`1/2` rows to 456.
 The immediate target-copy and sign symmetries of every live owner are now
 compiled. Next select the lowest-complexity representative common state and
 build its exact outside kernel; do not exchange the opposite-signed split
 `BC` records.
+
+Cell `0` is the first algebraic reduction after those quotients. The common
+adapter imports the completed six-cofactor O0a chart certificate, but not its
+outside graph. Both mixed source-sign rows are unit on all six charts, so
+they close unconditionally in all six O0b lanes:
+
+```text
+mixed-sign cell-0 closure:              1,260 raw /   354 representatives
+split-principal frontier remaining:    36,540 raw /10,266 representatives
+repeated-BC frontier remaining:         1,680 raw /   456 representatives
+complete O0b owner remaining:          38,220 raw /10,722 representatives.
+```
+
+The equal-sign common locus is covered by the four exact `A_s/B_s`
+component/sign families whose kernels satisfy all ten common rows. Its
+changed O0b outside ledger has 1,260 raw labels and 708 exact component-case
+representatives. This 708-case ledger is the next route-deciding target; the
+old 1,680-case O0a outside result is not imported.
 
 The positive `433-1b -> O0a` role-cell ledger has closed:
 
