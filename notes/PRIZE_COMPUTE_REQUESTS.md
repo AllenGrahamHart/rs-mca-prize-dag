@@ -17005,4 +17005,15 @@ tools/ramguard modal -- timeout --signal=TERM --kill-after=15s 360s \
   experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_fff_ratio_reduction_modal.py
 ```
 
-**Outcome:** preregistered; not yet run.
+**Outcome:** `INCOMPLETE_TIMEOUT`. Modal app `ap-VtWKDIyM7gsbgbG2eyLP2S`
+exposed a large-characteristic incompatibility in Singular's block-order
+polynomial expansion and performed no valid basis computation. After
+switching only to the already-validated ordinary `dp` order, app
+`ap-EeRYmLyJl6zlU6zfjeELpW` completed the `q7` stage with
+`(dimension 2,basis size 50)` and timed out while adjoining `q5`; result
+SHA-256:
+`0f9cb1df4d58e5c55ac742beb9d041a7c23ec9d282101c43d67acb4bfabfb4f5`.
+The outcome-neutral checker accepts the retained stage transcript and rejects
+all three hostile mutations. This has no closure status. The next route
+replaces `e` by `E=e^2` for the `q7,q5,q6` subsystem before adjoining
+the square root and `q4`.

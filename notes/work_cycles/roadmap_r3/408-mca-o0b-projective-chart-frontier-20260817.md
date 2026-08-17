@@ -53,9 +53,10 @@ charts nor support promotion of the representative.
 1. Address `FFF` through a genuine quadratic-root invariant or a finite
    common-base consequence; the linear collapsed determinant route does not
    apply.
-2. Seek a base-only rational reduction analogous to `IFF`, using `q3`
-   to normalize one record and the three finite resultants to eliminate
-   their roots.
+2. The `d=a0m/(e*a2m)`, `s=f/e` reduction reaches a valid
+   `q7` stage of dimension 2 and size 50 but stalls at `q5`. Replace
+   `e` by `E=e^2` for the `q7,q5,q6` subsystem; adjoin
+   `e^2=E` and `q4` only if that subsystem survives.
 3. Once the remaining mask closes, promote the representative and transport
    it across the 1,415-representative quotient.
 

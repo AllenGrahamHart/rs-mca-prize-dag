@@ -1,0 +1,38 @@
+{
+  "app": "rs-mca-positive-433-1b-o0b-fff-ratio-reduction",
+  "collection_complete": true,
+  "field": 2130706433,
+  "row": {
+    "basis_sha256": "20d4032b93acc1f0918efea258978bf830a4a7de389442b519e9496f9b6e9df4",
+    "block_order": [
+      "dp"
+    ],
+    "common_basis_size": 21,
+    "extra_guards": [
+      "e",
+      "s",
+      "a0m",
+      "a2m"
+    ],
+    "outside_equation_order": [
+      7,
+      5,
+      4,
+      6
+    ],
+    "packet_sha256": "fbeda61593e73cdcb7bf1e2baa1ebe8b098a7025f834135b3e02d2c291d50cd9",
+    "partial_stderr": "",
+    "partial_stdout": "EQUATION=7,DIM=2,SIZE=50\n",
+    "program_sha256": "9117d1a7e29d8d803d9292b00ac206bffa70ac42fad43b80d6aa2d602b9726f0",
+    "rank_cofactor_count": 6,
+    "relation": "necessary FFF ratio-reduction superset",
+    "route_guard_count": 16,
+    "status": "TIMEOUT",
+    "variable_count": 6
+  },
+  "schema": "rate-half-kb-positive-433-1b-o0b-fff-ratio-reduction-v1",
+  "source_basis_sha256": "bda163ed7bdb961c115cebbe910dd3d991307bd53cddf4770925697d1a5e7c4e",
+  "source_cache_sha256": "28c97e75aa1fd80565ad926e95ab2eacf4ce62a692520ca2662de6845ee0ddd8",
+  "source_iff_unit_sha256": "5485816c745c18d1514200cc1bba057662c03319f7820883e7010ecb723b93c3",
+  "source_program_sha256": "e1e7d17d0269b739d4952d2951f0ea094e819aa3b8c4827e781abff729b196c0"
+}
