@@ -15297,7 +15297,9 @@ two calls motivates the one-call transport below.
   900-second child wall and a 14415-second range wall; projected aggregate
   cost below `$1`
 - **local safety:** one synchronous Modal remote call under the `modal`
-  RAMguard profile; no local enumeration, starmap, or concurrent dispatch
+  RAMguard profile; the client inherits a 2 MB thread-stack soft limit while
+  retaining RAMguard's 1536 MB address-space ceiling; no local enumeration,
+  starmap, or concurrent dispatch
 
 The remote container runs the unchanged primary and audit source files as
 separate subprocesses and emits the same per-offset records. Sharing transport
@@ -15306,3 +15308,13 @@ constructs its own cache, and is hashed separately. Acceptance still requires
 both implementations at every offset, exact count agreement in the unchanged
 full-wave checker, exit zero, no timeout, and peak RSS at most 128 MB. The
 single-call protocol changes only the local Modal client's thread demand.
+
+**First single-call launch:** infrastructure `INCOMPLETE` before remote work.
+Modal app `ap-vFYKr9rxnNXfxQ7m8XpvLQ` initialized but the local client again
+returned `can't start new thread` before creating objects. No capture is
+accepted. Inspection showed that this WSL host uses RAMguard's `prlimit`
+fallback: the client has a 1536 MB virtual-address ceiling and an inherited
+8 MB stack reservation per thread. The retry retains the address-space
+ceiling and lowers only the inherited stack soft limit to 2 MB via
+`prlimit --stack=2097152`. This transport adjustment does not alter remote
+resources, source hashes, range boundaries, or acceptance criteria.
