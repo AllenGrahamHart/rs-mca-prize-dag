@@ -1,0 +1,48 @@
+{
+  "app": "rs-mca-positive-433-1b-o0b-chart-all-infinity",
+  "case": [
+    3,
+    "S0",
+    -1,
+    -1,
+    -1,
+    2,
+    0
+  ],
+  "chart_mask": [
+    "infinity",
+    "infinity",
+    "infinity"
+  ],
+  "collection_complete": true,
+  "field": 2130706433,
+  "row": {
+    "basis_sha256": "20d4032b93acc1f0918efea258978bf830a4a7de389442b519e9496f9b6e9df4",
+    "basis_size": 1,
+    "chart_mask": [
+      "infinity",
+      "infinity",
+      "infinity"
+    ],
+    "common_basis_size": 21,
+    "dimension": -1,
+    "finite_root_count": 0,
+    "guard_count": 40,
+    "input_program": "",
+    "matching_chart_equation_count": 6,
+    "outside_equation_count": 8,
+    "packet_sha256": "fbeda61593e73cdcb7bf1e2baa1ebe8b098a7025f834135b3e02d2c291d50cd9",
+    "program_sha256": "277dd851c845dc1af189e2a22408935856b72e4ee7cdc84161ada178eee2585c",
+    "rank_cofactor_count": 6,
+    "status": "COMPLETE",
+    "stderr": "",
+    "stdout": "INITIAL_DIM=3,INITIAL_SIZE=54\nSAT=0,DIM=3,SIZE=34\nSAT=1,DIM=3,SIZE=34\nSAT=2,DIM=3,SIZE=34\nSAT=3,DIM=3,SIZE=32\nSAT=4,DIM=3,SIZE=22\nSAT=5,DIM=-1,SIZE=1\nSAT=6,DIM=-1,SIZE=1\nSAT=7,DIM=-1,SIZE=1\nSAT=8,DIM=-1,SIZE=1\nSAT=9,DIM=-1,SIZE=1\nSAT=10,DIM=-1,SIZE=1\nSAT=11,DIM=-1,SIZE=1\nSAT=12,DIM=-1,SIZE=1\nSAT=13,DIM=-1,SIZE=1\nSAT=14,DIM=-1,SIZE=1\nSAT=15,DIM=-1,SIZE=1\nSAT=16,DIM=-1,SIZE=1\nSAT=17,DIM=-1,SIZE=1\nSAT=18,DIM=-1,SIZE=1\nSAT=19,DIM=-1,SIZE=1\nSAT=20,DIM=-1,SIZE=1\nSAT=21,DIM=-1,SIZE=1\nSAT=22,DIM=-1,SIZE=1\nSAT=23,DIM=-1,SIZE=1\nSAT=24,DIM=-1,SIZE=1\nSAT=25,DIM=-1,SIZE=1\nSAT=26,DIM=-1,SIZE=1\nSAT=27,DIM=-1,SIZE=1\nSAT=28,DIM=-1,SIZE=1\nSAT=29,DIM=-1,SIZE=1\nSAT=30,DIM=-1,SIZE=1\nSAT=31,DIM=-1,SIZE=1\nSAT=32,DIM=-1,SIZE=1\nSAT=33,DIM=-1,SIZE=1\nSAT=34,DIM=-1,SIZE=1\nSAT=35,DIM=-1,SIZE=1\nSAT=36,DIM=-1,SIZE=1\nSAT=37,DIM=-1,SIZE=1\nSAT=38,DIM=-1,SIZE=1\nSAT=39,DIM=-1,SIZE=1\nCOFACTOR_DIM=-1,COFACTOR_SIZE=1\nBEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nEND\n",
+    "unit": true,
+    "variable_count": 7
+  },
+  "schema": "rate-half-kb-positive-433-1b-o0b-chart-all-infinity-v1",
+  "source_basis_sha256": "bda163ed7bdb961c115cebbe910dd3d991307bd53cddf4770925697d1a5e7c4e",
+  "source_cache_sha256": "28c97e75aa1fd80565ad926e95ab2eacf4ce62a692520ca2662de6845ee0ddd8",
+  "source_compiler_sha256": "048e38650d7ab98ee9c21d081d4908ed067f57fe483a6e4b6890fab3fa755b03",
+  "source_program_sha256": "277ad3a0d4489470eee9cef2c374b28d73aad333149ea415a3e55ea05549f4c5"
+}

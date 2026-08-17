@@ -16379,3 +16379,14 @@ tools/ramguard modal -- timeout --signal=TERM --kill-after=15s 360s \
   ~/.venvs/modal/bin/modal run \
   experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_chart_all_infinity_modal.py
 ```
+
+**Outcome:** `COMPLETE_UNIT`. Modal app `ap-qkhSkBXGe1rYbrHca5zY6I`
+completed the exact chart in under ten seconds. Result SHA-256:
+`545a130914d9896d84a5215865fea7333a2af9f1f7f9d08bfc14d3587770bcaf`.
+The outcome-neutral checker accepts the transcript and rejects all three
+hostile mutations. The initial chart ideal has dimension 3 and basis size 54.
+It remains dimension 3 through the first five guard stages; saturation by
+guard 5, `b+1`, yields the unit ideal. Thus every all-infinity solution lies
+on the forbidden boundary `b=-1`, and this one chart is closed exactly. The
+result authorizes a small pilot across the other seven chart masks for this
+same representative, not a second representative or the full quotient.
