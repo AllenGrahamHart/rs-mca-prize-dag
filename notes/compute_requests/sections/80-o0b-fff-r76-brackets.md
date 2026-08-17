@@ -39,4 +39,12 @@ tools/ramguard modal -- timeout --signal=TERM --kill-after=15s 360s \
   experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_fff_r76_brackets_modal.py
 ```
 
-**Outcome:** preregistered; not yet run.
+**Outcome:** `COMPLETE`. Modal app
+`ap-WkUJ6xUaL50A2ireij9cYb` completed all 61 intermediate stages and
+retained all 14 bracket representatives. The two preregistered zero slots
+are exact, and the 12 nonzero slots match the degree/term ledger from compute
+request 79. Result SHA-256:
+`08dc7fefd108d4b8d17a1c7a5345f37312b65b9a74389cf7e7dfc94827b0446f`.
+The checker recomputes every bracket hash, accepts the exact zero pattern,
+and rejects all four hostile mutations. This is the canonical source for
+final `R76` product sharding; it does not close `FFF`.
