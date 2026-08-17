@@ -15509,3 +15509,11 @@ over-leader carrier profile. `INCOMPLETE` includes timeout, malformed output,
 resource breach, or disagreement and changes no mathematical status.
 Survival authorizes a separate value assessment; it neither launches a full
 wave automatically nor promotes `K'=88`.
+
+The paired deployment smoke passed as Modal app
+`ap-9SV6VYgvGX2ncNqkXrZ1d2`. Primary and independent orientations agree on
+all 212,194 offset-44 source units, all 195 raw-unsafe units, and 202,207
+carrier profiles. Both return `SURVIVED`; peak RSS was 32--37 MB. Capture
+SHA-256: `04fe3e31de6b38ea3923c68ddbb782fb168267248245f19105e4c470ed67e31e`.
+This authorizes the preregistered eight-job stress and has no standalone
+mathematical status effect.
