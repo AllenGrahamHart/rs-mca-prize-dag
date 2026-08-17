@@ -434,6 +434,16 @@ complete O0b owner:         31,920 raw / 8,952 representatives.
 
 The next split common-cell orbit is `[3,6]`.
 
+That orbit now has an exact outside router. The complete
+`2*6*4*7*15=5,040`-system ledger is the union of 456 S0 and 960 SDE/SDF
+Klein-four orbits, hence 1,416 canonical representatives. The ordered
+representative list is committed by SHA-256
+`39fb277a94d8ee3a24e3a8f9e1f0bb50014665ca7c151659d4dc8fcd912392d6`.
+A pinned 24-representative subset covers all 56 coarse pilot strata. This is
+a PROVED quotient, not an exclusion. The next route-deciding action is the
+24-case compact-common-curve O0b outside pilot; do not launch the complete
+1,416-case campaign until that pilot is complete and independently checked.
+
 The positive `433-1b -> O0a` role-cell ledger has closed:
 
 ```text
