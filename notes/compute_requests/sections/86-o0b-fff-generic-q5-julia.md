@@ -36,4 +36,11 @@ tools/ramguard modal -- timeout --signal=TERM --kill-after=15s 420s \
   experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_fff_generic_q5_julia_modal.py
 ```
 
-**Outcome:** preregistered; not yet run.
+**Outcome:** `INCOMPLETE_TIMEOUT`. Modal app
+`ap-G2DYAjHI53OT1Ui7998KuR` exceeded the 300-second Julia wall before the
+raw `q5` normal form completed. It produced no normal form, basis, or
+mathematical status. Result SHA-256:
+`5565e674db92a598d78f9bafcfdf7f2ffab04536ff8e99a223b2e0d9521fe46f`.
+The checker accepts the transcript and rejects all three applicable hostile
+mutations. Retire raw-resultant reduction and import the already certified
+three-coefficient `q5` bank instead.
