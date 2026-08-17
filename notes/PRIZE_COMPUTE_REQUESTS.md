@@ -15111,3 +15111,14 @@ counts with the resumed audit.
 primary traversal. `PASS` requires both complete traversals to survive all
 462,384 source units and 23,104 raw-unsafe units with equal profile counts.
 `INCOMPLETE` changes no status.
+
+**Outcome:** `PASS`. Modal app `ap-ce2sclOGAj09BOGbmk6i7Z` completed the
+cached audit at 42 MB peak RSS with 34,051 exact cache entries. Resume-capture
+SHA-256:
+`da7e3ec56563f0af995a44fe7a264f5515b48ff759d18519593bc1d00f1d9831`.
+
+The hash-pinned merger agrees with the original primary survival on all
+462,384 source units, 23,104 raw-unsafe units, and 267,056 deduplicated
+profiles. Offset 1 is therefore exhaustively paid by the raw-clipped theorem
+in both orientations. This authorizes a separately preregistered paired wave
+over every raw-unsafe offset `1..43`; it does not promote `K'=87` by itself.
