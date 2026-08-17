@@ -38697,6 +38697,27 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_repeated_outside_v4_quotient",
+   "title": "KoalaBear m2 r4 positive 433-1b/O0b repeated-outside Klein-four quotient",
+   "status": "PROVED",
+   "closure": "lane exchange and duplicate-copy swaps reduce 25,200 SDE/SDF rows to 7,200 representatives and the full split block to 10,620",
+   "statement": "In split-principal lanes SDE and SDF, the exact B/C--E/F lane exchange is equivariant with swapping the two identical repeated outside records: the DE copies in SDE and the DF copies in SDF. The two actions form a Klein-four action on 25,200 formal rows with 1,800 orbits of size two and 5,400 of size four, hence 7,200 orbits. Together with the proved 3,420 S0 representatives, the full split-principal block has 10,620 exact representatives. No representative is excluded.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_repeated_outside_v4_quotient/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_repeated_outside_v4_quotient/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_repeated_outside_v4_quotient/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_repeated_outside_v4_quotient/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_repeated_outside_v4_quotient/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_repeated_outside_v4_quotient/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_repeated_outside_v4_quotient/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_repeated_outside_v4_quotient/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_repeated_outside_v4_quotient/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_repeated_outside_v4_quotient/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_repeated_outside_v4_quotient/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_repeated_outside_v4_quotient.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_residual_owner_partition",
    "title": "KoalaBear m2 r4 positive 433-1b/O0b post-closure residual owner partition",
    "status": "PROVED",
@@ -77838,6 +77859,11 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_outside_label_quotient",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_repeated_outside_v4_quotient",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_outside_label_quotient",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_residual_owner_partition",
    "kind": "req"
   },
@@ -78022,6 +78048,11 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_repeated_outside_v4_quotient",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_residual_owner_partition",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_residual_owner_partition_after_cells11_14",
    "kind": "req"
@@ -78035,6 +78066,11 @@
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_residual_owner_partition_after_cells11_14",
    "to": "rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_s0_v4_label_quotient",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_repeated_outside_v4_quotient",
+   "kind": "req"
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_s0_v4_label_quotient",
@@ -78090,6 +78126,11 @@
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_signed_edge_atlas",
    "to": "rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_bc_ef_involution_quotient",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_repeated_outside_v4_quotient",
+   "kind": "req"
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_bc_ef_involution_quotient",

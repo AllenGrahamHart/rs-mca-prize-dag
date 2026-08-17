@@ -376,11 +376,13 @@ fixed-point-free on the 360 lane/cell/source-sign states and reduces the
 split workboard exactly to 180 states and 18,900 label representatives.
 Inside `S0`, composition with the proved `d->-d` label action gives a
 Klein-four quotient: 12,600 raw rows become 3,420 representatives. The
-paired `SDE/SDF` lanes contribute 12,600 more. Thus the raw residual remains
-39,480 labels, while the current exact representative workload is at most
-`16,020+1,680=17,700`. Next compare a gauge-normalized action on `SDE/SDF`
-with the first low-complexity `S0` representative exclusion; do not exchange
-the opposite-signed `BC` records.
+paired `SDE/SDF` lanes have a second Klein-four quotient from their identical
+repeated outside copies: 25,200 raw rows become 7,200 representatives. Thus
+the raw residual remains 39,480 labels, while the current exact
+representative workload is at most `3,420+7,200+1,680=12,300`. The obvious
+split target-graph symmetries are now compiled. Next compare a quotient of
+repeated-BC cells `1/2` with the first low-complexity split representative
+exclusion; do not exchange the opposite-signed `BC` records.
 
 The positive `433-1b -> O0a` role-cell ledger has closed:
 
