@@ -38718,6 +38718,28 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_matching_resultant_projective_charts",
+   "title": "KoalaBear m2 r4 positive 433-1b/O0b matching-resultant projective charts",
+   "status": "PROVED",
+   "closure": "the three hard matching resultants split exactly into eight projective-root charts",
+   "statement": "For every cells-3/6 O0b outside case, each of q4,q5,q6 is the resultant of two binary quadratics. Over the algebraic closure of F_2130706433, its vanishing is equivalent to either a finite common-root chart or the common root at infinity. Consequently q4=q5=q6=0 is exactly the union of 2^3=8 chart systems, with no genericity assumption or lost degree-drop branch.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_matching_resultant_projective_charts/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_matching_resultant_projective_charts/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_matching_resultant_projective_charts/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_matching_resultant_projective_charts/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_matching_resultant_projective_charts/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_matching_resultant_projective_charts/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_matching_resultant_projective_charts/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_matching_resultant_projective_charts/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_matching_resultant_projective_charts/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_matching_resultant_projective_charts/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_matching_resultant_projective_charts/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_resultant_projective_charts.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_split_cells3_6_cached_outside_core.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_repeated_outside_v4_quotient",
    "title": "KoalaBear m2 r4 positive 433-1b/O0b repeated-outside Klein-four quotient",
    "status": "PROVED",
@@ -78273,6 +78295,11 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_matching_resultant_projective_charts",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_repeated_outside_v4_quotient",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_cells1_2_v4_quotient",
    "kind": "req"
@@ -78469,6 +78496,11 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cells3_6_global_common_basis",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_matching_resultant_projective_charts",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cells3_6_global_common_basis",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cells3_6_basis_case0_orbit_exclusion",
    "kind": "req"
   },
@@ -78476,6 +78508,11 @@
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cells3_6_global_common_basis",
    "to": "rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cells3_6_v4_quotient",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_matching_resultant_projective_charts",
+   "kind": "req"
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cells3_6_v4_quotient",
