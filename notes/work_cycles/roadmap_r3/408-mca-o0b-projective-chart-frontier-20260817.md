@@ -13,6 +13,11 @@
 - The exact remaining leaves for this representative are `FFF`, `FFI`, `FIF`,
   and `IFF`. Closing these four leaves closes the representative; no other
   chart is missing.
+- In `FFI` and `FIF`, the infinity equations force `z2=z5=0`. On that
+  collapsed locus, the pinned `q3` equation and `a2m != 0` guard prove
+  that every finite first matching polynomial has nonzero linear
+  coefficient. Thus its finite root can be eliminated exactly by a
+  coefficient determinant plus the printed slope guard.
 
 ### Retired endpoints
 
@@ -22,24 +27,23 @@
   masks.
 - An exact eight-variable sparse kernel graph lift timed out on `FFI` and must
   not be expanded to the other masks.
+- Both the 16-variable leading-collapsed `FFI` ideal and its 14-variable
+  unguarded determinant superset timed out. The latter included slope-zero
+  components that the new finite-slope theorem excludes from the exact chart.
 
 All timeouts are architectural observations only. They neither refute the
 charts nor support promotion of the representative.
 
 ### Next decision gate
 
-1. Prefer a structural common-root reduction. In a finite chart, the two
-   equations are `A0(u)=record_y*A2(u)` and
-   `A0(-u)=record_z*A2(-u)`. Use the concrete pairing-0 record products to
-   eliminate outside variables or derive a lower-dimensional syzygy before
-   another Groebner computation.
-2. A different algebra engine may be compared on one pinned mask only if the
-   exact input and outcome-neutral checker remain reproducible. Cap the pilot
-   below `$0.10`; do not launch a four-mask campaign from an unvalidated
-   engine.
-3. On a successful one-mask architecture, finish the other three masks for
-   this representative before transporting across the 1,415-representative
-   quotient.
+1. Run one exact 14-variable `FFI` determinant presentation with the proved
+   `m4p1*m5p1 != 0` slope guards. A unit closes `FFI`; any other outcome
+   retires broad basis computation on this mask.
+2. If the exact pilot does not close, branch or factor the two explicit
+   determinants under `q3`; retain the exact slope guards in every branch.
+3. Transport the successful collapsed architecture to `FIF`, then address
+   the structurally different `FFF` and `IFF` leaves before quotient
+   transport.
 
 ### Integration posture
 
