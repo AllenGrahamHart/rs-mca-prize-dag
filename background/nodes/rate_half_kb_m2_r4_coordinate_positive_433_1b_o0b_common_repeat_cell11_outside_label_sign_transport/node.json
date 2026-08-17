@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_outside_label_sign_transport",
+    "title": "KoalaBear m2 r4 positive 433-1b/O0b cell-11 outside-label sign transport",
+    "status": "PROVED",
+    "closure": "missing DE- and DF- transported exactly to DE+ and DF+ on every cell-11 row",
+    "statement": "On every repeated-BC cell-11 common row, the target involution d -> -d fixes the common packet and outside records BE, CF, and EF, while exchanging DE+ with DE- and DF+ with DF-. It preserves all outside products and squared sums and transports residual perfect matchings bijectively. Therefore exclusions for all fifteen missing-DE+ and missing-DF+ matchings imply the corresponding exclusions for missing DE- and DF-.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_outside_label_sign_transport/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_outside_label_sign_transport/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_outside_label_sign_transport/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_outside_label_sign_transport/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_outside_label_sign_transport/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_outside_label_sign_transport/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_outside_label_sign_transport/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_outside_label_sign_transport/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_outside_label_sign_transport/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_outside_label_sign_transport/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_outside_label_sign_transport/verify_audit.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_common_repeat_cell3_outside_label_router.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_outside_label_quotient"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_vieta_minor_compiler"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment"}
+  ],
+  "refutes": []
+}

@@ -1,0 +1,34 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells11_14_duplicate_role_transport",
+    "title": "KoalaBear m2 r4 positive 433-1b/O0b duplicate-role cells 11-14 transport",
+    "status": "PROVED",
+    "closure": "exact identity-label bijection of all 1680 raw systems from cell 11 to cell 14",
+    "statement": "Swapping the duplicate common records BC1 and BC2 maps repeated-BC role cell 11 to role cell 14. The two records have identical target product and sum, so this is a row permutation of every common Vieta system, preserves all source signs, both BC signs, both outside-cycle signs, guards, and the outside packet, and fixes all 105 outside labels. It bijects all 16*105=1680 raw cell-11 systems with the corresponding cell-14 systems.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells11_14_duplicate_role_transport/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells11_14_duplicate_role_transport/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells11_14_duplicate_role_transport/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells11_14_duplicate_role_transport/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells11_14_duplicate_role_transport/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells11_14_duplicate_role_transport/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells11_14_duplicate_role_transport/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells11_14_duplicate_role_transport/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells11_14_duplicate_role_transport/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells11_14_duplicate_role_transport/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells11_14_duplicate_role_transport/verify_audit.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_common_repeat_vieta_compiler.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_common_repeat_vieta_compiler_result.json"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_vieta_minor_compiler"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_signed_edge_atlas"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment"}
+  ],
+  "refutes": []
+}

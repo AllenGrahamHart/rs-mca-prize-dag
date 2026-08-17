@@ -159,6 +159,14 @@ certificates required by the challenge.
   matching-exchange pair `{11,14}`. See
   `rate_half_band_closure/attack_addenda/33-wave71-positive-433-cell4-xi3-pairing8-13.md`.
 
+  **Current correction (2026-08-17):** the preceding cell-4 progression is
+  historical; the O0a raw workboard is now complete. On the separate O0b
+  route, the repeated-BC cells-11/14 block is also PROVED empty on all 3,360
+  raw labels. Its 160 registered-guard source points were paid by direct
+  exact replay, and duplicate-role transport closes cell 14. The live O0b
+  owner frontier is now exactly split-BC product rank five (37,800 labels)
+  plus repeated cells 1/2 (1,680 labels).
+
 These labels are route families rather than substitute hypotheses.  A
 supplier enters a consumer as `req` only after an exact transport theorem;
 otherwise it remains `ev`.

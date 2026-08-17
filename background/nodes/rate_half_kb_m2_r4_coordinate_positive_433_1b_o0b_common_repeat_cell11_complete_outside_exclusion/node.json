@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_complete_outside_exclusion",
+    "title": "KoalaBear m2 r4 positive 433-1b/O0b complete cell-11 outside exclusion",
+    "status": "PROVED",
+    "closure": "all 1680 raw outside labels on the sixteen formal repeated-BC cell-11 rows are empty",
+    "statement": "For each of the eight repeated-BC cell-11 common source towers and both outside-cycle signs, every one of the 105 missing-record/perfect-matching labels is empty over F_2130706433. Colored BE/CF and uncolored DE+/DF+/EF are excluded on the registered off-guard locus and on every registered guard fiber; selected-cofactor and missing-label denominator boundaries contain no guarded source point. The exact d -> -d transport supplies DE-/DF-. Thus all 16*105=1680 raw cell-11 labels are excluded.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_complete_outside_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_complete_outside_exclusion/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_complete_outside_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_complete_outside_exclusion/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_complete_outside_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_complete_outside_exclusion/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_complete_outside_exclusion/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_complete_outside_exclusion/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_complete_outside_exclusion/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_complete_outside_exclusion/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_complete_outside_exclusion/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_colored_deployed_off_guard_consistency_exclusion"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_uncolored_deployed_off_guard_pair_exclusion"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_selected_cofactor_deployed_boundary_exclusion"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_missing_label_reconstruction_denominator_exclusion"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_registered_guard_boundary_exclusion"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_outside_label_sign_transport"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment"}
+  ],
+  "refutes": []
+}

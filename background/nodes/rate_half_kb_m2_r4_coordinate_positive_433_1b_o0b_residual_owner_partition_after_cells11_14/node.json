@@ -1,0 +1,32 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_residual_owner_partition_after_cells11_14",
+    "title": "KoalaBear m2 r4 positive 433-1b/O0b residual owner partition after cells 11-14",
+    "status": "PROVED",
+    "closure": "exact post-cell11/14 residual workload of 376 common rows and 39480 raw labels",
+    "statement": "After complete exclusion of the repeated-BC cells 11/14 owner block, the positive 433-1b -> O0b residual route is the disjoint union of the split-BC product-rank-five block with 360 common rows and 37800 raw labels, and repeated-BC cells 1/2 with 16 common rows and 1680 raw labels. Thus exactly 376 common rows and 39480 raw labels remain in this owner partition.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_residual_owner_partition_after_cells11_14/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_residual_owner_partition_after_cells11_14/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_residual_owner_partition_after_cells11_14/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_residual_owner_partition_after_cells11_14/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_residual_owner_partition_after_cells11_14/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_residual_owner_partition_after_cells11_14/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_residual_owner_partition_after_cells11_14/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_residual_owner_partition_after_cells11_14/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_residual_owner_partition_after_cells11_14/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_residual_owner_partition_after_cells11_14/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_residual_owner_partition_after_cells11_14/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_residual_owner_partition"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells11_14_complete_outside_exclusion"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment"}
+  ],
+  "refutes": []
+}

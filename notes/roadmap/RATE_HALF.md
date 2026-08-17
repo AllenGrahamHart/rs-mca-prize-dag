@@ -346,6 +346,25 @@ current route decision.
 
 ## Current decomposition
 
+### O0b owner update (2026-08-17)
+
+The repeated-BC cells-11/14 block is now completely paid. Direct guard-
+boundary replay closes 160 specialized source points; composition with the
+off-guard, selected-cofactor, reconstruction-denominator, and outside-sign
+theorems closes all 1,680 cell-11 labels. Exact duplicate-role transport
+closes cell 14 and the full 3,360-label owner block. The live `433-1b -> O0b`
+owner partition is now
+
+```text
+split BC, product rank five: 360 common rows / 37,800 raw labels
+repeated BC, cells 1/2:       16 common rows /  1,680 raw labels
+total:                       376 common rows / 39,480 raw labels.
+```
+
+No cell-11 or cell-14 matching census remains. Compare the structural
+quotients for the two retained owner blocks before scheduling further Modal
+work.
+
 The positive `433-1b -> O0a` role-cell ledger has closed:
 
 ```text
@@ -577,10 +596,8 @@ are paid too. The positive-`DE` pairing-9/10 and pairing-12/13 classes are
 paid as well. The final pairing-11/14 common-`f` packets are paid, the generic
 ledger is empty, and cell 12 is closed. No further cell-12 census is needed.
 The paid cell-12 theorem, exact cell-13 transport, and global rank-drop
-theorem now close cell 13 as well. Move to the three remaining role orbits
-before launching any new matching-level census.  In cell 9, do not revisit
-the section-base points or endpoint roles; derive a quotient and source cuts
-for the five remaining leading-open roles.  The quotient is now paid, so
-schedule only the 24 canonical representatives. Modal jobs must remain
-route-deciding and within the active protocol budget; larger campaigns go to
-the deferred compute ledger.
+theorem close cell 13 as well. The raw O0a workboard is complete, so do not
+launch another O0a matching census. For O0b, cells 11/14 are now complete;
+the retained work is the split-BC rank-five block and repeated cells 1/2.
+Modal jobs must remain route-deciding and within the active protocol budget;
+larger campaigns go to the deferred compute ledger.

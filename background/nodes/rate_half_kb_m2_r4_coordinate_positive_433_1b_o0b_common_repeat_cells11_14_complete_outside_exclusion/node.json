@@ -1,0 +1,32 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells11_14_complete_outside_exclusion",
+    "title": "KoalaBear m2 r4 positive 433-1b/O0b complete cells 11-14 outside exclusion",
+    "status": "PROVED",
+    "closure": "all 3360 raw outside labels in the repeated-BC cells 11-14 owner block are empty",
+    "statement": "Complete cell-11 outside exclusion empties 16*105=1680 raw labels. The exact duplicate-role BC1/BC2 transport bijects these with all 1680 raw cell-14 labels. Hence every one of the 32*105=3360 raw labels in the repeated-BC cells 11/14 owner block is empty over F_2130706433.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells11_14_complete_outside_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells11_14_complete_outside_exclusion/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells11_14_complete_outside_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells11_14_complete_outside_exclusion/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells11_14_complete_outside_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells11_14_complete_outside_exclusion/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells11_14_complete_outside_exclusion/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells11_14_complete_outside_exclusion/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells11_14_complete_outside_exclusion/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells11_14_complete_outside_exclusion/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells11_14_complete_outside_exclusion/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_complete_outside_exclusion"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells11_14_duplicate_role_transport"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment"}
+  ],
+  "refutes": []
+}
