@@ -16535,3 +16535,14 @@ tools/ramguard modal -- timeout --signal=TERM --kill-after=15s 360s \
   ~/.venvs/modal/bin/modal run \
   experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_chart_ffi_lifted_boundary_modal.py
 ```
+
+**Outcome:** `INCOMPLETE_TIMEOUT`. Modal app `ap-fUoFJO8Eerf3cNt42uc2ex`
+returned the pinned row with status `TIMEOUT`; result SHA-256:
+`5853ed157ae0badde2180fb1b3f21fe8d7ef957ab9052117b6e9884a0cce08aa`.
+The outcome-neutral checker accepts the exact graph-equation ledger and
+rejects all three hostile mutations. No transcript was printed before the
+240-second wall. Thus the sparse eight-variable kernel lift has no
+mathematical status and is retired as the next Singular architecture. It must
+not be expanded to the other masks. The four multi-finite charts now require
+either a structural common-root reduction or a one-mask comparison with a
+genuinely different algebra engine.

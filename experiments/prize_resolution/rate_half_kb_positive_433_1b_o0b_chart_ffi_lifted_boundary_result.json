@@ -1,0 +1,48 @@
+{
+  "app": "rs-mca-positive-433-1b-o0b-chart-ffi-lifted-boundary",
+  "case": [
+    3,
+    "S0",
+    -1,
+    -1,
+    -1,
+    2,
+    0
+  ],
+  "chart_mask": [
+    "finite",
+    "finite",
+    "infinity"
+  ],
+  "collection_complete": true,
+  "field": 2130706433,
+  "row": {
+    "basis_sha256": "20d4032b93acc1f0918efea258978bf830a4a7de389442b519e9496f9b6e9df4",
+    "boundary_guard": "b+1",
+    "chart_mask": [
+      "finite",
+      "finite",
+      "infinity"
+    ],
+    "common_basis_size": 21,
+    "finite_root_count": 2,
+    "generator_count": 38,
+    "kernel_graph_equation_count": 8,
+    "kernel_lift_variable_count": 8,
+    "matching_chart_equation_count": 6,
+    "outside_equation_count": 8,
+    "packet_sha256": "fbeda61593e73cdcb7bf1e2baa1ebe8b098a7025f834135b3e02d2c291d50cd9",
+    "partial_stderr": "",
+    "partial_stdout": "",
+    "program_sha256": "8f57b3c31c1106c829ea4cbd451e3620ae1ecc3d7049656a75dcbf4ad8bf6ec0",
+    "rabinowitsch_equation_count": 1,
+    "status": "TIMEOUT",
+    "variable_count": 18
+  },
+  "schema": "rate-half-kb-positive-433-1b-o0b-chart-ffi-lifted-boundary-v1",
+  "source_basis_sha256": "bda163ed7bdb961c115cebbe910dd3d991307bd53cddf4770925697d1a5e7c4e",
+  "source_boundary_pilot_sha256": "9e5dd9324b1fe7575c7d16135465bd1c560f3cce9d3effbee5ecece6391109c6",
+  "source_cache_sha256": "28c97e75aa1fd80565ad926e95ab2eacf4ce62a692520ca2662de6845ee0ddd8",
+  "source_compiler_sha256": "048e38650d7ab98ee9c21d081d4908ed067f57fe483a6e4b6890fab3fa755b03",
+  "source_program_sha256": "af075097d890859b5ce077d2fafa77d8c4eb2755853217e46fb691f7dde21f62"
+}
