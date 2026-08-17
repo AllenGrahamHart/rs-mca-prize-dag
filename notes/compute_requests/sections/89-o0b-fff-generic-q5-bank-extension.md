@@ -36,4 +36,15 @@ tools/ramguard modal -- timeout --signal=TERM --kill-after=15s 480s \
   experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_fff_generic_q5_bank_extension_modal.py
 ```
 
-**Outcome:** preregistered; not yet run.
+**Outcome:** `COMPLETE`. Modal app
+`ap-h3NTK3YvbAxOLtnLf7sLZ4` adjoined the exact 24-term quadratic and
+certified a nonunit, dimension-zero basis of size 16 with quotient dimension
+16. Basis SHA-256:
+`bd4b2bf32d58c5f344d8d244eb2632646f0a7ca807bbefc5cf1c9c3737d6ab3b`.
+The 192 output coefficient entries contain 100 distinct denominators, whose
+ledger SHA-256 is
+`125dfc37ef1bf4d8b093b66624408be8120299cc978ecef399f28cfb1df4ccdc`.
+Result SHA-256:
+`b5320657fc191da5adf2743ad020ab6a30934fd584f7f3f3a995caf9a712953c`.
+The checker verifies the complete basis and rejects all four hostile
+mutations. Continue with coefficient-wise `q7` over this finite extension.
