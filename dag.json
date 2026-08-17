@@ -39104,6 +39104,28 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_collapsed_finite_slope_anchors",
+   "title": "KoalaBear m2 r4 positive 433-1b/O0b xi2 pairing0 collapsed finite-slope anchors",
+   "status": "PROVED",
+   "closure": "every finite first matching polynomial in the collapsed FFI/FIF charts has nonzero linear coefficient",
+   "statement": "For canonical xi=2,pairing=0 in the S0 lane, after the proved z2=z5=0 collapse, every finite pair in chart FFI or FIF has nonzero first linear coefficient m_jp1. Consequently its finite common-root condition is exactly the coefficient-determinant equation together with m_jp1 nonzero.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_collapsed_finite_slope_anchors/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_collapsed_finite_slope_anchors/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_collapsed_finite_slope_anchors/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_collapsed_finite_slope_anchors/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_collapsed_finite_slope_anchors/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_collapsed_finite_slope_anchors/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_collapsed_finite_slope_anchors/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_collapsed_finite_slope_anchors/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_collapsed_finite_slope_anchors/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_collapsed_finite_slope_anchors/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_collapsed_finite_slope_anchors/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_collapsed_finite_slope_anchors.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_split_cells3_6_cached_outside_core.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_multifinite_infinity_leading_collapse",
    "title": "KoalaBear m2 r4 positive 433-1b/O0b xi2 pairing0 multi-finite infinity leading collapse",
    "status": "PROVED",
@@ -78626,6 +78648,11 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cells3_6_v4_quotient",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_collapsed_finite_slope_anchors",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cells3_6_v4_quotient",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_multifinite_infinity_leading_collapse",
    "kind": "req"
   },
@@ -78688,6 +78715,16 @@
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_all_infinity_chart_exclusion",
    "to": "rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_collapsed_finite_slope_anchors",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_multifinite_infinity_leading_collapse",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_collapsed_finite_slope_anchors",
+   "kind": "req"
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_multifinite_infinity_leading_collapse",
