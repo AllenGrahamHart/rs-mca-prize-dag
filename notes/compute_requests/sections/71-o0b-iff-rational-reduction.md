@@ -11,7 +11,7 @@
 - **outcome-neutral checker SHA-256:**
   `e6b895464bb43663ba0428a949eacd57628d1329ffdd12eda6ccb6221d12de54`
 - **program core SHA-256:**
-  `2a0efa6cc5e0c297575da3b2902b480eb129a49f14b3e7edc474aa81076b66f8`
+  `1090aba28eed710e5a254fdf0207879e4d88bfe1c833830c8a01d9bb6742b8eb`
 - **collapsed-unit result SHA-256:**
   `38a44a30aa3421a67161acf5268d4bbfbe9e33903547e50259fc3f0da77efd03`
 - **input ledger:** variables `t,r,c,b`; 21-element common basis; cleared

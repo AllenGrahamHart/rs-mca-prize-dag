@@ -1,9 +1,6 @@
 #!/usr/bin/env python3
 """Build the four-variable necessary superset for the surviving O0b IFF branch."""
 
-import sympy as sp
-
-
 PRIME = 2130706433
 EXTRA_GUARDS = ("k2", "k5", "a2m")
 
@@ -22,6 +19,8 @@ def resultant(prefix):
 
 
 def verify_rational_reduction():
+    import sympy as sp
+
     b, c, d, e, f = sp.symbols("b c d e f")
     k2, k5, a2m, a0m, lm, bm = sp.symbols(
         "k2 k5 a2m a0m lm bm"
