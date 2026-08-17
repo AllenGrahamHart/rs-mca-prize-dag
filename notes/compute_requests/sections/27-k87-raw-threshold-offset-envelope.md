@@ -50,3 +50,31 @@ exactly on offset 1 (462,384 units, 23,104 unsafe) and terminal offset 76
 `9abaa530060708007b1c1faa24653a448154997a8ef6268dccb8793586358e69`.
 This validates both adapters and authorizes the preregistered full wave; it
 does not itself promote `K'=87`.
+
+The complete paired wave passed as Modal app
+`ap-xwOdMdTBRKtC2aIHtpRSw0`. Capture SHA-256:
+`2722d7811cf29e425bd67fd49a46f586efe2f21c0dda698e369dcfe4fd48b449`.
+All 152 jobs completed below 128 MB, and the primary and independent
+implementations agree on every offset classification and profile.
+
+```text
+source units per implementation       17,801,784
+raw rows per implementation          124,612,488
+raw-safe units                         17,290,107
+raw-unsafe units                          511,677
+unsafe offsets                              1..43
+fully safe offsets                         44..76
+```
+
+The exact raw-safe leader is offset 9,
+
+```text
+s2=55/s3=46/s4=37/s5=30/offset9/c6F/c7F/c8F/c9F
+```
+
+with premium `41460899125475443837881046685022762331499044695`, strictly
+below the exact safe ceiling
+`41460914669043067085305042221812436226076443389` by
+`15543567623247423995536789673894577398694`. The raw envelope is therefore
+complete. The remaining `K'=87` obligation is a finite 511,677-unit
+post-carrier payment over offsets `1..43`.
