@@ -44,6 +44,8 @@
     "notes/compute_requests/sections/39-k87-clipped-completion-ranges.md",
     "notes/compute_requests/sections/40-k87-clipped-completion-single-range.md",
     "notes/compute_requests/sections/41-k87-ordinary-lane.md",
-    "notes/compute_requests/sections/42-k87-component-payment.md"
+    "notes/compute_requests/sections/42-k87-component-payment.md",
+    "notes/compute_requests/sections/43-k88-raw-threshold-offset-envelope.md",
+    "notes/compute_requests/sections/44-k88-clipped-stress.md"
   ]
 }

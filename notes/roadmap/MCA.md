@@ -39,6 +39,11 @@ certificates required by the challenge.
   dimension-two/three containers, each with `42453` common actual zeros and
   an exact group-local shortening. This `508`-container family is the next
   synchronization/collision target.
+- The finite rank-nine prefix is proved through `K'=87`. At the first open
+  row `K'=88`, paired raw scans classify all 18,741,723 source units and
+  leave exactly 622,895 raw-unsafe units on offsets `1..44`. This is a
+  bounded adjacent-row probe, not a substitute for the 508-container
+  synchronization theorem or a claim beyond `K'=88`.
 - The Mersenne full-lift mean-Gram route now pays through direction support
   `e=98231`.  At residue two, a two-boundary-layer anchor split and a
   boundary missed-set dichotomy give `16486411<16777215`; the residual
