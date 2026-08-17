@@ -28,3 +28,22 @@ pair cap.
 current adjacent-router wall; a lower price identifies the next compressed
 edge family. `INCOMPLETE` changes no status. This one-witness calculation
 cannot promote `K'=87`.
+
+**Outcome:** `PASS`. Modal app `ap-wLdIVTwSfqoHqcbrTReo02` completed the
+paired exact option table. Primary and independent values agree entry by
+entry. Capture SHA-256:
+`9edcb2b46da5f9cb3aa97bcc8f230e0725bc7b2cd72e214477f4c5ece34ba82b`.
+
+The minimizing valid choice is the support-disjoint edge set `4+6`, with
+price `37213564927666895824914633823577105351210858112`, below the exact
+raw-safe leader by `4247334197808548012966412861445656980288186583`.
+Every single edge remains above the leader:
+
+```text
+edge 4  41697268189301188466486299088841700382091277312
+edge 5  41535717484613459403166619514559682376379208865
+edge 6  41597760943556546045632267199456263836264023265
+```
+
+This repairs the single witness but not the row. It authorizes an exhaustive
+paired offset-1 falsifier using the proved support-disjoint optimizer.
