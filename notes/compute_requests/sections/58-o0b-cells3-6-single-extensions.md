@@ -35,3 +35,20 @@ tools/ramguard modal -- timeout --signal=TERM --kill-after=15s 300s \
   ~/.venvs/modal/bin/modal run \
   experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_split_cells3_6_single_extensions_modal.py
 ```
+
+**Outcome:** `INCOMPLETE_Q7_ROUTE`. Modal app
+`ap-sS7K2kC529Y60lYzF2EsvC` returned all four pinned rows; result SHA-256:
+`ce0396a9f6d951270a5ec3ba9b8371919020dcac75ca11af488d9fabc5e0edb9`.
+The outcome-neutral checker accepts the collection and rejects all three
+hostile mutations. The `q7` extension completed at dimension 3 with a retained
+128-polynomial basis, hash
+`679c448e3587f4bb11f39a6742aa7439d9b909ad68cf19834ca463d634c5aceb`.
+The `q4`, `q5`, and `q6` extensions timed out. Their recorded reductions had
+respective degree/term counts `(50,7593)`, `(48,2829)`, and `(48,7512)`;
+`q7` had `(24,1500)`. Singular warned that the reconstructed source ideal was
+not flagged as a standard basis. This does not invalidate the ideal equality
+or the completed `q7` basis, because each reduced polynomial differs from its
+source equation by an element of the retained ideal, but it makes the four
+normal-form size measurements noncanonical. The next diagnostic must set the
+pinned standard-basis attribute explicitly. The smallest observed hard
+extension authorizes only the chain `q3 -> q7 -> q5`.
