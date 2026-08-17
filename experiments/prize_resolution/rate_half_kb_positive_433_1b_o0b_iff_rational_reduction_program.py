@@ -141,9 +141,12 @@ option(redSB);
 {chr(10).join(extra_definitions)}
 {chr(10).join(cofactor_definitions)}
 ideal G={','.join(f'g{index}' for index in range(21))};
-G=slimgb(G,y7); print("EQUATION=7,DIM="+string(dim(G))+",SIZE="+string(size(G)));
-G=slimgb(G,y5); print("EQUATION=5,DIM="+string(dim(G))+",SIZE="+string(size(G)));
-G=slimgb(G,y6); print("EQUATION=6,DIM="+string(dim(G))+",SIZE="+string(size(G)));
+ideal I7=G,y7; G=slimgb(I7);
+print("EQUATION=7,DIM="+string(dim(G))+",SIZE="+string(size(G)));
+ideal I5=G,y5; G=slimgb(I5);
+print("EQUATION=5,DIM="+string(dim(G))+",SIZE="+string(size(G)));
+ideal I6=G,y6; G=slimgb(I6);
+print("EQUATION=6,DIM="+string(dim(G))+",SIZE="+string(size(G)));
 {route_stages}
 {extra_stages}
 ideal C={','.join(f'c{index}' for index in range(6))};
