@@ -53,7 +53,15 @@ def verify(payload=None):
                 isinstance(row["partial_stderr"], str), "timeout transcript")
         return {"status": "TIMEOUT"}
     basis_text = "\n".join(row["basis"])
-    entries_text = json.dumps(row["coefficient_entries"], separators=(",", ":"))
+    # The producer hashes records before the enclosing sorted-key JSON write.
+    # Rebuild that declared field order after loading the artifact.
+    canonical_entries = [{
+        "basis_index": entry["basis_index"],
+        "term_index": entry["term_index"],
+        "numerator": entry["numerator"],
+        "denominator": entry["denominator"],
+    } for entry in row["coefficient_entries"]]
+    entries_text = json.dumps(canonical_entries, separators=(",", ":"))
     denominators_text = json.dumps(
         row["unique_denominators"], separators=(",", ":")
     )
