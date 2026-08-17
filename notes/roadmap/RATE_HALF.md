@@ -407,10 +407,19 @@ the canonical representative list by SHA-256
 This 708-case ledger is the next route-deciding target; the old 1,680-case
 O0a outside result is not imported.
 
-The preregistered 24-representative O0b outside pilot is complete and all
-unit: it covers all 56 component/lane-orbit/outside-sign/missing-record
-strata, with no timeout or nonunit row. This authorizes the bounded complete
-708-representative campaign; the pilot alone has no exclusion status.
+The 24-representative pilot and complete 708-representative O0b outside
+campaign are both all unit. The full exact certificate, independent
+transcript/guard audit, and component quotient close split cell `0` entirely.
+The current owner frontier is therefore
+
+```text
+split-principal remaining: 35,280 raw /  9,912 representatives
+repeated-BC cells 1/2:       1,680 raw /    456 representatives
+complete O0b owner:         36,960 raw / 10,368 representatives.
+```
+
+Cell `0` must not be rerun or charged to another owner. Select the next
+lowest-complexity common-cell orbit from the 14 remaining split cells.
 
 The positive `433-1b -> O0a` role-cell ledger has closed:
 

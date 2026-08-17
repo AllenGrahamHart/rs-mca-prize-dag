@@ -2,33 +2,25 @@
   "complete": true,
   "counts": {
     "FAIL": 0,
-    "PASS": 3,
+    "PASS": 2,
     "TIMEOUT": 0
   },
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cell0_component_v4_quotient/verify.py",
-      "seconds": 0.914067,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cell0_complete_exclusion/verify.py",
+      "seconds": 0.078881,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_KB_POSITIVE_433_1B_O0B_SPLIT_CELL0_COMPONENT_VERIFY_PASS raw=2520 reps=708 profile=2:156,4:552\n"
+      "stdout_tail": "RATE_HALF_KB_POSITIVE_433_1B_O0B_SPLIT_CELL0_COMPLETE_VERIFY_PASS closed=2520/708 owner=36960/10368 outside=708/708\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cell0_component_v4_quotient/verify_audit.py",
-      "seconds": 0.809337,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cell0_complete_exclusion/verify_audit.py",
+      "seconds": 0.076235,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_KB_POSITIVE_433_1B_O0B_SPLIT_CELL0_COMPONENT_AUDIT_PASS raw=2520 reps=708 mutations=2/2\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cell0_component_v4_quotient/verify_outside_pilot.py",
-      "seconds": 0.057625,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_KB_POSITIVE_433_1B_O0B_SPLIT_CELL0_OUTSIDE_CHECK_PASS state=COMPLETE scope=pilot rows=24/24 unit=24 nonunit=0 mutations=3/3\n"
+      "stdout_tail": "RATE_HALF_KB_POSITIVE_433_1B_O0B_SPLIT_CELL0_OUTSIDE_AUDIT_PASS raw_component_cases=2520 representatives=708 unit=708 guards={30: 354, 31: 354} mutations=3/3\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

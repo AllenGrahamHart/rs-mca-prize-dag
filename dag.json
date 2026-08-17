@@ -38865,6 +38865,32 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cell0_complete_exclusion",
+   "title": "KoalaBear m2 r4 positive 433-1b/O0b split cell-0 complete exclusion",
+   "status": "PROVED",
+   "closure": "all four source-sign rows and 2,520 raw labels in split-principal O0b cell 0 excluded",
+   "statement": "In split O0b role cell 0, both mixed source-sign common systems are empty. Every equal-sign common point lies in one of the four A_s/B_s component families. The complete exact outside ledger has 2,520 component cases and 708 representatives under the proved Klein-four actions; all 708 guarded saturated ideals are unit. Hence all 2,520 underlying cell-0 raw labels, or 708 original-label quotient representatives, are excluded. The live O0b owner frontier falls to 36,960 raw labels and 10,368 representatives.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cell0_complete_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cell0_complete_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cell0_complete_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cell0_complete_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cell0_complete_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cell0_complete_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cell0_complete_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cell0_complete_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cell0_complete_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cell0_complete_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cell0_complete_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_split_cell0_component_outside_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_split_cell0_component_outside_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_split_cell0_component_outside_check.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_split_cell0_component_outside_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_split_cell0_outside_core.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_split_cell0_component_representatives.json"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cell0_component_v4_quotient",
    "title": "KoalaBear m2 r4 positive 433-1b/O0b split cell-0 component Klein-four quotient",
    "status": "PROVED",
@@ -78266,6 +78292,11 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cell0_common_component_classification",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cell0_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cell0_common_component_classification",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cell0_component_v4_quotient",
    "kind": "req"
   },
@@ -78273,6 +78304,16 @@
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cell0_common_component_classification",
    "to": "rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cell0_complete_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cell0_component_v4_quotient",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cell0_complete_exclusion",
+   "kind": "req"
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cell0_component_v4_quotient",

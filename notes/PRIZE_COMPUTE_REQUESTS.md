@@ -15835,3 +15835,15 @@ of the generated equations and guard semantics. A complete nonunit row is a
 retained candidate locus, not a counterexample until replayed against the raw
 system. Any timeout, remote error, malformed row, client interruption, or
 missing representative is `INCOMPLETE` and causes no status promotion.
+
+**Outcome:** `COMPLETE_OUTSIDE_EXCLUDED`. Modal app
+`ap-iPfRgFxqrpfuNMG1WzzxIZ` completed all 708 representatives; result
+SHA-256: `6aed35275a09c9ceaa55f2e47ad07409f7d3ed0ffd8f77010ce080ba862b95aa`.
+Every row is `COMPLETE`, every sequentially saturated ideal is unit, and
+there are 708 distinct program hashes. The independent audit checks the
+ordered representative cover, exact O0b edge table, contiguous Singular
+transcripts, stable unit tails, and guard profile `30:354,31:354`, with 3/3
+hostile mutations rejected. The Modal client printed a nonfatal asynchronous-
+generator shutdown warning after the complete checkpoint; it exited zero and
+the checker accepts 708/708 rows. The separate PROVED cell-0 exclusion node
+consumes this certificate.
