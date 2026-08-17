@@ -31,6 +31,7 @@
     "notes/compute_requests/sections/26-k86-component-payment.md",
     "notes/compute_requests/sections/27-k87-raw-threshold-offset-envelope.md",
     "notes/compute_requests/sections/28-k87-best-single-edge-stress.md",
-    "notes/compute_requests/sections/29-k87-residual-witness-adjacent-payment.md"
+    "notes/compute_requests/sections/29-k87-residual-witness-adjacent-payment.md",
+    "notes/compute_requests/sections/30-k87-disjoint-edge-offset1-falsifier.md"
   ]
 }
