@@ -29,6 +29,7 @@
     "notes/compute_requests/sections/24-k86-best-single-edge-stress.md",
     "notes/compute_requests/sections/25-k86-best-single-completion-wave.md",
     "notes/compute_requests/sections/26-k86-component-payment.md",
-    "notes/compute_requests/sections/27-k87-raw-threshold-offset-envelope.md"
+    "notes/compute_requests/sections/27-k87-raw-threshold-offset-envelope.md",
+    "notes/compute_requests/sections/28-k87-best-single-edge-stress.md"
   ]
 }
