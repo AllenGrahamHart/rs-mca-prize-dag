@@ -109,10 +109,10 @@ def main() -> None:
     total_units = sum(int(row["units"]) for row in results["primary"].values())
     total_safe = sum(int(row["safe_units"]) for row in results["primary"].values())
     total_unsafe = sum(int(row["unsafe_units"]) for row in results["primary"].values())
-    unsafe_offsets = [
+    unsafe_offsets = sorted(
         offset for offset, row in results["primary"].items()
         if int(row["unsafe_units"]) > 0
-    ]
+    )
     assert total_safe + total_unsafe == total_units
     print(json.dumps({
         "status": "PASS",

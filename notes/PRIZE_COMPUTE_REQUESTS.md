@@ -14438,3 +14438,32 @@ jobs used 25--29 MB. Smoke-capture SHA-256:
 `11fb92f8c98a8e07bbadc87bc97b044479462bcb6da11863c894650dce7404c0`.
 This validates both adapters and authorizes the preregistered full wave; it
 does not itself promote `K'=86`.
+
+**Outcome:** `PASS` as an exact route decomposition, with no `K'=86`
+promotion. Modal app `ap-kjz4PvurdW9cunGO3pse1N` completed all 150 jobs.
+The capture SHA-256 is
+`7aa3c934e610aa717ba25b8b7acf424c0f59ad068ec294eac5b448d9abb81612`.
+The checker accepted all 16,897,650 source units and 118,283,550 raw rows
+per implementation, with exact agreement on every offset profile and
+classification digest.
+
+There are 16,482,237 raw-safe units and 415,413 raw-unsafe units. Every
+offset `43..75` is entirely raw-safe; the residual is confined exactly to
+offsets `1..42`. The global raw-safe leader is offset 32,
+
+```text
+s2=73/s3=41/s4=39/s5=57/offset32/c6F/c7F/c8F/c9F
+```
+
+with premium
+`41436891148468120556440841127823744176664445997`, only
+`2429142732593969226237923721701123878841` below the exact safe ceiling.
+Hence `K'=86` closes if every residual profile is at most this leader after
+a proved carrier charge.
+
+The preregistered checker printed unsafe offsets in completion order. A
+presentation-only repair sorts that list without changing parsing,
+coverage, digest comparison, or extrema; repaired checker SHA-256:
+`2a32a19df70f098fee290c96545d704f1de1479a995876c50876d8fc79d25f86`.
+The pinned capture passes the repaired checker with unsafe offsets exactly
+`1..42`.
