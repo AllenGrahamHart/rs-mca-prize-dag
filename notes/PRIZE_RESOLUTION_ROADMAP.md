@@ -44274,6 +44274,9 @@ charts nor support promotion of the representative.
    `q7` stage of dimension 2 and size 50 but stalls at `q5`. Replace
    `e` by `E=e^2` for the `q7,q5,q6` subsystem; adjoin
    `e^2=E` and `q4` only if that subsystem survives.
+3. The `E` subsystem likewise reaches `q7` (dimension 2, size 54) and
+   stalls at `q5`. The next gate is an explicit common-basis normal form of
+   `q5`, adjoined before `q7`; do not repeat `q7`-first bases.
 3. Once the remaining mask closes, promote the representative and transport
    it across the 1,415-representative quotient.
 

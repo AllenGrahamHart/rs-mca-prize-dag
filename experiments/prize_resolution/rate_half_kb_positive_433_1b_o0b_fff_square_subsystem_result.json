@@ -1,0 +1,43 @@
+{
+  "app": "rs-mca-positive-433-1b-o0b-fff-square-subsystem",
+  "collection_complete": true,
+  "field": 2130706433,
+  "row": {
+    "basis_sha256": "20d4032b93acc1f0918efea258978bf830a4a7de389442b519e9496f9b6e9df4",
+    "common_basis_size": 21,
+    "extra_guards": [
+      "E",
+      "s",
+      "a0m",
+      "a2m"
+    ],
+    "omitted_finite_pair": "q4",
+    "outside_equation_order": [
+      7,
+      5,
+      6
+    ],
+    "packet_sha256": "fbeda61593e73cdcb7bf1e2baa1ebe8b098a7025f834135b3e02d2c291d50cd9",
+    "partial_stderr": "",
+    "partial_stdout": "EQUATION=7,DIM=2,SIZE=54\n",
+    "program_sha256": "2fc3fd2b77f37374a1cf547879923a794cc7681028d29ba5aed26a564d89e1d0",
+    "rank_cofactor_count": 6,
+    "relation": "necessary FFF square-subsystem superset",
+    "route_guard_count": 16,
+    "status": "TIMEOUT",
+    "variable_count": 6,
+    "variables": [
+      "E",
+      "s",
+      "t",
+      "r",
+      "c",
+      "b"
+    ]
+  },
+  "schema": "rate-half-kb-positive-433-1b-o0b-fff-square-subsystem-v1",
+  "source_basis_sha256": "bda163ed7bdb961c115cebbe910dd3d991307bd53cddf4770925697d1a5e7c4e",
+  "source_cache_sha256": "28c97e75aa1fd80565ad926e95ab2eacf4ce62a692520ca2662de6845ee0ddd8",
+  "source_program_sha256": "c5eca188068083699e94ba321858710f5225f423380a71821f9cea90135c4e72",
+  "source_ratio_timeout_sha256": "0f9cb1df4d58e5c55ac742beb9d041a7c23ec9d282101c43d67acb4bfabfb4f5"
+}

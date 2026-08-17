@@ -42,4 +42,11 @@ tools/ramguard modal -- timeout --signal=TERM --kill-after=15s 360s \
   experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_fff_square_subsystem_modal.py
 ```
 
-**Outcome:** preregistered; not yet run.
+**Outcome:** `INCOMPLETE_TIMEOUT`. Modal app `ap-ZyjARWuvmq8EWOITABCBu5`
+completed the `q7` stage with `(dimension 2,basis size 54)` and timed out
+while adjoining `q5`; result SHA-256:
+`cefc9fc49863ab0d20291c7cc009553bc45b8eb2946550c97c3daca154b595af`.
+The outcome-neutral checker accepts the retained stage transcript and rejects
+all three hostile mutations. Replacing `e` by `E` does not remove the
+`q5` bottleneck. The next architecture reduces `q5` explicitly modulo
+the common basis and adjoins it before `q7`.
