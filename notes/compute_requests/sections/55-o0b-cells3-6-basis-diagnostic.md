@@ -36,3 +36,15 @@ A checked unit result authorizes a small multi-stratum basis-fed pilot. A
 complete nonunit is retained in full and becomes the next algebraic target.
 A timeout or error authorizes only decomposition of this one case. No outcome
 from this single diagnostic closes an orbit or authorizes the 1,416-case run.
+
+**Outcome:** `COMPLETE_UNIT`. Modal app `ap-hbvBTuGWrmg6ezfjG93fX7`
+completed the pinned case in about three minutes. Result SHA-256:
+`e7ea616f603636f8286225e5cd851cdacd8ea1a32e56ba87825a9a2c9e46898d`.
+The initial ideal has dimension 3 and basis size 108. After the first five
+guard stages it remains dimension 3; saturation by guard 5, `b+1`, yields the
+unit ideal, and every later stage remains unit. The complete-unit checker
+accepts the exact source packet, 21-element common basis, five outside
+equations, 40 guards, six cofactors, and final transcript. Thus every algebraic
+solution lies on the forbidden target boundary `b=-1`. By the proved quotient
+this excludes the four raw cases in one symmetry orbit. It authorizes only a
+small cross-stratum basis-fed pilot, not the complete campaign.

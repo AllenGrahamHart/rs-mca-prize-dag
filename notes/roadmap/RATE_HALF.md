@@ -460,6 +460,14 @@ compile the guarded one-dimensional common Gröbner basis once per source-sign
 row, then run one outside diagnostic from that reduced basis. Do not schedule
 another 24-worker batch until the one-case diagnostic reaches a transcript.
 
+The one-case basis-fed diagnostic now reaches a complete unit transcript.
+Its initial ideal is dimension three with basis size 108, and the `b+1` guard
+makes it unit. This closes one four-raw-case symmetry orbit, leaving cells
+`3/6` at 5,036 raw labels / 1,415 representatives and the complete O0b owner
+at 31,916 raw labels / 8,951 representatives. The architecture is validated,
+but one orbit is not a pilot. Next run a six-representative cross-stratum
+basis-fed pilot before considering the pinned 24-representative cover.
+
 The positive `433-1b -> O0a` role-cell ledger has closed:
 
 ```text

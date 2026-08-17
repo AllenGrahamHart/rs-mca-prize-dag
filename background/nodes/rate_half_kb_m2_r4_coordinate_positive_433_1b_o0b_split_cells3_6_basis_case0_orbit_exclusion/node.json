@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cells3_6_basis_case0_orbit_exclusion",
+    "title": "KoalaBear m2 r4 positive 433-1b/O0b split cells 3-6 first basis-fed orbit exclusion",
+    "status": "PROVED",
+    "closure": "one canonical outside representative and its four-case symmetry orbit excluded exactly",
+    "statement": "For canonical case (cell 3,S0,sigma_o=-1,epsilon=(-1,-1),xi=0,pairing=0), adjoining the five outside equations to the proved 21-polynomial common basis gives an initial dimension-three ideal of basis size 108. Saturation by the sixth ordered guard b+1 makes the ideal unit, so every algebraic solution lies on the forbidden boundary b=-1. The quotient transports this to exactly four raw cases. Cells 3/6 retain 5,036 raw labels and 1,415 representatives.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cells3_6_basis_case0_orbit_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cells3_6_basis_case0_orbit_exclusion/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cells3_6_basis_case0_orbit_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cells3_6_basis_case0_orbit_exclusion/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cells3_6_basis_case0_orbit_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cells3_6_basis_case0_orbit_exclusion/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cells3_6_basis_case0_orbit_exclusion/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cells3_6_basis_case0_orbit_exclusion/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cells3_6_basis_case0_orbit_exclusion/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cells3_6_basis_case0_orbit_exclusion/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cells3_6_basis_case0_orbit_exclusion/verify_audit.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_split_cells3_6_basis_diagnostic_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_split_cells3_6_basis_diagnostic_check.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_split_cells3_6_basis_diagnostic_result.json"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cells3_6_global_common_basis"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cells3_6_v4_quotient"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment"}
+  ],
+  "refutes": []
+}
