@@ -38919,6 +38919,28 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cells1_2_complete_exclusion",
+   "title": "KoalaBear m2 r4 positive 433-1b/O0b split cells 1-2 complete exclusion",
+   "status": "PROVED",
+   "closure": "48 unit common cofactor charts exclude all 5,040 split O0b cells-1/2 labels",
+   "statement": "The common systems in split O0b role cells 1 and 2 are identical to the O0a systems already certified unit on all 2*4*6=48 cell/sign/cofactor charts. Product rank five guarantees a chart, so no common point and hence no outside packet exists in either cell. This excludes 5,040 raw labels and 1,416 exact original-label representatives. The live O0b owner frontier is 31,920 raw labels and 8,952 representatives.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cells1_2_complete_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cells1_2_complete_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cells1_2_complete_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cells1_2_complete_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cells1_2_complete_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cells1_2_complete_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cells1_2_complete_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cells1_2_complete_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cells1_2_complete_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cells1_2_complete_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cells1_2_complete_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_split_cells1_2_common_exclusion.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cells1_2_principal_common_charts_result.json"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_principal_common_system_adapter",
    "title": "KoalaBear m2 r4 positive 433-1b/O0b split principal common-system adapter",
    "status": "PROVED",
@@ -77122,6 +77144,11 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells1_2_complete_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cells1_2_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells1_2_complete_exclusion",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_raw_workboard_complete_exclusion",
    "kind": "req"
   },
@@ -78187,6 +78214,11 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_repeated_outside_v4_quotient",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cells1_2_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_repeated_outside_v4_quotient",
    "to": "rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment",
    "kind": "ev"
   },
@@ -78218,6 +78250,11 @@
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_s0_v4_label_quotient",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cell0_component_v4_quotient",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_s0_v4_label_quotient",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cells1_2_complete_exclusion",
    "kind": "req"
   },
   {
@@ -78307,6 +78344,11 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cell0_complete_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cells1_2_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cell0_complete_exclusion",
    "to": "rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment",
    "kind": "ev"
   },
@@ -78321,6 +78363,11 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cells1_2_complete_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_principal_common_system_adapter",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_bc_ef_involution_quotient",
    "kind": "req"
@@ -78328,6 +78375,11 @@
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_principal_common_system_adapter",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cell0_common_component_classification",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_principal_common_system_adapter",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cells1_2_complete_exclusion",
    "kind": "req"
   },
   {

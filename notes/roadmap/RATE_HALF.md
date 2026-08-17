@@ -421,6 +421,19 @@ complete O0b owner:         36,960 raw / 10,368 representatives.
 Cell `0` must not be rerun or charged to another owner. Select the next
 lowest-complexity common-cell orbit from the 14 remaining split cells.
 
+That comparison immediately closes cells `1,2`: their 48 O0a common
+cell/sign/cofactor charts are all unit, and the O0b common adapter is exact.
+No outside graph is reached. The closure pays 5,040 raw labels and 1,416
+original-label representatives, leaving
+
+```text
+split-principal remaining: 30,240 raw / 8,496 representatives
+repeated-BC cells 1/2:       1,680 raw /   456 representatives
+complete O0b owner:         31,920 raw / 8,952 representatives.
+```
+
+The next split common-cell orbit is `[3,6]`.
+
 The positive `433-1b -> O0a` role-cell ledger has closed:
 
 ```text
