@@ -1,0 +1,13 @@
+{
+  "app": "rs-mca-msolve-prime-field-smoke",
+  "field": 2130706433,
+  "modal_app_id": "ap-NMkv5SBzWyRbWOlmy2tp2h",
+  "msolve_version": "0.7.5",
+  "output": "#Reduced Groebner basis data\n#---\n#field characteristic: 2130706433\n#variable order:       x\n#monomial order:       graded reverse lexicographical\n#length of basis:      1 element\n#---\n[1]:\n",
+  "returncode": 0,
+  "schema": "msolve-prime-field-smoke-v1",
+  "source_launcher_sha256": "8b2504b26f8459417408ac3024ff11aa84cac9beb68f1e9438848639ec1e5ee7",
+  "status": "COMPLETE_UNIT",
+  "stderr": "",
+  "stdout": ""
+}
