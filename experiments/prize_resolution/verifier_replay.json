@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_k87_raw_clipped_adjacent_payment/verify.py",
-      "seconds": 0.531222,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_principal_common_system_adapter/verify.py",
+      "seconds": 0.054825,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "{\"gap\": 77712391681585193939443710876895639001790676368706144901, \"margin\": 15543567623247423995536789673894577398694, \"premium\": 41460899125475443837881046685022762331499044695, \"status\": \"PASS\"}\n"
+      "stdout_tail": "RATE_HALF_KB_POSITIVE_433_1B_O0B_SPLIT_COMMON_ADAPTER_VERIFY_PASS lanes=6 common_rows=60 adapted_rows=360 rank=5\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_k87_raw_clipped_adjacent_payment/verify_audit.py",
-      "seconds": 0.029653,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_principal_common_system_adapter/verify_audit.py",
+      "seconds": 0.031669,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "{\"ceiling_remainder\": 255238951391294095, \"gap\": 77712391681585193939443710876895639001790676368706144901, \"status\": \"AUDIT_PASS\"}\n"
+      "stdout_tail": "PASS O0b split principal common-system adapter audit: 2/2\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

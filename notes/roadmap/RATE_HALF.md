@@ -365,6 +365,13 @@ No cell-11 or cell-14 matching census remains. Compare the structural
 quotients for the two retained owner blocks before scheduling further Modal
 work.
 
+The first comparison favors the split rank-five block: its common packet is
+exactly the proved O0a packet. A PROVED adapter identifies its 360 common
+rows with six copies of the 60-row O0a common atlas. Only the changed O0b
+outside graph remains; common-locus computations must be reused, not rerun.
+The next exact quotient to compile is simultaneous `B<->C`, `E<->F`, fixing
+`S0` and exchanging `SDE` with `SDF`.
+
 The positive `433-1b -> O0a` role-cell ledger has closed:
 
 ```text

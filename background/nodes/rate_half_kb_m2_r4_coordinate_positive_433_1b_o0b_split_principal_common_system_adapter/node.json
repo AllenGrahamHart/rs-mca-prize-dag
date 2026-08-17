@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_principal_common_system_adapter",
+    "title": "KoalaBear m2 r4 positive 433-1b/O0b split principal common-system adapter",
+    "status": "PROVED",
+    "closure": "all 360 split-BC principal common rows identified with six copies of the 60-row O0a common atlas",
+    "statement": "In each of the six split-BC O0b target lanes, the five common records are exactly (-a^2; ab, ac; bc, -bc) with sums (0,1+b,1+c,b+c,b-c), identical to the proved O0a common Vieta compiler. The fifteen role cells and four source-sign rows therefore give the same 60 common systems, copied across six outside lanes for 360 formal common rows. The split rank-drop branch is already empty, so every retained split row has product rank five. Only the outside graph differs.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_principal_common_system_adapter/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_principal_common_system_adapter/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_principal_common_system_adapter/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_principal_common_system_adapter/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_principal_common_system_adapter/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_principal_common_system_adapter/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_principal_common_system_adapter/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_principal_common_system_adapter/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_principal_common_system_adapter/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_principal_common_system_adapter/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_principal_common_system_adapter/verify_audit.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_common_vieta_compiler.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_signed_edge_atlas.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_common_vieta_minor_compiler"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_signed_edge_atlas"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_rankdrop_complete_exclusion"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment"}
+  ],
+  "refutes": []
+}
