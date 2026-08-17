@@ -42413,6 +42413,24 @@
    ]
   },
   {
+   "id": "rate_half_mca_sparse_circuit_raw_clipped_adjacent_support_coupling",
+   "title": "Raw-clipped adjacent-support circuit coupling",
+   "status": "PROVED",
+   "closure": "fixed-union stratum inequalities plus exact fractional-knapsack optimization",
+   "statement": "Independent raw caps on an adjacent support pair may be imposed before the fixed-union weighted optimization; the resulting exact rational LP is evaluated by dual allocation orders.",
+   "refs": [
+    "background/nodes/rate_half_mca_sparse_circuit_raw_clipped_adjacent_support_coupling/statement.md",
+    "background/nodes/rate_half_mca_sparse_circuit_raw_clipped_adjacent_support_coupling/proof.md",
+    "background/nodes/rate_half_mca_sparse_circuit_raw_clipped_adjacent_support_coupling/claim_contract.md",
+    "background/nodes/rate_half_mca_sparse_circuit_raw_clipped_adjacent_support_coupling/dependency_subdag.md",
+    "background/nodes/rate_half_mca_sparse_circuit_raw_clipped_adjacent_support_coupling/attack.md",
+    "background/nodes/rate_half_mca_sparse_circuit_raw_clipped_adjacent_support_coupling/audit.md",
+    "background/nodes/rate_half_mca_sparse_circuit_raw_clipped_adjacent_support_coupling/result.md",
+    "background/nodes/rate_half_mca_sparse_circuit_raw_clipped_adjacent_support_coupling/verify.py",
+    "background/nodes/rate_half_mca_sparse_circuit_raw_clipped_adjacent_support_coupling/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_mca_sparse_circuit_single_completion_carrier",
    "title": "Single completion carrier",
    "status": "PROVED",
@@ -80675,6 +80693,11 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_mca_sparse_circuit_fixed_union_adjacent_support_coupling",
+   "to": "rate_half_mca_sparse_circuit_raw_clipped_adjacent_support_coupling",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_mca_sparse_circuit_fixed_union_flat_coupled_45_charge",
    "to": "rate_half_mca_rank11_k72_full_carrier_atlas_payment",
    "kind": "req"
@@ -80923,6 +80946,11 @@
    "from": "rate_half_mca_sparse_circuit_near_saturation_carrier",
    "to": "rate_half_mca_sparse_circuit_completion_defect_hierarchy",
    "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_sparse_circuit_raw_clipped_adjacent_support_coupling",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
   },
   {
    "from": "rate_half_mca_sparse_circuit_single_completion_carrier",
