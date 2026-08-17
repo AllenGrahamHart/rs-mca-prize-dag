@@ -15014,3 +15014,17 @@ in the proved adjacent-support router.
 nonpositive margin is a route wall. A positive margin authorizes theorem
 packaging and a separately preregistered offset-1 falsifier. This one-witness
 probe cannot promote `K'=87`.
+
+**Outcome:** `PASS` with positive margin. Modal app
+`ap-0M46E2HegLDfuwCNvdJTUm` completed the probe. The support-5-oriented and
+support-6-oriented exact optimizers agree on cap
+`14207926136094898913594751174330524101924656533`. The repaired premium is
+`39531805787455558517198440263313445158726451351`, below the K'=87 leader by
+`1929093338019885320682606421709317172772593344`. Capture SHA-256:
+`3f5c2073ae746ba1c546fbc49afa09941280438c94989b9f614bf812a8f42eab`.
+
+The witness's exact raw support-5 count is active at the optimum, so the
+pre-aggregation clipping is genuinely stronger than the previously deployed
+support-5/6 cap. This repairs one witness, not the row. The next action is to
+package the generic raw-clipped adjacent-support theorem with an independent
+verifier, then preregister a paired offset-1 falsifier using it.
