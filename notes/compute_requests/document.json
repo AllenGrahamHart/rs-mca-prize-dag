@@ -46,6 +46,7 @@
     "notes/compute_requests/sections/41-k87-ordinary-lane.md",
     "notes/compute_requests/sections/42-k87-component-payment.md",
     "notes/compute_requests/sections/43-k88-raw-threshold-offset-envelope.md",
-    "notes/compute_requests/sections/44-k88-clipped-stress.md"
+    "notes/compute_requests/sections/44-k88-clipped-stress.md",
+    "notes/compute_requests/sections/45-k88-dual-adjacent-offset1.md"
   ]
 }
