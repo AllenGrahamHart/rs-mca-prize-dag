@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_k86_best_single_adjacent_payment",
+    "title": "Best-single adjacent-support envelope closes K'=86",
+    "status": "PROVED",
+    "closure": "exact ordinary/offset partition, paired raw-threshold envelope, exhaustive best-single adjacent-support payment, independent replay, and positive integral component gap",
+    "statement": "The exact K'=86 carrier frontier has completion premium 41436891148468120556440841127823744176664445997 below the safe ceiling by 2429142732593969226237923721701123878841, yielding a positive component-payment gap and extending the closed prefix to 10..86.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_k86_best_single_adjacent_payment/statement.md",
+      "background/nodes/rate_half_mca_rank11_k86_best_single_adjacent_payment/proof.md",
+      "background/nodes/rate_half_mca_rank11_k86_best_single_adjacent_payment/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_k86_best_single_adjacent_payment/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_k86_best_single_adjacent_payment/attack.md",
+      "background/nodes/rate_half_mca_rank11_k86_best_single_adjacent_payment/audit.md",
+      "background/nodes/rate_half_mca_rank11_k86_best_single_adjacent_payment/result.md",
+      "background/nodes/rate_half_mca_rank11_k86_best_single_adjacent_payment/provenance.md",
+      "background/nodes/rate_half_mca_rank11_k86_best_single_adjacent_payment/replay.md",
+      "background/nodes/rate_half_mca_rank11_k86_best_single_adjacent_payment/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_k86_best_single_adjacent_payment/verify.py",
+      "background/nodes/rate_half_mca_rank11_k86_best_single_adjacent_payment/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_k85_best_single_adjacent_payment"},
+    {"from": "rate_half_mca_sparse_circuit_single_completion_carrier"},
+    {"from": "rate_half_mca_sparse_circuit_full_completion_pairwise_carrier_atlas"},
+    {"from": "rate_half_mca_sparse_circuit_fixed_union_flat_coupled_45_charge"},
+    {"from": "rate_half_mca_sparse_circuit_fixed_union_support56_coupling"},
+    {"from": "rate_half_mca_sparse_circuit_fixed_union_adjacent_support_coupling"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location"}
+  ],
+  "refutes": []
+}
