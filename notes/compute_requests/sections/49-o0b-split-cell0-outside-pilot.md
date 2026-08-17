@@ -56,3 +56,11 @@ checkpoint SHA-256 is
 No row reached Singular and the run has no mathematical status. Launcher
 `04ae5144...` adds the missing immutable core mount; all case, solver, wall,
 and outcome contracts are unchanged for the bounded rerun.
+
+**Outcome:** `PILOT_ALL_UNIT`. Modal app
+`ap-4ye2CkHWY93ZYrySLOibPR` completed all 24 representatives. Result
+SHA-256: `796378e75e7eee01924c8f7b64ccfb1dc6af07adf9db945b59b8e59728b32507`.
+All rows are `COMPLETE`, all saturated ideals are unit, and the checker
+accepts the exact ordered case cover with 3/3 hostile mutations rejected.
+The run completed in about 14 seconds and authorizes the separately
+preregistered 708-case campaign. It does not itself close any raw label.

@@ -407,6 +407,11 @@ the canonical representative list by SHA-256
 This 708-case ledger is the next route-deciding target; the old 1,680-case
 O0a outside result is not imported.
 
+The preregistered 24-representative O0b outside pilot is complete and all
+unit: it covers all 56 component/lane-orbit/outside-sign/missing-record
+strata, with no timeout or nonunit row. This authorizes the bounded complete
+708-representative campaign; the pilot alone has no exclusion status.
+
 The positive `433-1b -> O0a` role-cell ledger has closed:
 
 ```text
