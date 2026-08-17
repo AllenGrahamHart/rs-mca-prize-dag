@@ -38,3 +38,14 @@ tools/ramguard modal -- timeout --signal=TERM --kill-after=15s 360s \
   ~/.venvs/modal/bin/modal run \
   experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_ffi_collapsed_modal.py
 ```
+
+**Outcome:** `INCOMPLETE_TIMEOUT`. Modal app `ap-CUpVsyqTjfJYECd7zUqcL8`
+returned the pinned row with status `TIMEOUT`; result SHA-256:
+`86d8686abf3d178bef2e1adaa17ca62e7d8b6dc0f5021b95cc8ee2f398f64335`.
+The outcome-neutral checker accepts the exact collapse and guard ledger and
+rejects all three hostile mutations. No transcript was printed within 240
+seconds. This has no mathematical status. The next structural reduction may
+eliminate `u4,u5`: after `z2=z5=0`, each finite common-root pair consists of
+two linear equations in one root, so vanishing of its `2 x 2` coefficient
+determinant is necessary. Proving the resulting root-free superset empty is
+sufficient to close `FFI`.
