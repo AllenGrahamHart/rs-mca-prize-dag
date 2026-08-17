@@ -39,3 +39,22 @@ INCOMPLETE:   timeout, missing lane, or implementation disagreement;
 No outcome promotes `K'=86`, changes a DAG status, or authorizes interval
 extrapolation. A broader finite wave is permitted only if this pilot leaves
 a sharply typed residual statement.
+
+**Outcome:** `INCOMPLETE`, with exact partial checkpoints retained and no row
+promotion. Modal app `ap-OP9ryrK2YdHRg463E43ktv` completed nine of ten jobs
+before the local client reached its five-minute RAMguard wall. Capture
+SHA-256:
+`d343b18cfef00d6a1dff8634a2ffe8b8574d25a59cf44f43d4c3862e47c8a4d8`.
+Primary and audit agree exactly, and remain safe, on ordinary and offsets 11,
+41, and 75. Primary offset 23 is also safe. The sampled paired leader is the
+ordinary lane with premium
+`41436497718685364991538520386265961874369213524` and positive margin
+`395858925488158871546979481504003419111314`.
+
+Only audit offset 23 was missing. A one-job repair app
+`ap-pejd1RneFmD0oc2yq2QjSZ` reached its preregistered 645-second child
+timeout at 62 MB; repair-capture SHA-256:
+`3a642fe1566ba8ffeb9282ed0d121928752c0ef69eabb58704cb9984455e7913`.
+No longer full-geometry rerun is authorized. The next route action uses the
+much cheaper complete paired raw-threshold envelope to locate every residual
+offset before selecting any further geometry theorem.

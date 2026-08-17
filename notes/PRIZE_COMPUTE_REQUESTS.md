@@ -14367,3 +14367,65 @@ INCOMPLETE:   timeout, missing lane, or implementation disagreement;
 No outcome promotes `K'=86`, changes a DAG status, or authorizes interval
 extrapolation. A broader finite wave is permitted only if this pilot leaves
 a sharply typed residual statement.
+
+**Outcome:** `INCOMPLETE`, with exact partial checkpoints retained and no row
+promotion. Modal app `ap-OP9ryrK2YdHRg463E43ktv` completed nine of ten jobs
+before the local client reached its five-minute RAMguard wall. Capture
+SHA-256:
+`d343b18cfef00d6a1dff8634a2ffe8b8574d25a59cf44f43d4c3862e47c8a4d8`.
+Primary and audit agree exactly, and remain safe, on ordinary and offsets 11,
+41, and 75. Primary offset 23 is also safe. The sampled paired leader is the
+ordinary lane with premium
+`41436497718685364991538520386265961874369213524` and positive margin
+`395858925488158871546979481504003419111314`.
+
+Only audit offset 23 was missing. A one-job repair app
+`ap-pejd1RneFmD0oc2yq2QjSZ` reached its preregistered 645-second child
+timeout at 62 MB; repair-capture SHA-256:
+`3a642fe1566ba8ffeb9282ed0d121928752c0ef69eabb58704cb9984455e7913`.
+No longer full-geometry rerun is authorized. The next route action uses the
+much cheaper complete paired raw-threshold envelope to locate every residual
+offset before selecting any further geometry theorem.
+## Preregistered K'=86 raw-threshold offset envelope
+
+- **decision:** identify the exact global raw-safe leader over all 75 positive
+  support-2/3 offsets and isolate the complete population requiring carrier
+  geometry
+- **scope:** offsets `1..75`, both the primary traversal and the independently
+  written reconstruction
+- **primary K'=86 adapter SHA-256:**
+  `e37b36fec4eab6286e353e54027b87235f0369947c814e795bcbff7a7aa8a68d`
+- **independent K'=86 adapter SHA-256:**
+  `429336fefdf47623184b2d2f2e21953f50be7fe07dda2c1e8ba054e4af637d74`
+- **primary base SHA-256:**
+  `b13ab1262105d53694407a9c448362bfa85b7914e6fce6242b715f2436c63b3b`
+- **independent base SHA-256:**
+  `90380f5d1f8191172dae43e90b9802873ed6f680a2bc41a49d50d3dade10f59c`
+- **dispatcher SHA-256:**
+  `b7614800264d3b94798c5b36691bfde6225e9230727199d72b59b3a18555bdd6`
+- **merger SHA-256:**
+  `78d96a7ef3708d488966fe2425f49f7c84152839225a971e5fde7cb3d5ec45bc`
+- **theorem code archive SHA-256:**
+  `327c677b870233b5b43609203a45c12ca478a719da3b9391c61860d9ddbe6b49`
+- **dependency archive SHA-256:**
+  `5ee5d10a20f1e47b1e5400d10177e33bafdc83c0e9b516d6d12dfe0fad93aaf8`
+- **envelope:** 150 remote jobs, one CPU and 256 MB each, 165-second child
+  timeout and 180-second container timeout; projected total cost below `$1`
+- **local safety:** one `modal`-profile RAMguard client; no local enumeration
+
+The adapters alter only `K'=86`, `q=76`, `m'=67558`, `n'=1048662`, and the
+derived exact safe ceiling. They call the two independently implemented,
+hash-pinned K'=85 scanners. A four-job offset-1/offset-75 smoke must pass
+before the complete wave.
+
+The full capture is accepted only if all 150 jobs finish below 128 MB, both
+implementations agree on every offset classification digest and profile, and
+
+```text
+sum_{d=1}^{75} (76-d) * 77^2
+```
+
+source units are classified. `PASS` names the exact raw-safe maximizer and
+finite residual population. `FAIL` is an implementation disagreement or
+malformed coverage. `INCOMPLETE` retains partial checkpoints and changes no
+mathematical status. This scan alone cannot promote `K'=86`.
