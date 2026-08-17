@@ -1,0 +1,50 @@
+{
+  "app": "rs-mca-positive-433-1b-o0b-fff-reduced-square",
+  "collection_complete": true,
+  "field": 2130706433,
+  "row": {
+    "basis_sha256": "20d4032b93acc1f0918efea258978bf830a4a7de389442b519e9496f9b6e9df4",
+    "common_basis_size": 21,
+    "extra_guards": [
+      "E",
+      "s",
+      "a0m",
+      "a2m"
+    ],
+    "normal_form_order": [
+      5,
+      7,
+      6
+    ],
+    "omitted_finite_pair": "q4",
+    "outside_equation_order": [
+      5,
+      7,
+      6
+    ],
+    "packet_sha256": "fbeda61593e73cdcb7bf1e2baa1ebe8b098a7025f834135b3e02d2c291d50cd9",
+    "partial_stderr": "",
+    "partial_stdout": "// ** G is no standard basis\nNORMAL=5,DEG=90,SIZE=4717\n",
+    "program_sha256": "d1e03febe23e00b5c5867aa737827c7ce2f0c701b759399afc28bc7fc6460a73",
+    "rank_cofactor_count": 6,
+    "relation": "necessary FFF reduced square-subsystem superset",
+    "route_guard_count": 16,
+    "source_square_relation": "necessary FFF square-subsystem superset",
+    "status": "TIMEOUT",
+    "variable_count": 6,
+    "variables": [
+      "E",
+      "s",
+      "t",
+      "r",
+      "c",
+      "b"
+    ]
+  },
+  "schema": "rate-half-kb-positive-433-1b-o0b-fff-reduced-square-v1",
+  "source_basis_sha256": "bda163ed7bdb961c115cebbe910dd3d991307bd53cddf4770925697d1a5e7c4e",
+  "source_cache_sha256": "28c97e75aa1fd80565ad926e95ab2eacf4ce62a692520ca2662de6845ee0ddd8",
+  "source_program_sha256": "ef7169e4c2e0044ddda34b8ecdd165fcc71699b9e7afbce848a036c27ddec1b1",
+  "source_square_sha256": "c5eca188068083699e94ba321858710f5225f423380a71821f9cea90135c4e72",
+  "source_square_timeout_sha256": "cefc9fc49863ab0d20291c7cc009553bc45b8eb2946550c97c3daca154b595af"
+}
