@@ -18017,4 +18017,11 @@ tools/ramguard modal -- timeout --signal=TERM --kill-after=15s 720s \
   experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_fff_generic_q7_extension_modal.py
 ```
 
-**Outcome:** preregistered; not yet run.
+**Outcome:** `INCOMPLETE_TIMEOUT`. Modal app
+`ap-cPK9VPOH7bzcXjc8ME08LD` constructed the exact 24-term `q7` input but
+exceeded the 600-second Julia wall during the Groebner extension. No basis or
+mathematical status was produced. Result SHA-256:
+`a3d3dd55da213b58af78e415df88c1004348b838e7430c8150234bdb732e0b22`.
+The checker accepts the transcript and rejects all three applicable hostile
+mutations. Retire the Groebner extension and construct the quadratic
+dimension-32 algebra from multiplication matrices instead.
