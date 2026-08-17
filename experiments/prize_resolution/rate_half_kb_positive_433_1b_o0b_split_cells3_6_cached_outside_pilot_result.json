@@ -1,0 +1,388 @@
+{
+  "app": "rs-mca-positive-433-1b-o0b-split-cells3-6-cached-pilot",
+  "complete": false,
+  "expected_case_count": 24,
+  "field": 2130706433,
+  "processed_case_count": 23,
+  "representatives_sha256": "39fb277a94d8ee3a24e3a8f9e1f0bb50014665ca7c151659d4dc8fcd912392d6",
+  "rows": [
+    {
+      "cell": 3,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "lane": "S0",
+      "packet_sha256": "fbeda61593e73cdcb7bf1e2baa1ebe8b098a7025f834135b3e02d2c291d50cd9",
+      "pairing_index": 0,
+      "partial_stderr": "",
+      "partial_stdout": "",
+      "program_sha256": "b5961075b5a3c35cf90b74a67133b90ac3492cb1dca2e17ba5575d37050abac0",
+      "sigma_o": -1,
+      "status": "TIMEOUT",
+      "xi_index": 0
+    },
+    {
+      "cell": 3,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "lane": "S0",
+      "packet_sha256": "fbeda61593e73cdcb7bf1e2baa1ebe8b098a7025f834135b3e02d2c291d50cd9",
+      "pairing_index": 0,
+      "partial_stderr": "",
+      "partial_stdout": "",
+      "program_sha256": "40e93b43aa5bc6ff562d44322564ff7ea3f20428c9d19446a584343e6ee57398",
+      "sigma_o": -1,
+      "status": "TIMEOUT",
+      "xi_index": 2
+    },
+    {
+      "cell": 3,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "lane": "S0",
+      "packet_sha256": "fbeda61593e73cdcb7bf1e2baa1ebe8b098a7025f834135b3e02d2c291d50cd9",
+      "pairing_index": 0,
+      "partial_stderr": "",
+      "partial_stdout": "",
+      "program_sha256": "0c678f2a5d6e9dacc6f9d2231a275dcbc7c8c6deb8796990f03af775cac189a9",
+      "sigma_o": -1,
+      "status": "TIMEOUT",
+      "xi_index": 6
+    },
+    {
+      "cell": 3,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "lane": "S0",
+      "packet_sha256": "51278b32abf7a566d265db9c49748dedb3709b88d48efeebad669cc85153ce38",
+      "pairing_index": 0,
+      "partial_stderr": "",
+      "partial_stdout": "",
+      "program_sha256": "16eeaf53d9176e8ca136910e8defa840314d92d40997fd045becb36fe77dd420",
+      "sigma_o": -1,
+      "status": "TIMEOUT",
+      "xi_index": 0
+    },
+    {
+      "cell": 3,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "lane": "S0",
+      "packet_sha256": "51278b32abf7a566d265db9c49748dedb3709b88d48efeebad669cc85153ce38",
+      "pairing_index": 0,
+      "partial_stderr": "",
+      "partial_stdout": "",
+      "program_sha256": "0cd7d8e29c7e7d5afa7adf6245fa99bf29f3df239f17f182fe6cd53fc92d18ca",
+      "sigma_o": -1,
+      "status": "TIMEOUT",
+      "xi_index": 2
+    },
+    {
+      "cell": 3,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "lane": "S0",
+      "packet_sha256": "51278b32abf7a566d265db9c49748dedb3709b88d48efeebad669cc85153ce38",
+      "pairing_index": 0,
+      "partial_stderr": "",
+      "partial_stdout": "",
+      "program_sha256": "53a3afcc69638aded4cb87897d01b59b196f6415ab75d2ddfe6a07a958bf90e1",
+      "sigma_o": -1,
+      "status": "TIMEOUT",
+      "xi_index": 6
+    },
+    {
+      "cell": 3,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "lane": "S0",
+      "packet_sha256": "fbeda61593e73cdcb7bf1e2baa1ebe8b098a7025f834135b3e02d2c291d50cd9",
+      "pairing_index": 0,
+      "partial_stderr": "",
+      "partial_stdout": "",
+      "program_sha256": "ca76a7c925033bab3edd4f1efb71c97e4c8eb7ea48f71ddb8b716b39caa547b2",
+      "sigma_o": 1,
+      "status": "TIMEOUT",
+      "xi_index": 0
+    },
+    {
+      "cell": 3,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "lane": "S0",
+      "packet_sha256": "fbeda61593e73cdcb7bf1e2baa1ebe8b098a7025f834135b3e02d2c291d50cd9",
+      "pairing_index": 0,
+      "partial_stderr": "",
+      "partial_stdout": "",
+      "program_sha256": "98b3d3ff143047957dee9d600bb328c3693c991798362d3c41e47eaea972058d",
+      "sigma_o": 1,
+      "status": "TIMEOUT",
+      "xi_index": 2
+    },
+    {
+      "cell": 3,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "lane": "S0",
+      "packet_sha256": "fbeda61593e73cdcb7bf1e2baa1ebe8b098a7025f834135b3e02d2c291d50cd9",
+      "pairing_index": 0,
+      "partial_stderr": "",
+      "partial_stdout": "",
+      "program_sha256": "24e8e3ea5d711f0156a54b35542b9f75c4bdcb9810c18851ccfd914db60084e2",
+      "sigma_o": 1,
+      "status": "TIMEOUT",
+      "xi_index": 6
+    },
+    {
+      "cell": 3,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "lane": "S0",
+      "packet_sha256": "51278b32abf7a566d265db9c49748dedb3709b88d48efeebad669cc85153ce38",
+      "pairing_index": 0,
+      "partial_stderr": "",
+      "partial_stdout": "",
+      "program_sha256": "c1b282adbd3933d8a29176d621746aa43901194c0b15111431f8b6dad6987c6a",
+      "sigma_o": 1,
+      "status": "TIMEOUT",
+      "xi_index": 0
+    },
+    {
+      "cell": 3,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "lane": "S0",
+      "packet_sha256": "51278b32abf7a566d265db9c49748dedb3709b88d48efeebad669cc85153ce38",
+      "pairing_index": 0,
+      "partial_stderr": "",
+      "partial_stdout": "",
+      "program_sha256": "3d4ade7170417b82cdcce6298dcea4b0f9d70ed85d3ba7662f92dfc149cb7b45",
+      "sigma_o": 1,
+      "status": "TIMEOUT",
+      "xi_index": 2
+    },
+    {
+      "cell": 3,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "lane": "S0",
+      "packet_sha256": "51278b32abf7a566d265db9c49748dedb3709b88d48efeebad669cc85153ce38",
+      "pairing_index": 0,
+      "partial_stderr": "",
+      "partial_stdout": "",
+      "program_sha256": "edbbb5bddb9f3319d88b9753f888aba154607f37cecb6130cbb6eb8b5fe1a5bc",
+      "sigma_o": 1,
+      "status": "TIMEOUT",
+      "xi_index": 6
+    },
+    {
+      "cell": 3,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "lane": "SDE",
+      "packet_sha256": "fbeda61593e73cdcb7bf1e2baa1ebe8b098a7025f834135b3e02d2c291d50cd9",
+      "pairing_index": 0,
+      "partial_stderr": "",
+      "partial_stdout": "",
+      "program_sha256": "ff858fb70f6c0abf6e33184fa74ab8d029a5a93ed7155f3a5e157341966f7f7d",
+      "sigma_o": -1,
+      "status": "TIMEOUT",
+      "xi_index": 0
+    },
+    {
+      "cell": 3,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "lane": "SDE",
+      "packet_sha256": "fbeda61593e73cdcb7bf1e2baa1ebe8b098a7025f834135b3e02d2c291d50cd9",
+      "pairing_index": 0,
+      "partial_stderr": "",
+      "partial_stdout": "",
+      "program_sha256": "47fd9c5edb30a614079cfa4f42949699463532e40e6abbc3fea8997382725686",
+      "sigma_o": -1,
+      "status": "TIMEOUT",
+      "xi_index": 2
+    },
+    {
+      "cell": 3,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "lane": "SDE",
+      "packet_sha256": "fbeda61593e73cdcb7bf1e2baa1ebe8b098a7025f834135b3e02d2c291d50cd9",
+      "pairing_index": 0,
+      "partial_stderr": "",
+      "partial_stdout": "",
+      "program_sha256": "63efc6a0645a5fa59f311681fbf6f95bc92eb83653f96da748eaf2b209f162ce",
+      "sigma_o": -1,
+      "status": "TIMEOUT",
+      "xi_index": 6
+    },
+    {
+      "cell": 3,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "lane": "SDE",
+      "packet_sha256": "51278b32abf7a566d265db9c49748dedb3709b88d48efeebad669cc85153ce38",
+      "pairing_index": 0,
+      "partial_stderr": "",
+      "partial_stdout": "",
+      "program_sha256": "7132e0cabf0b9228a3dacbd3bbf87abe20434c72850f009fdde6a3cd13fe2ae6",
+      "sigma_o": -1,
+      "status": "TIMEOUT",
+      "xi_index": 0
+    },
+    {
+      "cell": 3,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "lane": "SDE",
+      "packet_sha256": "51278b32abf7a566d265db9c49748dedb3709b88d48efeebad669cc85153ce38",
+      "pairing_index": 0,
+      "partial_stderr": "",
+      "partial_stdout": "",
+      "program_sha256": "70a35193529d8f065b4fe325a179a69c074e61f9ee66cc39d98a32cf9cecdf4b",
+      "sigma_o": -1,
+      "status": "TIMEOUT",
+      "xi_index": 2
+    },
+    {
+      "cell": 3,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "lane": "SDE",
+      "packet_sha256": "51278b32abf7a566d265db9c49748dedb3709b88d48efeebad669cc85153ce38",
+      "pairing_index": 0,
+      "partial_stderr": "",
+      "partial_stdout": "",
+      "program_sha256": "fe14cda99b3bc45cf34fd0e7d60a3f3b50027fa852469f99a24c63775b39f0ce",
+      "sigma_o": -1,
+      "status": "TIMEOUT",
+      "xi_index": 6
+    },
+    {
+      "cell": 3,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "lane": "SDE",
+      "packet_sha256": "fbeda61593e73cdcb7bf1e2baa1ebe8b098a7025f834135b3e02d2c291d50cd9",
+      "pairing_index": 0,
+      "partial_stderr": "",
+      "partial_stdout": "",
+      "program_sha256": "85f74dce28cd4baa4087e93cb0983681723cd6a8ceb6bc3853c4d2c7c2d2a6dd",
+      "sigma_o": 1,
+      "status": "TIMEOUT",
+      "xi_index": 0
+    },
+    {
+      "cell": 3,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "lane": "SDE",
+      "packet_sha256": "fbeda61593e73cdcb7bf1e2baa1ebe8b098a7025f834135b3e02d2c291d50cd9",
+      "pairing_index": 0,
+      "partial_stderr": "",
+      "partial_stdout": "",
+      "program_sha256": "433df0a65f679ea0c9d4cacd34624a29398c22af4f32de1e93f8bb039b9b368f",
+      "sigma_o": 1,
+      "status": "TIMEOUT",
+      "xi_index": 2
+    },
+    {
+      "cell": 3,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "lane": "SDE",
+      "packet_sha256": "fbeda61593e73cdcb7bf1e2baa1ebe8b098a7025f834135b3e02d2c291d50cd9",
+      "pairing_index": 0,
+      "partial_stderr": "",
+      "partial_stdout": "",
+      "program_sha256": "e9871352cc9829dd080c1f3146a1a1d50918587f253f3f2aa5e4cae31b552e30",
+      "sigma_o": 1,
+      "status": "TIMEOUT",
+      "xi_index": 6
+    },
+    {
+      "cell": 3,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "lane": "SDE",
+      "packet_sha256": "51278b32abf7a566d265db9c49748dedb3709b88d48efeebad669cc85153ce38",
+      "pairing_index": 0,
+      "partial_stderr": "",
+      "partial_stdout": "",
+      "program_sha256": "86f6447210fe419d3d5047d195113c56245dc84bb903f660d3826576fb40fce3",
+      "sigma_o": 1,
+      "status": "TIMEOUT",
+      "xi_index": 0
+    },
+    {
+      "cell": 3,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "lane": "SDE",
+      "packet_sha256": "51278b32abf7a566d265db9c49748dedb3709b88d48efeebad669cc85153ce38",
+      "pairing_index": 0,
+      "partial_stderr": "",
+      "partial_stdout": "",
+      "program_sha256": "372f880fe41e63d0890a64b5857defdc2238f0808eab6a7b78f8de6b4191811c",
+      "sigma_o": 1,
+      "status": "TIMEOUT",
+      "xi_index": 2
+    }
+  ],
+  "schema": "rate-half-kb-positive-433-1b-o0b-split-cells3-6-cached-pilot-v1",
+  "scope": "pilot",
+  "selected_cases_sha256": "a1853f2a70cd7fc46c173f1401e4b7e8820f9fa1c01e8a8b3571bfefa2969c96",
+  "source_cache_sha256": "28c97e75aa1fd80565ad926e95ab2eacf4ce62a692520ca2662de6845ee0ddd8",
+  "source_core_sha256": "048e38650d7ab98ee9c21d081d4908ed067f57fe483a6e4b6890fab3fa755b03",
+  "source_manifest_sha256": "409e0e0851f2cef35501123b3dcb5818318380a291864090a7792accf599dfc2",
+  "status_counts": {
+    "TIMEOUT": 23
+  },
+  "unit_count": 0
+}

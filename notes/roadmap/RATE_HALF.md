@@ -452,6 +452,14 @@ compiler whose pinned polynomial packets are consumed by lightweight
 case-specific workers; only that repaired 24-case pilot may decide whether a
 larger campaign is warranted.
 
+The cached-input repair removed symbolic duplication but also timed out: 23
+returned programs spent 240 seconds without completing the initial global
+seven-variable `slimgb`, and the preempted final input was stopped at the
+external wall. This rejects a second architecture, not the cell claim. Next
+compile the guarded one-dimensional common Gröbner basis once per source-sign
+row, then run one outside diagnostic from that reduced basis. Do not schedule
+another 24-worker batch until the one-case diagnostic reaches a transcript.
+
 The positive `433-1b -> O0a` role-cell ledger has closed:
 
 ```text

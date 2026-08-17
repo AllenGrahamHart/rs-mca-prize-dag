@@ -16009,3 +16009,20 @@ tools/ramguard modal -- timeout --signal=TERM --kill-after=15s 360s \
 checker acceptance. A complete nonunit is retained in full. Any timeout or
 error remains `INCOMPLETE`; the full 1,416-representative campaign is not
 authorized by this preregistration.
+
+**Outcome:** `INCOMPLETE`; global seven-variable saturation rejected. Modal
+app `ap-inXJOeBGmGffKFVY29yI3W` produced 23 ordered `TIMEOUT` rows before the
+external six-minute wall; the remaining input was preempted and restarted.
+The app still had two containers after the client wall, and they were
+explicitly stopped with `modal app stop -y`. Result SHA-256:
+`4d2471d23f0ac04f5e049b6a84cd08152f85911f5cb72b0b5ae3a436d414accf`.
+Incomplete-checker SHA-256:
+`77b434e7dd89ffb31ffca3a40b7a11d2956916ad0606c40a1d2cc641451cdc39`.
+
+Every returned worker had an exact program hash and cached-packet hash but an
+empty partial stdout: Singular did not finish the initial `slimgb(I)` before
+the 240-second child timeout. Thus cached input fixed the first run's symbolic
+duplication, but the raw eight-generator seven-variable Gröbner basis is
+itself unsuitable. No row has mathematical status, and no batch rerun is
+authorized. The bounded replacement is to cache the saturated common-curve
+Gröbner basis first and test one outside case against that basis.
