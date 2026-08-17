@@ -54,6 +54,7 @@
     "notes/compute_requests/sections/49-o0b-split-cell0-outside-pilot.md",
     "notes/compute_requests/sections/50-o0b-split-cell0-outside-full.md",
     "notes/compute_requests/sections/51-o0b-split-cells3-6-outside-pilot.md",
-    "notes/compute_requests/sections/52-cell3-cached-common-input.md"
+    "notes/compute_requests/sections/52-cell3-cached-common-input.md",
+    "notes/compute_requests/sections/53-o0b-split-cells3-6-cached-pilot.md"
   ]
 }
