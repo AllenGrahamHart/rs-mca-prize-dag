@@ -27,6 +27,7 @@
     "notes/compute_requests/sections/22-k86-adjacent-support-route-pilot.md",
     "notes/compute_requests/sections/23-k86-raw-threshold-offset-envelope.md",
     "notes/compute_requests/sections/24-k86-best-single-edge-stress.md",
-    "notes/compute_requests/sections/25-k86-best-single-completion-wave.md"
+    "notes/compute_requests/sections/25-k86-best-single-completion-wave.md",
+    "notes/compute_requests/sections/26-k86-component-payment.md"
   ]
 }

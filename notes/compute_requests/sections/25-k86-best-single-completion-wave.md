@@ -44,3 +44,17 @@ blocks promotion. `INCOMPLETE` changes no status.
 Even on `PASS`, promotion requires the ordinary-lane coverage contract and
 the exact positive component-payment arithmetic to be stated and verified in
 a compact DAG node.
+
+**Outcome:** `PASS`. Modal app `ap-HSdSkI0KYmWfnz0jL0Bron` completed all 84
+jobs below the memory limit. The merger accepted exact primary/audit agreement
+on all 42 offsets, all 13,571,481 source units, all 415,413 raw-unsafe units,
+and 62,159,220 deduplicated carrier profiles per implementation. Capture
+SHA-256:
+`bc67b9fa9ffa6b386d5d5f9e053e2d5a99a8451f2e9ae8d03c0095cc6f867349`.
+
+Every residual profile is at most the exact raw-safe offset-32 leader
+`41436891148468120556440841127823744176664445997`. Together with the paired
+raw-threshold envelope, fully safe offsets `43..75`, and the paired ordinary
+lane, this certifies the complete K'=86 carrier frontier. Promotion still
+requires the exact positive component-payment arithmetic and compact node
+contract.
