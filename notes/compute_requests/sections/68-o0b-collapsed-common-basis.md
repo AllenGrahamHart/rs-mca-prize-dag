@@ -34,4 +34,12 @@ tools/ramguard modal -- timeout --signal=TERM --kill-after=15s 150s \
   experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_collapsed_common_basis_modal.py
 ```
 
-**Outcome:** preregistered; not yet run.
+**Outcome:** `COMPLETE_NONUNIT`. Modal app `ap-LAvxbcgb5gFcMXRlAAlUiR`
+completed in about five seconds with a 43-element, dimension-zero basis;
+result SHA-256:
+`01a48b8003766b3e34d6b47423c8aaaf8ad8e521f77b1ce01cd1a9b5a6a7f65d`.
+The outcome-neutral checker accepts the complete basis ledger and rejects all
+three hostile mutations. This does not prove emptiness because the computed
+necessary common superset is nonunit. It does prove that all exact
+`FFI/FIF` base points lie in a finite four-variable scheme, making
+finite-base specialization or FGLM the next gate.

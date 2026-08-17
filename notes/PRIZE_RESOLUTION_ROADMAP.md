@@ -44235,6 +44235,10 @@ asserted.
   that every finite first matching polynomial has nonzero linear
   coefficient. Thus its finite root can be eliminated exactly by a
   coefficient determinant plus the printed slope guard.
+- Adjoining `k2=k5=0` to the saturated four-variable common basis produces
+  a checked nonunit dimension-zero basis of size 43. Hence all admissible
+  `FFI/FIF` base points lie in a finite common scheme before `d,e,f` are
+  introduced.
 
 ### Retired endpoints
 
@@ -44256,11 +44260,11 @@ charts nor support promotion of the representative.
 
 ### Next decision gate
 
-1. Branch or factor the two explicit `FFI` determinants under `q3`;
-   retain the exact `m4p1*m5p1 != 0` slope guards in every branch.
-2. Seek a low-variable consequence before any further computation; a new
-   run is allowed only for a strictly smaller branch with a printed equation
-   ledger.
+1. Compute and audit the finite degree/triangular presentation of the
+   dimension-zero collapsed common basis. Use it to specialize `t,r,c,b`
+   before adjoining `d,e,f`.
+2. Reduce or factor the two explicit `FFI` determinants over that finite
+   base; retain the exact `m4p1*m5p1 != 0` slope guards in every branch.
 3. Transport the successful collapsed architecture to `FIF`, then address
    the structurally different `FFF` and `IFF` leaves before quotient
    transport.
