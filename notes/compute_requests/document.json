@@ -70,6 +70,7 @@
     "notes/compute_requests/sections/65-o0b-ffi-collapsed.md",
     "notes/compute_requests/sections/66-o0b-ffi-rootfree.md",
     "notes/compute_requests/sections/67-o0b-ffi-exact-rootfree.md",
-    "notes/compute_requests/sections/68-o0b-collapsed-common-basis.md"
+    "notes/compute_requests/sections/68-o0b-collapsed-common-basis.md",
+    "notes/compute_requests/sections/69-o0b-collapsed-common-fglm.md"
   ]
 }
