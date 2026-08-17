@@ -36,3 +36,16 @@ tools/ramguard modal -- timeout --signal=TERM --kill-after=15s 300s \
   ~/.venvs/modal/bin/modal run \
   experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_split_cells3_6_initial_prefix_modal.py
 ```
+
+**Outcome:** `INCOMPLETE_BOUNDARY_LOCALIZED`. Modal app
+`ap-ujtvs7abKxrqiT8MlFc6re` returned all five pinned rows; result SHA-256:
+`486c36b63335f0b30aa17008481df341869f5d37b32456d58fc40438deb7daa6`.
+The outcome-neutral checker accepts the ordered collection and rejects all
+three hostile mutations. Prefix 1, the 21-polynomial common basis plus `q3`,
+completed at dimension 3 with a retained 51-polynomial basis. Its canonical
+polynomial payload has 119,241 characters. Prefixes 2 through 5 all timed out
+without output, so the first matching equation `q4` is the exact obstruction
+in the compiler order. No emptiness statement follows. The retained prefix-1
+basis authorizes independent single-equation extensions by each of
+`q4,q5,q6,q7`, with the aim of finding an easier equation order before the
+hard `q4` step.
