@@ -42,3 +42,12 @@ best-single campaign. `SURVIVED` requires paired agreement on all four lanes,
 leader. `INCOMPLETE` retains partial checkpoints and changes no mathematical
 status. Survival authorizes a separately preregistered completion wave over
 offsets `1..42`; this stress campaign alone cannot promote `K'=86`.
+
+**Outcome:** `SURVIVED`. Modal app `ap-5YQpAxDUQx8BshC5cCrqxM` completed all
+eight jobs at 29--34 MB peak RSS. The paired checker accepted all 1,221,374
+source units and 4,954,135 deduplicated carrier profiles per implementation,
+with exact agreement on offsets 1, 23, 32, and 42. Capture SHA-256:
+`8499f33db4c4bcd20b7c2e8b8bc170d3d6beb7f33421539d43f1e6165e5301ba`.
+The raw-safe leader lane, the largest lane, the interior stress lane, and the
+last raw-unsafe lane all survive. This authorizes the separately pinned full
+completion wave; it does not promote `K'=86`.
