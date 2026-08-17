@@ -6639,3 +6639,26 @@ K'=60..70 (cross-support collisions), K'=71 (carrier trichotomy).
 CLOSED PREFIX K'=10..71; remaining rank-nine 72..15528; next =
 classify the M3=M2+2 carrier position at K'=72. Exports to #1170
 continuous. Chain: 2544/7574, all PASS, census UNCHANGED.
+
+## WAVE 68 INTEGRATED (2026-08-17, coordinator)
+
+**MERGED exact pin ce890d2c8 (cycles ~366-406, +27 node dirs, 88 commits
+over two days; 53/54 local replays PASS; census-neutral).** The K'
+ladder ground 72..86 (incl. K'=74-86 full-carrier-atlas payments, K85
+Modal completion wave with dispatcher repairs, K86 raw threshold
+envelope; #1170 exported through K'=86). K'=87 IS THE FIRST REAL WALL:
+best-single and support-disjoint routes CUT; disjoint-edge and
+clipped56 witness REPAIRS; joint456 + clipped45 route walls; the
+raw-clipped adjacent-support coupling THEOREM (fractional-knapsack
+exchange, 47-digit exact cap at (u,g,d)=(34,6,5)); clipped offset-1
+survival certified (462,384 units, Modal app + capture SHA pinned;
+1 of 43 unsafe offsets). A SHARDED MODAL COMPLETION WAVE for the
+remaining offsets is LIVE (12h cap, ramguard modal, prereg committed
+pre-dispatch). REPLAY EXCEPTION: k82_full_carrier_atlas verify_audit
+is a REMOTE-TIER sharded-Modal audit (cycle 379 custody recorded);
+not locally replayable in the 5-min tier — primary verify.py PASS
+locally; accepted per the Modal-pinned standard. LESSON: tier-split
+the mass-replay loop (local vs remote-tier audits). UPSTREAM: Scott
+returned 08-15 23:37 with THREE rank-11 PRs (#1171 anticodes, #1172
+fixed-endpoint routing, #1173 anchored rich flats) — NEXT SWEEP
+TARGET. Chain: 2571/7667, all PASS, census UNCHANGED.
