@@ -29,3 +29,17 @@ leader; `DEAD` means the estimated optimum remains above the leader;
 from this probe is proof evidence, and it cannot move DAG status. A promising
 result must be reconstructed as an exact rational primal/dual certificate
 with an independent verifier before entering any theorem or larger scan.
+
+**Outcome:** `DEAD` as a heuristic route. Modal app
+`ap-meBQmnvkmsD3FoYCpUtHPJ` completed in 5.06 seconds at 182 MB peak RSS.
+Capture SHA-256:
+`f07bab7fc16b5917c0bee80d32325beeb73882ae177d316575228c031a394e47`.
+Dual simplex and interior point return the same objective estimate. The
+resulting repaired premium is approximately
+`46573494499935690501632509827776156475058710877`, above the leader by
+approximately `5088564702309253289926741066030525546321864177`.
+
+This separation is decisive for route selection, so no exactification or
+larger scan is warranted. The values remain floating-point heuristic output
+and are not promoted as a theorem, proof node, or falsification of any
+asserted DAG claim.

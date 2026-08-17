@@ -38,7 +38,11 @@ certificates required by the challenge.
   forces at least `8106` represented rich row spaces and `508` distinct
   dimension-two/three containers, each with `42453` common actual zeros and
   an exact group-local shortening. This `508`-container family is the next
-  synchronization/collision target.
+  synchronization/collision target. Exact incidence moments now force one
+  coordinate through 21 containers, a dimension-at-most-six pair with 1640
+  common zeros, and a dimension-at-most-nine triple with 61 common zeros.
+  A same-dimension 254-container subfamily has typed thresholds 11, 1562,
+  and 52. These are collision inputs, not full locator synchronization.
 - The finite rank-nine prefix is proved through `K'=87`. At the first open
   row `K'=88`, paired raw scans classify all 18,741,723 source units and
   leave exactly 622,895 raw-unsafe units on offsets `1..44`. This is a
