@@ -14917,3 +14917,19 @@ inequalities sharing one variable and solves their joint feasible region.
 resulting witness price. A nonpositive margin is a route wall. A positive
 margin authorizes theorem packaging and a separately preregistered lane
 falsifier; this probe alone cannot promote `K'=87`.
+
+**Outcome:** arithmetic `PASS`, route wall. Modal app
+`ap-D2TbRHCVUrcU61tRsOC4we` completed the probe, and the explicit-breakpoint
+and independent vertex-enumeration LPs agree exactly in every stratum. The
+simultaneous cap is
+`26934334803635047410267405026838894905450545600`. Substitution leaves
+premium `42322182171521728365206683472917703495213582545`, still above the
+K'=87 leader by `861283046046284527325636787894941163714537850`. Capture
+SHA-256: `e7a5bd7c42cf067f377aac6176d75c887f371c1c019b3e33fc9ee4bb2eb6e76f`.
+
+Thus the valid shared-stratum consequence is weaker on this witness than the
+existing strongest adjacent-pair option. It is retained as an exact route
+cut and does not authorize a lane scan. The next candidate should retain the
+raw global support-4 and support-5 caps inside the fixed-union `(4,5)`
+stratum LP instead of applying them only after the weighted pair cap has been
+collapsed.
