@@ -17558,4 +17558,12 @@ tools/ramguard modal -- timeout --signal=TERM --kill-after=15s 150s \
   experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_fff_generic_t_basis_modal.py
 ```
 
-**Outcome:** preregistered; not yet run.
+**Outcome:** `ENGINE_REJECTED`. Modal app
+`ap-xIYe6cHFkUBtFeoIUlmDUD` reached the `imap/std` line and Singular
+rejected the transcendental coefficient field with
+`characteristic is too large (max is 2^29)`, then faulted. No generic
+basis was produced and no mathematical status changes. This is the same
+engine limitation previously observed for large-prime block orders.
+Singular generic-t computation at the deployed prime is retired. The
+repository's existing AbstractAlgebra/Groebner.jl pipeline supports
+`GF(2130706433)(t)` and is the registered replacement.
