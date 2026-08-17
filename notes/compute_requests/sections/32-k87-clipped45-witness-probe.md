@@ -32,3 +32,17 @@ normalization already used by the proved adjacent-support router.
 nonpositive margin is a route wall. A positive margin authorizes packaging
 the clipped fixed-union theorem and a separately preregistered offset-1
 falsifier. This one-witness probe cannot promote `K'=87`.
+
+**Outcome:** arithmetic `PASS`, route wall. Modal app
+`ap-cCC7w2ZcDACsgqKNJS19Ij` completed the probe. The support-4-oriented and
+support-5-oriented exact optimizers agree on cap
+`15826982470121619978034510012906276872113956680`. The repaired premium is
+`41987945497536424020866493137524475559167409625`, still above the K'=87
+leader by `527046372060980182985446452501713227668364930`. Capture SHA-256:
+`4f3bef9931e692f12b85432719730f433fcb0603cf894982c06a5e9458895120`.
+
+The clipped support-4/5 route is therefore insufficient and does not
+authorize a lane scan. The exact support-4 raw cap is active at the optimum,
+so the clipping is nonvacuous; however, the witness's stronger existing
+single edge is support 5/6. The next bounded action is the analogous
+raw-clipped support-5/6 stratum LP for the `(34,6)` charge.
