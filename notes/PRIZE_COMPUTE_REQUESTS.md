@@ -17286,4 +17286,17 @@ tools/ramguard modal -- timeout --signal=TERM --kill-after=15s 360s \
   experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_fff_q5_coefficients_modal.py
 ```
 
-**Outcome:** preregistered; not yet run.
+**Outcome:** `COMPLETE`. Modal app
+`ap-1GgCht615t6eZJCKSKStPA` retained all three coefficient normal forms:
+
+```text
+C0: degree 44, 761 terms, SHA-256 98f5a959174f9899da07cb09736ef86dc449e1513821a6741dce19e749bfe913
+C1: degree 44, 782 terms, SHA-256 b7defd8474f7a3b04011776833e0b4b9dce44de2c88e41633b797d4b9ce1cf9a
+C2: degree 44, 799 terms, SHA-256 3f1f3db22008656b9e98b1966ad0f6f3cff897544d02b48d1ddfc14b6e48990e
+```
+
+Result SHA-256:
+`25b3ac23d74e0bb710c50d636048c0f95ea4b94d51f3c5e02634cbfdfddf5f6e`.
+The checker accepts the complete coefficient ledger and rejects all three
+hostile mutations. This replaces regeneration of the 3,126-term whole
+normal form but does not close `FFF`.
