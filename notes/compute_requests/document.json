@@ -38,6 +38,7 @@
     "notes/compute_requests/sections/33-k87-clipped56-witness-probe.md",
     "notes/compute_requests/sections/34-k87-clipped-offset1-falsifier.md",
     "notes/compute_requests/sections/35-k87-clipped-offset1-audit-resume.md",
-    "notes/compute_requests/sections/36-k87-clipped-completion-wave.md"
+    "notes/compute_requests/sections/36-k87-clipped-completion-wave.md",
+    "notes/compute_requests/sections/37-k87-clipped-completion-shards.md"
   ]
 }

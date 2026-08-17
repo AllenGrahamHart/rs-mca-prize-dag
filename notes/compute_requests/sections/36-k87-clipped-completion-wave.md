@@ -36,3 +36,11 @@ profile is at most the K'=87 leader.
 `INCOMPLETE` preserves completed jobs and changes no status. `PASS` closes
 only the nonordinary post-carrier lane; the ordinary lane and exact component
 payment remain separate obligations before `K'=87` can be promoted.
+
+**First launch:** infrastructure `INCOMPLETE` before any remote job started.
+Modal app `ap-CJGzce4t8apKw3zM04CRP9` stopped with local client error
+`can't start new thread`. The WSL host already had about 376 live threads;
+adding one dispatch thread per 86-job wave exceeded its local task headroom.
+No mathematical result was produced and no capture is accepted. The identical
+remote jobs will be sent as three sequential, hash-pinned shards of at most
+30 jobs each.
