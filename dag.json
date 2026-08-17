@@ -40161,6 +40161,19 @@
    ]
   },
   {
+   "id": "rate_half_mca_rank11_anticode_branch_payments_import",
+   "title": "The anticode branch of rank eleven: rank-one paid, rich-flat terminal",
+   "status": "PROVED",
+   "closure": "stacked import of #1171/#1172/#1173: rank-one anticode branch paid; rank-two shared-locator and heavy-rich-flat terminals; zero ledger movement",
+   "statement": "Import of scottdhughes PRs #1171/#1172/#1173 (2026-08-15, stacked on #1168), coordinator-audited with every envelope identity independently recomputed. In the post-near affine-error-rank-11 family at the official KoalaBear row, B_*=274980728111395087: (1) #1171 classifies every pairwise-rank-one minimizing-pair family into the two bilinear clique geometries (fixed right factor = one affine correction ray; fixed left factor = one affine correction space of dimension <= 10); the common-core-aware fixed-right ray count over all 1048576 legal core sizes has exact maximum 8147918 at universal core K-1; fixed-left properness gives <= 1031 selected slopes else an explicit positive-dimensional affine-linear correction component. (2) #1172 PAYS the complete low-margin pairwise-rank-one branch at cutoff tau=439: 32215263489919749 + 242314927584173240 + 134944 = 274530191074227933, slack 450537037167154 (cutoff 438 over budget by 96628092421444); residual: every over-budget rank-11 line forces two pair types with rank(M_e-M_f)=2 and |H_e cap H_f| >= 134066 = 2*1115609-n, so the endpoint-difference polynomials share a squarefree deployed locator of degree >= 134066. (3) #1173 pays the anchored partition at (tau,h)=(1547,42452): rank-one 60010642445729852 + rank-two 146093034425737644 + anchor 982651 + tail 68875044016173272 + near 134944 = 274978720888758363, slack 2007222636724 (h=42453 over by 17108854816460; 42452 is the global maximum payable threshold); terminal: every over-budget line emits a represented row space U (rank 1-2) inside a strictly larger direction subspace W <= C' vanishing on >= 42453 common actual columns. PROGRAM CONNECTION: Scott's pair-difference-rank stratification and the local K'-ladder are complementary partitions of the #1168 residual; the #1172 shared-locator edges are the exact use case of the banked common-core shortening adapter (rate_half_mca_rank11_order32_common_support_cancellation applies it to rank-11 seeds); the #1173 heavy rich flats are carrier-atlas objects; both stacks' chronology obligations are priced by the #1169 acceptance contract. Zero active-v4 movement; rank eleven remains unpaid.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_anticode_branch_payments_import/statement.md",
+    "background/nodes/rate_half_mca_rank11_anticode_branch_payments_import/audit.md",
+    "background/nodes/rate_half_mca_rank11_anticode_branch_payments_import/provenance.md",
+    "background/nodes/rate_half_mca_rank11_anticode_branch_payments_import/verify.py"
+   ]
+  },
+  {
    "id": "rate_half_mca_rank11_component_ninesubset_lane_concentrator",
    "title": "Rank-eleven component mass concentrates on one nine-subset",
    "status": "PROVED",
@@ -79191,6 +79204,11 @@
    "from": "rate_half_mca_rank11_anchor_star_sae_router",
    "to": "rate_half_mca_rank11_global_core_rankdrop_highcomplexity_router",
    "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_anticode_branch_payments_import",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
   },
   {
    "from": "rate_half_mca_rank11_component_ninesubset_lane_concentrator",

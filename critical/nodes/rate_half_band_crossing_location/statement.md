@@ -5597,3 +5597,27 @@ identity/cap) — bankable at printed scope per cycle 217, not yet
 harvested. Consequence for THIS node: locating the crossing at the
 official row now reduces, within the post-near stratification, to the
 rank-11 coupling question plus the strata behind it.
+
+## Rank-11 two-program convergence addendum (2026-08-17, coordinator)
+
+Scott's anticode stack (#1171/#1172/#1173, imported as
+`rate_half_mca_rank11_anticode_branch_payments_import`) and the local
+K'-ladder are complementary stratifications of the #1168 residual —
+by pair-difference rank versus by component row. Updated rank-11
+state, all in the post-near stratified theorem:
+
+- **Rank-one anticode branch: PAID** (#1172, cutoff tau=439, slack
+  450537037167154; ray cap 8147918 from #1171 across all 1048576 core
+  sizes).
+- **Anchored partition: PAID to threshold h=42452** (#1173, slack
+  2007222636724 — the global maximum payable threshold).
+- **K' component ladder: closed prefix 10..86**; K'=87 wall campaign
+  live (offset 1/43 survived; sharded Modal wave running).
+- **Convergent terminals** (what remains, from both directions):
+  (i) rank-two shared-locator edges (common squarefree factor of
+  degree >= 134066) — the exact use case of the banked common-core
+  shortening adapter, already applied to rank-11 seeds locally;
+  (ii) heavy rich flats (subspace W vanishing on >= 42453 common
+  columns) — carrier-atlas objects; (iii) the chronology-correct
+  owner, priced by the #1169 acceptance contract. The two programs
+  now share their residual surface.

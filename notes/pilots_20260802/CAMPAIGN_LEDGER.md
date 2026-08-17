@@ -6662,3 +6662,20 @@ the mass-replay loop (local vs remote-tier audits). UPSTREAM: Scott
 returned 08-15 23:37 with THREE rank-11 PRs (#1171 anticodes, #1172
 fixed-endpoint routing, #1173 anchored rich flats) — NEXT SWEEP
 TARGET. Chain: 2571/7667, all PASS, census UNCHANGED.
+
+## 2026-08-17 SCOTT ANTICODE STACK HARVESTED + CONVERGENCE BANKED
+
+#1171/#1172/#1173 audited and imported as ONE consolidated node
+(rate_half_mca_rank11_anticode_branch_payments_import): rank-one
+anticode branch PAID (tau=439, slack 450537037167154; ray cap 8147918),
+anchored partition PAID to h=42452 (slack 2007222636724), residuals =
+rank-two shared-locator edges (deg >= 134066) + heavy rich flats
+(>= 42453 columns). Every envelope identity independently recomputed
+(incl. 134066 = 2*1115609 - n); no collision with the local relative-
+ray frame (different objects). A1 gains the TWO-PROGRAM CONVERGENCE
+addendum: the anticode stack and the K'-ladder now share their
+residual surface — shared-locator edges = the shortening adapter's
+use case, rich flats = carrier-atlas objects, chronology = the #1169
+contract. Outward: #1172 comment (issuecomment-5313395446) offering
+the adapter for horn 1 + an additive-degree observation for horn 2.
+Chain: 2572/7668, all PASS, census UNCHANGED 231(167/37/27).
