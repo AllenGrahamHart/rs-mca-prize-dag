@@ -16590,3 +16590,15 @@ tools/ramguard modal -- timeout --signal=TERM --kill-after=15s 390s \
   ~/.venvs/modal/bin/modal run \
   experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_ffi_msolve_modal.py
 ```
+
+**Outcome:** `INCOMPLETE_TIMEOUT`. Modal app `ap-JJorYivOpEN8Skp6k2dJtx`
+returned the pinned row with status `TIMEOUT`; result SHA-256:
+`f0846e25f26981e045d4416233bd81d36dac6c3a44b0da7b2cd19912a02c57dd`.
+The outcome-neutral checker accepts the exact 18-variable, 38-polynomial
+input and rejects all three hostile mutations. msolve `0.7.5` reported the
+correct characteristic, 18 variables, 38 valid equations, DRL order, sparse
+exact linear algebra, and one thread, but produced no basis output within 240
+seconds. This has no mathematical status and retires F4 on the unreduced
+lifted system. The retained 15,897-byte explicit input exposes a structural
+reduction in the `q6` infinity equations: admissibility forces `z2=z5=0`,
+which is the next exact route.
