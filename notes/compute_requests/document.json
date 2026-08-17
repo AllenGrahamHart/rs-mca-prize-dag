@@ -52,6 +52,7 @@
     "notes/compute_requests/sections/47-cell11-guard-boundary-classifier.md",
     "notes/compute_requests/sections/48-cell11-guard-boundary-direct-replay.md",
     "notes/compute_requests/sections/49-o0b-split-cell0-outside-pilot.md",
-    "notes/compute_requests/sections/50-o0b-split-cell0-outside-full.md"
+    "notes/compute_requests/sections/50-o0b-split-cell0-outside-full.md",
+    "notes/compute_requests/sections/51-o0b-split-cells3-6-outside-pilot.md"
   ]
 }
