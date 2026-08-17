@@ -1,0 +1,140 @@
+{
+  "app": "rs-mca-positive-433-1b-o0b-chart-multifinite-boundary",
+  "case": [
+    3,
+    "S0",
+    -1,
+    -1,
+    -1,
+    2,
+    0
+  ],
+  "chart_masks": [
+    [
+      "finite",
+      "finite",
+      "finite"
+    ],
+    [
+      "finite",
+      "finite",
+      "infinity"
+    ],
+    [
+      "finite",
+      "infinity",
+      "finite"
+    ],
+    [
+      "infinity",
+      "finite",
+      "finite"
+    ]
+  ],
+  "collection_complete": true,
+  "expected_row_count": 4,
+  "field": 2130706433,
+  "processed_row_count": 4,
+  "remote_errors": [],
+  "rows": [
+    {
+      "basis_sha256": "20d4032b93acc1f0918efea258978bf830a4a7de389442b519e9496f9b6e9df4",
+      "boundary_guard": "b+1",
+      "chart_mask": [
+        "finite",
+        "finite",
+        "finite"
+      ],
+      "common_basis_size": 21,
+      "finite_root_count": 3,
+      "generator_count": 30,
+      "index": 0,
+      "matching_chart_equation_count": 6,
+      "outside_equation_count": 8,
+      "packet_sha256": "fbeda61593e73cdcb7bf1e2baa1ebe8b098a7025f834135b3e02d2c291d50cd9",
+      "partial_stderr": "",
+      "partial_stdout": "",
+      "program_sha256": "8624c9ce50646c9b4b65caa52a0b7a3e316a3d39af571e0d359b9dd16a31fc1c",
+      "rabinowitsch_equation_count": 1,
+      "rabinowitsch_variable": "w",
+      "status": "TIMEOUT",
+      "variable_count": 11
+    },
+    {
+      "basis_sha256": "20d4032b93acc1f0918efea258978bf830a4a7de389442b519e9496f9b6e9df4",
+      "boundary_guard": "b+1",
+      "chart_mask": [
+        "finite",
+        "finite",
+        "infinity"
+      ],
+      "common_basis_size": 21,
+      "finite_root_count": 2,
+      "generator_count": 30,
+      "index": 1,
+      "matching_chart_equation_count": 6,
+      "outside_equation_count": 8,
+      "packet_sha256": "fbeda61593e73cdcb7bf1e2baa1ebe8b098a7025f834135b3e02d2c291d50cd9",
+      "partial_stderr": "",
+      "partial_stdout": "",
+      "program_sha256": "5b8bda93d7bf28bb57cabc61ad1483d255dd4ab2d4a6b5587b78ecb4c2ef2ed9",
+      "rabinowitsch_equation_count": 1,
+      "rabinowitsch_variable": "w",
+      "status": "TIMEOUT",
+      "variable_count": 10
+    },
+    {
+      "basis_sha256": "20d4032b93acc1f0918efea258978bf830a4a7de389442b519e9496f9b6e9df4",
+      "boundary_guard": "b+1",
+      "chart_mask": [
+        "finite",
+        "infinity",
+        "finite"
+      ],
+      "common_basis_size": 21,
+      "finite_root_count": 2,
+      "generator_count": 30,
+      "index": 2,
+      "matching_chart_equation_count": 6,
+      "outside_equation_count": 8,
+      "packet_sha256": "fbeda61593e73cdcb7bf1e2baa1ebe8b098a7025f834135b3e02d2c291d50cd9",
+      "partial_stderr": "",
+      "partial_stdout": "",
+      "program_sha256": "2cf8a2bf2207818adbb253378dd3b118e6014ed3dc5894eb9c349e06c51aff75",
+      "rabinowitsch_equation_count": 1,
+      "rabinowitsch_variable": "w",
+      "status": "TIMEOUT",
+      "variable_count": 10
+    },
+    {
+      "basis_sha256": "20d4032b93acc1f0918efea258978bf830a4a7de389442b519e9496f9b6e9df4",
+      "boundary_guard": "b+1",
+      "chart_mask": [
+        "infinity",
+        "finite",
+        "finite"
+      ],
+      "common_basis_size": 21,
+      "finite_root_count": 2,
+      "generator_count": 30,
+      "index": 3,
+      "matching_chart_equation_count": 6,
+      "outside_equation_count": 8,
+      "packet_sha256": "fbeda61593e73cdcb7bf1e2baa1ebe8b098a7025f834135b3e02d2c291d50cd9",
+      "partial_stderr": "",
+      "partial_stdout": "",
+      "program_sha256": "04fbba0ee0fd3311197cef21cc2eae1a7733c3b3cb1f9a854497688fff561bf8",
+      "rabinowitsch_equation_count": 1,
+      "rabinowitsch_variable": "w",
+      "status": "TIMEOUT",
+      "variable_count": 10
+    }
+  ],
+  "schema": "rate-half-kb-positive-433-1b-o0b-chart-multifinite-boundary-v1",
+  "source_basis_sha256": "bda163ed7bdb961c115cebbe910dd3d991307bd53cddf4770925697d1a5e7c4e",
+  "source_cache_sha256": "28c97e75aa1fd80565ad926e95ab2eacf4ce62a692520ca2662de6845ee0ddd8",
+  "source_compiler_sha256": "048e38650d7ab98ee9c21d081d4908ed067f57fe483a6e4b6890fab3fa755b03",
+  "source_program_sha256": "de224a472ce32dc98bb2c52e6aef987ef6864abd4be83e3741477f5a22050d38",
+  "source_seven_chart_pilot_sha256": "09d854294bb4b0f3d33fc45f140f12ca86eebbb568c1f845a061b4143c50dba0",
+  "unit_count": 0
+}

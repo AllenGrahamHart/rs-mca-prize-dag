@@ -16484,3 +16484,14 @@ tools/ramguard modal -- timeout --signal=TERM --kill-after=15s 360s \
   ~/.venvs/modal/bin/modal run \
   experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_chart_multifinite_boundary_modal.py
 ```
+
+**Outcome:** `INCOMPLETE_TIMEOUT`. Modal app `ap-Ko0Ogcm5COQw1JY6C655Bp`
+returned all four pinned rows with status `TIMEOUT`; result SHA-256:
+`9e5dd9324b1fe7575c7d16135465bd1c560f3cce9d3effbee5ecece6391109c6`.
+The outcome-neutral checker accepts the collection and rejects all three
+hostile mutations. No worker printed a transcript, so none completed its
+direct Rabinowitsch basis. This has no mathematical status and neither proves
+nor weakens the `b=-1` boundary hypothesis. It rejects a uniform direct
+Singular campaign as the next endpoint. Further work must either exploit the
+finite common-root equations structurally or compare a genuinely different
+Groebner architecture on one mask before any four-mask rerun.
