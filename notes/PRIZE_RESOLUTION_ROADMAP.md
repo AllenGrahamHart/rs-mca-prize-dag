@@ -44247,17 +44247,20 @@ asserted.
 - Both the 16-variable leading-collapsed `FFI` ideal and its 14-variable
   unguarded determinant superset timed out. The latter included slope-zero
   components that the new finite-slope theorem excludes from the exact chart.
+- The exact 14-variable determinant chart with both proved slope guards also
+  timed out without an initial transcript. Monolithic `FFI` basis runs in
+  this coordinate order are now retired.
 
 All timeouts are architectural observations only. They neither refute the
 charts nor support promotion of the representative.
 
 ### Next decision gate
 
-1. Run one exact 14-variable `FFI` determinant presentation with the proved
-   `m4p1*m5p1 != 0` slope guards. A unit closes `FFI`; any other outcome
-   retires broad basis computation on this mask.
-2. If the exact pilot does not close, branch or factor the two explicit
-   determinants under `q3`; retain the exact slope guards in every branch.
+1. Branch or factor the two explicit `FFI` determinants under `q3`;
+   retain the exact `m4p1*m5p1 != 0` slope guards in every branch.
+2. Seek a low-variable consequence before any further computation; a new
+   run is allowed only for a strictly smaller branch with a printed equation
+   ledger.
 3. Transport the successful collapsed architecture to `FIF`, then address
    the structurally different `FFF` and `IFF` leaves before quotient
    transport.

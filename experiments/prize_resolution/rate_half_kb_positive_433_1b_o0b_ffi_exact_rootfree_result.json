@@ -1,0 +1,68 @@
+{
+  "app": "rs-mca-positive-433-1b-o0b-ffi-exact-rootfree",
+  "collection_complete": true,
+  "field": 2130706433,
+  "row": {
+    "basis_sha256": "20d4032b93acc1f0918efea258978bf830a4a7de389442b519e9496f9b6e9df4",
+    "boundary_guards": [
+      "f",
+      "d^2-e^2",
+      "b+1"
+    ],
+    "case": [
+      3,
+      "S0",
+      -1,
+      -1,
+      -1,
+      2,
+      0
+    ],
+    "chart_mask": [
+      "finite",
+      "finite",
+      "infinity"
+    ],
+    "collapsed_kernel_indices": [
+      2,
+      5
+    ],
+    "common_basis_size": 21,
+    "determinant_equation_count": 2,
+    "eliminated_root_variables": [
+      "u4",
+      "u5"
+    ],
+    "finite_slope_guards": [
+      "m4p1",
+      "m5p1"
+    ],
+    "generator_count": 34,
+    "kernel_graph_equation_count": 8,
+    "packet_sha256": "fbeda61593e73cdcb7bf1e2baa1ebe8b098a7025f834135b3e02d2c291d50cd9",
+    "partial_stderr": "",
+    "partial_stdout": "",
+    "program_sha256": "251c37b2c7b5954438fb629f7c373f36fa1322a8ef901853fddaabc75f157090",
+    "rabinowitsch_equation_count": 1,
+    "relation": "exact collapsed FFI finite-root chart",
+    "retained_kernel_indices": [
+      0,
+      1,
+      3,
+      4,
+      6,
+      7
+    ],
+    "slope_anchor_node": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_collapsed_finite_slope_anchors",
+    "status": "TIMEOUT",
+    "variable_count": 14
+  },
+  "schema": "rate-half-kb-positive-433-1b-o0b-ffi-exact-rootfree-v1",
+  "source_basis_sha256": "bda163ed7bdb961c115cebbe910dd3d991307bd53cddf4770925697d1a5e7c4e",
+  "source_cache_sha256": "28c97e75aa1fd80565ad926e95ab2eacf4ce62a692520ca2662de6845ee0ddd8",
+  "source_collapsed_sha256": "86d8686abf3d178bef2e1adaa17ca62e7d8b6dc0f5021b95cc8ee2f398f64335",
+  "source_compiler_sha256": "048e38650d7ab98ee9c21d081d4908ed067f57fe483a6e4b6890fab3fa755b03",
+  "source_program_sha256": "0d0c2da7847897a53997e50c81dc351f4490a455b3b54596623fa61b9996b9a2",
+  "source_rootfree_sha256": "dfdbfb078ab594d18b53e511e8e17b0375b25a551aa4d58a7d1fc82c7b3689eb",
+  "source_slope_anchors_sha256": "1059e49271b06104353ad61c2e3c766c56e253ae3480c0410fb6afa08802ac99"
+}

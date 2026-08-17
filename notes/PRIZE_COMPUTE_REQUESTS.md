@@ -16749,4 +16749,11 @@ tools/ramguard modal -- timeout --signal=TERM --kill-after=15s 360s \
   experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_ffi_exact_rootfree_modal.py
 ```
 
-**Outcome:** preregistered; not yet run.
+**Outcome:** `INCOMPLETE_TIMEOUT`. Modal app `ap-u6iyFxMytHuEldy71Db9JF`
+returned the pinned row with status `TIMEOUT`; result SHA-256:
+`da545e840fdcecaafb789df62444d3f8da68039d900cfec83c999f09e192daed`.
+The outcome-neutral checker accepts the exact slope-guard ledger and rejects
+all three hostile mutations. No transcript was printed within 240 seconds.
+This has no mathematical status. Monolithic `FFI` basis runs in this
+coordinate order are retired; the next work must factor or branch the
+determinants under `q3`.
