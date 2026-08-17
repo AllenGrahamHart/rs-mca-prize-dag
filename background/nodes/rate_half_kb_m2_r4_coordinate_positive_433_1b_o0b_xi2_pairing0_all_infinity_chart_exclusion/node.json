@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_all_infinity_chart_exclusion",
+    "title": "KoalaBear m2 r4 positive 433-1b/O0b xi2 pairing0 all-infinity chart exclusion",
+    "status": "PROVED",
+    "closure": "the all-infinity projective chart of one unclosed cells-3/6 representative is empty after guards",
+    "statement": "For canonical case (cell 3,S0,sigma_o=-1,epsilon=(-1,-1),xi=2,pairing=0), choose the infinity branch for each of matching resultants q4,q5,q6. The resulting chart ideal has initial dimension 3 and basis size 54. Saturation by the sixth ordered guard b+1 makes it unit, so this exact projective chart has no admissible solution.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_all_infinity_chart_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_all_infinity_chart_exclusion/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_all_infinity_chart_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_all_infinity_chart_exclusion/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_all_infinity_chart_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_all_infinity_chart_exclusion/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_all_infinity_chart_exclusion/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_all_infinity_chart_exclusion/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_all_infinity_chart_exclusion/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_all_infinity_chart_exclusion/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_all_infinity_chart_exclusion/verify_audit.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_projective_chart_program.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_chart_all_infinity_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_chart_all_infinity_check.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_chart_all_infinity_result.json"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_matching_resultant_projective_charts"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cells3_6_global_common_basis"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cells3_6_v4_quotient"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment"}
+  ],
+  "refutes": []
+}
