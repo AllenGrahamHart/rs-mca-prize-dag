@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_rich_flat_self_iteration_budget_wall",
+    "title": "Rank-eleven rich-flat self-iteration budget wall",
+    "status": "PROVED",
+    "closure": "exact exhaustion of the independent ordered-basis two-rung recursion",
+    "statement": "At the KoalaBear rank-eleven anchored-rich-flat row (tau=1547), the available low-record budget is 206105684094104220. The exact shared one-rung ordered-basis envelope reproduces h=42452 as the largest payable threshold. If the same census and independent affine-container charges are iterated serially, even one branch already fails: the rank-1-to-rank-2 two-rung minimum is 2539543014780268202 at gaps (64305,67546), over budget by 2333437330686163982; the rank-2-to-rank-3 minimum is 3232479920013973566 at gaps (66671,65180), over by 3026374235919869346. Thus PR #1173's rich-flat terminal cannot be closed by self-similar repetition of its ordered-basis census. This is a method wall only: cross-bucket coupling, common-factor synchronization, Wronskian/subspace-design control, and chronology-owner routing remain live.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_rich_flat_self_iteration_budget_wall/statement.md",
+      "background/nodes/rate_half_mca_rank11_rich_flat_self_iteration_budget_wall/proof.md",
+      "background/nodes/rate_half_mca_rank11_rich_flat_self_iteration_budget_wall/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_rich_flat_self_iteration_budget_wall/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_rich_flat_self_iteration_budget_wall/audit.md",
+      "background/nodes/rate_half_mca_rank11_rich_flat_self_iteration_budget_wall/result.md",
+      "background/nodes/rate_half_mca_rank11_rich_flat_self_iteration_budget_wall/provenance.md",
+      "background/nodes/rate_half_mca_rank11_rich_flat_self_iteration_budget_wall/verify.py",
+      "background/nodes/rate_half_mca_rank11_rich_flat_self_iteration_budget_wall/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_anticode_branch_payments_import"},
+    {"from": "list_subsqrt_interleaving_collapse"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location"}
+  ],
+  "refutes": []
+}

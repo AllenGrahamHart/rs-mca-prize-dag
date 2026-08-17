@@ -22,6 +22,16 @@ certificates required by the challenge.
   transversality cap with sub-square-root interleaved affine-list control;
   the certified total is `61871313426765543<B_*`.  Error rank at least
   eleven remains outside this direct payment.
+- The complementary rank-eleven anticode stack now pays pairwise-rank-one
+  groups and every anchored `42452`-transverse row-space family; an unsafe
+  survivor emits a rank-one or rank-two direction inside a larger subspace
+  with `42453` common actual zeros.  An exact route audit shows that this
+  locator is group-local, so it cannot be inserted directly into the global
+  `K'` ladder.  Repeating the same ordered-basis census also fails
+  decisively: the cheapest isolated `1->2` and `2->3` two-rung charges are
+  `2539543014780268202` and `3232479920013973566`, versus only
+  `206105684094104220` available.  The next structural theorem must couple
+  buckets, synchronize their factors, or assign a chronology-safe owner.
 - The Mersenne full-lift mean-Gram route now pays through direction support
   `e=98231`.  At residue two, a two-boundary-layer anchor split and a
   boundary missed-set dichotomy give `16486411<16777215`; the residual
