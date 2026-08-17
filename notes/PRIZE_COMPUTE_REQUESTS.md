@@ -16855,9 +16855,9 @@ first eliminant exactly as
   `k2=k5=0`
 - **relation:** exact route-guard and rank-cofactor saturation
 - **launcher SHA-256:**
-  `c8f91a2236e48129b4aca19d2e2f5d3cc175a395ea47faf0ef498c474a0a67e1`
+  `092ef33bf4bfcee1faac6ac5d7bbe59e9a900aecfe3c6344d0f766e9633cc5c3`
 - **outcome-neutral checker SHA-256:**
-  `77cbda37ec6b075b52c67d371ef09d8e336c95a15dc8763f422a3ea682c75372`
+  `ff9e43a54913a0d7d69b5ffdd4abf9bf06a3fd921a4361b144b98a804b089538`
 - **program core SHA-256:**
   `a5c1c2a111088f34f0ac7563e4b6b06daabb8c955a98412edf35c02e3ba9b643`
 - **source basis/result SHA-256:**
@@ -16865,7 +16865,7 @@ first eliminant exactly as
 - **FGLM result SHA-256:**
   `a72b2fe045538562352b3954b016dab60c5f8fdb01a22839088e72512d61f53f`
 - **eliminant-factor verifier SHA-256:**
-  `08d0c74703d84ff3eebaf43e5c867fc23ed6ea387a05497f8acc7fafed2a570e1`
+  `8d0c74703d84ff3eebaf43e5c867fc23ed6ea387a05497f8acc7fafed2a570e1`
 - **input ledger:** variables `t,r,c,b`; 43-element degree-order basis;
   16 sequential route-guard saturations and one six-cofactor ideal saturation
 - **envelope:** one CPU, 2 GiB, 60-second Singular child wall and 90-second

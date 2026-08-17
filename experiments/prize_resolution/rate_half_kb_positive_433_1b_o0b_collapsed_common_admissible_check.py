@@ -18,7 +18,7 @@ RESULT = HERE / "rate_half_kb_positive_433_1b_o0b_collapsed_common_admissible_re
 SOURCE_SHA256 = "01a48b8003766b3e34d6b47423c8aaaf8ad8e521f77b1ce01cd1a9b5a6a7f65d"
 CACHE_SHA256 = "28c97e75aa1fd80565ad926e95ab2eacf4ce62a692520ca2662de6845ee0ddd8"
 FGLM_SHA256 = "a72b2fe045538562352b3954b016dab60c5f8fdb01a22839088e72512d61f53f"
-FACTOR_SHA256 = "08d0c74703d84ff3eebaf43e5c867fc23ed6ea387a05497f8acc7fafed2a570e1"
+FACTOR_SHA256 = "8d0c74703d84ff3eebaf43e5c867fc23ed6ea387a05497f8acc7fafed2a570e1"
 
 
 def require(condition, message):
