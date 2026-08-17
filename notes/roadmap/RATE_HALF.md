@@ -374,10 +374,13 @@ it fixes `S0`, exchanges `SDE` with `SDF`, pays the nontrivial source
 normalizations in cells `0,1,2`, and bijects all 105 outside labels. It is
 fixed-point-free on the 360 lane/cell/source-sign states and reduces the
 split workboard exactly to 180 states and 18,900 label representatives.
-Thus the raw residual remains 39,480 labels, while the current exact
-representative workload is at most `18,900+1,680=20,580`. Seek a second
-exact quotient inside `S0` before launching representative exclusions; do
-not exchange the opposite-signed `BC` records.
+Inside `S0`, composition with the proved `d->-d` label action gives a
+Klein-four quotient: 12,600 raw rows become 3,420 representatives. The
+paired `SDE/SDF` lanes contribute 12,600 more. Thus the raw residual remains
+39,480 labels, while the current exact representative workload is at most
+`16,020+1,680=17,700`. Next compare a gauge-normalized action on `SDE/SDF`
+with the first low-complexity `S0` representative exclusion; do not exchange
+the opposite-signed `BC` records.
 
 The positive `433-1b -> O0a` role-cell ledger has closed:
 
