@@ -17821,4 +17821,18 @@ tools/ramguard modal -- timeout --signal=TERM --kill-after=15s 420s \
   experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_fff_generic_q5_coefficients_julia_modal.py
 ```
 
-**Outcome:** preregistered; not yet run.
+**Outcome:** partial exact completion. Modal app
+`ap-fjg7OlClGiYgb3VTpj1ygf` completed coefficients 0 and 2; each generic
+normal form has fiber degree two and exactly eight quotient-basis terms.
+Their hashes are
+
+```text
+C0 e008780fd3d46e30c2471900384068de9b384cf3f3a99fbb038d00364b3428c3
+C2 e890823e9f38e2919f38a73bcd0b7d20c52882e5ea069a05abfa147f637f8ce8
+```
+
+Coefficient 1 timed out before output and remains open. The result SHA-256 is
+`29a3236a322bf5ec1b797615fed99ccbb0b584981656eec04bd41da00989700c`.
+The checker accepts statuses `[COMPLETE,TIMEOUT,COMPLETE]`, verifies both
+complete coefficient ledgers, and rejects all four hostile mutations. Retry
+only coefficient 1 under a longer bounded wall.
