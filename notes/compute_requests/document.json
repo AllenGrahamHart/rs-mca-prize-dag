@@ -32,6 +32,7 @@
     "notes/compute_requests/sections/27-k87-raw-threshold-offset-envelope.md",
     "notes/compute_requests/sections/28-k87-best-single-edge-stress.md",
     "notes/compute_requests/sections/29-k87-residual-witness-adjacent-payment.md",
-    "notes/compute_requests/sections/30-k87-disjoint-edge-offset1-falsifier.md"
+    "notes/compute_requests/sections/30-k87-disjoint-edge-offset1-falsifier.md",
+    "notes/compute_requests/sections/31-k87-joint456-witness-probe.md"
   ]
 }
