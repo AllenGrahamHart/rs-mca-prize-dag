@@ -10,9 +10,9 @@
   `(cell=3,S0,sigma_o=-1,epsilon=(-1,-1),xi=2,pairing=0)`, chart `III` and
   the three one-finite masks `FII`, `IFI`, `IIF` are proved empty. Every one
   becomes unit at the forbidden boundary guard `b+1`.
-- The exact remaining leaves for this representative are `FFF`, `FFI`, `FIF`,
-  and `IFF`. Closing these four leaves closes the representative; no other
-  chart is missing.
+- The exact remaining leaves for this representative are now `FFF` and
+  `IFF`. Closing these two leaves closes the representative; no other chart
+  is missing.
 - In `FFI` and `FIF`, the infinity equations force `z2=z5=0`. On that
   collapsed locus, the pinned `q3` equation and `a2m != 0` guard prove
   that every finite first matching polynomial has nonzero linear
@@ -22,6 +22,9 @@
   a checked nonunit dimension-zero basis of size 43. Hence all admissible
   `FFI/FIF` base points lie in a finite common scheme before `d,e,f` are
   introduced.
+- Reapplying all 16 route guards to that finite scheme gives a checked unit
+  basis at guard index 5, `b+1`. Therefore the exact admissible
+  `k2=k5=0` base locus is empty, closing both `FFI` and `FIF`.
 
 ### Retired endpoints
 
@@ -43,14 +46,14 @@ charts nor support promotion of the representative.
 
 ### Next decision gate
 
-1. Compute and audit the finite degree/triangular presentation of the
-   dimension-zero collapsed common basis. Use it to specialize `t,r,c,b`
-   before adjoining `d,e,f`.
-2. Reduce or factor the two explicit `FFI` determinants over that finite
-   base; retain the exact `m4p1*m5p1 != 0` slope guards in every branch.
-3. Transport the successful collapsed architecture to `FIF`, then address
-   the structurally different `FFF` and `IFF` leaves before quotient
-   transport.
+1. Address `IFF` by splitting its infinity consequence
+   `(be-cf)z2=0` into `z2=0` and `be=cf` branches. Reuse the successful
+   finite-common saturation whenever a branch also forces `z5=0`.
+2. Address `FFF` through a genuine quadratic-root invariant or a finite
+   common-base consequence; the linear collapsed determinant route does not
+   apply.
+3. Once both remaining masks close, promote the representative and transport
+   it across the 1,415-representative quotient.
 
 ### Integration posture
 

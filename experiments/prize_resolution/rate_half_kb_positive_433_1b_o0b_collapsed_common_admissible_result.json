@@ -1,0 +1,116 @@
+{
+  "app": "rs-mca-positive-433-1b-o0b-collapsed-common-admissible",
+  "collection_complete": true,
+  "field": 2130706433,
+  "row": {
+    "basis_size": 1,
+    "cofactor_basis_size": 1,
+    "cofactor_dimension": -1,
+    "dimension": -1,
+    "initial_basis_size": 43,
+    "initial_dimension": 0,
+    "initial_vdim": 65,
+    "input_program": "",
+    "packet_sha256": "fbeda61593e73cdcb7bf1e2baa1ebe8b098a7025f834135b3e02d2c291d50cd9",
+    "program_sha256": "6226c53421589ad6438238f4bf03560f1d644f1ab006efb2044366372145c59e",
+    "rank_cofactor_count": 6,
+    "relation": "exact admissible collapsed common locus",
+    "route_guard_count": 16,
+    "source_basis_size": 43,
+    "source_dimension": 0,
+    "source_vdim": 65,
+    "stages": [
+      {
+        "basis_size": 34,
+        "dimension": 0,
+        "guard_index": 0
+      },
+      {
+        "basis_size": 34,
+        "dimension": 0,
+        "guard_index": 1
+      },
+      {
+        "basis_size": 34,
+        "dimension": 0,
+        "guard_index": 2
+      },
+      {
+        "basis_size": 32,
+        "dimension": 0,
+        "guard_index": 3
+      },
+      {
+        "basis_size": 22,
+        "dimension": 0,
+        "guard_index": 4
+      },
+      {
+        "basis_size": 1,
+        "dimension": -1,
+        "guard_index": 5
+      },
+      {
+        "basis_size": 1,
+        "dimension": -1,
+        "guard_index": 6
+      },
+      {
+        "basis_size": 1,
+        "dimension": -1,
+        "guard_index": 7
+      },
+      {
+        "basis_size": 1,
+        "dimension": -1,
+        "guard_index": 8
+      },
+      {
+        "basis_size": 1,
+        "dimension": -1,
+        "guard_index": 9
+      },
+      {
+        "basis_size": 1,
+        "dimension": -1,
+        "guard_index": 10
+      },
+      {
+        "basis_size": 1,
+        "dimension": -1,
+        "guard_index": 11
+      },
+      {
+        "basis_size": 1,
+        "dimension": -1,
+        "guard_index": 12
+      },
+      {
+        "basis_size": 1,
+        "dimension": -1,
+        "guard_index": 13
+      },
+      {
+        "basis_size": 1,
+        "dimension": -1,
+        "guard_index": 14
+      },
+      {
+        "basis_size": 1,
+        "dimension": -1,
+        "guard_index": 15
+      }
+    ],
+    "status": "COMPLETE",
+    "stderr": "",
+    "stdout": "// ** G is no standard basis\nINITIAL_DIM=0,INITIAL_SIZE=43\n// ** G is no standard basis\nINITIAL_VDIM=65\nSAT=0,DIM=0,SIZE=34\nSAT_VDIM=0,56\nSAT=1,DIM=0,SIZE=34\nSAT_VDIM=1,54\nSAT=2,DIM=0,SIZE=34\nSAT_VDIM=2,54\nSAT=3,DIM=0,SIZE=32\nSAT_VDIM=3,50\nSAT=4,DIM=0,SIZE=22\nSAT_VDIM=4,28\nSAT=5,DIM=-1,SIZE=1\nSAT=6,DIM=-1,SIZE=1\nSAT=7,DIM=-1,SIZE=1\nSAT=8,DIM=-1,SIZE=1\nSAT=9,DIM=-1,SIZE=1\nSAT=10,DIM=-1,SIZE=1\nSAT=11,DIM=-1,SIZE=1\nSAT=12,DIM=-1,SIZE=1\nSAT=13,DIM=-1,SIZE=1\nSAT=14,DIM=-1,SIZE=1\nSAT=15,DIM=-1,SIZE=1\nCOFACTOR_DIM=-1,COFACTOR_SIZE=1\nBEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nEND\n",
+    "unit": true,
+    "variable_count": 4
+  },
+  "schema": "rate-half-kb-positive-433-1b-o0b-collapsed-common-admissible-v1",
+  "source_basis_sha256": "01a48b8003766b3e34d6b47423c8aaaf8ad8e521f77b1ce01cd1a9b5a6a7f65d",
+  "source_cache_sha256": "28c97e75aa1fd80565ad926e95ab2eacf4ce62a692520ca2662de6845ee0ddd8",
+  "source_factor_sha256": "8d0c74703d84ff3eebaf43e5c867fc23ed6ea387a05497f8acc7fafed2a570e1",
+  "source_fglm_sha256": "a72b2fe045538562352b3954b016dab60c5f8fdb01a22839088e72512d61f53f",
+  "source_program_sha256": "a5c1c2a111088f34f0ac7563e4b6b06daabb8c955a98412edf35c02e3ba9b643"
+}

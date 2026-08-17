@@ -39126,6 +39126,30 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_ffi_fif_collapsed_common_exclusions",
+   "title": "KoalaBear m2 r4 positive 433-1b/O0b xi2 pairing0 FFI/FIF collapsed-common exclusions",
+   "status": "PROVED",
+   "closure": "the canonical FFI and FIF projective common-root charts are empty on the exact admissible base locus",
+   "statement": "For the canonical cell-3 S0 case with sigma_o=-1, epsilon=(-1,-1), xi=2, and pairing=0, neither chart FFI nor chart FIF has an admissible solution. Both force k2=k5=0, while the exact route-guard and rank-cofactor saturation of the common ideal plus these equations is the unit ideal.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_ffi_fif_collapsed_common_exclusions/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_ffi_fif_collapsed_common_exclusions/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_ffi_fif_collapsed_common_exclusions/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_ffi_fif_collapsed_common_exclusions/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_ffi_fif_collapsed_common_exclusions/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_ffi_fif_collapsed_common_exclusions/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_ffi_fif_collapsed_common_exclusions/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_ffi_fif_collapsed_common_exclusions/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_ffi_fif_collapsed_common_exclusions/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_ffi_fif_collapsed_common_exclusions/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_ffi_fif_collapsed_common_exclusions/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_collapsed_common_admissible_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_collapsed_common_admissible_check.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_collapsed_common_admissible_program.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_collapsed_common_eliminant_factor.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_multifinite_infinity_leading_collapse",
    "title": "KoalaBear m2 r4 positive 433-1b/O0b xi2 pairing0 multi-finite infinity leading collapse",
    "status": "PROVED",
@@ -78653,6 +78677,11 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cells3_6_v4_quotient",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_ffi_fif_collapsed_common_exclusions",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cells3_6_v4_quotient",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_multifinite_infinity_leading_collapse",
    "kind": "req"
   },
@@ -78722,8 +78751,18 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_ffi_fif_collapsed_common_exclusions",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_multifinite_infinity_leading_collapse",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_collapsed_finite_slope_anchors",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_multifinite_infinity_leading_collapse",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_ffi_fif_collapsed_common_exclusions",
    "kind": "req"
   },
   {

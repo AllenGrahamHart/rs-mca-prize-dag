@@ -40,4 +40,14 @@ tools/ramguard modal -- timeout --signal=TERM --kill-after=15s 150s \
   experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_collapsed_common_admissible_modal.py
 ```
 
-**Outcome:** preregistered; not yet run.
+**Outcome:** `COMPLETE_UNIT`. The first launch
+`ap-fT30bgqX6RwFGXiXVLwkGG` stopped locally on a mistyped custody hash and
+performed no algebra. After the custody-only repair, Modal app
+`ap-x3xOmQraUhfnUdjTM5KJwC` completed in about four seconds with a unit
+basis; result SHA-256:
+`38a44a30aa3421a67161acf5268d4bbfbe9e33903547e50259fc3f0da77efd03`.
+The basis remains dimension zero through guard index 4 and becomes unit at
+guard index 5, exactly `b+1`; the later stages and cofactor saturation stay
+unit. The outcome-neutral checker accepts the complete 16-stage ledger and
+rejects all three hostile mutations. This proves the exact admissible
+collapsed common locus empty and therefore closes both `FFI` and `FIF`.
