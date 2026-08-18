@@ -2768,6 +2768,31 @@
     "our_sha": "d01a6bc91",
     "his_sha": "2788d5ec3"
    }
+  },
+  {
+   "our_node": "rate_half_mca_rank11_quadratic_survivor_mobius_router",
+   "his_object": {
+    "label": "base-field-normalized split-pencil census / aperiodic locator image-fiber inverse theorem",
+    "file": "PR #1170, PR #1173, and towards-prize.md",
+    "line": "split-pencil terminal; factor synchronization; quotient-periodic fibers explicitly budgeted"
+   },
+   "relation": "OVERLAP",
+   "chain": "owner-safe 4370-fiber synchronized pencil -> quadratic pair-locator span -> base-field Mobius involution -> antipodal, constant-product, or shifted-inversion normal form",
+   "scope": "official KoalaBear degree-two rational exception branch; a shifted survivor forces at least 8740 nonfixed subgroup graph points, while a preregistered 6144-parameter probe found maximum 2336",
+   "owner": "US",
+   "nonclaims": [
+    "does not prove a uniform shifted-inversion intersection cap from the numerical probe",
+    "does not pay the antipodal or constant-product quotient-periodic classes",
+    "does not classify synchronized pencils of degrees 1,3,...,11",
+    "does not pay high complexity, rank eleven, or MCA"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "ef0c5a19c",
+    "his_sha": "2788d5ec3"
+   }
   }
  ]
 }
