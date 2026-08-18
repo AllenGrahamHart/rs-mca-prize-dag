@@ -30350,7 +30350,11 @@
     "background/nodes/dli_primitive_haar_event_correlation/statement.md",
     "critical/nodes/dli_c2pp_joint_reserve/attack.md"
    ],
-   "notes": "This is the exact finite compiler from upstream-style fixed-density primitive Q to the local Haar target. It proves the denominator floor and isolates the remaining numerator as weighted ambient flatness. It does not pay the 21-bit bound."
+   "notes": "This is the exact finite compiler from upstream-style fixed-density primitive Q to the local Haar target. It proves the denominator floor and isolates the remaining numerator as weighted ambient flatness. It does not pay the 21-bit bound.",
+   "upstream": {
+    "label": "Primitive Q after a Sidon moment payment / exact image--ambient normalization",
+    "relation": "OVERLAP"
+   }
   },
   {
    "id": "crossing_dsa_refutation",

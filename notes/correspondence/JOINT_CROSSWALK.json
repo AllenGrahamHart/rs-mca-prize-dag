@@ -2167,6 +2167,31 @@
     "our_sha": "3671fd167",
     "his_sha": "93fba1be"
    }
+  },
+  {
+   "our_node": "dli_fixed_weight_ambient_q_bridge",
+   "his_object": {
+    "label": "Primitive Q after a Sidon moment payment / exact image--ambient normalization",
+    "file": "experimental/grande_finale.tex",
+    "line": "def:primitive-q / lem:image-ambient-moment-conversion / thm:primitive-q"
+   },
+   "relation": "OVERLAP",
+   "chain": "Fourier-positive Haar denominator floor + exact fixed-weight image/ambient dictionary",
+   "scope": "DLI full t-moment zero fiber on each Hamming-weight slice; exact finite reduction of HAAR-21 to binomially weighted ambient primitive-Q inflation",
+   "owner": "JOINT",
+   "nonclaims": [
+    "upstream image-normalized Q does not pay the effective-image defect q^t/L_w",
+    "upstream exp(o(n)) loss does not imply the official 21-bit finite constant",
+    "the Sidon moment payment remains open upstream and locally",
+    "does not close C2'', LIST, MCA, or either prize terminal"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "2ae5d690b",
+    "his_sha": "93fba1be"
+   }
   }
  ]
 }
