@@ -3397,6 +3397,32 @@
     "our_sha": "b5e3a90d8",
     "his_sha": "e66f6da3"
    }
+  },
+  {
+   "our_node": "rate_half_mca_rank11_pair_pencil_dimension_three_rich_plane_recurrence_sharpening",
+   "his_object": {
+    "label": "base-field-normalized split-pencil census / rich affine fibers",
+    "file": "PR #1170 at 23b60807, experimental/notes/thresholds/kb_mca_rank11_quotient_pair_plane218_v1.md",
+    "line": "conditional dimension-three rich-plane recurrence and common-core sharpening"
+   },
+   "relation": "OVERLAP",
+   "chain": "affine-plane cap 218 and line cap 15 -> at most two planes contain at least 189 of 520 types -> each rich plane recurs at most K'-2 times -> exact residual incidence ledger -> K'<=595763 and common core at least 452813",
+   "scope": "official KoalaBear scalar-dimension-three quotient pair-pencil branch under PR #1170's conditional 520-type coprime-direction source interface",
+   "owner": "JOINT",
+   "nonclaims": [
+    "does not derive the conditional 520-type source interface",
+    "does not strengthen the dimension-four common-core branch",
+    "does not pay the shortened dimension-three family",
+    "does not exclude the 218-plane endpoint",
+    "does not pay rank eleven or close MCA"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "PROVED_CONDITIONAL_ROUTE_CUT_PR1170",
+   "lean": null,
+   "provenance": {
+    "our_sha": "d79701f94",
+    "his_sha": "23b60807"
+   }
   }
  ]
 }
