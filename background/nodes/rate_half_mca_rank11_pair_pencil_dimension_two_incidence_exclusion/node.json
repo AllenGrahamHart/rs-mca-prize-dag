@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_pair_pencil_dimension_two_incidence_exclusion",
+    "title": "The quotient scalar span cannot have dimension two",
+    "status": "PROVED",
+    "closure": "common-core versus affine-fiber incidence capacity",
+    "statement": "The scalar-dimension-two quotient pair-pencil branch is impossible. Its common gcd roots contribute either all 520 pair cores or none; every other coordinate belongs to pair cores from one affine scalar fiber and hence to at most 15 cores. With common core size at most K-1, total incidence capacity is at most 520(K-1)+15(n-K+1)=560987655, below the required 520(m-2)=580343920 by 19356265. Therefore the surviving rational pair-pencil branch has scalar dimension three or four.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_two_incidence_exclusion/statement.md",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_two_incidence_exclusion/proof.md",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_two_incidence_exclusion/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_two_incidence_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_two_incidence_exclusion/audit.md",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_two_incidence_exclusion/result.md",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_two_incidence_exclusion/frontier.md",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_two_incidence_exclusion/provenance.md",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_two_incidence_exclusion/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_two_incidence_exclusion/verify.py",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_two_incidence_exclusion/verify_audit.py"
+    ],
+    "upstream": {
+      "label": "base-field-normalized split-pencil census / common-GCD stratum",
+      "relation": "OVERLAP"
+    }
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_pair_pencil_affine_line_cap_direction_router"},
+    {"from": "rate_half_mca_rank11_pair_pencil_dimension_two_common_core_shortening"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location"}
+  ],
+  "refutes": []
+}

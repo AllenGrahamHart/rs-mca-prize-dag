@@ -433,6 +433,15 @@ certificates required by the challenge.
   and only 872 unused coordinates. The next exact target is to reconcile
   this near-partition with the two-point quotient exceptions and first-owner
   record multiplicities.
+- A global incidence count eliminates scalar dimension two completely. At a
+  scalar-gcd root, a coordinate lies in all 520 cores or none. Elsewhere its
+  core owners lie in one affine scalar fiber and number at most 15. Even
+  allowing a common core of the maximal size `K-1`, the capacity is only
+  560,987,655 incidences versus 580,343,920 required, a contradiction margin
+  of 19,356,265. Together with the earlier dimension-one exclusion, the
+  rational pair-pencil frontier is now exactly scalar dimensions three and
+  four. Their coordinate fibers are affine planes or affine three-spaces,
+  so the next step is a heavy-fiber reduction back to the paid line case.
 - The finite rank-nine prefix is proved through `K'=87`. At the first open
   row `K'=88`, paired raw scans classify all 18,741,723 source units and
   leave exactly 622,895 raw-unsafe units on offsets `1..44`. This is a

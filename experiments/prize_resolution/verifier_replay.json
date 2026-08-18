@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_two_secant_line_packing_sharpening/verify.py",
-      "seconds": 0.245153,
+      "script": "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_two_incidence_exclusion/verify.py",
+      "seconds": 0.207476,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "PAIR_PENCIL_DIM2_SECANT_PACKING_PASS lines=1349 core=133485 petal=1455 slack=872\n"
+      "stdout_tail": "PAIR_PENCIL_DIM2_INCIDENCE_PASS required=580343920 capacity=560987655 margin=19356265\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_two_secant_line_packing_sharpening/verify_audit.py",
-      "seconds": 0.254744,
+      "script": "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_two_incidence_exclusion/verify_audit.py",
+      "seconds": 0.259941,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "PAIR_PENCIL_DIM2_SECANT_PACKING_AUDIT_PASS lines=1349 core=133485\n"
+      "stdout_tail": "PAIR_PENCIL_DIM2_INCIDENCE_AUDIT_PASS margin=19356265\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"
