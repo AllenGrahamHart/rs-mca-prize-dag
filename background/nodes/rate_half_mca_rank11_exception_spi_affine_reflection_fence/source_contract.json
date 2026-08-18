@@ -1,0 +1,19 @@
+{
+  "schema": "rate-half-mca-rank11-exception-spi-affine-reflection-fence-v1",
+  "official_base_prime": 2130706433,
+  "official_domain_order": 2097152,
+  "official_domain_exponent": 21,
+  "nonzero_reflection_average_floor": 2064,
+  "forced_reflection_points": 2065,
+  "forced_quadratic_fibers": 1032,
+  "minimum_required_fibers": 20,
+  "toy": {
+    "field": 97,
+    "domain_order": 32,
+    "primitive_field_generator": 5,
+    "reflection_constant": 96,
+    "reflection_points": 12,
+    "quadratic_fibers": 6
+  },
+  "nonclaim": "The averaging construction is an official-field algebraic route fence, not an unsafe MCA line or prize counterexample."
+}

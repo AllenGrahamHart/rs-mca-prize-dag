@@ -217,11 +217,30 @@ certificates required by the challenge.
 
   These fibers are pairwise disjoint, have coprime pencil generators, and
   number at least 262,144 on the official domain. Thus a theorem saying
-  that twenty split fibers force a power map is false. The exact frontier
-  is cyclic/dihedral pullback versus primitive remainder, followed by an
-  owner-safe payment of any pullback that genuinely lifts to the
-  heavy-ruling certificate. The existing `N^(2/3)` many-fiber toral trigger
-  is far above twenty and cannot bridge this scale by itself.
+  that twenty split fibers force a power map is false. This pins the global
+  cyclic/dihedral symmetry subfrontier, but does not exhaust partial
+  pullbacks. Any pullback that genuinely lifts to the heavy-ruling
+  certificate still needs an owner-safe payment. The existing `N^(2/3)`
+  many-fiber toral trigger is far above twenty and cannot bridge this scale
+  by itself.
+- There is also an official-field partial-pullback fence. For
+  `H=mu_(2^21) subset F_2130706433`, let
+  `R_c=#{x in H:c-x in H}`. Exact additive-energy averaging gives
+
+  ```text
+  average_(c!=0) R_c=(N^2-N)/(p-1)=2064+127/1016.
+  ```
+
+  Hence some nonzero reflection `x -> c-x` has at least 2,065 domain
+  points and at least 1,032 nonfixed two-cycles. The pencil
+  `X^2-cX+gamma` has one disjoint split quadratic fiber per cycle. Since a
+  nonzero translation cannot stabilize a proper subset of `F_p`, this is
+  not a global multiplicative cyclic or dihedral quotient of the domain.
+  Therefore the bare twenty-fiber SPI is definitively too weak even at the
+  exact official field. The next rank-eleven theorem must use factor-pair
+  ownership, first-match chronology, or synchronization across many packets;
+  a standalone bounded-degree split-pencil classification at twenty fibers
+  is not a viable closure route.
 - The finite rank-nine prefix is proved through `K'=87`. At the first open
   row `K'=88`, paired raw scans classify all 18,741,723 source units and
   leave exactly 622,895 raw-unsafe units on offsets `1..44`. This is a

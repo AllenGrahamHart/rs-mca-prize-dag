@@ -41311,6 +41311,30 @@
    ]
   },
   {
+   "id": "rate_half_mca_rank11_exception_spi_affine_reflection_fence",
+   "title": "Affine reflections survive the twenty-fiber SPI interface",
+   "status": "PROVED",
+   "closure": "official-field additive-energy averaging forces at least 1032 disjoint quadratic reflection fibers",
+   "statement": "In the official KoalaBear base field p=2130706433 with H=mu_(2^21), additive-energy averaging over nonzero c forces some reflection x -> c-x to preserve at least 2065 points of H. After removing its possible fixed point, the pencil X^2-cX+gamma has at least 1032 pairwise-disjoint split squarefree quadratic fibers. Since c is nonzero, this reflection does not globally stabilize H. Thus twenty split fibers do not force a global cyclic or dihedral domain quotient; partial affine pullbacks or retained heavy-ruling semantics must also be controlled. This is a route fence, not an MCA counterexample.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_exception_spi_affine_reflection_fence/statement.md",
+    "background/nodes/rate_half_mca_rank11_exception_spi_affine_reflection_fence/proof.md",
+    "background/nodes/rate_half_mca_rank11_exception_spi_affine_reflection_fence/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_exception_spi_affine_reflection_fence/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_exception_spi_affine_reflection_fence/audit.md",
+    "background/nodes/rate_half_mca_rank11_exception_spi_affine_reflection_fence/result.md",
+    "background/nodes/rate_half_mca_rank11_exception_spi_affine_reflection_fence/provenance.md",
+    "background/nodes/rate_half_mca_rank11_exception_spi_affine_reflection_fence/frontier.md",
+    "background/nodes/rate_half_mca_rank11_exception_spi_affine_reflection_fence/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_exception_spi_affine_reflection_fence/verify.py",
+    "background/nodes/rate_half_mca_rank11_exception_spi_affine_reflection_fence/verify_audit.py"
+   ],
+   "upstream": {
+    "label": "split-pencil census / affine-involution pullback class",
+    "relation": "OVERLAP"
+   }
+  },
+  {
    "id": "rate_half_mca_rank11_exception_spi_dihedral_quotient_fence",
    "title": "Dihedral quotient pencils survive the twenty-fiber SPI interface",
    "status": "PROVED",
@@ -81707,6 +81731,11 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_mca_rank11_exception_spi_affine_reflection_fence",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_mca_rank11_exception_spi_dihedral_quotient_fence",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
@@ -81935,6 +81964,11 @@
    "from": "rate_half_mca_rank11_heavy_ruling_exception_split_pencil_normal_form",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_heavy_ruling_exception_split_pencil_normal_form",
+   "to": "rate_half_mca_rank11_exception_spi_affine_reflection_fence",
+   "kind": "req"
   },
   {
    "from": "rate_half_mca_rank11_heavy_ruling_exception_split_pencil_normal_form",
