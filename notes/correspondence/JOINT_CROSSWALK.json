@@ -2593,6 +2593,31 @@
     "our_sha": "599ed5a9a",
     "his_sha": "d296510e80"
    }
+  },
+  {
+   "our_node": "rate_half_mca_rank11_exception_spi_dihedral_quotient_fence",
+   "his_object": {
+    "label": "aperiodic locator image-fiber inverse theorem with quotient-periodic fibers budgeted",
+    "file": "towards-prize.md",
+    "line": "quotient-periodic fibers explicitly budgeted"
+   },
+   "relation": "OVERLAP",
+   "chain": "bounded heavy-ruling exception SPI -> fixed-point-free inversion quotient -> explicit dihedral split-fiber survivor",
+   "scope": "abstract degree-2, degree-4, and degree-8 split-pencil interface on the official power-of-two evaluation domain; inversion quotients admit N/(2d) disjoint split fibers",
+   "owner": "US",
+   "nonclaims": [
+    "does not lift the dihedral pencil to an actual heavy-ruling rational packet",
+    "does not classify primitive twenty-fiber pencils",
+    "does not pay the cyclic or dihedral pullback classes or prove the upstream image-fiber bound",
+    "is not an MCA counterexample and does not close rank eleven or MCA"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "b5e2e2734",
+    "his_sha": "d296510e80"
+   }
   }
  ]
 }
