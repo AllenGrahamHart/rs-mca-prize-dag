@@ -18,6 +18,8 @@ EXPECTED = {
     "balanced_u": 0,
     "balanced_v": 0,
     "first_sqrt_failure": 3,
+    "dense_dimension": 16,
+    "dense_cross_gram_max": 0,
 }
 
 
@@ -43,6 +45,23 @@ def one_block() -> dict[str, int]:
     }
 
 
+def sylvester(order: int) -> list[list[int]]:
+    matrix = [[1]]
+    while len(matrix) < order:
+        matrix = [row + row for row in matrix] + [
+            row + [-value for value in row] for row in matrix
+        ]
+    assert len(matrix) == order
+    return matrix
+
+
+def dense_rows(order: int, local: tuple[int, ...]) -> list[list[int]]:
+    return [
+        [block_sign * value for block_sign in row for value in local]
+        for row in sylvester(order)
+    ]
+
+
 def build() -> dict[str, int]:
     result = one_block()
     failures = []
@@ -51,6 +70,15 @@ def build() -> dict[str, int]:
         if ratio * ratio > 8 * r:
             failures.append(r)
     result["first_sqrt_failure"] = failures[0]
+    dense_u = dense_rows(4, U)
+    dense_v = dense_rows(4, V)
+    assert all(
+        len(row) == 16 and set(row) == {-1, 1} and sum(row) == 0
+        for row in dense_u + dense_v
+    )
+    cross_gram = [dot(left, right) for left in dense_u for right in dense_v]
+    result["dense_dimension"] = len(dense_u[0])
+    result["dense_cross_gram_max"] = max(abs(value) for value in cross_gram)
     assert result == EXPECTED
     assert 16**6 > 24 * 9**6
     return result
@@ -74,7 +102,7 @@ def main() -> None:
         return
     print(
         "DLI_ORTHOGONAL_BERNOULLI_NO_GO_PASS "
-        "single=6,6,4 ratio=16/9 first_sqrt_failure_r=3"
+        "single=6,6,4 ratio=16/9 first_sqrt_failure_r=3 dense_n=16"
     )
 
 

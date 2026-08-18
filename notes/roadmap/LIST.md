@@ -77,10 +77,11 @@ deletion, not a collection of independent level caps.
 A generic orthogonality-only version of that theorem is now ruled out
 exactly. Balanced orthogonal Walsh null events on `4r` independent bits can
 have correlation excess `(16/9)^r`; at `r=3` this already exceeds the
-square-root scale. The live proof must therefore use the cyclic
-root-of-unity coefficient system, nested frequency allocation, or primitive
-first-owner deletion. Generic entropy or Brascamp-Lieb language without one
-of those inputs has no route value.
+square-root scale. The live proof must therefore use cyclic phase progression,
+nested frequency allocation, or primitive first-owner deletion. Hadamard
+mixing makes the same counterexample rows dense and equal-magnitude, so
+coefficient flatness is not enough. Generic entropy or Brascamp-Lieb language
+without one of the target-specific inputs has no route value.
 
 The rate-half crossing safe side is currently split into an exact structural
 shell, the proved deep-accident cap, and the open shallow/aperiodic

@@ -31,9 +31,14 @@ joint null count is `4`. Tensoring `r` disjoint blocks gives exact correlation
 excess `(16/9)^r`. At `r=3`, `n=12`, it already exceeds `sqrt(2n)`; in
 general it exceeds every fixed polynomial.
 
-Therefore coordinate independence, coefficient balance, and orthogonality
-cannot close C2''. A surviving theorem must exploit target-specific cyclic
-root-of-unity coefficients, nested frequency allocation, antipodal
+The route fence is not an artefact of sparse block rows. For power-of-two
+`r`, invertible Sylvester-Hadamard mixing presents the same two events using
+dense, balanced, equal-magnitude sign rows while preserving complete
+cross-row-space orthogonality and the exact ratio.
+
+Therefore coordinate independence, coefficient balance/flatness, and
+orthogonality cannot close C2''. A surviving theorem must exploit
+target-specific cyclic phase progression, nested frequency allocation, antipodal
 first-owner deletion, or another comparably strong property. The fixture
 does not falsify the DLI square-root candidate.
 

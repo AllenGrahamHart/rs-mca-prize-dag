@@ -80,7 +80,8 @@ Orthogonality by itself is also insufficient. The proved tensor fixture
 `dli_orthogonal_bernoulli_correlation_no_go` gives balanced orthogonal
 Bernoulli null-event row spaces with correlation ratio `(16/9)^r`, already
 breaking the square-root scale on twelve bits. Do not pursue a generic
-Brascamp-Lieb, entropy, or orthogonal-projection theorem unless its hypotheses
-explicitly use the cyclic root-of-unity coefficients, the nested allocation
-of frequencies, or antipodal first-owner deletion. Those target-specific
-features are now mandatory proof inputs.
+Brascamp-Lieb, entropy, flat-coefficient, or orthogonal-projection theorem:
+Hadamard mixing makes every counterexample row dense and equal-magnitude.
+The hypotheses must explicitly use cyclic phase progression, the nested
+allocation of frequencies, or antipodal first-owner deletion. Those
+target-specific features are now mandatory proof inputs.

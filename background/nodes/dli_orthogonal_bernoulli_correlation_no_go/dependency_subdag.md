@@ -8,7 +8,11 @@ disjoint-block independence
 balanced orthogonal Walsh rows
                     v
        exponential correlation ratio (16/9)^r
-                    |
+                    |-----------------------------|
+                    |                  Sylvester-Hadamard mixing
+                    |                             |
+                    |                  dense flat equivalent rows
+                    |-----------------------------|
                     v
 generic orthogonality-only polynomial bound is impossible
 ```

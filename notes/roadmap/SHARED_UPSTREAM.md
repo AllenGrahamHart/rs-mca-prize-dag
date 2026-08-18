@@ -96,6 +96,8 @@ on the live rank-eleven PR `#1173`.
 The accompanying route fence is also banked: orthogonal balanced Bernoulli
 null events can have exponential correlation excess `(16/9)^r`. Thus an
 upstream `(Q)`/SPI packet should not advertise orthogonality or generic
-entropy as sufficient; the useful open statement must retain cyclic
-coefficient structure and primitive quotient ownership. This is supporting
-material for that future packet, not a standalone PR.
+entropy as sufficient; the useful open statement must retain cyclic phase
+progression and primitive quotient ownership. Hadamard mixing makes the
+counterexample rows dense and equal-magnitude, so generic coefficient
+flatness is also insufficient. This is supporting material for that future
+packet, not a standalone PR.

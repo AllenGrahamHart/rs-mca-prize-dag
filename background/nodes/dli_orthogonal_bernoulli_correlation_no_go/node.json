@@ -6,8 +6,8 @@
     "title": "DLI orthogonal Bernoulli-correlation no-go",
     "status": "PROVED",
     "closure": "exact tensor counterexample",
-    "statement": "For every r>=1 there are two null events A_r and B_r on 4r independent uniform bits, each defined by r balanced {+1,-1} linear forms, whose row spaces are orthogonal, but P(A_r intersect B_r)/(P(A_r)P(B_r))=(16/9)^r. Thus coordinate independence, coefficient balance, and orthogonality alone imply no polynomial-loss product correlation bound. This does not falsify the cyclic, nested, primitive-deleted DLI square-root candidate.",
-    "attack_surface": "Check the one-block counts, complete row-space orthogonality, disjoint-block tensorization, integer square-root comparison, and the explicit exclusion of cyclic and primitive DLI structure from the kill scope.",
+    "statement": "For every r>=1 there are two null events A_r and B_r on 4r independent uniform bits, each defined by r balanced {+1,-1} linear forms, whose row spaces are orthogonal, but P(A_r intersect B_r)/(P(A_r)P(B_r))=(16/9)^r. For power-of-two r, invertible Sylvester-Hadamard mixing presents the same events with every coefficient row dense, flat, and balanced. Thus coordinate independence, coefficient balance/flatness, and orthogonality alone imply no polynomial-loss product correlation bound. This does not falsify the cyclic, nested, primitive-deleted DLI square-root candidate.",
+    "attack_surface": "Check the one-block counts, complete row-space orthogonality, disjoint-block tensorization, Sylvester-Hadamard equivalence, dense row support, integer square-root comparison, and the explicit exclusion of cyclic and primitive DLI structure from the kill scope.",
     "falsifier": "A mismatch in the exact 6,6,4 one-block counts, a nonzero cross Gram entry, or failure of the r=3 ratio to exceed sqrt(24).",
     "refs": [
       "background/nodes/dli_orthogonal_bernoulli_correlation_no_go/statement.md",
@@ -22,7 +22,7 @@
       "background/nodes/dli_primitive_haar_event_correlation/statement.md",
       "critical/nodes/dli_c2pp_joint_reserve/attack.md"
     ],
-    "notes": "This is a proof-architecture fence. A surviving DLI correlation proof must use the nested cyclic coefficient system, antipodal first-owner deletion, or another target-specific input."
+    "notes": "This is a proof-architecture fence. A surviving DLI correlation proof must use cyclic phase progression, the nested frequency allocation, antipodal first-owner deletion, or another target-specific input."
   },
   "requires": [],
   "alternatives": [],

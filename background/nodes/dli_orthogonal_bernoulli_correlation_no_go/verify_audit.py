@@ -42,9 +42,52 @@ def main() -> None:
     total = 1 << 12
     assert count_joint * total > count_a * count_b
     assert (count_joint * total) ** 2 > 24 * (count_a * count_b) ** 2
+
+    # Independent dense presentation at r=4, written without importing the
+    # primary verifier's matrix constructor.
+    hadamard = (
+        (1, 1, 1, 1),
+        (1, -1, 1, -1),
+        (1, 1, -1, -1),
+        (1, -1, -1, 1),
+    )
+    local_u = (1, 1, -1, -1)
+    local_v = (1, -1, 1, -1)
+    dense_u = tuple(
+        tuple(sign * value for sign in row for value in local_u)
+        for row in hadamard
+    )
+    dense_v = tuple(
+        tuple(sign * value for sign in row for value in local_v)
+        for row in hadamard
+    )
+    assert all(
+        len(row) == 16 and set(row) == {-1, 1} and sum(row) == 0
+        for row in dense_u + dense_v
+    )
+    assert all(
+        sum(a * b for a, b in zip(left, right, strict=True)) == 0
+        for left in dense_u
+        for right in dense_v
+    )
+
+    dense_a = dense_b = dense_joint = 0
+    for bits in product((0, 1), repeat=16):
+        event_a = all(
+            sum(a * x for a, x in zip(row, bits, strict=True)) == 0
+            for row in dense_u
+        )
+        event_b = all(
+            sum(a * x for a, x in zip(row, bits, strict=True)) == 0
+            for row in dense_v
+        )
+        dense_a += event_a
+        dense_b += event_b
+        dense_joint += event_a and event_b
+    assert (dense_a, dense_b, dense_joint) == (6**4, 6**4, 4**4)
     print(
         "DLI_ORTHOGONAL_BERNOULLI_NO_GO_AUDIT_PASS "
-        "bits=12 counts=216,216,64 square_root_bound=failed"
+        "sparse_bits=12 dense_bits=16 dense_counts=1296,1296,256"
     )
 
 

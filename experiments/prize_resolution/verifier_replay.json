@@ -9,18 +9,18 @@
     {
       "returncode": 0,
       "script": "background/nodes/dli_orthogonal_bernoulli_correlation_no_go/verify.py",
-      "seconds": 0.025285,
+      "seconds": 0.023397,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "DLI_ORTHOGONAL_BERNOULLI_NO_GO_PASS single=6,6,4 ratio=16/9 first_sqrt_failure_r=3\n"
+      "stdout_tail": "DLI_ORTHOGONAL_BERNOULLI_NO_GO_PASS single=6,6,4 ratio=16/9 first_sqrt_failure_r=3 dense_n=16\n"
     },
     {
       "returncode": 0,
       "script": "background/nodes/dli_orthogonal_bernoulli_correlation_no_go/verify_audit.py",
-      "seconds": 0.023052,
+      "seconds": 0.182888,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "DLI_ORTHOGONAL_BERNOULLI_NO_GO_AUDIT_PASS bits=12 counts=216,216,64 square_root_bound=failed\n"
+      "stdout_tail": "DLI_ORTHOGONAL_BERNOULLI_NO_GO_AUDIT_PASS sparse_bits=12 dense_bits=16 dense_counts=1296,1296,256\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

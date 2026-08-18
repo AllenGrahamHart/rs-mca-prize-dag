@@ -41,4 +41,26 @@ At `r=3`, squaring the desired comparison gives
 
 which the exact integer inequality `16^6 > 24*9^6` verifies. Finally,
 `r log(16/9)` grows linearly while `C log(4r)` grows logarithmically, so the
-ratio exceeds `(4r)^C` for every fixed `C` once `r` is large enough. QED.
+ratio exceeds `(4r)^C` for every fixed `C` once `r` is large enough.
+
+For the dense refinement, take `r` to be a power of two and let `H_r` be the
+Sylvester Hadamard matrix. It has entries in `{+1,-1}` and satisfies
+`H_r^T H_r=rI`. Hence it is invertible over the rationals, over the integers
+for purposes of a homogeneous zero test, and over every odd-characteristic
+field. The systems
+
+```text
+H_r U=0,       H_r V=0
+```
+
+are therefore equivalent to `U=0` and `V=0` and retain the same counts.
+Each mixed row is `h tensor u` or `h tensor v` for a row `h` of `H_r`.
+All its `4r` entries are signs, and its coordinate sum is zero because both
+`u` and `v` are balanced. Finally,
+
+```text
+(h tensor u) dot (k tensor v)=(h dot k)(u dot v)=0.
+```
+
+Thus the complete cross Gram matrix is zero and every row is dense and flat,
+which proves the refinement. QED.
