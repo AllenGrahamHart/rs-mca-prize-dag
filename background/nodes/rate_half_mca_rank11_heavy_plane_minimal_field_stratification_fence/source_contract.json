@@ -1,0 +1,17 @@
+{
+  "schema": "rate-half-mca-rank11-heavy-plane-minimal-field-v1",
+  "extension_degree": 6,
+  "minimal_field_degrees": [1, 2, 3, 6],
+  "stratum_count": 4,
+  "mass": 9965407986,
+  "heavy_stratum_mass": 2491351997,
+  "rank_two_cap": 248644099,
+  "ten_factor_capacity": 2486440990,
+  "heavy_stratum_gap": 4911007,
+  "minimum_stratum_factors": 11,
+  "witness_shortened_dimension": 7,
+  "witness_product_degrees": [0, 2, 4, 6],
+  "witness_factor_count": 41,
+  "witness_full_factors": 40,
+  "witness_last_mass": 19644026
+}

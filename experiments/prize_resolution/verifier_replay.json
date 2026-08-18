@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_heavy_plane_segre_shortening_transversality/verify.py",
-      "seconds": 0.030932,
+      "script": "background/nodes/rate_half_mca_rank11_heavy_plane_minimal_field_stratification_fence/verify.py",
+      "seconds": 0.030754,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RANK11_HEAVY_SEGRE_PASS used_factors=41 last_cap=10166508078 paying_cap=9319299072\n"
+      "stdout_tail": "RANK11_MINIMAL_FIELD_PASS heavy_mass=2491351997 factors=11 witness_last=19644026\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_heavy_plane_segre_shortening_transversality/verify_audit.py",
-      "seconds": 0.024678,
+      "script": "background/nodes/rate_half_mca_rank11_heavy_plane_minimal_field_stratification_fence/verify_audit.py",
+      "seconds": 0.024486,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RANK11_HEAVY_SEGRE_AUDIT_PASS turn=177803 used=41 exceptions=11\n"
+      "stdout_tail": "RANK11_MINIMAL_FIELD_AUDIT_PASS degrees=1,2,3,6 heavy_mass=2491351997 factors=11\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

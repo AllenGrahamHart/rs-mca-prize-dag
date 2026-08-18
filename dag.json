@@ -41509,6 +41509,30 @@
    ]
   },
   {
+   "id": "rate_half_mca_rank11_heavy_plane_minimal_field_stratification_fence",
+   "title": "Rank-eleven heavy-plane minimal-field stratification fence",
+   "status": "PROVED",
+   "closure": "the heavy Segre bucket splits exactly by minimal field degree, while automatic base-field descent is ruled out as a consequence of the current algebraic interface alone",
+   "statement": "For the official KoalaBear sextic row, every used factor record in the heavy rank-four Segre bucket has a unique minimal field of definition over the domain-generated base field B. Its relative degree is one of 1,2,3,6. The retained mass 9965407986 therefore has a degree stratum of mass at least 2491351997, and the fixed-factor cap 248644099 forces that stratum to use at least 11 projective factors. Degree one is the base-rational interface; degrees 2,3,6 are exact extension-generated alternatives. A symbolic degree-six 2 x 2 product packet shows that field-internal Segre form, base-freeness, product rank four, 41 used factors, and the fixed-factor mass cap do not by themselves force degree one. Any further descent must use the received-line, ownership, support, or Galois-transfer semantics not present in that algebraic interface.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_heavy_plane_minimal_field_stratification_fence/statement.md",
+    "background/nodes/rate_half_mca_rank11_heavy_plane_minimal_field_stratification_fence/proof.md",
+    "background/nodes/rate_half_mca_rank11_heavy_plane_minimal_field_stratification_fence/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_heavy_plane_minimal_field_stratification_fence/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_heavy_plane_minimal_field_stratification_fence/audit.md",
+    "background/nodes/rate_half_mca_rank11_heavy_plane_minimal_field_stratification_fence/result.md",
+    "background/nodes/rate_half_mca_rank11_heavy_plane_minimal_field_stratification_fence/provenance.md",
+    "background/nodes/rate_half_mca_rank11_heavy_plane_minimal_field_stratification_fence/frontier.md",
+    "background/nodes/rate_half_mca_rank11_heavy_plane_minimal_field_stratification_fence/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_heavy_plane_minimal_field_stratification_fence/verify.py",
+    "background/nodes/rate_half_mca_rank11_heavy_plane_minimal_field_stratification_fence/verify_audit.py"
+   ],
+   "upstream": {
+    "label": "KoalaBear dense-locator base-field-normalized split-pencil route",
+    "relation": "OVERLAP"
+   }
+  },
+  {
    "id": "rate_half_mca_rank11_heavy_plane_segre_shortening_transversality",
    "title": "Rank-eleven heavy-plane Segre shortening and transversality",
    "status": "PROVED",
@@ -81621,9 +81645,19 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_mca_rank11_heavy_plane_minimal_field_stratification_fence",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_mca_rank11_heavy_plane_segre_shortening_transversality",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_heavy_plane_segre_shortening_transversality",
+   "to": "rate_half_mca_rank11_heavy_plane_minimal_field_stratification_fence",
+   "kind": "req"
   },
   {
    "from": "rate_half_mca_rank11_k11_circuit_split_pencil_payment",
@@ -83584,6 +83618,11 @@
    "from": "v13_2_near_rational_supportwise_two_anchor_payment",
    "to": "v13_bc_split_pencil_normal_form",
    "kind": "ev"
+  },
+  {
+   "from": "v13_base_field_normalization_guard",
+   "to": "rate_half_mca_rank11_heavy_plane_minimal_field_stratification_fence",
+   "kind": "req"
   },
   {
    "from": "v13_prefix_collision_ledger",

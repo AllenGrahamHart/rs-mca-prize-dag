@@ -112,6 +112,16 @@ certificates required by the challenge.
   support exceptions. The unresolved interface to PR #1170 is now
   base-field descent plus one aggregate selected-support payment, not the
   existence of a split-pencil normal form.
+- The base-field interface has now been split without assuming descent. Each
+  used factor record has a unique minimal field over the domain-generated
+  base field, of relative degree `1,2,3`, or `6`. One degree stratum owns at
+  least `2491351997` slopes and at least 11 projective factors. Degree one is
+  the base-rational census branch; degrees `2/3/6` are exact extension
+  branches. A symbolic sextic `2 x 2` product packet proves that the current
+  field-internal Segre, rank, factor-count, and cap interfaces do not force
+  degree one. The next theorem must therefore use received-line,
+  first-owner, support, or Galois-orbit semantics to bind the degree-one
+  stratum to PR #1170 or transfer/pay an extension stratum.
 - The finite rank-nine prefix is proved through `K'=87`. At the first open
   row `K'=88`, paired raw scans classify all 18,741,723 source units and
   leave exactly 622,895 raw-unsafe units on offsets `1..44`. This is a
