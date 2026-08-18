@@ -96,6 +96,7 @@
     "notes/compute_requests/sections/91-o0b-fff-generic-q7-extension.md",
     "notes/compute_requests/sections/92-o0b-fff-q5-multiplication-bank.md",
     "notes/compute_requests/sections/93-o0b-fff-q6-block-determinant.md",
-    "notes/compute_requests/sections/94-o0b-fff-r76-multiplication-determinant.md"
+    "notes/compute_requests/sections/94-o0b-fff-r76-multiplication-determinant.md",
+    "notes/compute_requests/sections/95-o0b-fff-r76-matrix-bank.md"
   ]
 }
