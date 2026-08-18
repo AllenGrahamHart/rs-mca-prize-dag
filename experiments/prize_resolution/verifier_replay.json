@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_factor_flag_clone_line_dichotomy/verify.py",
-      "seconds": 0.028279,
+      "script": "background/nodes/rate_half_mca_rank11_active_clone_locator_shortening_adapter/verify.py",
+      "seconds": 0.026533,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RANK11_CLONE_LINE_PASS low_incidence=255859400991343449179217479656 line_mass=777301822903 balanced_mass=388650911452 clone_output=10001\n"
+      "stdout_tail": "RANK11_ACTIVE_CLONE_PASS c=10001..1048571 shortened_k=5..1038575 mass=388650911452\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_factor_flag_clone_line_dichotomy/verify_audit.py",
-      "seconds": 0.020143,
+      "script": "background/nodes/rate_half_mca_rank11_active_clone_locator_shortening_adapter/verify_audit.py",
+      "seconds": 0.022959,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RANK11_CLONE_LINE_AUDIT_PASS clone_cutoff=10000 clone_output=10001 line_mass=777301822903 balanced_mass=388650911452\n"
+      "stdout_tail": "RANK11_ACTIVE_CLONE_AUDIT_PASS product_floor=5 c_max=1048571 mass=388650911452\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

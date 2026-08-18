@@ -41050,6 +41050,30 @@
    ]
   },
   {
+   "id": "rate_half_mca_rank11_active_clone_locator_shortening_adapter",
+   "title": "Rank-eleven active-clone locator shortening adapter",
+   "status": "PROVED",
+   "closure": "the active large-clone horn is reversibly converted to a mass-preserving shortened 2 x 4 factor bucket",
+   "statement": "In the active large-clone output of the base-free KoalaBear rank-eleven 2 x 5 factor branch, the common evaluation kernel B_D has dimension four and is divisible by the squarefree locator of the clone. Division transports the complete first-owned mass at least 388650911452 to a shortened 2 x 4 factor bucket with parameters (n-c,k-c,m-c), preserving slopes, pair noncontainment, and all three row differences. The polynomial product dimension bound dim(P bar(B)_D)>=5 forces 10001<=c<=K-5=1048571. The shortened bucket and the genuine rank-two alternative remain unpaid.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_active_clone_locator_shortening_adapter/statement.md",
+    "background/nodes/rate_half_mca_rank11_active_clone_locator_shortening_adapter/proof.md",
+    "background/nodes/rate_half_mca_rank11_active_clone_locator_shortening_adapter/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_active_clone_locator_shortening_adapter/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_active_clone_locator_shortening_adapter/audit.md",
+    "background/nodes/rate_half_mca_rank11_active_clone_locator_shortening_adapter/result.md",
+    "background/nodes/rate_half_mca_rank11_active_clone_locator_shortening_adapter/provenance.md",
+    "background/nodes/rate_half_mca_rank11_active_clone_locator_shortening_adapter/frontier.md",
+    "background/nodes/rate_half_mca_rank11_active_clone_locator_shortening_adapter/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_active_clone_locator_shortening_adapter/verify.py",
+    "background/nodes/rate_half_mca_rank11_active_clone_locator_shortening_adapter/verify_audit.py"
+   ],
+   "upstream": {
+    "label": "anchored rich-flat rank-eleven factor synchronization terminal",
+    "relation": "EXTENDS"
+   }
+  },
+  {
    "id": "rate_half_mca_rank11_anchor_star_sae_router",
    "title": "Rank-eleven fixed 31-anchor star routes to C/S/A/E",
    "status": "PROVED",
@@ -75441,6 +75465,11 @@
   },
   {
    "from": "rate_half_kb_common_core_shortening_adapter_staircase_import",
+   "to": "rate_half_mca_rank11_active_clone_locator_shortening_adapter",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_common_core_shortening_adapter_staircase_import",
    "to": "rate_half_mca_rank11_rich_flat_residual_mass_compiler",
    "kind": "req"
   },
@@ -81065,6 +81094,11 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_mca_rank11_active_clone_locator_shortening_adapter",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_mca_rank11_anchor_star_sae_router",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
@@ -81363,6 +81397,11 @@
    "from": "rate_half_mca_rank11_factor_flag_clone_line_dichotomy",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_factor_flag_clone_line_dichotomy",
+   "to": "rate_half_mca_rank11_active_clone_locator_shortening_adapter",
+   "kind": "req"
   },
   {
    "from": "rate_half_mca_rank11_factor_flag_common_base_global_core_adapter",

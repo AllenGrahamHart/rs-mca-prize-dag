@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_active_clone_locator_shortening_adapter",
+    "title": "Rank-eleven active-clone locator shortening adapter",
+    "status": "PROVED",
+    "closure": "the active large-clone horn is reversibly converted to a mass-preserving shortened 2 x 4 factor bucket",
+    "statement": "In the active large-clone output of the base-free KoalaBear rank-eleven 2 x 5 factor branch, the common evaluation kernel B_D has dimension four and is divisible by the squarefree locator of the clone. Division transports the complete first-owned mass at least 388650911452 to a shortened 2 x 4 factor bucket with parameters (n-c,k-c,m-c), preserving slopes, pair noncontainment, and all three row differences. The polynomial product dimension bound dim(P bar(B)_D)>=5 forces 10001<=c<=K-5=1048571. The shortened bucket and the genuine rank-two alternative remain unpaid.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_active_clone_locator_shortening_adapter/statement.md",
+      "background/nodes/rate_half_mca_rank11_active_clone_locator_shortening_adapter/proof.md",
+      "background/nodes/rate_half_mca_rank11_active_clone_locator_shortening_adapter/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_active_clone_locator_shortening_adapter/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_active_clone_locator_shortening_adapter/audit.md",
+      "background/nodes/rate_half_mca_rank11_active_clone_locator_shortening_adapter/result.md",
+      "background/nodes/rate_half_mca_rank11_active_clone_locator_shortening_adapter/provenance.md",
+      "background/nodes/rate_half_mca_rank11_active_clone_locator_shortening_adapter/frontier.md",
+      "background/nodes/rate_half_mca_rank11_active_clone_locator_shortening_adapter/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_active_clone_locator_shortening_adapter/verify.py",
+      "background/nodes/rate_half_mca_rank11_active_clone_locator_shortening_adapter/verify_audit.py"
+    ],
+    "upstream": {
+      "label": "anchored rich-flat rank-eleven factor synchronization terminal",
+      "relation": "EXTENDS"
+    }
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_factor_flag_clone_line_dichotomy"},
+    {"from": "rate_half_kb_common_core_shortening_adapter_staircase_import"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location"}
+  ],
+  "refutes": []
+}

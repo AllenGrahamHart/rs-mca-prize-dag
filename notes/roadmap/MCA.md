@@ -77,6 +77,14 @@ certificates required by the challenge.
   hypothesis that every clone is small, the line mass improves to
   `777301822903`. The next exact adapter can therefore shorten the large
   clone horn without first having to prove that the ambient clone is used.
+- The active-clone adapter is now proved. A clone `D` has one common
+  four-dimensional residual kernel divisible by its squarefree locator;
+  cancellation preserves at least `388650911452` first-owned slopes and
+  produces a shortened `2 x 4` factor bucket with parameters
+  `(n-c,k-c,m-c)`. The polynomial product-space floor is five, so the exact
+  range is `10001<=c<=K-5` and `5<=k-c<=1038575`. This pays no bucket, but
+  it removes the inactive-clone ambiguity and gives that horn a reversible,
+  chronology-preserving destination.
 - The finite rank-nine prefix is proved through `K'=87`. At the first open
   row `K'=88`, paired raw scans classify all 18,741,723 source units and
   leave exactly 622,895 raw-unsafe units on offsets `1..44`. This is a

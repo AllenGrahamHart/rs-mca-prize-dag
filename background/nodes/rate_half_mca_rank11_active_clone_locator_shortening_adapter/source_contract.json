@@ -1,0 +1,16 @@
+{
+  "schema": "rate-half-mca-rank11-active-clone-shortening-v1",
+  "n": 2097152,
+  "k": 1048576,
+  "m": 1116048,
+  "active_mass": 388650911452,
+  "clone_size_min": 10001,
+  "product_dimension_floor": 5,
+  "clone_size_max": 1048571,
+  "shortened_k_min": 5,
+  "shortened_k_max": 1038575,
+  "redundancy": 1048576,
+  "agreement_gap": 67472,
+  "misses": 981104,
+  "residual_roots": 37736
+}
