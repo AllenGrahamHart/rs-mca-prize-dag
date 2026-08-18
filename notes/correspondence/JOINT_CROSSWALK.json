@@ -2392,6 +2392,32 @@
     "our_sha": "f2506bb76",
     "his_sha": "d296510e80"
    }
+  },
+  {
+   "our_node": "rate_half_mca_rank11_heavy_plane_minimal_field_stratification_fence",
+   "his_object": {
+    "label": "KoalaBear dense-locator base-field-normalized split-pencil route",
+    "file": "experimental/notes/thresholds/kb_mca_rank11_dense_locator_split_pencil_v1.md",
+    "line": "base-field-normalized fixed rank-nine split-pencil cell"
+   },
+   "relation": "OVERLAP",
+   "chain": "heavy field-internal Segre bucket -> unique minimal field for each combined pencil/factor datum -> degree-1/2/3/6 mass partition -> one 2491351997-mass stratum using at least 11 factors",
+   "scope": "official KoalaBear sextic row inside the assumed base-free 2 x 5 factor branch; the 9965407986-slope heavy plane is partitioned by minimal field degree over the domain-generated base field",
+   "owner": "US",
+   "nonclaims": [
+    "does not prove that the heavy stratum has degree one",
+    "does not bind a degree-one stratum to the upstream fixed rank-nine selected-support owner",
+    "does not transfer or pay the degree-2, degree-3, or degree-6 strata",
+    "the symbolic sextic packet is an algebraic route fence, not an MCA counterexample",
+    "does not pay the bucket or close MCA"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "cbfd2528d",
+    "his_sha": "d296510e80"
+   }
   }
  ]
 }
