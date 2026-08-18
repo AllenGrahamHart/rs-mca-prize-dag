@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_heavy_ruling_triple_owner_pole_simple_router",
+    "title": "Triple-owner heavy ruling removes common rational poles",
+    "status": "PROVED",
+    "closure": "a three-record-per-pair order-32 packet retains degree at least twenty, excludes pure locators, and makes every denominator-root support incidence singleton",
+    "statement": "In the heavy ruling orientation, pair types owning at most two records cost at most 116722, leaving 322359637 records on triple-owner types. Their common core has size below K-2: otherwise dimension-two shortening caps triple-owner records at 236448715, and restoring all low-multiplicity records gives 236565437, short by 85910922. One triple-owner pair owns at least 5524 records. One anchor and at most four additional pair types recover the common core. Choose three records from every additional pair and 32-3t from the anchor, so at least 20 anchor explanations remain. Core-saturated exact supports have common intersection equal to the recovered core; cancellation gives a nonaffine degree-20-through-31 packet. The partial-relative output is either rational or chi at least 2299571; the two-core root surplus again excludes pure locators. In the rational branch, a common domain pole Q=A=B=0 would lie in at least two supports from every represented pair, hence in every residual pair core, contradicting their empty intersection. Any root of Q lies in at most one selected support, so all denominator-root support incidences are singleton and total at most 67472. No rational or high-complexity payment is claimed.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_heavy_ruling_triple_owner_pole_simple_router/statement.md",
+      "background/nodes/rate_half_mca_rank11_heavy_ruling_triple_owner_pole_simple_router/proof.md",
+      "background/nodes/rate_half_mca_rank11_heavy_ruling_triple_owner_pole_simple_router/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_heavy_ruling_triple_owner_pole_simple_router/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_heavy_ruling_triple_owner_pole_simple_router/audit.md",
+      "background/nodes/rate_half_mca_rank11_heavy_ruling_triple_owner_pole_simple_router/result.md",
+      "background/nodes/rate_half_mca_rank11_heavy_ruling_triple_owner_pole_simple_router/provenance.md",
+      "background/nodes/rate_half_mca_rank11_heavy_ruling_triple_owner_pole_simple_router/frontier.md",
+      "background/nodes/rate_half_mca_rank11_heavy_ruling_triple_owner_pole_simple_router/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_heavy_ruling_triple_owner_pole_simple_router/verify.py",
+      "background/nodes/rate_half_mca_rank11_heavy_ruling_triple_owner_pole_simple_router/verify_audit.py"
+    ],
+    "upstream": {
+      "label": "rank-eleven factor-flag synchronization / primitive shift-pair control",
+      "relation": "OVERLAP"
+    }
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_heavy_plane_low_margin_segre_ruling_router"},
+    {"from": "rate_half_mca_order32_partial_relative_harvest"},
+    {"from": "rate_half_mca_pole_tolerant_scalar_locator_harvest"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location"}
+  ],
+  "refutes": []
+}

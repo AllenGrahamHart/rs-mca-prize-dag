@@ -170,6 +170,20 @@ certificates required by the challenge.
   homogeneous certificate to be zero. The live branch is therefore the
   exact two-way alternative: a nontrivial rational profile with
   `deg Q<=67472`, or `chi>=2299571`.
+- The rational side now has a pole-simple refinement. Discarding pair types
+  with at most two owners costs at most 116,722 records and leaves
+  `322359637` on triple-owner types. The same dimension-two contradiction
+  bounds their common core below `K-2`; one pair owns at least 5,524
+  records. Taking three records from each of at most four nonanchor types
+  leaves at least 20 anchor records, so core-saturated cancellation yields a
+  degree-`20..31` packet. Pure locators are again impossible. In the
+  rational branch an affine locator scalar can exempt at most one slope;
+  three slopes per pair force any common pole `Q=A=B=0` into every residual
+  pair core, contradicting their empty intersection. Hence every root of
+  `Q` meets at most one selected support, and total pole-support incidence
+  is at most `67472`. This is not whole-domain root-freeness; the remaining
+  task is to preserve enough exact support after this singleton charge to
+  pay the rational atom, or pay the high-complexity alternative.
 - The finite rank-nine prefix is proved through `K'=87`. At the first open
   row `K'=88`, paired raw scans classify all 18,741,723 source units and
   leave exactly 622,895 raw-unsafe units on offsets `1..44`. This is a
