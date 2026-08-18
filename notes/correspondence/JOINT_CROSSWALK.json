@@ -2568,6 +2568,31 @@
     "our_sha": "466ada6ea",
     "his_sha": "d296510e80"
    }
+  },
+  {
+   "our_node": "rate_half_mca_rank11_exception_spi_quotient_periodic_fence",
+   "his_object": {
+    "label": "aperiodic locator image-fiber inverse theorem",
+    "file": "towards-prize.md",
+    "line": "quotient-periodic fibers explicitly budgeted"
+   },
+   "relation": "OVERLAP",
+   "chain": "bounded heavy-ruling exception SPI -> cyclic power-map construction -> explicit quotient-periodic split-fiber survivor",
+   "scope": "abstract degree-1-through-11 split-pencil interface on the official power-of-two evaluation domain; e=1,2,4,8 admit N/e disjoint split fibers",
+   "owner": "US",
+   "nonclaims": [
+    "does not lift the power-map pencil to an actual heavy-ruling rational packet",
+    "does not classify the nonperiodic pencils",
+    "does not pay the quotient-periodic class or prove the upstream image-fiber bound",
+    "is not an MCA counterexample and does not close rank eleven or MCA"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "599ed5a9a",
+    "his_sha": "d296510e80"
+   }
   }
  ]
 }
