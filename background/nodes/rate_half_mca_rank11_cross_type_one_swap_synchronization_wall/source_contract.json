@@ -1,0 +1,11 @@
+{
+  "schema": "rate-half-mca-rank11-cross-type-one-swap-synchronization-wall-v1",
+  "packet_size": 32,
+  "partial_relative_anchor_threshold": 18,
+  "partial_relative_cross_anchor_overlap_cap": 28,
+  "heavy_ruling_anchor_threshold": 20,
+  "heavy_ruling_cross_anchor_overlap_cap": 24,
+  "one_swap_overlap": 31,
+  "quotient_population_floor": 520,
+  "nonclaim": "The overlap wall does not prove that cross-type quotient certificates are incompatible."
+}

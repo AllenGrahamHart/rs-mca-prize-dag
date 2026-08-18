@@ -320,6 +320,14 @@ certificates required by the challenge.
   least `max(0,255011043-490553q)` records on other pencils. The next theorem
   must control compatibility or chronology across this 520-type population;
   a single-pencil analysis cannot close the branch.
+- The current 31-overlap synchronization cannot provide that cross-type
+  theorem. An order-32 packet with at least 18 records from one anchor type
+  has a unique anchor; packets anchored at different types overlap in at most
+  28 records (at most 24 under the local 20-anchor interface). Thus every
+  connected component of the one-swap packet graph keeps one pair type. A
+  viable next interface needs rigidity from at most 28 shared records, a
+  larger packet theorem, or direct factor/chronology payment. This is a
+  method wall, not evidence that compatible quotient populations exist.
 - The finite rank-nine prefix is proved through `K'=87`. At the first open
   row `K'=88`, paired raw scans classify all 18,741,723 source units and
   leave exactly 622,895 raw-unsafe units on offsets `1..44`. This is a

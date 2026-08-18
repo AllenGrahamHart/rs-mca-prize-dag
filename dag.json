@@ -41287,6 +41287,30 @@
    ]
   },
   {
+   "id": "rate_half_mca_rank11_cross_type_one_swap_synchronization_wall",
+   "title": "Order-32 one-swap synchronization cannot cross heavy pair types",
+   "status": "PROVED",
+   "closure": "sharp packet-overlap counting",
+   "statement": "In a 32-record packet an anchor type with at least 18 records is unique. Packets anchored at different types overlap in at most 28 records, or at most 24 under the heavy-ruling threshold 20. Hence the existing 31-overlap one-swap and certificate-collision arguments preserve anchor type and cannot synchronize the 520-type quotient population. This is a method wall, not cross-type incompatibility.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_cross_type_one_swap_synchronization_wall/statement.md",
+    "background/nodes/rate_half_mca_rank11_cross_type_one_swap_synchronization_wall/proof.md",
+    "background/nodes/rate_half_mca_rank11_cross_type_one_swap_synchronization_wall/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_cross_type_one_swap_synchronization_wall/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_cross_type_one_swap_synchronization_wall/audit.md",
+    "background/nodes/rate_half_mca_rank11_cross_type_one_swap_synchronization_wall/result.md",
+    "background/nodes/rate_half_mca_rank11_cross_type_one_swap_synchronization_wall/frontier.md",
+    "background/nodes/rate_half_mca_rank11_cross_type_one_swap_synchronization_wall/provenance.md",
+    "background/nodes/rate_half_mca_rank11_cross_type_one_swap_synchronization_wall/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_cross_type_one_swap_synchronization_wall/verify.py",
+    "background/nodes/rate_half_mca_rank11_cross_type_one_swap_synchronization_wall/verify_audit.py"
+   ],
+   "upstream": {
+    "label": "factor synchronization next theorem",
+    "relation": "OVERLAP"
+   }
+  },
+  {
    "id": "rate_half_mca_rank11_dense_locator_component_incidence_dichotomy",
    "title": "Rank-eleven dense normalization forces component-incidence abundance",
    "status": "PROVED",
@@ -81668,6 +81692,11 @@
   },
   {
    "from": "rate_half_mca_order32_partial_relative_harvest",
+   "to": "rate_half_mca_rank11_cross_type_one_swap_synchronization_wall",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_order32_partial_relative_harvest",
    "to": "rate_half_mca_rank11_global_core_rankdrop_highcomplexity_router",
    "kind": "req"
   },
@@ -81905,6 +81934,11 @@
    "from": "rate_half_mca_rank11_component_star_owner_pencil_router",
    "to": "rate_half_mca_rank11_rank9_split_pencil_cell_ledger",
    "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_cross_type_one_swap_synchronization_wall",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
   },
   {
    "from": "rate_half_mca_rank11_dense_locator_component_incidence_dichotomy",
@@ -83118,6 +83152,11 @@
   },
   {
    "from": "rate_half_mca_rank11_multi_anchor_exchange_split_pencil_synchronization",
+   "to": "rate_half_mca_rank11_cross_type_one_swap_synchronization_wall",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_multi_anchor_exchange_split_pencil_synchronization",
    "to": "rate_half_mca_rank11_nonzero_affine_reflection_mass_router",
    "kind": "req"
   },
@@ -83200,6 +83239,11 @@
    "from": "rate_half_mca_rank11_quadratic_quotient_population_router",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_quadratic_quotient_population_router",
+   "to": "rate_half_mca_rank11_cross_type_one_swap_synchronization_wall",
+   "kind": "req"
   },
   {
    "from": "rate_half_mca_rank11_quadratic_quotient_survivor_identification",
