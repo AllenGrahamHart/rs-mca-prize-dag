@@ -2,41 +2,25 @@
   "complete": true,
   "counts": {
     "FAIL": 0,
-    "PASS": 4,
+    "PASS": 2,
     "TIMEOUT": 0
   },
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_shifted_inversion_product_energy_ledger/verify.py",
-      "seconds": 0.059501,
+      "script": "background/nodes/rate_half_mca_rank11_quadratic_quotient_survivor_identification/verify.py",
+      "seconds": 0.05327,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "SHIFTED_PRODUCT_ENERGY_LEDGER_PASS mean=2064+127/1016 toy_checks=16\n"
+      "stdout_tail": "QUADRATIC_QUOTIENT_IDENTIFICATION_PASS minimum=1048575 toy_checks=16\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_shifted_inversion_product_energy_ledger/verify_audit.py",
-      "seconds": 0.041097,
+      "script": "background/nodes/rate_half_mca_rank11_quadratic_quotient_survivor_identification/verify_audit.py",
+      "seconds": 0.041275,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "SHIFTED_PRODUCT_ENERGY_LEDGER_AUDIT_PASS index=1016 threshold=8740\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_shifted_inversion_reciprocal_affine_elimination/verify.py",
-      "seconds": 0.050832,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "RECIPROCAL_AFFINE_ELIMINATION_PASS toy_checks=5 fiber_margin=3216\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_shifted_inversion_reciprocal_affine_elimination/verify_audit.py",
-      "seconds": 0.04137,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "RECIPROCAL_AFFINE_ELIMINATION_AUDIT_PASS margins=3216,6432\n"
+      "stdout_tail": "QUADRATIC_QUOTIENT_IDENTIFICATION_AUDIT_PASS minimum=1048575\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_quadratic_quotient_survivor_identification",
+    "title": "Quadratic antipodal and constant-product survivors are exact quotient pencils",
+    "status": "PROVED",
+    "closure": "cyclic and dihedral orbit classification on the official multiplicative subgroup",
+    "statement": "The antipodal quadratic survivor is exactly the cyclic pencil X^2-y and has 1048576 fibers. The constant-product survivor is exactly the dihedral pencil X^2-sX+kappa and has 1048576 fibers for nonsquare kappa or 1048575 after deleting the two fixed points for square kappa. Thus both are genuine quotient classes far above 4370 and require owner payment; only shifted inversion with lambda different from zero and one remains eligible for pointwise elimination.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_quadratic_quotient_survivor_identification/statement.md",
+      "background/nodes/rate_half_mca_rank11_quadratic_quotient_survivor_identification/proof.md",
+      "background/nodes/rate_half_mca_rank11_quadratic_quotient_survivor_identification/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_quadratic_quotient_survivor_identification/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_quadratic_quotient_survivor_identification/audit.md",
+      "background/nodes/rate_half_mca_rank11_quadratic_quotient_survivor_identification/result.md",
+      "background/nodes/rate_half_mca_rank11_quadratic_quotient_survivor_identification/frontier.md",
+      "background/nodes/rate_half_mca_rank11_quadratic_quotient_survivor_identification/provenance.md",
+      "background/nodes/rate_half_mca_rank11_quadratic_quotient_survivor_identification/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_quadratic_quotient_survivor_identification/verify.py",
+      "background/nodes/rate_half_mca_rank11_quadratic_quotient_survivor_identification/verify_audit.py"
+    ],
+    "upstream": {
+      "label": "base-field-normalized split-pencil census / quotient-periodic boundary",
+      "relation": "OVERLAP"
+    }
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_quadratic_survivor_mobius_router"},
+    {"from": "rate_half_mca_rank11_exception_spi_quotient_periodic_fence"},
+    {"from": "rate_half_mca_rank11_exception_spi_dihedral_quotient_fence"},
+    {"from": "rate_half_mca_rank11_shifted_inversion_reciprocal_affine_elimination"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location"}
+  ],
+  "refutes": []
+}

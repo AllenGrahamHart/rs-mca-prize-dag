@@ -294,6 +294,15 @@ certificates required by the challenge.
   Thus this degeneration is eliminated. Existing energy and subgroup-curve
   bounds do not imply the needed pointwise cap for general `lambda!=0,1`;
   that two-parameter class remains a live split-pencil census problem.
+- The other two quadratic outputs are now identified exactly with existing
+  quotient fences. Antipodal fibers are the cyclic pencil `X^2-y` and number
+  1,048,576. Constant-product fibers are the dihedral pencil
+  `X^2-sX+kappa`; after deleting its zero or two fixed points, it has
+  1,048,576 or 1,048,575 split squarefree fibers. Hence these classes exceed
+  the 4,370-fiber trigger by at least 1,044,205 and cannot be eliminated by a
+  local small-fiber theorem. They require an owner-safe quotient payment.
+  The quadratic frontier is therefore cleanly split between that payment and
+  the general shifted-inversion pointwise cap.
 - The finite rank-nine prefix is proved through `K'=87`. At the first open
   row `K'=88`, paired raw scans classify all 18,741,723 source units and
   leave exactly 622,895 raw-unsafe units on offsets `1..44`. This is a

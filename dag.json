@@ -43226,6 +43226,30 @@
    ]
   },
   {
+   "id": "rate_half_mca_rank11_quadratic_quotient_survivor_identification",
+   "title": "Quadratic antipodal and constant-product survivors are exact quotient pencils",
+   "status": "PROVED",
+   "closure": "cyclic and dihedral orbit classification on the official multiplicative subgroup",
+   "statement": "The antipodal quadratic survivor is exactly the cyclic pencil X^2-y and has 1048576 fibers. The constant-product survivor is exactly the dihedral pencil X^2-sX+kappa and has 1048576 fibers for nonsquare kappa or 1048575 after deleting the two fixed points for square kappa. Thus both are genuine quotient classes far above 4370 and require owner payment; only shifted inversion with lambda different from zero and one remains eligible for pointwise elimination.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_quadratic_quotient_survivor_identification/statement.md",
+    "background/nodes/rate_half_mca_rank11_quadratic_quotient_survivor_identification/proof.md",
+    "background/nodes/rate_half_mca_rank11_quadratic_quotient_survivor_identification/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_quadratic_quotient_survivor_identification/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_quadratic_quotient_survivor_identification/audit.md",
+    "background/nodes/rate_half_mca_rank11_quadratic_quotient_survivor_identification/result.md",
+    "background/nodes/rate_half_mca_rank11_quadratic_quotient_survivor_identification/frontier.md",
+    "background/nodes/rate_half_mca_rank11_quadratic_quotient_survivor_identification/provenance.md",
+    "background/nodes/rate_half_mca_rank11_quadratic_quotient_survivor_identification/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_quadratic_quotient_survivor_identification/verify.py",
+    "background/nodes/rate_half_mca_rank11_quadratic_quotient_survivor_identification/verify_audit.py"
+   ],
+   "upstream": {
+    "label": "base-field-normalized split-pencil census / quotient-periodic boundary",
+    "relation": "OVERLAP"
+   }
+  },
+  {
    "id": "rate_half_mca_rank11_quadratic_survivor_mobius_router",
    "title": "Quadratic 4370-fiber survivors are antipodal, constant-product, or shifted inversion",
    "status": "PROVED",
@@ -81985,9 +82009,19 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_mca_rank11_exception_spi_dihedral_quotient_fence",
+   "to": "rate_half_mca_rank11_quadratic_quotient_survivor_identification",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_mca_rank11_exception_spi_quotient_periodic_fence",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_exception_spi_quotient_periodic_fence",
+   "to": "rate_half_mca_rank11_quadratic_quotient_survivor_identification",
+   "kind": "req"
   },
   {
    "from": "rate_half_mca_rank11_factor_flag_2x5_recursive_router",
@@ -83095,9 +83129,19 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_mca_rank11_quadratic_quotient_survivor_identification",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_mca_rank11_quadratic_survivor_mobius_router",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_quadratic_survivor_mobius_router",
+   "to": "rate_half_mca_rank11_quadratic_quotient_survivor_identification",
+   "kind": "req"
   },
   {
    "from": "rate_half_mca_rank11_quadratic_survivor_mobius_router",
@@ -83403,6 +83447,11 @@
    "from": "rate_half_mca_rank11_shifted_inversion_reciprocal_affine_elimination",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_shifted_inversion_reciprocal_affine_elimination",
+   "to": "rate_half_mca_rank11_quadratic_quotient_survivor_identification",
+   "kind": "req"
   },
   {
    "from": "rate_half_mca_rank11_shortened_partial_relative_router",
