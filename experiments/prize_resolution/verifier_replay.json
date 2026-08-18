@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_full_span_residual_forcing/verify.py",
-      "seconds": 1.929711,
+      "script": "background/nodes/dli_orthogonal_bernoulli_correlation_no_go/verify.py",
+      "seconds": 0.025285,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RANK11_FULL_SPAN_PASS tau=1679 h=38384 span=10 containers=16384884 slack=10942803526799\n"
+      "stdout_tail": "DLI_ORTHOGONAL_BERNOULLI_NO_GO_PASS single=6,6,4 ratio=16/9 first_sqrt_failure_r=3\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_full_span_residual_forcing/verify_audit.py",
-      "seconds": 1.835161,
+      "script": "background/nodes/dli_orthogonal_bernoulli_correlation_no_go/verify_audit.py",
+      "seconds": 0.023052,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RANK11_FULL_SPAN_AUDIT_PASS global_h=38384 containers=16384884 dim10_excess=773076621594690156\n"
+      "stdout_tail": "DLI_ORTHOGONAL_BERNOULLI_NO_GO_AUDIT_PASS bits=12 counts=216,216,64 square_root_bound=failed\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"
