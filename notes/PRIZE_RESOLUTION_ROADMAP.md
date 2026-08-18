@@ -48614,3 +48614,85 @@ next action:              proportional-scalar compatibility or deck supply
 - no quotient-population or chronology payment;
 - no shifted/nonquadratic/high-complexity payment, rank-eleven closure, or
   MCA closure.
+# Cycle 487: cross-type pole-simple atom identity
+
+## Result: PROVED identity threshold 16
+
+Two pole-simple scalar-locator certificates sharing `r>=16` supports are
+projectively identical whenever at least three shared supports come from
+each of two distinct saturated pair types.
+
+For independent scalar coefficient pairs, denominator-root incidence gives
+
+```text
+|G\H|>=ceil((rm'-n')/(r-1)).
+```
+
+Near-sunflower incidence puts this set in both pair cores. The official
+margin is `-2605` at `r=15` and `+2067` at `r=16`, so 16 is the exact first
+threshold for this argument.
+
+For proportional scalar pairs, normalize the pairs to equality. Subtraction
+cancels the locator term. A nonzero denominator difference puts all shared
+explanations on one global affine codeword line, contradicting the presence
+of two distinct pair types with two slopes each. A zero difference forces
+the remaining coefficients to agree.
+
+## Burn-down
+
+```text
+starting local pin:       dbb221f8a
+canonical prize pin:      0dd5b3244
+upstream frontier pin:    PR #1173 at 2788d5ec3
+DAG delta:                +1 PROVED identity node, +4 edges
+critical status delta:    none
+closed interface:         compatibility of sufficiently overlapping atoms
+compute spend:            none
+next action:              construct cross-type decks with at least 16 supports
+```
+
+## Nonclaims
+
+- no shared-deck construction;
+- no canonical atom over a complete family;
+- no quotient owner payment, high-complexity payment, or MCA closure.
+# Cycle 488: cross-type degree-18 atom weld
+
+## Result: PROVED pairwise deck supply and weld
+
+For any two large triple-owner pair types `p,q`, start the common
+four-dimensional recovery basis with `q-p`. If `t<=4` secondary types are
+needed, symmetric packets with 18 anchor records have profiles
+
+```text
+t                 1      2      3      4
+counterpart       14     11      8      5
+other records      0      3      6      9
+shared deck       28     25     22     19.
+```
+
+The two packets represent the same pair types, cancel the same complete core,
+and remain in the exact degree-18 partial-relative range. Every represented
+type contributes at least three supports, preserving pure-locator exclusion
+and pole-simplicity. Thus either packet forces `chi>=2299571`, or both yield
+pole-simple rational atoms. Their shared deck is always above the identity
+threshold 16, so the two atoms are projectively identical.
+
+## Burn-down
+
+```text
+starting local pin:       dbb221f8a
+canonical prize pin:      0dd5b3244
+upstream frontier pin:    PR #1173 at 2788d5ec3
+DAG delta:                +1 PROVED compiler node, +6 edges
+critical status delta:    none
+closed interface:         pairwise cross-type deck supply and atom identity
+compute spend:            none
+next action:              synchronize pairwise welds over triples or price gauge motion
+```
+
+## Nonclaims
+
+- no common certificate asserted across different pairwise welds;
+- no quotient-population chronology payment;
+- no payment of `chi>=2299571`, rank-eleven closure, or MCA closure.

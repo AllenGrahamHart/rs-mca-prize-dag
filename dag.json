@@ -41287,6 +41287,30 @@
    ]
   },
   {
+   "id": "rate_half_mca_rank11_cross_type_degree18_atom_weld_compiler",
+   "title": "Large pair types admit symmetric degree-18 atom welds",
+   "status": "PROVED",
+   "closure": "common recovery basis, symmetric packet allocation, and pole-simple atom identity",
+   "statement": "Any two distinct triple-owner heavy-ruling pair types with at least 29 records admit symmetric 18-anchor order-32 packets sharing 28,25,22,or 19 exact supports. Each packet forces chi at least 2299571 or a pole-simple rational atom; in the rational-rational branch the two certificates are projectively identical. Pairwise welds are not yet synchronized over triples or paid.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_cross_type_degree18_atom_weld_compiler/statement.md",
+    "background/nodes/rate_half_mca_rank11_cross_type_degree18_atom_weld_compiler/proof.md",
+    "background/nodes/rate_half_mca_rank11_cross_type_degree18_atom_weld_compiler/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_cross_type_degree18_atom_weld_compiler/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_cross_type_degree18_atom_weld_compiler/audit.md",
+    "background/nodes/rate_half_mca_rank11_cross_type_degree18_atom_weld_compiler/result.md",
+    "background/nodes/rate_half_mca_rank11_cross_type_degree18_atom_weld_compiler/frontier.md",
+    "background/nodes/rate_half_mca_rank11_cross_type_degree18_atom_weld_compiler/provenance.md",
+    "background/nodes/rate_half_mca_rank11_cross_type_degree18_atom_weld_compiler/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_cross_type_degree18_atom_weld_compiler/verify.py",
+    "background/nodes/rate_half_mca_rank11_cross_type_degree18_atom_weld_compiler/verify_audit.py"
+   ],
+   "upstream": {
+    "label": "factor synchronization / atom collision",
+    "relation": "OVERLAP"
+   }
+  },
+  {
    "id": "rate_half_mca_rank11_cross_type_one_swap_synchronization_wall",
    "title": "Order-32 one-swap synchronization cannot cross heavy pair types",
    "status": "PROVED",
@@ -41307,6 +41331,30 @@
    ],
    "upstream": {
     "label": "factor synchronization next theorem",
+    "relation": "OVERLAP"
+   }
+  },
+  {
+   "id": "rate_half_mca_rank11_cross_type_pole_simple_atom_identity",
+   "title": "Sixteen shared pole-simple supports identify a cross-type atom",
+   "status": "PROVED",
+   "closure": "pole-simple collision incidence plus proportional-scalar cancellation",
+   "statement": "Two pole-simple scalar-locator certificates sharing at least 16 exact supports, with at least three supports from each of two distinct saturated pair types, are projectively identical. Independent scalar pairs exceed distinct-pair core uniqueness from r=16 onward; proportional pairs either coincide or force both pair types onto one global affine codeword line.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_cross_type_pole_simple_atom_identity/statement.md",
+    "background/nodes/rate_half_mca_rank11_cross_type_pole_simple_atom_identity/proof.md",
+    "background/nodes/rate_half_mca_rank11_cross_type_pole_simple_atom_identity/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_cross_type_pole_simple_atom_identity/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_cross_type_pole_simple_atom_identity/audit.md",
+    "background/nodes/rate_half_mca_rank11_cross_type_pole_simple_atom_identity/result.md",
+    "background/nodes/rate_half_mca_rank11_cross_type_pole_simple_atom_identity/frontier.md",
+    "background/nodes/rate_half_mca_rank11_cross_type_pole_simple_atom_identity/provenance.md",
+    "background/nodes/rate_half_mca_rank11_cross_type_pole_simple_atom_identity/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_cross_type_pole_simple_atom_identity/verify.py",
+    "background/nodes/rate_half_mca_rank11_cross_type_pole_simple_atom_identity/verify_audit.py"
+   ],
+   "upstream": {
+    "label": "factor synchronization / atom collision",
     "relation": "OVERLAP"
    }
   },
@@ -81716,6 +81764,11 @@
   },
   {
    "from": "rate_half_mca_order32_partial_relative_harvest",
+   "to": "rate_half_mca_rank11_cross_type_degree18_atom_weld_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_order32_partial_relative_harvest",
    "to": "rate_half_mca_rank11_cross_type_one_swap_synchronization_wall",
    "kind": "req"
   },
@@ -81960,9 +82013,19 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_mca_rank11_cross_type_degree18_atom_weld_compiler",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_mca_rank11_cross_type_one_swap_synchronization_wall",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_cross_type_one_swap_synchronization_wall",
+   "to": "rate_half_mca_rank11_cross_type_pole_simple_atom_identity",
+   "kind": "req"
   },
   {
    "from": "rate_half_mca_rank11_cross_type_one_swap_synchronization_wall",
@@ -81970,9 +82033,24 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_mca_rank11_cross_type_pole_simple_atom_identity",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_cross_type_pole_simple_atom_identity",
+   "to": "rate_half_mca_rank11_cross_type_degree18_atom_weld_compiler",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_mca_rank11_cross_type_scalar_pair_rigidity",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_cross_type_scalar_pair_rigidity",
+   "to": "rate_half_mca_rank11_cross_type_pole_simple_atom_identity",
+   "kind": "req"
   },
   {
    "from": "rate_half_mca_rank11_dense_locator_component_incidence_dichotomy",
@@ -82355,6 +82433,11 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_mca_rank11_heavy_ruling_core_saturated_pure_locator_exclusion",
+   "to": "rate_half_mca_rank11_cross_type_degree18_atom_weld_compiler",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_mca_rank11_heavy_ruling_exception_split_pencil_normal_form",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
@@ -82397,6 +82480,16 @@
   {
    "from": "rate_half_mca_rank11_heavy_ruling_triple_owner_pole_simple_router",
    "to": "rate_half_mca_rank11_anchor_exchange_split_pencil_synchronization",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_heavy_ruling_triple_owner_pole_simple_router",
+   "to": "rate_half_mca_rank11_cross_type_degree18_atom_weld_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_heavy_ruling_triple_owner_pole_simple_router",
+   "to": "rate_half_mca_rank11_cross_type_pole_simple_atom_identity",
    "kind": "req"
   },
   {
@@ -83188,6 +83281,11 @@
    "from": "rate_half_mca_rank11_multi_anchor_exchange_split_pencil_synchronization",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_multi_anchor_exchange_split_pencil_synchronization",
+   "to": "rate_half_mca_rank11_cross_type_degree18_atom_weld_compiler",
+   "kind": "req"
   },
   {
    "from": "rate_half_mca_rank11_multi_anchor_exchange_split_pencil_synchronization",

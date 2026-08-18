@@ -1,0 +1,19 @@
+{
+  "schema": "rate-half-mca-rank11-cross-type-pole-simple-atom-identity-v1",
+  "domain_size": 2097152,
+  "support_size": 1116048,
+  "code_dimension": 1048576,
+  "minimum_shared_records": 16,
+  "minimum_records_per_distinguished_type": 3,
+  "threshold_predecessor": 15,
+  "threshold_predecessor_deficit": 2605,
+  "margins": {
+    "16": 2067,
+    "19": 12968,
+    "22": 20754,
+    "25": 26594,
+    "28": 31136
+  },
+  "conclusion": "projectively identical scalar-locator certificates",
+  "nonclaim": "This result does not construct shared cross-type packets or pay a family of identical atoms."
+}

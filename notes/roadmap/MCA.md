@@ -342,6 +342,23 @@ certificates required by the challenge.
   infinity. The live compatibility branch is now the proportional-scalar
   branch, together with the separate task of producing enough cross-type
   decks; the former generic 36,336 denominator gap is not intrinsic.
+- The collision theorem now closes completely once 16 pole-simple supports
+  are shared and each of two distinct pair types contributes three. The
+  independent-scalar margin first becomes positive at 16 (`+2067`, versus
+  `-2605` at 15). In the proportional case, subtracting normalized
+  certificates either identifies them or forces every shared explanation
+  onto one affine codeword line, which would identify the two pair types.
+  Thus the certificates are projectively identical.
+- The required decks can be supplied pairwise. Start the four-dimensional
+  component recovery basis with any two large types `p,q`, and form symmetric
+  order-32 packets with 18 anchor records. According to whether the recovery
+  set has one through four secondary types, the packets share respectively
+  28, 25, 22, or 19 records. Core saturation, the degree-18
+  partial-relative theorem, pure-locator exclusion, and pole-simplicity all
+  persist. Therefore every pair of large types emits high complexity or a
+  common projective atom. The next synchronization problem is now a
+  triple-cocycle/gauge problem between the pairwise welds, not deck supply or
+  two-certificate compatibility.
 - The finite rank-nine prefix is proved through `K'=87`. At the first open
   row `K'=88`, paired raw scans classify all 18,741,723 source units and
   leave exactly 622,895 raw-unsafe units on offsets `1..44`. This is a

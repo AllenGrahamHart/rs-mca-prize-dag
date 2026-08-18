@@ -1,0 +1,17 @@
+{
+  "schema": "rate-half-mca-rank11-cross-type-degree18-atom-weld-compiler-v1",
+  "packet_size": 32,
+  "anchor_records": 18,
+  "minimum_large_type_records": 29,
+  "minimum_triple_owner_records": 3,
+  "component_selection_cap": 4,
+  "high_complexity_floor": 2299571,
+  "profiles": [
+    {"secondary_types": 1, "counterpart_records": 14, "other_records": 0, "shared_records": 28, "identity_margin": 31136},
+    {"secondary_types": 2, "counterpart_records": 11, "other_records": 3, "shared_records": 25, "identity_margin": 26594},
+    {"secondary_types": 3, "counterpart_records": 8, "other_records": 6, "shared_records": 22, "identity_margin": 20754},
+    {"secondary_types": 4, "counterpart_records": 5, "other_records": 9, "shared_records": 19, "identity_margin": 12968}
+  ],
+  "rational_output": "projectively identical pole-simple scalar-locator certificates",
+  "nonclaim": "Pairwise atom welds are not yet synchronized over triples or charged to one chronology owner."
+}
