@@ -9,7 +9,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/rate_half_mca_rank11_pair_pencil_plane218_pure_power_router/verify.py",
-      "seconds": 0.102161,
+      "seconds": 0.138624,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "PAIR_PENCIL_PLANE218_POWER_PASS degrees=[2048, 4096] rows=(1,141)\n"
@@ -17,7 +17,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/rate_half_mca_rank11_pair_pencil_plane218_pure_power_router/verify_audit.py",
-      "seconds": 0.079777,
+      "seconds": 0.252338,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "PAIR_PENCIL_PLANE218_POWER_AUDIT_PASS degrees=2048,4096 rows=1,141\n"

@@ -79,6 +79,16 @@ The factor router and serial-recursion wall were exported to `#1173` in
 comment `#issuecomment-5327317502` with public proof commits and explicit
 nonclaims.
 
+A separate branch of draft PR `#1170` now carries the conditional
+quotient-pair plane packet. Commit `e66f6da3` adds the pure-power
+quotient-periodic router in upstream `(Q)`/split-pencil terminology:
+`e=2048` forces `K'=2049` with at most 72 missing slots, while `e=4096`
+is confined to `4097..4237` with at most 28,744 missing slots. The packet
+keeps the source interface, actual pure-power normal form, survivor
+payment, and deployed ledger movement explicitly separate. Continue
+classification/payment there; do not identify this subclass with general
+quotient-periodic flatness.
+
 ## Future Q/SPI packet
 
 The reduced DLI lane now has two fully proved structural results that use

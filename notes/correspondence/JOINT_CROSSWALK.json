@@ -3371,6 +3371,32 @@
     "our_sha": "792aefa85",
     "his_sha": "24f23478"
    }
+  },
+  {
+   "our_node": "rate_half_mca_rank11_pair_pencil_plane218_pure_power_router",
+   "his_object": {
+    "label": "Q quotient flatness / quotient-periodic split-pencil census",
+    "file": "PR #1170 at e66f6da3, experimental/notes/thresholds/kb_mca_rank11_quotient_pair_plane218_v1.md",
+    "line": "conditional pure-power endpoint router; degrees 2048 and 4096"
+   },
+   "relation": "OVERLAP",
+   "chain": "218-plane endpoint bank plus projective pure-power normal form -> F<=218e and e<=K'-1 -> e in {2048,4096} -> singleton K'=2049 row or K' in 4097..4237",
+   "scope": "official KoalaBear quotient pair-pencil endpoint under the additional hypothesis that the residual direction pencil is projectively equivalent to (X^e,1)",
+   "owner": "JOINT",
+   "nonclaims": [
+    "does not prove that the endpoint pencil is pure-power",
+    "does not classify general quotient-periodic rational maps",
+    "does not exclude or pay either surviving degree",
+    "does not move an active-v4 atom or pay rank eleven",
+    "does not close KoalaBear or MCA"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "PROVED_CONDITIONAL_SUBCLASS_ROUTER_PR1170",
+   "lean": null,
+   "provenance": {
+    "our_sha": "b5e3a90d8",
+    "his_sha": "e66f6da3"
+   }
   }
  ]
 }
