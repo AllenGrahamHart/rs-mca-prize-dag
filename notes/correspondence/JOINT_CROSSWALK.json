@@ -3068,6 +3068,55 @@
     "our_sha": "e6919f86f",
     "his_sha": "2788d5ec3"
    }
+  },
+  {
+   "our_node": "rate_half_mca_rank11_pole_simple_small_owner_atom_payment_import",
+   "his_object": {
+    "label": "exclusive rational-owner localization / small-owner payment",
+    "file": "experimental/grande_finale.tex",
+    "line": "thm:owner-localization and cor:small-owner"
+   },
+   "relation": "OVERLAP",
+   "chain": "upstream pole-free owner localization and half-distance payment -> puncture at most 67472 pole-simple denominator roots -> at most one record per root -> exact telescoping caps",
+   "scope": "official KoalaBear coherent atom; extends the upstream small-owner payment to pole-simple certificates and forces any atom with more than 2097152 records to have owner size at least 1183521",
+   "owner": "JOINT",
+   "nonclaims": [
+    "does not prove the exclusive large-owner image bound",
+    "does not pay a rational pair pencil or high complexity",
+    "does not pay rank eleven or close MCA"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "proved",
+   "lean": null,
+   "provenance": {
+    "our_sha": "623ad7b5c",
+    "his_sha": "93fba1be3"
+   }
+  },
+  {
+   "our_node": "rate_half_mca_rank11_quadratic_quotient_large_owner_or_pair_pencil_router",
+   "his_object": {
+    "label": "exclusive large-owner atom image bound / base-field-normalized split-pencil census",
+    "file": "experimental/grande_finale.tex, PR #1173, and towards-prize.md",
+    "line": "prob:large-owner; factor synchronization; BC split-pencil census"
+   },
+   "relation": "OVERLAP",
+   "chain": "255011043 quotient records on at least 520 types -> pairwise weld and triangle gauge dichotomy -> global record-covering atom or rational pair-type rank two -> small-owner exclusion",
+   "scope": "official KoalaBear no-high-complexity quotient-only residual; forces either prob:large-owner with g at least 1183521 or one base pair-type rank-two F(X) pencil",
+   "owner": "JOINT",
+   "nonclaims": [
+    "does not prove the exclusive large-owner image bound",
+    "does not prove the base pair-type split-pencil census",
+    "does not pay high complexity",
+    "does not pay rank eleven or close MCA"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "623ad7b5c",
+    "his_sha": "2788d5ec3"
+   }
   }
  ]
 }
