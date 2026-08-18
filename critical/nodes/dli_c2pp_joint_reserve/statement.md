@@ -390,3 +390,25 @@ Equivalently, when `Z_0>C_1`, its logarithm is the old full-tower `R3` plus
 logs. On the frozen exact bank, 29 of 45 full-tower rows have zero primitive
 numerator and the maximum surviving ratio is `1.4166572071` bits. That scan
 is stress evidence only; `(C2-INT)` remains open on official rows.
+
+## Round-30 square-root falsifier (2026-08-18, Codex)
+
+The scale-free candidate
+
+```text
+J_prim <= sqrt(2n)                                           (SQRT)
+```
+
+would specialize to exactly `2^21` at the official `n=2^41`. It was tested
+only as a preregistered falsification target, not adopted as a premise.
+`notes/pilots_20260818/c2_primitive_sqrt_falsifier/` computes 13 exact
+`t=2` towers through `n=256` by arbitrary-precision dynamic programming.
+All rows survive. The old `(32,2,5857)` row remains the maximum at
+`14680064/5498847` (`1.4166572071` bits); every new `n>=64` ratio is strictly
+below one by exact integer comparison.
+
+This identifies a plausible closing scale but proves no `t=2 -> t=2^33`
+transport. A proof would need primitive prefix/support-pattern collision
+flatness across the complete tower. Failure of that collision estimate, or
+one deeper exact row with `J_prim>sqrt(2n)`, kills this route without changing
+`(C2-INT)`.

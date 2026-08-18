@@ -25,3 +25,14 @@ prove or refute
 Here `C_1=Z_0(q,n/2,t/2)` is subtracted before any logarithm or inequality.
 Bounding `Z_0` and `C_1` separately is not a valid route because it discards
 the required cancellation.
+
+The current proof candidate is the scale-free estimate
+
+```text
+J_prim <= sqrt(2n).
+```
+
+It gives exactly 21 bits at `n=2^41` and survived the preregistered exact
+`t=2` grid through `n=256`. It is not a premise and has no depth transport.
+Seek a proof through primitive prefix/support-pattern collision flatness, or
+falsify it at a deeper exact tower before investing in transport.

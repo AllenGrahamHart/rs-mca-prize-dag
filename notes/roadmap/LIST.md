@@ -40,6 +40,12 @@ the all-weight primitive joint ratio is exactly
 ratio. Its 45-row exact bank uses at most `1.4167` bits, but the remaining
 official-scale integer inequality has no transport theorem yet.
 
+A preregistered larger-`n`, exact `t=2` falsifier found no violation of the
+candidate `J_prim<=sqrt(2n)`, which would give exactly the official 21-bit
+reserve. All new ratios through `n=256` are below one. The candidate remains
+unproved and depth-untransported; the live route is primitive prefix/support-
+pattern collision flatness, with the square-root constant as the target.
+
 The rate-half crossing safe side is currently split into an exact structural
 shell, the proved deep-accident cap, and the open shallow/aperiodic
 population.  The latter is equivalently a prescribed-signature
