@@ -1,0 +1,23 @@
+{
+  "schema": "rate-half-mca-rank11-nonzero-affine-reflection-mass-router-v1",
+  "triple_owner_mass": 322359637,
+  "maximum_pair_types": 58361,
+  "synchronization_threshold": 29,
+  "maximum_small_type_records": 28,
+  "nonzero_affine_fixed_pencil_cap": 1154,
+  "uniform_pair_type_charge": 1154,
+  "total_affine_or_small_charge": 67348594,
+  "nonaffine_residual_mass": 255011043,
+  "residual_division_quotient": 4369,
+  "residual_division_remainder": 31834,
+  "forced_residual_pair_records": 4370,
+  "high_complexity_threshold": 2299571,
+  "remaining_classes": [
+    "antipodal-or-constant-product",
+    "other-fractional-involutions",
+    "extension-field-normalization",
+    "degree-3-through-11-pullbacks",
+    "primitive-pencils"
+  ],
+  "nonclaim": "The router isolates but does not pay the residual synchronized pencil or the high-complexity output."
+}

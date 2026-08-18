@@ -1,0 +1,16 @@
+{
+  "schema": "rate-half-mca-rank11-multi-anchor-exchange-split-pencil-synchronization-v1",
+  "minimum_anchor_records": 29,
+  "packet_size": 32,
+  "secondary_records_per_type": 3,
+  "minimum_secondary_types": 1,
+  "maximum_secondary_types": 4,
+  "anchor_packet_sizes": [29, 26, 23, 20],
+  "minimum_one_swap_overlap": 19,
+  "locators_determining_pencil": 2,
+  "minimum_exception_degree": 1,
+  "maximum_exception_degree": 11,
+  "high_complexity_threshold": 2299571,
+  "toy_pair_populations": [3, 28, 29, 30, 1154],
+  "nonclaim": "Synchronization is per first-owned pair type and does not classify the pencil or pay the high-complexity output."
+}

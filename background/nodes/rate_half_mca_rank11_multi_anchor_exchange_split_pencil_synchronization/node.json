@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_multi_anchor_exchange_split_pencil_synchronization",
+    "title": "Every 29-record triple-owner type has a synchronized rational pencil or a high-complexity packet",
+    "status": "PROVED",
+    "closure": "the anchor-exchange packet star can be re-based at every sufficiently populated triple-owner pair type",
+    "statement": "Let p be any triple-owner heavy-ruling pair type owning r>=29 first-owned slopes. Re-base the core-recovery construction at p. At most four secondary pair types span all component differences, and each supplies three records, so every order-32 packet retains s=32-3t anchor records with 20<=s<=29. Fix exact supports globally for the r anchor records and fixed secondary records, then use a base packet and one swap for every remaining anchor slope. Either one admissible packet has chi>=2299571, or every packet is rational and all r anchor exception locators lie in one fixed coprime degree-1-through-11 pencil. This synchronizes each populated pair type separately; it does not synchronize different pair types or pay either output.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_multi_anchor_exchange_split_pencil_synchronization/statement.md",
+      "background/nodes/rate_half_mca_rank11_multi_anchor_exchange_split_pencil_synchronization/proof.md",
+      "background/nodes/rate_half_mca_rank11_multi_anchor_exchange_split_pencil_synchronization/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_multi_anchor_exchange_split_pencil_synchronization/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_multi_anchor_exchange_split_pencil_synchronization/audit.md",
+      "background/nodes/rate_half_mca_rank11_multi_anchor_exchange_split_pencil_synchronization/result.md",
+      "background/nodes/rate_half_mca_rank11_multi_anchor_exchange_split_pencil_synchronization/provenance.md",
+      "background/nodes/rate_half_mca_rank11_multi_anchor_exchange_split_pencil_synchronization/frontier.md",
+      "background/nodes/rate_half_mca_rank11_multi_anchor_exchange_split_pencil_synchronization/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_multi_anchor_exchange_split_pencil_synchronization/verify.py",
+      "background/nodes/rate_half_mca_rank11_multi_anchor_exchange_split_pencil_synchronization/verify_audit.py"
+    ],
+    "upstream": {
+      "label": "rank-eleven factor-flag synchronization / chronology-safe pair-type ownership",
+      "relation": "OVERLAP"
+    }
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_heavy_ruling_triple_owner_pole_simple_router"},
+    {"from": "rate_half_mca_rank11_heavy_ruling_exception_split_pencil_normal_form"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location"}
+  ],
+  "refutes": []
+}

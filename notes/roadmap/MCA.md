@@ -260,6 +260,16 @@ certificates required by the challenge.
   the normalized nonzero affine-reflection rational subbranch, routing it to
   high complexity with contradiction margin 4,370. This does not pay high
   complexity or eliminate the antipodal, fractional, or primitive classes.
+- Re-basing the same exchange construction at every triple-owner pair type
+  with at least 29 records makes the affine census owner-safe in aggregate.
+  Small types have at most 28 records; synchronized nonzero affine pencils
+  have at most 1,154. Across at most 58,361 first-owned types these categories
+  cost at most 67,348,594 of the 322,359,637 triple-owner records. Unless one
+  packet is already high complexity, 255,011,043 records remain on other
+  synchronized pencil classes, forcing one fixed surviving pencil with at
+  least 4,370 disjoint fibers. The Mersenne-domain `32N^(2/3)` Mobius-graph
+  reduction is too weak at this KoalaBear threshold, so the next theorem must
+  sharpen the official subgroup intersection or use retained factor ownership.
 - The finite rank-nine prefix is proved through `K'=87`. At the first open
   row `K'=88`, paired raw scans classify all 18,741,723 source units and
   leave exactly 622,895 raw-unsafe units on offsets `1..44`. This is a

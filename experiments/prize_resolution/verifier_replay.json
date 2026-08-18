@@ -2,41 +2,25 @@
   "complete": true,
   "counts": {
     "FAIL": 0,
-    "PASS": 4,
+    "PASS": 2,
     "TIMEOUT": 0
   },
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_affine_reflection_exchange_elimination/verify.py",
-      "seconds": 0.048812,
+      "script": "background/nodes/rate_half_mca_rank11_nonzero_affine_reflection_mass_router/verify.py",
+      "seconds": 0.119898,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RANK11_AFFINE_EXCHANGE_ELIMINATION_PASS anchor=5524 cap=1154 margin=4370\n"
+      "stdout_tail": "RANK11_AFFINE_MASS_ROUTER_PASS charge=67348594 residual=255011043 forced=4370\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_affine_reflection_exchange_elimination/verify_audit.py",
-      "seconds": 0.038714,
+      "script": "background/nodes/rate_half_mca_rank11_nonzero_affine_reflection_mass_router/verify_audit.py",
+      "seconds": 0.048276,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RANK11_AFFINE_EXCHANGE_ELIMINATION_AUDIT_PASS margin=4370 chi=2299571\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_anchor_exchange_split_pencil_synchronization/verify.py",
-      "seconds": 0.024896,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "RANK11_ANCHOR_EXCHANGE_SYNC_PASS anchor=5524 overlap=19 swaps>=5504\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_anchor_exchange_split_pencil_synchronization/verify_audit.py",
-      "seconds": 0.020084,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "RANK11_ANCHOR_EXCHANGE_SYNC_AUDIT_PASS anchor=5524 overlap=19\n"
+      "stdout_tail": "RANK11_AFFINE_MASS_ROUTER_AUDIT_PASS residual=255011043 forced=4370\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

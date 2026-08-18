@@ -21,8 +21,13 @@ one-swap packet is high complexity, or all 5524 anchor locators lie in one
 fixed pencil. Composing that theorem with this cap eliminates the nonzero
 affine-reflection rational subbranch.
 
-The broader aggregate multiplication above remains unauthorized for unrelated
-pair types. Remaining useful theorems should address one of:
+The broader aggregate multiplication is subsequently authorized by
+`rate_half_mca_rank11_multi_anchor_exchange_split_pencil_synchronization`:
+large pair types synchronize separately, small types are charged directly,
+and first-owner currencies are disjoint. The resulting mass router leaves
+255,011,043 records on other synchronized pencil classes.
+
+Remaining useful theorems should address one of:
 
 1. a canonical fixed pencil for each chronology-owned non-anchor pair type;
 2. a bounded-multiplicity packet-to-pencil assignment with disjoint currency;

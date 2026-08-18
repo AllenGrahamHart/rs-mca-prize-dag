@@ -43143,6 +43143,54 @@
    ]
   },
   {
+   "id": "rate_half_mca_rank11_multi_anchor_exchange_split_pencil_synchronization",
+   "title": "Every 29-record triple-owner type has a synchronized rational pencil or a high-complexity packet",
+   "status": "PROVED",
+   "closure": "the anchor-exchange packet star can be re-based at every sufficiently populated triple-owner pair type",
+   "statement": "Let p be any triple-owner heavy-ruling pair type owning r>=29 first-owned slopes. Re-base the core-recovery construction at p. At most four secondary pair types span all component differences, and each supplies three records, so every order-32 packet retains s=32-3t anchor records with 20<=s<=29. Fix exact supports globally for the r anchor records and fixed secondary records, then use a base packet and one swap for every remaining anchor slope. Either one admissible packet has chi>=2299571, or every packet is rational and all r anchor exception locators lie in one fixed coprime degree-1-through-11 pencil. This synchronizes each populated pair type separately; it does not synchronize different pair types or pay either output.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_multi_anchor_exchange_split_pencil_synchronization/statement.md",
+    "background/nodes/rate_half_mca_rank11_multi_anchor_exchange_split_pencil_synchronization/proof.md",
+    "background/nodes/rate_half_mca_rank11_multi_anchor_exchange_split_pencil_synchronization/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_multi_anchor_exchange_split_pencil_synchronization/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_multi_anchor_exchange_split_pencil_synchronization/audit.md",
+    "background/nodes/rate_half_mca_rank11_multi_anchor_exchange_split_pencil_synchronization/result.md",
+    "background/nodes/rate_half_mca_rank11_multi_anchor_exchange_split_pencil_synchronization/provenance.md",
+    "background/nodes/rate_half_mca_rank11_multi_anchor_exchange_split_pencil_synchronization/frontier.md",
+    "background/nodes/rate_half_mca_rank11_multi_anchor_exchange_split_pencil_synchronization/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_multi_anchor_exchange_split_pencil_synchronization/verify.py",
+    "background/nodes/rate_half_mca_rank11_multi_anchor_exchange_split_pencil_synchronization/verify_audit.py"
+   ],
+   "upstream": {
+    "label": "rank-eleven factor-flag synchronization / chronology-safe pair-type ownership",
+    "relation": "OVERLAP"
+   }
+  },
+  {
+   "id": "rate_half_mca_rank11_nonzero_affine_reflection_mass_router",
+   "title": "Nonzero affine reflections leave 255011043 records on other synchronized pencil classes",
+   "status": "PROVED",
+   "closure": "first-owner summation of the exact 1154 fixed-pencil cap after per-pair exchange synchronization",
+   "statement": "The triple-owner heavy-ruling family has at least 322359637 records on at most 58361 first-owned pair types. Apply multi-anchor exchange. Either one admissible packet has chi>=2299571, or every type with at least 29 records owns one synchronized rational pencil. A type whose pencil is a normalized nonzero affine reflection owns at most 1154 records by the exact official census; a smaller unsynchronized type owns at most 28 and may be pessimistically charged the same 1154. Thus all small or nonzero-affine types own at most 58361*1154=67348594 records. At least 255011043 records remain on synchronized rational pencils outside that class, so one such pair type owns at least 4370 records. No residual class or high-complexity output is paid.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_nonzero_affine_reflection_mass_router/statement.md",
+    "background/nodes/rate_half_mca_rank11_nonzero_affine_reflection_mass_router/proof.md",
+    "background/nodes/rate_half_mca_rank11_nonzero_affine_reflection_mass_router/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_nonzero_affine_reflection_mass_router/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_nonzero_affine_reflection_mass_router/audit.md",
+    "background/nodes/rate_half_mca_rank11_nonzero_affine_reflection_mass_router/result.md",
+    "background/nodes/rate_half_mca_rank11_nonzero_affine_reflection_mass_router/provenance.md",
+    "background/nodes/rate_half_mca_rank11_nonzero_affine_reflection_mass_router/frontier.md",
+    "background/nodes/rate_half_mca_rank11_nonzero_affine_reflection_mass_router/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_nonzero_affine_reflection_mass_router/verify.py",
+    "background/nodes/rate_half_mca_rank11_nonzero_affine_reflection_mass_router/verify_audit.py"
+   ],
+   "upstream": {
+    "label": "base-field-normalized split-pencil census / chronology-safe class ledger",
+    "relation": "OVERLAP"
+   }
+  },
+  {
    "id": "rate_half_mca_rank11_order32_common_support_cancellation",
    "title": "Rank-eleven order-32 common-support cancellation",
    "status": "PROVED",
@@ -81838,6 +81886,11 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_mca_rank11_exception_spi_affine_reflection_fixed_pencil_cap",
+   "to": "rate_half_mca_rank11_nonzero_affine_reflection_mass_router",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_mca_rank11_exception_spi_dihedral_quotient_fence",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
@@ -82088,6 +82141,11 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_mca_rank11_heavy_ruling_exception_split_pencil_normal_form",
+   "to": "rate_half_mca_rank11_multi_anchor_exchange_split_pencil_synchronization",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_mca_rank11_heavy_ruling_triple_owner_pole_simple_router",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
@@ -82100,6 +82158,16 @@
   {
    "from": "rate_half_mca_rank11_heavy_ruling_triple_owner_pole_simple_router",
    "to": "rate_half_mca_rank11_heavy_ruling_exception_split_pencil_normal_form",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_heavy_ruling_triple_owner_pole_simple_router",
+   "to": "rate_half_mca_rank11_multi_anchor_exchange_split_pencil_synchronization",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_heavy_ruling_triple_owner_pole_simple_router",
+   "to": "rate_half_mca_rank11_nonzero_affine_reflection_mass_router",
    "kind": "req"
   },
   {
@@ -82866,6 +82934,21 @@
    "from": "rate_half_mca_rank11_low_span_residual_payment",
    "to": "rate_half_mca_rank11_full_span_residual_forcing",
    "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_multi_anchor_exchange_split_pencil_synchronization",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_multi_anchor_exchange_split_pencil_synchronization",
+   "to": "rate_half_mca_rank11_nonzero_affine_reflection_mass_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_nonzero_affine_reflection_mass_router",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
   },
   {
    "from": "rate_half_mca_rank11_order32_common_support_cancellation",

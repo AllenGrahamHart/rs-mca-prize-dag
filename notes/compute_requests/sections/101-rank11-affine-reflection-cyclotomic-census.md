@@ -76,3 +76,16 @@ twenty-record packets from one pair type. Multiplying the fixed-pencil cap by
 bounded-multiplicity assignment, or chronology theorem. The promoted PROVED
 node therefore states the exact fixed-pencil cap and leaves aggregate
 transport explicit.
+
+Subsequent PROVED anchor-exchange nodes supply that transport per first-owned
+pair type. Every type with at least 29 records synchronizes or emits high
+complexity; smaller types cost at most 28. The owner-safe uniform charge is
+therefore
+
+```text
+58361*1154=67348594,
+```
+
+leaving `255011043` records on other synchronized pencil classes and forcing
+one such type with at least `4370` records. This is a route cut, not a payment
+of the residual or of high complexity.
