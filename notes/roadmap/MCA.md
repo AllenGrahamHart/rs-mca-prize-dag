@@ -154,10 +154,22 @@ certificates required by the challenge.
   `3(m-c)-(K-c)+3`. Certificates lift with their denominator, affine
   locator scalars, monic locators, first-owned slopes, and support labels;
   the complexity branch gains exactly `2c` and recovers the official floor
-  `2299571`. The unresolved terminal is now branch payment: absorb the
-  pure-locator case, price denominator roots/rational profiles, or convert
-  the high-complexity output into the required spread/alignment budget,
-  using the retained `24..31` degree pin and heavy-ruling labels.
+  `2299571`. This initially leaves three branch payments: pure locator,
+  denominator roots/rational profiles, and conversion of high complexity
+  into the required spread/alignment budget, with the retained `24..31`
+  degree pin and heavy-ruling labels.
+- The pure-locator output is now excluded for a core-saturated choice of the
+  same packet. Pair noncontainment lets each exact support be reselected to
+  contain its assigned `m-11` pair core after ownership is fixed. Because
+  every represented pair contributes two slopes, the packet core is then
+  exactly the recovered heavy-core intersection `J`, still below `K-2`.
+  After cancellation, two distinct represented pair cores each have size at
+  least `m'-11` and intersect in at most `K'-1`, so their union has at least
+  `m'+67451` points. A pure-locator identity would make both degree-at-most
+  `m'` coefficient polynomials vanish on this union, forcing the entire
+  homogeneous certificate to be zero. The live branch is therefore the
+  exact two-way alternative: a nontrivial rational profile with
+  `deg Q<=67472`, or `chi>=2299571`.
 - The finite rank-nine prefix is proved through `K'=87`. At the first open
   row `K'=88`, paired raw scans classify all 18,741,723 source units and
   leave exactly 622,895 raw-unsafe units on offsets `1..44`. This is a

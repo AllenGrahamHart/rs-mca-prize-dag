@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_heavy_ruling_core_saturated_pure_locator_exclusion",
+    "title": "Core-saturated heavy-ruling packet excludes pure locators",
+    "status": "PROVED",
+    "closure": "exact support saturation identifies the packet core with the heavy pair-core intersection and a two-pair zero count kills the pure-locator output",
+    "statement": "In the heavy-ruling degree-24 construction, after pair ownership is fixed, each selected record may choose an exact size-m agreement support containing its assigned pair core H_p: pair noncontainment gives |H_p|<m, while the record has at least m agreements. Two records are selected from every represented pair type, so the complete support intersection is exactly the recovered heavy pair-core intersection J and has size below K-2. After exact cancellation, every represented residual pair core has size at least m'-11. For two distinct represented pair types, their residual cores intersect in at most K'-1 points, so their union has at least m'+67451 points. In a pure-locator certificate, the two slopes from each pair force both coefficient polynomials A',B' to vanish on that pair core. Two pair types therefore make A',B' vanish at more than m' points despite degree at most m', forcing A'=B'=0 and contradicting certificate nontriviality. Hence the exact partial-relative output is either a nontrivial scalar-locator rational certificate of denominator degree at most 67472 or chi at least 2299571. Neither remaining branch is paid.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_heavy_ruling_core_saturated_pure_locator_exclusion/statement.md",
+      "background/nodes/rate_half_mca_rank11_heavy_ruling_core_saturated_pure_locator_exclusion/proof.md",
+      "background/nodes/rate_half_mca_rank11_heavy_ruling_core_saturated_pure_locator_exclusion/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_heavy_ruling_core_saturated_pure_locator_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_heavy_ruling_core_saturated_pure_locator_exclusion/audit.md",
+      "background/nodes/rate_half_mca_rank11_heavy_ruling_core_saturated_pure_locator_exclusion/result.md",
+      "background/nodes/rate_half_mca_rank11_heavy_ruling_core_saturated_pure_locator_exclusion/provenance.md",
+      "background/nodes/rate_half_mca_rank11_heavy_ruling_core_saturated_pure_locator_exclusion/frontier.md",
+      "background/nodes/rate_half_mca_rank11_heavy_ruling_core_saturated_pure_locator_exclusion/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_heavy_ruling_core_saturated_pure_locator_exclusion/verify.py",
+      "background/nodes/rate_half_mca_rank11_heavy_ruling_core_saturated_pure_locator_exclusion/verify_audit.py"
+    ],
+    "upstream": {
+      "label": "rank-eleven factor-flag synchronization / primitive shift-pair control",
+      "relation": "OVERLAP"
+    }
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_heavy_plane_ruling_degree24_order32_seed"},
+    {"from": "rate_half_mca_rank11_heavy_plane_ruling_degree24_partial_relative_router"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location"}
+  ],
+  "refutes": []
+}

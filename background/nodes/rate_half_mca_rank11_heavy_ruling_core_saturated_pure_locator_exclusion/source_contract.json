@@ -1,0 +1,41 @@
+{
+  "schema": "rate-half-mca-rank11-heavy-ruling-core-saturated-pure-locator-exclusion-v1",
+  "dependencies": [
+    "rate_half_mca_rank11_heavy_plane_ruling_degree24_order32_seed",
+    "rate_half_mca_rank11_heavy_plane_ruling_degree24_partial_relative_router"
+  ],
+  "official": {
+    "K": 1048576,
+    "m": 1116048,
+    "agreement_excess": 67472,
+    "pair_core_margin": 11,
+    "seed_size": 32,
+    "minimum_anchor_records": 24,
+    "minimum_selected_pair_types": 2,
+    "minimum_records_per_selected_pair": 2,
+    "common_support_maximum": 1048573,
+    "minimum_residual_dimension": 3,
+    "residual_pair_core_intersection_offset": 1,
+    "core_union_surplus_over_locator_degree": 67451,
+    "denominator_degree_maximum": 67472,
+    "complexity_threshold": 2299571
+  },
+  "residual_samples": [
+    {"c": 0, "K_residual": 1048576, "m_residual": 1116048, "core_minimum": 1116037, "two_core_union_minimum": 1183499},
+    {"c": 4130, "K_residual": 1044446, "m_residual": 1111918, "core_minimum": 1111907, "two_core_union_minimum": 1179369},
+    {"c": 1045975, "K_residual": 2601, "m_residual": 70073, "core_minimum": 70062, "two_core_union_minimum": 137524},
+    {"c": 1048573, "K_residual": 3, "m_residual": 67475, "core_minimum": 67464, "two_core_union_minimum": 134926}
+  ],
+  "toy": {
+    "field": 17,
+    "K_residual": 4,
+    "m_residual": 7,
+    "pair_core_margin": 1,
+    "core_0": [0, 1, 2, 3, 4, 5],
+    "core_1": [3, 4, 5, 6, 7, 8],
+    "locator_degree_maximum": 7,
+    "expected_union_size": 9,
+    "expected_vandermonde_rank": 8
+  },
+  "nonclaim": "The rational-profile and high-complexity outputs remain unpaid."
+}
