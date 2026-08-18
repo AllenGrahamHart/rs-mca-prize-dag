@@ -2,25 +2,41 @@
   "complete": true,
   "counts": {
     "FAIL": 0,
-    "PASS": 2,
+    "PASS": 4,
     "TIMEOUT": 0
   },
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_quadratic_survivor_mobius_router/verify.py",
-      "seconds": 0.050023,
+      "script": "background/nodes/rate_half_mca_rank11_shifted_inversion_product_energy_ledger/verify.py",
+      "seconds": 0.059501,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RANK11_QUADRATIC_MOBIUS_ROUTER_PASS fibers=4370 graph_points=8740 identity_checks=15\n"
+      "stdout_tail": "SHIFTED_PRODUCT_ENERGY_LEDGER_PASS mean=2064+127/1016 toy_checks=16\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_quadratic_survivor_mobius_router/verify_audit.py",
-      "seconds": 0.084707,
+      "script": "background/nodes/rate_half_mca_rank11_shifted_inversion_product_energy_ledger/verify_audit.py",
+      "seconds": 0.041097,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RANK11_QUADRATIC_MOBIUS_ROUTER_AUDIT_PASS graph_points=8740\n"
+      "stdout_tail": "SHIFTED_PRODUCT_ENERGY_LEDGER_AUDIT_PASS index=1016 threshold=8740\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_mca_rank11_shifted_inversion_reciprocal_affine_elimination/verify.py",
+      "seconds": 0.050832,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "RECIPROCAL_AFFINE_ELIMINATION_PASS toy_checks=5 fiber_margin=3216\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_mca_rank11_shifted_inversion_reciprocal_affine_elimination/verify_audit.py",
+      "seconds": 0.04137,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "RECIPROCAL_AFFINE_ELIMINATION_AUDIT_PASS margins=3216,6432\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

@@ -284,6 +284,16 @@ certificates required by the challenge.
   supports a sharp official shifted-inversion cap but is not a proof.
   Antipodal and constant-product remain global quotient classes, degrees
   `1,3,...,11` remain unclassified, and high complexity remains unpaid.
+- The shifted class now has an exact product-energy ledger. For
+  `R(tau,kappa)=#{(x,y) in H^2:(x+tau)(y+tau)=kappa}`, its first moment,
+  fixed-point subtraction, multiplicative-energy second moment, `H`-scaling,
+  and coordinate-inversion symmetry are all proved. The normalized parameter
+  is `lambda=kappa/tau^2`, so the shift search has 1,016 cosets. At
+  `lambda=1`, inversion gives `u+v=-1/tau`; the exact 1,154-fiber nonzero
+  affine-reflection cap contradicts the required 4,370 fibers by 3,216.
+  Thus this degeneration is eliminated. Existing energy and subgroup-curve
+  bounds do not imply the needed pointwise cap for general `lambda!=0,1`;
+  that two-parameter class remains a live split-pencil census problem.
 - The finite rank-nine prefix is proved through `K'=87`. At the first open
   row `K'=88`, paired raw scans classify all 18,741,723 source units and
   leave exactly 622,895 raw-unsafe units on offsets `1..44`. This is a

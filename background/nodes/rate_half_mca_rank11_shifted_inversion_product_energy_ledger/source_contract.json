@@ -1,0 +1,20 @@
+{
+  "schema": "rate-half-mca-rank11-shifted-inversion-product-energy-ledger-v1",
+  "official_base_prime": 2130706433,
+  "official_domain_order": 2097152,
+  "cyclotomic_index": 1016,
+  "forced_nonfixed_points": 8740,
+  "definitions": {
+    "R": "ordered shifted-product representations",
+    "F": "fixed shifted-inversion graph points",
+    "I": "R-F"
+  },
+  "shift_outside_subgroup_nonfixed_mean_numerator": 2097151,
+  "shift_outside_subgroup_nonfixed_mean_denominator": 1016,
+  "shift_outside_subgroup_nonfixed_mean_integer_part": 2064,
+  "shift_outside_subgroup_nonfixed_mean_remainder": 127,
+  "scaling_invariant": "kappa/tau^2",
+  "reciprocal_exception": "kappa=tau^2",
+  "reciprocal_affine_constant": "-1/tau",
+  "nonclaim": "The exact moment ledger does not imply a pointwise shifted-inversion cap."
+}

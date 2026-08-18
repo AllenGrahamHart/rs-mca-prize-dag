@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_shifted_inversion_product_energy_ledger",
+    "title": "Shifted quadratic survivors are exact shifted-subgroup product multiplicities",
+    "status": "PROVED",
+    "closure": "exact first moments, energy identity, H-scaling, and reciprocal parameter transport",
+    "statement": "For the official shifted-inversion graph, let R count ordered product representations (x+tau)(y+tau)=kappa on H, F count fixed points, and I=R-F. Then I is even and I/2 counts fibers; the sums over nonzero kappa are (N-z)^2, N-z, and (N-z)(N-z-1), respectively. The second moment of R is the multiplicative energy of (H+tau) without zero. H-scaling reduces tau to 1016 cosets and preserves lambda=kappa/tau^2. Coordinate inversion transports nondegenerate parameters by A=tau^2-kappa, while kappa=tau^2 becomes u+v=-1/tau. No pointwise cap is claimed.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_shifted_inversion_product_energy_ledger/statement.md",
+      "background/nodes/rate_half_mca_rank11_shifted_inversion_product_energy_ledger/proof.md",
+      "background/nodes/rate_half_mca_rank11_shifted_inversion_product_energy_ledger/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_shifted_inversion_product_energy_ledger/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_shifted_inversion_product_energy_ledger/audit.md",
+      "background/nodes/rate_half_mca_rank11_shifted_inversion_product_energy_ledger/result.md",
+      "background/nodes/rate_half_mca_rank11_shifted_inversion_product_energy_ledger/frontier.md",
+      "background/nodes/rate_half_mca_rank11_shifted_inversion_product_energy_ledger/provenance.md",
+      "background/nodes/rate_half_mca_rank11_shifted_inversion_product_energy_ledger/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_shifted_inversion_product_energy_ledger/verify.py",
+      "background/nodes/rate_half_mca_rank11_shifted_inversion_product_energy_ledger/verify_audit.py"
+    ],
+    "upstream": {
+      "label": "base-field-normalized split-pencil census / aperiodic image-fiber energy",
+      "relation": "OVERLAP"
+    }
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_quadratic_survivor_mobius_router"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location"}
+  ],
+  "refutes": []
+}

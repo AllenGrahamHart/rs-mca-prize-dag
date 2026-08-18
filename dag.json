@@ -43750,6 +43750,54 @@
    ]
   },
   {
+   "id": "rate_half_mca_rank11_shifted_inversion_product_energy_ledger",
+   "title": "Shifted quadratic survivors are exact shifted-subgroup product multiplicities",
+   "status": "PROVED",
+   "closure": "exact first moments, energy identity, H-scaling, and reciprocal parameter transport",
+   "statement": "For the official shifted-inversion graph, let R count ordered product representations (x+tau)(y+tau)=kappa on H, F count fixed points, and I=R-F. Then I is even and I/2 counts fibers; the sums over nonzero kappa are (N-z)^2, N-z, and (N-z)(N-z-1), respectively. The second moment of R is the multiplicative energy of (H+tau) without zero. H-scaling reduces tau to 1016 cosets and preserves lambda=kappa/tau^2. Coordinate inversion transports nondegenerate parameters by A=tau^2-kappa, while kappa=tau^2 becomes u+v=-1/tau. No pointwise cap is claimed.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_shifted_inversion_product_energy_ledger/statement.md",
+    "background/nodes/rate_half_mca_rank11_shifted_inversion_product_energy_ledger/proof.md",
+    "background/nodes/rate_half_mca_rank11_shifted_inversion_product_energy_ledger/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_shifted_inversion_product_energy_ledger/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_shifted_inversion_product_energy_ledger/audit.md",
+    "background/nodes/rate_half_mca_rank11_shifted_inversion_product_energy_ledger/result.md",
+    "background/nodes/rate_half_mca_rank11_shifted_inversion_product_energy_ledger/frontier.md",
+    "background/nodes/rate_half_mca_rank11_shifted_inversion_product_energy_ledger/provenance.md",
+    "background/nodes/rate_half_mca_rank11_shifted_inversion_product_energy_ledger/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_shifted_inversion_product_energy_ledger/verify.py",
+    "background/nodes/rate_half_mca_rank11_shifted_inversion_product_energy_ledger/verify_audit.py"
+   ],
+   "upstream": {
+    "label": "base-field-normalized split-pencil census / aperiodic image-fiber energy",
+    "relation": "OVERLAP"
+   }
+  },
+  {
+   "id": "rate_half_mca_rank11_shifted_inversion_reciprocal_affine_elimination",
+   "title": "The reciprocal-affine shifted parameter lambda=1 cannot carry 4370 fibers",
+   "status": "PROVED",
+   "closure": "coordinate inversion plus the exact official nonzero affine-reflection cap",
+   "statement": "In the 4370-fiber quadratic shifted-inversion branch, put lambda=kappa/tau^2. Then lambda is not one. If kappa=tau^2, coordinatewise inversion on H transforms the graph into u+v=-1/tau, a fixed nonzero affine-reflection pencil. Its exact cap is 1154 fibers and 2308 nonfixed graph points, contradicting the required 4370 and 8740. High complexity, nonquadratic degrees, antipodal, constant-product, and general shifted inversion remain unpaid.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_shifted_inversion_reciprocal_affine_elimination/statement.md",
+    "background/nodes/rate_half_mca_rank11_shifted_inversion_reciprocal_affine_elimination/proof.md",
+    "background/nodes/rate_half_mca_rank11_shifted_inversion_reciprocal_affine_elimination/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_shifted_inversion_reciprocal_affine_elimination/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_shifted_inversion_reciprocal_affine_elimination/audit.md",
+    "background/nodes/rate_half_mca_rank11_shifted_inversion_reciprocal_affine_elimination/result.md",
+    "background/nodes/rate_half_mca_rank11_shifted_inversion_reciprocal_affine_elimination/frontier.md",
+    "background/nodes/rate_half_mca_rank11_shifted_inversion_reciprocal_affine_elimination/provenance.md",
+    "background/nodes/rate_half_mca_rank11_shifted_inversion_reciprocal_affine_elimination/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_shifted_inversion_reciprocal_affine_elimination/verify.py",
+    "background/nodes/rate_half_mca_rank11_shifted_inversion_reciprocal_affine_elimination/verify_audit.py"
+   ],
+   "upstream": {
+    "label": "base-field-normalized split-pencil census / quotient-periodic boundary",
+    "relation": "OVERLAP"
+   }
+  },
+  {
    "id": "rate_half_mca_rank11_shortened_partial_relative_router",
    "title": "Rank-eleven shortened seed reaches the partial-relative interfaces",
    "status": "PROVED",
@@ -81927,6 +81975,11 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_mca_rank11_exception_spi_affine_reflection_fixed_pencil_cap",
+   "to": "rate_half_mca_rank11_shifted_inversion_reciprocal_affine_elimination",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_mca_rank11_exception_spi_dihedral_quotient_fence",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
@@ -83047,6 +83100,11 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_mca_rank11_quadratic_survivor_mobius_router",
+   "to": "rate_half_mca_rank11_shifted_inversion_product_energy_ledger",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_mca_rank11_rank8_codimension_one_circuit_shadow_census",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
@@ -83328,6 +83386,21 @@
   },
   {
    "from": "rate_half_mca_rank11_rich_flat_self_iteration_budget_wall",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_shifted_inversion_product_energy_ledger",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_shifted_inversion_product_energy_ledger",
+   "to": "rate_half_mca_rank11_shifted_inversion_reciprocal_affine_elimination",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_shifted_inversion_reciprocal_affine_elimination",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
   },

@@ -1,0 +1,14 @@
+{
+  "schema": "rate-half-mca-rank11-shifted-inversion-reciprocal-affine-elimination-v1",
+  "minimum_survivor_fibers": 4370,
+  "minimum_survivor_nonfixed_points": 8740,
+  "maximum_affine_reflection_points": 2308,
+  "maximum_affine_reflection_fibers": 1154,
+  "fiber_contradiction_margin": 3216,
+  "point_contradiction_margin": 6432,
+  "normalized_parameter": "kappa/tau^2",
+  "excluded_parameter": 1,
+  "transformed_reflection_constant": "-1/tau",
+  "high_complexity_threshold": 2299571,
+  "nonclaim": "Only the reciprocal-affine shifted parameter is eliminated; no surviving class is paid."
+}
