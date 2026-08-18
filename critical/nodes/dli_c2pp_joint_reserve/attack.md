@@ -139,3 +139,22 @@ Therefore theorem search must keep the exact conjunction: one-sided,
 valuation-pure, **nested initial prefixes**, with owner deletion. No further
 generic correlation pose is admissible unless it includes all four features
 and explains how the deeper-tail factors compose.
+
+The proved `dli_fixed_weight_ambient_q_bridge` gives a different exact route
+that aligns with upstream primitive Q. For the full `t`-moment map on the
+weight-`w` slice, let `f_w` be the primitive zero-fiber size and `L_w` its
+realized image size. Fourier positivity of every Haar marginal proves
+
+```text
+J_prim <= sum_w [binom(n,w)/2^n] (q^t/L_w)
+                                      [f_w L_w/binom(n,w)].
+```
+
+The bracket on the right is image-normalized primitive-Q inflation; the
+preceding factor is its effective-image defect. The primitive extreme layers
+`w<=t` and `w>=n-t` are empty, so all surviving official layers are
+fixed-density. A weighted right side at most `2^21` closes this node. This
+retires the Haar denominator as an open subproblem: the remaining task is a
+finite **ambient** prefix-flatness estimate, not image-normalized Q alone.
+Upstream's asymptotic `exp(o(n))` theorem after a Sidon payment does not print
+the required 21-bit constant or the effective-image payment.

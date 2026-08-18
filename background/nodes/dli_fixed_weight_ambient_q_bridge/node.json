@@ -1,0 +1,41 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 2623,
+  "node": {
+    "id": "dli_fixed_weight_ambient_q_bridge",
+    "title": "DLI fixed-weight ambient-Q bridge",
+    "status": "PROVED",
+    "closure": "finite additive Fourier positivity and exact layer normalization",
+    "statement": "For the DLI primitive Haar events, every odd-band marginal and the terminal marginal is a sum of independent iid differences, so its additive Fourier transform is nonnegative. Therefore P(O_j)>=q^(-|U_j|), P(T_m)>=q^-1, and their product is at least q^-t. On the weight-w slice, if f_w is the primitive zero-fiber size, M_w=binom(n,w), and L_w is the realized image size of the t-moment map, then J_prim<=sum_w (M_w/2^n)(q^t/L_w)(f_w L_w/M_w). Primitive layers vanish for w<=t and w>=n-t. Hence a binomially weighted ambient-Q inflation at most 2^21 suffices for C2'', while image-normalized Q alone still owes the exact effective-image defect q^t/L_w.",
+    "attack_surface": "Check the iid-difference representation of every Haar marginal, Fourier inversion over the formal codomain, the t-1 plus 1 exponent count, the fixed-weight image/ambient cancellation, the Vandermonde extreme-layer exclusion, and the distinction between asymptotic exp(o(n)) and the finite 21-bit payment.",
+    "falsifier": "A Haar marginal with a negative Fourier coefficient under the stated odd-characteristic setup, failure of its zero mass to reach the reciprocal formal-codomain floor, or a mismatch in the exact layer identity for J_prim.",
+    "refs": [
+      "background/nodes/dli_fixed_weight_ambient_q_bridge/statement.md",
+      "background/nodes/dli_fixed_weight_ambient_q_bridge/proof.md",
+      "background/nodes/dli_fixed_weight_ambient_q_bridge/claim_contract.md",
+      "background/nodes/dli_fixed_weight_ambient_q_bridge/dependency_subdag.md",
+      "background/nodes/dli_fixed_weight_ambient_q_bridge/audit.md",
+      "background/nodes/dli_fixed_weight_ambient_q_bridge/result.md",
+      "background/nodes/dli_fixed_weight_ambient_q_bridge/provenance.md",
+      "background/nodes/dli_fixed_weight_ambient_q_bridge/verify.py",
+      "background/nodes/dli_fixed_weight_ambient_q_bridge/verify_audit.py",
+      "background/nodes/dli_primitive_haar_event_correlation/statement.md",
+      "critical/nodes/dli_c2pp_joint_reserve/attack.md"
+    ],
+    "notes": "This is the exact finite compiler from upstream-style fixed-density primitive Q to the local Haar target. It proves the denominator floor and isolates the remaining numerator as weighted ambient flatness. It does not pay the 21-bit bound."
+  },
+  "requires": [
+    {
+      "from": "dli_primitive_haar_event_correlation",
+      "order": 5350
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "dli_c2pp_joint_reserve",
+      "order": 5351
+    }
+  ],
+  "refutes": []
+}

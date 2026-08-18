@@ -10527,9 +10527,10 @@
     "background/nodes/dli_primitive_first_owner_antipodal_subtraction/proof.md",
     "background/nodes/dli_primitive_joint_ratio_telescoping/proof.md",
     "background/nodes/dli_first_junction_support_overlap/proof.md",
-    "background/nodes/dli_primitive_haar_event_correlation/proof.md"
+    "background/nodes/dli_primitive_haar_event_correlation/proof.md",
+    "background/nodes/dli_fixed_weight_ambient_q_bridge/proof.md"
    ],
-   "notes": "Rounds 23--26 established exact telescoping, periodic-stratum, freeze-tail, and saturated-constant results for the unreduced object. Round 27 refutes the unreduced endpoint. Round 28 pays first-owner deletion. Round 29 reduces the target to the positive integer inequality C2-INT. Round 30 preregisters J_prim<=sqrt(2n), which would close the 21-bit reserve, and finds no falsifier on 13 exact t=2 rows through n=256. Round 31 proves the first-junction support overlap. Rounds 32--33 bank exact m=1 and m=2 survivors and expose first-factor/tail cancellation. Round 34 repackages the complete all-depth ratio as one primitive correlation excess among dyadic Haar-band null events on the same Bernoulli cube. The resulting square-root correlation inequality remains open."
+   "notes": "Rounds 23--26 established exact telescoping, periodic-stratum, freeze-tail, and saturated-constant results for the unreduced object. Round 27 refutes the unreduced endpoint. Round 28 pays first-owner deletion. Round 29 reduces the target to the positive integer inequality C2-INT. Round 30 preregisters J_prim<=sqrt(2n), which would close the 21-bit reserve, and finds no falsifier on 13 exact t=2 rows through n=256. Round 31 proves the first-junction support overlap. Rounds 32--33 bank exact m=1 and m=2 survivors and expose first-factor/tail cancellation. Round 34 repackages the complete all-depth ratio as one primitive correlation excess among dyadic Haar-band null events on the same Bernoulli cube. Round 35 proves the Haar denominator floor and reduces the remaining target to a binomially weighted finite ambient-Q inflation, retaining the exact effective-image defect. The 21-bit numerator payment remains open."
   },
   {
    "id": "dli_wcl_zone_coverage",
@@ -30327,6 +30328,29 @@
     "critical/nodes/dli_c2pp_joint_reserve/attack.md"
    ],
    "notes": "This freezes the minimum viable spectral scope for theorem search: one-sided, valuation-pure, nested initial prefixes with primitive ownership. It does not prove that conjunction sufficient."
+  },
+  {
+   "id": "dli_fixed_weight_ambient_q_bridge",
+   "title": "DLI fixed-weight ambient-Q bridge",
+   "status": "PROVED",
+   "closure": "finite additive Fourier positivity and exact layer normalization",
+   "statement": "For the DLI primitive Haar events, every odd-band marginal and the terminal marginal is a sum of independent iid differences, so its additive Fourier transform is nonnegative. Therefore P(O_j)>=q^(-|U_j|), P(T_m)>=q^-1, and their product is at least q^-t. On the weight-w slice, if f_w is the primitive zero-fiber size, M_w=binom(n,w), and L_w is the realized image size of the t-moment map, then J_prim<=sum_w (M_w/2^n)(q^t/L_w)(f_w L_w/M_w). Primitive layers vanish for w<=t and w>=n-t. Hence a binomially weighted ambient-Q inflation at most 2^21 suffices for C2'', while image-normalized Q alone still owes the exact effective-image defect q^t/L_w.",
+   "attack_surface": "Check the iid-difference representation of every Haar marginal, Fourier inversion over the formal codomain, the t-1 plus 1 exponent count, the fixed-weight image/ambient cancellation, the Vandermonde extreme-layer exclusion, and the distinction between asymptotic exp(o(n)) and the finite 21-bit payment.",
+   "falsifier": "A Haar marginal with a negative Fourier coefficient under the stated odd-characteristic setup, failure of its zero mass to reach the reciprocal formal-codomain floor, or a mismatch in the exact layer identity for J_prim.",
+   "refs": [
+    "background/nodes/dli_fixed_weight_ambient_q_bridge/statement.md",
+    "background/nodes/dli_fixed_weight_ambient_q_bridge/proof.md",
+    "background/nodes/dli_fixed_weight_ambient_q_bridge/claim_contract.md",
+    "background/nodes/dli_fixed_weight_ambient_q_bridge/dependency_subdag.md",
+    "background/nodes/dli_fixed_weight_ambient_q_bridge/audit.md",
+    "background/nodes/dli_fixed_weight_ambient_q_bridge/result.md",
+    "background/nodes/dli_fixed_weight_ambient_q_bridge/provenance.md",
+    "background/nodes/dli_fixed_weight_ambient_q_bridge/verify.py",
+    "background/nodes/dli_fixed_weight_ambient_q_bridge/verify_audit.py",
+    "background/nodes/dli_primitive_haar_event_correlation/statement.md",
+    "critical/nodes/dli_c2pp_joint_reserve/attack.md"
+   ],
+   "notes": "This is the exact finite compiler from upstream-style fixed-density primitive Q to the local Haar target. It proves the denominator floor and isolates the remaining numerator as weighted ambient flatness. It does not pay the 21-bit bound."
   },
   {
    "id": "crossing_dsa_refutation",
@@ -71097,6 +71121,16 @@
   },
   {
    "from": "dli_spectral_hypothesis_separation_no_go",
+   "to": "dli_c2pp_joint_reserve",
+   "kind": "ev"
+  },
+  {
+   "from": "dli_primitive_haar_event_correlation",
+   "to": "dli_fixed_weight_ambient_q_bridge",
+   "kind": "req"
+  },
+  {
+   "from": "dli_fixed_weight_ambient_q_bridge",
    "to": "dli_c2pp_joint_reserve",
    "kind": "ev"
   },
