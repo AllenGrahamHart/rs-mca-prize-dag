@@ -2943,6 +2943,31 @@
     "our_sha": "e2a2732f8",
     "his_sha": "2788d5ec3"
    }
+  },
+  {
+   "our_node": "rate_half_mca_rank11_cross_type_scalar_pair_rigidity",
+   "his_object": {
+    "label": "factor synchronization / atom collision",
+    "file": "PR #1173 and experimental/grande_finale.tex",
+    "line": "factor synchronization next theorem; thm:collision-rigidity"
+   },
+   "relation": "OVERLAP",
+   "chain": "sharp 14+14 collision deck -> independent scalar pairs force common coefficient zeros to be denominator roots -> pole-simple incidence count -> 1079711-c common pair-core points -> 31136-coordinate contradiction",
+   "scope": "official KoalaBear pole-simple cross-type atom interface; every surviving degree-two quotient collision has proportional scalar pairs and hence the same projective quotient-map value at infinity",
+   "owner": "US",
+   "nonclaims": [
+    "does not construct a 14+14 collision deck for arbitrary quotient pair types",
+    "does not identify or count quotient maps with proportional scalar pairs",
+    "does not charge the 520-type quotient population",
+    "does not pay high complexity, rank eleven, or MCA"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "759ed78f8",
+    "his_sha": "2788d5ec3"
+   }
   }
  ]
 }
