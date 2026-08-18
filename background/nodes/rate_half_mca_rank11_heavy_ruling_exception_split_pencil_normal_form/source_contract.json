@@ -1,0 +1,23 @@
+{
+  "schema": "rate-half-mca-rank11-heavy-ruling-exception-split-pencil-normal-form-v1",
+  "minimum_anchor_slopes": 20,
+  "pair_core_margin": 11,
+  "exception_degree_minimum": 1,
+  "exception_degree_maximum": 11,
+  "minimum_split_fibers": 20,
+  "minimum_pairwise_disjoint_fibers": 20,
+  "maximum_scalar_zero_anchor_slopes": 0,
+  "pencil_gcd_degree": 0,
+  "denominator_anchor_core_gcd_degree": 0,
+  "denominator_degree_maximum": 67472,
+  "toy": {
+    "field": 17,
+    "u": [0, 0, 1],
+    "v": [1],
+    "slopes": [16, 13, 8],
+    "root_sets": [[1, 16], [2, 15], [3, 14]],
+    "fiber_degree": 2,
+    "expected_pairwise_intersection": 0
+  },
+  "nonclaim": "No split-pencil census or rational-profile payment is claimed."
+}

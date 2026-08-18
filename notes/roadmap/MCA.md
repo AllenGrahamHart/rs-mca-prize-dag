@@ -184,6 +184,18 @@ certificates required by the challenge.
   is at most `67472`. This is not whole-domain root-freeness; the remaining
   task is to preserve enough exact support after this singleton charge to
   pay the rational atom, or pay the high-complexity alternative.
+- The pole-simple rational branch now has an exact bounded SPI normal form.
+  If `H_0` is the residual anchor core and `e=m'-|H_0|`, then
+  `1<=e<=11`; the at least 20 anchor supports are
+  `H_0 disjoint_union E_gamma` with pairwise-disjoint size-`e` exception
+  sets. Factoring the rational certificate gives
+  `A-Qa_0=L_0u`, `B-Qb_0=L_0v`, and
+  `u+gamma v=(c_0+c_1 gamma)L_{E_gamma}`. Here `u,v` are coprime,
+  `max(deg u,deg v)=e`, the affine scalar is nonzero on every anchor slope,
+  the exception locators are pairwise-coprime split domain divisors, and
+  `gcd(Q,L_0)=1`. The rational payment is thus reduced to a degree-`1..11`
+  split-pencil census with at least 20 disjoint split fibers. Twenty fibers
+  do not by themselves imply an identically split pencil.
 - The finite rank-nine prefix is proved through `K'=87`. At the first open
   row `K'=88`, paired raw scans classify all 18,741,723 source units and
   leave exactly 622,895 raw-unsafe units on offsets `1..44`. This is a

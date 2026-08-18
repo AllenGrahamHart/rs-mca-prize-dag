@@ -41653,6 +41653,30 @@
    }
   },
   {
+   "id": "rate_half_mca_rank11_heavy_ruling_exception_split_pencil_normal_form",
+   "title": "Heavy-ruling rational branch has a degree-eleven exception split pencil",
+   "status": "PROVED",
+   "closure": "the twenty anchor supports compile to a coprime affine pencil of pairwise-disjoint split exception locators, separated from the rational denominator",
+   "statement": "In the rational output of the triple-owner heavy-ruling packet, let H_0 be the residual anchor pair core and write e=m'-|H_0|. Pair noncontainment and the low-pair margin give 1<=e<=11. Every one of the at least 20 anchor supports is the disjoint union H_0 union E_gamma, where |E_gamma|=e and the E_gamma are pairwise disjoint. If L_0 and L_{E_gamma} are their monic locators, then the rational certificate factors uniquely as A'-Qa_0'=L_0u and B'-Qb_0'=L_0v with deg u,deg v<=e, and u+gamma v=(c_0+c_1 gamma)L_{E_gamma}. The affine scalar is nonzero at every anchor slope, gcd(u,v)=1, max(deg u,deg v)=e, and every L_{E_gamma} is a pairwise-coprime split divisor of the residual domain locator. Moreover gcd(Q,L_0)=1 because a denominator root on H_0 would be a common pole. Thus the rational branch contains an exact degree-1-through-11, at-least-20-fiber split-pencil instance. No split-pencil census, rational payment, or MCA closure is claimed.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_heavy_ruling_exception_split_pencil_normal_form/statement.md",
+    "background/nodes/rate_half_mca_rank11_heavy_ruling_exception_split_pencil_normal_form/proof.md",
+    "background/nodes/rate_half_mca_rank11_heavy_ruling_exception_split_pencil_normal_form/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_heavy_ruling_exception_split_pencil_normal_form/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_heavy_ruling_exception_split_pencil_normal_form/audit.md",
+    "background/nodes/rate_half_mca_rank11_heavy_ruling_exception_split_pencil_normal_form/result.md",
+    "background/nodes/rate_half_mca_rank11_heavy_ruling_exception_split_pencil_normal_form/provenance.md",
+    "background/nodes/rate_half_mca_rank11_heavy_ruling_exception_split_pencil_normal_form/frontier.md",
+    "background/nodes/rate_half_mca_rank11_heavy_ruling_exception_split_pencil_normal_form/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_heavy_ruling_exception_split_pencil_normal_form/verify.py",
+    "background/nodes/rate_half_mca_rank11_heavy_ruling_exception_split_pencil_normal_form/verify_audit.py"
+   ],
+   "upstream": {
+    "label": "base-field-normalized split-pencil census / primitive shift-pair control",
+    "relation": "OVERLAP"
+   }
+  },
+  {
    "id": "rate_half_mca_rank11_heavy_ruling_triple_owner_pole_simple_router",
    "title": "Triple-owner heavy ruling removes common rational poles",
    "status": "PROVED",
@@ -81850,9 +81874,19 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_mca_rank11_heavy_ruling_exception_split_pencil_normal_form",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_mca_rank11_heavy_ruling_triple_owner_pole_simple_router",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_heavy_ruling_triple_owner_pole_simple_router",
+   "to": "rate_half_mca_rank11_heavy_ruling_exception_split_pencil_normal_form",
+   "kind": "req"
   },
   {
    "from": "rate_half_mca_rank11_k11_circuit_split_pencil_payment",
