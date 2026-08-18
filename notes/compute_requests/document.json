@@ -98,6 +98,7 @@
     "notes/compute_requests/sections/93-o0b-fff-q6-block-determinant.md",
     "notes/compute_requests/sections/94-o0b-fff-r76-multiplication-determinant.md",
     "notes/compute_requests/sections/95-o0b-fff-r76-matrix-bank.md",
-    "notes/compute_requests/sections/96-o0b-fff-r76-polynomial-matrix.md"
+    "notes/compute_requests/sections/96-o0b-fff-r76-polynomial-matrix.md",
+    "notes/compute_requests/sections/97-o0b-fff-r76-ntt-determinant.md"
   ]
 }
