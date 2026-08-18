@@ -62,6 +62,13 @@ certificates required by the challenge.
   dimension-at-most-eight subspace and share that bucket-local core. The next
   gate is to price or recursively shorten this high-mass bucket without
   promoting its coordinate to a line-global core.
+- Retaining the full `37736`-root sets inside that bucket and nesting the
+  weighted incidence twice more forces three distinct coordinates through
+  a `347110921118`-slope subfamily. Their evaluation columns on the residual
+  five-space have rank at most two: rank three would put the subfamily in a
+  four-dimensional correction space capped at `63397365764`. The live
+  factor branch is therefore reduced further to a proportional-column or
+  genuine projective-line collision classification with exact slope mass.
 - The finite rank-nine prefix is proved through `K'=87`. At the first open
   row `K'=88`, paired raw scans classify all 18,741,723 source units and
   leave exactly 622,895 raw-unsafe units on offsets `1..44`. This is a

@@ -1,0 +1,11 @@
+{
+  "schema": "rate-half-mca-rank11-factor-flag-three-coordinate-collision-v1",
+  "anchor_good_universe": 1116048,
+  "residual_roots": 37736,
+  "initial_mass": 303637675671716,
+  "second_mass": 10266384562185,
+  "third_mass": 347110921118,
+  "rank_three_correction_dimension": 4,
+  "rank_three_slope_cap": 63397365764,
+  "forced_rank_upper_bound": 2
+}

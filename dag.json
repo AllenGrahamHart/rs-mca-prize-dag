@@ -41341,6 +41341,30 @@
    ]
   },
   {
+   "id": "rate_half_mca_rank11_factor_flag_three_coordinate_rank_collision",
+   "title": "Rank-eleven factor-flag three-coordinate rank collision",
+   "status": "PROVED",
+   "closure": "nested weighted root incidence forces a rank-at-most-two evaluation triple inside the 2 x 5 residual factor",
+   "statement": "Inside the weighted residual-root bucket of the base-free KoalaBear rank-eleven 2 x 5 factor branch, every class has at least 37736 common-zero coordinates. Starting from the forced one-coordinate mass 303637675671716, two further weighted incidence steps force distinct coordinates with retained masses 10266384562185 and 347110921118. If the three evaluation functionals on the residual five-space B had rank three, all final corrections would lie in P times their two-dimensional common kernel, a correction space of dimension at most four, whose chronology-safe slope cap is 63397365764. Since 347110921118 exceeds that cap, the three evaluation columns have rank at most two. No clone classification, aggregate collision payment, or global core is claimed.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_factor_flag_three_coordinate_rank_collision/statement.md",
+    "background/nodes/rate_half_mca_rank11_factor_flag_three_coordinate_rank_collision/proof.md",
+    "background/nodes/rate_half_mca_rank11_factor_flag_three_coordinate_rank_collision/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_factor_flag_three_coordinate_rank_collision/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_factor_flag_three_coordinate_rank_collision/audit.md",
+    "background/nodes/rate_half_mca_rank11_factor_flag_three_coordinate_rank_collision/result.md",
+    "background/nodes/rate_half_mca_rank11_factor_flag_three_coordinate_rank_collision/provenance.md",
+    "background/nodes/rate_half_mca_rank11_factor_flag_three_coordinate_rank_collision/frontier.md",
+    "background/nodes/rate_half_mca_rank11_factor_flag_three_coordinate_rank_collision/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_factor_flag_three_coordinate_rank_collision/verify.py",
+    "background/nodes/rate_half_mca_rank11_factor_flag_three_coordinate_rank_collision/verify_audit.py"
+   ],
+   "upstream": {
+    "label": "anchored rich-flat rank-eleven router",
+    "relation": "OVERLAP"
+   }
+  },
+  {
    "id": "rate_half_mca_rank11_factor_flag_weighted_root_concentration",
    "title": "Rank-eleven factor-flag weighted root concentration",
    "status": "PROVED",
@@ -81058,6 +81082,11 @@
   },
   {
    "from": "rate_half_mca_rank11_chronology_safe_subspace_cover_payment",
+   "to": "rate_half_mca_rank11_factor_flag_three_coordinate_rank_collision",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_chronology_safe_subspace_cover_payment",
    "to": "rate_half_mca_rank11_factor_flag_weighted_root_concentration",
    "kind": "req"
   },
@@ -81312,9 +81341,19 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_mca_rank11_factor_flag_three_coordinate_rank_collision",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_mca_rank11_factor_flag_weighted_root_concentration",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_factor_flag_weighted_root_concentration",
+   "to": "rate_half_mca_rank11_factor_flag_three_coordinate_rank_collision",
+   "kind": "req"
   },
   {
    "from": "rate_half_mca_rank11_full_span_residual_forcing",
