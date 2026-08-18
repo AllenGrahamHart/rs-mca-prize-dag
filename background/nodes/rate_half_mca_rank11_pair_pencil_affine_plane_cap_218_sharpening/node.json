@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_pair_pencil_affine_plane_cap_218_sharpening",
+    "title": "Affine scalar planes contain at most 218 quotient types",
+    "status": "PROVED",
+    "closure": "plane-specific shortening and full-line packing",
+    "statement": "No affine scalar plane contains 219 selected quotient types. The affine-plane cap is therefore 218. In scalar dimension three this forces a common received-pair core of size at least 407831 and minimum-floor shortened incidence slack 178. In scalar dimension four it forces either the same shortening threshold or an actual 219-type affine-three coordinate fiber carrying at least 6351 first-owned records. None of the residual outputs is paid here.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_pair_pencil_affine_plane_cap_218_sharpening/statement.md",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_affine_plane_cap_218_sharpening/proof.md",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_affine_plane_cap_218_sharpening/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_affine_plane_cap_218_sharpening/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_affine_plane_cap_218_sharpening/audit.md",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_affine_plane_cap_218_sharpening/result.md",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_affine_plane_cap_218_sharpening/frontier.md",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_affine_plane_cap_218_sharpening/provenance.md",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_affine_plane_cap_218_sharpening/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_affine_plane_cap_218_sharpening/verify.py",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_affine_plane_cap_218_sharpening/verify_audit.py"
+    ],
+    "upstream": {
+      "label": "base-field-normalized split-pencil census / common-GCD and exact line ledger",
+      "relation": "OVERLAP"
+    }
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_pair_pencil_dimension_four_heavy_affine_three_router"},
+    {"from": "rate_half_mca_rank11_pair_pencil_affine_line_cap_direction_router"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location"}
+  ],
+  "refutes": []
+}

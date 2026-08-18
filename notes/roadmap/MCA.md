@@ -460,6 +460,16 @@ certificates required by the challenge.
   coordinate. The live dimension-four targets are therefore the shortened
   large-core branch and this explicit heavy coordinate star, not an
   unspecified affine-three-space census.
+- A plane-specific second shortening sharpens both preceding outputs. An
+  affine plane with 219 selected types would shorten to `K'<=4670` and force
+  at least `95866+205K'` full 15-point line fibers. The 219 points support at
+  most 219 such lines, each recurring at most `K'-1` times, giving a uniform
+  contradiction margin of at least 30,705. Hence the affine-plane cap is
+  218. The current dimension-three floor is `|J|>=407831`, with
+  `(n',K',m')=(1689321,640745,708217)` and minimum incidence slack 178. The
+  current dimension-four alternative is a 219-type exact affine-three
+  coordinate fiber carrying at least 6,351 records. These values supersede
+  the earlier `233`, `319539`, and `234` numerical frontiers.
 - The finite rank-nine prefix is proved through `K'=87`. At the first open
   row `K'=88`, paired raw scans classify all 18,741,723 source units and
   leave exactly 622,895 raw-unsafe units on offsets `1..44`. This is a
