@@ -10,3 +10,7 @@
   router nodes without invalidating their weaker statements.
 - No numerical search or remote computation was used; integer arithmetic is
   replayed by the node verifiers.
+- Exported as the first half of the standalone conditional split-pencil
+  packet in `przchojecki/rs-mca` PR #1170 at commit `24f23478`; explanatory
+  packet comment `issuecomment-5333739012`. The upstream packet prints the
+  520-type interface as an input and claims zero deployed ledger movement.

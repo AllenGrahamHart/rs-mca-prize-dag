@@ -3324,8 +3324,8 @@
    "our_node": "rate_half_mca_rank11_pair_pencil_affine_plane_cap_218_sharpening",
    "his_object": {
     "label": "base-field-normalized split-pencil census / common-GCD and exact SPI ledger",
-    "file": "CAP25 v13.2, towards-prize.md, agents.md, and PR #1173",
-    "line": "BC split-pencil common-GCD stratum, affine-fiber flatness, and exact line-incidence census"
+    "file": "PR #1170 at 24f23478, experimental/notes/thresholds/kb_mca_rank11_quotient_pair_plane218_v1.md",
+    "line": "conditional 520-type BC split-pencil interface; affine-plane cap and dimension-three/four router"
    },
    "relation": "OVERLAP",
    "chain": "hypothetical 219-type affine plane -> common received-pair core at least 1043906 -> reversible shortening to K' at most 4670 -> at least 95866+205K' full 15-point line fibers -> at most 219 lines each recurring at most K'-1 -> contradiction margin at least 30705",
@@ -3339,19 +3339,19 @@
     "does not pay rank eleven or close MCA"
    ],
    "status_ours": "PROVED",
-   "status_his": "open",
+   "status_his": "PROVED_CONDITIONAL_ROUTE_CUT_PR1170",
    "lean": null,
    "provenance": {
     "our_sha": "69add8931",
-    "his_sha": "2788d5ec3"
+    "his_sha": "24f23478"
    }
   },
   {
    "our_node": "rate_half_mca_rank11_pair_pencil_plane218_projective_direction_bank",
    "his_object": {
     "label": "Q quotient flatness / BC base-field-normalized split-pencil census",
-    "file": "experimental/grande_finale.tex, CAP25 v13.2, towards-prize.md, and agents.md",
-    "line": "finite max-fiber calibration; moving-root bound for one-parameter split pencils; BC common-GCD branch"
+    "file": "PR #1170 at 24f23478, experimental/notes/thresholds/kb_mca_rank11_quotient_pair_plane218_v1.md",
+    "line": "conditional quotient-pair endpoint; 210-direction near-saturated rational-pencil fiber bank"
    },
    "relation": "OVERLAP",
    "chain": "affine-plane endpoint 218 -> common-core shortening with 2044<=K'<=5025 -> at least 28396+204K' full 15-point fibers -> at least 210 projective directions -> aggregate root deficit at most 41736 and dual 1603-pair residual",
@@ -3365,11 +3365,11 @@
     "does not pay rank eleven or close MCA"
    ],
    "status_ours": "PROVED",
-   "status_his": "open",
+   "status_his": "PROVED_CONDITIONAL_ROUTE_CUT_PR1170",
    "lean": null,
    "provenance": {
     "our_sha": "792aefa85",
-    "his_sha": "93fba1be3"
+    "his_sha": "24f23478"
    }
   }
  ]
