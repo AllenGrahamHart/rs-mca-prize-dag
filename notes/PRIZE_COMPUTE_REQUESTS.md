@@ -18577,7 +18577,7 @@ The checker rejects all four hostile mutations.
 - **C++ source SHA-256:**
   `a910d1f447cf2f0895a5b050a2de79de57831c7ca22679065c2cdc53b948a00b`
 - **Modal dispatcher SHA-256:**
-  `f3b11ca1e7485b708d681727a8d631a1e8519d905913b22367414330e9820494`
+  `c402e1ac68bb5b7b6aeaa1bde24206415a8a5b6316fe7e0cf0b6eeb0cd371e95`
 - **outcome-neutral checker SHA-256:**
   `e36fd9799e046160006877b8cd478a030729142e59763efeedc874fc9d417ec1`
 - **coverage:** all `1016` nonzero additive constants modulo multiplicative
@@ -18607,6 +18607,12 @@ separate proof node that verifies the ownership and currency transport.
 `INCOMPLETE` includes any timeout, missing coset, implementation disagreement,
 checksum failure, parity failure, or resource breach. Every outcome retains
 all completed shard rows. No critical status moves directly from this run.
+
+The first deployment, Modal app `ap-C9iVehkrtVunsOc2U3Uo0k`, stopped before
+any census function ran because the dispatcher derived the nonexistent local
+path `..._modal.cpp`. The corrected dispatcher above names the pinned C++
+source explicitly. This was a launch-path failure, not a mathematical shard
+failure, and produced no result rows.
 
 Launch command:
 

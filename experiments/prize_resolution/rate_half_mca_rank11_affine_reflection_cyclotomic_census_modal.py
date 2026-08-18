@@ -18,7 +18,9 @@ N = 2**21
 INDEX = 1016
 GENERATOR = 3
 SHARD_SIZE = 11
-SOURCE = Path(__file__).with_suffix(".cpp")
+SOURCE = Path(__file__).with_name(
+    "rate_half_mca_rank11_affine_reflection_cyclotomic_census.cpp"
+)
 SOURCE_SHA256 = "a910d1f447cf2f0895a5b050a2de79de57831c7ca22679065c2cdc53b948a00b"
 
 app = modal.App(APP_NAME)
