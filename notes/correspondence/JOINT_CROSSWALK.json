@@ -2543,6 +2543,31 @@
     "our_sha": "333ab2b54",
     "his_sha": "2788d5ec3"
    }
+  },
+  {
+   "our_node": "rate_half_mca_rank11_heavy_ruling_exception_split_pencil_normal_form",
+   "his_object": {
+    "label": "KoalaBear base-field-normalized split-pencil census",
+    "file": "experimental/notes/thresholds/kb_mca_rank11_dense_locator_split_pencil_v1.md",
+    "line": "one fixed rank-nine split-pencil cell"
+   },
+   "relation": "OVERLAP",
+   "chain": "pole-simple heavy-ruling rational profile -> anchor-core factorization -> coprime degree-1-through-11 exception pencil with at least 20 disjoint split fibers",
+   "scope": "official KoalaBear sextic row inside the assumed base-free 2 x 5 factor branch; one selected heavy-ruling rational packet yields a denominator-separated bounded-exception SPI instance",
+   "owner": "US",
+   "nonclaims": [
+    "is not the upstream fixed rank-nine component cell",
+    "does not prove base-field normalization or an identically split pencil",
+    "does not count the exception pencil or pay the rational profile",
+    "does not close the heavy bucket, rank eleven, or MCA"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "466ada6ea",
+    "his_sha": "d296510e80"
+   }
   }
  ]
 }
