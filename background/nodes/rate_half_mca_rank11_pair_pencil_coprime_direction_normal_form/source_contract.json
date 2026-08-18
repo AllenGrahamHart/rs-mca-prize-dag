@@ -1,0 +1,14 @@
+{
+  "schema": "rate-half-mca-rank11-pair-pencil-coprime-direction-normal-form-v1",
+  "n": 2097152,
+  "m": 1116048,
+  "K": 1048576,
+  "quotient_type_floor": 520,
+  "pair_core_size": 1116046,
+  "correction_space_dimension_cap": 4,
+  "pair_core_intersection_floor": 134940,
+  "primitive_direction_degree_cap": 913635,
+  "normal_form": "(a_p,b_p)=(a_0,b_0)+R_p(U,V), gcd(U,V)=1",
+  "root_inclusion": "H_p intersect H_q subset Z_D(R_p-R_q)",
+  "nonclaim": "The base-field-normalized rank-one support census is not proved."
+}

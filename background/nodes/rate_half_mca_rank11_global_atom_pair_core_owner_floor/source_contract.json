@@ -1,0 +1,16 @@
+{
+  "schema": "rate-half-mca-rank11-global-atom-pair-core-owner-floor-v1",
+  "n": 2097152,
+  "m": 1116048,
+  "K": 1048576,
+  "quotient_type_floor": 520,
+  "anchor_supports": 18,
+  "pair_core_size": 1116046,
+  "pair_intersection_cap": 1048575,
+  "union_numerator": 647690510540320,
+  "union_denominator": 545326471,
+  "owner_floor": 1187712,
+  "generic_large_owner_floor": 1183521,
+  "improvement": 4191,
+  "nonclaim": "The exclusive large-owner image bound is not proved."
+}

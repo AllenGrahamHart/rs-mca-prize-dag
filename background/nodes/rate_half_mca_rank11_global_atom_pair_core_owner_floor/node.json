@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_global_atom_pair_core_owner_floor",
+    "title": "Quotient pair cores force a 1187712-coordinate global-atom owner",
+    "status": "PROVED",
+    "closure": "packetwise pole exclusion and second-moment union census",
+    "statement": "In the global-atom branch of the quotient-only KoalaBear residual, the denominator has no root on any quotient pair core, every such core lies in the atom owner, and the union of at least 520 size-1116046 cores with pairwise intersections at most 1048575 has size at least 1187712. Hence the global atom has owner size g>=1187712, improving the generic large-owner threshold by 4191. The exclusive large-owner image bound is not paid here.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_global_atom_pair_core_owner_floor/statement.md",
+      "background/nodes/rate_half_mca_rank11_global_atom_pair_core_owner_floor/proof.md",
+      "background/nodes/rate_half_mca_rank11_global_atom_pair_core_owner_floor/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_global_atom_pair_core_owner_floor/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_global_atom_pair_core_owner_floor/audit.md",
+      "background/nodes/rate_half_mca_rank11_global_atom_pair_core_owner_floor/result.md",
+      "background/nodes/rate_half_mca_rank11_global_atom_pair_core_owner_floor/frontier.md",
+      "background/nodes/rate_half_mca_rank11_global_atom_pair_core_owner_floor/provenance.md",
+      "background/nodes/rate_half_mca_rank11_global_atom_pair_core_owner_floor/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_global_atom_pair_core_owner_floor/verify.py",
+      "background/nodes/rate_half_mca_rank11_global_atom_pair_core_owner_floor/verify_audit.py"
+    ],
+    "upstream": {
+      "label": "exclusive large-owner atom image bound",
+      "relation": "OVERLAP"
+    }
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_quadratic_quotient_population_router"},
+    {"from": "rate_half_mca_rank11_cross_type_degree18_atom_weld_compiler"},
+    {"from": "rate_half_mca_rank11_cross_type_global_atom_record_extension"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location"}
+  ],
+  "refutes": []
+}

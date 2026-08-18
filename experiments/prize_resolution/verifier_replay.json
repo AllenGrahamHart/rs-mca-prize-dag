@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_quadratic_quotient_large_owner_or_pair_pencil_router/verify.py",
-      "seconds": 0.049582,
+      "script": "background/nodes/rate_half_mca_rank11_pair_pencil_coprime_direction_normal_form/verify.py",
+      "seconds": 0.162068,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "QUOTIENT_LARGE_OWNER_OR_PAIR_PENCIL_PASS mass=255011043 types=520 owner=1183521\n"
+      "stdout_tail": "PAIR_PENCIL_COPRIME_DIRECTION_PASS types=520 dim=4 roots=134940 direction=913635\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_quadratic_quotient_large_owner_or_pair_pencil_router/verify_audit.py",
-      "seconds": 0.038265,
+      "script": "background/nodes/rate_half_mca_rank11_pair_pencil_coprime_direction_normal_form/verify_audit.py",
+      "seconds": 0.061463,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "QUOTIENT_LARGE_OWNER_OR_PAIR_PENCIL_AUDIT_PASS outputs=2\n"
+      "stdout_tail": "PAIR_PENCIL_COPRIME_DIRECTION_AUDIT_PASS roots=134940 dim=4\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

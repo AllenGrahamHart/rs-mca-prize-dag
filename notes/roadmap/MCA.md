@@ -386,6 +386,24 @@ certificates required by the challenge.
   in one rank-two `F(X)` pencil. The two next proofs are therefore the
   exclusive large-owner image bound and the base pair-type split-pencil
   census; neither needs further local packet synchronization.
+- The global-atom owner floor is sharper than the generic small-owner
+  threshold. A canonical packet contains 18 supports through its anchor
+  quotient core, while pole-simplicity permits a denominator root in at most
+  one packet support. Thus every size-1,116,046 quotient core is pole-free
+  and lies inside the atom owner. A second-moment union bound on at least 520
+  such cores, with pairwise intersections at most 1,048,575, gives
+  `g>=1187712`, improving the entry point to `prob:large-owner` by 4,191.
+  The open requirement remains an exclusive image/fiber bound at this
+  sharpened owner floor.
+- The rank-two alternative now has an exact base-field polynomial normal
+  form. After fixing two types, all pair differences factor as
+  `(a_p-a_0,b_p-b_0)=R_p(U,V)` for one coprime direction `(U,V)`. The at
+  least 520 distinct `R_p` lie in an `F`-space of dimension at most four,
+  and every listed difference `R_p-R_q` vanishes on the pair-core
+  intersection, hence has at least 134,940 distinct official-domain roots.
+  If `d=max(deg U,deg V)`, then `deg R_p<=K-1-d` and `d<=913635`. The open
+  split-pencil task is therefore a rank-one support census for this explicit
+  scalar-polynomial family, not a classification of arbitrary `F(X)` lines.
 - The finite rank-nine prefix is proved through `K'=87`. At the first open
   row `K'=88`, paired raw scans classify all 18,741,723 source units and
   leave exactly 622,895 raw-unsafe units on offsets `1..44`. This is a

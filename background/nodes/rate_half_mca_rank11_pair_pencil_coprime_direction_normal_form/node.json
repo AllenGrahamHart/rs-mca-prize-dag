@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_pair_pencil_coprime_direction_normal_form",
+    "title": "The rational pair pencil has one coprime polynomial direction",
+    "status": "PROVED",
+    "closure": "PID factorization of the rank-two pair-type determinant",
+    "statement": "In the rank-at-most-two quotient pair-pencil branch, choose distinct base types p0,p1. There are fixed coprime polynomials U,V and at least 520 distinct scalar polynomials R_p in an F-linear space of dimension at most four such that (a_p,b_p)=(a_0,b_0)+R_p(U,V). Every nonzero difference R_p-R_q vanishes on H_p intersect H_q and therefore has at least 134940 official-domain roots. If d=max(deg U,deg V), then deg R_p<=K-1-d and d<=913635. This is an exact base-field-normalized rank-one support census input, not its payment.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_pair_pencil_coprime_direction_normal_form/statement.md",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_coprime_direction_normal_form/proof.md",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_coprime_direction_normal_form/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_coprime_direction_normal_form/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_coprime_direction_normal_form/audit.md",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_coprime_direction_normal_form/result.md",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_coprime_direction_normal_form/frontier.md",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_coprime_direction_normal_form/provenance.md",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_coprime_direction_normal_form/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_coprime_direction_normal_form/verify.py",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_coprime_direction_normal_form/verify_audit.py"
+    ],
+    "upstream": {
+      "label": "base-field-normalized split-pencil census / rank-one support census",
+      "relation": "OVERLAP"
+    }
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_quadratic_quotient_large_owner_or_pair_pencil_router"},
+    {"from": "rate_half_mca_rank11_heavy_ruling_triple_owner_pole_simple_router"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location"}
+  ],
+  "refutes": []
+}
