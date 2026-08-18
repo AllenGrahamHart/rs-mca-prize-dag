@@ -121,3 +121,10 @@ conjugate cyclic bands can alias to the same event and retain exponential
 correlation even after primitive owner deletion. The official low prefix
 avoids conjugate pairs, so a useful flatness statement must be explicitly
 one-sided/prefix-scoped; cyclic disjointness and primitivity alone are false.
+
+The scope fence is complete in both directions. One-sided events can still
+fail if they mix 2-adic valuation classes, while valuation-pure events can
+fail if their complete bands cross the one-sided boundary. Any upstream
+`(Q)` formulation intended to cover C2'' should therefore print the nested
+initial-prefix and valuation-class allocation, not just "primitive cyclic
+flatness."

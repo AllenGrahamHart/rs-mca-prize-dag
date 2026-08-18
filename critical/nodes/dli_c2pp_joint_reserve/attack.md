@@ -126,3 +126,16 @@ already above `sqrt(2n)` at `n=8`. The official prefix avoids this aliasing
 because `t<n/2` and no pair `f,n-f` occurs. Any proposed theorem must retain
 that one-sided low-prefix hypothesis explicitly; “cyclic, disjoint, and
 primitive” is a proved false premise.
+
+The remaining spectral hypotheses cannot be separated. The proved node
+`dli_spectral_hypothesis_separation_no_go` gives:
+
+- a one-sided primitive failure with ratio `8192/485` when marginals mix
+  valuation classes; and
+- a valuation-pure primitive tensor failure, already above the square-root
+  ceiling at `n=32`, when complete bands cross the one-sided boundary.
+
+Therefore theorem search must keep the exact conjunction: one-sided,
+valuation-pure, **nested initial prefixes**, with owner deletion. No further
+generic correlation pose is admissible unless it includes all four features
+and explains how the deeper-tail factors compose.

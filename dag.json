@@ -30306,6 +30306,29 @@
    "notes": "This proves that primitivity plus arbitrary disjoint cyclic bands is still too weak. The surviving target-specific hypothesis is one-sided low-prefix geometry, together with nesting and ownership."
   },
   {
+   "id": "dli_spectral_hypothesis_separation_no_go",
+   "title": "DLI spectral-hypothesis separation no-go",
+   "status": "PROVED",
+   "closure": "exact finite certificates and tensorization",
+   "statement": "Two exact constructions separate the spectral hypotheses in C2''. First, disjoint one-sided frequency sets {2,3} and {4,6} on the order-16 F_17 domain have primitive joint-to-product ratio 8192/485>sqrt(32), because the events mix 2-adic valuation classes. Second, three valuation-pure complete-residue events tensor from local marginal counts 3856,1296,5124 and joint/owner counts 20/4 to ratio C^r(1-5^-r), C=83886080/25006401, exceeding sqrt(64) at r=2; these bands are not globally one-sided. Thus neither one-sidedness nor valuation purity alone suffices. The official nested initial prefix retains both and is not falsified.",
+   "attack_surface": "Check the exact order-16 counts, one-sided and valuation-pure scope labels, primitive subtraction, complete-residue tensorization, field existence, rational constants, and the explicit nonclaim for the conjunction of target hypotheses.",
+   "falsifier": "A mismatch in either exact finite census, an incorrect tensor normalization, or failure of either printed ratio to exceed its square-root threshold.",
+   "refs": [
+    "background/nodes/dli_spectral_hypothesis_separation_no_go/statement.md",
+    "background/nodes/dli_spectral_hypothesis_separation_no_go/proof.md",
+    "background/nodes/dli_spectral_hypothesis_separation_no_go/claim_contract.md",
+    "background/nodes/dli_spectral_hypothesis_separation_no_go/dependency_subdag.md",
+    "background/nodes/dli_spectral_hypothesis_separation_no_go/audit.md",
+    "background/nodes/dli_spectral_hypothesis_separation_no_go/result.md",
+    "background/nodes/dli_spectral_hypothesis_separation_no_go/provenance.md",
+    "background/nodes/dli_spectral_hypothesis_separation_no_go/verify.py",
+    "background/nodes/dli_spectral_hypothesis_separation_no_go/verify_audit.py",
+    "background/nodes/dli_primitive_haar_event_correlation/statement.md",
+    "critical/nodes/dli_c2pp_joint_reserve/attack.md"
+   ],
+   "notes": "This freezes the minimum viable spectral scope for theorem search: one-sided, valuation-pure, nested initial prefixes with primitive ownership. It does not prove that conjunction sufficient."
+  },
+  {
    "id": "crossing_dsa_refutation",
    "title": "THEOREM DSA: the (ES) crossing instance is FALSE at admissible tower rows \u2014 unconditional pigeonhole (no balance functional), explicit witness VERIFIED AT n = 2^41 on the triple-refutation row (p = 3 2^41+1, e = 6), 10 of 19 admissible pairs killed outright at w = 2^34; e = 1 prime rows provably outside the regime and re-priced (heuristic) to a 53-61 bit ternary margin; with the deep-stratum lemma kit (DS/FREE/OE/TC/ROT \u2014 the stratum's primitive is TERNARY, 3^L, both banked functionals mis-priced)",
    "status": "PROVED",
@@ -71069,6 +71092,11 @@
   },
   {
    "from": "dli_cyclic_conjugate_band_primitive_no_go",
+   "to": "dli_c2pp_joint_reserve",
+   "kind": "ev"
+  },
+  {
+   "from": "dli_spectral_hypothesis_separation_no_go",
    "to": "dli_c2pp_joint_reserve",
    "kind": "ev"
   },

@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/dli_cyclic_conjugate_band_primitive_no_go/verify.py",
-      "seconds": 0.023529,
+      "script": "background/nodes/dli_spectral_hypothesis_separation_no_go/verify.py",
+      "seconds": 0.62494,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "DLI_CYCLIC_CONJUGATE_PRIMITIVE_NO_GO_PASS n=8 marginal=36 owner=4 primitive=32 ratio=512/81\n"
+      "stdout_tail": "DLI_SPECTRAL_HYPOTHESIS_NO_GO_PASS one_sided=8192/485 valuation_tensor2=2251799813685248/208440030324267\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/dli_cyclic_conjugate_band_primitive_no_go/verify_audit.py",
-      "seconds": 0.283622,
+      "script": "background/nodes/dli_spectral_hypothesis_separation_no_go/verify_audit.py",
+      "seconds": 1.762934,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "DLI_CYCLIC_CONJUGATE_PRIMITIVE_NO_GO_AUDIT_PASS n=16 marginal=1296 owner=16 primitive=1280 ratio=327680/6561\n"
+      "stdout_tail": "DLI_SPECTRAL_HYPOTHESIS_NO_GO_AUDIT_PASS words=65536 one_sided=8192/485 tensor2_fires=1\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

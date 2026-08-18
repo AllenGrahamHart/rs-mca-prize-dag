@@ -112,6 +112,14 @@ range `1,...,t` has `t<n/2`, so it contains no conjugate pair. Future
 correlation statements must print this prefix hypothesis rather than claim a
 generic result for disjoint cyclic bands.
 
+The two spectral safeguards are separately insufficient. An exact
+one-sided counterexample reaches `8192/485` when its events mix valuation
+classes. Conversely, valuation-pure complete-residue events tensor to a
+ratio above the square-root ceiling at `n=32` when they cross the one-sided
+boundary. The live theorem scope is now frozen to the exact conjunction:
+one-sided, valuation-pure, nested initial prefixes, and primitive ownership.
+Broader correlation formulations are refuted, not merely unsupported.
+
 The rate-half crossing safe side is currently split into an exact structural
 shell, the proved deep-accident cap, and the open shallow/aperiodic
 population.  The latter is equivalently a prescribed-signature
