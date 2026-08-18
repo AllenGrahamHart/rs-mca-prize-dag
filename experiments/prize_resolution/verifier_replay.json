@@ -2,14 +2,30 @@
   "complete": true,
   "counts": {
     "FAIL": 0,
-    "PASS": 2,
+    "PASS": 4,
     "TIMEOUT": 0
   },
   "results": [
     {
       "returncode": 0,
+      "script": "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_population_endpoint_direction_saturation/verify.py",
+      "seconds": 0.056878,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "RANK11_D3_DIRECTION_SAT_PASS directions=41746..47836 root=2351 deficit=30203244\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_population_endpoint_direction_saturation/verify_audit.py",
+      "seconds": 0.052474,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "RANK11_D3_DIRECTION_SAT_AUDIT_PASS rows=23 directions=41746..47836 saturation=5750430/6589409\n"
+    },
+    {
+      "returncode": 0,
       "script": "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_population_endpoint_plane_line_design/verify.py",
-      "seconds": 0.053437,
+      "seconds": 0.047945,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "RANK11_D3_ENDPOINT_DESIGN_PASS planes=339 pairs=22752 lines=217 recurrence=2351\n"
@@ -17,7 +33,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_population_endpoint_plane_line_design/verify_audit.py",
-      "seconds": 0.04853,
+      "seconds": 0.045582,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "RANK11_D3_ENDPOINT_DESIGN_AUDIT_PASS rows=23 planes=339..358 lines=217 recurrence=2351\n"

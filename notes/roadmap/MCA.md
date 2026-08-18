@@ -506,6 +506,16 @@ certificates required by the challenge.
   ledger gives each line at least `K'-2609>=2351` residual common-core
   coordinates. The live endpoint target is now to couple these recurrent
   lines and the planes' internal 210-direction banks.
+- Counting those internal banks across all full coordinates amplifies the
+  endpoint to a global direction census. Every full coordinate contributes
+  at least 210 distinct projective direction roots, while one direction
+  polynomial has at most `K'-1` roots. Thus the endpoint has at least 41,746
+  and at most 47,836 saturated projective directions. Every direction has at
+  least `K'-2609>=2351` roots, the aggregate unused degree capacity is at
+  most 30,203,244, and aggregate root saturation exceeds
+  `5750430/6589409>0.8726`. This is now a calibrated finite `(Q)` target:
+  classify the near-full direction bank as quotient-periodic or force a
+  further common factor.
 - The endpoint occupancy 218 is itself rigid. Its plane-specific shortening
   has `2044<=K'<=5025` and forces at least `28396+204K'` full 15-point line
   fibers, distributed over 210 to 218 affine lines and at least 210

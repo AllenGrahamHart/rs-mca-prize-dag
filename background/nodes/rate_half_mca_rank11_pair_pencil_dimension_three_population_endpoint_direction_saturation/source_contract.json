@@ -1,0 +1,19 @@
+{
+  "schema": "rate-half-mca-rank11-dimension-three-population-endpoint-direction-saturation-v1",
+  "type_population": 3170,
+  "residual_dimension_floor": 4960,
+  "residual_dimension_ceiling": 4982,
+  "full_owner_floor_constant": -13661092,
+  "full_owner_floor_slope": 2953,
+  "directions_per_full_plane_floor": 210,
+  "selected_line_size": 15,
+  "pairs_per_saturated_line": 105,
+  "direction_population_floor": 41746,
+  "direction_population_upper_row_floor": 44301,
+  "direction_population_ceiling": 47836,
+  "individual_direction_root_floor": 2351,
+  "aggregate_degree_deficit_ceiling": 30203244,
+  "saturation_numerator": 5750430,
+  "saturation_denominator": 6589409,
+  "nonclaim": "The direction bank is not classified or paid, and the q=3170 endpoint remains open."
+}

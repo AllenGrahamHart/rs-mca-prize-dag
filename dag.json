@@ -43538,6 +43538,30 @@
    }
   },
   {
+   "id": "rate_half_mca_rank11_pair_pencil_dimension_three_population_endpoint_direction_saturation",
+   "title": "The q=3170 endpoint forces at least 41746 saturated directions",
+   "status": "PROVED",
+   "closure": "full-plane direction-root incidence and selected-pair capacity",
+   "statement": "In the scalar-dimension-three q=3170 endpoint, the full-owner coordinate floor and the internal 210-direction bank of every 218-owner plane force at least 41746 distinct projective scalar directions; selected-pair capacity bounds them by 47836. Every represented direction has at least K'-2609>=2351 residual roots, and their aggregate root-degree deficit is at most 30203244, giving saturation at least 5750430/6589409>0.8726. This is a conditional split-pencil direction bank, not an endpoint payment.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_population_endpoint_direction_saturation/statement.md",
+    "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_population_endpoint_direction_saturation/proof.md",
+    "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_population_endpoint_direction_saturation/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_population_endpoint_direction_saturation/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_population_endpoint_direction_saturation/audit.md",
+    "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_population_endpoint_direction_saturation/result.md",
+    "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_population_endpoint_direction_saturation/frontier.md",
+    "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_population_endpoint_direction_saturation/provenance.md",
+    "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_population_endpoint_direction_saturation/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_population_endpoint_direction_saturation/verify.py",
+    "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_population_endpoint_direction_saturation/verify_audit.py"
+   ],
+   "upstream": {
+    "label": "Q quotient flatness / saturated split-pencil direction bank",
+    "relation": "OVERLAP"
+   }
+  },
+  {
    "id": "rate_half_mca_rank11_pair_pencil_dimension_three_population_endpoint_plane_line_design",
    "title": "The q=3170 endpoint forces 339 rich planes and 217 saturated lines",
    "status": "PROVED",
@@ -84008,9 +84032,19 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_mca_rank11_pair_pencil_dimension_three_population_endpoint_direction_saturation",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_mca_rank11_pair_pencil_dimension_three_population_endpoint_plane_line_design",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_pair_pencil_dimension_three_population_endpoint_plane_line_design",
+   "to": "rate_half_mca_rank11_pair_pencil_dimension_three_population_endpoint_direction_saturation",
+   "kind": "req"
   },
   {
    "from": "rate_half_mca_rank11_pair_pencil_dimension_three_rich_plane_recurrence_sharpening",
@@ -84076,6 +84110,11 @@
    "from": "rate_half_mca_rank11_pair_pencil_plane218_projective_direction_bank",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_pair_pencil_plane218_projective_direction_bank",
+   "to": "rate_half_mca_rank11_pair_pencil_dimension_three_population_endpoint_direction_saturation",
+   "kind": "req"
   },
   {
    "from": "rate_half_mca_rank11_pair_pencil_plane218_projective_direction_bank",
