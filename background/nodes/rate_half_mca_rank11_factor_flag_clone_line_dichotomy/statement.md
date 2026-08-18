@@ -39,13 +39,25 @@ at least
 ceil(max(0,I_low-R_8 T_clone(C))/C(U,3)).              (CL2)
 ```
 
-In particular, at `C=10000`, every unsafe base-free `2 x 5` branch emits
-one of:
+For a projective clone class `D`, let `mu_D` be the complete first-owned
+slope mass of residual classes contained in the common kernel `B_D`; call
+`D` active when `mu_D>0`. At `C=10000`, put
 
-1. a projective clone class of at least `10001` actual coordinates; or
+```text
+L=M=388650911452.
+```
+
+Then every unsafe base-free `2 x 5` branch emits one of:
+
+1. an active projective clone class `D` of at least `10001` actual
+   coordinates with `mu_D>=388650911452`; or
 2. three coordinates whose evaluation columns on `B` have rank exactly two
    and whose common residual classes carry at least
-   `777301822903` first-owned slopes.
+   `388650911452` first-owned slopes.                         (CL3)
+
+The one-sided consequence of `(CL2)` remains available: if every clone
+class, active or not, has size at most `10000`, the rank-two output improves
+to `777301822903` slopes.
 
 ## Nonclaim
 

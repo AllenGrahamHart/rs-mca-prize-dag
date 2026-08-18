@@ -1,5 +1,5 @@
 {
-  "schema": "rate-half-mca-rank11-factor-flag-clone-line-v1",
+  "schema": "rate-half-mca-rank11-factor-flag-clone-line-v2",
   "universe": 1116048,
   "residual_roots": 37736,
   "deep_mass": 30210771209598495,
@@ -10,5 +10,9 @@
   "selected_clone_triples": 18531303013296,
   "selected_clone_output": 10001,
   "selected_rank_two_mass": 777301822903,
+  "residual_after_small_clones": 180088461956680275725075548840,
+  "balanced_rank_two_mass": 388650911452,
+  "balanced_large_clone_incidence": 90044230978447536156470456344,
+  "balanced_active_clone_mass": 388650911452,
   "first_clone_only_cutoff": 18400
 }

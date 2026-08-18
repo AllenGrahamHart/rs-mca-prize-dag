@@ -34,10 +34,25 @@ def build(data: dict[str, int]) -> dict[str, int]:
     assert line_mass == data["selected_rank_two_mass"]
     assert data["selected_clone_output"] == cutoff + 1
 
+    assert residual == data["residual_after_small_clones"]
+    balanced_line = data["balanced_rank_two_mass"]
+    large_incidence = residual - (balanced_line - 1) * comb(u, 3)
+    assert large_incidence == data["balanced_large_clone_incidence"] > 0
+    active_clone_mass = (large_incidence + comb(u, 3) - 1) // comb(u, 3)
+    assert active_clone_mass == data["balanced_active_clone_mass"]
+    assert active_clone_mass == balanced_line
+
     need = (low + data["clone_bucket_cap"] - 1) // data["clone_bucket_cap"]
     first = next(c for c in range(3, u + 1) if clone_triples(u, c) >= need)
     assert first == data["first_clone_only_cutoff"]
-    return {"low": low, "packed": packed, "line_mass": line_mass, "first": first}
+    return {
+        "low": low,
+        "packed": packed,
+        "line_mass": line_mass,
+        "balanced": balanced_line,
+        "large_incidence": large_incidence,
+        "first": first,
+    }
 
 
 def tamper_selftest(data: dict[str, int]) -> int:
@@ -46,6 +61,10 @@ def tamper_selftest(data: dict[str, int]) -> int:
         ("low_rank_incidence", 1),
         ("selected_clone_triples", -1),
         ("selected_rank_two_mass", 1),
+        ("residual_after_small_clones", 1),
+        ("balanced_rank_two_mass", 1),
+        ("balanced_large_clone_incidence", -1),
+        ("balanced_active_clone_mass", 1),
         ("first_clone_only_cutoff", -1),
     ):
         changed = copy.deepcopy(data)
@@ -68,11 +87,12 @@ def main() -> None:
     data = json.loads(CONTRACT.read_text())
     result = build(data)
     if args.tamper_selftest:
-        print(f"RANK11_CLONE_LINE_TAMPER_PASS mutations={tamper_selftest(data)}/4")
+        print(f"RANK11_CLONE_LINE_TAMPER_PASS mutations={tamper_selftest(data)}/8")
         return
     print(
         "RANK11_CLONE_LINE_PASS "
         f"low_incidence={result['low']} line_mass={result['line_mass']} "
+        f"balanced_mass={result['balanced']} "
         f"clone_output={data['selected_clone_output']}"
     )
 

@@ -70,11 +70,13 @@ certificates required by the challenge.
   factor branch is therefore reduced further to a proportional-column or
   genuine projective-line collision classification with exact slope mass.
 - Counting all residual root triples makes that split quantitative. At
-  clone cutoff 10,000, either the residual evaluation code has a projective
-  clone class of at least 10,001 actual coordinates, or one genuine
-  rank-two evaluation triple owns at least `777301822903` slopes. The
-  parameterized bound is retained, allowing future work to trade a larger
-  clone threshold against a smaller but still exact projective-line mass.
+  clone cutoff 10,000, an active-mass balance now forces either a projective
+  clone class of at least 10,001 actual coordinates whose common residual
+  bucket owns at least `388650911452` slopes, or one genuine rank-two
+  evaluation triple owns at least the same mass. Under the stronger
+  hypothesis that every clone is small, the line mass improves to
+  `777301822903`. The next exact adapter can therefore shorten the large
+  clone horn without first having to prove that the ambient clone is used.
 - The finite rank-nine prefix is proved through `K'=87`. At the first open
   row `K'=88`, paired raw scans classify all 18,741,723 source units and
   leave exactly 622,895 raw-unsafe units on offsets `1..44`. This is a
