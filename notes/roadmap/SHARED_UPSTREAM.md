@@ -92,3 +92,10 @@ first-owner quotient deletion.
 Neither result proves flatness or an adjacent prize row. Hold them for a
 consolidated Q/SPI packet when that lane becomes active; they do not belong
 on the live rank-eleven PR `#1173`.
+
+The accompanying route fence is also banked: orthogonal balanced Bernoulli
+null events can have exponential correlation excess `(16/9)^r`. Thus an
+upstream `(Q)`/SPI packet should not advertise orthogonality or generic
+entropy as sufficient; the useful open statement must retain cyclic
+coefficient structure and primitive quotient ownership. This is supporting
+material for that future packet, not a standalone PR.

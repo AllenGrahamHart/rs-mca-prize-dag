@@ -75,3 +75,12 @@ one-frequency event, all on the same uniform binary cube. Seek a discrete
 Haar correlation, entropy, or hypercontractive theorem with primitive
 first-owner deletion explicit. Pairwise or per-level bounds must be shown to
 compose with the printed constant; independence is not available.
+
+Orthogonality by itself is also insufficient. The proved tensor fixture
+`dli_orthogonal_bernoulli_correlation_no_go` gives balanced orthogonal
+Bernoulli null-event row spaces with correlation ratio `(16/9)^r`, already
+breaking the square-root scale on twelve bits. Do not pursue a generic
+Brascamp-Lieb, entropy, or orthogonal-projection theorem unless its hypotheses
+explicitly use the cyclic root-of-unity coefficients, the nested allocation
+of frequencies, or antipodal first-owner deletion. Those target-specific
+features are now mandatory proof inputs.
