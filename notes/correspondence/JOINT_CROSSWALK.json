@@ -2868,6 +2868,31 @@
     "our_sha": "29d902cea",
     "his_sha": "2788d5ec3"
    }
+  },
+  {
+   "our_node": "rate_half_mca_rank11_quadratic_quotient_factor_through_interface",
+   "his_object": {
+    "label": "quotient-periodic inverse theorem inside the base-field-normalized split-pencil census",
+    "file": "PR #1170, PR #1173, and towards-prize.md",
+    "line": "excess mass must be quotient-periodic; quotient-periodic fibers explicitly budgeted"
+   },
+   "relation": "OVERLAP",
+   "chain": "quadratic cyclic/dihedral locator span -> invertible base-field basis change -> actual rational slope map factors through X^2 or X+kappa/X",
+   "scope": "official KoalaBear synchronized degree-two scalar-locator certificate; proves the cyclic and dihedral factor-through instances of the proposed quotient-periodic inverse statement",
+   "owner": "US",
+   "nonclaims": [
+    "does not charge or deduplicate first-owned quotient records",
+    "does not prove the inverse theorem for nonquadratic pencils",
+    "does not cap the general shifted-inversion class",
+    "does not pay high complexity, rank eleven, or MCA"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "ae36be960",
+    "his_sha": "2788d5ec3"
+   }
   }
  ]
 }
