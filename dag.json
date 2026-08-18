@@ -43514,6 +43514,30 @@
    }
   },
   {
+   "id": "rate_half_mca_rank11_pair_pencil_dimension_three_rich_plane_recurrence_sharpening",
+   "title": "Rich-plane recurrence raises the dimension-three common-core floor",
+   "status": "PROVED",
+   "closure": "three-plane union obstruction, two-polynomial recurrence, and exact residual incidence",
+   "statement": "In the scalar-dimension-three quotient pair-pencil branch, after shortening by the complete common received-pair core J, at most two affine owner planes contain 189 or more of the 520 selected types. Each such plane can recur at at most K'-2 residual coordinates. The exact pair-core incidence ledger therefore forces K'<=595763 and |J|>=452813, improving the previous bounds K'<=640745 and |J|>=407831. This does not pay the shortened branch or exclude a 218-point plane section.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_rich_plane_recurrence_sharpening/statement.md",
+    "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_rich_plane_recurrence_sharpening/proof.md",
+    "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_rich_plane_recurrence_sharpening/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_rich_plane_recurrence_sharpening/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_rich_plane_recurrence_sharpening/audit.md",
+    "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_rich_plane_recurrence_sharpening/result.md",
+    "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_rich_plane_recurrence_sharpening/frontier.md",
+    "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_rich_plane_recurrence_sharpening/provenance.md",
+    "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_rich_plane_recurrence_sharpening/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_rich_plane_recurrence_sharpening/verify.py",
+    "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_rich_plane_recurrence_sharpening/verify_audit.py"
+   ],
+   "upstream": {
+    "label": "base-field-normalized split-pencil census / rich affine fibers",
+    "relation": "OVERLAP"
+   }
+  },
+  {
    "id": "rate_half_mca_rank11_pair_pencil_dimension_two_common_core_shortening",
    "title": "Scalar dimension two forces an 81908-coordinate common core",
    "status": "PROVED",
@@ -83858,6 +83882,11 @@
   },
   {
    "from": "rate_half_mca_rank11_pair_pencil_affine_plane_cap_218_sharpening",
+   "to": "rate_half_mca_rank11_pair_pencil_dimension_three_rich_plane_recurrence_sharpening",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_pair_pencil_affine_plane_cap_218_sharpening",
    "to": "rate_half_mca_rank11_pair_pencil_plane218_projective_direction_bank",
    "kind": "req"
   },
@@ -83890,6 +83919,11 @@
    "from": "rate_half_mca_rank11_pair_pencil_dimension_three_common_core_shortening",
    "to": "rate_half_mca_rank11_pair_pencil_dimension_four_heavy_affine_three_router",
    "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_pair_pencil_dimension_three_rich_plane_recurrence_sharpening",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
   },
   {
    "from": "rate_half_mca_rank11_pair_pencil_dimension_two_common_core_shortening",

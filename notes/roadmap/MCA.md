@@ -465,11 +465,15 @@ certificates required by the challenge.
   at least `95866+205K'` full 15-point line fibers. The 219 points support at
   most 219 such lines, each recurring at most `K'-1` times, giving a uniform
   contradiction margin of at least 30,705. Hence the affine-plane cap is
-  218. The current dimension-three floor is `|J|>=407831`, with
-  `(n',K',m')=(1689321,640745,708217)` and minimum incidence slack 178. The
-  current dimension-four alternative is a 219-type exact affine-three
-  coordinate fiber carrying at least 6,351 records. These values supersede
-  the earlier `233`, `319539`, and `234` numerical frontiers.
+  218. A subsequent rich-plane recurrence count sharpens the
+  dimension-three output further. Three affine planes containing at least
+  189 types would cover at least 522 of the 520 types, so at most two exist;
+  each recurs at most `K'-2` times. The exact incidence ledger now gives
+  `|J|>=452813`, `K'<=595763`, and endpoint capacity slack 232, with a
+  40-incidence deficit at the next row. The current dimension-four
+  alternative remains a 219-type exact affine-three coordinate fiber
+  carrying at least 6,351 records. These values supersede the earlier
+  dimension-three floors `319539` and `407831`.
 - The endpoint occupancy 218 is itself rigid. Its plane-specific shortening
   has `2044<=K'<=5025` and forces at least `28396+204K'` full 15-point line
   fibers, distributed over 210 to 218 affine lines and at least 210

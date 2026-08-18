@@ -1,0 +1,18 @@
+{
+  "schema": "rate-half-mca-rank11-dimension-three-rich-plane-recurrence-v1",
+  "selected_types": 520,
+  "line_occupancy_cap": 15,
+  "plane_occupancy_cap": 218,
+  "previous_common_core_floor": 407831,
+  "previous_residual_dimension_ceiling": 640745,
+  "rich_plane_threshold": 189,
+  "rich_plane_count_ceiling": 2,
+  "rich_plane_recurrence_offset": 2,
+  "residual_length_offset": 1048576,
+  "residual_core_offset": 67470,
+  "residual_dimension_ceiling": 595763,
+  "common_core_floor": 452813,
+  "endpoint_capacity_slack": 232,
+  "adjacent_capacity_deficit": 40,
+  "nonclaim": "This capacity sharpening does not pay the shortened branch, exclude occupancy 218, or close rank eleven."
+}
