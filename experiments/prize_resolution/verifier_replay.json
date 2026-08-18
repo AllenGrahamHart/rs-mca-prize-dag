@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_pair_overlap_moment_floor/verify.py",
-      "seconds": 0.056668,
+      "script": "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_type_population_ceiling/verify.py",
+      "seconds": 0.06282,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RANK11_D3_PAIR_MOMENT_PASS last=4835 deficit=2110 first=4836 slack=115260 payment_rows=87\n"
+      "stdout_tail": "RANK11_D3_TYPE_POP_PASS qmax=3170 dense=80446 K=4960..4982 full=985788 deficit=18372095406\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_pair_overlap_moment_floor/verify_audit.py",
-      "seconds": 0.053345,
+      "script": "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_type_population_ceiling/verify_audit.py",
+      "seconds": 0.054666,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RANK11_D3_PAIR_MOMENT_AUDIT_PASS interval=4836..595763 payment_rows=87\n"
+      "stdout_tail": "RANK11_D3_TYPE_POP_AUDIT_PASS q=520..3170 dense=80446 K=4960..4982 full=985788\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

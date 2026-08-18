@@ -43562,6 +43562,30 @@
    }
   },
   {
+   "id": "rate_half_mca_rank11_pair_pencil_dimension_three_type_population_ceiling",
+   "title": "Dimension-three quotient populations have at most 3170 pair types",
+   "status": "PROVED",
+   "closure": "exact elimination of residual dimension between plane incidence and pair-overlap moments",
+   "statement": "In the scalar-dimension-three quotient pair-pencil branch, let q be the number of retained first-owned quotient pair types. Plane occupancy at most 218 and the exact pair-overlap moment imply q<=3170. Since the synchronized quotient residual carries 255011043 records, one type owns at least 80446 records. At q=3170 the two inequalities confine the residual dimension to 4960<=K'<=4982 and force at least 985788 maximum-multiplicity 218-owner coordinates; q=3171 is excluded by exact cross-product margin 18372095406. No record family is paid.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_type_population_ceiling/statement.md",
+    "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_type_population_ceiling/proof.md",
+    "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_type_population_ceiling/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_type_population_ceiling/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_type_population_ceiling/audit.md",
+    "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_type_population_ceiling/result.md",
+    "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_type_population_ceiling/frontier.md",
+    "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_type_population_ceiling/provenance.md",
+    "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_type_population_ceiling/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_type_population_ceiling/verify.py",
+    "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_type_population_ceiling/verify_audit.py"
+   ],
+   "upstream": {
+    "label": "base-field-normalized split-pencil census / exact type-population ledger",
+    "relation": "OVERLAP"
+   }
+  },
+  {
    "id": "rate_half_mca_rank11_pair_pencil_dimension_two_common_core_shortening",
    "title": "Scalar dimension two forces an 81908-coordinate common core",
    "status": "PROVED",
@@ -83911,6 +83935,11 @@
   },
   {
    "from": "rate_half_mca_rank11_pair_pencil_affine_plane_cap_218_sharpening",
+   "to": "rate_half_mca_rank11_pair_pencil_dimension_three_type_population_ceiling",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_pair_pencil_affine_plane_cap_218_sharpening",
    "to": "rate_half_mca_rank11_pair_pencil_plane218_projective_direction_bank",
    "kind": "req"
   },
@@ -83950,6 +83979,11 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_mca_rank11_pair_pencil_dimension_three_pair_overlap_moment_floor",
+   "to": "rate_half_mca_rank11_pair_pencil_dimension_three_type_population_ceiling",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_mca_rank11_pair_pencil_dimension_three_rich_plane_recurrence_sharpening",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
@@ -83958,6 +83992,11 @@
    "from": "rate_half_mca_rank11_pair_pencil_dimension_three_rich_plane_recurrence_sharpening",
    "to": "rate_half_mca_rank11_pair_pencil_dimension_three_pair_overlap_moment_floor",
    "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_pair_pencil_dimension_three_type_population_ceiling",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
   },
   {
    "from": "rate_half_mca_rank11_pair_pencil_dimension_two_common_core_shortening",
@@ -84072,6 +84111,11 @@
   {
    "from": "rate_half_mca_rank11_quadratic_quotient_population_router",
    "to": "rate_half_mca_rank11_pair_pencil_dimension_four_heavy_affine_three_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_quadratic_quotient_population_router",
+   "to": "rate_half_mca_rank11_pair_pencil_dimension_three_type_population_ceiling",
    "kind": "req"
   },
   {

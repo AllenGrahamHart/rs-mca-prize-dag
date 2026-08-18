@@ -1,0 +1,23 @@
+{
+  "schema": "rate-half-mca-rank11-dimension-three-type-population-ceiling-v1",
+  "retained_record_mass": 255011043,
+  "population_floor": 520,
+  "plane_occupancy_cap": 218,
+  "residual_length_offset": 1048576,
+  "residual_core_offset": 67470,
+  "pair_overlap_offset": 1,
+  "population_ceiling": 3170,
+  "dense_type_record_floor": 80446,
+  "endpoint_residual_dimension_floor": 4960,
+  "endpoint_residual_dimension_ceiling": 4982,
+  "endpoint_pair_lower_remainder": 556785,
+  "endpoint_plane_upper_remainder": 2804,
+  "endpoint_full_owner_coordinate_floor": 985788,
+  "endpoint_upper_row_full_owner_coordinate_floor": 1050754,
+  "last_feasible_cross_product_twice": 613022740560,
+  "first_excluded_cross_product_deficit_twice": 18372095406,
+  "factor_constant": 109,
+  "factor_slope": 619,
+  "factor_intercept": 1962831,
+  "nonclaim": "No dense type, residual row, shared-core payment, or rank-eleven family is paid."
+}

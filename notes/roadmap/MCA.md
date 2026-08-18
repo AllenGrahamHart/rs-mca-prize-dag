@@ -485,6 +485,17 @@ certificates required by the challenge.
   existing large-shared-core payment range `K'<=4922`, but no payment
   transport is claimed until the selected 520 pair types are matched to the
   payment theorem's universally quantified low-margin records.
+- Retaining the actual quotient-type population `q` produces an exact
+  dimension-three population ceiling. The plane cap gives
+  `(q-218)K'<=218*1048576-q*67470`, while the pair-overlap ledger and the
+  identity `C(d,2)=217d-C(218,2)+C(218-d,2)` give a second linear bound.
+  Their doubled compatibility cross-product factors as
+  `-109q(q-218)(619q-1962831)`, so `q<=3170`; the adjacent value 3,171 has
+  deficit 18,372,095,406. Hence one of the 255,011,043 retained records'
+  pair types owns at least 80,446 records. At `q=3170`, necessarily
+  `4960<=K'<=4982`, and at least 985,788 residual coordinates are full
+  218-owner planes. This is a dense-owner and saturated-plane router, not a
+  payment.
 - The endpoint occupancy 218 is itself rigid. Its plane-specific shortening
   has `2044<=K'<=5025` and forces at least `28396+204K'` full 15-point line
   fibers, distributed over 210 to 218 affine lines and at least 210
