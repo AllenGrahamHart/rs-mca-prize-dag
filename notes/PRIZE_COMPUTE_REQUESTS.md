@@ -18123,4 +18123,22 @@ RAMGUARD_TIMEOUT=24m tools/ramguard modal -- \
   experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_fff_q6_block_determinant_modal.py
 ```
 
-**Outcome:** pending.
+**Outcome:** `TIMEOUT` with a complete exact generic witness. Modal app
+`ap-KU787KXt0DsHdu2SHy4dhq` evaluated the full 32-dimensional construction
+at `t=2`, verified the `q7` matrix identity, and obtained
+
+```text
+det(M_D2) = 1573108971 != 0
+det(M_q6) =  443644136 != 0
+nonzero entries of M_q6 = 1024
+```
+
+in `GF(2130706433)`. Therefore the rational `q6` multiplication determinant
+is not identically zero and the generic `FFF` fiber is empty. The symbolic
+phase also completed `det(M_D2)`, with numerator degree 360 and denominator
+degree 60, before timing out while constructing the symbolic q6 matrix. It
+did not emit determinant coefficient ledgers, so exceptional roots remain
+open. Result SHA-256:
+`1757ba06042604cd55e73c923195864ad8214e90fba2ff366574e5d2075f9be7`.
+The checker accepts the fail-closed timeout payload and rejects all four
+hostile mutations.
