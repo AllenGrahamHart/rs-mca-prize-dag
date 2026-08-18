@@ -2192,6 +2192,31 @@
     "our_sha": "2ae5d690b",
     "his_sha": "93fba1be"
    }
+  },
+  {
+   "our_node": "rate_half_mca_rank11_chronology_safe_subspace_cover_payment",
+   "his_object": {
+    "label": "anchored rich-flat rank-eleven router",
+    "file": "experimental/campaigns/kb-mca-rank11-rich-flat-post-1172/proofs/anchored_rich_flat_router.md",
+    "line": "post-router nontransverse terminal"
+   },
+   "relation": "OVERLAP",
+   "chain": "upstream anchored row-space partition -> local full-span forcing -> chronology-safe additive affine-subspace cover payment",
+   "scope": "official KoalaBear rank-eleven post-near row at tau=1679,h=38384; exact mixed-dimension price for a first-match partition of represented nontransverse row spaces",
+   "owner": "US",
+   "nonclaims": [
+    "does not prove that an arbitrary unsafe survivor has a low-cost subspace cover",
+    "does not prove the 2 x 5 factor presentation",
+    "does not synchronize rich locators or pay at least 64502 used factor slices",
+    "does not close the rate-half crossing, MCA, or either prize terminal"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "421eb5bf5",
+    "his_sha": "2788d5ec3"
+   }
   }
  ]
 }
