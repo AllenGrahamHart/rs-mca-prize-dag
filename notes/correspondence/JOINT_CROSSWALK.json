@@ -3192,6 +3192,31 @@
     "our_sha": "98280d4e3",
     "his_sha": "2788d5ec3"
    }
+  },
+  {
+   "our_node": "rate_half_mca_rank11_pair_pencil_dimension_two_common_core_shortening",
+   "his_object": {
+    "label": "common-GCD stratum / base-field-normalized split-pencil census",
+    "file": "towards-prize.md, agents.md, CAP25 v13.2, and PR #1173",
+    "line": "common-GCD paid stratum inside the BC split-pencil coordinates"
+   },
+   "relation": "OVERLAP",
+   "chain": "38 directions in a dimension-two scalar space -> factor the polynomial-space gcd -> primitive pencil members coprime -> actual direction intersections share one received-pair core of size at least 81908 -> reversible common-core shortening",
+   "scope": "official KoalaBear quotient pair-pencil branch; preserves first ownership, quotient deficiency two, and m-K=67472 on the shortened GRS row",
+   "owner": "JOINT",
+   "nonclaims": [
+    "does not pay the shortened 38-petal packing",
+    "does not resolve scalar dimensions three or four",
+    "does not treat the punctured domain as a smooth subgroup",
+    "does not pay rank eleven or close MCA"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "676c801be",
+    "his_sha": "2788d5ec3"
+   }
   }
  ]
 }
