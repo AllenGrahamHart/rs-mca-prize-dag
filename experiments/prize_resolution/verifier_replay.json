@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_factor_flag_three_coordinate_rank_collision/verify.py",
-      "seconds": 0.036884,
+      "script": "background/nodes/rate_half_mca_rank11_factor_flag_clone_line_dichotomy/verify.py",
+      "seconds": 0.032289,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RANK11_THREE_COORD_PASS mass2=10266384562185 mass3=347110921118 cap4=63397365764 rank<=2\n"
+      "stdout_tail": "RANK11_CLONE_LINE_PASS low_incidence=255859400991343449179217479656 line_mass=777301822903 clone_output=10001\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_factor_flag_three_coordinate_rank_collision/verify_audit.py",
-      "seconds": 0.027305,
+      "script": "background/nodes/rate_half_mca_rank11_factor_flag_clone_line_dichotomy/verify_audit.py",
+      "seconds": 0.021422,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RANK11_THREE_COORD_AUDIT_PASS mass3=347110921118 cap4=63397365764 ratio_floor=5\n"
+      "stdout_tail": "RANK11_CLONE_LINE_AUDIT_PASS clone_cutoff=10000 clone_output=10001 line_mass=777301822903\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

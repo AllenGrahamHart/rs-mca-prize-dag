@@ -1,0 +1,14 @@
+{
+  "schema": "rate-half-mca-rank11-factor-flag-clone-line-v1",
+  "universe": 1116048,
+  "residual_roots": 37736,
+  "deep_mass": 30210771209598495,
+  "rank_three_cap": 63397365764,
+  "clone_bucket_cap": 4088807947303996,
+  "low_rank_incidence": 255859400991343449179217479656,
+  "selected_clone_cutoff": 10000,
+  "selected_clone_triples": 18531303013296,
+  "selected_clone_output": 10001,
+  "selected_rank_two_mass": 777301822903,
+  "first_clone_only_cutoff": 18400
+}
