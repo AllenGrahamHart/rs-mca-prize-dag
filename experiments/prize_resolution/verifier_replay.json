@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/dli_ambient_q_sqrt_route_no_go/verify.py",
-      "seconds": 0.029791,
+      "script": "background/nodes/rate_half_mca_rank11_chronology_safe_subspace_cover_payment/verify.py",
+      "seconds": 0.032895,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "DLI_AMBIENT_Q_NO_GO_PASS rows=189 ambient_fires=56 haar_fires=0 witness_q=33409\n"
+      "stdout_tail": "RANK11_SUBSPACE_COVER_PASS allowance=65167969673715470 five_spaces=64501\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/dli_ambient_q_sqrt_route_no_go/verify_audit.py",
-      "seconds": 0.080407,
+      "script": "background/nodes/rate_half_mca_rank11_chronology_safe_subspace_cover_payment/verify_audit.py",
+      "seconds": 0.022533,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "DLI_AMBIENT_Q_NO_GO_AUDIT_PASS q=33409 subsets=2x65536\n"
+      "stdout_tail": "RANK11_SUBSPACE_COVER_AUDIT_PASS dimensions=9 factor_threshold=64502 scope_checks=3\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

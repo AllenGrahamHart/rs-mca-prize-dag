@@ -1,0 +1,27 @@
+{
+  "schema": "rate-half-mca-rank11-chronology-safe-subspace-cover-v1",
+  "row": {
+    "n": 2097152,
+    "k": 1048576,
+    "A": 1114369,
+    "field_order": "2130706433^6",
+    "budget": 274980728111395087,
+    "transverse": 209812758437679617,
+    "allowance": 65167969673715470
+  },
+  "dimensions": [
+    {"d": 1, "M": 15, "R": 14741745, "first_unsafe_uniform_cover": 4420641497},
+    {"d": 2, "M": 253, "R": 248644099, "first_unsafe_uniform_cover": 262093370},
+    {"d": 3, "M": 4047, "R": 3977322801, "first_unsafe_uniform_cover": 16384884},
+    {"d": 4, "M": 64508, "R": 63397365764, "first_unsafe_uniform_cover": 1027929},
+    {"d": 5, "M": 1028035, "R": 1010335321405, "first_unsafe_uniform_cover": 64502},
+    {"d": 6, "M": 16382924, "R": 16100859197492, "first_unsafe_uniform_cover": 4048},
+    {"d": 7, "M": 261076837, "R": 256581877097371, "first_unsafe_uniform_cover": 254},
+    {"d": 8, "M": 4160438212, "R": 4088807947303996, "first_unsafe_uniform_cover": 16},
+    {"d": 9, "M": 66298487937, "R": 65157026870188671, "first_unsafe_uniform_cover": 2}
+  ],
+  "corollaries": {
+    "two_five_space_cost": 2020670642810,
+    "maximum_paid_five_space_classes": 64501
+  }
+}

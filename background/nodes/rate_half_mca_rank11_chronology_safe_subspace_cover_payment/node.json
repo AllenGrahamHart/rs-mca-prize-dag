@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_chronology_safe_subspace_cover_payment",
+    "title": "Rank-eleven chronology-safe subspace-cover payment",
+    "status": "PROVED",
+    "closure": "exact weighted payment for first-match partitions of the nontransverse rank-eleven residue into correction subspaces",
+    "statement": "At the official KoalaBear rank-eleven full-span terminal (tau=1679,h=38384), partition the represented nontransverse row spaces into classes C_alpha, each contained in a correction subspace V_alpha of dimension d_alpha<=9. First-match ownership, ordinary affine-span, and sub-square interleaving bound the complete nontransverse slope contribution by sum_alpha R_(d_alpha), where R_d=(n-A) floor(C(n-K+d,d)/C(A-K+d,d)). The residual allowance is 65167969673715470, so every unsafe survivor has sum_alpha R_(d_alpha)>65167969673715470. Uniform-cover first-unsafe class counts for d=1..9 are 4420641497,262093370,16384884,1027929,64502,4048,254,16,2. In particular, two five-dimensional blocks are paid, and an unsafe 2x5 factor presentation must use at least 64502 distinct factor slices. No cover existence or locator synchronization is claimed.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_chronology_safe_subspace_cover_payment/statement.md",
+      "background/nodes/rate_half_mca_rank11_chronology_safe_subspace_cover_payment/proof.md",
+      "background/nodes/rate_half_mca_rank11_chronology_safe_subspace_cover_payment/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_chronology_safe_subspace_cover_payment/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_chronology_safe_subspace_cover_payment/audit.md",
+      "background/nodes/rate_half_mca_rank11_chronology_safe_subspace_cover_payment/result.md",
+      "background/nodes/rate_half_mca_rank11_chronology_safe_subspace_cover_payment/provenance.md",
+      "background/nodes/rate_half_mca_rank11_chronology_safe_subspace_cover_payment/frontier.md",
+      "background/nodes/rate_half_mca_rank11_chronology_safe_subspace_cover_payment/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_chronology_safe_subspace_cover_payment/verify.py",
+      "background/nodes/rate_half_mca_rank11_chronology_safe_subspace_cover_payment/verify_audit.py"
+    ],
+    "upstream": {
+      "label": "anchored rich-flat rank-eleven router",
+      "relation": "OVERLAP"
+    }
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_full_span_residual_forcing"},
+    {"from": "list_subsqrt_interleaving_collapse"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location"}
+  ],
+  "refutes": []
+}

@@ -43,6 +43,17 @@ certificates required by the challenge.
   common zeros, and a dimension-at-most-nine triple with 53 common zeros.
   A same-dimension 254-container subfamily has typed thresholds 10, 1458,
   and 45. These are collision inputs, not full locator synchronization.
+- A sharper cutoff forces every unsafe rank-eleven survivor to have full
+  ten-dimensional collective correction span and at least 16,384,884 rich
+  containers. First-match ownership now gives a chronology-safe weighted
+  cover theorem: a partition into correction spaces of dimensions `d<=9`
+  costs the sum of their exact affine-list caps. In particular, two
+  five-dimensional blocks cost only `2020670642810` of the
+  `65167969673715470` residual allowance. Any unsafe `2 x 5` factor-style
+  continuation therefore needs at least 64,502 genuinely used factor
+  slices. This rules out the explicit two-block bare-atlas obstruction once
+  actual slope ownership is restored, but it does not construct the needed
+  cover or synchronize its locators.
 - The finite rank-nine prefix is proved through `K'=87`. At the first open
   row `K'=88`, paired raw scans classify all 18,741,723 source units and
   leave exactly 622,895 raw-unsafe units on offsets `1..44`. This is a
