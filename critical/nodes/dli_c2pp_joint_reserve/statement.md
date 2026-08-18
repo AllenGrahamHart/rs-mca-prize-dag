@@ -1,4 +1,4 @@
-# C2'' DLI joint reserve
+# C2'' DLI reduced primitive-residue joint reserve
 
 - **status:** see `dag.json`
 
@@ -6,25 +6,32 @@ For every official prize row `R`, use the generated evaluation field and the
 packet's state-dependent nested tower. Put
 
 ```text
-A(R) = product_j E_U[rho_j],
-X(R) = q^(-t+H) W_cen(R).
+A(R)      = product_j E_U[rho_j],
+X_prim(R) = q^(-t+H) W_cen^prim(R)
+          = E_U[product_j rho_j]_reduced.
 ```
 
-Route every quotient/coset class through the exact staircase account. Charge
-every noncoset accident at its absolute weight, with unique first ownership;
-do not absorb accident mass into an iid-relative constant. The remaining
-joint loss satisfies
+First remove every quotient/coset class owned by the structured staircase
+column. Charge every primitive noncoset accident at its absolute weight, with
+unique first ownership; do not absorb accident mass into an iid-relative
+constant. The remaining primitive joint loss satisfies
 
 ```text
-X(R) <= 2^21 A(R).                                  (C2'')
+X_prim(R) <= 2^21 A(R).                             (C2'')
 ```
 
-The aggregate 21-bit form is primary. No uniform per-junction bound and no
-factorization identity are asserted. This is the successor to the refuted C2
-node `dli_level_factorization`. The precise three-part pose and its first
-survived adversarial round are recorded in
+The aggregate 21-bit form is primary. No unreduced endpoint, uniform
+per-junction bound, or factorization identity is asserted. This is the
+successor to the refuted C2 node `dli_level_factorization`. The historical
+three-part pose and its first survived adversarial round are recorded in
 `../dli_prime_weighted_large_block_support/notes/C2PP_POSED_20260710.md` and
 `../dli_prime_weighted_large_block_support/notes/M1_RESULT_AUDIT.md`.
+
+The scope repair is forced by the PROVED node
+`dli_unreduced_coset_endpoint_counterexample`: at an explicit admissible
+Proth prime, the quotient-periodic central family alone gives
+`X_unred>2^126`. It is separately owned and nonprimitive, so it is absent
+from `X_prim`.
 
 
 ## Round-23 adjudication addendum (2026-08-07, coordinator-applied on replay: the c2pp_diag F-round 3)
@@ -312,3 +319,48 @@ constants and licensed-range numbers are [law]. No status flip.
 Source: notes/pilots_20260809/freeze_tail_law/ (REPORT.md,
 FABLE_AUDIT.md; P2 419/419, Q* independent, S_inf identity all
 coordinator-replayed).
+
+## Round-27 scope correction (2026-08-18, Codex: exact counterexample and ownership repair)
+
+The unreduced reading is REFUTED. At the Proth-certified admissible prime in
+`dli_unreduced_coset_endpoint_counterexample`, more than `2^127` central
+`t`-null supports are quotient-periodic and their normalized unreduced mass
+is greater than `2^126`. Thus neither `X_unred<=2^121` nor the statement
+gap's `X_unred<=2^21 A` can be a live prize premise.
+
+This does not refute the primitive route. The consumer packet assigns the
+periodic family to the structured quotient column and asks DLI to bound the
+remaining primitive core. The pose of record is therefore the reduced
+inequality at the head of this file. Rounds 23--26 measured and modelled the
+unreduced telescoping object; their exact telescoping, periodic-stratum, and
+freeze-tail theorems remain valid decomposition tools, but their survival
+and fitted ranges are not evidence for the repaired primitive target.
+
+The next closure action is analytic: express first-owner deletion inside the
+telescoping identity and bound the resulting primitive endpoint census. A
+new numerical fit to the unreduced level law is out of scope.
+
+## Round-28 exact primitive subtraction (2026-08-18, Codex)
+
+`dli_primitive_first_owner_antipodal_subtraction` closes the first-owner
+operation exactly. For a weight interval `I`, let `X_I(n,t)` denote the
+normalized `t`-null count before primitive deletion and put
+`I/2={c:2c in I}`. At the official even `t`,
+
+```text
+X_I^prim(n,t)
+  = X_I(n,t) - (q^(t/2)/2^(n/2)) X_(I/2)(n/2,t/2).       (P-SUB)
+```
+
+There is no inclusion-exclusion tail: every nontrivial stabilizer in the
+cyclic `2`-group contains the antipodal shift. Thus the live C2'' target is
+the signed two-scale inequality
+
+```text
+X_I(n,t) - (q^(t/2)/2^(n/2)) X_(I/2)(n/2,t/2) <= 2^21 A(R).
+```
+
+This is a strict narrowing, not a close. The two unreduced terms can both be
+large, so separate upper bounds lose the cancellation. The next theorem must
+couple the telescoping censuses at `(n,t)` and `(n/2,t/2)`, or produce an
+equivalent positive primitive-residual expansion.

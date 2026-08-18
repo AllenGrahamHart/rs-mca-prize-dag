@@ -1,0 +1,28 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 2613,
+  "node": {
+    "id": "dli_unreduced_coset_endpoint_counterexample",
+    "title": "Unreduced DLI coset endpoint counterexample and primitive-scope repair",
+    "status": "PROVED",
+    "statement": "At the admissible rate-half row n=2^41, t=2^33 and the printed Proth-certified prime q<2^256 with n dividing q-1, more than 2^127 central t-null subsets are unions of the 128 quotient fibers. Their unreduced normalized mass is greater than 2^126, so the unreduced endpoint X<=2^121 is false. Every witness is quotient-periodic and nonprimitive; therefore the DLI consumer and C2'' premise must use X_prim=q^{-t+H}W_cen^prim=E_U[product rho_j]_reduced after first-owner removal of the structured quotient column.",
+    "attack_surface": "Check the Proth certificate, geometric-sum vanishing, central count, normalization inequality, and primitive ownership independently.",
+    "falsifier": "A failed Proth congruence, a power-sum r<=t not annihilated by a quotient fiber, an incorrect half-band count, failure of the exact Bernoulli margin, or a witness that is primitive.",
+    "refs": [
+      "background/nodes/dli_unreduced_coset_endpoint_counterexample/statement.md",
+      "background/nodes/dli_unreduced_coset_endpoint_counterexample/proof.md",
+      "background/nodes/dli_unreduced_coset_endpoint_counterexample/verify.py",
+      "critical/nodes/x4_exactlist_staircase_split/REDUCTION_PACKET.md"
+    ],
+    "notes": "The prior pilot used a BPSW probable-prime exhibit and counted the full quotient atom. This node replaces both gaps with a Proth certificate and the exact central half-band count. It refutes only the unreduced interface, not the primitive DLI residue."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "dli_c2pp_joint_reserve",
+      "order": 5340
+    }
+  ],
+  "refutes": []
+}

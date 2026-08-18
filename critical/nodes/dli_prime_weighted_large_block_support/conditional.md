@@ -1,11 +1,11 @@
 # dli B-WEAK route close — CONDITIONAL (2026-07-21, maintainer Decision 6)
 
-The endpoint of CONJECTURE B-WEAK, `q^(-t+H) W_cen <= 2^121` at the official
-rows (M5-confirmed operative constant: 21-bit joint reserve + 100-bit
-aggregate; `notes/M5_CONFIRMATION_2P121.md`), is CONDITIONAL on exactly TWO
-wired req predicates, neither proved:
+The endpoint of CONJECTURE B-WEAK,
+`q^(-t+H) W_cen^prim <= 2^121` at every admissible row (21-bit reduced joint
+reserve + 100-bit aggregate), is CONDITIONAL on exactly TWO wired req
+predicates, neither proved:
 
-- **(P1) C2''** — the 21-bit joint reserve at the posed /33 junction
+- **(P1) C2''** — the 21-bit **primitive-reduced** joint reserve at the /33 junction
   convention (`dli_c2pp_joint_reserve`; pose `notes/C2PP_POSED_20260710.md`;
   F-round state 2: rounds M1 + the 2026-07-13/14 round both survived).
 - **(P2) the 100-bit baseline** — `A(R) = prod_L E_L <= 2^100`
@@ -17,11 +17,17 @@ wired req predicates, neither proved:
   `E_L <= 1 + 4(1+1/32) = 41/8`, `(41/8)^34 < 2^100`, integer comparison
   `41^34 < 2^202`).
 
+The reduction qualifier is load-bearing. The PROVED node
+`dli_unreduced_coset_endpoint_counterexample` gives `X_unred>2^126` at an
+admissible Proth prime; that quotient-periodic mass is owned by the structured
+column and is not part of `W_cen^prim`.
+
 This supersedes the M4-era three-predicate wiring (P3 = ENDPOINT-EXC was
 found CIRCULAR at wave-6, catch #181, and replaced by exactly this
-decomposition). The M4 exact-rational assembly verifier
-(`notes/m4_assembly_verifier.py`, ten mutation controls) remains the banked
-arithmetic record; the operative pins P-CONS (2^121 = 21+100, catch #40),
+decomposition). `verify_reduced_assembly.py` is the current fail-closed
+two-input verifier. The M4 exact-rational assembly verifier remains a
+historical arithmetic record after its primitive-scope correction; the
+operative pins P-CONS (2^121 = 21+100, catch #40),
 P-FIELD (catch #13), P-ROWS (official rows only), P-CONV (corrected display
 1.554, catch #164) carry over unchanged.
 

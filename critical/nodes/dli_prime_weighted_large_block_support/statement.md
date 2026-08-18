@@ -44,10 +44,9 @@ still `TARGET`.
 
 ## Head repair (2026-07-13, wave-4; single-source with the dag statement)
 
-The operative endpoint is **q^{-t+H} * W_cen <= 2^121** (catch #40's
-complement-duality re-pin, propagated to this file at wave-4; the dag
-statement head and REPOSE addendum agree; maintainer one-liner M5 still
-owed).
+The operative endpoint is **q^{-t+H} * W_cen^prim <= 2^121** (catch #40's
+complement-duality re-pin, with the primitive first-owner scope made explicit
+by the 2026-08-18 correction below).
 
 ## Posed decomposition (2026-07-13, wave-6 import; retitled from the
 ## branch's "Conditional close" — status stays at dag.json's TARGET)
@@ -55,7 +54,7 @@ owed).
 The exact live endpoint is
 
 ```text
-q^{-t+H} W_cen <= 2^121.
+q^{-t+H} W_cen^prim <= 2^121.
 ```
 
 The former `2^122` half-band endpoint is superseded: complement duality
@@ -69,10 +68,23 @@ assemblies:
 
 ```text
 product_j E_U[rho_j] <= 2^100,
-q^(-t+H) W_cen <= 2^21 product_j E_U[rho_j].
+q^(-t+H) W_cen^prim <= 2^21 product_j E_U[rho_j].
 ```
 
 These are `dli_marginal_baseline100_coverage` (CONDITIONAL on C1' +
 WCL-ZONE) and the posed C2'' node `dli_c2pp_joint_reserve`; ultimate
 open leaves = C1', WCL-ZONE, C2'' (w6-C4 = catch #181). Wiring is
 ev-lane pending the maintainer's amber ceremony.
+
+## Primitive ownership correction (2026-08-18)
+
+`dli_unreduced_coset_endpoint_counterexample` proves that the unreduced
+central endpoint is false: an explicit admissible Proth prime has quotient-
+periodic central mass greater than `2^126`. Those supports are nonprimitive
+and are already owned by the structured quotient column in the exact-list
+split. Consequently every live display in this section reads `W_cen^prim`,
+equivalently `E_U[product rho_j]_reduced`. Historical unreduced displays are
+retired route history, not alternative statements.
+
+The conditional arithmetic remains `21+100=121`, but P1 is now the reduced
+primitive C2'' predicate. No claim about the unreduced mass survives.

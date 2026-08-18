@@ -1,0 +1,28 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 2614,
+  "node": {
+    "id": "dli_primitive_first_owner_antipodal_subtraction",
+    "title": "Dyadic primitive first-owner antipodal subtraction",
+    "status": "PROVED",
+    "statement": "For a cyclic evaluation subgroup of order n=2^s in odd characteristic, let T(n,t,b) count b-subsets with their first t power sums zero and let T_prim restrict to trivial rotation stabilizer. Then T_prim(n,t,b)=T(n,t,b) for odd b and T_prim(n,t,b)=T(n,t,b)-T(n/2,floor(t/2),b/2) for even b. Thus interval-restricted primitive counts require one exact subtraction. For even t, X_prim(n,t)=X(n,t)-(q^(t/2)/2^(n/2))X(n/2,t/2).",
+    "attack_surface": "Check the cyclic 2-group stabilizer criterion, the odd/even moment descent, every fixed-weight boundary, and the normalization factor.",
+    "falsifier": "A nonprimitive subset not invariant under the order-two shift, a paired lift whose descended moments disagree, or a fixed-weight/normalized count violating the formula.",
+    "refs": [
+      "background/nodes/dli_primitive_first_owner_antipodal_subtraction/statement.md",
+      "background/nodes/dli_primitive_first_owner_antipodal_subtraction/proof.md",
+      "background/nodes/dli_primitive_first_owner_antipodal_subtraction/verify.py",
+      "critical/nodes/dli_c2pp_joint_reserve/statement.md"
+    ],
+    "notes": "This pays the first-owner deletion interface only. It gives no upper bound on the remaining primitive term."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "dli_c2pp_joint_reserve",
+      "order": 5341
+    }
+  ],
+  "refutes": []
+}

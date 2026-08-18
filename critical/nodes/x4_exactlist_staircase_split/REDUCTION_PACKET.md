@@ -33,6 +33,20 @@ itself. Finally,
 MCA reserve cannot substitute for it. The historical F2/t-null packet below
 remains evidence for the structured column only.
 
+The distinction is forced, not optional. The PROVED node
+`dli_unreduced_coset_endpoint_counterexample` exhibits an admissible Proth
+prime where quotient-periodic central mass alone exceeds `2^126`. Hence the
+DLI input below is always the first-owner primitive residue `W_cen^prim`,
+equivalently the `_reduced` joint expectation. An unreduced `W_cen` endpoint
+is false and may not be used as a consumer premise.
+
+On a cyclic power-of-two domain, this first-owner deletion is exact:
+`dli_primitive_first_owner_antipodal_subtraction` proves that all
+nonprimitive supports are antipodal lifts and gives the fixed-weight formula
+`T_prim(n,t,b)=T(n,t,b)-T(n/2,floor(t/2),b/2)` for even `b` (with no
+subtraction for odd `b`). The DLI input may therefore be compiled as one
+signed two-scale census; no unspecified ownership remainder remains.
+
 ## Compressed steps (archive/compressed_dli_lane_20260705/)
 
 ### [CONDITIONAL] dli_dirichlet_log_integral

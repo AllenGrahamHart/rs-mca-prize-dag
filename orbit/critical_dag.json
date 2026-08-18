@@ -199,7 +199,7 @@
   {
    "id": "dli_c2pp_joint_reserve",
    "label": "UNPROVED",
-   "title": "C2'' DLI joint reserve: X(R) <= 2^21 product_j E_U[rho_j]"
+   "title": "C2'' reduced primitive-residue joint reserve"
   },
   {
    "id": "dli_circle_log_integral_constant",
@@ -239,7 +239,7 @@
   {
    "id": "dli_prime_weighted_large_block_support",
    "label": "CONDITIONAL",
-   "title": "CONJECTURE B-WEAK: the endpoint budget for the U-weighted joint skew mass at the official rows (the corridor floor)"
+   "title": "B-WEAK primitive-residue endpoint budget"
   },
   {
    "id": "dli_reduced_phase_manifest_soundness",

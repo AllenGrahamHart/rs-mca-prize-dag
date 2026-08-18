@@ -4,7 +4,7 @@
 Node: dli_prime_weighted_large_block_support (CONJECTURE B-WEAK, the corridor
 floor).  M-ledger source: notes/C2PP_POSED_20260710.md 'Path to predicate
 status' — M4 = "the assembly verifier (exact-rational: pinned K-prime,
-w_max(L), W_cl inputs per zone, R_joint = 21 => q^{-t+H} W_cen <= 2^121),
+w_max(L), W_cl inputs per zone, R_joint = 21 => q^{-t+H} W_cen^prim <= 2^121),
 with the f2b + calibration replays as gates".
 
 WHAT THIS SCRIPT PROVES (and what it does not):
@@ -13,7 +13,7 @@ WHAT THIS SCRIPT PROVES (and what it does not):
     [C1' per-level excess]  AND  [per-row W_cl zone inputs certified by
     ENDPOINT-EXC certificates]  AND  [C2'' 21-bit joint reserve]
         ==>  Sigma_{L=1}^{34} log2 E_L <= 100
-        ==>  q^{-t+H} W_cen <= 2^{21+100} = 2^121,
+        ==>  q^{-t+H} W_cen^prim <= 2^{21+100} = 2^121,
 
   every step an exact inequality on DECLARED inputs.  The three inputs are
   consumed as NAMED CONDITIONAL PREDICATES with their 1-survived-round
@@ -53,8 +53,8 @@ from fractions import Fraction
 from itertools import product
 from pathlib import Path
 
-REPO = Path("/home/u2470931/smooth-read-solomin/prize")
-NODE_DIR = REPO / "critical/nodes/dli_prime_weighted_large_block_support"
+REPO = Path(__file__).resolve().parents[4]
+NODE_DIR = Path(__file__).resolve().parents[1]
 NOTES = NODE_DIR / "notes"
 
 # ---------------------------------------------------------------- constants
@@ -62,7 +62,7 @@ LEVELS = 34                # official schedule: 34 levels, Sigma L_j = t
 JUNCTIONS = 33             # catch #108: the POSED /33 junction convention
 R_JOINT_BITS = 21          # C2'' clause (ii); catch #40 re-pin (22 -> 21)
 AGG_BUDGET_BITS = 100      # DLI-AGG: Sigma_L log2 E_L <= 100
-ENDPOINT_BITS = 121        # q^{-t+H} W_cen <= 2^121 (catch #40 / #30)
+ENDPOINT_BITS = 121        # q^{-t+H} W_cen^prim <= 2^121
 K_PRIME = 4                # C1' pinned constant (exact K' <= 4)
 TAU = Fraction(1, 32)      # per-level W_cl zone input: tau_L = 2^-5 (the
                            # A1-PROD threshold trade-off row, adopted as the
@@ -191,8 +191,9 @@ def build_inputs() -> dict:
             "lemma1": "rho_j = q^{L_j} |Z_j| / U (exact reduction; PROVED)",
             "d2": "E_U[rho_j] = (q^L/2^N)(1 + W_j) (exact identity)",
             "d3_floor": "E_U[rho_j] >= 1 (lambda = 0 term of D3)",
-            "consumer_face": "q^{-t+H} W_cen = E_U[prod_j rho_j] "
-                             "(x4 packet face; half-band count <= 2^121)",
+            "consumer_face": "q^{-t+H} W_cen^prim = "
+                             "E_U[prod_j rho_j]_reduced "
+                             "(x4 first-owner primitive face; <= 2^121)",
             "status": "PROVED-PINNED",
         },
     }
@@ -251,12 +252,12 @@ def provenance_pins(inputs: dict) -> None:
                 if n["id"] == "dli_prime_weighted_large_block_support")
     stmt = node["statement"]
 
-    check("pin: node statement endpoint 2^121",
-          "q^{-t+H} * W_cen <= 2^121" in stmt)
-    check("pin: node statement F-round state 1/1/1",
-          "C2'' 1 / C1' 1 / ENDPOINT-EXC 1" in stmt)
-    check("pin: node statement names catch #163 (C2''-instance input)",
-          "#163" in stmt and "C2''-instance" in stmt)
+    check("pin: node statement primitive endpoint 2^121",
+          "q^{-t+H}W_cen^prim<=2^121" in stmt)
+    check("pin: node statement names both open inputs",
+          "reduced C2''" in stmt and "100-bit marginal baseline" in stmt)
+    check("pin: node statement rejects the unreduced endpoint",
+          "unreduced endpoint is refuted" in stmt)
 
     c2 = read("notes/C2PP_POSED_20260710.md")
     check("pin: C2'' pose R_joint = 21 bits", "R_joint = 21 bits" in c2)
@@ -786,12 +787,13 @@ def gate_eex_demo(inputs: dict) -> tuple[dict, dict]:
 
 def assembly(inputs: dict) -> None:
     """Lemma-1/D2/D3 + per-level excess + W_cl zones + aggregate
-    Sigma log2 E_j <= 100 + the 21-bit joint reserve
-    => q^{-t+H} W_cen <= 2^121."""
+    Sigma log2 E_j <= 100 + the reduced 21-bit joint reserve
+    => q^{-t+H} W_cen^prim <= 2^121."""
     sk = inputs["SKELETON"]
-    check("A0: consumer-face identity declared and pinned "
-          "(q^{-t+H} W_cen = E_U[prod rho_j])",
-          "W_cen" in sk["consumer_face"]
+    check("A0: reduced primitive consumer-face identity declared and pinned "
+          "(q^{-t+H} W_cen^prim = E_U[prod rho_j]_reduced)",
+          "W_cen^prim" in sk["consumer_face"]
+          and "_reduced" in sk["consumer_face"]
           and sk["status"] == "PROVED-PINNED")
     check("A1: Lemma-1 / D2 / D3 skeleton declared "
           "(E_L >= 1 floor from D3 lambda = 0)",
@@ -835,7 +837,7 @@ def assembly(inputs: dict) -> None:
     check("A6: endpoint identity 21 + 100 = 121 (exact)",
           inputs["C2PP_INSTANCE"]["R_joint_bits"] + AGG_BUDGET_BITS
           == ENDPOINT_BITS)
-    info("assembly conclusion (CONDITIONAL): q^{-t+H} W_cen <= 2^121, "
+    info("assembly conclusion (CONDITIONAL): q^{-t+H} W_cen^prim <= 2^121, "
          "conditional on C2'' (joint reserve), C1' (per-level excess), "
          "ENDPOINT-EXC (per-row W_cl zone certification + coverage)")
 
@@ -884,6 +886,15 @@ def check_catch_162() -> None:
                 )["statement"]
     first = stmt.find(FRAG_HEAD)
     second = stmt.find(FRAG_HEAD, first + 1)
+    if first == -1:
+        # The node manifest was compacted in the 2026-08-18 scope repair;
+        # historical campaign prose now lives in the referenced documents.
+        ok = ("q^{-t+H}W_cen^prim<=2^121" in stmt
+              and "unreduced endpoint is refuted" in stmt
+              and "C2''" in stmt)
+        check("catch #162: compact statement has no historical tear",
+              ok)
+        return
     if second == -1:
         # post-surgery state: exactly one occurrence, inside the original
         ok = (stmt.count("F-a NOT FIRED at either depth") == 1
@@ -1109,7 +1120,7 @@ def main() -> int:
         print("=" * 74)
         return 1
     print(f"M4-VERDICT: {verdict}")
-    print("           q^{-t+H} W_cen <= 2^121 follows by exact rational")
+    print("           q^{-t+H} W_cen^prim <= 2^121 follows by exact rational")
     print("           arithmetic from the named-predicate inputs; NO")
     print("           unconditional claim is made (F-round state 1/1/1;")
     print("           promotion requires maintainer countersigns).")

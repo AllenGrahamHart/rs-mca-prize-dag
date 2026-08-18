@@ -120,3 +120,20 @@ banked interface of record. M5 maintainer confirmation remains owed; the
 corrected consumer identity supplies the confirming computation for the
 maintainer's ruling. (The 2^122 displays above remain as history per #155;
 the binding endpoint is 2^121, catch #40.)
+
+## ADDENDUM (2026-08-18): primitive ownership is load-bearing
+
+The live floor is
+
+```text
+q^(-t+H) W_cen^prim <= 2^121,
+```
+
+where `W_cen^prim` is the first-owner primitive residue and equals the
+`_reduced` joint expectation. The PROVED node
+`dli_unreduced_coset_endpoint_counterexample` gives an admissible
+Proth-certified row with `X_unred>2^126`, entirely from quotient-periodic
+central supports. The exact-list split owns those supports in its structured
+column. Therefore every unreduced display earlier in this historical pose is
+retired, and neither it nor the rounds that measured it is evidence for the
+repaired primitive floor.

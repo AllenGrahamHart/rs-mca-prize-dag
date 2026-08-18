@@ -20,6 +20,19 @@ exact unsafe witness on every required row.
 - The rate-half ordinary-list adjacent crossing.
 - Per-row small-`t` certification and the submission-quality dossier.
 
+The DLI endpoint is explicitly primitive-reduced. A Proth-certified
+near-cap row proves that the unreduced quotient-periodic central mass exceeds
+`2^126`; those supports belong to the structured quotient column. The live
+C2'' task is to insert first-owner deletion into the exact telescoping
+identity and bound the remaining primitive census. Unreduced level-law fits
+are no longer evidence for that target.
+
+The insertion itself is now paid: dyadic stabilizers give one exact
+antipodal-lift subtraction, reducing C2'' to a signed comparison between the
+telescoping censuses at `(n,t)` and `(n/2,t/2)`. The live analytic problem is
+to preserve that cancellation; separate bounds on the two unreduced terms
+are insufficient.
+
 The rate-half crossing safe side is currently split into an exact structural
 shell, the proved deep-accident cap, and the open shallow/aperiodic
 population.  The latter is equivalently a prescribed-signature

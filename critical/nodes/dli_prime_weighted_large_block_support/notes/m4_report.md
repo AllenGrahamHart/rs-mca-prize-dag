@@ -254,6 +254,7 @@ item.**
 
 - It proves NO predicate: C1', C2'', ENDPOINT-EXC-COVERAGE all remain
   unproved; B-WEAK remains a conjecture with its pre-registered falsifier.
+
 - The production coverage obligation (every official row has an accepting
   pi_R) is OPEN — the pose's own status; M4 consumes it as a named input
   and demonstrates the certificate semantics at exact toy scale (n' = 16
@@ -265,3 +266,21 @@ item.**
 - The consumer-face identity and the banked joint measurements are
   provenance-pinned, not re-derived; the heavy censuses (M1 n=64 Modal,
   eex cells) are consumed as banked records with their own verifiers.
+
+## 2026-08-18 primitive-scope correction
+
+The original input block already stated
+`E_U[prod rho_j]_reduced <= 2^21 prod E_U[rho_j]`, but A0 and the printed
+conclusion dropped `_reduced` and wrote an unreduced `W_cen`. That widening
+is invalid. `dli_unreduced_coset_endpoint_counterexample` proves the
+unreduced central mass exceeds `2^126` at an explicit admissible Proth prime.
+
+The repaired executable assembly pins
+
+```text
+q^(-t+H) W_cen^prim = E_U[prod rho_j]_reduced
+```
+
+and concludes only `q^(-t+H)W_cen^prim<=2^121`. The arithmetic `21+100=121`
+is unchanged. The historical `m4_run_out.txt` is retained as the record that
+exposed the qualifier loss; its unreduced conclusion is superseded.
