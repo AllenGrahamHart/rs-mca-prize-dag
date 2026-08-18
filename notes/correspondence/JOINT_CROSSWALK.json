@@ -3242,6 +3242,31 @@
     "our_sha": "1717d6c20",
     "his_sha": "2788d5ec3"
    }
+  },
+  {
+   "our_node": "rate_half_mca_rank11_pair_pencil_dimension_two_incidence_exclusion",
+   "his_object": {
+    "label": "base-field-normalized split-pencil census / common-GCD stratum",
+    "file": "CAP25 v13.2, towards-prize.md, and PR #1173",
+    "line": "BC split-pencil common-GCD and lower-rank fiber cells"
+   },
+   "relation": "OVERLAP",
+   "chain": "dimension-two scalar gcd/fiber decomposition -> common coordinates have multiplicity 520 and every noncommon affine fiber has multiplicity at most 15 -> exact core-incidence capacity contradiction",
+   "scope": "official KoalaBear quotient pair-pencil branch; excludes scalar dimension two by margin 19356265 and leaves only scalar dimensions three and four",
+   "owner": "JOINT",
+   "nonclaims": [
+    "does not bound affine-plane or affine-three-space fibers in dimensions three and four",
+    "does not pay the global-atom branch",
+    "does not pay high complexity",
+    "does not pay rank eleven or close MCA"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "f1a047424",
+    "his_sha": "2788d5ec3"
+   }
   }
  ]
 }
