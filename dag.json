@@ -41311,6 +41311,30 @@
    }
   },
   {
+   "id": "rate_half_mca_rank11_cross_type_scalar_pair_rigidity",
+   "title": "A sharp cross-type collision forces proportional scalar pairs",
+   "status": "PROVED",
+   "closure": "pole-simple refinement of atom-collision incidence",
+   "statement": "For two distinct pole-simple scalar-locator certificates sharing a 14+14 support deck, independent scalar coefficient pairs force at least 1079711-c points into both pair cores, exceeding the distinct-pair cap 1048575-c by 31136. Thus the scalar pairs are proportional; for degree-two quotient pencils, the maps have the same projective value at infinity. This does not produce decks or pay the quotient population.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_cross_type_scalar_pair_rigidity/statement.md",
+    "background/nodes/rate_half_mca_rank11_cross_type_scalar_pair_rigidity/proof.md",
+    "background/nodes/rate_half_mca_rank11_cross_type_scalar_pair_rigidity/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_cross_type_scalar_pair_rigidity/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_cross_type_scalar_pair_rigidity/audit.md",
+    "background/nodes/rate_half_mca_rank11_cross_type_scalar_pair_rigidity/result.md",
+    "background/nodes/rate_half_mca_rank11_cross_type_scalar_pair_rigidity/frontier.md",
+    "background/nodes/rate_half_mca_rank11_cross_type_scalar_pair_rigidity/provenance.md",
+    "background/nodes/rate_half_mca_rank11_cross_type_scalar_pair_rigidity/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_cross_type_scalar_pair_rigidity/verify.py",
+    "background/nodes/rate_half_mca_rank11_cross_type_scalar_pair_rigidity/verify_audit.py"
+   ],
+   "upstream": {
+    "label": "factor synchronization / atom collision",
+    "relation": "OVERLAP"
+   }
+  },
+  {
    "id": "rate_half_mca_rank11_dense_locator_component_incidence_dichotomy",
    "title": "Rank-eleven dense normalization forces component-incidence abundance",
    "status": "PROVED",
@@ -81941,6 +81965,16 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_mca_rank11_cross_type_one_swap_synchronization_wall",
+   "to": "rate_half_mca_rank11_cross_type_scalar_pair_rigidity",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_cross_type_scalar_pair_rigidity",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_mca_rank11_dense_locator_component_incidence_dichotomy",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
@@ -82363,6 +82397,11 @@
   {
    "from": "rate_half_mca_rank11_heavy_ruling_triple_owner_pole_simple_router",
    "to": "rate_half_mca_rank11_anchor_exchange_split_pencil_synchronization",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_heavy_ruling_triple_owner_pole_simple_router",
+   "to": "rate_half_mca_rank11_cross_type_scalar_pair_rigidity",
    "kind": "req"
   },
   {
@@ -83229,6 +83268,11 @@
    "from": "rate_half_mca_rank11_quadratic_quotient_factor_through_interface",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_quadratic_quotient_factor_through_interface",
+   "to": "rate_half_mca_rank11_cross_type_scalar_pair_rigidity",
+   "kind": "req"
   },
   {
    "from": "rate_half_mca_rank11_quadratic_quotient_factor_through_interface",

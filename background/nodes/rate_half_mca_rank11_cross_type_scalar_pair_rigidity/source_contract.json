@@ -1,0 +1,15 @@
+{
+  "schema": "rate-half-mca-rank11-cross-type-scalar-pair-rigidity-v1",
+  "domain_size": 2097152,
+  "support_size": 1116048,
+  "code_dimension": 1048576,
+  "shared_records": 28,
+  "records_per_pair_type": 14,
+  "pole_incidence_cap": 1,
+  "forced_g_minus_h_before_shortening": 1079711,
+  "distinct_pair_core_cap_before_shortening": 1048575,
+  "contradiction_margin": 31136,
+  "survivor_relation": "proportional scalar coefficient pairs",
+  "degree_two_interpretation": "same projective value at infinity",
+  "nonclaim": "This result does not prove that every pair of quotient types admits a shared 28-record collision deck or pay the quotient population."
+}

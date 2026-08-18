@@ -331,6 +331,17 @@ certificates required by the challenge.
   the induced pair-core floor is still 36,336 below RS pair uniqueness. A
   viable next interface must pay that large-core exception, use a larger
   packet theorem, or install direct factor/chronology payment.
+- Pole-simplicity removes most of that apparent large-core escape. If the
+  two scalar coefficient pairs on a sharp 14+14 collision deck are linearly
+  independent, every point of the collision set `H` is a root of both
+  denominators and therefore occurs in at most one shared support. The
+  incidence count then forces `|G\H|>=1079711-c`, already 31,136 above the
+  distinct-pair ceiling `1048575-c`. Hence every surviving cross-type
+  collision has proportional scalar pairs. For degree-two quotient pencils
+  this means the two rational slope maps have the same projective value at
+  infinity. The live compatibility branch is now the proportional-scalar
+  branch, together with the separate task of producing enough cross-type
+  decks; the former generic 36,336 denominator gap is not intrinsic.
 - The finite rank-nine prefix is proved through `K'=87`. At the first open
   row `K'=88`, paired raw scans classify all 18,741,723 source units and
   leave exactly 622,895 raw-unsafe units on offsets `1..44`. This is a
