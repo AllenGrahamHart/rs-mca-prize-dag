@@ -2927,12 +2927,12 @@
     "line": "factor synchronization and high-complexity remain"
    },
    "relation": "OVERLAP",
-   "chain": "order-32 anchor density at least 18 -> unique pair-type anchor -> cross-anchor overlap at most 28 -> 31-overlap one-swap graph preserves anchor type",
-   "scope": "method fence for synchronizing the official KoalaBear 520-type quadratic quotient population; the stronger local 20-anchor interface has overlap cap 24",
+   "chain": "order-32 anchor density at least 18 -> unique pair-type anchor -> cross-anchor overlap at most 28 -> 31-overlap split-pencil one-swap graph preserves anchor type; general atom collision leaves a 36336-coordinate large-core gap",
+   "scope": "method fence for synchronizing the official KoalaBear 520-type quadratic quotient population; the stronger local 20-anchor interface has overlap cap 24, while the 28-record collision output forces pair core 1012239-c versus cap 1048575-c",
    "owner": "US",
    "nonclaims": [
     "does not prove cross-type quotient certificates are incompatible",
-    "does not rule out rigidity from 28 shared records or larger packets",
+    "does not pay the large-core/nonprimitive output of 28-record atom collision or rule out larger packets",
     "does not charge the quotient population",
     "does not pay high complexity, rank eleven, or MCA"
    ],
@@ -2940,7 +2940,7 @@
    "status_his": "open",
    "lean": null,
    "provenance": {
-    "our_sha": "bdaf2c779",
+    "our_sha": "e2a2732f8",
     "his_sha": "2788d5ec3"
    }
   }
