@@ -38,4 +38,14 @@ RAMGUARD_TIMEOUT=34m tools/ramguard modal -- \
   experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_fff_r76_matrix_bank_modal.py
 ```
 
-**Outcome:** pending.
+**Outcome:** `COMPLETE`. Modal app `ap-MUI78JcsnhTmx76IIDm0mq` serialized all
+256 nonzero rational entries of the symbolic `R76` multiplication matrix.
+There are 184 distinct reduced denominators. Numerator degrees range from
+1105 to 1387; denominator degrees range from 975 to 1256. Matrix-ledger
+SHA-256:
+`24a8cc69a613bae3d367a087b524979de2bb8ec64174f97a2155c5227b7883f4`;
+denominator-ledger SHA-256:
+`b9623adc3fe54844a3a61c3a4d06a80f51fab713f6813e9599c1038287f280cc`;
+result SHA-256:
+`701f4a255f2f573b4f50d7bbf3ea14b80ae8562ae09d93f96a8409cb45babbfb`.
+The checker rejects all five hostile mutations.
