@@ -251,6 +251,15 @@ certificates required by the challenge.
   synchronization, bounded-multiplicity assignment, or chronology theorem is
   required before multiplying the 1,154 cap across heavy pair types. The
   antipodal `c=0` class remains in the quotient-periodic bucket.
+- The dense anchor itself now has the missing synchronization. Fixing exact
+  supports globally and replacing one of the `s=32-3t>=20` anchor slopes at
+  a time gives admissible packets with at least 19 common locators. If every
+  packet is rational, two shared locators force all packet pencils to equal
+  one fixed pencil containing all 5,524 anchor locators; otherwise one packet
+  already emits `chi>=2299571`. The exact 1,154-fiber cap therefore eliminates
+  the normalized nonzero affine-reflection rational subbranch, routing it to
+  high complexity with contradiction margin 4,370. This does not pay high
+  complexity or eliminate the antipodal, fractional, or primitive classes.
 - The finite rank-nine prefix is proved through `K'=87`. At the first open
   row `K'=88`, paired raw scans classify all 18,741,723 source units and
   leave exactly 622,895 raw-unsafe units on offsets `1..44`. This is a

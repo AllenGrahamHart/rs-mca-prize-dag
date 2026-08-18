@@ -15,11 +15,18 @@ same pencil class. Therefore neither
 
 nor any similar aggregate charge is currently authorized.
 
-The next useful theorem should prove one of:
+The dense-anchor packet dependence is discharged by
+`rate_half_mca_rank11_anchor_exchange_split_pencil_synchronization`: a
+one-swap packet is high complexity, or all 5524 anchor locators lie in one
+fixed pencil. Composing that theorem with this cap eliminates the nonzero
+affine-reflection rational subbranch.
 
-1. a canonical fixed pencil for each chronology-owned pair type;
+The broader aggregate multiplication above remains unauthorized for unrelated
+pair types. Remaining useful theorems should address one of:
+
+1. a canonical fixed pencil for each chronology-owned non-anchor pair type;
 2. a bounded-multiplicity packet-to-pencil assignment with disjoint currency;
-3. a collision theorem showing that too many varying packet pencils force a
+3. a collision theorem showing that varying pencils outside the anchor force a
    common locator, Wronskian factor, or already-priced quotient-periodic class.
 
 The `c=0` antipodal case must be sent to the cyclic/dihedral periodic bucket,

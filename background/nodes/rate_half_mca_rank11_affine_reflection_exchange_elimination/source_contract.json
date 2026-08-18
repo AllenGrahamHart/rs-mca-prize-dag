@@ -1,0 +1,20 @@
+{
+  "schema": "rate-half-mca-rank11-affine-reflection-exchange-elimination-v1",
+  "official_base_prime": 2130706433,
+  "official_domain_order": 2097152,
+  "exception_degree": 2,
+  "reflection_constant_nonzero": true,
+  "synchronized_anchor_fibers": 5524,
+  "fixed_pencil_fiber_cap": 1154,
+  "strict_fiber_margin": 4370,
+  "high_complexity_threshold": 2299571,
+  "synchronization_dependency": "rate_half_mca_rank11_anchor_exchange_split_pencil_synchronization",
+  "census_dependency": "rate_half_mca_rank11_exception_spi_affine_reflection_fixed_pencil_cap",
+  "remaining_classes": [
+    "antipodal-c-zero",
+    "other-fractional-involutions",
+    "extension-field-normalization",
+    "nonquadratic-or-primitive"
+  ],
+  "nonclaim": "The router does not pay the high-complexity output or eliminate the c=0 and nonaffine split-pencil classes."
+}

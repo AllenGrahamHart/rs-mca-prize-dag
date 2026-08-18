@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_anchor_exchange_split_pencil_synchronization",
+    "title": "One-swap anchor packets synchronize every rational exception pencil",
+    "status": "PROVED",
+    "closure": "a star of admissible one-swap packets shares at least nineteen fixed locators, which uniquely determines their two-dimensional polynomial pencil",
+    "statement": "Fix any 5524 first-owned slopes of the dense heavy-ruling anchor pair, the at most four secondary pair types, three slopes from each secondary type, and globally core-saturated exact supports. Put s=32-3t, so 20<=s<=29. Choose one base s-subset of the fixed anchor slopes and, for every remaining fixed anchor slope, replace one base slope. Apply the existing packet trichotomy to this base packet and all one-swap packets. Either at least one packet has chi>=2299571, or every packet is rational and all 5524 fixed anchor exception locators lie in one coprime degree-1-through-11 pencil. Indeed every one-swap rational pencil shares s-1>=19 distinct locators with the base pencil, while two distinct monic locators already determine the two-dimensional polynomial subspace. No payment of either output is claimed.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_anchor_exchange_split_pencil_synchronization/statement.md",
+      "background/nodes/rate_half_mca_rank11_anchor_exchange_split_pencil_synchronization/proof.md",
+      "background/nodes/rate_half_mca_rank11_anchor_exchange_split_pencil_synchronization/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_anchor_exchange_split_pencil_synchronization/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_anchor_exchange_split_pencil_synchronization/audit.md",
+      "background/nodes/rate_half_mca_rank11_anchor_exchange_split_pencil_synchronization/result.md",
+      "background/nodes/rate_half_mca_rank11_anchor_exchange_split_pencil_synchronization/provenance.md",
+      "background/nodes/rate_half_mca_rank11_anchor_exchange_split_pencil_synchronization/frontier.md",
+      "background/nodes/rate_half_mca_rank11_anchor_exchange_split_pencil_synchronization/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_anchor_exchange_split_pencil_synchronization/verify.py",
+      "background/nodes/rate_half_mca_rank11_anchor_exchange_split_pencil_synchronization/verify_audit.py"
+    ],
+    "upstream": {
+      "label": "rank-eleven factor-flag synchronization / varying-locator collision terminal",
+      "relation": "OVERLAP"
+    }
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_heavy_ruling_triple_owner_pole_simple_router"},
+    {"from": "rate_half_mca_rank11_heavy_ruling_exception_split_pencil_normal_form"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location"}
+  ],
+  "refutes": []
+}

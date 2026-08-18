@@ -2,25 +2,41 @@
   "complete": true,
   "counts": {
     "FAIL": 0,
-    "PASS": 2,
+    "PASS": 4,
     "TIMEOUT": 0
   },
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_exception_spi_affine_reflection_fixed_pencil_cap/verify.py",
-      "seconds": 0.031835,
+      "script": "background/nodes/rate_half_mca_rank11_affine_reflection_exchange_elimination/verify.py",
+      "seconds": 0.048812,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RANK11_AFFINE_FIXED_PENCIL_CAP_PASS maximum=2308 fibers=1154 fixed_cosets=1\n"
+      "stdout_tail": "RANK11_AFFINE_EXCHANGE_ELIMINATION_PASS anchor=5524 cap=1154 margin=4370\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_exception_spi_affine_reflection_fixed_pencil_cap/verify_audit.py",
-      "seconds": 0.023614,
+      "script": "background/nodes/rate_half_mca_rank11_affine_reflection_exchange_elimination/verify_audit.py",
+      "seconds": 0.038714,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RANK11_AFFINE_FIXED_PENCIL_CAP_AUDIT_PASS maximum=2308 fibers=1154 cosets=1016\n"
+      "stdout_tail": "RANK11_AFFINE_EXCHANGE_ELIMINATION_AUDIT_PASS margin=4370 chi=2299571\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_mca_rank11_anchor_exchange_split_pencil_synchronization/verify.py",
+      "seconds": 0.024896,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "RANK11_ANCHOR_EXCHANGE_SYNC_PASS anchor=5524 overlap=19 swaps>=5504\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_mca_rank11_anchor_exchange_split_pencil_synchronization/verify_audit.py",
+      "seconds": 0.020084,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "RANK11_ANCHOR_EXCHANGE_SYNC_AUDIT_PASS anchor=5524 overlap=19\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

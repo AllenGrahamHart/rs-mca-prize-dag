@@ -1,0 +1,23 @@
+{
+  "schema": "rate-half-mca-rank11-anchor-exchange-split-pencil-synchronization-v1",
+  "anchor_owned_slopes": 5524,
+  "packet_size": 32,
+  "secondary_records_per_type": 3,
+  "minimum_secondary_types": 1,
+  "maximum_secondary_types": 4,
+  "minimum_anchor_packet_size": 20,
+  "maximum_anchor_packet_size": 29,
+  "minimum_one_swap_overlap": 19,
+  "locators_determining_pencil": 2,
+  "minimum_exception_degree": 1,
+  "maximum_exception_degree": 11,
+  "high_complexity_threshold": 2299571,
+  "toy": {
+    "field": 101,
+    "anchor_locators": 12,
+    "packet_size": 5,
+    "base_indices": [0, 1, 2, 3, 4],
+    "removed_index": 0
+  },
+  "nonclaim": "The exchange theorem synchronizes rational packet pencils but does not pay the high-complexity output or classify the common pencil."
+}

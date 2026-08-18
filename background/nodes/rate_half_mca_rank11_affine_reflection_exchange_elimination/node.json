@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_affine_reflection_exchange_elimination",
+    "title": "Anchor exchange eliminates the nonzero affine-reflection rational branch",
+    "status": "PROVED",
+    "closure": "5524 synchronized anchor locators exceed the exact 1154-fiber cap for every fixed nonzero official affine reflection",
+    "statement": "In the official dense-anchor heavy-ruling route, consider the rational exception branch with e=2 whose normalized pencil pairs roots by x -> c-x for a fixed c!=0. Apply the anchor-exchange synchronization theorem. If a base or one-swap packet emits high complexity, then chi>=2299571. Otherwise one fixed rational pencil contains all 5524 pairwise-disjoint anchor exception locators. Since any one split fiber has roots in the base-field domain, c is in F_p^*, and the exact official census caps this pencil at 1154 fibers, a contradiction. Thus the nonzero affine-reflection rational subbranch always routes to chi>=2299571. The high-complexity output is not paid here; c=0 and nonaffine pencils remain separate.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_affine_reflection_exchange_elimination/statement.md",
+      "background/nodes/rate_half_mca_rank11_affine_reflection_exchange_elimination/proof.md",
+      "background/nodes/rate_half_mca_rank11_affine_reflection_exchange_elimination/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_affine_reflection_exchange_elimination/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_affine_reflection_exchange_elimination/audit.md",
+      "background/nodes/rate_half_mca_rank11_affine_reflection_exchange_elimination/result.md",
+      "background/nodes/rate_half_mca_rank11_affine_reflection_exchange_elimination/provenance.md",
+      "background/nodes/rate_half_mca_rank11_affine_reflection_exchange_elimination/frontier.md",
+      "background/nodes/rate_half_mca_rank11_affine_reflection_exchange_elimination/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_affine_reflection_exchange_elimination/verify.py",
+      "background/nodes/rate_half_mca_rank11_affine_reflection_exchange_elimination/verify_audit.py"
+    ],
+    "upstream": {
+      "label": "base-field-normalized split-pencil census / factor-flag synchronization",
+      "relation": "OVERLAP"
+    }
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_anchor_exchange_split_pencil_synchronization"},
+    {"from": "rate_half_mca_rank11_exception_spi_affine_reflection_fixed_pencil_cap"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location"}
+  ],
+  "refutes": []
+}

@@ -41074,6 +41074,54 @@
    }
   },
   {
+   "id": "rate_half_mca_rank11_affine_reflection_exchange_elimination",
+   "title": "Anchor exchange eliminates the nonzero affine-reflection rational branch",
+   "status": "PROVED",
+   "closure": "5524 synchronized anchor locators exceed the exact 1154-fiber cap for every fixed nonzero official affine reflection",
+   "statement": "In the official dense-anchor heavy-ruling route, consider the rational exception branch with e=2 whose normalized pencil pairs roots by x -> c-x for a fixed c!=0. Apply the anchor-exchange synchronization theorem. If a base or one-swap packet emits high complexity, then chi>=2299571. Otherwise one fixed rational pencil contains all 5524 pairwise-disjoint anchor exception locators. Since any one split fiber has roots in the base-field domain, c is in F_p^*, and the exact official census caps this pencil at 1154 fibers, a contradiction. Thus the nonzero affine-reflection rational subbranch always routes to chi>=2299571. The high-complexity output is not paid here; c=0 and nonaffine pencils remain separate.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_affine_reflection_exchange_elimination/statement.md",
+    "background/nodes/rate_half_mca_rank11_affine_reflection_exchange_elimination/proof.md",
+    "background/nodes/rate_half_mca_rank11_affine_reflection_exchange_elimination/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_affine_reflection_exchange_elimination/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_affine_reflection_exchange_elimination/audit.md",
+    "background/nodes/rate_half_mca_rank11_affine_reflection_exchange_elimination/result.md",
+    "background/nodes/rate_half_mca_rank11_affine_reflection_exchange_elimination/provenance.md",
+    "background/nodes/rate_half_mca_rank11_affine_reflection_exchange_elimination/frontier.md",
+    "background/nodes/rate_half_mca_rank11_affine_reflection_exchange_elimination/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_affine_reflection_exchange_elimination/verify.py",
+    "background/nodes/rate_half_mca_rank11_affine_reflection_exchange_elimination/verify_audit.py"
+   ],
+   "upstream": {
+    "label": "base-field-normalized split-pencil census / factor-flag synchronization",
+    "relation": "OVERLAP"
+   }
+  },
+  {
+   "id": "rate_half_mca_rank11_anchor_exchange_split_pencil_synchronization",
+   "title": "One-swap anchor packets synchronize every rational exception pencil",
+   "status": "PROVED",
+   "closure": "a star of admissible one-swap packets shares at least nineteen fixed locators, which uniquely determines their two-dimensional polynomial pencil",
+   "statement": "Fix any 5524 first-owned slopes of the dense heavy-ruling anchor pair, the at most four secondary pair types, three slopes from each secondary type, and globally core-saturated exact supports. Put s=32-3t, so 20<=s<=29. Choose one base s-subset of the fixed anchor slopes and, for every remaining fixed anchor slope, replace one base slope. Apply the existing packet trichotomy to this base packet and all one-swap packets. Either at least one packet has chi>=2299571, or every packet is rational and all 5524 fixed anchor exception locators lie in one coprime degree-1-through-11 pencil. Indeed every one-swap rational pencil shares s-1>=19 distinct locators with the base pencil, while two distinct monic locators already determine the two-dimensional polynomial subspace. No payment of either output is claimed.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_anchor_exchange_split_pencil_synchronization/statement.md",
+    "background/nodes/rate_half_mca_rank11_anchor_exchange_split_pencil_synchronization/proof.md",
+    "background/nodes/rate_half_mca_rank11_anchor_exchange_split_pencil_synchronization/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_anchor_exchange_split_pencil_synchronization/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_anchor_exchange_split_pencil_synchronization/audit.md",
+    "background/nodes/rate_half_mca_rank11_anchor_exchange_split_pencil_synchronization/result.md",
+    "background/nodes/rate_half_mca_rank11_anchor_exchange_split_pencil_synchronization/provenance.md",
+    "background/nodes/rate_half_mca_rank11_anchor_exchange_split_pencil_synchronization/frontier.md",
+    "background/nodes/rate_half_mca_rank11_anchor_exchange_split_pencil_synchronization/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_anchor_exchange_split_pencil_synchronization/verify.py",
+    "background/nodes/rate_half_mca_rank11_anchor_exchange_split_pencil_synchronization/verify_audit.py"
+   ],
+   "upstream": {
+    "label": "rank-eleven factor-flag synchronization / varying-locator collision terminal",
+    "relation": "OVERLAP"
+   }
+  },
+  {
    "id": "rate_half_mca_rank11_anchor_star_sae_router",
    "title": "Rank-eleven fixed 31-anchor star routes to C/S/A/E",
    "status": "PROVED",
@@ -81465,6 +81513,21 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_mca_rank11_affine_reflection_exchange_elimination",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_anchor_exchange_split_pencil_synchronization",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_anchor_exchange_split_pencil_synchronization",
+   "to": "rate_half_mca_rank11_affine_reflection_exchange_elimination",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_mca_rank11_anchor_star_sae_router",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
@@ -81770,6 +81833,11 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_mca_rank11_exception_spi_affine_reflection_fixed_pencil_cap",
+   "to": "rate_half_mca_rank11_affine_reflection_exchange_elimination",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_mca_rank11_exception_spi_dihedral_quotient_fence",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
@@ -82001,6 +82069,11 @@
   },
   {
    "from": "rate_half_mca_rank11_heavy_ruling_exception_split_pencil_normal_form",
+   "to": "rate_half_mca_rank11_anchor_exchange_split_pencil_synchronization",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_heavy_ruling_exception_split_pencil_normal_form",
    "to": "rate_half_mca_rank11_exception_spi_affine_reflection_fence",
    "kind": "req"
   },
@@ -82018,6 +82091,11 @@
    "from": "rate_half_mca_rank11_heavy_ruling_triple_owner_pole_simple_router",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_heavy_ruling_triple_owner_pole_simple_router",
+   "to": "rate_half_mca_rank11_anchor_exchange_split_pencil_synchronization",
+   "kind": "req"
   },
   {
    "from": "rate_half_mca_rank11_heavy_ruling_triple_owner_pole_simple_router",
