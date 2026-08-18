@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 2619,
+  "node": {
+    "id": "dli_cyclic_band_tensor_owner_deletion",
+    "title": "DLI cyclic-band tensor and owner deletion",
+    "status": "PROVED",
+    "closure": "exact Fourier tensor identity",
+    "statement": "Let n=4r and zeta have exact order n in an odd-characteristic field. For a uniform binary word, let E_1 and E_2 be the null events for the complete cyclic frequency bands {1+4l:0<=l<r} and {2+4l:0<=l<r}. Then P(E_1)=(4/16)^r, P(E_2)=(6/16)^r, and P(E_1 intersect E_2)=(2/16)^r, so their correlation excess is (4/3)^r. Every joint word is invariant under shift r and hence under the antipodal shift n/2, so primitive first-owner deletion makes the joint event empty. This does not control truncated low-frequency bands.",
+    "attack_surface": "Check the s+ra index decomposition, outer Fourier invertibility, order-four local equations, exact 4/6/2 counts, tensor normalization, antipodal invariance, and complete-band versus truncated-prefix scope.",
+    "falsifier": "A fixture where the complete-band null events do not localize to the stated four-point equations, the correlation ratio differs from (4/3)^r, or a joint word survives antipodal primitive deletion.",
+    "refs": [
+      "background/nodes/dli_cyclic_band_tensor_owner_deletion/statement.md",
+      "background/nodes/dli_cyclic_band_tensor_owner_deletion/proof.md",
+      "background/nodes/dli_cyclic_band_tensor_owner_deletion/claim_contract.md",
+      "background/nodes/dli_cyclic_band_tensor_owner_deletion/dependency_subdag.md",
+      "background/nodes/dli_cyclic_band_tensor_owner_deletion/audit.md",
+      "background/nodes/dli_cyclic_band_tensor_owner_deletion/result.md",
+      "background/nodes/dli_cyclic_band_tensor_owner_deletion/provenance.md",
+      "background/nodes/dli_cyclic_band_tensor_owner_deletion/verify.py",
+      "background/nodes/dli_cyclic_band_tensor_owner_deletion/verify_audit.py",
+      "background/nodes/dli_primitive_haar_event_correlation/statement.md",
+      "critical/nodes/dli_c2pp_joint_reserve/attack.md"
+    ],
+    "notes": "This separates two facts: cyclic Fourier bands can correlate exponentially, but this canonical excess belongs entirely to the quotient-periodic owner already deleted by C2''. The unresolved object is the truncated primitive prefix."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "dli_c2pp_joint_reserve",
+      "order": 5346
+    }
+  ],
+  "refutes": []
+}

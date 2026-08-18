@@ -101,3 +101,11 @@ progression and primitive quotient ownership. Hadamard mixing makes the
 counterexample rows dense and equal-magnitude, so generic coefficient
 flatness is also insufficient. This is supporting material for that future
 packet, not a standalone PR.
+
+A second exact fence is closer to upstream `(Q)` terminology. Complete
+cyclic residue-class bands can have correlation excess `(4/3)^r`, but
+Fourier inversion identifies every joint witness as quotient-periodic and
+the primitive antipodal owner deletes all of them. This is a compact theorem
+showing both why generic cyclic flatness is false and why first-owner
+quotient deletion is the correct repair. The remaining conjectural content
+is prefix flatness after ownership.

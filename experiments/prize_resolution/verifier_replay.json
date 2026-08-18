@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/dli_orthogonal_bernoulli_correlation_no_go/verify.py",
-      "seconds": 0.023397,
+      "script": "background/nodes/dli_cyclic_band_tensor_owner_deletion/verify.py",
+      "seconds": 0.037647,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "DLI_ORTHOGONAL_BERNOULLI_NO_GO_PASS single=6,6,4 ratio=16/9 first_sqrt_failure_r=3 dense_n=16\n"
+      "stdout_tail": "DLI_CYCLIC_BAND_TENSOR_OWNER_PASS n=12 counts=64,216,8 ratio=64/27 primitive_joint=0\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/dli_orthogonal_bernoulli_correlation_no_go/verify_audit.py",
-      "seconds": 0.182888,
+      "script": "background/nodes/dli_cyclic_band_tensor_owner_deletion/verify_audit.py",
+      "seconds": 0.239528,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "DLI_ORTHOGONAL_BERNOULLI_NO_GO_AUDIT_PASS sparse_bits=12 dense_bits=16 dense_counts=1296,1296,256\n"
+      "stdout_tail": "DLI_CYCLIC_BAND_TENSOR_OWNER_AUDIT_PASS n=16 counts=256,1296,16 ratio=256/81 primitive_joint=0\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

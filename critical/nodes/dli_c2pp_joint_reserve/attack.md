@@ -85,3 +85,12 @@ Hadamard mixing makes every counterexample row dense and equal-magnitude.
 The hypotheses must explicitly use cyclic phase progression, the nested
 allocation of frequencies, or antipodal first-owner deletion. Those
 target-specific features are now mandatory proof inputs.
+
+Cyclic phase progression without the owner is still insufficient. The proved
+complete-band tensor `dli_cyclic_band_tensor_owner_deletion` has two disjoint
+dense cyclic Fourier bands with exponential excess `(4/3)^r`. Fourier
+inversion localizes every joint word to a quotient-periodic four-cycle, so
+antipodal first-owner deletion removes the entire excess. This validates the
+owner but leaves the true difficulty sharply posed: control the **truncated
+low-frequency prefix after deletion**. Do not transport complete-band
+correlation, in either direction, to that prefix without a boundary theorem.

@@ -83,6 +83,13 @@ mixing makes the same counterexample rows dense and equal-magnitude, so
 coefficient flatness is not enough. Generic entropy or Brascamp-Lieb language
 without one of the target-specific inputs has no route value.
 
+Even dense cyclic phase rows do not suffice before ownership. Two complete
+disjoint Fourier residue-class bands have exact correlation excess `(4/3)^r`.
+Fourier inversion shows that every joint witness is constant on quotient
+four-cycles, so antipodal first-owner deletion kills the excess exactly. The
+live object is now the truncated low-frequency prefix after this deletion.
+Complete-band estimates have no automatic transport to that boundary object.
+
 The rate-half crossing safe side is currently split into an exact structural
 shell, the proved deep-accident cap, and the open shallow/aperiodic
 population.  The latter is equivalently a prescribed-signature
