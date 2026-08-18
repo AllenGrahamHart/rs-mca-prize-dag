@@ -481,6 +481,15 @@ certificates required by the challenge.
   quotient-periodic near-full rational fibers. A complex Hirzebruch
   inequality would give a 925-gap contradiction but is not imported without
   a characteristic-transfer theorem.
+- The pure-power quotient-periodic subclass is now an exact two-degree
+  router. If the residual direction pencil is projectively equivalent to
+  `(X^e,1)`, fiber capacity forces `e` to be 2048 or 4096. Degree 2048
+  has the single row `K'=2049`, all 218 directions and lines, and at most
+  72 missing root slots. Degree 4096 is confined to
+  `4097<=K'<=4237`, has at least 211 directions, and at most 28,744
+  missing slots. This does not classify the general rational map or pay
+  either survivor; it turns the periodic branch into two explicit
+  received-line/owner obligations.
 - The finite rank-nine prefix is proved through `K'=87`. At the first open
   row `K'=88`, paired raw scans classify all 18,741,723 source units and
   leave exactly 622,895 raw-unsafe units on offsets `1..44`. This is a

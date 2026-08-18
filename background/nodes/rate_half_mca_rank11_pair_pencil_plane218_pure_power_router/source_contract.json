@@ -1,0 +1,30 @@
+{
+  "schema": "rate-half-mca-rank11-pair-pencil-plane218-pure-power-router-v1",
+  "official_domain_order": 2097152,
+  "shortened_K_floor": 2044,
+  "shortened_K_ceiling": 5025,
+  "full_coordinate_floor_constant": 28396,
+  "full_coordinate_floor_slope": 204,
+  "direction_ceiling": 218,
+  "aggregate_degree_deficit_ceiling": 41736,
+  "surviving_degrees": [
+    2048,
+    4096
+  ],
+  "cases": {
+    "2048": {
+      "shortened_K_floor": 2049,
+      "shortened_K_ceiling": 2049,
+      "direction_floor": 218,
+      "missing_slot_ceiling": 72
+    },
+    "4096": {
+      "shortened_K_floor": 4097,
+      "shortened_K_ceiling": 4237,
+      "direction_floor": 211,
+      "duplicate_line_ceiling": 7,
+      "missing_slot_ceiling": 28744
+    }
+  },
+  "nonclaim": "The router does not prove that the endpoint direction map is pure-power and does not pay either surviving case."
+}
