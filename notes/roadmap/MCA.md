@@ -496,6 +496,16 @@ certificates required by the challenge.
   `4960<=K'<=4982`, and at least 985,788 residual coordinates are full
   218-owner planes. This is a dense-owner and saturated-plane router, not a
   payment.
+- The extremal `q=3170` population is now a saturated plane-line design.
+  Every 218-owner plane recurs at most `K'-2044` times by its own endpoint
+  shortening, so the 985,788 full-owner coordinates force 339 to 358
+  distinct 218-point planes. Balancing their point-plane incidences over the
+  3,170 selected types forces at least 22,752 plane pairs to meet in exactly
+  15 selected points. Since at most 15 rich planes can pass through one such
+  line, at least 217 distinct saturated 15-lines occur. The line-cap equality
+  ledger gives each line at least `K'-2609>=2351` residual common-core
+  coordinates. The live endpoint target is now to couple these recurrent
+  lines and the planes' internal 210-direction banks.
 - The endpoint occupancy 218 is itself rigid. Its plane-specific shortening
   has `2044<=K'<=5025` and forces at least `28396+204K'` full 15-point line
   fibers, distributed over 210 to 218 affine lines and at least 210

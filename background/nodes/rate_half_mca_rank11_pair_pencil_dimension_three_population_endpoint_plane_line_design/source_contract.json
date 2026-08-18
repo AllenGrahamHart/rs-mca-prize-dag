@@ -1,0 +1,22 @@
+{
+  "schema": "rate-half-mca-rank11-dimension-three-population-endpoint-plane-line-v1",
+  "type_population": 3170,
+  "residual_dimension_floor": 4960,
+  "residual_dimension_ceiling": 4982,
+  "plane_occupancy": 218,
+  "line_occupancy": 15,
+  "plane_local_residual_dimension_floor": 2044,
+  "full_owner_floor_constant": -13661092,
+  "full_owner_floor_slope": 2953,
+  "distinct_plane_floor": 339,
+  "distinct_plane_ceiling_on_rows": 358,
+  "plane_pair_intersection_cap": 15,
+  "minimum_saturated_plane_pairs": 22752,
+  "planes_per_saturated_line_ceiling": 15,
+  "saturated_line_pair_capacity": 105,
+  "distinct_saturated_line_floor": 217,
+  "saturated_line_common_core_floor": 1045967,
+  "saturated_line_local_dimension_ceiling": 2609,
+  "saturated_line_residual_recurrence_floor": 2351,
+  "nonclaim": "The q=3170 endpoint and its retained records are not paid or excluded."
+}

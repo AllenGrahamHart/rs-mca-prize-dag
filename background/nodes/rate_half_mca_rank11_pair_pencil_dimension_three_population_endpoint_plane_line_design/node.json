@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_pair_pencil_dimension_three_population_endpoint_plane_line_design",
+    "title": "The q=3170 endpoint forces 339 rich planes and 217 saturated lines",
+    "status": "PROVED",
+    "closure": "endpoint-plane recurrence, balanced plane incidence, and saturated-line extraction",
+    "statement": "In the scalar-dimension-three quotient pair-pencil branch at the extremal population q=3170, the residual dimension lies in 4960..4982. The full-owner coordinate floor and the 218-plane endpoint shortening force between 339 and 358 distinct 218-point affine owner planes. A balanced point-plane incidence count forces at least 22752 pairs of those planes to meet in a saturated 15-point selected line, hence at least 217 distinct saturated lines. Every such line has at least K'-2609>=2351 residual common-core coordinates. No endpoint row is excluded or paid.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_population_endpoint_plane_line_design/statement.md",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_population_endpoint_plane_line_design/proof.md",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_population_endpoint_plane_line_design/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_population_endpoint_plane_line_design/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_population_endpoint_plane_line_design/audit.md",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_population_endpoint_plane_line_design/result.md",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_population_endpoint_plane_line_design/frontier.md",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_population_endpoint_plane_line_design/provenance.md",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_population_endpoint_plane_line_design/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_population_endpoint_plane_line_design/verify.py",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_population_endpoint_plane_line_design/verify_audit.py"
+    ],
+    "upstream": {
+      "label": "base-field-normalized split-pencil census / saturated plane-line design",
+      "relation": "OVERLAP"
+    }
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_pair_pencil_dimension_three_type_population_ceiling"},
+    {"from": "rate_half_mca_rank11_pair_pencil_plane218_projective_direction_bank"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location"}
+  ],
+  "refutes": []
+}

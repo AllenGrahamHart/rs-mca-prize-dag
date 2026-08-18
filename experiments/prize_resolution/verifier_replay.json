@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_type_population_ceiling/verify.py",
-      "seconds": 0.054931,
+      "script": "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_population_endpoint_plane_line_design/verify.py",
+      "seconds": 0.053437,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RANK11_D3_TYPE_POP_PASS qmax=3170 dense=80446 K=4960..4982 full=985788 deficit=18372095406\n"
+      "stdout_tail": "RANK11_D3_ENDPOINT_DESIGN_PASS planes=339 pairs=22752 lines=217 recurrence=2351\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_type_population_ceiling/verify_audit.py",
-      "seconds": 0.050366,
+      "script": "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_population_endpoint_plane_line_design/verify_audit.py",
+      "seconds": 0.04853,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RANK11_D3_TYPE_POP_AUDIT_PASS q=520..3170 dense=80446 K=4960..4982 full=985788\n"
+      "stdout_tail": "RANK11_D3_ENDPOINT_DESIGN_AUDIT_PASS rows=23 planes=339..358 lines=217 recurrence=2351\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"
