@@ -2443,6 +2443,31 @@
     "our_sha": "be2220c11",
     "his_sha": "2788d5ec3"
    }
+  },
+  {
+   "our_node": "rate_half_mca_rank11_heavy_plane_ruling_degree24_order32_seed",
+   "his_object": {
+    "label": "anchored rich-flat rank-eleven factor-flag synchronization",
+    "file": "experimental/campaigns/kb-mca-rank11-rich-flat-post-1172/01_frontier_map.md",
+    "line": "factor-flag synchronization"
+   },
+   "relation": "OVERLAP",
+   "chain": "macroscopic Segre ruling orientation -> heavy pair-core noncoalescence -> four-space core recovery -> actual degree-24 order-32 packet",
+   "scope": "official KoalaBear sextic row inside the assumed base-free 2 x 5 factor branch; one heavy ruling orientation yields 32 actual shortened records, at least 24 on one affine explanation line and at least one off it",
+   "owner": "US",
+   "nonclaims": [
+    "does not produce a whole-line chronology owner",
+    "does not pay the partial-relative or support-alignment outputs",
+    "does not synchronize local seed cores",
+    "does not close the heavy bucket, rank eleven, or MCA"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "ff3194473",
+    "his_sha": "2788d5ec3"
+   }
   }
  ]
 }
