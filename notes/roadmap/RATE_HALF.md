@@ -338,9 +338,24 @@ therefore excluded from every unsafe survivor. Under exact-product and
 distinct-pencil hypotheses, incidence also synchronizes at least `42325`
 coordinates into the fixed base locus. This is a precise multiplicative
 subclass, not the general upstream base-field-normalized split-pencil census.
-The next route-deciding theorem must pay or classify collective span
-dimensions `7..10`; another per-container rich-flat estimate cannot close the
-row by itself.
+Reoptimizing once more with the dimension-nine affine cap pays every
+collective span below full rank. At `(tau,h)=(1679,38384)`, the transverse
+envelope plus one dimension-nine union charge is
+
+```text
+274969785307868288,
+slack=10942803526799.
+```
+
+Thus every unsafe survivor has `V_nt=C'` and both spaces have dimension ten.
+It carries at least `65167969673715471` nontransverse slopes,
+`262093370` row spaces, and `16384884` promoted rich containers with at least
+`38385` common zeros each. The adjacent `h=38385` misses by
+`2062328934603`. The globally best dimension-ten version of this formula
+misses by `773076621594690156`, so bounded-span optimization is exhausted.
+The next route-deciding theorem must exploit full-span basis exchange,
+container incidence, or a global owner/factor relation; another
+per-container rich-flat estimate cannot close the row by itself.
 
 Canonical `prize` head `859a27a4b` has integrated the rank-eleven chain
 through clone collapse. Upstream PR `#1169` at `b4bad8607` now supplies the

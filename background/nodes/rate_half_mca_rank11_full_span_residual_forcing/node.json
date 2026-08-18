@@ -1,0 +1,31 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_full_span_residual_forcing",
+    "title": "Rank-eleven full-span residual forcing",
+    "status": "PROVED",
+    "closure": "every unsafe rank-eleven survivor has full ten-dimensional collective nontransverse correction span",
+    "statement": "At the official KoalaBear post-near rank-eleven interface, use tau=1679 and h=38384 in the anchored row-space router. The transverse envelope is 209812758437679617. If the collective nontransverse row-space span V_nt had dimension at most nine, ordinary affine-span plus sub-square two-fold interleaving would cap all nontransverse slopes by R_9=(n-A) floor(C(n-K+9,9)/C(A-K+9,9))=65157026870188671. Their total 274969785307868288 is below B_*=274980728111395087 by 10942803526799. Hence every unsafe line has dim(V_nt)>=10; since V_nt<=C' and dim(C')<=10, dim(V_nt)=dim(C')=10. Its nontransverse mass is at least 65167969673715471, forcing at least 262093370 represented row spaces and 16384884 distinct promoted rich containers with at least 38385 common actual zeros each. Adjacent h=38385 is over by 2062328934603. The globally best dimension-ten one-container formula remains over by 773076621594690156.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_full_span_residual_forcing/statement.md",
+      "background/nodes/rate_half_mca_rank11_full_span_residual_forcing/proof.md",
+      "background/nodes/rate_half_mca_rank11_full_span_residual_forcing/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_full_span_residual_forcing/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_full_span_residual_forcing/audit.md",
+      "background/nodes/rate_half_mca_rank11_full_span_residual_forcing/result.md",
+      "background/nodes/rate_half_mca_rank11_full_span_residual_forcing/provenance.md",
+      "background/nodes/rate_half_mca_rank11_full_span_residual_forcing/verify.py",
+      "background/nodes/rate_half_mca_rank11_full_span_residual_forcing/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_low_span_residual_payment"},
+    {"from": "rate_half_mca_rank11_pair_core_route_cut_import"},
+    {"from": "list_subsqrt_interleaving_collapse"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location"}
+  ],
+  "refutes": []
+}

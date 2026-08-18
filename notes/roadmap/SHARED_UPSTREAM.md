@@ -33,12 +33,12 @@ and no-go fences are supporting material, not promoted theorems.
 
 Open PR `#1173` (`2788d5ec3`) is the current anchored rich-flat packet. The
 local continuation proves that every unsafe KoalaBear rank-eleven survivor
-has collective nontransverse correction span at least seven and at least
-`8406` distinct promoted rich containers. It also pays the complete common
-`2 x 3` factor-product-cover subclass.
+has full ten-dimensional collective nontransverse correction span and at
+least `16384884` distinct promoted rich containers. The intermediate theorem
+also pays the complete common `2 x 3` factor-product-cover subclass.
 
 Treat this as a provisional extension while `#1173` is open. Do not race its
 branch or identify the product-cover subclass with the general
 base-field-normalized split-pencil census. Once the stack is stable, export
-the low-span envelope, the exact adjacent payment wall, and the collective
-span terminal as one continuation packet.
+the low/full-span envelopes, their exact adjacent payment walls, and the
+full-span terminal as one continuation packet.
