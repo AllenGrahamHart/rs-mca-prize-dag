@@ -18547,3 +18547,22 @@ tools/ramguard modal -- timeout --signal=TERM --kill-after=15s 420s \
 are boundary components killed by route guards. This is not used as a proof
 until the exact saturations return. The two zero-dimensional fibers remain
 wholly unresolved before this replay.
+
+**Outcome:** `COMPLETE`. Modal app `ap-gjp7cX9I4U5M6OGDjM7sZI` returned the
+singleton unit ideal at all nine roots. First-unit stages were:
+
+```text
+root 0:          route:3  (t)
+root 16711679:   route:0  (b)
+roots 1, 451278922, 1629292471, 2113994754, 2130706432:
+                 route:5  (b+1)
+roots 47655010, 1893783428:
+                 q4
+```
+
+Thus seven fibers are exact route-boundary components and the two finite
+admissible candidates are excluded by the omitted original `q4` equation.
+Together with request 99 and the exact generic determinant, this closes every
+fiber of the `FFF` chart. Result SHA-256:
+`71bb63b164620fb408c08377e33224db69b6dac929ab375ead370ebd658e45ee`.
+The checker rejects all four hostile mutations.
