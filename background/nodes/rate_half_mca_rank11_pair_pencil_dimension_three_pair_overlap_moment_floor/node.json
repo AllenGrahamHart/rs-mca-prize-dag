@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_pair_pencil_dimension_three_pair_overlap_moment_floor",
+    "title": "Pair-overlap moments force residual dimension at least 4836",
+    "status": "PROVED",
+    "closure": "exact balanced second moment for shortened pair cores",
+    "statement": "In the scalar-dimension-three quotient pair-pencil branch, shorten by the complete common received-pair core J and put K'=K-|J|. Every two residual pair cores intersect in at most K'-1 coordinates. The exact balanced second moment for 520 residual cores of size 67470+K' in a domain of size 1048576+K' excludes every K'<=4835. Hence 4836<=K'<=595763 and 452813<=|J|<=1043740. At K'=4835 the pair-overlap capacity is short by 2110; at K'=4836 it has slack 115260. No payment is claimed.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_pair_overlap_moment_floor/statement.md",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_pair_overlap_moment_floor/proof.md",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_pair_overlap_moment_floor/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_pair_overlap_moment_floor/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_pair_overlap_moment_floor/audit.md",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_pair_overlap_moment_floor/result.md",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_pair_overlap_moment_floor/frontier.md",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_pair_overlap_moment_floor/provenance.md",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_pair_overlap_moment_floor/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_pair_overlap_moment_floor/verify.py",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_pair_overlap_moment_floor/verify_audit.py"
+    ],
+    "upstream": {
+      "label": "base-field-normalized split-pencil census / exact SPI overlap ledger",
+      "relation": "OVERLAP"
+    }
+  },
+  "requires": [
+    {
+      "from": "rate_half_mca_rank11_pair_pencil_dimension_three_rich_plane_recurrence_sharpening"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}

@@ -474,6 +474,17 @@ certificates required by the challenge.
   alternative remains a 219-type exact affine-three coordinate fiber
   carrying at least 6,351 records. These values supersede the earlier
   dimension-three floors `319539` and `407831`.
+- The shortened 520-core family also has an exact pair-overlap moment floor.
+  Distinct residual pair cores meet in at most `K'-1` coordinates. Balancing
+  the `520(67470+K')` incidences over `1048576+K'` coordinates and comparing
+  the resulting minimum of `sum C(d_x,2)` with the total pair capacity
+  excludes every `K'<=4835`. The adjacent rows have deficit 2,110 and slack
+  115,260, respectively. Thus the current dimension-three interval is
+  `4836<=K'<=595763`, equivalently
+  `452813<=|J|<=1043740`. Its first 87 rows overlap numerically with the
+  existing large-shared-core payment range `K'<=4922`, but no payment
+  transport is claimed until the selected 520 pair types are matched to the
+  payment theorem's universally quantified low-margin records.
 - The endpoint occupancy 218 is itself rigid. Its plane-specific shortening
   has `2044<=K'<=5025` and forces at least `28396+204K'` full 15-point line
   fibers, distributed over 210 to 218 affine lines and at least 210

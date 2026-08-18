@@ -1,0 +1,23 @@
+{
+  "schema": "rate-half-mca-rank11-dimension-three-pair-overlap-moment-floor-v1",
+  "selected_pair_cores": 520,
+  "residual_length_offset": 1048576,
+  "residual_core_offset": 67470,
+  "pair_overlap_offset": 1,
+  "scalar_dimension": 3,
+  "average_floor_intervals": [
+    [3, 1167, 33],
+    [1168, 3331, 34],
+    [3332, 4835, 35]
+  ],
+  "last_excluded_residual_dimension": 4835,
+  "last_excluded_deficit": 2110,
+  "first_feasible_residual_dimension": 4836,
+  "first_feasible_slack": 115260,
+  "residual_dimension_ceiling": 595763,
+  "common_core_floor": 452813,
+  "common_core_ceiling": 1043740,
+  "shared_payment_residual_ceiling": 4922,
+  "shared_payment_overlap_row_count": 87,
+  "nonclaim": "The moment floor does not transport the selected 520-type common core into the all-low-record shared-core payment."
+}
