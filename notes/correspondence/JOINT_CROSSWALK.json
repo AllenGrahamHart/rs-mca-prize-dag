@@ -3345,6 +3345,32 @@
     "our_sha": "69add8931",
     "his_sha": "2788d5ec3"
    }
+  },
+  {
+   "our_node": "rate_half_mca_rank11_pair_pencil_plane218_projective_direction_bank",
+   "his_object": {
+    "label": "Q quotient flatness / BC base-field-normalized split-pencil census",
+    "file": "experimental/grande_finale.tex, CAP25 v13.2, towards-prize.md, and agents.md",
+    "line": "finite max-fiber calibration; moving-root bound for one-parameter split pencils; BC common-GCD branch"
+   },
+   "relation": "OVERLAP",
+   "chain": "affine-plane endpoint 218 -> common-core shortening with 2044<=K'<=5025 -> at least 28396+204K' full 15-point fibers -> at least 210 projective directions -> aggregate root deficit at most 41736 and dual 1603-pair residual",
+   "scope": "official KoalaBear quotient pair-pencil endpoint; converts the surviving plane to a calibrated near-full rational-pencil fiber bank with uniform root saturation above 0.9618",
+   "owner": "JOINT",
+   "nonclaims": [
+    "does not import the complex Hirzebruch inequality into the official finite field",
+    "does not exclude quotient-periodic rational maps with near-full fibers",
+    "does not pay the 218-plane endpoint",
+    "does not pay the global-atom branch or high complexity",
+    "does not pay rank eleven or close MCA"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "792aefa85",
+    "his_sha": "93fba1be3"
+   }
   }
  ]
 }
