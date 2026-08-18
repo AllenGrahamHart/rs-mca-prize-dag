@@ -2618,6 +2618,31 @@
     "our_sha": "b5e2e2734",
     "his_sha": "d296510e80"
    }
+  },
+  {
+   "our_node": "rate_half_mca_rank11_exception_spi_affine_reflection_fence",
+   "his_object": {
+    "label": "aperiodic locator image-fiber inverse theorem",
+    "file": "towards-prize.md",
+    "line": "quotient-periodic fibers explicitly budgeted"
+   },
+   "relation": "OVERLAP",
+   "chain": "bounded heavy-ruling exception SPI -> official-domain additive-energy average -> non-domain-preserving affine-reflection split fibers",
+   "scope": "the official KoalaBear base field and order-2^21 domain; some nonzero reflection yields at least 1032 disjoint quadratic fibers despite not globally stabilizing the multiplicative domain",
+   "owner": "US",
+   "nonclaims": [
+    "does not contradict the upstream reserve-calibrated aperiodic image-fiber bound",
+    "does not lift the affine-reflection pencil to an actual heavy-ruling rational packet",
+    "does not pay partial pullbacks or classify the primitive twenty-fiber remainder",
+    "is not an MCA counterexample and does not close rank eleven or MCA"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "4aead609e",
+    "his_sha": "d296510e80"
+   }
   }
  ]
 }
