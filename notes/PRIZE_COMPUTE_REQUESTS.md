@@ -18414,4 +18414,21 @@ tools/ramguard modal -- timeout --signal=TERM --kill-after=15s 720s \
   experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_fff_exceptional_roots_modal.py
 ```
 
-**Outcome:** pending.
+**Outcome:** `COMPLETE`. Modal app `ap-5hqyVNmIQiOaC6j0YkZe3N` formed a
+global LCM of degree 19060 and found exactly fourteen base-field roots:
+
+```text
+0, 1, 16711679, 47655010, 451278922, 465887767, 666570304,
+676802667, 1036595577, 1141382033, 1629292471, 1893783428,
+2113994754, 2130706432.
+```
+
+The determinant group has all fourteen roots and contains the root union of
+every transformation group. Group root counts are respectively
+`8,7,10,10,4,8,14`. Global-LCM SHA-256:
+`3cbe13778d0ce248412fb3e9e5c800fc2e8717bfa30d6ebd571252a3a3c11593`;
+root-polynomial SHA-256:
+`3589dc59d90716f76248f83b667411527fda6ceaff5b845b9dc673afbc5d4592`;
+result SHA-256:
+`e845607b89e7d21159bd308cbf00f9a3fd74a25120bc4d479a607f7e9d8751a7`.
+The checker rejects all four hostile mutations.
