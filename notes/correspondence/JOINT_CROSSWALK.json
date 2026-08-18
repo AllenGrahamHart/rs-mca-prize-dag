@@ -3449,6 +3449,32 @@
     "our_sha": "473f41afc",
     "his_sha": "6b1037e1"
    }
+  },
+  {
+   "our_node": "rate_half_mca_rank11_pair_pencil_dimension_three_type_population_ceiling",
+   "his_object": {
+    "label": "base-field-normalized split-pencil census / exact type-population ledger",
+    "file": "PR #1170 at 6186c7b1, experimental/notes/thresholds/kb_mca_rank11_quotient_pair_plane218_v1.md",
+    "line": "conditional complete-family population ceiling, dense owner, and saturated-plane endpoint"
+   },
+   "relation": "OVERLAP",
+   "chain": "plane cap 218 plus exact pair-overlap tangent -> compatibility factor -109q(q-218)(619q-1962831) -> q<=3170 -> 255011043 retained records force one 80446-record type; q=3170 forces 4960<=K'<=4982 and at least 985788 full owner planes",
+   "scope": "official KoalaBear scalar-dimension-three quotient pair-pencil branch when PR #1170's conditional source family is the complete retained quotient-type family",
+   "owner": "JOINT",
+   "nonclaims": [
+    "does not prove the additional complete-family source hypothesis",
+    "does not pay the 80446-record dense quotient type",
+    "does not exclude the saturated q=3170 endpoint",
+    "does not transport the full-family shared-core payment",
+    "does not pay rank eleven or close MCA"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "PROVED_CONDITIONAL_ROUTE_CUT_PR1170",
+   "lean": null,
+   "provenance": {
+    "our_sha": "1d52ff301",
+    "his_sha": "6186c7b1"
+   }
   }
  ]
 }

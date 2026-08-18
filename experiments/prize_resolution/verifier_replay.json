@@ -9,7 +9,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_type_population_ceiling/verify.py",
-      "seconds": 0.06282,
+      "seconds": 0.054931,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "RANK11_D3_TYPE_POP_PASS qmax=3170 dense=80446 K=4960..4982 full=985788 deficit=18372095406\n"
@@ -17,7 +17,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_type_population_ceiling/verify_audit.py",
-      "seconds": 0.054666,
+      "seconds": 0.050366,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "RANK11_D3_TYPE_POP_AUDIT_PASS q=520..3170 dense=80446 K=4960..4982 full=985788\n"

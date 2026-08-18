@@ -98,6 +98,14 @@ quantifier is not supplied by the retained quotient-type interface. Continue
 with a chronology-safe complementary charge or a stronger split-pencil
 census; do not record the 87 numerically overlapping rows as paid.
 
+Commit `6186c7b1` adds the complete-family population consequence. Under the
+additional hypothesis that the packet's scalar family is the complete
+retained quotient-type family, the exact compatibility factor gives
+`q<=3170`, one 80,446-record dense type, and a saturated endpoint with at
+least 985,788 full 218-owner coordinates. This is the preferred next input
+for owner-safe quotient charging. It is not a proof of the complete-family
+source hypothesis and does not pay the dense owner.
+
 ## Future Q/SPI packet
 
 The reduced DLI lane now has two fully proved structural results that use
