@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_exception_spi_affine_reflection_fence/verify.py",
-      "seconds": 0.029843,
+      "script": "background/nodes/rate_half_mca_rank11_exception_spi_affine_reflection_fixed_pencil_cap/verify.py",
+      "seconds": 0.031835,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RANK11_EXCEPTION_SPI_AFFINE_REFLECTION_PASS official_points=2065 official_fibers=1032 toy_fibers=6\n"
+      "stdout_tail": "RANK11_AFFINE_FIXED_PENCIL_CAP_PASS maximum=2308 fibers=1154 fixed_cosets=1\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_exception_spi_affine_reflection_fence/verify_audit.py",
-      "seconds": 0.021295,
+      "script": "background/nodes/rate_half_mca_rank11_exception_spi_affine_reflection_fixed_pencil_cap/verify_audit.py",
+      "seconds": 0.023614,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RANK11_EXCEPTION_SPI_AFFINE_REFLECTION_AUDIT_PASS official_fibers=1032 toy_fibers=6\n"
+      "stdout_tail": "RANK11_AFFINE_FIXED_PENCIL_CAP_AUDIT_PASS maximum=2308 fibers=1154 cosets=1016\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

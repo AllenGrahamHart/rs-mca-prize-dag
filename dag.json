@@ -41335,6 +41335,30 @@
    }
   },
   {
+   "id": "rate_half_mca_rank11_exception_spi_affine_reflection_fixed_pencil_cap",
+   "title": "Every fixed nonzero affine-reflection pencil has at most 1154 official-domain fibers",
+   "status": "PROVED",
+   "closure": "complete 1016-coset official-field census with paired implementations and exact first-moment audit",
+   "statement": "For p=2130706433 and H=mu_(2^21), every nonzero c has R_c=#{x in H:c-x in H} at most 2308. Hence the fixed pencil X^2-cX+gamma has at most 1154 pairwise-disjoint split squarefree fibers on H. The bound is sharp: the unique maximizing H-coset is represented by c=3^74=1177199610. This caps one fixed nonzero affine-reflection pencil; it does not synchronize the packet-dependent pencils emitted by the heavy-ruling normal form.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_exception_spi_affine_reflection_fixed_pencil_cap/statement.md",
+    "background/nodes/rate_half_mca_rank11_exception_spi_affine_reflection_fixed_pencil_cap/proof.md",
+    "background/nodes/rate_half_mca_rank11_exception_spi_affine_reflection_fixed_pencil_cap/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_exception_spi_affine_reflection_fixed_pencil_cap/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_exception_spi_affine_reflection_fixed_pencil_cap/audit.md",
+    "background/nodes/rate_half_mca_rank11_exception_spi_affine_reflection_fixed_pencil_cap/result.md",
+    "background/nodes/rate_half_mca_rank11_exception_spi_affine_reflection_fixed_pencil_cap/provenance.md",
+    "background/nodes/rate_half_mca_rank11_exception_spi_affine_reflection_fixed_pencil_cap/frontier.md",
+    "background/nodes/rate_half_mca_rank11_exception_spi_affine_reflection_fixed_pencil_cap/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_exception_spi_affine_reflection_fixed_pencil_cap/verify.py",
+    "background/nodes/rate_half_mca_rank11_exception_spi_affine_reflection_fixed_pencil_cap/verify_audit.py"
+   ],
+   "upstream": {
+    "label": "split-pencil census / fixed affine-reflection subbranch",
+    "relation": "OVERLAP"
+   }
+  },
+  {
    "id": "rate_half_mca_rank11_exception_spi_dihedral_quotient_fence",
    "title": "Dihedral quotient pencils survive the twenty-fiber SPI interface",
    "status": "PROVED",
@@ -81732,6 +81756,16 @@
   },
   {
    "from": "rate_half_mca_rank11_exception_spi_affine_reflection_fence",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_exception_spi_affine_reflection_fence",
+   "to": "rate_half_mca_rank11_exception_spi_affine_reflection_fixed_pencil_cap",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_exception_spi_affine_reflection_fixed_pencil_cap",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
   },

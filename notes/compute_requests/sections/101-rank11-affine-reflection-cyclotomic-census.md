@@ -53,3 +53,26 @@ tools/ramguard modal -- timeout --signal=TERM --kill-after=15s 120s \
   ~/.venvs/modal/bin/modal run \
   experiments/prize_resolution/rate_half_mca_rank11_affine_reflection_cyclotomic_census_modal.py
 ```
+
+## Complete outcome and scope repair
+
+- **status:** `COMPLETE`
+- **first complete app:** `ap-m004TekD9vwl8btNU1jtr2`
+- **capture replay app:** `ap-f4Sx3SasZ3EBY9ZBSS4WCC`
+- **result SHA-256:**
+  `a559b38b99fa6c2a59b4c15b9491f75752cdbd0ba2b4e1901dd311e91066238f`
+- **paired rows:** `1016/1016`; implementation disagreements: `0`
+- **exact first moment:** `sum_j R_(3^j)=2097151=N-1`
+- **exact maximum:** `2308`, uniquely at coset index `74`, represented by
+  `c=1177199610`
+- **exact maximum nonfixed fibers:** `1154`
+- **checker:** PASS; hostile mutations rejected `9/9`
+
+The preregistered numerical predicate passes: `1154<=5523`. The proposed
+aggregate conclusion does not follow from the census alone, however. The
+current exception-SPI normal form may return different pencils for different
+twenty-record packets from one pair type. Multiplying the fixed-pencil cap by
+`58361` is authorized only after a separate packet-pencil synchronization,
+bounded-multiplicity assignment, or chronology theorem. The promoted PROVED
+node therefore states the exact fixed-pencil cap and leaves aggregate
+transport explicit.

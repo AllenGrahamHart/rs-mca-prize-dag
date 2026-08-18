@@ -241,6 +241,16 @@ certificates required by the challenge.
   ownership, first-match chronology, or synchronization across many packets;
   a standalone bounded-degree split-pencil classification at twenty fibers
   is not a viable closure route.
+- The complete official cyclotomic census now caps each fixed nonzero affine
+  reflection sharply. Across all 1016 multiplicative domain cosets,
+  `max_c R_c=2308`, uniquely at the coset represented by
+  `c=1177199610`; this gives exactly 1,154 nonfixed quadratic fibers. The
+  census closes the fixed-pencil leaf but not its aggregate deployment. The
+  exception-SPI normal form is packet-local, so different twenty-record
+  packets are not yet known to select the same pencil. A packet-pencil
+  synchronization, bounded-multiplicity assignment, or chronology theorem is
+  required before multiplying the 1,154 cap across heavy pair types. The
+  antipodal `c=0` class remains in the quotient-periodic bucket.
 - The finite rank-nine prefix is proved through `K'=87`. At the first open
   row `K'=88`, paired raw scans classify all 18,741,723 source units and
   leave exactly 622,895 raw-unsafe units on offsets `1..44`. This is a
