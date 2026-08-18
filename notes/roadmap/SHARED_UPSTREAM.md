@@ -37,8 +37,9 @@ has full ten-dimensional collective nontransverse correction span and at
 least `16384884` distinct promoted rich containers. The intermediate theorem
 also pays the complete common `2 x 3` factor-product-cover subclass.
 
-Treat this as a provisional extension while `#1173` is open. Do not race its
-branch or identify the product-cover subclass with the general
-base-field-normalized split-pencil census. Once the stack is stable, export
-the low/full-span envelopes, their exact adjacent payment walls, and the
-full-span terminal as one continuation packet.
+Treat this as a provisional extension while `#1173` is open. The exact
+low/full-span envelopes, adjacent walls, public proof commits, and full-span
+terminal are attached to that PR in comment `#issuecomment-5327013463`. Do not
+race its branch or identify the product-cover subclass with the general
+base-field-normalized split-pencil census. Hold a formal successor packet
+until the stack is stable.

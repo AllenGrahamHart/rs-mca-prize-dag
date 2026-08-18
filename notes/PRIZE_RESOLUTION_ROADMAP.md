@@ -45533,7 +45533,8 @@ by `773076621594690156`; this payment family is exhausted.
 node/workboard item: KoalaBear rank-eleven collective rich-flat span
 result: NARROWED
 DAG delta: +1 PROVED background node; critical open count remains 28
-upstream delta: stronger exact continuation of live PR #1173; held for one consolidated packet
+upstream delta: scoped continuation posted to PR #1173 as issuecomment-5327013463;
+                formal successor held while the stack is live
 delta-star movement: none
 new assumptions: none
 live compute requests: none
@@ -45550,3 +45551,11 @@ tools/ramguard tiny -- python3 background/nodes/rate_half_mca_rank11_full_span_r
 tools/ramguard tiny -- python3 background/nodes/rate_half_mca_rank11_full_span_residual_forcing/verify.py --tamper-selftest
 tools/ramguard local -- python3 tools/verify_prize_dag.py
 ```
+
+## Upstream export
+
+The exact full-span theorem, both adjacent payment walls, the dimension-ten
+method wall, public proof commits `0badb9680` and `31f1ba744`, and explicit
+nonclosure fences were posted at
+`https://github.com/przchojecki/rs-mca/pull/1173#issuecomment-5327013463`.
+No competing PR was opened against the live stack.
