@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_pair_pencil_dimension_two_secant_line_packing_sharpening",
+    "title": "Dimension two forces a 133485-coordinate common core",
+    "status": "PROVED",
+    "closure": "affine secant-line incidence and common-core petal packing",
+    "statement": "In scalar dimension two, the 520 selected points with affine-line occupancy at most 15 determine at least 1349 distinct affine secant lines. Their chosen pair-core intersections meet pairwise exactly in the common received-pair core J. Hence |J|>=133485. After reversible shortening by J, at least 1349 disjoint residual petals have size at least 1455 and leave at most 872 unoccupied coordinates at the minimum core size. Scalar dimensions three and four and payment of this shortened razor packing remain open.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_two_secant_line_packing_sharpening/statement.md",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_two_secant_line_packing_sharpening/proof.md",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_two_secant_line_packing_sharpening/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_two_secant_line_packing_sharpening/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_two_secant_line_packing_sharpening/audit.md",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_two_secant_line_packing_sharpening/result.md",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_two_secant_line_packing_sharpening/frontier.md",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_two_secant_line_packing_sharpening/provenance.md",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_two_secant_line_packing_sharpening/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_two_secant_line_packing_sharpening/verify.py",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_two_secant_line_packing_sharpening/verify_audit.py"
+    ],
+    "upstream": {
+      "label": "common-GCD stratum / base-field-normalized split-pencil census",
+      "relation": "OVERLAP"
+    }
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_pair_pencil_affine_line_cap_direction_router"},
+    {"from": "rate_half_mca_rank11_pair_pencil_dimension_two_common_core_shortening"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location"}
+  ],
+  "refutes": []
+}

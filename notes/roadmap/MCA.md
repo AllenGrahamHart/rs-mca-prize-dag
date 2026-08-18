@@ -424,6 +424,15 @@ certificates required by the challenge.
   record, quotient deficiency two, and `m-K=67472`. The live pair-pencil
   alternatives are now this shortened razor packing or scalar dimensions
   three and four.
+- Using every affine secant line sharpens that dimension-two core almost to
+  the ambient pair-intersection floor. Every scalar point needs at least 38
+  incident lines; the exact point-line and ordered-pair moments force at
+  least 1,349 distinct secant lines. Their actual core intersections overlap
+  exactly in `J`, including across parallel lines, so `|J|>=133485`. At the
+  minimum, reversible shortening leaves 1,349 disjoint 1,455-point petals
+  and only 872 unused coordinates. The next exact target is to reconcile
+  this near-partition with the two-point quotient exceptions and first-owner
+  record multiplicities.
 - The finite rank-nine prefix is proved through `K'=87`. At the first open
   row `K'=88`, paired raw scans classify all 18,741,723 source units and
   leave exactly 622,895 raw-unsafe units on offsets `1..44`. This is a

@@ -1,0 +1,15 @@
+{
+  "schema": "rate-half-mca-rank11-pair-pencil-dimension-two-secant-line-packing-sharpening-v1",
+  "n": 2097152,
+  "selected_points": 520,
+  "line_occupancy_cap": 15,
+  "lines_per_point_floor": 38,
+  "point_line_incidence_floor": 19760,
+  "ordered_pair_count": 269880,
+  "affine_secant_line_floor": 1349,
+  "direction_intersection_floor": 134940,
+  "common_core_floor": 133485,
+  "residual_petal_floor": 1455,
+  "minimum_floor_slack": 872,
+  "nonclaim": "The shortened petal packing and scalar dimensions three and four are not paid."
+}
