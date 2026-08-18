@@ -113,3 +113,16 @@ Primitive ownership is exactly `W!=0`, so `Z_0-C_1` is the nonzero-`W`
 pair count. A viable algebraic route may classify or count these pairs, but
 must still couple the resulting numerator estimate to the tower marginals;
 the normal form alone is not a C2'' bound.
+
+Primitivity plus arbitrary disjoint cyclic bands is also too weak. The exact
+conjugate-band tensor `dli_cyclic_conjugate_band_primitive_no_go` has two
+disjoint bands defining the same event; after owner deletion its ratio is
+
+```text
+(64/9)^r(1-9^(-r)),
+```
+
+already above `sqrt(2n)` at `n=8`. The official prefix avoids this aliasing
+because `t<n/2` and no pair `f,n-f` occurs. Any proposed theorem must retain
+that one-sided low-prefix hypothesis explicitly; “cyclic, disjoint, and
+primitive” is a proved false premise.

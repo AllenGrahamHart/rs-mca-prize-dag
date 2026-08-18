@@ -104,6 +104,14 @@ bounded-degree nonzero-`W` pair census. This is now the preferred algebraic
 classification surface. It does not yet price the pair census or the deeper
 tower.
 
+The one-sided qualifier is now known to be essential. Two disjoint conjugate
+cyclic bands can define the same binary null event and retain primitive
+correlation `(64/9)^r(1-9^(-r))` after owner deletion. The ratio is
+`512/81>sqrt(16)` at the first block and grows exponentially. The official
+range `1,...,t` has `t<n/2`, so it contains no conjugate pair. Future
+correlation statements must print this prefix hypothesis rather than claim a
+generic result for disjoint cyclic bands.
+
 The rate-half crossing safe side is currently split into an exact structural
 shell, the proved deep-accident cap, and the open shallow/aperiodic
 population.  The latter is equivalently a prescribed-signature

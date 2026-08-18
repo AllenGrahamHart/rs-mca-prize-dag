@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/dli_first_junction_split_pell_normal_form/verify.py",
-      "seconds": 2.259874,
+      "script": "background/nodes/dli_cyclic_conjugate_band_primitive_no_go/verify.py",
+      "seconds": 0.023529,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "DLI_FIRST_JUNCTION_SPLIT_PELL_PASS n=16 null=224 owner=16 primitive=208\n"
+      "stdout_tail": "DLI_CYCLIC_CONJUGATE_PRIMITIVE_NO_GO_PASS n=8 marginal=36 owner=4 primitive=32 ratio=512/81\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/dli_first_junction_split_pell_normal_form/verify_audit.py",
-      "seconds": 1.117945,
+      "script": "background/nodes/dli_cyclic_conjugate_band_primitive_no_go/verify_audit.py",
+      "seconds": 0.283622,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "DLI_FIRST_JUNCTION_SPLIT_PELL_AUDIT_PASS states=65536 normal=224 primitive=208 owner=16\n"
+      "stdout_tail": "DLI_CYCLIC_CONJUGATE_PRIMITIVE_NO_GO_AUDIT_PASS n=16 marginal=1296 owner=16 primitive=1280 ratio=327680/6561\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

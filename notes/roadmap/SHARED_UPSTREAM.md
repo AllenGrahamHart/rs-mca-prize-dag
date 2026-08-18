@@ -115,3 +115,9 @@ for a future packet. The even deviation and odd shift interpolate to a
 bounded-degree split-Pell pair `A,W` modulo `Y^h-1`; first ownership is simply
 `W!=0`. This is a theorem-level bridge from primitive prefix flatness to a
 concrete split-value/Pell census, with no assertion that the census is small.
+
+There is also an exact warning for how `(Q)` must be stated. Disjoint
+conjugate cyclic bands can alias to the same event and retain exponential
+correlation even after primitive owner deletion. The official low prefix
+avoids conjugate pairs, so a useful flatness statement must be explicitly
+one-sided/prefix-scoped; cyclic disjointness and primitivity alone are false.

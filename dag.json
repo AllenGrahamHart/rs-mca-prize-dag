@@ -30283,6 +30283,29 @@
    "notes": "This converts the truncated primitive prefix into a concrete bounded-degree polynomial classification problem. It does not count the pairs or control the deeper tower."
   },
   {
+   "id": "dli_cyclic_conjugate_band_primitive_no_go",
+   "title": "DLI cyclic conjugate-band primitive no-go",
+   "status": "PROVED",
+   "closure": "exact tensor counterexample",
+   "statement": "Let n=8r and zeta have exact order n in characteristic greater than eight. The disjoint cyclic frequency bands F_2={2+8l} and F_6={6+8l} define identical binary null events, each of probability (36/256)^r. After antipodal first-owner deletion their primitive joint probability is (36^r-4^r)/256^r, so the joint-to-product ratio is (64/9)^r(1-9^-r), already 512/81>sqrt(16) at r=1 and exponential in r. This does not touch the official one-sided prefix, which contains no conjugate pair f,-f.",
+   "attack_surface": "Check Fourier localization, equality of the order-eight conjugate equations, characteristic scope, 36 and 4 local counts, primitive subtraction, ratio normalization, and absence of conjugate pairs from the official prefix.",
+   "falsifier": "A local binary word separating the two conjugate events, a mismatch in the 36/4 counts, or failure of the r=1 primitive ratio to exceed sqrt(16).",
+   "refs": [
+    "background/nodes/dli_cyclic_conjugate_band_primitive_no_go/statement.md",
+    "background/nodes/dli_cyclic_conjugate_band_primitive_no_go/proof.md",
+    "background/nodes/dli_cyclic_conjugate_band_primitive_no_go/claim_contract.md",
+    "background/nodes/dli_cyclic_conjugate_band_primitive_no_go/dependency_subdag.md",
+    "background/nodes/dli_cyclic_conjugate_band_primitive_no_go/audit.md",
+    "background/nodes/dli_cyclic_conjugate_band_primitive_no_go/result.md",
+    "background/nodes/dli_cyclic_conjugate_band_primitive_no_go/provenance.md",
+    "background/nodes/dli_cyclic_conjugate_band_primitive_no_go/verify.py",
+    "background/nodes/dli_cyclic_conjugate_band_primitive_no_go/verify_audit.py",
+    "background/nodes/dli_primitive_haar_event_correlation/statement.md",
+    "critical/nodes/dli_c2pp_joint_reserve/attack.md"
+   ],
+   "notes": "This proves that primitivity plus arbitrary disjoint cyclic bands is still too weak. The surviving target-specific hypothesis is one-sided low-prefix geometry, together with nesting and ownership."
+  },
+  {
    "id": "crossing_dsa_refutation",
    "title": "THEOREM DSA: the (ES) crossing instance is FALSE at admissible tower rows \u2014 unconditional pigeonhole (no balance functional), explicit witness VERIFIED AT n = 2^41 on the triple-refutation row (p = 3 2^41+1, e = 6), 10 of 19 admissible pairs killed outright at w = 2^34; e = 1 prime rows provably outside the regime and re-priced (heuristic) to a 53-61 bit ternary margin; with the deep-stratum lemma kit (DS/FREE/OE/TC/ROT \u2014 the stratum's primitive is TERNARY, 3^L, both banked functionals mis-priced)",
    "status": "PROVED",
@@ -71041,6 +71064,11 @@
   },
   {
    "from": "dli_first_junction_split_pell_normal_form",
+   "to": "dli_c2pp_joint_reserve",
+   "kind": "ev"
+  },
+  {
+   "from": "dli_cyclic_conjugate_band_primitive_no_go",
    "to": "dli_c2pp_joint_reserve",
    "kind": "ev"
   },
