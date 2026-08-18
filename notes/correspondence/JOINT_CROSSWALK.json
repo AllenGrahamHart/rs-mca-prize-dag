@@ -2893,6 +2893,31 @@
     "our_sha": "ae36be960",
     "his_sha": "2788d5ec3"
    }
+  },
+  {
+   "our_node": "rate_half_mca_rank11_quadratic_quotient_population_router",
+   "his_object": {
+    "label": "quotient-periodic fiber budget / factor synchronization",
+    "file": "PR #1170 and PR #1173",
+    "line": "quotient-periodic fibers explicitly budgeted; factor synchronization next theorem"
+   },
+   "relation": "OVERLAP",
+   "chain": "255011043 synchronized residual records -> per-type disjoint degree-two exception cap 490553 -> quotient-only population floor 520",
+   "scope": "official KoalaBear quadratic rational exception branch; turns the quotient-periodic output into a finite cross-type chronology target and gives the exact residual tradeoff max(0,255011043-490553q)",
+   "owner": "US",
+   "nonclaims": [
+    "does not prove fewer than 520 quotient types occur",
+    "does not charge or synchronize those quotient types",
+    "does not pay shifted or nonquadratic residual pencils",
+    "does not pay high complexity, rank eleven, or MCA"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "7d1fda2cd",
+    "his_sha": "2788d5ec3"
+   }
   }
  ]
 }
