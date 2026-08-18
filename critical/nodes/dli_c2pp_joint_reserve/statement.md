@@ -364,3 +364,29 @@ This is a strict narrowing, not a close. The two unreduced terms can both be
 large, so separate upper bounds lose the cancellation. The next theorem must
 couple the telescoping censuses at `(n,t)` and `(n/2,t/2)`, or produce an
 equivalent positive primitive-residual expansion.
+
+## Round-29 primitive ratio telescoping (2026-08-18, Codex)
+
+`dli_primitive_joint_ratio_telescoping` supplies the positive residual
+expansion. Put `t=2^m`; let `Z_j` be the exact `U`-weighted level census,
+`B_j` the unconditional junction block census, and `C_1` the first
+saturated/coset census. Then
+
+```text
+C_1 = Z_0(q,n/2,t/2),
+J_prim = 2^(nm)(Z_0-C_1)/(Z_m product_(j=0)^(m-1) B_j).        (PRIM-TEL)
+```
+
+The central primitive numerator is no larger than this all-weight primitive
+numerator. Thus the remaining C2'' target is the single positive integer
+inequality
+
+```text
+2^(nm)(Z_0-C_1) <= 2^21 Z_m product_(j=0)^(m-1) B_j.          (C2-INT)
+```
+
+Equivalently, when `Z_0>C_1`, its logarithm is the old full-tower `R3` plus
+`log2(1-C_1/Z_0)`. This is the required cancellation, made before taking
+logs. On the frozen exact bank, 29 of 45 full-tower rows have zero primitive
+numerator and the maximum surviving ratio is `1.4166572071` bits. That scan
+is stress evidence only; `(C2-INT)` remains open on official rows.

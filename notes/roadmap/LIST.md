@@ -33,6 +33,13 @@ telescoping censuses at `(n,t)` and `(n/2,t/2)`. The live analytic problem is
 to preserve that cancellation; separate bounds on the two unreduced terms
 are insufficient.
 
+The cancellation has now been compiled into the tower itself. If `t=2^m`,
+the all-weight primitive joint ratio is exactly
+`2^(nm)(Z_0-C_1)/(Z_m product B_j)`, with
+`C_1=Z_0(q,n/2,t/2)`. The central C2'' target is bounded by this positive
+ratio. Its 45-row exact bank uses at most `1.4167` bits, but the remaining
+official-scale integer inequality has no transport theorem yet.
+
 The rate-half crossing safe side is currently split into an exact structural
 shell, the proved deep-accident cap, and the open shallow/aperiodic
 population.  The latter is equivalently a prescribed-signature

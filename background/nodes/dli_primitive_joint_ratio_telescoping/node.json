@@ -1,0 +1,29 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 2615,
+  "node": {
+    "id": "dli_primitive_joint_ratio_telescoping",
+    "title": "DLI primitive joint-ratio telescoping identity",
+    "status": "PROVED",
+    "statement": "Let t=2^m and use the exact U-weighted dyadic tower. Write Z_j for the weighted level-j null census, B_j for the unconditional junction-j block census, and C_1 for the first saturated/coset census. Then C_1=Z_0(q,n/2,t/2), Z_0-C_1 is the all-weight primitive t-null count, and the primitive joint-to-marginal ratio is J_prim=2^(nm)(Z_0-C_1)/(Z_m product_(j<m) B_j). Equivalently, when Z_0>C_1, log2 J_prim=R3_full+log2(1-C_1/Z_0). The central primitive C2'' ratio is at most J_prim, so J_prim<=2^21 is a sufficient exact integer form of C2''.",
+    "attack_surface": "Check the tower normalization, first saturated-column ownership, terminal factor, junction index range, and central-to-all-weight domination.",
+    "falsifier": "A dyadic tower where the primitive count is not Z_0-C_1, the displayed ratio disagrees with direct joint/marginal normalization, or the central primitive submass exceeds the all-weight primitive mass.",
+    "refs": [
+      "background/nodes/dli_primitive_joint_ratio_telescoping/statement.md",
+      "background/nodes/dli_primitive_joint_ratio_telescoping/proof.md",
+      "background/nodes/dli_primitive_joint_ratio_telescoping/verify.py",
+      "background/nodes/dli_primitive_first_owner_antipodal_subtraction/proof.md",
+      "critical/nodes/dli_c2pp_joint_reserve/statement.md"
+    ],
+    "notes": "This converts the repaired target to one positive integer inequality. It does not prove that inequality on official rows. The 45-row exact replay is stress evidence only."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "dli_c2pp_joint_reserve",
+      "order": 5342
+    }
+  ],
+  "refutes": []
+}
