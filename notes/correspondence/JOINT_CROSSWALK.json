@@ -2843,6 +2843,31 @@
     "our_sha": "11d72281e",
     "his_sha": "2788d5ec3"
    }
+  },
+  {
+   "our_node": "rate_half_mca_rank11_quadratic_quotient_survivor_identification",
+   "his_object": {
+    "label": "base-field-normalized split-pencil census / quotient-periodic boundary",
+    "file": "PR #1170, PR #1173, and towards-prize.md",
+    "line": "split-pencil terminal; quotient-periodic fibers explicitly budgeted"
+   },
+   "relation": "OVERLAP",
+   "chain": "quadratic Mobius trichotomy -> antipodal cyclic pencil or constant-product dihedral pencil -> exact official orbit counts",
+   "scope": "official KoalaBear quadratic rational exception branch; cyclic and dihedral quotient pencils have at least 1048575 disjoint split squarefree fibers and therefore require owner-safe quotient payment",
+   "owner": "US",
+   "nonclaims": [
+    "does not pay the quotient-periodic record currency",
+    "does not prove the upstream quotient-fiber inverse theorem",
+    "does not cap general shifted inversion or classify nonquadratic pencils",
+    "does not pay high complexity, rank eleven, or MCA"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "29d902cea",
+    "his_sha": "2788d5ec3"
+   }
   }
  ]
 }
