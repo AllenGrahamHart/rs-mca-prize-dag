@@ -414,6 +414,16 @@ certificates required by the challenge.
   one base-field polynomial pencil. Dimensions three and four require a
   secant-concentration or higher-dimensional direction census; root-richness
   alone is not full splitting.
+- Scalar dimension two now forces a large actual common core. Factoring the
+  scalar-space gcd makes distinct primitive pencil members coprime, so the
+  pair-core intersections attached to 38 directions overlap exactly in one
+  received-pair core `J`. Packing gives `|J|>=81908`; at the minimum, the 38
+  residual petals leave only 28 coordinates unused. Subtracting the common
+  pair and dividing punctured received values and explanations by its
+  locator is a reversible shortening that preserves every first-owned
+  record, quotient deficiency two, and `m-K=67472`. The live pair-pencil
+  alternatives are now this shortened razor packing or scalar dimensions
+  three and four.
 - The finite rank-nine prefix is proved through `K'=87`. At the first open
   row `K'=88`, paired raw scans classify all 18,741,723 source units and
   leave exactly 622,895 raw-unsafe units on offsets `1..44`. This is a

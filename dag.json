@@ -43442,6 +43442,30 @@
    }
   },
   {
+   "id": "rate_half_mca_rank11_pair_pencil_dimension_two_common_core_shortening",
+   "title": "Scalar dimension two forces an 81908-coordinate common core",
+   "status": "PROVED",
+   "closure": "primitive-pencil root disjointness and reversible common-core shortening",
+   "statement": "In the quotient scalar-family branch, either the scalar span has dimension three or four, or dimension two forces a common received-pair core J shared by all quotient types with |J|>=81908. For 38 represented projective directions, their chosen pair-core intersections are disjoint outside J and satisfy 38*134940-37|J|<=2097152. Subtracting the common pair and dividing both punctured received values and polynomial explanations by the locator of J reversibly shortens (n,K,m) to (n-|J|,K-|J|,m-|J|), preserving m-K=67472, all first-owned records, and residual quotient cores of size m-|J|-2.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_two_common_core_shortening/statement.md",
+    "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_two_common_core_shortening/proof.md",
+    "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_two_common_core_shortening/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_two_common_core_shortening/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_two_common_core_shortening/audit.md",
+    "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_two_common_core_shortening/result.md",
+    "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_two_common_core_shortening/frontier.md",
+    "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_two_common_core_shortening/provenance.md",
+    "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_two_common_core_shortening/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_two_common_core_shortening/verify.py",
+    "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_two_common_core_shortening/verify_audit.py"
+   ],
+   "upstream": {
+    "label": "common-GCD stratum / base-field-normalized split-pencil census",
+    "relation": "OVERLAP"
+   }
+  },
+  {
    "id": "rate_half_mca_rank11_pole_simple_small_owner_atom_payment_import",
    "title": "Pole-simple coherent atoms with small owners are paid",
    "status": "PROVED",
@@ -83616,6 +83640,11 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_mca_rank11_pair_pencil_affine_line_cap_direction_router",
+   "to": "rate_half_mca_rank11_pair_pencil_dimension_two_common_core_shortening",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_mca_rank11_pair_pencil_coprime_direction_normal_form",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
@@ -83624,6 +83653,11 @@
    "from": "rate_half_mca_rank11_pair_pencil_coprime_direction_normal_form",
    "to": "rate_half_mca_rank11_pair_pencil_affine_line_cap_direction_router",
    "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_pair_pencil_dimension_two_common_core_shortening",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
   },
   {
    "from": "rate_half_mca_rank11_pole_simple_small_owner_atom_payment_import",

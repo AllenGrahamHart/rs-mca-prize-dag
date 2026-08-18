@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_pair_pencil_affine_line_cap_direction_router/verify.py",
-      "seconds": 0.174291,
+      "script": "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_two_common_core_shortening/verify.py",
+      "seconds": 0.243596,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "PAIR_PENCIL_AFFINE_LINE_CAP_PASS line=15 pairs=3615 directions=38 roots=134940\n"
+      "stdout_tail": "PAIR_PENCIL_DIM2_COMMON_CORE_PASS directions=38 roots=134940 core=81908 slack=28\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_pair_pencil_affine_line_cap_direction_router/verify_audit.py",
-      "seconds": 0.2006,
+      "script": "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_two_common_core_shortening/verify_audit.py",
+      "seconds": 0.2003,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "PAIR_PENCIL_AFFINE_LINE_CAP_AUDIT_PASS line=15 directions=38\n"
+      "stdout_tail": "PAIR_PENCIL_DIM2_COMMON_CORE_AUDIT_PASS core=81908 slack=28\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

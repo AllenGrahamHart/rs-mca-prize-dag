@@ -1,0 +1,14 @@
+{
+  "schema": "rate-half-mca-rank11-pair-pencil-dimension-two-common-core-shortening-v1",
+  "n": 2097152,
+  "m": 1116048,
+  "K": 1048576,
+  "direction_count": 38,
+  "direction_intersection_floor": 134940,
+  "common_core_floor": 81908,
+  "residual_petal_slack_at_floor": 28,
+  "preserved_excess": 67472,
+  "quotient_core_deficiency": 2,
+  "other_dimensions": [3, 4],
+  "nonclaim": "The shortened branch and dimensions three and four are not paid."
+}
