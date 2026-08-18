@@ -41,4 +41,20 @@ tools/ramguard modal -- timeout --signal=TERM --kill-after=15s 720s \
   experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_fff_r76_ntt_determinant_modal.py
 ```
 
-**Outcome:** pending.
+**Outcome:** `COMPLETE`. Modal app `ap-JRNgbYBHv9QaOl3g3LaTBx` used eight
+worker threads and reconstructed
+
+```text
+degree:     19060
+term count: 18711
+det(P(2)):  1087830147
+det(P(3)):  1736903607
+```
+
+All inverse-NTT coefficients above the proved degree bound 22208 vanished.
+Both `t=2` and `t=3` values agree with independently evaluated matrix
+determinants. Coefficient SHA-256:
+`4f34c966c8cc12eb1b40227b9b7a7d6b232fba7990c2e55e09608cdbc3469ae5`;
+result SHA-256:
+`a222789bb3e54df1a4198536644a6d331972087d968b61b227634eca22a79786`.
+The checker rejects all five hostile mutations.
