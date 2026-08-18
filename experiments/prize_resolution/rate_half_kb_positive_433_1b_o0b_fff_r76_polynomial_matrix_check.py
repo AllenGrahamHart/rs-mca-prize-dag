@@ -70,11 +70,17 @@ def verify(payload=None):
             row["witness_polynomial_determinant"] ==
             244686406 * row["witness_column_scaling"] % 2130706433,
             "bank")
+    canonical_lcms = [{"column": item["column"],
+                       "coefficients": item["coefficients"]}
+                      for item in row["column_lcms"]]
+    canonical_entries = [{"row": item["row"], "column": item["column"],
+                          "coefficients": item["coefficients"]}
+                         for item in row["matrix_entries"]]
     require(row["column_lcms_sha256"] == hashlib.sha256(
-                json.dumps(row["column_lcms"], separators=(",", ":")).encode()
+                json.dumps(canonical_lcms, separators=(",", ":")).encode()
             ).hexdigest() and
             row["matrix_entries_sha256"] == hashlib.sha256(
-                json.dumps(row["matrix_entries"], separators=(",", ":")).encode()
+                json.dumps(canonical_entries, separators=(",", ":")).encode()
             ).hexdigest(), "hashes")
     return row
 
