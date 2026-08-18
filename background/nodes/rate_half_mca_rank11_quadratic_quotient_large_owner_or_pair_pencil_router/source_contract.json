@@ -1,0 +1,13 @@
+{
+  "schema": "rate-half-mca-rank11-quadratic-quotient-large-owner-or-pair-pencil-router-v1",
+  "residual_mass": 255011043,
+  "quotient_type_floor": 520,
+  "large_type_record_floor": 29,
+  "high_complexity_floor": 2299571,
+  "small_owner_record_cap": 2097152,
+  "small_owner_max": 1183520,
+  "first_large_owner": 1183521,
+  "generic_output": "one record-covering pole-simple atom with a large owner",
+  "degenerate_output": "pair-type rank at most two over F(X)",
+  "nonclaim": "Neither the exclusive large-owner image bound nor the base pair-type split-pencil census is proved."
+}

@@ -43370,6 +43370,30 @@
    ]
   },
   {
+   "id": "rate_half_mca_rank11_pole_simple_small_owner_atom_payment_import",
+   "title": "Pole-simple coherent atoms with small owners are paid",
+   "status": "PROVED",
+   "closure": "upstream rational-owner localization plus denominator-root puncturing",
+   "statement": "For an official KoalaBear pole-simple coherent atom, puncture the at most 67472 denominator roots and charge at most one support per root. If its nonpole owner set has size g<m, it has at most 981105 records; if g<=2m-K=1183520, it has at most n=2097152. Hence any atom carrying more than n records has g>=1183521 and enters the exclusive large-owner image problem.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_pole_simple_small_owner_atom_payment_import/statement.md",
+    "background/nodes/rate_half_mca_rank11_pole_simple_small_owner_atom_payment_import/proof.md",
+    "background/nodes/rate_half_mca_rank11_pole_simple_small_owner_atom_payment_import/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_pole_simple_small_owner_atom_payment_import/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_pole_simple_small_owner_atom_payment_import/audit.md",
+    "background/nodes/rate_half_mca_rank11_pole_simple_small_owner_atom_payment_import/result.md",
+    "background/nodes/rate_half_mca_rank11_pole_simple_small_owner_atom_payment_import/frontier.md",
+    "background/nodes/rate_half_mca_rank11_pole_simple_small_owner_atom_payment_import/provenance.md",
+    "background/nodes/rate_half_mca_rank11_pole_simple_small_owner_atom_payment_import/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_pole_simple_small_owner_atom_payment_import/verify.py",
+    "background/nodes/rate_half_mca_rank11_pole_simple_small_owner_atom_payment_import/verify_audit.py"
+   ],
+   "upstream": {
+    "label": "exclusive rational-owner localization / small-owner payment",
+    "relation": "OVERLAP"
+   }
+  },
+  {
    "id": "rate_half_mca_rank11_quadratic_quotient_factor_through_interface",
    "title": "Quadratic quotient survivors force factor-through of the rational slope map",
    "status": "PROVED",
@@ -43390,6 +43414,30 @@
    ],
    "upstream": {
     "label": "base-field-normalized split-pencil census / quotient-periodic inverse theorem",
+    "relation": "OVERLAP"
+   }
+  },
+  {
+   "id": "rate_half_mca_rank11_quadratic_quotient_large_owner_or_pair_pencil_router",
+   "title": "The quadratic quotient population forces a large owner or rational pair pencil",
+   "status": "PROVED",
+   "closure": "quotient population, atom-weld gauge dichotomy, record extension, and small-owner payment",
+   "statement": "In the no-high-complexity quotient-only KoalaBear residual, at least 520 large types occur. Either one pole-simple atom certifies all 255011043 records and has owner size at least 1183521, or all pair-type vectors (1,a_p,b_p) have rank at most two over F(X). These are respectively the exclusive large-owner image target and a base pair-type split-pencil census; neither is paid here.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_quadratic_quotient_large_owner_or_pair_pencil_router/statement.md",
+    "background/nodes/rate_half_mca_rank11_quadratic_quotient_large_owner_or_pair_pencil_router/proof.md",
+    "background/nodes/rate_half_mca_rank11_quadratic_quotient_large_owner_or_pair_pencil_router/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_quadratic_quotient_large_owner_or_pair_pencil_router/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_quadratic_quotient_large_owner_or_pair_pencil_router/audit.md",
+    "background/nodes/rate_half_mca_rank11_quadratic_quotient_large_owner_or_pair_pencil_router/result.md",
+    "background/nodes/rate_half_mca_rank11_quadratic_quotient_large_owner_or_pair_pencil_router/frontier.md",
+    "background/nodes/rate_half_mca_rank11_quadratic_quotient_large_owner_or_pair_pencil_router/provenance.md",
+    "background/nodes/rate_half_mca_rank11_quadratic_quotient_large_owner_or_pair_pencil_router/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_quadratic_quotient_large_owner_or_pair_pencil_router/verify.py",
+    "background/nodes/rate_half_mca_rank11_quadratic_quotient_large_owner_or_pair_pencil_router/verify_audit.py"
+   ],
+   "upstream": {
+    "label": "exclusive large-owner atom image bound / base-field-normalized split-pencil census",
     "relation": "OVERLAP"
    }
   },
@@ -82071,6 +82119,11 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_mca_rank11_cross_type_atom_weld_gauge_dichotomy",
+   "to": "rate_half_mca_rank11_quadratic_quotient_large_owner_or_pair_pencil_router",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_mca_rank11_cross_type_degree18_atom_weld_compiler",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
@@ -82089,6 +82142,16 @@
    "from": "rate_half_mca_rank11_cross_type_global_atom_record_extension",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_cross_type_global_atom_record_extension",
+   "to": "rate_half_mca_rank11_pole_simple_small_owner_atom_payment_import",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_cross_type_global_atom_record_extension",
+   "to": "rate_half_mca_rank11_quadratic_quotient_large_owner_or_pair_pencil_router",
+   "kind": "req"
   },
   {
    "from": "rate_half_mca_rank11_cross_type_one_swap_synchronization_wall",
@@ -82593,6 +82656,11 @@
   {
    "from": "rate_half_mca_rank11_heavy_ruling_triple_owner_pole_simple_router",
    "to": "rate_half_mca_rank11_nonzero_affine_reflection_mass_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_heavy_ruling_triple_owner_pole_simple_router",
+   "to": "rate_half_mca_rank11_pole_simple_small_owner_atom_payment_import",
    "kind": "req"
   },
   {
@@ -83451,6 +83519,16 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_mca_rank11_pole_simple_small_owner_atom_payment_import",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_pole_simple_small_owner_atom_payment_import",
+   "to": "rate_half_mca_rank11_quadratic_quotient_large_owner_or_pair_pencil_router",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_mca_rank11_quadratic_quotient_factor_through_interface",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
@@ -83466,6 +83544,11 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_mca_rank11_quadratic_quotient_large_owner_or_pair_pencil_router",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_mca_rank11_quadratic_quotient_population_router",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
@@ -83473,6 +83556,11 @@
   {
    "from": "rate_half_mca_rank11_quadratic_quotient_population_router",
    "to": "rate_half_mca_rank11_cross_type_one_swap_synchronization_wall",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_quadratic_quotient_population_router",
+   "to": "rate_half_mca_rank11_quadratic_quotient_large_owner_or_pair_pencil_router",
    "kind": "req"
   },
   {

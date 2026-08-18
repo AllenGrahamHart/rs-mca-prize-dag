@@ -373,6 +373,19 @@ certificates required by the challenge.
   routed to either one record-covering pole-simple atom or a rank-two rational
   pair pencil. Both still need owner-safe payment, but local compatibility,
   pairwise deck supply, triangle coherence, and record extension are closed.
+- Upstream rational-owner localization now pays the small-owner part of the
+  global atom, including our denominator roots. Pole-simplicity charges at
+  most one record per root; puncturing the roots and restoring their charge
+  telescopes to at most `n=2097152` records whenever the nonpole owner size
+  is at most `2m-K=1183520`. Since the quotient residual has 255,011,043
+  records, its global atom must have owner size at least 1,183,521.
+- Combining the population, weld, gauge, extension, and owner theorems gives
+  the current exact quotient endgame. In the no-high-complexity quotient-only
+  branch, either one record-covering atom enters upstream
+  `prob:large-owner` with `g>=1183521`, or at least 520 pair-type vectors lie
+  in one rank-two `F(X)` pencil. The two next proofs are therefore the
+  exclusive large-owner image bound and the base pair-type split-pencil
+  census; neither needs further local packet synchronization.
 - The finite rank-nine prefix is proved through `K'=87`. At the first open
   row `K'=88`, paired raw scans classify all 18,741,723 source units and
   leave exactly 622,895 raw-unsafe units on offsets `1..44`. This is a

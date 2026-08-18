@@ -1,0 +1,15 @@
+{
+  "schema": "rate-half-mca-rank11-pole-simple-small-owner-atom-payment-import-v1",
+  "upstream_sha": "93fba1be3",
+  "upstream_theorem": "thm:owner-localization",
+  "upstream_corollary": "cor:small-owner",
+  "domain_size": 2097152,
+  "support_size": 1116048,
+  "code_dimension": 1048576,
+  "denominator_degree_cap": 67472,
+  "small_owner_max": 1183520,
+  "first_large_owner": 1183521,
+  "sub_support_owner_cap": 981105,
+  "small_owner_record_cap": 2097152,
+  "nonclaim": "The exclusive large-owner atom image bound remains open."
+}

@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_quadratic_quotient_large_owner_or_pair_pencil_router",
+    "title": "The quadratic quotient population forces a large owner or rational pair pencil",
+    "status": "PROVED",
+    "closure": "quotient population, atom-weld gauge dichotomy, record extension, and small-owner payment",
+    "statement": "In the no-high-complexity quotient-only KoalaBear residual, at least 520 large types occur. Either one pole-simple atom certifies all 255011043 records and has owner size at least 1183521, or all pair-type vectors (1,a_p,b_p) have rank at most two over F(X). These are respectively the exclusive large-owner image target and a base pair-type split-pencil census; neither is paid here.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_quadratic_quotient_large_owner_or_pair_pencil_router/statement.md",
+      "background/nodes/rate_half_mca_rank11_quadratic_quotient_large_owner_or_pair_pencil_router/proof.md",
+      "background/nodes/rate_half_mca_rank11_quadratic_quotient_large_owner_or_pair_pencil_router/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_quadratic_quotient_large_owner_or_pair_pencil_router/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_quadratic_quotient_large_owner_or_pair_pencil_router/audit.md",
+      "background/nodes/rate_half_mca_rank11_quadratic_quotient_large_owner_or_pair_pencil_router/result.md",
+      "background/nodes/rate_half_mca_rank11_quadratic_quotient_large_owner_or_pair_pencil_router/frontier.md",
+      "background/nodes/rate_half_mca_rank11_quadratic_quotient_large_owner_or_pair_pencil_router/provenance.md",
+      "background/nodes/rate_half_mca_rank11_quadratic_quotient_large_owner_or_pair_pencil_router/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_quadratic_quotient_large_owner_or_pair_pencil_router/verify.py",
+      "background/nodes/rate_half_mca_rank11_quadratic_quotient_large_owner_or_pair_pencil_router/verify_audit.py"
+    ],
+    "upstream": {
+      "label": "exclusive large-owner atom image bound / base-field-normalized split-pencil census",
+      "relation": "OVERLAP"
+    }
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_quadratic_quotient_population_router"},
+    {"from": "rate_half_mca_rank11_cross_type_atom_weld_gauge_dichotomy"},
+    {"from": "rate_half_mca_rank11_cross_type_global_atom_record_extension"},
+    {"from": "rate_half_mca_rank11_pole_simple_small_owner_atom_payment_import"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location"}
+  ],
+  "refutes": []
+}

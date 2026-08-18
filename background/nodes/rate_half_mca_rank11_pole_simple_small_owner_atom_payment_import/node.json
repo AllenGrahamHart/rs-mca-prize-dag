@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_pole_simple_small_owner_atom_payment_import",
+    "title": "Pole-simple coherent atoms with small owners are paid",
+    "status": "PROVED",
+    "closure": "upstream rational-owner localization plus denominator-root puncturing",
+    "statement": "For an official KoalaBear pole-simple coherent atom, puncture the at most 67472 denominator roots and charge at most one support per root. If its nonpole owner set has size g<m, it has at most 981105 records; if g<=2m-K=1183520, it has at most n=2097152. Hence any atom carrying more than n records has g>=1183521 and enters the exclusive large-owner image problem.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_pole_simple_small_owner_atom_payment_import/statement.md",
+      "background/nodes/rate_half_mca_rank11_pole_simple_small_owner_atom_payment_import/proof.md",
+      "background/nodes/rate_half_mca_rank11_pole_simple_small_owner_atom_payment_import/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_pole_simple_small_owner_atom_payment_import/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_pole_simple_small_owner_atom_payment_import/audit.md",
+      "background/nodes/rate_half_mca_rank11_pole_simple_small_owner_atom_payment_import/result.md",
+      "background/nodes/rate_half_mca_rank11_pole_simple_small_owner_atom_payment_import/frontier.md",
+      "background/nodes/rate_half_mca_rank11_pole_simple_small_owner_atom_payment_import/provenance.md",
+      "background/nodes/rate_half_mca_rank11_pole_simple_small_owner_atom_payment_import/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_pole_simple_small_owner_atom_payment_import/verify.py",
+      "background/nodes/rate_half_mca_rank11_pole_simple_small_owner_atom_payment_import/verify_audit.py"
+    ],
+    "upstream": {
+      "label": "exclusive rational-owner localization / small-owner payment",
+      "relation": "OVERLAP"
+    }
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_heavy_ruling_triple_owner_pole_simple_router"},
+    {"from": "rate_half_mca_rank11_cross_type_global_atom_record_extension"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location"}
+  ],
+  "refutes": []
+}
