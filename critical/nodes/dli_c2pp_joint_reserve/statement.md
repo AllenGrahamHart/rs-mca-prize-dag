@@ -412,3 +412,29 @@ transport. A proof would need primitive prefix/support-pattern collision
 flatness across the complete tower. Failure of that collision estimate, or
 one deeper exact row with `J_prim>sqrt(2n)`, kills this route without changing
 `(C2-INT)`.
+
+## Round-31 first-junction collision reduction (2026-08-18, Codex)
+
+`dli_first_junction_support_overlap` proves an exact reduction at every
+dyadic depth. Pair the `n=2h` antipodal coordinates and let `S` be the set of
+unsaturated pairs. There are two conditioned probability distributions on
+`S`: `p_S` from the even-null pair sums and `q_S` from the odd-null pair
+skews. Then
+
+```text
+J_prim = [2^h sum_(S nonempty) p_S q_S] K_tail,
+K_tail = 2^(n(m-1)) Z_1/(Z_m product_(1<=j<m) B_j).             (SUPPORT)
+```
+
+The deleted `S=emptyset` term is exactly the antipodal/coset owner. The even
+count on `S` is also a signed null census on `S^c`. Vandermonde rank forces
+the exact gaps
+
+```text
+q_S=0 for 1<=|S|<=t/2,
+p_S=0 for 1<=|S^c|<=t/2.
+```
+
+For the official `(n,t)=(2^41,2^33)`, these exclude the two nonempty boundary
+bands of width `2^32`. They do not bound the surviving weighted overlap, and
+`K_tail` can expand, so `(SUPPORT)` is a route reduction rather than a close.

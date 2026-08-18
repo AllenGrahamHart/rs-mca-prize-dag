@@ -46,6 +46,14 @@ reserve. All new ratios through `n=256` are below one. The candidate remains
 unproved and depth-untransported; the live route is primitive prefix/support-
 pattern collision flatness, with the square-root constant as the target.
 
+The first junction is now reduced exactly to a collision problem. If `p_S`
+and `q_S` are the even-null and odd-null conditioned distributions of the
+unsaturated antipodal support, then the full primitive ratio is
+`2^(n/2) sum_(S!=empty) p_Sq_S` times the unreduced deeper-tower ratio.
+Vandermonde rank removes both support boundary bands of width `t/2`; the
+remaining task is a constants-bearing overlap-times-tail theorem, not a
+generic nullity estimate.
+
 The rate-half crossing safe side is currently split into an exact structural
 shell, the proved deep-accident cap, and the open shallow/aperiodic
 population.  The latter is equivalently a prescribed-signature

@@ -36,3 +36,16 @@ It gives exactly 21 bits at `n=2^41` and survived the preregistered exact
 `t=2` grid through `n=256`. It is not a premise and has no depth transport.
 Seek a proof through primitive prefix/support-pattern collision flatness, or
 falsify it at a deeper exact tower before investing in transport.
+
+The proved first-junction identity now gives the exact target
+
+```text
+2^h sum_(S nonempty) p_S q_S * K_tail <= 2^21,
+h=n/2,
+K_tail=2^(n(m-1)) Z_1/(Z_m product_(1<=j<m) B_j).
+```
+
+On the official row `h=2^40` and `L=t/2=2^32`. Vandermonde rank already
+removes `1<=|S|<=L` and `1<=|S^c|<=L`; this is only a support gap, not the
+required weighted overlap estimate. A valid attack must control the overlap
+and tail jointly, or prove bounds whose product has the printed constant.

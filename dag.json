@@ -10525,9 +10525,10 @@
     "critical/nodes/dli_prime_weighted_large_block_support/notes/C2PP_POSED_20260710.md",
     "background/nodes/dli_unreduced_coset_endpoint_counterexample/proof.md",
     "background/nodes/dli_primitive_first_owner_antipodal_subtraction/proof.md",
-    "background/nodes/dli_primitive_joint_ratio_telescoping/proof.md"
+    "background/nodes/dli_primitive_joint_ratio_telescoping/proof.md",
+    "background/nodes/dli_first_junction_support_overlap/proof.md"
    ],
-   "notes": "Rounds 23--26 established exact telescoping, periodic-stratum, freeze-tail, and saturated-constant results for the unreduced object. Round 27 refutes the unreduced endpoint. Round 28 pays first-owner deletion. Round 29 reduces the target to the positive integer inequality C2-INT. Round 30 preregisters J_prim<=sqrt(2n), which would close the 21-bit reserve, and finds no falsifier on 13 exact t=2 rows through n=256; this is evidence only and supplies no depth transport."
+   "notes": "Rounds 23--26 established exact telescoping, periodic-stratum, freeze-tail, and saturated-constant results for the unreduced object. Round 27 refutes the unreduced endpoint. Round 28 pays first-owner deletion. Round 29 reduces the target to the positive integer inequality C2-INT. Round 30 preregisters J_prim<=sqrt(2n), which would close the 21-bit reserve, and finds no falsifier on 13 exact t=2 rows through n=256. Round 31 proves that the first primitive junction is a support-distribution overlap and factors the remaining obstruction as its product with the unreduced tower tail; neither factor is yet bounded at official depth."
   },
   {
    "id": "dli_wcl_zone_coverage",
@@ -30177,6 +30178,22 @@
     "critical/nodes/dli_c2pp_joint_reserve/statement.md"
    ],
    "notes": "This converts the repaired target to one positive integer inequality. It does not prove that inequality on official rows. The 45-row exact replay is stress evidence only."
+  },
+  {
+   "id": "dli_first_junction_support_overlap",
+   "title": "DLI first-junction support-overlap identity",
+   "status": "PROVED",
+   "statement": "Let n=2h, t=2L be dyadic with 1<=L<h, and pair antipodal coordinates in the exact U-weighted DLI tower. For each subset S of Z/h, let E_S count even-null pair sums whose unsaturated support is S and O_S count odd-null pair skews supported on S. Then Z_0=sum_S E_SO_S, C_1=E_emptyset, Z_1=sum_S 2^|S|E_S, and B_0=sum_S 2^(h-|S|)O_S. If p_S=2^|S|E_S/Z_1 and q_S=2^(h-|S|)O_S/B_0, the primitive first-junction ratio is 2^h sum_(S nonempty) p_Sq_S. The full primitive ratio is this overlap times the unreduced tail ratio. Moreover E_S is a signed null census on S^c, and Vandermonde rank forces O_S=0 for 1<=|S|<=L and E_S=0 for 1<=|S^c|<=L.",
+   "attack_surface": "Check antipodal signs, even/odd moment ranges, binomial weights, empty-support ownership, the power of two in the overlap normalization, and the exceptions for empty sign supports in the Vandermonde gap.",
+   "falsifier": "A valid dyadic row where the support decomposition fails to reproduce Z_0,C_1,Z_1,B_0, where the primitive first-junction ratio differs from the displayed overlap, or where a prohibited small nonempty signed support exists.",
+   "refs": [
+    "background/nodes/dli_first_junction_support_overlap/statement.md",
+    "background/nodes/dli_first_junction_support_overlap/proof.md",
+    "background/nodes/dli_first_junction_support_overlap/verify.py",
+    "background/nodes/dli_primitive_joint_ratio_telescoping/proof.md",
+    "critical/nodes/dli_c2pp_joint_reserve/statement.md"
+   ],
+   "notes": "This is an exact reduction, not a flatness estimate. It identifies the missing C2 input as control of a primitive support overlap multiplied by the unreduced deeper-tower factor."
   },
   {
    "id": "crossing_dsa_refutation",
@@ -70912,6 +70929,11 @@
   },
   {
    "from": "dli_primitive_joint_ratio_telescoping",
+   "to": "dli_c2pp_joint_reserve",
+   "kind": "ev"
+  },
+  {
+   "from": "dli_first_junction_support_overlap",
    "to": "dli_c2pp_joint_reserve",
    "kind": "ev"
   },
