@@ -1,0 +1,21 @@
+{
+  "schema": "rate-half-mca-rank11-plane218-power2048-symmetric-configuration-ledger-v1",
+  "selected_points": 218,
+  "full_lines": 218,
+  "line_size": 15,
+  "point_degree": 15,
+  "direction_subgroup_order": 1024,
+  "distinct_directions": 218,
+  "leave_degree": 7,
+  "leave_edges": 763,
+  "incidence_matrix_rank_over_reals": 218,
+  "gram_identity": "14I+J-L",
+  "quotient_fiber_size": 2048,
+  "full_coordinate_floor": 446392,
+  "aggregate_fiber_defect_ceiling": 72,
+  "saturated_fiber_floor": 146,
+  "saturated_lines_at_one_point_floor": 11,
+  "incident_defect_at_one_point_ceiling": 4,
+  "full_core_coordinates_at_one_point_floor": 30716,
+  "nonclaim": "The ledger does not exclude the configuration over the official field or pay the quotient-periodic branch."
+}

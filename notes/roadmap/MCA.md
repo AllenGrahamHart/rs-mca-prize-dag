@@ -490,6 +490,15 @@ certificates required by the challenge.
   missing slots. This does not classify the general rational map or pay
   either survivor; it turns the periodic branch into two explicit
   received-line/owner obligations.
+- The singleton `e=2048`, `K'=2049` branch now has an equality ledger.
+  Its 218 points and 218 full lines form a symmetric `218_15`
+  configuration with 218 distinct directions in `mu_1024`. Point and line
+  leaves are 7-regular with 763 edges; the square incidence matrix has
+  full real rank and exact Gram form `14I+J-L`. At least 146 quotient
+  fibers are completely saturated, and one selected type has at most four
+  missing coordinates across its 15 incident fibers. Closure now requires
+  a subgroup-direction nonexistence theorem or a quotient-owner payment,
+  not another coarse line count.
 - The finite rank-nine prefix is proved through `K'=87`. At the first open
   row `K'=88`, paired raw scans classify all 18,741,723 source units and
   leave exactly 622,895 raw-unsafe units on offsets `1..44`. This is a

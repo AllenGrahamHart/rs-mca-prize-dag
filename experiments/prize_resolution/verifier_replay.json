@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_pair_pencil_plane218_pure_power_router/verify.py",
-      "seconds": 0.138624,
+      "script": "background/nodes/rate_half_mca_rank11_pair_pencil_plane218_power2048_symmetric_configuration_ledger/verify.py",
+      "seconds": 0.510128,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "PAIR_PENCIL_PLANE218_POWER_PASS degrees=[2048, 4096] rows=(1,141)\n"
+      "stdout_tail": "PLANE218_POWER2048_CONFIG_PASS leave=7 defect=72 saturated=146 core=30716\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_pair_pencil_plane218_pure_power_router/verify_audit.py",
-      "seconds": 0.252338,
+      "script": "background/nodes/rate_half_mca_rank11_pair_pencil_plane218_power2048_symmetric_configuration_ledger/verify_audit.py",
+      "seconds": 0.117051,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "PAIR_PENCIL_PLANE218_POWER_AUDIT_PASS degrees=2048,4096 rows=1,141\n"
+      "stdout_tail": "PLANE218_POWER2048_CONFIG_AUDIT_PASS rank=218 leave=7 defect=72\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

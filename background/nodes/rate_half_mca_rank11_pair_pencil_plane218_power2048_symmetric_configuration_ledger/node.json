@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_pair_pencil_plane218_power2048_symmetric_configuration_ledger",
+    "title": "The degree-2048 plane endpoint is an exact symmetric 218_15 configuration",
+    "status": "PROVED",
+    "closure": "equality propagation, leave-graph Gram ledger, and quotient-fiber defect concentration",
+    "statement": "In the e=2048 branch of the plane-218 pure-power router, the 218 selected points and 218 full lines form a symmetric 218_15 configuration with distinct directions in mu_1024. Point and line leaves are 7-regular with 763 edges. The incidence matrix M satisfies MM^T=14I+J-L_P and M^TM=14I+J-L_B, is nonsingular over the reals, and the leaves are cospectral. Aggregate fiber defect is at most 72, so at least 146 direction fibers are saturated; some point lies on at least 11 saturated lines and some point has incident defect at most four, contributing at least 30716 full coordinates to its residual core. No official-field exclusion or quotient payment is claimed.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_pair_pencil_plane218_power2048_symmetric_configuration_ledger/statement.md",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_plane218_power2048_symmetric_configuration_ledger/proof.md",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_plane218_power2048_symmetric_configuration_ledger/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_plane218_power2048_symmetric_configuration_ledger/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_plane218_power2048_symmetric_configuration_ledger/audit.md",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_plane218_power2048_symmetric_configuration_ledger/result.md",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_plane218_power2048_symmetric_configuration_ledger/frontier.md",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_plane218_power2048_symmetric_configuration_ledger/provenance.md",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_plane218_power2048_symmetric_configuration_ledger/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_plane218_power2048_symmetric_configuration_ledger/verify.py",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_plane218_power2048_symmetric_configuration_ledger/verify_audit.py"
+    ],
+    "upstream": {
+      "label": "Q quotient flatness / quotient-periodic split-pencil census",
+      "relation": "OVERLAP"
+    }
+  },
+  "requires": [
+    {
+      "from": "rate_half_mca_rank11_pair_pencil_plane218_pure_power_router"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}
