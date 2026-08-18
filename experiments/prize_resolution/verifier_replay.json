@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/dli_fixed_weight_ambient_q_bridge/verify.py",
-      "seconds": 0.350963,
+      "script": "background/nodes/dli_ambient_q_sqrt_route_no_go/verify.py",
+      "seconds": 0.029791,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "DLI_FIXED_WEIGHT_AMBIENT_Q_PASS row=(16,2,17) J=53248/58081 Kamb=3757/4096\n"
+      "stdout_tail": "DLI_AMBIENT_Q_NO_GO_PASS rows=189 ambient_fires=56 haar_fires=0 witness_q=33409\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/dli_fixed_weight_ambient_q_bridge/verify_audit.py",
-      "seconds": 0.086853,
+      "script": "background/nodes/dli_ambient_q_sqrt_route_no_go/verify_audit.py",
+      "seconds": 0.080407,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "DLI_FIXED_WEIGHT_AMBIENT_Q_AUDIT_PASS supports=65536\n"
+      "stdout_tail": "DLI_AMBIENT_Q_NO_GO_AUDIT_PASS q=33409 subsets=2x65536\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

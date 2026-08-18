@@ -17,9 +17,10 @@
       "background/nodes/dli_primitive_joint_ratio_telescoping/proof.md",
       "background/nodes/dli_first_junction_support_overlap/proof.md",
       "background/nodes/dli_primitive_haar_event_correlation/proof.md",
-      "background/nodes/dli_fixed_weight_ambient_q_bridge/proof.md"
+      "background/nodes/dli_fixed_weight_ambient_q_bridge/proof.md",
+      "background/nodes/dli_ambient_q_sqrt_route_no_go/proof.md"
     ],
-    "notes": "Rounds 23--26 established exact telescoping, periodic-stratum, freeze-tail, and saturated-constant results for the unreduced object. Round 27 refutes the unreduced endpoint. Round 28 pays first-owner deletion. Round 29 reduces the target to the positive integer inequality C2-INT. Round 30 preregisters J_prim<=sqrt(2n), which would close the 21-bit reserve, and finds no falsifier on 13 exact t=2 rows through n=256. Round 31 proves the first-junction support overlap. Rounds 32--33 bank exact m=1 and m=2 survivors and expose first-factor/tail cancellation. Round 34 repackages the complete all-depth ratio as one primitive correlation excess among dyadic Haar-band null events on the same Bernoulli cube. Round 35 proves the Haar denominator floor and reduces the remaining target to a binomially weighted finite ambient-Q inflation, retaining the exact effective-image defect. The 21-bit numerator payment remains open."
+    "notes": "Rounds 23--26 established exact telescoping, periodic-stratum, freeze-tail, and saturated-constant results for the unreduced object. Round 27 refutes the unreduced endpoint. Round 28 pays first-owner deletion. Round 29 reduces the target to the positive integer inequality C2-INT. Round 30 preregisters J_prim<=sqrt(2n), which would close the 21-bit reserve, and finds no falsifier on 13 exact t=2 rows through n=256. Round 31 proves the first-junction support overlap. Rounds 32--33 bank exact m=1 and m=2 survivors and expose first-factor/tail cancellation. Round 34 repackages the complete all-depth ratio as one primitive correlation excess among dyadic Haar-band null events on the same Bernoulli cube. Round 35 proves the Haar denominator floor and an exact fixed-weight ambient-Q bridge. Round 36 refutes the scale-free ambient square-root strengthening on a complete high-cap analogue while the exact Haar candidate survives, proving that the actual marginal denominator is load-bearing. The 21-bit joint-to-actual-marginals payment remains open."
   },
   "requires": [],
   "alternatives": [],

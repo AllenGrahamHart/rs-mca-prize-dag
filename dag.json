@@ -10528,9 +10528,10 @@
     "background/nodes/dli_primitive_joint_ratio_telescoping/proof.md",
     "background/nodes/dli_first_junction_support_overlap/proof.md",
     "background/nodes/dli_primitive_haar_event_correlation/proof.md",
-    "background/nodes/dli_fixed_weight_ambient_q_bridge/proof.md"
+    "background/nodes/dli_fixed_weight_ambient_q_bridge/proof.md",
+    "background/nodes/dli_ambient_q_sqrt_route_no_go/proof.md"
    ],
-   "notes": "Rounds 23--26 established exact telescoping, periodic-stratum, freeze-tail, and saturated-constant results for the unreduced object. Round 27 refutes the unreduced endpoint. Round 28 pays first-owner deletion. Round 29 reduces the target to the positive integer inequality C2-INT. Round 30 preregisters J_prim<=sqrt(2n), which would close the 21-bit reserve, and finds no falsifier on 13 exact t=2 rows through n=256. Round 31 proves the first-junction support overlap. Rounds 32--33 bank exact m=1 and m=2 survivors and expose first-factor/tail cancellation. Round 34 repackages the complete all-depth ratio as one primitive correlation excess among dyadic Haar-band null events on the same Bernoulli cube. Round 35 proves the Haar denominator floor and reduces the remaining target to a binomially weighted finite ambient-Q inflation, retaining the exact effective-image defect. The 21-bit numerator payment remains open."
+   "notes": "Rounds 23--26 established exact telescoping, periodic-stratum, freeze-tail, and saturated-constant results for the unreduced object. Round 27 refutes the unreduced endpoint. Round 28 pays first-owner deletion. Round 29 reduces the target to the positive integer inequality C2-INT. Round 30 preregisters J_prim<=sqrt(2n), which would close the 21-bit reserve, and finds no falsifier on 13 exact t=2 rows through n=256. Round 31 proves the first-junction support overlap. Rounds 32--33 bank exact m=1 and m=2 survivors and expose first-factor/tail cancellation. Round 34 repackages the complete all-depth ratio as one primitive correlation excess among dyadic Haar-band null events on the same Bernoulli cube. Round 35 proves the Haar denominator floor and an exact fixed-weight ambient-Q bridge. Round 36 refutes the scale-free ambient square-root strengthening on a complete high-cap analogue while the exact Haar candidate survives, proving that the actual marginal denominator is load-bearing. The 21-bit joint-to-actual-marginals payment remains open."
   },
   {
    "id": "dli_wcl_zone_coverage",
@@ -30350,11 +30351,35 @@
     "background/nodes/dli_primitive_haar_event_correlation/statement.md",
     "critical/nodes/dli_c2pp_joint_reserve/attack.md"
    ],
-   "notes": "This is the exact finite compiler from upstream-style fixed-density primitive Q to the local Haar target. It proves the denominator floor and isolates the remaining numerator as weighted ambient flatness. It does not pay the 21-bit bound.",
+   "notes": "This is an exact finite compiler from upstream-style fixed-density primitive Q to the local Haar target. It proves the denominator floor and isolates a sufficient weighted ambient-flatness numerator. It does not pay the 21-bit bound; dli_ambient_q_sqrt_route_no_go subsequently proves that its scale-free square-root strengthening is false, so the actual Haar denominator remains load-bearing.",
    "upstream": {
     "label": "Primitive Q after a Sidon moment payment / exact image--ambient normalization",
     "relation": "OVERLAP"
    }
+  },
+  {
+   "id": "dli_ambient_q_sqrt_route_no_go",
+   "title": "DLI ambient-Q square-root route no-go",
+   "status": "PROVED",
+   "closure": "explicit exact counterexample with independent replay",
+   "statement": "The stronger ambient-Q route q^t P(Prim intersect ker Phi)<=sqrt(2n) is false. At (n,t,q,zeta)=(32,2,33409,7473), exact counts are Z0=384, C1=256, Z1=1696000, B0=174912. Thus K_amb=1116161281/33554432>8, while the true Haar ratio J_prim=33554432/18106125<8. A complete exact scan of all 189 high-cap primes 32768<q<65536 with q=1 mod 32 finds 56 ambient failures and zero Haar failures. Hence the actual marginal denominator is load-bearing; this does not falsify C2'' or its Haar square-root candidate.",
+   "attack_surface": "Check primality and root order, raw Z0-C1 subtraction, both independent subset-sum censuses, exact ambient and Haar normalizations, complete high-cap prime coverage, and the explicit nonclaim for C2''.",
+   "falsifier": "A mismatch in the q=33409 counts or ratios, failure of the ambient ratio to exceed 8, or failure of the true Haar ratio to remain below 8.",
+   "refs": [
+    "background/nodes/dli_ambient_q_sqrt_route_no_go/statement.md",
+    "background/nodes/dli_ambient_q_sqrt_route_no_go/proof.md",
+    "background/nodes/dli_ambient_q_sqrt_route_no_go/claim_contract.md",
+    "background/nodes/dli_ambient_q_sqrt_route_no_go/dependency_subdag.md",
+    "background/nodes/dli_ambient_q_sqrt_route_no_go/audit.md",
+    "background/nodes/dli_ambient_q_sqrt_route_no_go/result.md",
+    "background/nodes/dli_ambient_q_sqrt_route_no_go/provenance.md",
+    "background/nodes/dli_ambient_q_sqrt_route_no_go/verify.py",
+    "background/nodes/dli_ambient_q_sqrt_route_no_go/verify_audit.py",
+    "notes/pilots_20260818/c2_ambient_q_highcap_falsifier/PREREG.md",
+    "notes/pilots_20260818/c2_ambient_q_highcap_falsifier/FOLLOWUP_PREREG.md",
+    "critical/nodes/dli_c2pp_joint_reserve/attack.md"
+   ],
+   "notes": "This retires the scale-free ambient strengthening suggested by the fixed-weight Q bridge. The bridge remains true as a sufficient inequality, but its denominator floor is too lossy for the square-root constant."
   },
   {
    "id": "crossing_dsa_refutation",
@@ -71135,6 +71160,16 @@
   },
   {
    "from": "dli_fixed_weight_ambient_q_bridge",
+   "to": "dli_c2pp_joint_reserve",
+   "kind": "ev"
+  },
+  {
+   "from": "dli_fixed_weight_ambient_q_bridge",
+   "to": "dli_ambient_q_sqrt_route_no_go",
+   "kind": "req"
+  },
+  {
+   "from": "dli_ambient_q_sqrt_route_no_go",
    "to": "dli_c2pp_joint_reserve",
    "kind": "ev"
   },

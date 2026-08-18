@@ -17,3 +17,7 @@ which consists of both image-normalized primitive Q and effective-image
 occupancy with constants. This is narrower than a new multi-event correlation
 theorem and directly exposes the nontransport from upstream's asymptotic Q.
 
+Subsequent adjudication: `dli_ambient_q_sqrt_route_no_go` proves that imposing
+the target square-root scale on this sufficient upper bound is false. The
+bridge remains exact, but it is too lossy to replace the actual Haar
+denominator in the route of record.

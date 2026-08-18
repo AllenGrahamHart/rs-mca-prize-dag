@@ -1,0 +1,42 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 2624,
+  "node": {
+    "id": "dli_ambient_q_sqrt_route_no_go",
+    "title": "DLI ambient-Q square-root route no-go",
+    "status": "PROVED",
+    "closure": "explicit exact counterexample with independent replay",
+    "statement": "The stronger ambient-Q route q^t P(Prim intersect ker Phi)<=sqrt(2n) is false. At (n,t,q,zeta)=(32,2,33409,7473), exact counts are Z0=384, C1=256, Z1=1696000, B0=174912. Thus K_amb=1116161281/33554432>8, while the true Haar ratio J_prim=33554432/18106125<8. A complete exact scan of all 189 high-cap primes 32768<q<65536 with q=1 mod 32 finds 56 ambient failures and zero Haar failures. Hence the actual marginal denominator is load-bearing; this does not falsify C2'' or its Haar square-root candidate.",
+    "attack_surface": "Check primality and root order, raw Z0-C1 subtraction, both independent subset-sum censuses, exact ambient and Haar normalizations, complete high-cap prime coverage, and the explicit nonclaim for C2''.",
+    "falsifier": "A mismatch in the q=33409 counts or ratios, failure of the ambient ratio to exceed 8, or failure of the true Haar ratio to remain below 8.",
+    "refs": [
+      "background/nodes/dli_ambient_q_sqrt_route_no_go/statement.md",
+      "background/nodes/dli_ambient_q_sqrt_route_no_go/proof.md",
+      "background/nodes/dli_ambient_q_sqrt_route_no_go/claim_contract.md",
+      "background/nodes/dli_ambient_q_sqrt_route_no_go/dependency_subdag.md",
+      "background/nodes/dli_ambient_q_sqrt_route_no_go/audit.md",
+      "background/nodes/dli_ambient_q_sqrt_route_no_go/result.md",
+      "background/nodes/dli_ambient_q_sqrt_route_no_go/provenance.md",
+      "background/nodes/dli_ambient_q_sqrt_route_no_go/verify.py",
+      "background/nodes/dli_ambient_q_sqrt_route_no_go/verify_audit.py",
+      "notes/pilots_20260818/c2_ambient_q_highcap_falsifier/PREREG.md",
+      "notes/pilots_20260818/c2_ambient_q_highcap_falsifier/FOLLOWUP_PREREG.md",
+      "critical/nodes/dli_c2pp_joint_reserve/attack.md"
+    ],
+    "notes": "This retires the scale-free ambient strengthening suggested by the fixed-weight Q bridge. The bridge remains true as a sufficient inequality, but its denominator floor is too lossy for the square-root constant."
+  },
+  "requires": [
+    {
+      "from": "dli_fixed_weight_ambient_q_bridge",
+      "order": 5352
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "dli_c2pp_joint_reserve",
+      "order": 5353
+    }
+  ],
+  "refutes": []
+}

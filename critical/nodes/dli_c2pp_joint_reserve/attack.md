@@ -158,3 +158,20 @@ retires the Haar denominator as an open subproblem: the remaining task is a
 finite **ambient** prefix-flatness estimate, not image-normalized Q alone.
 Upstream's asymptotic `exp(o(n))` theorem after a Sidon payment does not print
 the required 21-bit constant or the effective-image payment.
+
+The natural scale-free strengthening of that route is false. The proved
+`dli_ambient_q_sqrt_route_no_go` gives the exact high-cap row
+
+```text
+(n,t,q)=(32,2,33409),
+q^t P(Prim intersect ker Phi)=1116161281/33554432>8,
+J_prim=33554432/18106125<8=sqrt(2n).
+```
+
+Across all 189 high-cap analogue primes, ambient square-root flatness fails
+56 times while the true Haar ratio fails zero times. Thus `(AQ3)` remains a
+valid sufficient bridge, but bounding its right side by `sqrt(2n)` is a dead
+route: the reciprocal-codomain denominator floor loses a factor that is
+actually paying primitive orbits. Preserve the exact Haar marginals or prove
+an owner-sensitive Q statement normalized to their product. Do not replace
+the C2 denominator by `q^-t` at the target constant.
