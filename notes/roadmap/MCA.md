@@ -54,6 +54,14 @@ certificates required by the challenge.
   slices. This rules out the explicit two-block bare-atlas obstruction once
   actual slope ownership is restored, but it does not construct the needed
   cover or synchronize its locators.
+- Inside the surviving base-free `2 x 5` factor branch, the deeper residual
+  horn is now quantitative. At `(T,h)=(650,11216)`, unsafety forces at least
+  `30210771209598495` slopes into 1,877 or more residual-flag classes. A
+  weighted root-incidence count forces one actual coordinate through classes
+  carrying at least `303637675671716` slopes; their corrections lie in one
+  dimension-at-most-eight subspace and share that bucket-local core. The next
+  gate is to price or recursively shorten this high-mass bucket without
+  promoting its coordinate to a line-global core.
 - The finite rank-nine prefix is proved through `K'=87`. At the first open
   row `K'=88`, paired raw scans classify all 18,741,723 source units and
   leave exactly 622,895 raw-unsafe units on offsets `1..44`. This is a

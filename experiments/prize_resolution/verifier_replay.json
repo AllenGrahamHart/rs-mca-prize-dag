@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_chronology_safe_subspace_cover_payment/verify.py",
-      "seconds": 0.032895,
+      "script": "background/nodes/rate_half_mca_rank11_factor_flag_weighted_root_concentration/verify.py",
+      "seconds": 0.094469,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RANK11_SUBSPACE_COVER_PASS allowance=65167969673715470 five_spaces=64501\n"
+      "stdout_tail": "RANK11_WEIGHTED_ROOT_PASS flag_mass=30210771209598495 classes=1877 coordinate_mass=303637675671716\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_chronology_safe_subspace_cover_payment/verify_audit.py",
-      "seconds": 0.022533,
+      "script": "background/nodes/rate_half_mca_rank11_factor_flag_weighted_root_concentration/verify_audit.py",
+      "seconds": 0.031045,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RANK11_SUBSPACE_COVER_AUDIT_PASS dimensions=9 factor_threshold=64502 scope_checks=3\n"
+      "stdout_tail": "RANK11_WEIGHTED_ROOT_AUDIT_PASS T=650 S=11217 classes=1877 coordinate_mass=303637675671716\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

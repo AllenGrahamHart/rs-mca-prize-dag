@@ -1,0 +1,30 @@
+{
+  "schema": "rate-half-mca-rank11-factor-flag-weighted-root-v1",
+  "row": {
+    "n": 2097152,
+    "k": 1048576,
+    "anchor_good_universe": 1116048,
+    "A": 1114369,
+    "H": 38385,
+    "budget": 274980728111395087,
+    "transverse": 209812758437679617
+  },
+  "selection": {
+    "factor_cutoff": 650,
+    "residual_h": 11216,
+    "residual_zero_output": 11217,
+    "residual_roots": 37736,
+    "gap": 26520,
+    "factor_classes": 1716,
+    "residual_dim2_classes": 74529,
+    "residual_dim3_classes": 1770,
+    "factor_cost": 1733735411530980,
+    "dim2_cost": 4724942273025156,
+    "dim3_cost": 28498520779560840,
+    "union_cost": 34957198464116976,
+    "paid_total": 244769956901796593,
+    "flag_mass": 30210771209598495,
+    "minimum_flag_classes": 1877,
+    "coordinate_mass": 303637675671716
+  }
+}

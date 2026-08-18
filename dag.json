@@ -41341,6 +41341,30 @@
    ]
   },
   {
+   "id": "rate_half_mca_rank11_factor_flag_weighted_root_concentration",
+   "title": "Rank-eleven factor-flag weighted root concentration",
+   "status": "PROVED",
+   "closure": "quantitative deeper residual-flag mass and one-coordinate concentration inside the base-free 2 x 5 branch",
+   "statement": "At the official KoalaBear rank-eleven full-span terminal, assume a base-free factor presentation C'=span(PB), dim P=2, dim B=5, with every promoted rich container in a slice g_iB. At factor cutoff 650 and residual transversality threshold 11216, every unsafe line leaves at least 30210771209598495 first-owned slopes in at least 1877 distinct nontransverse residual classes, each emitting at least 11217 common-zero coordinates. Weighted incidence forces one anchor-good coordinate shared by classes carrying at least 303637675671716 slopes. Their corrections all lie in P B_x, where B_x=ker(ev_x|B) has dimension four, so the bucket has correction dimension at most eight and agrees with the received pair at x. The bucket is not paid here, and no factor presentation or global core is asserted.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_factor_flag_weighted_root_concentration/statement.md",
+    "background/nodes/rate_half_mca_rank11_factor_flag_weighted_root_concentration/proof.md",
+    "background/nodes/rate_half_mca_rank11_factor_flag_weighted_root_concentration/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_factor_flag_weighted_root_concentration/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_factor_flag_weighted_root_concentration/audit.md",
+    "background/nodes/rate_half_mca_rank11_factor_flag_weighted_root_concentration/result.md",
+    "background/nodes/rate_half_mca_rank11_factor_flag_weighted_root_concentration/provenance.md",
+    "background/nodes/rate_half_mca_rank11_factor_flag_weighted_root_concentration/frontier.md",
+    "background/nodes/rate_half_mca_rank11_factor_flag_weighted_root_concentration/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_factor_flag_weighted_root_concentration/verify.py",
+    "background/nodes/rate_half_mca_rank11_factor_flag_weighted_root_concentration/verify_audit.py"
+   ],
+   "upstream": {
+    "label": "anchored rich-flat rank-eleven router",
+    "relation": "OVERLAP"
+   }
+  },
+  {
    "id": "rate_half_mca_rank11_full_span_residual_forcing",
    "title": "Rank-eleven full-span residual forcing",
    "status": "PROVED",
@@ -81033,6 +81057,11 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_mca_rank11_chronology_safe_subspace_cover_payment",
+   "to": "rate_half_mca_rank11_factor_flag_weighted_root_concentration",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_mca_rank11_common_factor_product_cover_exclusion",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
@@ -81268,12 +81297,22 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_mca_rank11_factor_flag_2x5_recursive_router",
+   "to": "rate_half_mca_rank11_factor_flag_weighted_root_concentration",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_mca_rank11_factor_flag_common_base_global_core_adapter",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
   },
   {
    "from": "rate_half_mca_rank11_factor_flag_residual_two_threshold_route_wall",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_factor_flag_weighted_root_concentration",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
   },
