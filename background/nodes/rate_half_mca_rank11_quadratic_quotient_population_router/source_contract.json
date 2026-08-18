@@ -1,0 +1,16 @@
+{
+  "schema": "rate-half-mca-rank11-quadratic-quotient-population-router-v1",
+  "official_domain_order": 2097152,
+  "official_agreement": 1116048,
+  "exception_degree": 2,
+  "synchronized_residual_records": 255011043,
+  "maximum_pair_types": 58361,
+  "quotient_type_cap": 490553,
+  "quotient_only_type_floor": 520,
+  "floor_predecessor_capacity": 254597007,
+  "floor_capacity": 255087560,
+  "tradeoff_q": [0, 100, 200, 300, 400, 500, 517, 518, 519],
+  "tradeoff_other_mass": [255011043, 205955743, 156900443, 107845143, 58789843, 9734543, 1395142, 904589, 414036],
+  "tradeoff_one_type_floor": [4370, 3536, 2698, 1858, 1015, 169, 25, 16, 8],
+  "nonclaim": "The 520-type floor is not an aggregate quotient payment."
+}

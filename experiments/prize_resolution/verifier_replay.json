@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_quadratic_quotient_factor_through_interface/verify.py",
-      "seconds": 0.058395,
+      "script": "background/nodes/rate_half_mca_rank11_quadratic_quotient_population_router/verify.py",
+      "seconds": 0.083077,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "QUADRATIC_QUOTIENT_FACTOR_PASS toy_checks=192\n"
+      "stdout_tail": "QUADRATIC_QUOTIENT_POPULATION_PASS cap=490553 floor=520 rows=9\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_quadratic_quotient_factor_through_interface/verify_audit.py",
-      "seconds": 0.04526,
+      "script": "background/nodes/rate_half_mca_rank11_quadratic_quotient_population_router/verify_audit.py",
+      "seconds": 0.060666,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "QUADRATIC_QUOTIENT_FACTOR_AUDIT_PASS quotients=cyclic,dihedral\n"
+      "stdout_tail": "QUADRATIC_QUOTIENT_POPULATION_AUDIT_PASS cap=490553 floor=520\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

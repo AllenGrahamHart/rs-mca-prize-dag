@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_quadratic_quotient_population_router",
+    "title": "A quotient-only quadratic residual requires at least 520 first-owned pair types",
+    "status": "PROVED",
+    "closure": "disjoint degree-two exception capacity plus first-owner subtraction",
+    "statement": "Each synchronized cyclic or dihedral quadratic quotient type owns at most 490553 records because its pairwise-disjoint two-point exceptions lie outside a core of size m-2. Therefore q quotient types leave at least max(0,255011043-490553q) records on other synchronized pencils, and a quotient-only residual requires at least 520 distinct first-owned quotient types. This is a population router, not an aggregate payment.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_quadratic_quotient_population_router/statement.md",
+      "background/nodes/rate_half_mca_rank11_quadratic_quotient_population_router/proof.md",
+      "background/nodes/rate_half_mca_rank11_quadratic_quotient_population_router/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_quadratic_quotient_population_router/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_quadratic_quotient_population_router/audit.md",
+      "background/nodes/rate_half_mca_rank11_quadratic_quotient_population_router/result.md",
+      "background/nodes/rate_half_mca_rank11_quadratic_quotient_population_router/frontier.md",
+      "background/nodes/rate_half_mca_rank11_quadratic_quotient_population_router/provenance.md",
+      "background/nodes/rate_half_mca_rank11_quadratic_quotient_population_router/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_quadratic_quotient_population_router/verify.py",
+      "background/nodes/rate_half_mca_rank11_quadratic_quotient_population_router/verify_audit.py"
+    ],
+    "upstream": {
+      "label": "quotient-periodic fiber budget / factor synchronization",
+      "relation": "OVERLAP"
+    }
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_nonzero_affine_reflection_mass_router"},
+    {"from": "rate_half_mca_rank11_quadratic_quotient_survivor_identification"},
+    {"from": "rate_half_mca_rank11_quadratic_quotient_factor_through_interface"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location"}
+  ],
+  "refutes": []
+}

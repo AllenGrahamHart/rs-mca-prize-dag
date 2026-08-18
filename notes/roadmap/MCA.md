@@ -311,6 +311,15 @@ certificates required by the challenge.
   quotient-periodic inverse theorem. The remaining quotient gap is no longer
   algebraic classification; it is owner-safe charging and deduplication of
   records carrying those two factorizations.
+- A first aggregate quotient router now quantifies that charging problem.
+  Degree-two records of one pair type use disjoint two-point exceptions
+  outside a core of size `m-2`, so one cyclic/dihedral type owns at most
+  490,553 records. The 255,011,043-record synchronized residual therefore
+  either retains nonquotient mass or requires at least 520 distinct
+  first-owned quotient types. More generally, `q` quotient types leave at
+  least `max(0,255011043-490553q)` records on other pencils. The next theorem
+  must control compatibility or chronology across this 520-type population;
+  a single-pencil analysis cannot close the branch.
 - The finite rank-nine prefix is proved through `K'=87`. At the first open
   row `K'=88`, paired raw scans classify all 18,741,723 source units and
   leave exactly 622,895 raw-unsafe units on offsets `1..44`. This is a
