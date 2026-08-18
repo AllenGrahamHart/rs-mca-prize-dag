@@ -117,6 +117,17 @@ quotient-periodic classification or common-factor theorem. It is still a
 conditional router: it neither supplies the complete-family source
 hypothesis nor pays or excludes the endpoint.
 
+Commit `e3039cf8` routes that direction bank by the degree of its projective
+evaluation image. The exact occupancy deficit first charges the residual
+polynomial gcd: it has at most 310 official roots, so every primitive
+represented direction retains at least 2,041 roots. The primitive
+three-space map has degree factorization `d=ec` with image degree `c>=2`.
+For `c=2` it is exactly `span(A^2,AB,B^2)` for one rational map of degree
+1,021 to 2,490; for `c>=3` there are at least 597 distinct full evaluation
+normals. Continue the first branch as a one-function split-fiber census and
+the second as a curve-incidence census. Neither branch is yet classified or
+paid.
+
 ## Future Q/SPI packet
 
 The reduced DLI lane now has two fully proved structural results that use

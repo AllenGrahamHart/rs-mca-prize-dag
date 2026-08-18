@@ -3525,6 +3525,31 @@
     "our_sha": "1db90bbbe",
     "his_sha": "dab75a23"
    }
+  },
+  {
+   "our_node": "rate_half_mca_rank11_pair_pencil_dimension_three_projective_image_degree_router",
+   "his_object": {
+    "label": "base-field-normalized split-pencil census / projective rational-fiber router",
+    "file": "PR #1170 at e3039cf8, experimental/notes/thresholds/kb_mca_rank11_quotient_pair_plane218_v1.md",
+    "line": "conditional q=3170 common-gcd charge and projective-image degree dichotomy"
+   },
+   "relation": "OVERLAP",
+   "chain": "218-fold endpoint deficit -> at most 310 residual common-gcd domain roots -> primitive direction root floor 2041 -> basepoint-free map P^1 to P^2 with d=ec and c>=2 -> conic composition span(A^2,AB,B^2) of degree 1021..2490 or at least 597 distinct full evaluation normals",
+   "scope": "official KoalaBear scalar-dimension-three q=3170 endpoint when PR #1170's conditional source family is the complete retained quotient-type family",
+   "owner": "JOINT",
+   "nonclaims": [
+    "does not prove the additional complete-family source hypothesis",
+    "does not classify A/B as quotient-periodic",
+    "does not exclude the image-degree-at-least-three branch",
+    "does not pay the endpoint, rank eleven, or MCA"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "PROVED_CONDITIONAL_ROUTE_CUT_PR1170",
+   "lean": null,
+   "provenance": {
+    "our_sha": "121e75fa1",
+    "his_sha": "e3039cf8"
+   }
   }
  ]
 }
