@@ -5,9 +5,9 @@ from __future__ import annotations
 
 import argparse
 import copy
+from decimal import Decimal, localcontext
 from fractions import Fraction
 import json
-import math
 from pathlib import Path
 
 
@@ -33,6 +33,12 @@ CONTROL = {
         "n": 32, "q": 5857, "modulus": 1152921504607016701,
         "z0": 1152, "c1": 256, "z1": 1829376, "b0": 787968,
     },
+}
+EXPECTED_COUNTS = {
+    "z0": 227259606172895223931871329798529915863745504182648446230418158474213352436773778191377030361659036987692327140796443375499119317625629124310720768,
+    "c1": 15075132044957192478006898191470890229562554962327895331266773111833021696,
+    "z1": 1745581035014008215020703684182508283749429217626922715495841875240432760066859390287966970207903063102464764768452812247622422348576523251005605760256,
+    "b0": 1745581035014008215020703684182508283749429217626922715495841875240432760066859390287966970207903063102464764768452812244988137327424369450113941136384,
 }
 
 
@@ -85,32 +91,47 @@ def build(payload: dict[str, object] | None = None) -> dict[str, object]:
             assert row[key] == value
         assert row["orbits"] > 0
 
-    target = [row for row in rows if row["label"] == "target"]
+    target = sorted(
+        (row for row in rows if row["label"] == "target"),
+        key=lambda row: row["modulus"],
+    )
     assert len(target) == 10
     assert {row["modulus"] for row in target} == TARGET_MODULI
     assert all(row["n"] == 512 and row["q"] == 7681 for row in target)
+    assert prime64(7681) and (7681 - 1) % 512 == 0
     assert all(row["orbits"] == 115246 for row in target)
     assert all(prime64(row["modulus"]) and (row["modulus"] - 1) % 7681 == 0
                for row in target)
 
     counts: dict[str, int] = {}
-    crt_product = 0
     for key in ("z0", "c1", "z1", "b0"):
-        counts[key], crt_product = crt([(row[key], row["modulus"]) for row in target])
-        assert 0 <= counts[key] <= 1 << 512
-    assert crt_product.bit_length() == 601
+        counts[key], crt_product = crt(
+            [(row[key], row["modulus"]) for row in target[:9]]
+        )
+        assert crt_product.bit_length() == 541
+        assert counts[key] % target[9]["modulus"] == target[9][key]
+    assert counts == EXPECTED_COUNTS
+    assert 0 <= counts["z0"] <= 1 << 512
+    assert 0 <= counts["c1"] <= 1 << 256
+    assert 0 < counts["z1"] <= 1 << 512
+    assert 0 < counts["b0"] <= 1 << 512
 
     primitive = counts["z0"] - counts["c1"]
     assert primitive >= 0 and primitive % 512 == 0
     ratio = Fraction(primitive << 512, counts["z1"] * counts["b0"])
     fires = ratio.numerator * ratio.numerator > 1024 * ratio.denominator * ratio.denominator
+    with localcontext() as context:
+        context.prec = 100
+        ratio_bits = (
+            Decimal(ratio.numerator).ln() - Decimal(ratio.denominator).ln()
+        ) / Decimal(2).ln()
     summary = {
         **counts,
         "primitive": primitive,
         "ratio_numerator": ratio.numerator,
         "ratio_denominator": ratio.denominator,
-        "ratio_bits": math.log2(ratio.numerator) - math.log2(ratio.denominator),
-        "sqrt_slack_bits": 5 - (math.log2(ratio.numerator) - math.log2(ratio.denominator)),
+        "ratio_bits": f"{ratio_bits:.40E}",
+        "sqrt_slack_bits": f"{Decimal(5) - ratio_bits:.40E}",
         "fires": fires,
         "max_seconds": max(float(row["seconds"]) for row in rows),
     }
@@ -137,7 +158,7 @@ def main() -> None:
         return
     print(
         "C2_OFFICIAL_SHAPE_T2_CRT_PASS "
-        f"fires={int(result['fires'])} ratio_bits={result['ratio_bits']:.12f} "
+        f"fires={int(result['fires'])} ratio_bits={result['ratio_bits']} "
         f"max_seconds={result['max_seconds']:.3f}"
     )
 

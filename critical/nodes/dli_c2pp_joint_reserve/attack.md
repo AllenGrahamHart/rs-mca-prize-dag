@@ -49,3 +49,9 @@ On the official row `h=2^40` and `L=t/2=2^32`. Vandermonde rank already
 removes `1<=|S|<=L` and `1<=|S^c|<=L`; this is only a support gap, not the
 required weighted overlap estimate. A valid attack must control the overlap
 and tail jointly, or prove bounds whose product has the printed constant.
+
+The exact `(512,2,7681)` Fourier/CRT row now pays the missing official aspect
+ratio `n/t=256`: `J_prim<1` by exact integer comparison, with
+`log2 J_prim=-9.57e-74`. This retires further depth-one scale scans as a
+high-value action. It does not control `K_tail`; attack full-depth collision
+transport or produce a deeper-tower counterexample.

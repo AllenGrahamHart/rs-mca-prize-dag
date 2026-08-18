@@ -54,6 +54,12 @@ Vandermonde rank removes both support boundary bands of width `t/2`; the
 remaining task is a constants-bearing overlap-times-tail theorem, not a
 generic nullity estimate.
 
+The first exact depth-one analogue at the official aspect ratio is now
+banked. At `(n,t,q)=(512,2,7681)`, ten-prime Fourier/CRT reconstruction gives
+`J_prim<1` by `9.57e-74` bits, so the square-root target has five bits of
+slack. This makes additional `t=2` scale scans low value; no result yet
+controls the unreduced 32-junction tail at `t=2^33`.
+
 The rate-half crossing safe side is currently split into an exact structural
 shell, the proved deep-accident cap, and the open shallow/aperiodic
 population.  The latter is equivalently a prescribed-signature

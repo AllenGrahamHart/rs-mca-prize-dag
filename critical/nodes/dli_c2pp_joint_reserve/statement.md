@@ -438,3 +438,26 @@ p_S=0 for 1<=|S^c|<=t/2.
 For the official `(n,t)=(2^41,2^33)`, these exclude the two nonempty boundary
 bands of width `2^32`. They do not bound the surviving weighted overlap, and
 `K_tail` can expand, so `(SUPPORT)` is a route reduction rather than a close.
+
+## Round-32 exact official-shape analogue (2026-08-18, Codex)
+
+`notes/pilots_20260818/c2_official_shape_t2_crt/` evaluates the first exact
+depth-one row with the official aspect ratio:
+
+```text
+(n,t,q)=(512,2,7681),       n/t=256.
+```
+
+An additive-Fourier orbit quotient and ten-prime CRT reconstruct all four
+censuses exactly. The result is
+
+```text
+J_prim < 1,
+log2 J_prim = -9.5700325316325287361066757089202379707183e-74.
+```
+
+Both frozen `n=32` controls reproduce exactly, nine CRT primes suffice for
+unique reconstruction, and the tenth checks the residue independently. Thus
+`(SQRT)` survives this row with more than five bits of slack. The result is
+still at `m=1`; it licenses no assertion about the 32-junction tail on the
+official `t=2^33` row.
