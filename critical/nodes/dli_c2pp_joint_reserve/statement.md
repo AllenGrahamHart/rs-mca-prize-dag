@@ -479,3 +479,28 @@ expands slightly more. Their product is above one but remains
 `3.4999996340` bits below `sqrt(2n)`. This is a strict survivor of `(SQRT)`,
 not a transport theorem. It also confirms that separately bounding the two
 factors is structurally misaligned with the near cancellation.
+
+## Round-34 all-depth Haar correlation identity (2026-08-18, Codex)
+
+`dli_primitive_haar_event_correlation` places every level on one probability
+space. Draw the level-zero subset uniformly from `{0,1}^n`. Let `O_j` be the
+event that the integer Haar-skew at junction `j` is null in all active odd
+frequencies, and let `T_m` be the terminal one-frequency null event. Recursive
+even/odd splitting gives
+
+```text
+{t-null} = T_m intersect O_0 intersect ... intersect O_(m-1),
+P(O_j)=B_j/2^n,                    P(T_m)=Z_m/2^n.
+```
+
+After deleting the antipodally invariant owner,
+
+```text
+J_prim
+ = P(Prim intersect T_m intersect all O_j)
+   / [P(T_m) product_(j<m) P(O_j)].                       (HAAR)
+```
+
+Thus `(SQRT)` is exactly a discrete-Haar multi-event correlation inequality
+with loss `sqrt(2n)`. This formulation retains the cross-depth cancellation
+seen in Round 33. It proves no association estimate and leaves C2'' open.

@@ -66,6 +66,14 @@ primitive factor contributes `-4.9383e-6` bits and the tail contributes
 `3.4999996` bits below the square-root ceiling. This directly rules out a
 proof architecture that prices the two factors independently.
 
+The complete tower is now expressed without that artificial separation.
+Every junction contributes an odd integer-Haar null event on the same
+uniform binary cube, the terminal census is the final null event, and
+`J_prim` is exactly their joint primitive probability divided by the product
+of their marginal probabilities. The live target is therefore one
+constants-bearing discrete-Haar correlation theorem with first-owner
+deletion, not a collection of independent level caps.
+
 The rate-half crossing safe side is currently split into an exact structural
 shell, the proved deep-accident cap, and the open shallow/aperiodic
 population.  The latter is equivalently a prescribed-signature

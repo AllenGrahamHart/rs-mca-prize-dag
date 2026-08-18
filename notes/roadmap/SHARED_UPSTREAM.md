@@ -78,3 +78,17 @@ stack is stable.
 The factor router and serial-recursion wall were exported to `#1173` in
 comment `#issuecomment-5327317502` with public proof commits and explicit
 nonclaims.
+
+## Future Q/SPI packet
+
+The reduced DLI lane now has two fully proved structural results that use
+upstream-compatible primitive shift-pair language. The first junction is an
+exact overlap of conditioned even-prefix and odd-shift support laws. At full
+depth, the complete primitive ratio is the correlation excess of all odd
+dyadic Haar-band null events and the terminal prefix event on one Bernoulli
+cube. These identify a precise `(Q)`/SPI-style flatness target while retaining
+first-owner quotient deletion.
+
+Neither result proves flatness or an adjacent prize row. Hold them for a
+consolidated Q/SPI packet when that lane becomes active; they do not belong
+on the live rank-eleven PR `#1173`.

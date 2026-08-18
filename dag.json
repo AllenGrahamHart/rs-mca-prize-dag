@@ -10526,9 +10526,10 @@
     "background/nodes/dli_unreduced_coset_endpoint_counterexample/proof.md",
     "background/nodes/dli_primitive_first_owner_antipodal_subtraction/proof.md",
     "background/nodes/dli_primitive_joint_ratio_telescoping/proof.md",
-    "background/nodes/dli_first_junction_support_overlap/proof.md"
+    "background/nodes/dli_first_junction_support_overlap/proof.md",
+    "background/nodes/dli_primitive_haar_event_correlation/proof.md"
    ],
-   "notes": "Rounds 23--26 established exact telescoping, periodic-stratum, freeze-tail, and saturated-constant results for the unreduced object. Round 27 refutes the unreduced endpoint. Round 28 pays first-owner deletion. Round 29 reduces the target to the positive integer inequality C2-INT. Round 30 preregisters J_prim<=sqrt(2n), which would close the 21-bit reserve, and finds no falsifier on 13 exact t=2 rows through n=256. Round 31 proves that the first primitive junction is a support-distribution overlap and factors the remaining obstruction as its product with the unreduced tower tail. Round 32 exactly evaluates the first n/t=256 analogue at (512,2,7681): J_prim<1 by 9.57e-74 bits. Round 33 evaluates the first genuine two-junction row (64,4,193): the first factor contracts by 4.9383e-6 bits, the tail expands by 5.3042e-6 bits, and J_prim is 3.6595e-7 bits above one, still 3.5 bits below the square-root envelope. Full-depth transport remains open."
+   "notes": "Rounds 23--26 established exact telescoping, periodic-stratum, freeze-tail, and saturated-constant results for the unreduced object. Round 27 refutes the unreduced endpoint. Round 28 pays first-owner deletion. Round 29 reduces the target to the positive integer inequality C2-INT. Round 30 preregisters J_prim<=sqrt(2n), which would close the 21-bit reserve, and finds no falsifier on 13 exact t=2 rows through n=256. Round 31 proves the first-junction support overlap. Rounds 32--33 bank exact m=1 and m=2 survivors and expose first-factor/tail cancellation. Round 34 repackages the complete all-depth ratio as one primitive correlation excess among dyadic Haar-band null events on the same Bernoulli cube. The resulting square-root correlation inequality remains open."
   },
   {
    "id": "dli_wcl_zone_coverage",
@@ -30194,6 +30195,23 @@
     "critical/nodes/dli_c2pp_joint_reserve/statement.md"
    ],
    "notes": "This is an exact reduction, not a flatness estimate. It identifies the missing C2 input as control of a primitive support overlap multiplied by the unreduced deeper-tower factor."
+  },
+  {
+   "id": "dli_primitive_haar_event_correlation",
+   "title": "DLI primitive Haar-event correlation identity",
+   "status": "PROVED",
+   "statement": "Let t=2^m and draw a uniform binary vector on the cyclic domain of size n. For each dyadic junction j<m, let O_j be the event that its integer Haar-skew band vanishes in the odd moment frequencies U_j, and let T_m be the terminal level-m one-moment null event. Then the original t-null event is exactly T_m intersect intersection_j O_j; P(O_j)=B_j/2^n and P(T_m)=Z_m/2^n. If Prim deletes the antipodally invariant vectors, P(Prim intersect T_m intersect all O_j)=(Z_0-C_1)/2^n. Therefore J_prim=P(Prim intersect T_m intersect all O_j)/(P(T_m) product_j P(O_j))=2^(nm)(Z_0-C_1)/(Z_m product_j B_j). In particular J_prim<=sqrt(2n) is exactly a constants-bearing discrete-Haar multi-event correlation inequality.",
+   "attack_surface": "Check the cyclic quotient indexing, odd-frequency sets, integer rather than mod-two Haar skews, Vandermonde weights, terminal alphabet, first-owner deletion, and the number m+1 of marginal events in the normalization.",
+   "falsifier": "A binary vector for which the recursive Haar events disagree with the original first t moments, a junction marginal whose binary-cube probability is not B_j/2^n, or a primitive correlation ratio differing from the telescoping formula.",
+   "refs": [
+    "background/nodes/dli_primitive_haar_event_correlation/statement.md",
+    "background/nodes/dli_primitive_haar_event_correlation/proof.md",
+    "background/nodes/dli_primitive_haar_event_correlation/verify.py",
+    "background/nodes/dli_primitive_joint_ratio_telescoping/proof.md",
+    "background/nodes/dli_first_junction_support_overlap/proof.md",
+    "critical/nodes/dli_c2pp_joint_reserve/statement.md"
+   ],
+   "notes": "This preserves all cross-depth cancellation in one probability ratio. It proves no upper bound on that ratio and does not establish positive or negative association of the Haar events."
   },
   {
    "id": "crossing_dsa_refutation",
@@ -70934,6 +70952,11 @@
   },
   {
    "from": "dli_first_junction_support_overlap",
+   "to": "dli_c2pp_joint_reserve",
+   "kind": "ev"
+  },
+  {
+   "from": "dli_primitive_haar_event_correlation",
    "to": "dli_c2pp_joint_reserve",
    "kind": "ev"
   },

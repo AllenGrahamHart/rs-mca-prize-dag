@@ -61,3 +61,17 @@ The first exact depth-two row `(64,4,193)` now shows both effects at once:
 bits, and the full ratio is `3.6595e-7` bits above one. The square-root
 candidate survives with `3.4999996` bits of slack. Do not bound either factor
 in isolation or infer depth monotonicity from this row.
+
+The all-depth pose of record is now the proved Haar-event identity
+
+```text
+P(Prim intersect T_m intersect all O_j)
+ <= 2^21 P(T_m) product_(j<m) P(O_j).                    (HAAR-21)
+```
+
+For the stronger scale-free route replace `2^21` by `sqrt(2n)`. Here the
+`O_j` are the odd dyadic skew-band null events and `T_m` is the terminal
+one-frequency event, all on the same uniform binary cube. Seek a discrete
+Haar correlation, entropy, or hypercontractive theorem with primitive
+first-owner deletion explicit. Pairwise or per-level bounds must be shown to
+compose with the printed constant; independence is not available.
