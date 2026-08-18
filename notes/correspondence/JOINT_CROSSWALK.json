@@ -2968,6 +2968,56 @@
     "our_sha": "759ed78f8",
     "his_sha": "2788d5ec3"
    }
+  },
+  {
+   "our_node": "rate_half_mca_rank11_cross_type_pole_simple_atom_identity",
+   "his_object": {
+    "label": "factor synchronization / atom collision",
+    "file": "PR #1173 and experimental/grande_finale.tex",
+    "line": "factor synchronization next theorem; thm:collision-rigidity"
+   },
+   "relation": "OVERLAP",
+   "chain": "at least 16 shared pole-simple supports -> independent scalar pairs exceed pair-core uniqueness or proportional pairs cancel to an affine line -> projective atom identity",
+   "scope": "official KoalaBear pole-simple collision interface; 16 is the exact first threshold for the incidence argument, with margins -2605 at 15 and +2067 at 16",
+   "owner": "US",
+   "nonclaims": [
+    "does not construct shared cross-type packets",
+    "does not produce one canonical atom over a complete family",
+    "does not charge quotient atoms or high complexity",
+    "does not pay rank eleven or close MCA"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "da8f9f008",
+    "his_sha": "2788d5ec3"
+   }
+  },
+  {
+   "our_node": "rate_half_mca_rank11_cross_type_degree18_atom_weld_compiler",
+   "his_object": {
+    "label": "factor synchronization next theorem",
+    "file": "PR #1173",
+    "line": "pairwise factor-flag synchronization before chronology-safe ownership"
+   },
+   "relation": "OVERLAP",
+   "chain": "four-dimensional component recovery basis containing p and q -> symmetric 18-anchor packets -> 28/25/22/19 shared supports -> pole-simple atom identity",
+   "scope": "official KoalaBear triple-owner heavy-ruling branch; every two pair types with at least 29 records emit chi at least 2299571 or admit a pair of projectively identical rational atom certificates",
+   "owner": "US",
+   "nonclaims": [
+    "does not synchronize certificates arising from different pairwise welds",
+    "does not install a chronology-safe owner for the welded atom",
+    "does not pay the high-complexity alternative",
+    "does not pay rank eleven or close MCA"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "da8f9f008",
+    "his_sha": "2788d5ec3"
+   }
   }
  ]
 }
