@@ -131,9 +131,21 @@ certificates required by the challenge.
   ambiguity, `644952717` records align nontrivially; one orientation owns at
   least `322476359` records through at least two planes. Left rulings
   synchronize the original factor, while right rulings synchronize one
-  residual factor across original slices. The next target is an aggregate
-  two-ruling common-core/owner theorem, not another isolated direction
-  record.
+  residual factor across original slices.
+- The aggregate common-core step is now proved on one heavy ruling
+  orientation. Singleton pair types cost at most 58,361 records, leaving
+  `322417998` records on heavy pair types; their common pair core has size
+  below `K-2`, since otherwise exact shortening to dimension two would cap
+  the whole orientation at `236507076`. One pair owns at least 5,525
+  records, and the four-dimensional correction space lets that anchor plus
+  at most four further pair types recover the complete heavy core. Selecting
+  two records from every further type and filling an order-32 packet from
+  the anchor gives at least 24 explanations on one affine line and one off
+  it. Exact common-support cancellation therefore produces an actual
+  support-wise MCA-bad packet whose slope-error degree lies in `24..31`.
+  This does not yet pay a whole-line owner or any partial-relative branch;
+  the next step is to compose the packet with the exact partial-relative
+  harvest while retaining the ruling orientation and first-owner semantics.
 - The finite rank-nine prefix is proved through `K'=87`. At the first open
   row `K'=88`, paired raw scans classify all 18,741,723 source units and
   leave exactly 622,895 raw-unsafe units on offsets `1..44`. This is a

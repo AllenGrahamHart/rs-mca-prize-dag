@@ -41557,6 +41557,30 @@
    }
   },
   {
+   "id": "rate_half_mca_rank11_heavy_plane_ruling_degree24_order32_seed",
+   "title": "Rank-eleven heavy ruling compiles a degree-24 order-32 seed",
+   "status": "PROVED",
+   "closure": "the macroscopic ruling orientation yields a small-common-support actual order-32 packet with residual slope degree 24 through 31",
+   "statement": "In the heavy Segre ruling output, choose the orientation carrying at least 322476359 nonzero first-owned records. At most 58361 pair types are present. Removing singleton types leaves at least 322417998 records on heavy pair types, so one pair owns at least 5525 records. The heavy pair cores cannot share K-2 coordinates: shortening such a shared core to residual dimension two would allow at most 241 pair types and 236448715 heavy records; adding all singleton records gives 236507076, below the orientation mass by 85969283. Since all pair components lie in the four-dimensional correction space, one anchor pair and at most four additional heavy pair types recover the complete heavy-core intersection. Taking two records from every additional pair and 32-2t records from the anchor gives 32 actual records whose selected-support intersection has size below K-2. After exact support cancellation the residual row has dimension at least three, at least 24 explanations lie on the anchor pair line, and one explanation lies off it. Hence coefficientwise slope interpolation and the slope-error polynomial have degree 24 through 31. No branch payment is claimed.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_heavy_plane_ruling_degree24_order32_seed/statement.md",
+    "background/nodes/rate_half_mca_rank11_heavy_plane_ruling_degree24_order32_seed/proof.md",
+    "background/nodes/rate_half_mca_rank11_heavy_plane_ruling_degree24_order32_seed/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_heavy_plane_ruling_degree24_order32_seed/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_heavy_plane_ruling_degree24_order32_seed/audit.md",
+    "background/nodes/rate_half_mca_rank11_heavy_plane_ruling_degree24_order32_seed/result.md",
+    "background/nodes/rate_half_mca_rank11_heavy_plane_ruling_degree24_order32_seed/provenance.md",
+    "background/nodes/rate_half_mca_rank11_heavy_plane_ruling_degree24_order32_seed/frontier.md",
+    "background/nodes/rate_half_mca_rank11_heavy_plane_ruling_degree24_order32_seed/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_heavy_plane_ruling_degree24_order32_seed/verify.py",
+    "background/nodes/rate_half_mca_rank11_heavy_plane_ruling_degree24_order32_seed/verify_audit.py"
+   ],
+   "upstream": {
+    "label": "rank-eleven factor-flag synchronization / primitive shift-pair control",
+    "relation": "OVERLAP"
+   }
+  },
+  {
    "id": "rate_half_mca_rank11_heavy_plane_segre_shortening_transversality",
    "title": "Rank-eleven heavy-plane Segre shortening and transversality",
    "status": "PROVED",
@@ -81679,8 +81703,23 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_mca_rank11_heavy_plane_low_margin_segre_ruling_router",
+   "to": "rate_half_mca_rank11_heavy_plane_ruling_degree24_order32_seed",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_mca_rank11_heavy_plane_minimal_field_stratification_fence",
    "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_heavy_plane_ruling_degree24_order32_seed",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_heavy_plane_ruling_degree24_order32_seed",
+   "to": "rate_half_mca_rank11_shortened_partial_relative_router",
    "kind": "ev"
   },
   {

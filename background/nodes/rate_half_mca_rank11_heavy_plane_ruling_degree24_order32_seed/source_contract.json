@@ -1,0 +1,21 @@
+{
+  "schema": "rate-half-mca-rank11-heavy-ruling-degree24-seed-v1",
+  "orientation_mass": 322476359,
+  "rank_four_pair_types": 58361,
+  "singleton_record_cap": 58361,
+  "heavy_record_mass": 322417998,
+  "rank_two_pair_types": 241,
+  "fixed_pair_multiplicity": 981115,
+  "large_core_heavy_capacity": 236448715,
+  "large_core_total_capacity": 236507076,
+  "large_core_gap": 85969283,
+  "dense_pair_minimum": 5525,
+  "component_dimension": 4,
+  "maximum_additional_pair_types": 4,
+  "maximum_selected_pair_types": 5,
+  "seed_size": 32,
+  "minimum_anchor_records": 24,
+  "minimum_residual_dimension": 3,
+  "minimum_slope_degree": 24,
+  "maximum_slope_degree": 31
+}
