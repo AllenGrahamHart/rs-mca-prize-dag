@@ -41291,7 +41291,7 @@
    "title": "Order-32 one-swap synchronization cannot cross heavy pair types",
    "status": "PROVED",
    "closure": "sharp packet-overlap counting",
-   "statement": "In a 32-record packet an anchor type with at least 18 records is unique. Packets anchored at different types overlap in at most 28 records, or at most 24 under the heavy-ruling threshold 20. Hence the existing 31-overlap one-swap and certificate-collision arguments preserve anchor type and cannot synchronize the 520-type quotient population. This is a method wall, not cross-type incompatibility.",
+   "statement": "In a 32-record packet an anchor type with at least 18 records is unique. Packets anchored at different types overlap in at most 28 records, or at most 24 under the heavy-ruling threshold 20. Hence the existing 31-overlap split-pencil one-swap argument preserves anchor type. General atom collision needs only two shared slopes, but on the 28-record quotient bridge its distinct-atom large-core output remains 36336 coordinates below pair uniqueness. This is a method wall, not cross-type incompatibility.",
    "refs": [
     "background/nodes/rate_half_mca_rank11_cross_type_one_swap_synchronization_wall/statement.md",
     "background/nodes/rate_half_mca_rank11_cross_type_one_swap_synchronization_wall/proof.md",

@@ -13,7 +13,7 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parents[2]
 CONTRACT = HERE / "source_contract.json"
-CONTRACT_SHA256 = "ad1b32bbca181a56cf399200db58641f5d69c198aae9a52657f9cf70e7797657"
+CONTRACT_SHA256 = "1befeda8f067182ab717a44bce4f202e7a9f1f58eb4de24011025f24d473266b"
 
 
 class Reject(ValueError):
@@ -66,6 +66,17 @@ def validate(data: object) -> dict[str, int]:
     require(data.get("heavy_ruling_cross_anchor_overlap_cap") == heavy_cap == 24, "heavy cap")
     require(one_swap > partial_cap and one_swap > heavy_cap, "one-swap separation")
     require(data.get("quotient_population_floor") == 520, "population pin")
+    shared = data.get("cross_type_shared_records")
+    g_floor = data.get("collision_forced_common_zero_before_shortening")
+    denominator = data.get("denominator_degree_cap")
+    core_floor = data.get("collision_forced_pair_core_before_shortening")
+    pair_cap = data.get("distinct_pair_agreement_cap_before_shortening")
+    require(shared == 28, "collision overlap")
+    require(g_floor == (shared * 1116048 - 2097152 + shared - 2) // (shared - 1) == 1079711, "collision core")
+    require(denominator == 67472, "denominator")
+    require(core_floor == g_floor - denominator == 1012239, "pair core floor")
+    require(pair_cap == 1048575, "pair cap")
+    require(data.get("collision_pair_uniqueness_gap") == pair_cap - core_floor == 36336, "collision gap")
     require("does not prove" in str(data.get("nonclaim")).lower(), "nonclaim")
 
     dag = json.loads((ROOT / "dag.json").read_text())
@@ -88,8 +99,8 @@ def tamper_selftest(data: dict[str, object]) -> int:
         lambda item: item.__setitem__("heavy_ruling_cross_anchor_overlap_cap", 25),
         lambda item: item.__setitem__("one_swap_overlap", 28),
         lambda item: item.__setitem__("quotient_population_floor", 519),
-        lambda item: item.__setitem__("schema", "wrong"),
-        lambda item: item.__setitem__("nonclaim", "cross-type incompatibility proved"),
+        lambda item: item.__setitem__("collision_forced_pair_core_before_shortening", 1012240),
+        lambda item: item.__setitem__("collision_pair_uniqueness_gap", 36335),
     )
     caught = 0
     for mutate in mutations:

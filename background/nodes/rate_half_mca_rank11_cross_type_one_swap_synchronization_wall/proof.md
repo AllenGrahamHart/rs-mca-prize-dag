@@ -38,4 +38,39 @@ heavy-ruling interface require respectively 18 and at least 20 records on
 the chosen anchor line. Their 31-overlap rigidity can synchronize packets
 inside one type, as already proved, but cannot cross between types. The
 combinatorial obstruction says nothing about compatibility under a stronger
-theorem using less overlap or different ownership semantics. QED.
+theorem using less overlap or different ownership semantics.
+
+For completeness, this does not mean the general atom-collision theorem needs
+31 shared records. Its primitive root-free corollary needs only two. If two
+distinct certificates share `r=28` supports, the general collision bound
+
+```text
+r(m'-g)<=n'-g
+```
+
+forces
+
+```text
+g>=ceil((28m'-n')/27)=1079711-c,                    (2)
+```
+
+where `(n',m',K')=(n-c,m-c,K-c)`. The common-zero part `H` has size at most
+the denominator degree `d=67472`, so
+
+```text
+|G\H|>=1012239-c.                                   (3)
+```
+
+Every point in `G\H` lies in at least 27 of the 28 supports. The deck has 14
+records from each pair type, so such a point lies in at least two supports of
+each type and therefore in both pair cores. Distinct Reed--Solomon pairs can
+share at most
+
+```text
+K'-1=1048575-c
+```
+
+core coordinates. Bound `(3)` is short of that contradiction by exactly
+`36336`. Thus the collision theorem routes a distinct quotient atom into a
+large-core/nonprimitive exception but does not currently eliminate it. This
+is the exact remaining compatibility interface. QED.

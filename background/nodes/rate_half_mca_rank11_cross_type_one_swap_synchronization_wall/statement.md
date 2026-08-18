@@ -19,16 +19,30 @@ a=18: cross-type overlap <=28,
 a=20: cross-type overlap <=24.                         (SW2)
 ```
 
-The existing one-swap synchronization and primitive certificate-collision
-tools compare packets sharing 31 records. Under either deployed anchor-density
-hypothesis, every connected component of the 31-overlap packet graph has one
-fixed anchor pair type. Those tools therefore cannot synchronize cyclic or
-dihedral quotient pencils across the 520 distinct types forced by the
-population router.
+The existing split-pencil one-swap synchronization compares packets sharing
+31 records. Under either deployed anchor-density hypothesis, every connected
+component of that 31-overlap packet graph has one fixed anchor pair type. It
+therefore cannot synchronize cyclic or dihedral pencils across the 520
+distinct types forced by the population router.
+
+The separate atom-collision theorem does apply to two certificates sharing
+only two slopes in its primitive root-free branch. Quotient atoms are a named
+nonprimitive exception, however. For two distinct atoms sharing the sharp
+28-record cross-type deck, its general collision inequality forces, after a
+common-core shortening of size `c`,
+
+```text
+|G|>=1079711-c,
+|G\H|>=1012239-c.
+```
+
+The latter remains `36336` below the distinct-pair agreement ceiling
+`K'-1=1048575-c`, so current pair uniqueness does not eliminate this escape.
 
 This is a method wall, not a counterexample to cross-type compatibility. A
-closing theorem needs rigidity from at most 28 shared records, a larger packet
-theorem, or a direct factor/chronology payment.
+closing theorem needs to pay the large-core collision output, prove stronger
+quotient-specific rigidity, use a larger packet theorem, or install a direct
+factor/chronology payment.
 
 ## Falsifier
 

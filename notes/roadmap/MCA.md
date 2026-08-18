@@ -324,10 +324,13 @@ certificates required by the challenge.
   theorem. An order-32 packet with at least 18 records from one anchor type
   has a unique anchor; packets anchored at different types overlap in at most
   28 records (at most 24 under the local 20-anchor interface). Thus every
-  connected component of the one-swap packet graph keeps one pair type. A
-  viable next interface needs rigidity from at most 28 shared records, a
-  larger packet theorem, or direct factor/chronology payment. This is a
-  method wall, not evidence that compatible quotient populations exist.
+  connected component of the split-pencil one-swap packet graph keeps one
+  pair type. Primitive atom collision itself needs only two shared slopes;
+  on the 28-record bridge a distinct quotient atom forces a common-zero set
+  of size at least `1079711-c`, but after its 67,472 denominator allowance
+  the induced pair-core floor is still 36,336 below RS pair uniqueness. A
+  viable next interface must pay that large-core exception, use a larger
+  packet theorem, or install direct factor/chronology payment.
 - The finite rank-nine prefix is proved through `K'=87`. At the first open
   row `K'=88`, paired raw scans classify all 18,741,723 source units and
   leave exactly 622,895 raw-unsafe units on offsets `1..44`. This is a

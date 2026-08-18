@@ -11,7 +11,7 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parents[2]
 CONTRACT = HERE / "source_contract.json"
-CONTRACT_SHA256 = "ad1b32bbca181a56cf399200db58641f5d69c198aae9a52657f9cf70e7797657"
+CONTRACT_SHA256 = "1befeda8f067182ab717a44bce4f202e7a9f1f58eb4de24011025f24d473266b"
 
 
 def main() -> None:
@@ -25,6 +25,8 @@ def main() -> None:
         assert 2 * threshold > size
         assert cap == 2 * size - 2 * threshold
         assert data["one_swap_overlap"] > cap
+    assert data["collision_forced_common_zero_before_shortening"] - data["denominator_degree_cap"] == 1012239
+    assert data["distinct_pair_agreement_cap_before_shortening"] - 1012239 == 36336
 
     dag = json.loads((ROOT / "dag.json").read_text())
     nodes = {node["id"]: node for node in dag["nodes"]}
@@ -35,8 +37,9 @@ def main() -> None:
     statement = " ".join((HERE / "statement.md").read_text().lower().split())
     assert "anchor type is therefore constant" in proof
     assert "this bound is sharp at the set-system level" in proof
+    assert "primitive root-free corollary needs only two" in proof
     assert "method wall, not a counterexample" in statement
-    print("CROSS_TYPE_ONE_SWAP_WALL_AUDIT_PASS overlaps=28,24")
+    print("CROSS_TYPE_ONE_SWAP_WALL_AUDIT_PASS overlaps=28,24 gap=36336")
 
 
 if __name__ == "__main__":

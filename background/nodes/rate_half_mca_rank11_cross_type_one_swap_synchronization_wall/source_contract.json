@@ -7,5 +7,11 @@
   "heavy_ruling_cross_anchor_overlap_cap": 24,
   "one_swap_overlap": 31,
   "quotient_population_floor": 520,
+  "cross_type_shared_records": 28,
+  "collision_forced_common_zero_before_shortening": 1079711,
+  "denominator_degree_cap": 67472,
+  "collision_forced_pair_core_before_shortening": 1012239,
+  "distinct_pair_agreement_cap_before_shortening": 1048575,
+  "collision_pair_uniqueness_gap": 36336,
   "nonclaim": "The overlap wall does not prove that cross-type quotient certificates are incompatible."
 }

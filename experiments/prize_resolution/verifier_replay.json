@@ -9,7 +9,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/rate_half_mca_rank11_cross_type_one_swap_synchronization_wall/verify.py",
-      "seconds": 0.095686,
+      "seconds": 0.088661,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "CROSS_TYPE_ONE_SWAP_WALL_PASS caps=28,24\n"
@@ -17,10 +17,10 @@
     {
       "returncode": 0,
       "script": "background/nodes/rate_half_mca_rank11_cross_type_one_swap_synchronization_wall/verify_audit.py",
-      "seconds": 0.048812,
+      "seconds": 0.05565,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "CROSS_TYPE_ONE_SWAP_WALL_AUDIT_PASS overlaps=28,24\n"
+      "stdout_tail": "CROSS_TYPE_ONE_SWAP_WALL_AUDIT_PASS overlaps=28,24 gap=36336\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"
