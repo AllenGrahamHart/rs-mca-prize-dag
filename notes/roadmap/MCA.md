@@ -451,6 +451,15 @@ certificates required by the challenge.
   core-incidence design whose full 233-fold capacity exceeds demand by only
   189. Paying this near-saturated residual is the exact dimension-three
   frontier; scalar dimension four remains separate.
+- Scalar dimension four now has an exact two-output router. If every
+  noncommon coordinate has multiplicity at most 233, the same incidence
+  inequality forces a common received-pair core of at least 319,539 and
+  reversible shortening. Otherwise one actual coordinate lies in at least
+  234 pair cores; its owner types span an affine three-space exactly and
+  carry at least 6,786 first-owned records whose supports all contain that
+  coordinate. The live dimension-four targets are therefore the shortened
+  large-core branch and this explicit heavy coordinate star, not an
+  unspecified affine-three-space census.
 - The finite rank-nine prefix is proved through `K'=87`. At the first open
   row `K'=88`, paired raw scans classify all 18,741,723 source units and
   leave exactly 622,895 raw-unsafe units on offsets `1..44`. This is a

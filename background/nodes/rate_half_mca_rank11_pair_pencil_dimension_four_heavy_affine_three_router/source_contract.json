@@ -1,0 +1,15 @@
+{
+  "schema": "rate-half-mca-rank11-pair-pencil-dimension-four-heavy-affine-three-router-v1",
+  "n": 2097152,
+  "m": 1116048,
+  "K": 1048576,
+  "selected_types": 520,
+  "pair_core_size": 1116046,
+  "affine_plane_cap": 233,
+  "common_core_threshold": 319539,
+  "heavy_fiber_type_floor": 234,
+  "selected_type_record_floor": 29,
+  "heavy_fiber_record_floor": 6786,
+  "preserved_excess": 67472,
+  "nonclaim": "Neither the shortening branch nor the heavy affine-three fiber is paid."
+}

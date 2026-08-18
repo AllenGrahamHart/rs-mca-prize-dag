@@ -43442,6 +43442,30 @@
    }
   },
   {
+   "id": "rate_half_mca_rank11_pair_pencil_dimension_four_heavy_affine_three_router",
+   "title": "Scalar dimension four forces shortening or a 234-type affine-three coordinate fiber",
+   "status": "PROVED",
+   "closure": "global core incidence and affine-plane occupancy",
+   "statement": "In scalar dimension four, either the common received-pair core has size at least 319539 and reversible shortening applies, or an actual noncommon coordinate belongs to at least 234 quotient pair cores whose scalar points have affine span exactly three. The heavy coordinate fiber carries at least 6786 first-owned records. Neither output is paid here.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_four_heavy_affine_three_router/statement.md",
+    "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_four_heavy_affine_three_router/proof.md",
+    "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_four_heavy_affine_three_router/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_four_heavy_affine_three_router/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_four_heavy_affine_three_router/audit.md",
+    "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_four_heavy_affine_three_router/result.md",
+    "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_four_heavy_affine_three_router/frontier.md",
+    "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_four_heavy_affine_three_router/provenance.md",
+    "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_four_heavy_affine_three_router/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_four_heavy_affine_three_router/verify.py",
+    "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_four_heavy_affine_three_router/verify_audit.py"
+   ],
+   "upstream": {
+    "label": "base-field-normalized split-pencil census / common-GCD and flat-fiber strata",
+    "relation": "OVERLAP"
+   }
+  },
+  {
    "id": "rate_half_mca_rank11_pair_pencil_dimension_three_common_core_shortening",
    "title": "Scalar dimension three forces a 319539-coordinate common core",
    "status": "PROVED",
@@ -83737,9 +83761,19 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_mca_rank11_pair_pencil_dimension_four_heavy_affine_three_router",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_mca_rank11_pair_pencil_dimension_three_common_core_shortening",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_pair_pencil_dimension_three_common_core_shortening",
+   "to": "rate_half_mca_rank11_pair_pencil_dimension_four_heavy_affine_three_router",
+   "kind": "req"
   },
   {
    "from": "rate_half_mca_rank11_pair_pencil_dimension_two_common_core_shortening",
@@ -83824,6 +83858,11 @@
   {
    "from": "rate_half_mca_rank11_quadratic_quotient_population_router",
    "to": "rate_half_mca_rank11_global_atom_pair_core_owner_floor",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_quadratic_quotient_population_router",
+   "to": "rate_half_mca_rank11_pair_pencil_dimension_four_heavy_affine_three_router",
    "kind": "req"
   },
   {
