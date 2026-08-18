@@ -2643,6 +2643,31 @@
     "our_sha": "4aead609e",
     "his_sha": "d296510e80"
    }
+  },
+  {
+   "our_node": "rate_half_mca_rank11_exception_spi_affine_reflection_fixed_pencil_cap",
+   "his_object": {
+    "label": "rank-eleven factor-flag synchronization / varying-locator collision terminal",
+    "file": "PR #1173",
+    "line": "Dependency and next theorem; scoped factor-flag continuation"
+   },
+   "relation": "OVERLAP",
+   "chain": "official nonzero affine-reflection subclass -> complete 1016-coset fixed-pencil census -> sharp cap 1154 -> packet-pencil synchronization required for aggregate ownership",
+   "scope": "official KoalaBear base field and order-2^21 domain; exact cap for every fixed nonzero affine-reflection quadratic pencil arising inside the packet-local exception-SPI interface",
+   "owner": "US",
+   "nonclaims": [
+    "does not prove that one heavy pair type has a canonical affine-reflection pencil",
+    "does not multiply the fixed-pencil cap across pair types or promoted rich containers",
+    "does not control the antipodal c=0, nonaffine, or extension-field pencil classes",
+    "does not supply factor-flag synchronization, chronology ownership, rank-eleven payment, or MCA closure"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "58312cb77",
+    "his_sha": "2788d5ec3"
+   }
   }
  ]
 }
