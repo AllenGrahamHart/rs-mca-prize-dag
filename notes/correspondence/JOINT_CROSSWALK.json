@@ -2242,6 +2242,31 @@
     "our_sha": "a27058e62",
     "his_sha": "2788d5ec3"
    }
+  },
+  {
+   "our_node": "rate_half_mca_rank11_factor_flag_three_coordinate_rank_collision",
+   "his_object": {
+    "label": "anchored rich-flat rank-eleven router",
+    "file": "experimental/campaigns/kb-mca-rank11-rich-flat-post-1172/proofs/anchored_rich_flat_router.md",
+    "line": "post-router nontransverse terminal"
+   },
+   "relation": "OVERLAP",
+   "chain": "weighted residual-root concentration -> nested first-owned incidence -> exact four-space contradiction",
+   "scope": "official KoalaBear rank-eleven row inside the assumed base-free 2 x 5 factor branch; three actual coordinates with residual evaluation rank at most two and retained slope mass 347110921118",
+   "owner": "US",
+   "nonclaims": [
+    "does not derive the 2 x 5 factor presentation",
+    "does not classify proportional columns versus a genuine projective-line triple",
+    "does not aggregate or pay all rank-two collision buckets",
+    "does not close the rate-half crossing, MCA, or either prize terminal"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "44d68ea30",
+    "his_sha": "2788d5ec3"
+   }
   }
  ]
 }
