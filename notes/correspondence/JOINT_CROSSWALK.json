@@ -2367,6 +2367,31 @@
     "our_sha": "f29e0540f",
     "his_sha": "d296510e80"
    }
+  },
+  {
+   "our_node": "rate_half_mca_rank11_heavy_plane_segre_shortening_transversality",
+   "his_object": {
+    "label": "KoalaBear dense-locator base-field-normalized split-pencil route",
+    "file": "experimental/notes/thresholds/kb_mca_rank11_dense_locator_split_pencil_v1.md",
+    "line": "one fixed rank-nine split-pencil cell"
+   },
+   "relation": "OVERLAP",
+   "chain": "heavy rank-four residual plane -> full locator cancellation -> base-free field-internal Segre pencil -> 41 used ruling planes and one <=11-exception direction record",
+   "scope": "official KoalaBear rank-eleven row inside the assumed base-free 2 x 5 factor branch; a 9965407986-slope residual plane is normalized over the deployed field for every shortened dimension 4 through 1010840",
+   "owner": "US",
+   "nonclaims": [
+    "does not descend either two-dimensional factor space to the prime/base field",
+    "does not satisfy the upstream fixed rank-nine cell hypotheses",
+    "does not attach the 41 ruling planes to one aggregate selected-support payment",
+    "does not pay the bucket or close MCA"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "f2506bb76",
+    "his_sha": "d296510e80"
+   }
   }
  ]
 }
