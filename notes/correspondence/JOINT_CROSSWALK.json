@@ -2668,6 +2668,56 @@
     "our_sha": "58312cb77",
     "his_sha": "2788d5ec3"
    }
+  },
+  {
+   "our_node": "rate_half_mca_rank11_anchor_exchange_split_pencil_synchronization",
+   "his_object": {
+    "label": "rank-eleven factor-flag synchronization / varying-locator collision terminal",
+    "file": "PR #1173",
+    "line": "Dependency and next theorem; scoped factor-flag continuation"
+   },
+   "relation": "OVERLAP",
+   "chain": "fixed first-owned dense anchor -> globally fixed exact supports -> base plus one-swap packet star -> two shared locators determine every rational pencil",
+   "scope": "official KoalaBear dense heavy-ruling anchor; either one admissible packet has chi at least 2299571 or one coprime degree-1-through-11 pencil contains 5524 fixed anchor locators",
+   "owner": "US",
+   "nonclaims": [
+    "does not construct the upstream 2 x 5 factor presentation",
+    "does not synchronize unrelated pair types or line-global locators",
+    "does not classify the synchronized pencil",
+    "does not pay the high-complexity output, rank eleven, or MCA"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "4fc90f569",
+    "his_sha": "2788d5ec3"
+   }
+  },
+  {
+   "our_node": "rate_half_mca_rank11_affine_reflection_exchange_elimination",
+   "his_object": {
+    "label": "base-field-normalized split-pencil census plus factor-flag synchronization",
+    "file": "PR #1170 and PR #1173",
+    "line": "split-pencil terminal; factor-flag synchronization next theorem"
+   },
+   "relation": "OVERLAP",
+   "chain": "dense-anchor one-swap synchronization -> 5524 locators in one pencil -> exact official nonzero affine-reflection cap 1154 -> high-complexity packet",
+   "scope": "official KoalaBear degree-two rational exception subbranch normalized to x maps to c-x with c nonzero; contradiction margin 4370 fibers",
+   "owner": "US",
+   "nonclaims": [
+    "does not eliminate the antipodal c=0 or other fractional-involution classes",
+    "does not classify nonquadratic or primitive split pencils",
+    "does not prove base-field normalization for an arbitrary extension-field packet",
+    "does not pay chi at least 2299571, rank eleven, or MCA"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "4fc90f569",
+    "his_sha": "2788d5ec3"
+   }
   }
  ]
 }
