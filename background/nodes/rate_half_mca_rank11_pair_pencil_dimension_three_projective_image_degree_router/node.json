@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_pair_pencil_dimension_three_projective_image_degree_router",
+    "title": "The q=3170 scalar system is a conic composition or has 597 full normals",
+    "status": "PROVED",
+    "closure": "basepoint-free projective map degree and conic parametrization",
+    "statement": "At the q=3170 endpoint, the residual scalar-space gcd has at most 310 official-domain roots by the exact occupancy deficit. After dividing it, homogenization gives a basepoint-free map P^1->P^2 whose polynomial degree factors as d=ec, where c>=2 is image-curve degree and e is map degree. If c=2, then after a base-field projective change the space is span(A^2,AB,B^2) for one rational function A/B of degree 1021..2490, and every represented primitive direction is a binary quadratic in A,B with at least 2041 official roots. If c>=3, at most floor((K'-1)/3) full coordinates share a normal, forcing at least 597 distinct full evaluation normals (597..633 row-wise). Neither branch is paid or excluded.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_projective_image_degree_router/statement.md",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_projective_image_degree_router/proof.md",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_projective_image_degree_router/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_projective_image_degree_router/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_projective_image_degree_router/audit.md",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_projective_image_degree_router/result.md",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_projective_image_degree_router/frontier.md",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_projective_image_degree_router/provenance.md",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_projective_image_degree_router/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_projective_image_degree_router/verify.py",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_projective_image_degree_router/verify_audit.py"
+    ],
+    "upstream": {
+      "label": "base-field-normalized split-pencil census / rational-fiber classification",
+      "relation": "OVERLAP"
+    }
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_pair_pencil_coprime_direction_normal_form"},
+    {"from": "rate_half_mca_rank11_pair_pencil_dimension_three_common_core_shortening"},
+    {"from": "rate_half_mca_rank11_pair_pencil_dimension_three_type_population_ceiling"},
+    {"from": "rate_half_mca_rank11_pair_pencil_dimension_three_population_endpoint_direction_saturation"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location"}
+  ],
+  "refutes": []
+}
