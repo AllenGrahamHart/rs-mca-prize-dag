@@ -389,6 +389,21 @@ nonempty line-global-core route `(C)`. It is not payment of `(C)`, but within
 the exact `2 x 5` model the only genuinely new recursive output is now the
 deeper `18166`-coordinate residual flag.
 
+A second ordered-basis threshold does not strengthen that residual output.
+For any proposed output `S>=18167`, a genuine intermediate band already
+forces class charges
+
+```text
+187184 R_4 + 3381 R_6 = 66303977459889028,
+```
+
+which exceeds the whole residual allowance by `1136007786173558` before
+factor or transverse costs. If the intermediate band is empty, the formula
+is the original optimizer and gives `S<=18166`. Serial transversality
+refinement is therefore exhausted; continue only with a coupling theorem
+for factor presentation, locator synchronization, Wronskian collision, or
+chronology.
+
 Canonical `prize` head `859a27a4b` has integrated the rank-eleven chain
 through clone collapse. Upstream PR `#1169` at `b4bad8607` now supplies the
 post-`#1168` reserve repricing, guarded dimension adapter, and chronology

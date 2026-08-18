@@ -52,6 +52,13 @@ actual anchor-good set, it is a common maximal-support coordinate for the
 complete selected family and therefore route `(C)`. This is an interface
 identification, not payment of `(C)`.
 
+The obvious serial refinement has an exact no-go fence: inserting a second
+residual rich-flat threshold cannot raise `18166`. Any nonempty intermediate
+band aimed at `18167` or above exceeds the complete residual allowance before
+the other charges are added. This supports `#1173`'s stated need for
+factor/locator synchronization or a Wronskian/subspace-design collision;
+another independent ordered-basis rung is not competitive.
+
 Treat this as a provisional extension while `#1173` is open. The exact
 low/full-span envelopes, adjacent walls, public proof commits, and full-span
 terminal are attached to that PR in comment `#issuecomment-5327013463`. Do not

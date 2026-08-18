@@ -1,7 +1,7 @@
 # Proof
 
-Fix `x in G_0` with `g(x)=0` for every `g in P`. Every generator of `PB` has
-the form `gb`, and
+Fix `x in G_0` such that either `g(x)=0` for every `g in P`, or `b(x)=0` for
+every `b in B`. Every generator of `PB` has the form `gb`, and in either case
 
 ```text
 (gb)(x)=g(x)b(x)=0.

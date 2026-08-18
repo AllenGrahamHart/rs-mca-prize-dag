@@ -5,7 +5,7 @@
 - one actual anchor-good coordinate `x in G_0`;
 - the complete post-gauge correction space `C'`;
 - an exact equality `C'=span(PB)`;
-- `x` is a common zero of the pencil `P`.
+- `x` is a common zero of `P` or of the residual factor space `B`.
 
 ## Output
 

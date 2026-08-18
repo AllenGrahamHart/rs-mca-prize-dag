@@ -28,9 +28,13 @@ def build(tamper: bool = False) -> dict[str, object]:
     pencil = (common, mul(common, (3, 1)))
     residual = ((1,), (2, 1), (5, 0, 1), (9, 4), (6, 3, 2))
     products = tuple(mul(g, b) for g in pencil for b in residual)
+    pencil_b = ((1,), (4, 1))
+    residual_b = tuple(mul(common, b) for b in residual)
+    products_b = tuple(mul(g, b) for g in pencil_b for b in residual_b)
     if tamper:
         products = products + ((1,),)
     product_values = tuple(ev(poly, X) for poly in products)
+    product_values_b = tuple(ev(poly, X) for poly in products_b)
     anchor = (23, 61)
     pair_coefficients = ((2, 0), (0, 3), (5, 8), (11, 4))
     pairs = tuple(
@@ -41,8 +45,14 @@ def build(tamper: bool = False) -> dict[str, object]:
         for a, b in pair_coefficients
     )
     assert all(value == 0 for value in product_values)
+    assert all(value == 0 for value in product_values_b)
     assert all(pair == anchor for pair in pairs)
-    return {"product_values": product_values, "pairs": pairs, "anchor": anchor}
+    return {
+        "product_values": product_values,
+        "product_values_b": product_values_b,
+        "pairs": pairs,
+        "anchor": anchor,
+    }
 
 
 def main() -> None:
@@ -61,7 +71,8 @@ def main() -> None:
         return
     print(
         "RANK11_FACTOR_BASE_GLOBAL_CORE_PASS "
-        f"products={len(result['product_values'])} records={len(result['pairs'])}"
+        f"p_base_products={len(result['product_values'])} "
+        f"b_base_products={len(result['product_values_b'])} records={len(result['pairs'])}"
     )
 
 
