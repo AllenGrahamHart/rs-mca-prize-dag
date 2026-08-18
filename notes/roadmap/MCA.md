@@ -122,6 +122,18 @@ certificates required by the challenge.
   degree one. The next theorem must therefore use received-line,
   first-owner, support, or Galois-orbit semantics to bind the degree-one
   stratum to PR #1170 or transfer/pay an extension stratum.
+- The heavy Segre bucket also has an exact low-margin ruling router. At
+  `T=12`, its high-margin part is at most `9319299072`; at least `646108914`
+  records remain in at most 58,361 low pair types. A non-ruling pair pencil
+  meets the Segre cone at no more than two slopes, so at least `645992192`
+  records lie on Segre rulings. Each ruling carries at most `236448715` low
+  records, forcing at least three planes. After removing the zero-correction
+  ambiguity, `644952717` records align nontrivially; one orientation owns at
+  least `322476359` records through at least two planes. Left rulings
+  synchronize the original factor, while right rulings synchronize one
+  residual factor across original slices. The next target is an aggregate
+  two-ruling common-core/owner theorem, not another isolated direction
+  record.
 - The finite rank-nine prefix is proved through `K'=87`. At the first open
   row `K'=88`, paired raw scans classify all 18,741,723 source units and
   leave exactly 622,895 raw-unsafe units on offsets `1..44`. This is a

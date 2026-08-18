@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_heavy_plane_low_margin_segre_ruling_router",
+    "title": "Rank-eleven heavy-plane low-margin Segre ruling router",
+    "status": "PROVED",
+    "closure": "a macroscopic part of the heavy Segre bucket is forced onto left- or right-ruling pair pencils with exact chronology-safe mass floors",
+    "statement": "In the shortened heavy 2 x 2 Segre bucket, split at support-local margin T=12. Uniformly over shortened dimension 4 through 1010840, the high-margin part has mass at most 9319299072. The remaining low part has mass at least 646108914 and uses at most 58361 pair types. A non-ruling pair pencil meets the Segre cone in at most two slopes, so at least 645992192 records have chosen pair pencils contained in Segre rulings. Each fixed ruling plane carries at most 236448715 low records; hence at least three ruling planes occur. After removing at most 1039475 zero-correction records, at least 644952717 records align nontrivially with a ruling. Under a canonical left/right partition, one orientation carries at least 322476359 records through at least two ruling planes. Left rulings synchronize the original factor g; right rulings synchronize a residual factor q across original factor slices. This is a router, not an aggregate payment.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_heavy_plane_low_margin_segre_ruling_router/statement.md",
+      "background/nodes/rate_half_mca_rank11_heavy_plane_low_margin_segre_ruling_router/proof.md",
+      "background/nodes/rate_half_mca_rank11_heavy_plane_low_margin_segre_ruling_router/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_heavy_plane_low_margin_segre_ruling_router/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_heavy_plane_low_margin_segre_ruling_router/audit.md",
+      "background/nodes/rate_half_mca_rank11_heavy_plane_low_margin_segre_ruling_router/result.md",
+      "background/nodes/rate_half_mca_rank11_heavy_plane_low_margin_segre_ruling_router/provenance.md",
+      "background/nodes/rate_half_mca_rank11_heavy_plane_low_margin_segre_ruling_router/frontier.md",
+      "background/nodes/rate_half_mca_rank11_heavy_plane_low_margin_segre_ruling_router/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_heavy_plane_low_margin_segre_ruling_router/verify.py",
+      "background/nodes/rate_half_mca_rank11_heavy_plane_low_margin_segre_ruling_router/verify_audit.py"
+    ],
+    "upstream": {
+      "label": "rank-eleven factor-flag synchronization / primitive shift-pair control",
+      "relation": "OVERLAP"
+    }
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_heavy_plane_segre_shortening_transversality"},
+    {"from": "rate_half_mca_rank10_margin_interleaving_split_payment"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location"}
+  ],
+  "refutes": []
+}
