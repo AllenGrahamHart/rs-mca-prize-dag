@@ -1,0 +1,3 @@
+# Result
+
+`FFF`: **PROVED empty**.

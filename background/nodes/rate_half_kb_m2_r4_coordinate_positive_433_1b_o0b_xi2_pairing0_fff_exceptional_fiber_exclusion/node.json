@@ -1,0 +1,31 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_exceptional_fiber_exclusion",
+    "title": "KoalaBear m2 r4 positive 433-1b/O0b xi2 pairing0 FFF exceptional-fiber exclusion",
+    "status": "PROVED",
+    "closure": "all fourteen exceptional FFF fibers are empty after denominator-free replay of the original system",
+    "statement": "At each of the fourteen exceptional t values in the FFF generic-root dichotomy, the original denominator-free admissible system has no solution. Direct q5,q7,q6 specialization gives a unit ideal at five roots. For the remaining nine, lifting E=e^2, reimposing all sixteen route guards, the five chart guards, and the rank-cofactor guard, then restoring original q4 gives a unit ideal in every case. Seven fibers die at route guards and the two finite survivors die at q4.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_exceptional_fiber_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_exceptional_fiber_exclusion/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_exceptional_fiber_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_exceptional_fiber_exclusion/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_exceptional_fiber_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_exceptional_fiber_exclusion/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_exceptional_fiber_exclusion/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_exceptional_fiber_exclusion/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_exceptional_fiber_exclusion/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_exceptional_fiber_exclusion/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_exceptional_fiber_exclusion/verify_audit.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_fff_exceptional_specializations_result.json",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_fff_exceptional_admissibility_result.json"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_generic_root_dichotomy"}
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

@@ -1,0 +1,40 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_complete_exclusion",
+    "title": "KoalaBear m2 r4 positive 433-1b/O0b xi2 pairing0 complete exclusion",
+    "status": "PROVED",
+    "closure": "all eight projective charts and the four-case symmetry orbit of the canonical cells-3/6 representative are empty",
+    "statement": "For canonical case (cell 3,S0,sigma_o=-1,epsilon=(-1,-1),xi=2,pairing=0), all eight finite/infinity projective common-root charts are empty: III, FII, IFI, IIF, FFI, FIF, IFF, and FFF. Hence the original q4=q5=q6 system has no admissible solution. The proved Klein-four transport excludes its exact four-case raw orbit. Together with the earlier basis-case-0 orbit, two of 1,416 cells-3/6 representatives are closed and 1,414 remain.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_complete_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_complete_exclusion/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_complete_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_complete_exclusion/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_complete_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_complete_exclusion/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_complete_exclusion/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_complete_exclusion/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_complete_exclusion/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_complete_exclusion/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_complete_exclusion/verify_audit.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_split_cells3_6_quotient.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_split_cells3_6_representatives.json"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_matching_resultant_projective_charts"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_all_infinity_chart_exclusion"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_one_finite_chart_exclusions"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_ffi_fif_collapsed_common_exclusions"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_iff_rational_branch_exclusion"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_chart_complete_exclusion"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cells3_6_v4_quotient"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cells3_6_basis_case0_orbit_exclusion"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment"}
+  ],
+  "refutes": []
+}

@@ -39126,6 +39126,92 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_complete_exclusion",
+   "title": "KoalaBear m2 r4 positive 433-1b/O0b xi2 pairing0 complete exclusion",
+   "status": "PROVED",
+   "closure": "all eight projective charts and the four-case symmetry orbit of the canonical cells-3/6 representative are empty",
+   "statement": "For canonical case (cell 3,S0,sigma_o=-1,epsilon=(-1,-1),xi=2,pairing=0), all eight finite/infinity projective common-root charts are empty: III, FII, IFI, IIF, FFI, FIF, IFF, and FFF. Hence the original q4=q5=q6 system has no admissible solution. The proved Klein-four transport excludes its exact four-case raw orbit. Together with the earlier basis-case-0 orbit, two of 1,416 cells-3/6 representatives are closed and 1,414 remain.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_complete_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_complete_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_complete_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_complete_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_complete_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_complete_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_complete_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_complete_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_complete_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_complete_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_complete_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_split_cells3_6_quotient.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_split_cells3_6_representatives.json"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_chart_complete_exclusion",
+   "title": "KoalaBear m2 r4 positive 433-1b/O0b xi2 pairing0 FFF complete chart exclusion",
+   "status": "PROVED",
+   "closure": "the canonical all-finite projective matching-root chart is empty on every base-field fiber",
+   "statement": "For canonical case (cell 3,S0,sigma_o=-1,epsilon=(-1,-1),xi=2,pairing=0), the FFF projective common-root chart has no admissible solution over F_2130706433. The generic-root dichotomy proves emptiness outside fourteen t values, and the exceptional-fiber theorem proves emptiness at every one of those fourteen values.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_chart_complete_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_chart_complete_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_chart_complete_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_chart_complete_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_chart_complete_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_chart_complete_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_chart_complete_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_chart_complete_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_chart_complete_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_chart_complete_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_chart_complete_exclusion/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_exceptional_fiber_exclusion",
+   "title": "KoalaBear m2 r4 positive 433-1b/O0b xi2 pairing0 FFF exceptional-fiber exclusion",
+   "status": "PROVED",
+   "closure": "all fourteen exceptional FFF fibers are empty after denominator-free replay of the original system",
+   "statement": "At each of the fourteen exceptional t values in the FFF generic-root dichotomy, the original denominator-free admissible system has no solution. Direct q5,q7,q6 specialization gives a unit ideal at five roots. For the remaining nine, lifting E=e^2, reimposing all sixteen route guards, the five chart guards, and the rank-cofactor guard, then restoring original q4 gives a unit ideal in every case. Seven fibers die at route guards and the two finite survivors die at q4.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_exceptional_fiber_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_exceptional_fiber_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_exceptional_fiber_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_exceptional_fiber_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_exceptional_fiber_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_exceptional_fiber_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_exceptional_fiber_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_exceptional_fiber_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_exceptional_fiber_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_exceptional_fiber_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_exceptional_fiber_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_fff_exceptional_specializations_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_fff_exceptional_admissibility_result.json"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_generic_root_dichotomy",
+   "title": "KoalaBear m2 r4 positive 433-1b/O0b xi2 pairing0 FFF generic-root dichotomy",
+   "status": "PROVED",
+   "closure": "the FFF necessary system is empty away from an exhaustive fourteen-root base-field exceptional set",
+   "statement": "For the canonical cell-3 S0 case with sigma_o=-1, epsilon=(-1,-1), xi=2, and pairing=0, the exact q5 quotient has dimension 16 over F_2130706433(t). The column-cleared multiplication determinant of R76=Res_E(q7,q6) is a nonzero polynomial of degree 19060. Every base-field root of that determinant and every denominator introduced by the generic transformations lies in the same explicit fourteen-element set. Hence the original FFF necessary system is empty for every t outside that set, and no other exceptional base-field fiber exists.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_generic_root_dichotomy/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_generic_root_dichotomy/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_generic_root_dichotomy/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_generic_root_dichotomy/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_generic_root_dichotomy/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_generic_root_dichotomy/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_generic_root_dichotomy/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_generic_root_dichotomy/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_generic_root_dichotomy/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_generic_root_dichotomy/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_generic_root_dichotomy/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_fff_r76_ntt_determinant_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_fff_exceptional_roots_result.json"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_ffi_fif_collapsed_common_exclusions",
    "title": "KoalaBear m2 r4 positive 433-1b/O0b xi2 pairing0 FFI/FIF collapsed-common exclusions",
    "status": "PROVED",
@@ -78440,6 +78526,16 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_matching_resultant_projective_charts",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_matching_resultant_projective_charts",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_generic_root_dichotomy",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_matching_resultant_projective_charts",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_iff_rational_branch_exclusion",
    "kind": "req"
   },
@@ -78650,6 +78746,11 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cells3_6_basis_case0_orbit_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cells3_6_basis_case0_orbit_exclusion",
    "to": "rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment",
    "kind": "ev"
   },
@@ -78666,6 +78767,11 @@
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cells3_6_global_common_basis",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_all_infinity_chart_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cells3_6_global_common_basis",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_generic_root_dichotomy",
    "kind": "req"
   },
   {
@@ -78701,6 +78807,16 @@
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cells3_6_v4_quotient",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_collapsed_finite_slope_anchors",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cells3_6_v4_quotient",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cells3_6_v4_quotient",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_generic_root_dichotomy",
    "kind": "req"
   },
   {
@@ -78775,6 +78891,11 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_all_infinity_chart_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_all_infinity_chart_exclusion",
    "to": "rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment",
    "kind": "ev"
   },
@@ -78782,6 +78903,36 @@
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_collapsed_finite_slope_anchors",
    "to": "rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_complete_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_chart_complete_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_exceptional_fiber_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_chart_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_generic_root_dichotomy",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_chart_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_generic_root_dichotomy",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_exceptional_fiber_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_ffi_fif_collapsed_common_exclusions",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_complete_exclusion",
+   "kind": "req"
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_ffi_fif_collapsed_common_exclusions",
@@ -78792,6 +78943,11 @@
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_ffi_fif_collapsed_common_exclusions",
    "to": "rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_iff_rational_branch_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_complete_exclusion",
+   "kind": "req"
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_iff_rational_branch_exclusion",
@@ -78812,6 +78968,11 @@
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_multifinite_infinity_leading_collapse",
    "to": "rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_one_finite_chart_exclusions",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_complete_exclusion",
+   "kind": "req"
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_one_finite_chart_exclusions",

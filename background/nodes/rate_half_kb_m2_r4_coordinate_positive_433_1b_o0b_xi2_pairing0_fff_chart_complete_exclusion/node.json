@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_chart_complete_exclusion",
+    "title": "KoalaBear m2 r4 positive 433-1b/O0b xi2 pairing0 FFF complete chart exclusion",
+    "status": "PROVED",
+    "closure": "the canonical all-finite projective matching-root chart is empty on every base-field fiber",
+    "statement": "For canonical case (cell 3,S0,sigma_o=-1,epsilon=(-1,-1),xi=2,pairing=0), the FFF projective common-root chart has no admissible solution over F_2130706433. The generic-root dichotomy proves emptiness outside fourteen t values, and the exceptional-fiber theorem proves emptiness at every one of those fourteen values.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_chart_complete_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_chart_complete_exclusion/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_chart_complete_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_chart_complete_exclusion/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_chart_complete_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_chart_complete_exclusion/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_chart_complete_exclusion/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_chart_complete_exclusion/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_chart_complete_exclusion/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_chart_complete_exclusion/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_chart_complete_exclusion/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_generic_root_dichotomy"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_exceptional_fiber_exclusion"}
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

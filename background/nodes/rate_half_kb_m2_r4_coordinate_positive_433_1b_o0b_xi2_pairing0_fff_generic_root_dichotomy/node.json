@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_generic_root_dichotomy",
+    "title": "KoalaBear m2 r4 positive 433-1b/O0b xi2 pairing0 FFF generic-root dichotomy",
+    "status": "PROVED",
+    "closure": "the FFF necessary system is empty away from an exhaustive fourteen-root base-field exceptional set",
+    "statement": "For the canonical cell-3 S0 case with sigma_o=-1, epsilon=(-1,-1), xi=2, and pairing=0, the exact q5 quotient has dimension 16 over F_2130706433(t). The column-cleared multiplication determinant of R76=Res_E(q7,q6) is a nonzero polynomial of degree 19060. Every base-field root of that determinant and every denominator introduced by the generic transformations lies in the same explicit fourteen-element set. Hence the original FFF necessary system is empty for every t outside that set, and no other exceptional base-field fiber exists.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_generic_root_dichotomy/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_generic_root_dichotomy/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_generic_root_dichotomy/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_generic_root_dichotomy/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_generic_root_dichotomy/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_generic_root_dichotomy/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_generic_root_dichotomy/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_generic_root_dichotomy/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_generic_root_dichotomy/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_generic_root_dichotomy/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_xi2_pairing0_fff_generic_root_dichotomy/verify_audit.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_fff_r76_ntt_determinant_result.json",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_fff_exceptional_roots_result.json"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_matching_resultant_projective_charts"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cells3_6_global_common_basis"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cells3_6_v4_quotient"}
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}
