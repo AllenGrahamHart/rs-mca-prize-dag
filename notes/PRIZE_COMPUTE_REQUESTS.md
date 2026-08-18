@@ -18063,4 +18063,16 @@ tools/ramguard modal -- timeout --signal=TERM --kill-after=15s 720s \
   experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_fff_q5_multiplication_bank_modal.py
 ```
 
-**Outcome:** preregistered; not yet run.
+**Outcome:** `COMPLETE`. The first app was interrupted with its local client
+at the context transition and left only the fail-closed incomplete
+checkpoint. The identical rerun, Modal app
+`ap-an7VJ4q5e54gxEGpu8967G`, certified the 16-element quotient basis and five
+pairwise-commuting multiplication matrices with 736 nonzero entries. All six
+`k0..k5` representatives have fiber degree two and eight terms. Quotient
+basis SHA-256:
+`aa3090c6c61b29e8a19f456d5a04b826423d9b08eb625d78c62b725ee00b5c8b`;
+matrix ledger SHA-256:
+`29300862188e3e23b2b4a855c38ca82c0cc93c082932d6bff0fb517f7b71942e`.
+Result SHA-256:
+`3d216da7d91c82a1360f932673ce3529278c90f81e6a8a6767f14a34ad73a45e`.
+The checker verifies every ledger and rejects all four hostile mutations.
