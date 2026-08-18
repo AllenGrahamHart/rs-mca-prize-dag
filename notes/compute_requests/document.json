@@ -94,6 +94,7 @@
     "notes/compute_requests/sections/89-o0b-fff-generic-q5-bank-extension.md",
     "notes/compute_requests/sections/90-o0b-fff-generic-q7-coefficients.md",
     "notes/compute_requests/sections/91-o0b-fff-generic-q7-extension.md",
-    "notes/compute_requests/sections/92-o0b-fff-q5-multiplication-bank.md"
+    "notes/compute_requests/sections/92-o0b-fff-q5-multiplication-bank.md",
+    "notes/compute_requests/sections/93-o0b-fff-q6-block-determinant.md"
   ]
 }
