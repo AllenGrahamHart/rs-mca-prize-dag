@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_exception_spi_dihedral_quotient_fence",
+    "title": "Dihedral quotient pencils survive the twenty-fiber SPI interface",
+    "status": "PROVED",
+    "closure": "explicit inversion-quotient pencils give a second unbounded abstract survivor family",
+    "statement": "Let N be a power of two and d in {1,2,4} divide N. For a nonsquare a in mu_(N/d), the pencil u=X^(2d)+a, v=X^d has N/(2d) pairwise-disjoint split squarefree degree-2d fibers, indexed by the fixed-point-free inversion orbits {z,a/z} in mu_(N/d). On N=2097152 the minimum is 262144 fibers. Thus the twenty-fiber exception-SPI interface admits dihedral as well as cyclic quotient survivors; closure must classify or price both using retained heavy-ruling semantics. This is an algebraic route fence, not an MCA counterexample.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_exception_spi_dihedral_quotient_fence/statement.md",
+      "background/nodes/rate_half_mca_rank11_exception_spi_dihedral_quotient_fence/proof.md",
+      "background/nodes/rate_half_mca_rank11_exception_spi_dihedral_quotient_fence/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_exception_spi_dihedral_quotient_fence/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_exception_spi_dihedral_quotient_fence/audit.md",
+      "background/nodes/rate_half_mca_rank11_exception_spi_dihedral_quotient_fence/result.md",
+      "background/nodes/rate_half_mca_rank11_exception_spi_dihedral_quotient_fence/provenance.md",
+      "background/nodes/rate_half_mca_rank11_exception_spi_dihedral_quotient_fence/frontier.md",
+      "background/nodes/rate_half_mca_rank11_exception_spi_dihedral_quotient_fence/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_exception_spi_dihedral_quotient_fence/verify.py",
+      "background/nodes/rate_half_mca_rank11_exception_spi_dihedral_quotient_fence/verify_audit.py"
+    ],
+    "upstream": {
+      "label": "split-pencil census / cyclic-dihedral pullback class",
+      "relation": "OVERLAP"
+    }
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_heavy_ruling_exception_split_pencil_normal_form"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location"}
+  ],
+  "refutes": []
+}

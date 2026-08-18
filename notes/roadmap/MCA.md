@@ -206,6 +206,22 @@ certificates required by the challenge.
   pencils from these quotient power maps and then price the periodic class
   using the retained denominator, factor-owner, received-line, or chronology
   semantics.
+- The periodic boundary is cyclic **and dihedral**, not merely power-map.
+  For `d in {1,2,4}`, choose a nonsquare `a in mu_(N/d)`. The involution
+  `z -> a/z` has `N/(2d)` two-element orbits, and each orbit gives the
+  degree-`2d` split fiber
+
+  ```text
+  X^(2d) -(z+a/z)X^d + a=(X^d-z)(X^d-a/z).
+  ```
+
+  These fibers are pairwise disjoint, have coprime pencil generators, and
+  number at least 262,144 on the official domain. Thus a theorem saying
+  that twenty split fibers force a power map is false. The exact frontier
+  is cyclic/dihedral pullback versus primitive remainder, followed by an
+  owner-safe payment of any pullback that genuinely lifts to the
+  heavy-ruling certificate. The existing `N^(2/3)` many-fiber toral trigger
+  is far above twenty and cannot bridge this scale by itself.
 - The finite rank-nine prefix is proved through `K'=87`. At the first open
   row `K'=88`, paired raw scans classify all 18,741,723 source units and
   leave exactly 622,895 raw-unsafe units on offsets `1..44`. This is a
