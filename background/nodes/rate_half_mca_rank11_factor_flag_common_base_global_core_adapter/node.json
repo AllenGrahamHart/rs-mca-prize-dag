@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_factor_flag_common_base_global_core_adapter",
+    "title": "Rank-eleven factor base routes to the line-global core",
+    "status": "PROVED",
+    "closure": "a common pencil base coordinate in the anchor-good set is an existing line-global C-route coordinate",
+    "statement": "In the anchored KoalaBear rank-eleven setting, suppose the complete post-gauge correction space satisfies C'=span(PB). If some anchor-good coordinate is a common zero of every polynomial in P, then every correction in C' vanishes there. Both components of every selected minimizing pair therefore equal the anchor pair, which equals the received pair at that coordinate. The coordinate lies in every selected record's maximal agreement support, so the complete line-global core is nonempty and enters the existing identity-fiber shortened residual C. This is an adapter, not payment of C or existence of the factor presentation.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_factor_flag_common_base_global_core_adapter/statement.md",
+      "background/nodes/rate_half_mca_rank11_factor_flag_common_base_global_core_adapter/proof.md",
+      "background/nodes/rate_half_mca_rank11_factor_flag_common_base_global_core_adapter/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_factor_flag_common_base_global_core_adapter/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_factor_flag_common_base_global_core_adapter/audit.md",
+      "background/nodes/rate_half_mca_rank11_factor_flag_common_base_global_core_adapter/result.md",
+      "background/nodes/rate_half_mca_rank11_factor_flag_common_base_global_core_adapter/provenance.md",
+      "background/nodes/rate_half_mca_rank11_factor_flag_common_base_global_core_adapter/verify.py",
+      "background/nodes/rate_half_mca_rank11_factor_flag_common_base_global_core_adapter/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_factor_flag_2x5_recursive_router"},
+    {"from": "rate_half_mca_rank11_anchor_star_sae_router"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location"}
+  ],
+  "refutes": []
+}

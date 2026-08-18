@@ -380,6 +380,15 @@ presentation and payment of either emitted horn remain open. The next useful
 step is to derive such a presentation from the full-span container atlas, or
 to pay the common-base/deeper-flag outputs without assuming one.
 
+The common-base output is now semantically discharged as a new terminal. If
+`x in G_0` is a common zero of `P`, every correction in `C'=span(PB)`
+vanishes at `x`; both components of every selected pair equal the actual
+anchor pair there. Since the anchor agrees with the received pair on `G_0`,
+`x` belongs to every maximal agreement support. This is exactly the existing
+nonempty line-global-core route `(C)`. It is not payment of `(C)`, but within
+the exact `2 x 5` model the only genuinely new recursive output is now the
+deeper `18166`-coordinate residual flag.
+
 Canonical `prize` head `859a27a4b` has integrated the rank-eleven chain
 through clone collapse. Upstream PR `#1169` at `b4bad8607` now supplies the
 post-`#1168` reserve repricing, guarded dimension adapter, and chronology

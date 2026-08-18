@@ -46,6 +46,12 @@ It does not supply the presentation and is not the general split-pencil
 census, but it gives a checked recursive target for a Wronskian or
 subspace-design collision theorem.
 
+The common-pencil-base horn has also been connected exactly to upstream's
+existing line-global vocabulary: because the base coordinate lies in the
+actual anchor-good set, it is a common maximal-support coordinate for the
+complete selected family and therefore route `(C)`. This is an interface
+identification, not payment of `(C)`.
+
 Treat this as a provisional extension while `#1173` is open. The exact
 low/full-span envelopes, adjacent walls, public proof commits, and full-span
 terminal are attached to that PR in comment `#issuecomment-5327013463`. Do not
