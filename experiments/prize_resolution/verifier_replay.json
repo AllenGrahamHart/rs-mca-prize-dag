@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cells1_2_complete_exclusion/verify.py",
-      "seconds": 1.516977,
+      "script": "background/nodes/rate_half_mca_rank11_common_factor_product_cover_exclusion/verify.py",
+      "seconds": 0.013342,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_KB_POSITIVE_433_1B_O0B_SPLIT_CELLS1_2_VERIFY_PASS closed=5040/1416 owner=31920/8952\n"
+      "stdout_tail": "RANK11_PRODUCT_COVER_PASS fixtures=9 span_cap=6 containers=8406 core_floor=42325\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_cells1_2_complete_exclusion/verify_audit.py",
-      "seconds": 0.856902,
+      "script": "background/nodes/rate_half_mca_rank11_common_factor_product_cover_exclusion/verify_audit.py",
+      "seconds": 0.020957,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_KB_POSITIVE_433_1B_O0B_SPLIT_CELLS1_2_AUDIT_PASS raw=5040 reps=1416 mutations=2/2\n"
+      "stdout_tail": "RANK11_PRODUCT_COVER_AUDIT_PASS span_cap=6 core_floor=42325 gap=127\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

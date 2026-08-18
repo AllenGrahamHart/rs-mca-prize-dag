@@ -28,3 +28,17 @@ Consolidate related results into broad, bankable packets.  A packet should
 lead with the exact theorem and consumer, include proof/certificate replay,
 state nonclaims, and use current upstream terminology.  Numerical evidence
 and no-go fences are supporting material, not promoted theorems.
+
+## Active rank-eleven overlap
+
+Open PR `#1173` (`2788d5ec3`) is the current anchored rich-flat packet. The
+local continuation proves that every unsafe KoalaBear rank-eleven survivor
+has collective nontransverse correction span at least seven and at least
+`8406` distinct promoted rich containers. It also pays the complete common
+`2 x 3` factor-product-cover subclass.
+
+Treat this as a provisional extension while `#1173` is open. Do not race its
+branch or identify the product-cover subclass with the general
+base-field-normalized split-pencil census. Once the stack is stable, export
+the low-span envelope, the exact adjacent payment wall, and the collective
+span terminal as one continuation packet.

@@ -309,6 +309,39 @@ high-row cut, rank nine is absent for every `K'>=15635`. The only remaining
 rank-nine interval is `10<=K'<=15634`. This result uses no original-row
 `134944` common-core floor.
 
+### Anchored rich-flat collective-span update (2026-08-18)
+
+Upstream PR `#1173` supplies an independent anchored row-space router for the
+same KoalaBear rank-eleven residual. Re-optimizing its exact envelope while
+charging all nontransverse groups through one common affine correction span
+gives a new proved dichotomy at `(tau,h)=(1549,42451)`. The transverse
+envelope is `274947501264373505`. If the collective nontransverse span had
+dimension at most six, ordinary affine-span plus sub-square two-fold
+interleaving would charge its complete union once by
+
+```text
+R_6=15909196289385,
+total=274963410460662890,
+slack=17317650732197.
+```
+
+Therefore every unsafe survivor has collective nontransverse span at least
+seven. It also has nontransverse mass at least `33226847021583`, at least
+`134181` represented row spaces, and at least `8406` distinct promoted
+dimension-two/three rich containers, each with `42452` common actual zeros.
+The adjacent threshold `h=42452` misses by `1804196591101`, so this particular
+low-span envelope cannot be widened by one.
+
+A complete common factor-product cover `W_i<=g_iB` with all `g_i` in one
+two-dimensional factor space and `dim B<=3` has total span at most six and is
+therefore excluded from every unsafe survivor. Under exact-product and
+distinct-pencil hypotheses, incidence also synchronizes at least `42325`
+coordinates into the fixed base locus. This is a precise multiplicative
+subclass, not the general upstream base-field-normalized split-pencil census.
+The next route-deciding theorem must pay or classify collective span
+dimensions `7..10`; another per-container rich-flat estimate cannot close the
+row by itself.
+
 Canonical `prize` head `859a27a4b` has integrated the rank-eleven chain
 through clone collapse. Upstream PR `#1169` at `b4bad8607` now supplies the
 post-`#1168` reserve repricing, guarded dimension adapter, and chronology

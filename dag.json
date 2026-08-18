@@ -40823,6 +40823,24 @@
    ]
   },
   {
+   "id": "rate_half_mca_rank11_common_factor_product_cover_exclusion",
+   "title": "Common-factor product-cover exclusion",
+   "status": "PROVED",
+   "closure": "common two-by-three factor-product covers are incompatible with an unsafe rank-eleven survivor",
+   "statement": "At the official KoalaBear rank-eleven rich-container terminal, let U_i be every nontransverse represented row space and W_i its promoted container. If fixed polynomial subspaces P,B have dim(P)<=2 and dim(B)<=3 and every U_i<=W_i<=g_iB for some nonzero g_i in P, then sum_i U_i lies in span(PB), of dimension at most six. The proved low-span payment forces dimension at least seven on every unsafe survivor, so this complete common-factor product-cover branch is paid. Under the stronger hypotheses W_i=g_iB with b projectively distinct pencil members and selected zero sets of size H in a universe of size at most m, the fixed locus Z(B) union Z(P) has size at least ceil((bH-m)/(b-1)); for b=8406, H=42452, m=1116048 this is 42325. This product-cover subclass is not identified with the general upstream base-field-normalized split-pencil census.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_common_factor_product_cover_exclusion/statement.md",
+    "background/nodes/rate_half_mca_rank11_common_factor_product_cover_exclusion/proof.md",
+    "background/nodes/rate_half_mca_rank11_common_factor_product_cover_exclusion/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_common_factor_product_cover_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_common_factor_product_cover_exclusion/audit.md",
+    "background/nodes/rate_half_mca_rank11_common_factor_product_cover_exclusion/result.md",
+    "background/nodes/rate_half_mca_rank11_common_factor_product_cover_exclusion/provenance.md",
+    "background/nodes/rate_half_mca_rank11_common_factor_product_cover_exclusion/verify.py",
+    "background/nodes/rate_half_mca_rank11_common_factor_product_cover_exclusion/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_mca_rank11_component_ninesubset_lane_concentrator",
    "title": "Rank-eleven component mass concentrates on one nine-subset",
    "status": "PROVED",
@@ -42300,6 +42318,24 @@
     "background/nodes/rate_half_mca_rank11_large_shared_pair_core_payment/source_contract.json",
     "background/nodes/rate_half_mca_rank11_large_shared_pair_core_payment/verify.py",
     "background/nodes/rate_half_mca_rank11_large_shared_pair_core_payment/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_mca_rank11_low_span_residual_payment",
+   "title": "Rank-eleven low-span residual payment",
+   "status": "PROVED",
+   "closure": "unsafe rank-eleven survivors require collective nontransverse correction span at least seven",
+   "statement": "At the official KoalaBear post-near affine-error-rank-eleven interface, select tau=1549 and h=42451 in the anchored row-space router. The complete transverse envelope is 274947501264373505. If the span V_nt of every represented nontransverse rank-one/rank-two row space had dimension at most six, ordinary affine-span plus sub-square two-fold interleaving would cap all nontransverse pair types by M_6=floor(C(n-K+6,6)/C(A-K+6,6))=16190045 and their slopes by R_6=(n-A)M_6=15909196289385. The total 274963410460662890 is below B_*=274980728111395087 by 17317650732197. Therefore every unsafe line has dim(V_nt)>=7. Quantitatively its nontransverse mass is at least 33226847021583, forcing at least 134181 represented row spaces and, after canonical promotion/merge, at least 8406 distinct dimension-two/three rich containers, each with at least 42452 common actual zero coordinates. The adjacent h=42452 envelope exceeds budget by 1804196591101; this is a payment wall, not an unsafe witness.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_low_span_residual_payment/statement.md",
+    "background/nodes/rate_half_mca_rank11_low_span_residual_payment/proof.md",
+    "background/nodes/rate_half_mca_rank11_low_span_residual_payment/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_low_span_residual_payment/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_low_span_residual_payment/audit.md",
+    "background/nodes/rate_half_mca_rank11_low_span_residual_payment/result.md",
+    "background/nodes/rate_half_mca_rank11_low_span_residual_payment/provenance.md",
+    "background/nodes/rate_half_mca_rank11_low_span_residual_payment/verify.py",
+    "background/nodes/rate_half_mca_rank11_low_span_residual_payment/verify_audit.py"
    ]
   },
   {
@@ -71611,6 +71647,11 @@
   },
   {
    "from": "list_subsqrt_interleaving_collapse",
+   "to": "rate_half_mca_rank11_low_span_residual_payment",
+   "kind": "req"
+  },
+  {
+   "from": "list_subsqrt_interleaving_collapse",
    "to": "rate_half_mca_rank11_rich_flat_residual_mass_compiler",
    "kind": "req"
   },
@@ -80511,6 +80552,11 @@
   },
   {
    "from": "rate_half_mca_rank11_anticode_branch_payments_import",
+   "to": "rate_half_mca_rank11_low_span_residual_payment",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_anticode_branch_payments_import",
    "to": "rate_half_mca_rank11_rich_flat_residual_mass_compiler",
    "kind": "req"
   },
@@ -80518,6 +80564,11 @@
    "from": "rate_half_mca_rank11_anticode_branch_payments_import",
    "to": "rate_half_mca_rank11_rich_flat_self_iteration_budget_wall",
    "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_common_factor_product_cover_exclusion",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
   },
   {
    "from": "rate_half_mca_rank11_component_ninesubset_lane_concentrator",
@@ -81535,6 +81586,16 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_mca_rank11_low_span_residual_payment",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_low_span_residual_payment",
+   "to": "rate_half_mca_rank11_common_factor_product_cover_exclusion",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_mca_rank11_order32_common_support_cancellation",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
@@ -81562,6 +81623,11 @@
   {
    "from": "rate_half_mca_rank11_pair_core_route_cut_import",
    "to": "rate_half_mca_rank11_large_shared_pair_core_payment",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_pair_core_route_cut_import",
+   "to": "rate_half_mca_rank11_low_span_residual_payment",
    "kind": "req"
   },
   {
@@ -81818,6 +81884,11 @@
    "from": "rate_half_mca_rank11_rich_flat_residual_mass_compiler",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_rich_flat_residual_mass_compiler",
+   "to": "rate_half_mca_rank11_low_span_residual_payment",
+   "kind": "req"
   },
   {
    "from": "rate_half_mca_rank11_rich_flat_residual_mass_compiler",

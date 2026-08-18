@@ -1,0 +1,29 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_common_factor_product_cover_exclusion",
+    "title": "Common-factor product-cover exclusion",
+    "status": "PROVED",
+    "closure": "common two-by-three factor-product covers are incompatible with an unsafe rank-eleven survivor",
+    "statement": "At the official KoalaBear rank-eleven rich-container terminal, let U_i be every nontransverse represented row space and W_i its promoted container. If fixed polynomial subspaces P,B have dim(P)<=2 and dim(B)<=3 and every U_i<=W_i<=g_iB for some nonzero g_i in P, then sum_i U_i lies in span(PB), of dimension at most six. The proved low-span payment forces dimension at least seven on every unsafe survivor, so this complete common-factor product-cover branch is paid. Under the stronger hypotheses W_i=g_iB with b projectively distinct pencil members and selected zero sets of size H in a universe of size at most m, the fixed locus Z(B) union Z(P) has size at least ceil((bH-m)/(b-1)); for b=8406, H=42452, m=1116048 this is 42325. This product-cover subclass is not identified with the general upstream base-field-normalized split-pencil census.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_common_factor_product_cover_exclusion/statement.md",
+      "background/nodes/rate_half_mca_rank11_common_factor_product_cover_exclusion/proof.md",
+      "background/nodes/rate_half_mca_rank11_common_factor_product_cover_exclusion/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_common_factor_product_cover_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_common_factor_product_cover_exclusion/audit.md",
+      "background/nodes/rate_half_mca_rank11_common_factor_product_cover_exclusion/result.md",
+      "background/nodes/rate_half_mca_rank11_common_factor_product_cover_exclusion/provenance.md",
+      "background/nodes/rate_half_mca_rank11_common_factor_product_cover_exclusion/verify.py",
+      "background/nodes/rate_half_mca_rank11_common_factor_product_cover_exclusion/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_low_span_residual_payment"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location"}
+  ],
+  "refutes": []
+}
