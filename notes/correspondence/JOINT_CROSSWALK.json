@@ -2267,6 +2267,31 @@
     "our_sha": "44d68ea30",
     "his_sha": "2788d5ec3"
    }
+  },
+  {
+   "our_node": "rate_half_mca_rank11_factor_flag_clone_line_dichotomy",
+   "his_object": {
+    "label": "anchored rich-flat rank-eleven router",
+    "file": "experimental/campaigns/kb-mca-rank11-rich-flat-post-1172/proofs/anchored_rich_flat_router.md",
+    "line": "post-router nontransverse terminal"
+   },
+   "relation": "OVERLAP",
+   "chain": "deep residual root triples -> rank-three four-space cap -> projective clone packing / genuine line split",
+   "scope": "official KoalaBear rank-eleven row inside the assumed base-free 2 x 5 factor branch; parameterized projective-clone size versus genuine rank-two triple slope mass",
+   "owner": "US",
+   "nonclaims": [
+    "does not derive the 2 x 5 factor presentation",
+    "does not identify residual projective clones with owner-pencil coordinate clones",
+    "does not identify the rank-two evaluation line with a split locator pencil",
+    "does not close the rate-half crossing, MCA, or either prize terminal"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "651472c7d",
+    "his_sha": "2788d5ec3"
+   }
   }
  ]
 }
