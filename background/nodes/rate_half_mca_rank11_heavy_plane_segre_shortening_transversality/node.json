@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_heavy_plane_segre_shortening_transversality",
+    "title": "Rank-eleven heavy-plane Segre shortening and transversality",
+    "status": "PROVED",
+    "closure": "the heavy rank-four plane becomes a locator-free field-internal Segre split pencil with many used factors and a low-exception direction record",
+    "statement": "The heavy rank-four residual plane of mass at least 9965407986 has a full common locator of degree 37733 through 1048569. Cancelling it reversibly gives a shortened row of dimension 4 through 1010840 and a base-free 2 x 2 product space for which P tensor Q maps isomorphically onto the four-dimensional correction space. Evaluation columns are field-internal Segre points and associated containers are ruling planes gQ. The rank-two cap forces at least 41 used projective factors, and the exact support-local envelope uniformly forces a direction record with at most 11 exceptions. Base-field normalization and aggregate payment remain open.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_heavy_plane_segre_shortening_transversality/statement.md",
+      "background/nodes/rate_half_mca_rank11_heavy_plane_segre_shortening_transversality/proof.md",
+      "background/nodes/rate_half_mca_rank11_heavy_plane_segre_shortening_transversality/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_heavy_plane_segre_shortening_transversality/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_heavy_plane_segre_shortening_transversality/audit.md",
+      "background/nodes/rate_half_mca_rank11_heavy_plane_segre_shortening_transversality/result.md",
+      "background/nodes/rate_half_mca_rank11_heavy_plane_segre_shortening_transversality/provenance.md",
+      "background/nodes/rate_half_mca_rank11_heavy_plane_segre_shortening_transversality/frontier.md",
+      "background/nodes/rate_half_mca_rank11_heavy_plane_segre_shortening_transversality/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_heavy_plane_segre_shortening_transversality/verify.py",
+      "background/nodes/rate_half_mca_rank11_heavy_plane_segre_shortening_transversality/verify_audit.py"
+    ],
+    "upstream": {
+      "label": "KoalaBear dense-locator base-field-normalized split-pencil route",
+      "relation": "OVERLAP"
+    }
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_rank_two_residual_base_plane_dichotomy"},
+    {"from": "rate_half_kb_common_core_shortening_adapter_staircase_import"},
+    {"from": "rate_half_mca_rank11_chronology_safe_subspace_cover_payment"},
+    {"from": "rate_half_mca_support_local_transversality_compiler"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location"}
+  ],
+  "refutes": []
+}

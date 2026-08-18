@@ -103,6 +103,15 @@ certificates required by the challenge.
   `3977322801` and forces correction rank exactly four. The live line horn
   is now either recursive common-base cancellation or one heavy `2 x 2`
   product plane close to the split-pencil census.
+- Cancelling the heavy plane's full locator identifies that product plane
+  exactly. The remaining correction space is a base-free field-internal
+  Segre tensor `P tensor Q` of dimension four; its assigned containers are
+  ruling planes `gQ`. The fixed-plane cap forces at least 41 projectively
+  distinct used factors, and a uniform recomputation over every shortened
+  dimension `4..1010840` forces a direction approximation with at most 11
+  support exceptions. The unresolved interface to PR #1170 is now
+  base-field descent plus one aggregate selected-support payment, not the
+  existence of a split-pencil normal form.
 - The finite rank-nine prefix is proved through `K'=87`. At the first open
   row `K'=88`, paired raw scans classify all 18,741,723 source units and
   leave exactly 622,895 raw-unsafe units on offsets `1..44`. This is a

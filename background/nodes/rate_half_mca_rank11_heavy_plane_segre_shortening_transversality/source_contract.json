@@ -1,0 +1,17 @@
+{
+  "schema": "rate-half-mca-rank11-heavy-plane-segre-v1",
+  "mass": 9965407986,
+  "locator_min": 37733,
+  "locator_max": 1048569,
+  "shortened_k_min": 4,
+  "shortened_k_max": 1010840,
+  "rank_two_cap": 248644099,
+  "minimum_used_factors": 41,
+  "turning_dimension": 177803,
+  "last_margin": 11,
+  "last_margin_uniform_cap": 10166508078,
+  "first_paying_margin": 12,
+  "first_paying_uniform_cap": 9319299072,
+  "redundancy": 1048576,
+  "agreement_gap": 67472
+}
