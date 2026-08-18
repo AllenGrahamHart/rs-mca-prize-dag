@@ -3475,6 +3475,56 @@
     "our_sha": "1d52ff301",
     "his_sha": "6186c7b1"
    }
+  },
+  {
+   "our_node": "rate_half_mca_rank11_pair_pencil_dimension_three_population_endpoint_plane_line_design",
+   "his_object": {
+    "label": "base-field-normalized split-pencil census / population-endpoint plane-line design",
+    "file": "PR #1170 at dab75a23, experimental/notes/thresholds/kb_mca_rank11_quotient_pair_plane218_v1.md",
+    "line": "conditional q=3170 saturated-plane and saturated-line endpoint reduction"
+   },
+   "relation": "OVERLAP",
+   "chain": "q=3170 population endpoint plus local plane shortening -> 339..358 full 218-point planes -> balanced plane incidence -> at least 22752 saturated plane pairs and at least 217 saturated 15-point lines -> each represented line recurs at least 2351 times",
+   "scope": "official KoalaBear scalar-dimension-three quotient pair-pencil branch when PR #1170's conditional source family is the complete retained quotient-type family",
+   "owner": "JOINT",
+   "nonclaims": [
+    "does not prove the additional complete-family source hypothesis",
+    "does not classify or pay the saturated-line family",
+    "does not exclude the q=3170 endpoint",
+    "does not pay rank eleven or close MCA"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "PROVED_CONDITIONAL_ROUTE_CUT_PR1170",
+   "lean": null,
+   "provenance": {
+    "our_sha": "f0a13cc6e",
+    "his_sha": "dab75a23"
+   }
+  },
+  {
+   "our_node": "rate_half_mca_rank11_pair_pencil_dimension_three_population_endpoint_direction_saturation",
+   "his_object": {
+    "label": "base-field-normalized split-pencil census / saturated direction bank",
+    "file": "PR #1170 at dab75a23, experimental/notes/thresholds/kb_mca_rank11_quotient_pair_plane218_v1.md",
+    "line": "conditional q=3170 global direction-population and aggregate saturation reduction"
+   },
+   "relation": "OVERLAP",
+   "chain": "at least 210 saturated projective directions per full owner plane plus direction root degree and pair capacity -> 41746<=R<=47836 -> every represented direction has at least 2351 roots -> aggregate unused degree at most 30203244 and root saturation greater than 0.8726",
+   "scope": "official KoalaBear scalar-dimension-three quotient pair-pencil branch when PR #1170's conditional source family is the complete retained quotient-type family",
+   "owner": "JOINT",
+   "nonclaims": [
+    "aggregate saturation is not individual near-splitting",
+    "does not classify the bank as quotient-periodic or force a common factor",
+    "does not exclude the q=3170 endpoint",
+    "does not pay rank eleven or close MCA"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "PROVED_CONDITIONAL_ROUTE_CUT_PR1170",
+   "lean": null,
+   "provenance": {
+    "our_sha": "1db90bbbe",
+    "his_sha": "dab75a23"
+   }
   }
  ]
 }

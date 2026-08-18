@@ -106,6 +106,17 @@ least 985,788 full 218-owner coordinates. This is the preferred next input
 for owner-safe quotient charging. It is not a proof of the complete-family
 source hypothesis and does not pay the dense owner.
 
+Commit `dab75a23` sharpens that saturated endpoint into an exact finite
+design. The `q=3170` row has 339 to 358 full 218-point planes, at least
+22,752 saturated plane pairs, and at least 217 saturated 15-point lines;
+each represented line recurs at least 2,351 times. The stronger internal
+direction count gives a bank of 41,746 to 47,836 represented projective
+directions, each with at least 2,351 roots, and aggregate root saturation
+greater than 0.8726. This is the current preferred input for a
+quotient-periodic classification or common-factor theorem. It is still a
+conditional router: it neither supplies the complete-family source
+hypothesis nor pays or excludes the endpoint.
+
 ## Future Q/SPI packet
 
 The reduced DLI lane now has two fully proved structural results that use
