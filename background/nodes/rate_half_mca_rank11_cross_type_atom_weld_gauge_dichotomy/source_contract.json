@@ -1,0 +1,11 @@
+{
+  "schema": "rate-half-mca-rank11-cross-type-atom-weld-gauge-dichotomy-v1",
+  "canonical_anchor_records": 18,
+  "shared_locator_points_for_projective_identity": 3,
+  "pair_type_vector": "(1,a_p,b_p)",
+  "edge_gauge": "C_pq-C_pr=D_p(1,a_p,b_p)",
+  "triangle_cocycle": "D_q T_q=D_p T_p+D_r T_r",
+  "generic_output": "one globally identical normalized edge atom",
+  "degenerate_output": "pair-type rank at most two over F(X)",
+  "nonclaim": "The global edge atom is not yet extended to every owned record, and the rational pair pencil is not paid."
+}

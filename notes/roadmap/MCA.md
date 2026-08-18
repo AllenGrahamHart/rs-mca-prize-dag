@@ -359,6 +359,20 @@ certificates required by the challenge.
   common projective atom. The next synchronization problem is now a
   triple-cocycle/gauge problem between the pairwise welds, not deck supply or
   two-certificate compatibility.
+- The triple gauge problem now has an exact dichotomy. Fixing 18 anchor
+  records per type gives one common scalar normalization for every edge
+  atom. Edge differences at a common type `p` are polynomial multiples of
+  `(1,a_p,b_p)`. Around a triangle these multiples form a cocycle. One
+  nonzero determinant `det(T_p,T_q,T_r)` kills the gauge and propagates one
+  atom to every edge of the complete type graph. If no determinant is
+  nonzero, all pair-type vectors have rank at most two over `F(X)`, yielding
+  one explicit rational pair-pencil census branch.
+- In the global-atom branch, a 31-overlap one-record replacement extends the
+  common edge atom to every record of every large type unless that replacement
+  emits high complexity. Thus the surviving quotient population is now
+  routed to either one record-covering pole-simple atom or a rank-two rational
+  pair pencil. Both still need owner-safe payment, but local compatibility,
+  pairwise deck supply, triangle coherence, and record extension are closed.
 - The finite rank-nine prefix is proved through `K'=87`. At the first open
   row `K'=88`, paired raw scans classify all 18,741,723 source units and
   leave exactly 622,895 raw-unsafe units on offsets `1..44`. This is a

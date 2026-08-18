@@ -48696,3 +48696,75 @@ next action:              synchronize pairwise welds over triples or price gauge
 - no common certificate asserted across different pairwise welds;
 - no quotient-population chronology payment;
 - no payment of `chi>=2299571`, rank-eleven closure, or MCA closure.
+# Cycle 489: cross-type atom gauge dichotomy
+
+## Result: PROVED global atom or rational pair pencil
+
+Fix 18 anchor records for every large pair type. Incident pairwise weld
+certificates share these locators, so three slope-locator points force their
+scalar coefficient pairs to be proportional. Normalize every edge atom to
+one scalar pair.
+
+At a common vertex `p`, subtraction gives the exact gauge law
+
+```text
+C_pq-C_pr=D_p(1,a_p,b_p).
+```
+
+Around a triangle the three gauges form a linear cocycle. If one triangle of
+pair-type vectors has nonzero determinant, its edge atoms coincide; elementary
+plane-intersection arguments propagate that atom first to every vertex and
+then every edge. If every determinant vanishes, all pair-type vectors have
+rank at most two over `F(X)`.
+
+## Burn-down
+
+```text
+starting local pin:       900fb6a98
+canonical prize pin:      0dd5b3244
+upstream frontier pin:    PR #1173 at 2788d5ec3
+DAG delta:                +1 PROVED dichotomy node, +4 edges
+critical status delta:    none
+closed interface:         triple coherence of canonical pairwise welds
+compute spend:            none
+next action:              extend global atom records; price rational pair pencil
+```
+
+## Nonclaims
+
+- no record extension beyond canonical packets in this node;
+- no payment of the global atom or rational pair pencil;
+- no high-complexity payment, rank-eleven closure, or MCA closure.
+# Cycle 490: global atom record extension
+
+## Result: PROVED complete large-type certificate coverage
+
+In the global-atom branch, fix an edge `{p,q}` and replace one of the
+canonical packet's 18 `p` anchor records by any other record owned by `p`.
+The modified packet retains every partial-relative, core-saturation,
+pure-locator, and pole-simple hypothesis. It shares 31 supports with the
+canonical packet, including 17 from `p` and at least five from `q`.
+
+The atom-identity theorem therefore makes every rational replacement
+certificate equal to the global atom. Repeating the replacement over every
+record and type proves: high complexity occurs, or one atom certifies the
+complete record set owned by all large types.
+
+## Burn-down
+
+```text
+starting local pin:       900fb6a98
+canonical prize pin:      0dd5b3244
+upstream frontier pin:    PR #1173 at 2788d5ec3
+DAG delta:                +1 PROVED extension node, +4 edges
+critical status delta:    none
+closed interface:         canonical-edge atom to all large-type records
+compute spend:            none
+next action:              exact global-atom owner cap or rational-pair-pencil census
+```
+
+## Nonclaims
+
+- no cardinality or chronology payment for the record-covering atom;
+- no payment of the rational rank-two branch;
+- no high-complexity payment, rank-eleven closure, or MCA closure.

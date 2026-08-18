@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_cross_type_global_atom_record_extension",
+    "title": "A global canonical atom extends to every large-type record",
+    "status": "PROVED",
+    "closure": "one-record packet replacement and 31-overlap atom identity",
+    "statement": "If all canonical pairwise welds use one normalized atom, then every large-type owned record can replace one fixed anchor record in an 18-anchor packet. The modified packet emits chi at least 2299571 or shares 31 supports across two types with the canonical packet and therefore has the same atom. Hence high complexity occurs or one atom certifies every large-type record. The atom is not paid here.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_cross_type_global_atom_record_extension/statement.md",
+      "background/nodes/rate_half_mca_rank11_cross_type_global_atom_record_extension/proof.md",
+      "background/nodes/rate_half_mca_rank11_cross_type_global_atom_record_extension/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_cross_type_global_atom_record_extension/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_cross_type_global_atom_record_extension/audit.md",
+      "background/nodes/rate_half_mca_rank11_cross_type_global_atom_record_extension/result.md",
+      "background/nodes/rate_half_mca_rank11_cross_type_global_atom_record_extension/frontier.md",
+      "background/nodes/rate_half_mca_rank11_cross_type_global_atom_record_extension/provenance.md",
+      "background/nodes/rate_half_mca_rank11_cross_type_global_atom_record_extension/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_cross_type_global_atom_record_extension/verify.py",
+      "background/nodes/rate_half_mca_rank11_cross_type_global_atom_record_extension/verify_audit.py"
+    ],
+    "upstream": {
+      "label": "factor synchronization / chronology-safe atom owner",
+      "relation": "OVERLAP"
+    }
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_cross_type_atom_weld_gauge_dichotomy"},
+    {"from": "rate_half_mca_rank11_cross_type_degree18_atom_weld_compiler"},
+    {"from": "rate_half_mca_rank11_cross_type_pole_simple_atom_identity"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location"}
+  ],
+  "refutes": []
+}

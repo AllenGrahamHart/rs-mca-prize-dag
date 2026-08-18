@@ -2,14 +2,30 @@
   "complete": true,
   "counts": {
     "FAIL": 0,
-    "PASS": 8,
+    "PASS": 12,
     "TIMEOUT": 0
   },
   "results": [
     {
       "returncode": 0,
+      "script": "background/nodes/rate_half_mca_rank11_cross_type_atom_weld_gauge_dichotomy/verify.py",
+      "seconds": 0.052451,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "CROSS_TYPE_ATOM_WELD_GAUGE_PASS controls=96\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_mca_rank11_cross_type_atom_weld_gauge_dichotomy/verify_audit.py",
+      "seconds": 0.041697,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "CROSS_TYPE_ATOM_WELD_GAUGE_AUDIT_PASS outputs=global-atom,rank-two\n"
+    },
+    {
+      "returncode": 0,
       "script": "background/nodes/rate_half_mca_rank11_cross_type_degree18_atom_weld_compiler/verify.py",
-      "seconds": 0.049456,
+      "seconds": 0.046631,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "CROSS_TYPE_DEGREE18_ATOM_WELD_PASS profiles=4 minimum_shared=19\n"
@@ -17,15 +33,31 @@
     {
       "returncode": 0,
       "script": "background/nodes/rate_half_mca_rank11_cross_type_degree18_atom_weld_compiler/verify_audit.py",
-      "seconds": 0.043199,
+      "seconds": 0.040938,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "CROSS_TYPE_DEGREE18_ATOM_WELD_AUDIT_PASS overlaps=28,25,22,19\n"
     },
     {
       "returncode": 0,
+      "script": "background/nodes/rate_half_mca_rank11_cross_type_global_atom_record_extension/verify.py",
+      "seconds": 0.050559,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "CROSS_TYPE_GLOBAL_ATOM_EXTENSION_PASS shared=31 types=17+5\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_mca_rank11_cross_type_global_atom_record_extension/verify_audit.py",
+      "seconds": 0.04054,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "CROSS_TYPE_GLOBAL_ATOM_EXTENSION_AUDIT_PASS overlap=31\n"
+    },
+    {
+      "returncode": 0,
       "script": "background/nodes/rate_half_mca_rank11_cross_type_one_swap_synchronization_wall/verify.py",
-      "seconds": 0.064679,
+      "seconds": 0.061209,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "CROSS_TYPE_ONE_SWAP_WALL_PASS caps=28,24\n"
@@ -33,7 +65,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/rate_half_mca_rank11_cross_type_one_swap_synchronization_wall/verify_audit.py",
-      "seconds": 0.041638,
+      "seconds": 0.039235,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "CROSS_TYPE_ONE_SWAP_WALL_AUDIT_PASS overlaps=28,24 gap=36336\n"
@@ -41,7 +73,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/rate_half_mca_rank11_cross_type_pole_simple_atom_identity/verify.py",
-      "seconds": 0.046978,
+      "seconds": 0.045344,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "CROSS_TYPE_POLE_SIMPLE_ATOM_IDENTITY_PASS threshold=16 margin=2067\n"
@@ -49,7 +81,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/rate_half_mca_rank11_cross_type_pole_simple_atom_identity/verify_audit.py",
-      "seconds": 0.042536,
+      "seconds": 0.042102,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "CROSS_TYPE_POLE_SIMPLE_ATOM_IDENTITY_AUDIT_PASS threshold=16\n"
@@ -57,7 +89,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/rate_half_mca_rank11_cross_type_scalar_pair_rigidity/verify.py",
-      "seconds": 0.044615,
+      "seconds": 0.044884,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "CROSS_TYPE_SCALAR_PAIR_RIGIDITY_PASS forced=1079711 pair_cap=1048575 margin=31136\n"
@@ -65,7 +97,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/rate_half_mca_rank11_cross_type_scalar_pair_rigidity/verify_audit.py",
-      "seconds": 0.04281,
+      "seconds": 0.041801,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "CROSS_TYPE_SCALAR_PAIR_RIGIDITY_AUDIT_PASS margin=31136 survivor=proportional\n"

@@ -1,0 +1,12 @@
+{
+  "schema": "rate-half-mca-rank11-cross-type-global-atom-record-extension-v1",
+  "packet_size": 32,
+  "anchor_records_after_replacement": 18,
+  "shared_records": 31,
+  "shared_anchor_type_records": 17,
+  "minimum_shared_counterpart_records": 5,
+  "atom_identity_threshold": 16,
+  "high_complexity_floor": 2299571,
+  "output": "one atom certifies every large-type record",
+  "nonclaim": "The record-covering atom is not yet bounded or assigned to a chronology-safe owner."
+}

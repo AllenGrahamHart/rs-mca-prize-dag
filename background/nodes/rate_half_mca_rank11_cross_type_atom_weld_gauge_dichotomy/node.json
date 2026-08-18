@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_cross_type_atom_weld_gauge_dichotomy",
+    "title": "Pairwise atom welds globalize or force a rational pair pencil",
+    "status": "PROVED",
+    "closure": "fixed-anchor scalar normalization and triangle gauge cocycle",
+    "statement": "Canonical pairwise atom welds admit one common scalar normalization. Around every triple, edge differences are polynomial multiples of the pair vectors T_p=(1,a_p,b_p). One nonzero triple determinant forces every canonical edge certificate to be one global atom; if all determinants vanish, all pair-type vectors have rank at most two over F(X). Neither output is paid here.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_cross_type_atom_weld_gauge_dichotomy/statement.md",
+      "background/nodes/rate_half_mca_rank11_cross_type_atom_weld_gauge_dichotomy/proof.md",
+      "background/nodes/rate_half_mca_rank11_cross_type_atom_weld_gauge_dichotomy/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_cross_type_atom_weld_gauge_dichotomy/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_cross_type_atom_weld_gauge_dichotomy/audit.md",
+      "background/nodes/rate_half_mca_rank11_cross_type_atom_weld_gauge_dichotomy/result.md",
+      "background/nodes/rate_half_mca_rank11_cross_type_atom_weld_gauge_dichotomy/frontier.md",
+      "background/nodes/rate_half_mca_rank11_cross_type_atom_weld_gauge_dichotomy/provenance.md",
+      "background/nodes/rate_half_mca_rank11_cross_type_atom_weld_gauge_dichotomy/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_cross_type_atom_weld_gauge_dichotomy/verify.py",
+      "background/nodes/rate_half_mca_rank11_cross_type_atom_weld_gauge_dichotomy/verify_audit.py"
+    ],
+    "upstream": {
+      "label": "factor synchronization / base pair-type split-pencil census",
+      "relation": "OVERLAP"
+    }
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_cross_type_degree18_atom_weld_compiler"},
+    {"from": "rate_half_mca_rank11_multi_anchor_exchange_split_pencil_synchronization"},
+    {"from": "rate_half_mca_rank11_heavy_ruling_exception_split_pencil_normal_form"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location"}
+  ],
+  "refutes": []
+}
