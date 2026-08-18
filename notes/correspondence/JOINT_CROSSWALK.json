@@ -2468,6 +2468,31 @@
     "our_sha": "ff3194473",
     "his_sha": "2788d5ec3"
    }
+  },
+  {
+   "our_node": "rate_half_mca_rank11_heavy_plane_ruling_degree24_partial_relative_router",
+   "his_object": {
+    "label": "anchored rich-flat rank-eleven factor-flag synchronization",
+    "file": "experimental/campaigns/kb-mca-rank11-rich-flat-post-1172/01_frontier_map.md",
+    "line": "factor-flag synchronization"
+   },
+   "relation": "OVERLAP",
+   "chain": "actual degree-24 heavy-ruling packet -> support-collapsed homogeneous extraction -> pure locator / rational profile / official two-cover floor",
+   "scope": "official KoalaBear sextic row inside the assumed base-free 2 x 5 factor branch; one selected heavy-ruling packet reaches exact partial-relative interfaces with denominator degree at most 67472 or chi at least 2299571",
+   "owner": "US",
+   "nonclaims": [
+    "does not pay the pure-locator, rational-profile, or high-complexity output",
+    "does not synchronize local packet cores or produce a whole-line chronology owner",
+    "does not derive the assumed 2 x 5 factor presentation",
+    "does not close the heavy bucket, rank eleven, or MCA"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "45060158f",
+    "his_sha": "2788d5ec3"
+   }
   }
  ]
 }
