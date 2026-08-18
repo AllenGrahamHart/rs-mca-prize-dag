@@ -41077,6 +41077,24 @@
    ]
   },
   {
+   "id": "rate_half_mca_rank11_full_span_rich_atlas_factor_presentation_fence",
+   "title": "Rank-eleven bare rich atlas does not force a factor presentation",
+   "status": "PROVED",
+   "closure": "two coprime rich locator blocks give full-span no-core polynomial atlases outside every two-by-five product locus",
+   "statement": "The bare rank-eleven terminal dim C'=10, at least 16384884 distinct spanning dimension-two/three containers, and at least 38385 actual common zeros per container does not imply C'=span(PB) with dimensions 2 x 5, even after excluding a global common zero. Put H=38385,d=H+4,D=2H+4. Two coprime split H-root locators times generic five-spaces produce a 10H-dimensional family of no-core ten-spaces and enough rich containers. All 2 x 5 product loci have dimension at most 5D-25=10H-5. Exact Gaussian bounds show the countermodels exist over official-size finite fields and remain below degree K. This fences only the bare atlas inference; chronology-aware synchronization is not refuted.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_full_span_rich_atlas_factor_presentation_fence/statement.md",
+    "background/nodes/rate_half_mca_rank11_full_span_rich_atlas_factor_presentation_fence/proof.md",
+    "background/nodes/rate_half_mca_rank11_full_span_rich_atlas_factor_presentation_fence/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_full_span_rich_atlas_factor_presentation_fence/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_full_span_rich_atlas_factor_presentation_fence/audit.md",
+    "background/nodes/rate_half_mca_rank11_full_span_rich_atlas_factor_presentation_fence/result.md",
+    "background/nodes/rate_half_mca_rank11_full_span_rich_atlas_factor_presentation_fence/provenance.md",
+    "background/nodes/rate_half_mca_rank11_full_span_rich_atlas_factor_presentation_fence/verify.py",
+    "background/nodes/rate_half_mca_rank11_full_span_rich_atlas_factor_presentation_fence/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_mca_rank11_global_core_rankdrop_highcomplexity_router",
    "title": "Rank-eleven global-core rank-drop and high-complexity router",
    "status": "PROVED",
@@ -80906,6 +80924,16 @@
    "from": "rate_half_mca_rank11_full_span_residual_forcing",
    "to": "rate_half_mca_rank11_factor_flag_2x5_recursive_router",
    "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_full_span_residual_forcing",
+   "to": "rate_half_mca_rank11_full_span_rich_atlas_factor_presentation_fence",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_full_span_rich_atlas_factor_presentation_fence",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
   },
   {
    "from": "rate_half_mca_rank11_global_core_rankdrop_highcomplexity_router",

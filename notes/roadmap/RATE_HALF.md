@@ -404,6 +404,17 @@ refinement is therefore exhausted; continue only with a coupling theorem
 for factor presentation, locator synchronization, Wronskian collision, or
 chronology.
 
+The factor presentation itself cannot be inferred from the bare full-span
+atlas. Two coprime degree-`38385` split locators times generic five-spaces
+give a no-global-core ten-space with more than the required `16384884` rich
+dimension-two/three containers. This family has parameter dimension
+`383850`, whereas the union of every polynomial `2 x 5` product locus has
+dimension at most `383845`; exact Gaussian bounds retain the separation over
+official-size finite fields. Thus a valid presentation theorem must use the
+anchored row-space partition, slope weights, minimizing-pair chronology, or
+owner compatibility. Population, common-zero size, and collective span alone
+are insufficient.
+
 Canonical `prize` head `859a27a4b` has integrated the rank-eleven chain
 through clone collapse. Upstream PR `#1169` at `b4bad8607` now supplies the
 post-`#1168` reserve repricing, guarded dimension adapter, and chronology

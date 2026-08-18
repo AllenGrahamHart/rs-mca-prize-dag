@@ -59,6 +59,14 @@ the other charges are added. This supports `#1173`'s stated need for
 factor/locator synchronization or a Wronskian/subspace-design collision;
 another independent ordered-basis rung is not competitive.
 
+There is also an exact adversarial fence on the presentation target. The
+bare full-span rich atlas admits official-field polynomial countermodels:
+two coprime locator blocks provide the full container population and span
+without a global core, while a five-dimensional parameter gap keeps generic
+examples outside every `2 x 5` product locus. Therefore the successor named
+in `#1173` must retain received-line chronology or weighted ownership; a
+pure rich-flat incidence theorem cannot produce that presentation.
+
 Treat this as a provisional extension while `#1173` is open. The exact
 low/full-span envelopes, adjacent walls, public proof commits, and full-span
 terminal are attached to that PR in comment `#issuecomment-5327013463`. Do not
@@ -66,3 +74,7 @@ race its branch or identify the product-cover subclass with the general
 base-field-normalized split-pencil census. The factor-flag router is a
 candidate for the same successor packet. Hold a formal successor until the
 stack is stable.
+
+The factor router and serial-recursion wall were exported to `#1173` in
+comment `#issuecomment-5327317502` with public proof commits and explicit
+nonclaims.
