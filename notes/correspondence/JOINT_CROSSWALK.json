@@ -2418,6 +2418,31 @@
     "our_sha": "cbfd2528d",
     "his_sha": "d296510e80"
    }
+  },
+  {
+   "our_node": "rate_half_mca_rank11_heavy_plane_low_margin_segre_ruling_router",
+   "his_object": {
+    "label": "anchored rich-flat rank-eleven factor-flag synchronization",
+    "file": "experimental/campaigns/kb-mca-rank11-rich-flat-post-1172/01_frontier_map.md",
+    "line": "factor-flag synchronization"
+   },
+   "relation": "OVERLAP",
+   "chain": "heavy 2 x 2 Segre bucket -> T=12 low-pair split -> quadratic Segre intersection -> macroscopic left/right ruling synchronization",
+   "scope": "official KoalaBear sextic row inside the assumed base-free 2 x 5 factor branch; at least 645992192 first-owned heavy-plane records lie on low pair rulings and at least 644952717 align nontrivially",
+   "owner": "US",
+   "nonclaims": [
+    "does not decide whether the left or right ruling orientation is the heavy output",
+    "does not synchronize different ruling planes or their locators",
+    "does not assign the ruling union to one chronology-safe owner",
+    "does not pay the heavy bucket, close rank eleven, or close MCA"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "be2220c11",
+    "his_sha": "2788d5ec3"
+   }
   }
  ]
 }
