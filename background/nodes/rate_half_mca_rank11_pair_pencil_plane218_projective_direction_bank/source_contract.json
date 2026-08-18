@@ -1,0 +1,23 @@
+{
+  "schema": "rate-half-mca-rank11-pair-pencil-plane218-projective-direction-bank-v1",
+  "n": 2097152,
+  "m": 1116048,
+  "K": 1048576,
+  "pair_core_size": 1116046,
+  "plane_occupancy": 218,
+  "line_cap": 15,
+  "plane_core_floor": 1043551,
+  "plane_core_ceiling": 1046532,
+  "shortened_K_floor": 2044,
+  "shortened_K_ceiling": 5025,
+  "full_coordinate_floor_constant": 28396,
+  "full_coordinate_floor_slope": 204,
+  "full_line_ceiling": 218,
+  "direction_floor": 210,
+  "aggregate_direction_deficit_ceiling": 41736,
+  "saturation_numerator": 131687,
+  "saturation_denominator": 136904,
+  "dual_rich_point_floor": 210,
+  "dual_remaining_pair_ceiling": 1603,
+  "nonclaim": "The projective direction bank is not excluded over the official finite field."
+}

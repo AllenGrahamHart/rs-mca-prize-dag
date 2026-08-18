@@ -43586,6 +43586,30 @@
    }
   },
   {
+   "id": "rate_half_mca_rank11_pair_pencil_plane218_projective_direction_bank",
+   "title": "A surviving 218-plane forces a 210-direction near-saturated fiber bank",
+   "status": "PROVED",
+   "closure": "endpoint shortening, line packing, and projective direction degree budget",
+   "statement": "If an affine scalar plane contains 218 selected quotient types, its common-core shortening has 2044<=K'<=5025 and at least 28396+204K' full 15-point coordinate fibers. These use 210 to 218 affine lines and at least 210 projective directions. Their aggregate unused degree capacity is at most 41736, so root occupancy exceeds 0.9618 uniformly. The dual arrangement has at least 210 multiplicity-15 points and at most 1603 remaining line-pair intersections. Exclusion over the official finite field remains open.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_pair_pencil_plane218_projective_direction_bank/statement.md",
+    "background/nodes/rate_half_mca_rank11_pair_pencil_plane218_projective_direction_bank/proof.md",
+    "background/nodes/rate_half_mca_rank11_pair_pencil_plane218_projective_direction_bank/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_pair_pencil_plane218_projective_direction_bank/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_pair_pencil_plane218_projective_direction_bank/audit.md",
+    "background/nodes/rate_half_mca_rank11_pair_pencil_plane218_projective_direction_bank/result.md",
+    "background/nodes/rate_half_mca_rank11_pair_pencil_plane218_projective_direction_bank/frontier.md",
+    "background/nodes/rate_half_mca_rank11_pair_pencil_plane218_projective_direction_bank/provenance.md",
+    "background/nodes/rate_half_mca_rank11_pair_pencil_plane218_projective_direction_bank/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_pair_pencil_plane218_projective_direction_bank/verify.py",
+    "background/nodes/rate_half_mca_rank11_pair_pencil_plane218_projective_direction_bank/verify_audit.py"
+   ],
+   "upstream": {
+    "label": "Q quotient flatness / BC base-field-normalized split-pencil census",
+    "relation": "OVERLAP"
+   }
+  },
+  {
    "id": "rate_half_mca_rank11_pole_simple_small_owner_atom_payment_import",
    "title": "Pole-simple coherent atoms with small owners are paid",
    "status": "PROVED",
@@ -83785,6 +83809,11 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_mca_rank11_pair_pencil_affine_plane_cap_218_sharpening",
+   "to": "rate_half_mca_rank11_pair_pencil_plane218_projective_direction_bank",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_mca_rank11_pair_pencil_coprime_direction_normal_form",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
@@ -83846,6 +83875,11 @@
   },
   {
    "from": "rate_half_mca_rank11_pair_pencil_dimension_two_secant_line_packing_sharpening",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_pair_pencil_plane218_projective_direction_bank",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
   },

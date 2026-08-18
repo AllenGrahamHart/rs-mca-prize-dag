@@ -470,6 +470,17 @@ certificates required by the challenge.
   current dimension-four alternative is a 219-type exact affine-three
   coordinate fiber carrying at least 6,351 records. These values supersede
   the earlier `233`, `319539`, and `234` numerical frontiers.
+- The endpoint occupancy 218 is itself rigid. Its plane-specific shortening
+  has `2044<=K'<=5025` and forces at least `28396+204K'` full 15-point line
+  fibers, distributed over 210 to 218 affine lines and at least 210
+  projective directions. The aggregate unused direction-degree capacity is
+  at most 41,736, so root saturation exceeds 0.9618. Dually, 218 lines have
+  at least 210 multiplicity-15 points and at most 1,603 remaining pair
+  intersections. This is the exact Q/BC endpoint: prove a valid
+  finite-characteristic arrangement inequality, or classify and price the
+  quotient-periodic near-full rational fibers. A complex Hirzebruch
+  inequality would give a 925-gap contradiction but is not imported without
+  a characteristic-transfer theorem.
 - The finite rank-nine prefix is proved through `K'=87`. At the first open
   row `K'=88`, paired raw scans classify all 18,741,723 source units and
   leave exactly 622,895 raw-unsafe units on offsets `1..44`. This is a
