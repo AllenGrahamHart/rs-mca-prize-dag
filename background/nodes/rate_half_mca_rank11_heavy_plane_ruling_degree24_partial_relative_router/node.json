@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_heavy_plane_ruling_degree24_partial_relative_router",
+    "title": "Heavy-ruling degree-24 seed reaches the partial-relative interfaces",
+    "status": "PROVED",
+    "closure": "support-collapsed extraction and exact lift give the pure-locator, rational-profile, or official two-cover-complexity alternative",
+    "statement": "For the actual degree-24 order-32 packet emitted by the heavy Segre ruling branch, exact common-support cancellation leaves dimension at least three, empty common selected support, and a non-affine tuple of slope degree 24 through 31. On its exact residual supports, support-collapsed homogeneous interpolation gives either a pure-locator certificate, a scalar-locator rational certificate with denominator degree at most 67472 and denominator roots retained, or residual two-cover complexity at least 3(m-c)-(K-c)+3. Every certificate lifts to the original heavy-ruling packet with the same denominator, affine locator scalars, support labels, and first-owned slopes. The complexity branch gains exactly 2c and hence gives chi at least 2299571 on the original supports. No output branch is paid.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_heavy_plane_ruling_degree24_partial_relative_router/statement.md",
+      "background/nodes/rate_half_mca_rank11_heavy_plane_ruling_degree24_partial_relative_router/proof.md",
+      "background/nodes/rate_half_mca_rank11_heavy_plane_ruling_degree24_partial_relative_router/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_heavy_plane_ruling_degree24_partial_relative_router/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_heavy_plane_ruling_degree24_partial_relative_router/audit.md",
+      "background/nodes/rate_half_mca_rank11_heavy_plane_ruling_degree24_partial_relative_router/result.md",
+      "background/nodes/rate_half_mca_rank11_heavy_plane_ruling_degree24_partial_relative_router/provenance.md",
+      "background/nodes/rate_half_mca_rank11_heavy_plane_ruling_degree24_partial_relative_router/frontier.md",
+      "background/nodes/rate_half_mca_rank11_heavy_plane_ruling_degree24_partial_relative_router/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_heavy_plane_ruling_degree24_partial_relative_router/verify.py",
+      "background/nodes/rate_half_mca_rank11_heavy_plane_ruling_degree24_partial_relative_router/verify_audit.py"
+    ],
+    "upstream": {
+      "label": "rank-eleven factor-flag synchronization / primitive shift-pair control",
+      "relation": "OVERLAP"
+    }
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_heavy_plane_ruling_degree24_order32_seed"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location"}
+  ],
+  "refutes": []
+}

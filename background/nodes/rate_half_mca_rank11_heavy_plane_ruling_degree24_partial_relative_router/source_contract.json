@@ -1,0 +1,42 @@
+{
+  "schema": "rate-half-mca-rank11-heavy-ruling-degree24-partial-relative-router-v1",
+  "dependencies": [
+    "rate_half_mca_rank11_heavy_plane_ruling_degree24_order32_seed"
+  ],
+  "official": {
+    "n": 2097152,
+    "K": 1048576,
+    "m": 1116048,
+    "agreement_excess": 67472,
+    "seed_size": 32,
+    "anchor_records_minimum": 24,
+    "slope_degree_minimum": 24,
+    "slope_degree_maximum": 31,
+    "denominator_degree_maximum": 67472,
+    "original_complexity_threshold": 2299571,
+    "common_support_maximum": 1048573,
+    "residual_dimension_minimum": 3
+  },
+  "staircase_samples": [
+    {"c": 0, "K_residual": 1048576, "m_residual": 1116048, "unknowns": 2299571},
+    {"c": 4130, "K_residual": 1044446, "m_residual": 1111918, "unknowns": 2291311},
+    {"c": 1045975, "K_residual": 2601, "m_residual": 70073, "unknowns": 207621},
+    {"c": 1048573, "K_residual": 3, "m_residual": 67475, "unknowns": 202425}
+  ],
+  "toy": {
+    "field": 17,
+    "K": 6,
+    "m": 8,
+    "common_locator": [0, 16, 1],
+    "common_A": [4, 1],
+    "common_B": [6, 2],
+    "residual_u": [1, 2, 0, 1],
+    "residual_v": [3, 0, 4],
+    "denominator_Q": [2, 1, 1],
+    "residual_locator_roots": [2, 3, 4, 5, 6, 7],
+    "scalar_c0": 5,
+    "scalar_c1": 2,
+    "slopes": [0, 1, 3]
+  },
+  "nonclaim": "This router classifies one selected heavy-ruling packet and pays none of its three output branches."
+}

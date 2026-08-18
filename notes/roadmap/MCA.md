@@ -143,9 +143,21 @@ certificates required by the challenge.
   the anchor gives at least 24 explanations on one affine line and one off
   it. Exact common-support cancellation therefore produces an actual
   support-wise MCA-bad packet whose slope-error degree lies in `24..31`.
-  This does not yet pay a whole-line owner or any partial-relative branch;
-  the next step is to compose the packet with the exact partial-relative
-  harvest while retaining the ruling orientation and first-owner semantics.
+  By itself this packet pays neither a whole-line owner nor a
+  partial-relative branch; its ruling orientation and first-owner semantics
+  are retained for the downstream composition.
+- That composition is now proved without importing the narrower maximal-core
+  adapter. On the shortened exact supports, support-collapsed homogeneous
+  interpolation gives either a pure-locator certificate, a nontrivial
+  scalar-locator rational certificate with denominator degree at most
+  `67472`, or residual two-cover complexity
+  `3(m-c)-(K-c)+3`. Certificates lift with their denominator, affine
+  locator scalars, monic locators, first-owned slopes, and support labels;
+  the complexity branch gains exactly `2c` and recovers the official floor
+  `2299571`. The unresolved terminal is now branch payment: absorb the
+  pure-locator case, price denominator roots/rational profiles, or convert
+  the high-complexity output into the required spread/alignment budget,
+  using the retained `24..31` degree pin and heavy-ruling labels.
 - The finite rank-nine prefix is proved through `K'=87`. At the first open
   row `K'=88`, paired raw scans classify all 18,741,723 source units and
   leave exactly 622,895 raw-unsafe units on offsets `1..44`. This is a
