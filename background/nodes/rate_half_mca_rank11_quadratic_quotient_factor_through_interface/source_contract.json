@@ -1,0 +1,11 @@
+{
+  "schema": "rate-half-mca-rank11-quadratic-quotient-factor-through-interface-v1",
+  "minimum_distinct_fibers": 4370,
+  "rational_slope_map": "-u/v",
+  "cyclic_locator_basis": ["X^2", "1"],
+  "cyclic_quotient": "X^2",
+  "dihedral_locator_basis": ["X^2+kappa", "X"],
+  "dihedral_quotient": "X+kappa/X",
+  "postcomposition": "PGL_2(F)",
+  "nonclaim": "Factor-through does not pay first-owned quotient records."
+}

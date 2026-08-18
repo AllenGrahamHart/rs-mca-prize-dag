@@ -303,6 +303,14 @@ certificates required by the challenge.
   local small-fiber theorem. They require an owner-safe quotient payment.
   The quadratic frontier is therefore cleanly split between that payment and
   the general shifted-inversion pointwise cap.
+- The quotient identification now reaches the actual scalar-locator
+  certificate. After the common core is canceled, its rational slope map
+  `f=-u/v` satisfies `f=M(X^2)` in the antipodal case or
+  `f=M(X+kappa/X)` in the constant-product case for a base-field Mobius map
+  `M`. This proves the quadratic factor-through instance of the proposed
+  quotient-periodic inverse theorem. The remaining quotient gap is no longer
+  algebraic classification; it is owner-safe charging and deduplication of
+  records carrying those two factorizations.
 - The finite rank-nine prefix is proved through `K'=87`. At the first open
   row `K'=88`, paired raw scans classify all 18,741,723 source units and
   leave exactly 622,895 raw-unsafe units on offsets `1..44`. This is a

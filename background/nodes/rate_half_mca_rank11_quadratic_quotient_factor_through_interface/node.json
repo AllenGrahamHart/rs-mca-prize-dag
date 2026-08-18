@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_quadratic_quotient_factor_through_interface",
+    "title": "Quadratic quotient survivors force factor-through of the rational slope map",
+    "status": "PROVED",
+    "closure": "two-dimensional locator-span basis change",
+    "statement": "For the synchronized quadratic scalar-locator certificate, put f=-u/v. In the antipodal class there is a base-field Mobius map M with f=M(X^2). In the constant-product class there is a base-field Mobius map M with f=M(X+kappa/X). Thus the actual rational slope map factors through the cyclic or dihedral degree-two quotient. This identifies but does not pay the quotient-periodic record class.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_quadratic_quotient_factor_through_interface/statement.md",
+      "background/nodes/rate_half_mca_rank11_quadratic_quotient_factor_through_interface/proof.md",
+      "background/nodes/rate_half_mca_rank11_quadratic_quotient_factor_through_interface/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_quadratic_quotient_factor_through_interface/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_quadratic_quotient_factor_through_interface/audit.md",
+      "background/nodes/rate_half_mca_rank11_quadratic_quotient_factor_through_interface/result.md",
+      "background/nodes/rate_half_mca_rank11_quadratic_quotient_factor_through_interface/frontier.md",
+      "background/nodes/rate_half_mca_rank11_quadratic_quotient_factor_through_interface/provenance.md",
+      "background/nodes/rate_half_mca_rank11_quadratic_quotient_factor_through_interface/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_quadratic_quotient_factor_through_interface/verify.py",
+      "background/nodes/rate_half_mca_rank11_quadratic_quotient_factor_through_interface/verify_audit.py"
+    ],
+    "upstream": {
+      "label": "base-field-normalized split-pencil census / quotient-periodic inverse theorem",
+      "relation": "OVERLAP"
+    }
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_heavy_ruling_exception_split_pencil_normal_form"},
+    {"from": "rate_half_mca_rank11_quadratic_quotient_survivor_identification"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location"}
+  ],
+  "refutes": []
+}
