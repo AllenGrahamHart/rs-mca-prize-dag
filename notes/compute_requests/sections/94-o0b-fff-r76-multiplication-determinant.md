@@ -42,4 +42,18 @@ RAMGUARD_TIMEOUT=34m tools/ramguard modal -- \
   experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_fff_r76_multiplication_determinant_modal.py
 ```
 
-**Outcome:** pending.
+**Outcome:** `TIMEOUT` after the full symbolic matrix. Modal app
+`ap-9BUD9SrIBSZusMY2nn9i8h` independently recovered the exact witness
+
+```text
+det(M_R76)|_(t=2) = 244686406
+```
+
+and built the complete 16-by-16 symbolic `R76` multiplication matrix; all
+256 entries are nonzero rational functions. The timeout occurred only inside
+the final matrix determinant and emitted no rational-entry or determinant
+ledger. Result SHA-256:
+`7b889840b303ea9e61961f53eb608134081dadc5fa5e138f7a903bc319d2be07`.
+The checker accepts the fail-closed witness and rejects all four hostile
+mutations. The next computation must bank the 256 rational entries before
+attempting a denominator-cleared polynomial determinant.

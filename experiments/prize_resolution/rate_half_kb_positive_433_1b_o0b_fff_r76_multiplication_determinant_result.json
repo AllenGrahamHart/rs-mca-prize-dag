@@ -1,0 +1,33 @@
+{
+  "app": "rs-mca-positive-433-1b-o0b-fff-r76-multiplication-determinant",
+  "collection_complete": true,
+  "field": 2130706433,
+  "row": {
+    "coefficient_field": "GF(2130706433)(t)",
+    "engine": "AbstractAlgebra.jl",
+    "expected_witness_determinant": 244686406,
+    "matrix_relation": "R76=Res_E(q7,q6)",
+    "partial_stderr": "",
+    "partial_stdout": "NORMAL_MATRICES_READY 6 3\nWITNESS_COMPLETE 2 244686406 256\nWITNESS_CERTIFIED\nSYMBOLIC_R76_MATRIX 256\n",
+    "program_sha256": "5f72b5b9f53b6a1c6d9138052fbd9e6f379b4fa617b47ad72d5daa98989c5eb9",
+    "quotient_dimension": 16,
+    "relation": "generic admissible FFF R76 multiplication determinant",
+    "source_base_generated_program_sha256": "d6e3b1aae07a3e89f24c0b65b120d064f665541611dfa858de9db8fd55f754cd",
+    "source_kernel_normals_sha256": "12ee5cd0578f1eff0f4a3827f7c905f1b04c390f74806c89a3a0a80178cca675",
+    "source_matrix_entries_sha256": "29300862188e3e23b2b4a855c38ca82c0cc93c082932d6bff0fb517f7b71942e",
+    "source_q7_values_sha256": "edf90ca1a3eb2563b6d56f00ff0b80b81a869846a7fe4984802e043fb6ab18a5",
+    "source_quotient_basis_sha256": "aa3090c6c61b29e8a19f456d5a04b826423d9b08eb625d78c62b725ee00b5c8b",
+    "status": "TIMEOUT",
+    "symbolic_determinant_roots_open_until_complete": true,
+    "transformation_denominators_open": true,
+    "witness_complete": true,
+    "witness_determinant": 244686406,
+    "witness_nonzero_entries": 256,
+    "witness_t": 2
+  },
+  "schema": "rate-half-kb-positive-433-1b-o0b-fff-r76-multiplication-determinant-v1",
+  "source_bank_sha256": "3d216da7d91c82a1360f932673ce3529278c90f81e6a8a6767f14a34ad73a45e",
+  "source_base_program_sha256": "fff178007fdea5ae7c14a0bee59fde6053aacc1a47f7a23f5d0c3bc654ab6224",
+  "source_program_sha256": "ac73c2251e90e6a84b45574dd171474c682586ff56415206d3453f355d49e33f",
+  "source_q7_sha256": "37e2f17f8546e195024c23766f63cd36ba8681c115f3bf18f7410c19c902c45d"
+}
