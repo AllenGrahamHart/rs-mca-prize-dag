@@ -21,7 +21,7 @@
     ],
     "upstream": {
       "label": "anchored rich-flat rank-eleven factor synchronization terminal",
-      "relation": "EXTENDS"
+      "relation": "OVERLAP"
     }
   },
   "requires": [

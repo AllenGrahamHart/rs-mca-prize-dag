@@ -2292,6 +2292,31 @@
     "our_sha": "06051c79e",
     "his_sha": "2788d5ec3"
    }
+  },
+  {
+   "our_node": "rate_half_mca_rank11_active_clone_locator_shortening_adapter",
+   "his_object": {
+    "label": "anchored rich-flat rank-eleven factor synchronization terminal",
+    "file": "experimental/campaigns/kb-mca-rank11-rich-flat-post-1172/01_frontier_map.md",
+    "line": "factor-flag synchronization"
+   },
+   "relation": "OVERLAP",
+   "chain": "active residual projective clone -> common four-kernel -> squarefree locator cancellation -> shortened 2 x 4 factor bucket",
+   "scope": "official KoalaBear rank-eleven row inside the assumed base-free 2 x 5 factor branch; active clone size 10001 through K-5 and first-owned mass at least 388650911452 are transported reversibly to parameters (n-c,k-c,m-c)",
+   "owner": "US",
+   "nonclaims": [
+    "does not derive the 2 x 5 factor presentation",
+    "does not pay the shortened 2 x 4 bucket",
+    "does not synchronize different clone locators",
+    "does not handle the genuine rank-two evaluation-line horn or close MCA"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "d54b20ef1",
+    "his_sha": "2788d5ec3"
+   }
   }
  ]
 }
