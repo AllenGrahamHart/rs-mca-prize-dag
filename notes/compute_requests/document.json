@@ -103,6 +103,7 @@
     "notes/compute_requests/sections/98-o0b-fff-exceptional-roots.md",
     "notes/compute_requests/sections/99-o0b-fff-exceptional-specializations.md",
     "notes/compute_requests/sections/100-o0b-fff-exceptional-admissibility.md",
-    "notes/compute_requests/sections/101-rank11-affine-reflection-cyclotomic-census.md"
+    "notes/compute_requests/sections/101-rank11-affine-reflection-cyclotomic-census.md",
+    "notes/compute_requests/sections/102-rank11-shifted-inversion-probe.md"
   ]
 }

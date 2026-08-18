@@ -1,0 +1,20 @@
+{
+  "schema": "rate-half-mca-rank11-quadratic-survivor-mobius-router-v1",
+  "official_base_prime": 2130706433,
+  "official_domain_order": 2097152,
+  "minimum_synchronized_fibers": 4370,
+  "minimum_nonfixed_graph_points": 8740,
+  "allowed_exception_degrees": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
+  "quadratic_coefficient_relation": "b*x*y+a*(x+y)=c",
+  "mobius_formula": "(c-a*x)/(a+b*x)",
+  "determinant_formula": "a^2+b*c",
+  "shift_formula": "phi(x)+tau=kappa/(x+tau)",
+  "quadratic_classes": [
+    "antipodal",
+    "constant-product",
+    "shifted-inversion"
+  ],
+  "retained_nonquadratic_degrees": [1, 3, 4, 5, 6, 7, 8, 9, 10, 11],
+  "high_complexity_threshold": 2299571,
+  "nonclaim": "The router classifies but does not pay any surviving pencil class or the high-complexity output."
+}

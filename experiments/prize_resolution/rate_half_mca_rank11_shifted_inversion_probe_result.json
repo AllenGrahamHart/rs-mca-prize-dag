@@ -1,0 +1,627 @@
+{
+  "app": "rate-half-mca-rank11-shifted-inversion-probe",
+  "candidate_cap_falsified": false,
+  "completed_parameter_count": 6144,
+  "completed_shards": 96,
+  "dispatcher_sha256": "576a4d48040081e2a305f422eaa5483387e6237f2b9bb0c0dc3d483ff87652de",
+  "domain_order": 2097152,
+  "failures": [],
+  "maximizing_rows": [
+    {
+      "fixed_points": 0,
+      "kappa": 1810701059,
+      "kind": "planted",
+      "nonfixed_points": 2336,
+      "parameter_index": 44,
+      "tau": 1594323,
+      "tau_index": 13,
+      "total_points": 2336
+    }
+  ],
+  "maximum_nonfixed_points": 2336,
+  "nonclaim": "A completed sample that does not reach the threshold is heuristic evidence, not a uniform bound.",
+  "p": 2130706433,
+  "parameters_per_shard": 64,
+  "planned_parameter_count": 6144,
+  "preregistration_sha256": "cbd266ba908776a3c9345fc68f2e8b2eec8c57dafdefc11c00a92df66fd98763",
+  "quantiles": {
+    "q50": 2066,
+    "q90": 2150,
+    "q99": 2218
+  },
+  "row_columns": [
+    "tau_index",
+    "tau",
+    "parameter_index",
+    "kind",
+    "kappa",
+    "total_points",
+    "fixed_points",
+    "nonfixed_points"
+  ],
+  "rows_file": "rate_half_mca_rank11_shifted_inversion_probe_rows.jsonl",
+  "rows_sha256": "fc9d74d492b260ded5a9ac4501348db4ec7624655caba5987693b61ba0e690e8",
+  "schema": "rate-half-mca-rank11-shifted-inversion-probe-result-v1",
+  "shard_metrics": [
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 2.732956971,
+      "stderr": "RSS_KB=299176 WALL=2.05\n",
+      "tau_index": 0
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 3.1008714919999996,
+      "stderr": "RSS_KB=299168 WALL=2.32\n",
+      "tau_index": 1
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 3.396806065,
+      "stderr": "RSS_KB=299544 WALL=2.65\n",
+      "tau_index": 2
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 2.826710099,
+      "stderr": "RSS_KB=299832 WALL=2.04\n",
+      "tau_index": 3
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 3.3410076889999996,
+      "stderr": "RSS_KB=298788 WALL=2.67\n",
+      "tau_index": 4
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 3.379650163,
+      "stderr": "RSS_KB=299220 WALL=2.64\n",
+      "tau_index": 5
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 3.7632966110000003,
+      "stderr": "RSS_KB=299328 WALL=2.85\n",
+      "tau_index": 6
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 3.938696734,
+      "stderr": "RSS_KB=298096 WALL=3.07\n",
+      "tau_index": 7
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 2.6961045619999995,
+      "stderr": "RSS_KB=298844 WALL=2.12\n",
+      "tau_index": 8
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 3.520966273,
+      "stderr": "RSS_KB=299912 WALL=2.65\n",
+      "tau_index": 9
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 4.295889589,
+      "stderr": "RSS_KB=298828 WALL=3.18\n",
+      "tau_index": 10
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 3.1002508959999995,
+      "stderr": "RSS_KB=299108 WALL=2.37\n",
+      "tau_index": 11
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 3.606885924,
+      "stderr": "RSS_KB=298772 WALL=2.74\n",
+      "tau_index": 12
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 3.1181280630000003,
+      "stderr": "RSS_KB=299148 WALL=2.47\n",
+      "tau_index": 13
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 2.6394429969999997,
+      "stderr": "RSS_KB=299480 WALL=2.03\n",
+      "tau_index": 14
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 3.327653451,
+      "stderr": "RSS_KB=298732 WALL=2.47\n",
+      "tau_index": 15
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 3.953758162,
+      "stderr": "RSS_KB=298092 WALL=3.01\n",
+      "tau_index": 16
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 3.253467167,
+      "stderr": "RSS_KB=298876 WALL=2.58\n",
+      "tau_index": 17
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 2.8357099559999996,
+      "stderr": "RSS_KB=299840 WALL=2.07\n",
+      "tau_index": 18
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 2.5954421869999997,
+      "stderr": "RSS_KB=298592 WALL=1.99\n",
+      "tau_index": 19
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 3.683229004,
+      "stderr": "RSS_KB=298476 WALL=2.78\n",
+      "tau_index": 20
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 2.764477588,
+      "stderr": "RSS_KB=299216 WALL=2.08\n",
+      "tau_index": 21
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 3.126636709,
+      "stderr": "RSS_KB=299724 WALL=2.15\n",
+      "tau_index": 22
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 2.908905153,
+      "stderr": "RSS_KB=298408 WALL=2.29\n",
+      "tau_index": 23
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 3.279082365,
+      "stderr": "RSS_KB=299288 WALL=2.60\n",
+      "tau_index": 24
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 3.0706267270000005,
+      "stderr": "RSS_KB=299016 WALL=2.21\n",
+      "tau_index": 25
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 2.9440867320000006,
+      "stderr": "RSS_KB=300008 WALL=2.26\n",
+      "tau_index": 26
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 3.954124193000001,
+      "stderr": "RSS_KB=300024 WALL=3.11\n",
+      "tau_index": 27
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 3.700256621,
+      "stderr": "RSS_KB=298244 WALL=2.83\n",
+      "tau_index": 28
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 4.399572329,
+      "stderr": "RSS_KB=299048 WALL=3.66\n",
+      "tau_index": 29
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 3.652517774999999,
+      "stderr": "RSS_KB=299532 WALL=2.81\n",
+      "tau_index": 30
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 3.080582927,
+      "stderr": "RSS_KB=299936 WALL=2.48\n",
+      "tau_index": 31
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 3.431949269,
+      "stderr": "RSS_KB=299612 WALL=2.60\n",
+      "tau_index": 32
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 3.4340270680000007,
+      "stderr": "RSS_KB=298200 WALL=2.63\n",
+      "tau_index": 33
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 2.7078306790000006,
+      "stderr": "RSS_KB=298472 WALL=2.12\n",
+      "tau_index": 34
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 3.422214577,
+      "stderr": "RSS_KB=299708 WALL=2.69\n",
+      "tau_index": 35
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 2.7724626600000004,
+      "stderr": "RSS_KB=298716 WALL=2.08\n",
+      "tau_index": 36
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 3.297967871999999,
+      "stderr": "RSS_KB=299968 WALL=2.61\n",
+      "tau_index": 37
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 3.2407635839999998,
+      "stderr": "RSS_KB=298468 WALL=2.46\n",
+      "tau_index": 38
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 4.145187026,
+      "stderr": "RSS_KB=299564 WALL=3.19\n",
+      "tau_index": 39
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 3.782552223,
+      "stderr": "RSS_KB=299904 WALL=3.20\n",
+      "tau_index": 40
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 4.723643977999999,
+      "stderr": "RSS_KB=298564 WALL=3.68\n",
+      "tau_index": 41
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 4.419699394,
+      "stderr": "RSS_KB=299668 WALL=3.40\n",
+      "tau_index": 42
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 2.760581351,
+      "stderr": "RSS_KB=299264 WALL=2.07\n",
+      "tau_index": 43
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 3.8287631279999994,
+      "stderr": "RSS_KB=299136 WALL=3.00\n",
+      "tau_index": 44
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 4.52094259,
+      "stderr": "RSS_KB=299436 WALL=3.70\n",
+      "tau_index": 45
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 2.6931140839999994,
+      "stderr": "RSS_KB=298884 WALL=2.12\n",
+      "tau_index": 46
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 2.9666778419999993,
+      "stderr": "RSS_KB=299056 WALL=2.12\n",
+      "tau_index": 47
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 3.1497247049999997,
+      "stderr": "RSS_KB=298816 WALL=2.16\n",
+      "tau_index": 48
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 3.386369586,
+      "stderr": "RSS_KB=298536 WALL=2.60\n",
+      "tau_index": 49
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 3.3206365830000006,
+      "stderr": "RSS_KB=298720 WALL=2.64\n",
+      "tau_index": 50
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 2.97296398,
+      "stderr": "RSS_KB=298484 WALL=2.12\n",
+      "tau_index": 51
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 2.723011391,
+      "stderr": "RSS_KB=299188 WALL=2.03\n",
+      "tau_index": 52
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 2.8306480999999994,
+      "stderr": "RSS_KB=298908 WALL=2.23\n",
+      "tau_index": 53
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 3.443459125,
+      "stderr": "RSS_KB=299264 WALL=2.59\n",
+      "tau_index": 54
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 3.0243767729999993,
+      "stderr": "RSS_KB=299340 WALL=2.46\n",
+      "tau_index": 55
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 3.600552502,
+      "stderr": "RSS_KB=298480 WALL=2.86\n",
+      "tau_index": 56
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 6.112108618999999,
+      "stderr": "RSS_KB=299288 WALL=4.11\n",
+      "tau_index": 57
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 3.9211927400000004,
+      "stderr": "RSS_KB=299428 WALL=3.04\n",
+      "tau_index": 58
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 3.866308202,
+      "stderr": "RSS_KB=298212 WALL=3.06\n",
+      "tau_index": 59
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 4.390358565,
+      "stderr": "RSS_KB=299012 WALL=3.59\n",
+      "tau_index": 60
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 3.693776258999999,
+      "stderr": "RSS_KB=299172 WALL=2.84\n",
+      "tau_index": 61
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 3.457681727999999,
+      "stderr": "RSS_KB=299252 WALL=2.65\n",
+      "tau_index": 62
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 3.5556521530000005,
+      "stderr": "RSS_KB=299296 WALL=2.73\n",
+      "tau_index": 63
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 3.444601187,
+      "stderr": "RSS_KB=299944 WALL=2.70\n",
+      "tau_index": 64
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 3.748460229,
+      "stderr": "RSS_KB=298476 WALL=2.85\n",
+      "tau_index": 65
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 3.433949362,
+      "stderr": "RSS_KB=298164 WALL=2.75\n",
+      "tau_index": 66
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 3.2766583870000012,
+      "stderr": "RSS_KB=298212 WALL=2.49\n",
+      "tau_index": 67
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 3.759853638,
+      "stderr": "RSS_KB=298920 WALL=2.93\n",
+      "tau_index": 68
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 4.204053807999999,
+      "stderr": "RSS_KB=299080 WALL=3.49\n",
+      "tau_index": 69
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 2.939585246,
+      "stderr": "RSS_KB=299568 WALL=2.35\n",
+      "tau_index": 70
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 3.506154114,
+      "stderr": "RSS_KB=299740 WALL=2.82\n",
+      "tau_index": 71
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 2.631659331,
+      "stderr": "RSS_KB=298436 WALL=2.03\n",
+      "tau_index": 72
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 3.473107152,
+      "stderr": "RSS_KB=298316 WALL=2.89\n",
+      "tau_index": 73
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 3.927184328,
+      "stderr": "RSS_KB=299636 WALL=3.28\n",
+      "tau_index": 74
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 3.5550307110000006,
+      "stderr": "RSS_KB=299820 WALL=2.72\n",
+      "tau_index": 75
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 3.178764986,
+      "stderr": "RSS_KB=299524 WALL=2.38\n",
+      "tau_index": 76
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 3.171136052,
+      "stderr": "RSS_KB=298100 WALL=2.29\n",
+      "tau_index": 77
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 2.674966940000001,
+      "stderr": "RSS_KB=299332 WALL=2.01\n",
+      "tau_index": 78
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 2.9808119270000004,
+      "stderr": "RSS_KB=299076 WALL=2.12\n",
+      "tau_index": 79
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 3.6246784319999996,
+      "stderr": "RSS_KB=299076 WALL=2.81\n",
+      "tau_index": 80
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 2.9343930799999995,
+      "stderr": "RSS_KB=299404 WALL=2.14\n",
+      "tau_index": 81
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 3.351437108,
+      "stderr": "RSS_KB=298436 WALL=2.63\n",
+      "tau_index": 82
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 4.374489693,
+      "stderr": "RSS_KB=299776 WALL=3.58\n",
+      "tau_index": 83
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 3.317131573000001,
+      "stderr": "RSS_KB=299572 WALL=2.62\n",
+      "tau_index": 84
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 3.367233067000001,
+      "stderr": "RSS_KB=298384 WALL=2.79\n",
+      "tau_index": 85
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 3.330701171000001,
+      "stderr": "RSS_KB=298684 WALL=2.36\n",
+      "tau_index": 86
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 3.6562314669999996,
+      "stderr": "RSS_KB=299176 WALL=2.76\n",
+      "tau_index": 87
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 4.18191502,
+      "stderr": "RSS_KB=298964 WALL=3.07\n",
+      "tau_index": 88
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 3.153463724,
+      "stderr": "RSS_KB=298404 WALL=2.41\n",
+      "tau_index": 89
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 3.042760907,
+      "stderr": "RSS_KB=299216 WALL=2.47\n",
+      "tau_index": 90
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 3.9191778070000005,
+      "stderr": "RSS_KB=300012 WALL=3.13\n",
+      "tau_index": 91
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 3.4358909740000003,
+      "stderr": "RSS_KB=300048 WALL=2.56\n",
+      "tau_index": 92
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 4.2275627270000005,
+      "stderr": "RSS_KB=298096 WALL=3.20\n",
+      "tau_index": 93
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 3.3811251749999993,
+      "stderr": "RSS_KB=299324 WALL=2.58\n",
+      "tau_index": 94
+    },
+    {
+      "event": "SHARD_RESULT",
+      "seconds": 3.063353545,
+      "stderr": "RSS_KB=298504 WALL=2.19\n",
+      "tau_index": 95
+    }
+  ],
+  "source_sha256": "2b4b73c5a9f828e0a669f338d225bd5365bd225f6e47adf61da76c78476f3f51",
+  "status": "COMPLETE",
+  "tau_shards_planned": 96,
+  "threshold": 8740
+}

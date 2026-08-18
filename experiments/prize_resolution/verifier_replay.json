@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_nonzero_affine_reflection_mass_router/verify.py",
-      "seconds": 0.119898,
+      "script": "background/nodes/rate_half_mca_rank11_quadratic_survivor_mobius_router/verify.py",
+      "seconds": 0.050023,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RANK11_AFFINE_MASS_ROUTER_PASS charge=67348594 residual=255011043 forced=4370\n"
+      "stdout_tail": "RANK11_QUADRATIC_MOBIUS_ROUTER_PASS fibers=4370 graph_points=8740 identity_checks=15\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_nonzero_affine_reflection_mass_router/verify_audit.py",
-      "seconds": 0.048276,
+      "script": "background/nodes/rate_half_mca_rank11_quadratic_survivor_mobius_router/verify_audit.py",
+      "seconds": 0.084707,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RANK11_AFFINE_MASS_ROUTER_AUDIT_PASS residual=255011043 forced=4370\n"
+      "stdout_tail": "RANK11_QUADRATIC_MOBIUS_ROUTER_AUDIT_PASS graph_points=8740\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

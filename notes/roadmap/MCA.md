@@ -270,6 +270,20 @@ certificates required by the challenge.
   least 4,370 disjoint fibers. The Mersenne-domain `32N^(2/3)` Mobius-graph
   reduction is too weak at this KoalaBear threshold, so the next theorem must
   sharpen the official subgroup intersection or use retained factor ownership.
+- The degree-two part of that 4,370-fiber survivor is now completely
+  normalized over the base field. Distinct monic quadratic locators in one
+  pencil span dimension two, so the proved pair-locator theorem gives one
+  common trace-zero Mobius involution. After the nonzero affine class is
+  removed, the exact alternatives are antipodal, constant-product
+  `x -> kappa/x` with `kappa in H`, or shifted inversion
+  `phi(x)+tau=kappa/(x+tau)` with `tau,kappa!=0`. The shifted case must have
+  at least 8,740 distinct nonfixed graph points in `H`; there is no
+  extension-field normalization ambiguity in degree two. A preregistered
+  6,144-parameter Modal probe completed without failures and found maximum
+  2,336, with 99th percentile 2,218. This 6,404-point empirical margin
+  supports a sharp official shifted-inversion cap but is not a proof.
+  Antipodal and constant-product remain global quotient classes, degrees
+  `1,3,...,11` remain unclassified, and high complexity remains unpaid.
 - The finite rank-nine prefix is proved through `K'=87`. At the first open
   row `K'=88`, paired raw scans classify all 18,741,723 source units and
   leave exactly 622,895 raw-unsafe units on offsets `1..44`. This is a

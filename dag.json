@@ -43226,6 +43226,37 @@
    ]
   },
   {
+   "id": "rate_half_mca_rank11_quadratic_survivor_mobius_router",
+   "title": "Quadratic 4370-fiber survivors are antipodal, constant-product, or shifted inversion",
+   "status": "PROVED",
+   "closure": "base-field pair-locator Mobius classification and trace-zero normalization",
+   "statement": "Apply the nonzero affine-reflection mass router. Either an admissible packet has chi>=2299571, or one pair type has at least 4370 synchronized disjoint split fibers of degree e in {1,...,11}. If e is not two, retain it. If e=2, the locators are the two-cycles of one base-field Mobius involution. The affine case is necessarily antipodal because nonzero affine reflection was removed; the remaining cases are constant-product kappa/x with kappa in H, or shifted inversion phi(x)+tau=kappa/(x+tau) with tau,kappa nonzero and at least 8740 distinct nonfixed graph points in H. No class is paid.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_quadratic_survivor_mobius_router/statement.md",
+    "background/nodes/rate_half_mca_rank11_quadratic_survivor_mobius_router/proof.md",
+    "background/nodes/rate_half_mca_rank11_quadratic_survivor_mobius_router/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_quadratic_survivor_mobius_router/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_quadratic_survivor_mobius_router/audit.md",
+    "background/nodes/rate_half_mca_rank11_quadratic_survivor_mobius_router/result.md",
+    "background/nodes/rate_half_mca_rank11_quadratic_survivor_mobius_router/provenance.md",
+    "background/nodes/rate_half_mca_rank11_quadratic_survivor_mobius_router/frontier.md",
+    "background/nodes/rate_half_mca_rank11_quadratic_survivor_mobius_router/falsification.md",
+    "background/nodes/rate_half_mca_rank11_quadratic_survivor_mobius_router/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_quadratic_survivor_mobius_router/verify.py",
+    "background/nodes/rate_half_mca_rank11_quadratic_survivor_mobius_router/verify_audit.py",
+    "experiments/prize_resolution/rate_half_mca_rank11_shifted_inversion_probe_preregistration.md",
+    "experiments/prize_resolution/rate_half_mca_rank11_shifted_inversion_probe.cpp",
+    "experiments/prize_resolution/rate_half_mca_rank11_shifted_inversion_probe_modal.py",
+    "experiments/prize_resolution/rate_half_mca_rank11_shifted_inversion_probe_result.json",
+    "experiments/prize_resolution/rate_half_mca_rank11_shifted_inversion_probe_rows.jsonl",
+    "experiments/prize_resolution/verify_rate_half_mca_rank11_shifted_inversion_probe.py"
+   ],
+   "upstream": {
+    "label": "base-field-normalized split-pencil census / quadratic involution class",
+    "relation": "OVERLAP"
+   }
+  },
+  {
    "id": "rate_half_mca_rank11_rank8_codimension_one_circuit_shadow_census",
    "title": "Classify every K'=11 rank-eight chart by one fixed circuit",
    "status": "PROVED",
@@ -72926,6 +72957,11 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_pair_locator_mobius_dichotomy",
+   "to": "rate_half_mca_rank11_quadratic_survivor_mobius_router",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_quartic_support_laurent_gcd_exclusion",
    "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_ordinary_companion_complete_shape_exclusion",
    "kind": "req"
@@ -82951,6 +82987,11 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_mca_rank11_nonzero_affine_reflection_mass_router",
+   "to": "rate_half_mca_rank11_quadratic_survivor_mobius_router",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_mca_rank11_order32_common_support_cancellation",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
@@ -82999,6 +83040,11 @@
    "from": "rate_half_mca_rank11_pair_core_route_cut_import",
    "to": "rate_half_mca_rank11_rank8_dense_owner_terminal_bridge",
    "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_quadratic_survivor_mobius_router",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
   },
   {
    "from": "rate_half_mca_rank11_rank8_codimension_one_circuit_shadow_census",
