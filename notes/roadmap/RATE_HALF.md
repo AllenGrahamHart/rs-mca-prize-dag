@@ -357,6 +357,29 @@ The next route-deciding theorem must exploit full-span basis exchange,
 container incidence, or a global owner/factor relation; another
 per-container rich-flat estimate cannot close the row by itself.
 
+Inside the exact factor-flag model `C'=span(PB)`, `dim P=2`, `dim B=5`,
+with every promoted container contained in one slice `g_i B`, that global
+relation now has a proved recursive router. At factor-root cutoff `T=408`,
+base-freeness gives at most `2735` heavy projective pencil members. Every
+remaining residual `B_i=g_i^{-1}W_i` has at least `37978` common roots.
+Ordered-basis counting in the five-space shows that residual
+`18165`-transversality costs at most
+
+```text
+2735 R_5 + 178729 R_4 + 3172 R_6
+=65166140264121255.
+```
+
+Together with the transverse envelope, the total is
+`274978898701800872`, below budget by `1829409594215`; threshold `18166`
+is over by `15983178478905`. Thus every unsafe exact `2 x 5` factor flag
+either has an anchor-good common pencil base coordinate, or emits a deeper
+residual subspace that vanishes on at least `18166` actual coordinates.
+This is a conditional recursion theorem: existence of the factor
+presentation and payment of either emitted horn remain open. The next useful
+step is to derive such a presentation from the full-span container atlas, or
+to pay the common-base/deeper-flag outputs without assuming one.
+
 Canonical `prize` head `859a27a4b` has integrated the rank-eleven chain
 through clone collapse. Upstream PR `#1169` at `b4bad8607` now supplies the
 post-`#1168` reserve repricing, guarded dimension adapter, and chronology

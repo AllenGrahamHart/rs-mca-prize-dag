@@ -41005,6 +41005,24 @@
    ]
   },
   {
+   "id": "rate_half_mca_rank11_factor_flag_2x5_recursive_router",
+   "title": "Rank-eleven 2 x 5 factor-flag recursive router",
+   "status": "PROVED",
+   "closure": "primitive base-free two-by-five factor flags emit a deeper 18166-coordinate residual rich flat",
+   "statement": "At the official KoalaBear full-span rank-eleven terminal (tau=1679,h=38384), suppose C'=span(PB) with dim P=2, dim B=5 and every promoted rich container W_i lies in g_iB for some nonzero g_i in P. Then every unsafe line emits either an anchor-good common zero of all P (hence all C') or a residual B_i=g_i^{-1}W_i whose annihilator has a proper flat containing at least 18166 labelled common-zero evaluation columns. In the primitive base-free branch, split at factor-root cutoff T=408. At most 2735 factor-heavy g classes cost 2735 R_5=2763267104042675. Every other B_i has at least 37978 common zeros; if all are 18165-transverse, ordered-basis counts give at most 178729 dimension-two and 3172 dimension-three residual classes, costing 11330947785633956 and 51071925374444624 via fixed-B_i dimensions four and six. The nontransverse union costs 65166140264121255; with the transverse envelope the total is 274978898701800872, slack 1829409594215. Threshold 18166 is over by 15983178478905. Exact all-T scan proves 18165 globally maximal, attained at T=408,411. No existence of the factor presentation or payment of either output horn is claimed.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_factor_flag_2x5_recursive_router/statement.md",
+    "background/nodes/rate_half_mca_rank11_factor_flag_2x5_recursive_router/proof.md",
+    "background/nodes/rate_half_mca_rank11_factor_flag_2x5_recursive_router/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_factor_flag_2x5_recursive_router/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_factor_flag_2x5_recursive_router/audit.md",
+    "background/nodes/rate_half_mca_rank11_factor_flag_2x5_recursive_router/result.md",
+    "background/nodes/rate_half_mca_rank11_factor_flag_2x5_recursive_router/provenance.md",
+    "background/nodes/rate_half_mca_rank11_factor_flag_2x5_recursive_router/verify.py",
+    "background/nodes/rate_half_mca_rank11_factor_flag_2x5_recursive_router/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_mca_rank11_full_span_residual_forcing",
    "title": "Rank-eleven full-span residual forcing",
    "status": "PROVED",
@@ -71665,6 +71683,11 @@
   },
   {
    "from": "list_subsqrt_interleaving_collapse",
+   "to": "rate_half_mca_rank11_factor_flag_2x5_recursive_router",
+   "kind": "req"
+  },
+  {
+   "from": "list_subsqrt_interleaving_collapse",
    "to": "rate_half_mca_rank11_full_span_residual_forcing",
    "kind": "req"
   },
@@ -80809,9 +80832,19 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_mca_rank11_factor_flag_2x5_recursive_router",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_mca_rank11_full_span_residual_forcing",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_full_span_residual_forcing",
+   "to": "rate_half_mca_rank11_factor_flag_2x5_recursive_router",
+   "kind": "req"
   },
   {
    "from": "rate_half_mca_rank11_global_core_rankdrop_highcomplexity_router",
@@ -81646,6 +81679,11 @@
   {
    "from": "rate_half_mca_rank11_pair_core_route_cut_import",
    "to": "rate_half_mca_rank11_dense_pair_core_multiowner_fence",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_pair_core_route_cut_import",
+   "to": "rate_half_mca_rank11_factor_flag_2x5_recursive_router",
    "kind": "req"
   },
   {

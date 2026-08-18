@@ -37,9 +37,19 @@ has full ten-dimensional collective nontransverse correction span and at
 least `16384884` distinct promoted rich containers. The intermediate theorem
 also pays the complete common `2 x 3` factor-product-cover subclass.
 
+The next local theorem matches the factor-flag direction named in `#1173`:
+conditional on an exact `2 x 5` presentation with every rich container in a
+rank-one slice, an unsafe line emits either a common pencil base coordinate
+or a deeper residual rich flat on at least `18166` actual coordinates. The
+primitive base-free branch is completely paid by an exact factor/root split.
+It does not supply the presentation and is not the general split-pencil
+census, but it gives a checked recursive target for a Wronskian or
+subspace-design collision theorem.
+
 Treat this as a provisional extension while `#1173` is open. The exact
 low/full-span envelopes, adjacent walls, public proof commits, and full-span
 terminal are attached to that PR in comment `#issuecomment-5327013463`. Do not
 race its branch or identify the product-cover subclass with the general
-base-field-normalized split-pencil census. Hold a formal successor packet
-until the stack is stable.
+base-field-normalized split-pencil census. The factor-flag router is a
+candidate for the same successor packet. Hold a formal successor until the
+stack is stable.
