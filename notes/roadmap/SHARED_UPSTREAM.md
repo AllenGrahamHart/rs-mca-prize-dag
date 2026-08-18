@@ -89,6 +89,15 @@ payment, and deployed ledger movement explicitly separate. Continue
 classification/payment there; do not identify this subclass with general
 quotient-periodic flatness.
 
+Commit `6b1037e1` on the same draft PR adds the dimension-three exact
+pair-overlap moment floor. Balanced integer core multiplicities exclude
+`K'<=4835`; the adjacent row has slack 115,260, so the conditional interval
+is now `4836<=K'<=595763`. The packet deliberately does not transport the
+separate `K'<=4922` shared-core payment: its complete-family low-margin
+quantifier is not supplied by the retained quotient-type interface. Continue
+with a chronology-safe complementary charge or a stronger split-pencil
+census; do not record the 87 numerically overlapping rows as paid.
+
 ## Future Q/SPI packet
 
 The reduced DLI lane now has two fully proved structural results that use
