@@ -43442,6 +43442,30 @@
    }
   },
   {
+   "id": "rate_half_mca_rank11_pair_pencil_dimension_three_common_core_shortening",
+   "title": "Scalar dimension three forces a 319539-coordinate common core",
+   "status": "PROVED",
+   "closure": "affine-plane occupancy ladder and global fiber incidence",
+   "statement": "Every affine scalar plane contains at most 233 quotient types. Consequently, if the complete scalar family has dimension three, every noncommon coordinate belongs to at most 233 of its 520 pair cores. The common received-pair core therefore has size at least 319539. Reversible shortening preserves m-K=67472 and all first-owned records; at the minimum core floor, the residual required incidence 414183640 is only 189 below the full 233-per-coordinate capacity 414183829. Payment of this shortened razor branch is open.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_common_core_shortening/statement.md",
+    "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_common_core_shortening/proof.md",
+    "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_common_core_shortening/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_common_core_shortening/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_common_core_shortening/audit.md",
+    "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_common_core_shortening/result.md",
+    "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_common_core_shortening/frontier.md",
+    "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_common_core_shortening/provenance.md",
+    "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_common_core_shortening/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_common_core_shortening/verify.py",
+    "background/nodes/rate_half_mca_rank11_pair_pencil_dimension_three_common_core_shortening/verify_audit.py"
+   ],
+   "upstream": {
+    "label": "base-field-normalized split-pencil census / common-GCD and flat fibers",
+    "relation": "OVERLAP"
+   }
+  },
+  {
    "id": "rate_half_mca_rank11_pair_pencil_dimension_two_common_core_shortening",
    "title": "Scalar dimension two forces an 81908-coordinate common core",
    "status": "PROVED",
@@ -83713,9 +83737,19 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_mca_rank11_pair_pencil_dimension_three_common_core_shortening",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_mca_rank11_pair_pencil_dimension_two_common_core_shortening",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_pair_pencil_dimension_two_common_core_shortening",
+   "to": "rate_half_mca_rank11_pair_pencil_dimension_three_common_core_shortening",
+   "kind": "req"
   },
   {
    "from": "rate_half_mca_rank11_pair_pencil_dimension_two_common_core_shortening",
@@ -83731,6 +83765,11 @@
    "from": "rate_half_mca_rank11_pair_pencil_dimension_two_incidence_exclusion",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_pair_pencil_dimension_two_incidence_exclusion",
+   "to": "rate_half_mca_rank11_pair_pencil_dimension_three_common_core_shortening",
+   "kind": "req"
   },
   {
    "from": "rate_half_mca_rank11_pair_pencil_dimension_two_secant_line_packing_sharpening",

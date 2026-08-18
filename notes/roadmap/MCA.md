@@ -442,6 +442,15 @@ certificates required by the challenge.
   rational pair-pencil frontier is now exactly scalar dimensions three and
   four. Their coordinate fibers are affine planes or affine three-spaces,
   so the next step is a heavy-fiber reduction back to the paid line case.
+- The affine-fiber ladder now handles scalar dimension three structurally.
+  Translating any affine scalar plane to its two-dimensional difference
+  space and applying the line cap on noncommon fibers gives a plane cap of
+  233 selected types. Hence a dimension-three family has a common
+  received-pair core of at least 319,539 coordinates. Reversible shortening
+  at the minimum floor leaves `(n',K',m')=(1777613,729037,796509)` and a
+  core-incidence design whose full 233-fold capacity exceeds demand by only
+  189. Paying this near-saturated residual is the exact dimension-three
+  frontier; scalar dimension four remains separate.
 - The finite rank-nine prefix is proved through `K'=87`. At the first open
   row `K'=88`, paired raw scans classify all 18,741,723 source units and
   leave exactly 622,895 raw-unsafe units on offsets `1..44`. This is a

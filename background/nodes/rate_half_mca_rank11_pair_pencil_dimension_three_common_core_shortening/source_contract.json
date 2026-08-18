@@ -1,0 +1,18 @@
+{
+  "schema": "rate-half-mca-rank11-pair-pencil-dimension-three-common-core-shortening-v1",
+  "n": 2097152,
+  "m": 1116048,
+  "K": 1048576,
+  "selected_types": 520,
+  "pair_core_size": 1116046,
+  "affine_line_cap": 15,
+  "affine_plane_cap": 233,
+  "common_core_floor": 319539,
+  "shortened_n_at_floor": 1777613,
+  "shortened_K_at_floor": 729037,
+  "shortened_m_at_floor": 796509,
+  "shortened_pair_core_at_floor": 796507,
+  "incidence_slack_at_floor": 189,
+  "preserved_excess": 67472,
+  "nonclaim": "The shortened dimension-three residual and scalar dimension four are not paid."
+}
