@@ -1,0 +1,17 @@
+{
+  "schema": "rate-half-mca-rank11-pair-pencil-affine-line-cap-direction-router-v1",
+  "n": 2097152,
+  "m": 1116048,
+  "K": 1048576,
+  "pair_core_size": 1116046,
+  "selected_type_floor": 520,
+  "scalar_dimension_cap": 4,
+  "affine_line_cap": 15,
+  "full_line_blocks": 34,
+  "line_remainder": 10,
+  "pairs_per_projective_direction_cap": 3615,
+  "projective_direction_floor": 38,
+  "direction_root_floor": 134940,
+  "dimension_outputs": [2, 3, 4],
+  "nonclaim": "Root-rich direction polynomials are not asserted to split completely."
+}

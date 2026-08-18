@@ -404,6 +404,16 @@ certificates required by the challenge.
   If `d=max(deg U,deg V)`, then `deg R_p<=K-1-d` and `d<=913635`. The open
   split-pencil task is therefore a rank-one support census for this explicit
   scalar-polynomial family, not a classification of arbitrary `F(X)` lines.
+- Affine scalar lines in that family contain at most 15 selected types. On
+  one such line every pair-core intersection is the same set; the remaining
+  parts of the size-1,116,046 cores are disjoint, and a sixteenth core would
+  exceed the coordinate domain. Thus scalar dimension one is impossible.
+  Accounting for all parallel lines, the 520 scalar points determine at
+  least 38 projectively distinct direction polynomials, each with at least
+  134,940 official roots. In scalar dimension two these are 38 members of
+  one base-field polynomial pencil. Dimensions three and four require a
+  secant-concentration or higher-dimensional direction census; root-richness
+  alone is not full splitting.
 - The finite rank-nine prefix is proved through `K'=87`. At the first open
   row `K'=88`, paired raw scans classify all 18,741,723 source units and
   leave exactly 622,895 raw-unsafe units on offsets `1..44`. This is a

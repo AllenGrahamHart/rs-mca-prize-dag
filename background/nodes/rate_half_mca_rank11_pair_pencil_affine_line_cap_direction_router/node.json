@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_pair_pencil_affine_line_cap_direction_router",
+    "title": "Scalar affine lines hold at most 15 quotient types",
+    "status": "PROVED",
+    "closure": "common-intersection union cap and secant-direction counting",
+    "statement": "In the coprime-direction scalar family, every affine F-line contains at most 15 of the at least 520 quotient types. Hence the scalar span has dimension 2, 3, or 4. The family determines at least 38 projectively distinct secant-direction polynomials, and every such polynomial has at least 134940 distinct official-domain roots. If the scalar span has dimension two, these directions form one base-field polynomial pencil with at least 38 root-rich members; dimensions three and four remain a higher-dimensional direction census.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_pair_pencil_affine_line_cap_direction_router/statement.md",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_affine_line_cap_direction_router/proof.md",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_affine_line_cap_direction_router/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_affine_line_cap_direction_router/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_affine_line_cap_direction_router/audit.md",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_affine_line_cap_direction_router/result.md",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_affine_line_cap_direction_router/frontier.md",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_affine_line_cap_direction_router/provenance.md",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_affine_line_cap_direction_router/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_affine_line_cap_direction_router/verify.py",
+      "background/nodes/rate_half_mca_rank11_pair_pencil_affine_line_cap_direction_router/verify_audit.py"
+    ],
+    "upstream": {
+      "label": "base-field-normalized split-pencil census / rank-one support census",
+      "relation": "OVERLAP"
+    }
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_pair_pencil_coprime_direction_normal_form"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location"}
+  ],
+  "refutes": []
+}
