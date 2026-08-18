@@ -2317,6 +2317,31 @@
     "our_sha": "d54b20ef1",
     "his_sha": "2788d5ec3"
    }
+  },
+  {
+   "our_node": "rate_half_mca_rank11_rank_two_triple_shortening_transversality",
+   "his_object": {
+    "label": "rank-eleven factor synchronization plus support-local transversality",
+    "file": "experimental/campaigns/kb-mca-rank11-rich-flat-post-1172/01_frontier_map.md",
+    "line": "factor-flag synchronization"
+   },
+   "relation": "OVERLAP",
+   "chain": "genuine rank-two evaluation triple -> degree-three locator cancellation -> correction rank five/six -> support-local direction exception",
+   "scope": "official KoalaBear rank-eleven row inside the assumed base-free 2 x 5 factor branch; mass at least 388650911452 is transported to (2097149,1048573,1116045), where the PR #1166 compiler forces at most 9 direction exceptions in correction rank five or 294 in rank six",
+   "owner": "US",
+   "nonclaims": [
+    "does not derive the 2 x 5 factor presentation",
+    "does not pay either low-exception terminal",
+    "does not identify the evaluation line with a split locator pencil",
+    "does not aggregate different triples or close MCA"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "d26f68108",
+    "his_sha": "2788d5ec3"
+   }
   }
  ]
 }
