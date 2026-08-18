@@ -1,0 +1,20 @@
+{
+  "schema": "rate-half-mca-rank11-rank-two-shortening-transversality-v1",
+  "mass": 388650911452,
+  "rank_four_cap": 63397365764,
+  "residual_roots_before": 37736,
+  "locator_degree": 3,
+  "residual_roots_after": 37733,
+  "n_short": 2097149,
+  "k_short": 1048573,
+  "m_short": 1116045,
+  "w": 67472,
+  "rank_five_last_margin": 9,
+  "rank_five_last_cap": 408591854341,
+  "rank_five_first_paying_margin": 10,
+  "rank_five_first_paying_cap": 367732668907,
+  "rank_six_last_margin": 294,
+  "rank_six_last_cap": 388738149260,
+  "rank_six_first_paying_margin": 295,
+  "rank_six_first_paying_cap": 387420392821
+}

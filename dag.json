@@ -43143,6 +43143,30 @@
    ]
   },
   {
+   "id": "rate_half_mca_rank11_rank_two_triple_shortening_transversality",
+   "title": "Rank-eleven rank-two-triple shortening and transversality",
+   "status": "PROVED",
+   "closure": "the genuine rank-two horn becomes a shortened correction-rank-five/six 2 x 3 bucket with a low direction-exception record",
+   "statement": "In the genuine rank-two-triple output of the base-free KoalaBear rank-eleven 2 x 5 factor branch, the common residual kernel has dimension three and is divisible by the triple locator. The bucket's mass 388650911452 exceeds the four-space cap 63397365764, so its correction rank is five or six. Common-core cancellation transports it to parameters (2097149,1048573,1116045), preserving first-owned mass and at least 37733 residual roots per class. Exact support-local transversality then forces a selected direction approximation with at most 9 exceptions in rank five or 294 in rank six. Neither output is paid here.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_rank_two_triple_shortening_transversality/statement.md",
+    "background/nodes/rate_half_mca_rank11_rank_two_triple_shortening_transversality/proof.md",
+    "background/nodes/rate_half_mca_rank11_rank_two_triple_shortening_transversality/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_rank_two_triple_shortening_transversality/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_rank_two_triple_shortening_transversality/audit.md",
+    "background/nodes/rate_half_mca_rank11_rank_two_triple_shortening_transversality/result.md",
+    "background/nodes/rate_half_mca_rank11_rank_two_triple_shortening_transversality/provenance.md",
+    "background/nodes/rate_half_mca_rank11_rank_two_triple_shortening_transversality/frontier.md",
+    "background/nodes/rate_half_mca_rank11_rank_two_triple_shortening_transversality/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_rank_two_triple_shortening_transversality/verify.py",
+    "background/nodes/rate_half_mca_rank11_rank_two_triple_shortening_transversality/verify_audit.py"
+   ],
+   "upstream": {
+    "label": "rank-eleven factor synchronization and support-local transversality",
+    "relation": "OVERLAP"
+   }
+  },
+  {
    "id": "rate_half_mca_rank11_relative_absorbing_clone_affine_collapse",
    "title": "Rank-eleven absorbing clone-to-affine collapse",
    "status": "PROVED",
@@ -75470,6 +75494,11 @@
   },
   {
    "from": "rate_half_kb_common_core_shortening_adapter_staircase_import",
+   "to": "rate_half_mca_rank11_rank_two_triple_shortening_transversality",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_common_core_shortening_adapter_staircase_import",
    "to": "rate_half_mca_rank11_rich_flat_residual_mass_compiler",
    "kind": "req"
   },
@@ -81154,6 +81183,11 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_mca_rank11_chronology_safe_subspace_cover_payment",
+   "to": "rate_half_mca_rank11_rank_two_triple_shortening_transversality",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_mca_rank11_common_factor_product_cover_exclusion",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
@@ -81401,6 +81435,11 @@
   {
    "from": "rate_half_mca_rank11_factor_flag_clone_line_dichotomy",
    "to": "rate_half_mca_rank11_active_clone_locator_shortening_adapter",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_factor_flag_clone_line_dichotomy",
+   "to": "rate_half_mca_rank11_rank_two_triple_shortening_transversality",
    "kind": "req"
   },
   {
@@ -82499,6 +82538,11 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_mca_rank11_rank_two_triple_shortening_transversality",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_mca_rank11_relative_absorbing_clone_affine_collapse",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
@@ -83226,6 +83270,11 @@
   {
    "from": "rate_half_mca_support_local_transversality_compiler",
    "to": "rate_half_mca_rank11_kernel_projective_paving_record_caps",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_support_local_transversality_compiler",
+   "to": "rate_half_mca_rank11_rank_two_triple_shortening_transversality",
    "kind": "req"
   },
   {

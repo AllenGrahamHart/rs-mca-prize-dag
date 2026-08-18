@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_active_clone_locator_shortening_adapter/verify.py",
-      "seconds": 0.026533,
+      "script": "background/nodes/rate_half_mca_rank11_rank_two_triple_shortening_transversality/verify.py",
+      "seconds": 0.025949,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RANK11_ACTIVE_CLONE_PASS c=10001..1048571 shortened_k=5..1038575 mass=388650911452\n"
+      "stdout_tail": "RANK11_RANK2_SHORT_PASS mass=388650911452 rank5_exceptions=9 rank6_exceptions=294\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_active_clone_locator_shortening_adapter/verify_audit.py",
-      "seconds": 0.022959,
+      "script": "background/nodes/rate_half_mca_rank11_rank_two_triple_shortening_transversality/verify_audit.py",
+      "seconds": 0.022717,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RANK11_ACTIVE_CLONE_AUDIT_PASS product_floor=5 c_max=1048571 mass=388650911452\n"
+      "stdout_tail": "RANK11_RANK2_SHORT_AUDIT_PASS rank5=9 rank6=294\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

@@ -85,6 +85,15 @@ certificates required by the challenge.
   range is `10001<=c<=K-5` and `5<=k-c<=1038575`. This pays no bucket, but
   it removes the inactive-clone ambiguity and gives that horn a reversible,
   chronology-preserving destination.
+- The genuine rank-two horn now also has a typed continuation. Its
+  three-dimensional residual kernel cancels the degree-three coordinate
+  locator, preserving at least `388650911452` first-owned slopes and at
+  least 37,733 residual roots per class on the shortened row
+  `(2097149,1048573,1116045)`. The four-space cap forces correction rank
+  five or six. Recomputing upstream's support-local compiler on this row
+  then forces a direction approximation with at most 9 exceptions in rank
+  five or 294 in rank six. These low-exception records, rather than an
+  abstract projective line, are the live line-horn terminals.
 - The finite rank-nine prefix is proved through `K'=87`. At the first open
   row `K'=88`, paired raw scans classify all 18,741,723 source units and
   leave exactly 622,895 raw-unsafe units on offsets `1..44`. This is a
