@@ -23,6 +23,14 @@ CONTROL = {
     "z1": 44299296,
     "b0": 44278048,
 }
+EXPECTED_COUNTS = {
+    "z0": 13295206688,
+    "c1": 116512,
+    "z1": 495229865162016,
+    "z2": 95579012297974912,
+    "b0": 495228544669824,
+    "b1": 95578985107762144,
+}
 
 
 def prime64(value: int) -> bool:
@@ -90,22 +98,35 @@ def build(payload: dict[str, object] | None = None) -> dict[str, object]:
         assert product.bit_length() == 121
         assert 0 <= counts[key] <= 1 << 64
         assert counts[key] % target[2]["modulus"] == target[2][key]
+    assert counts == EXPECTED_COUNTS
 
     primitive = counts["z0"] - counts["c1"]
     assert primitive >= 0 and primitive % 64 == 0
+    first = Fraction(primitive << 64, counts["z1"] * counts["b0"])
+    tail = Fraction(counts["z1"] << 64, counts["z2"] * counts["b1"])
     ratio = Fraction(primitive << 128, counts["z2"] * counts["b0"] * counts["b1"])
+    assert ratio == first * tail
     fires = ratio.numerator * ratio.numerator > 128 * ratio.denominator * ratio.denominator
     with localcontext() as context:
         context.prec = 80
-        bits = (
-            Decimal(ratio.numerator).ln() - Decimal(ratio.denominator).ln()
-        ) / Decimal(2).ln() if ratio.numerator else Decimal("-Infinity")
+        def ratio_bits(value: Fraction) -> Decimal:
+            if value.numerator == 0:
+                return Decimal("-Infinity")
+            return (
+                Decimal(value.numerator).ln() - Decimal(value.denominator).ln()
+            ) / Decimal(2).ln()
+
+        bits = ratio_bits(ratio)
+        first_bits = ratio_bits(first)
+        tail_bits = ratio_bits(tail)
     return {
         **counts,
         "primitive": primitive,
         "ratio_numerator": ratio.numerator,
         "ratio_denominator": ratio.denominator,
         "ratio_bits": f"{bits:.40E}",
+        "first_ratio_bits": f"{first_bits:.40E}",
+        "tail_ratio_bits": f"{tail_bits:.40E}",
         "sqrt_slack_bits": f"{Decimal(3.5) - bits:.40E}",
         "fires": fires,
         "max_seconds": max(float(row["seconds"]) for row in rows),

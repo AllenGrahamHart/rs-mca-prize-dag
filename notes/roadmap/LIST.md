@@ -60,6 +60,12 @@ banked. At `(n,t,q)=(512,2,7681)`, ten-prime Fourier/CRT reconstruction gives
 slack. This makes additional `t=2` scale scans low value; no result yet
 controls the unreduced 32-junction tail at `t=2^33`.
 
+The first exact two-junction row is also banked. At `(64,4,193)`, the first
+primitive factor contributes `-4.9383e-6` bits and the tail contributes
+`+5.3042e-6` bits, leaving the full ratio only `3.6595e-7` bits above one and
+`3.4999996` bits below the square-root ceiling. This directly rules out a
+proof architecture that prices the two factors independently.
+
 The rate-half crossing safe side is currently split into an exact structural
 shell, the proved deep-accident cap, and the open shallow/aperiodic
 population.  The latter is equivalently a prescribed-signature

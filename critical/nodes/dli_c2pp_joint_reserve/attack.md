@@ -55,3 +55,9 @@ ratio `n/t=256`: `J_prim<1` by exact integer comparison, with
 `log2 J_prim=-9.57e-74`. This retires further depth-one scale scans as a
 high-value action. It does not control `K_tail`; attack full-depth collision
 transport or produce a deeper-tower counterexample.
+
+The first exact depth-two row `(64,4,193)` now shows both effects at once:
+`K_0^prim` contracts by `4.9383e-6` bits, `K_tail` expands by `5.3042e-6`
+bits, and the full ratio is `3.6595e-7` bits above one. The square-root
+candidate survives with `3.4999996` bits of slack. Do not bound either factor
+in isolation or infer depth monotonicity from this row.

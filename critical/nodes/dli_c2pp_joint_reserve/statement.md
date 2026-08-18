@@ -461,3 +461,21 @@ unique reconstruction, and the tenth checks the residue independently. Thus
 `(SQRT)` survives this row with more than five bits of slack. The result is
 still at `m=1`; it licenses no assertion about the 32-junction tail on the
 official `t=2^33` row.
+
+## Round-33 first genuine tail (2026-08-18, Codex)
+
+`notes/pilots_20260818/c2_first_depth2_crt/` computes the previously
+unreachable exact row `(n,t,q)=(64,4,193)`. A four-dimensional Fourier orbit
+gauge and three-prime CRT give
+
+```text
+log2 K_0^prim = -4.9382958030039211597098455567791e-6,
+log2 K_tail   =  5.3042421973706894971206747703413e-6,
+log2 J_prim   =  3.6594639436676833741082921356214e-7.
+```
+
+Thus the first primitive junction contracts and the first genuine tail
+expands slightly more. Their product is above one but remains
+`3.4999996340` bits below `sqrt(2n)`. This is a strict survivor of `(SQRT)`,
+not a transport theorem. It also confirms that separately bounding the two
+factors is structurally misaligned with the near cancellation.
