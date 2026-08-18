@@ -2918,6 +2918,31 @@
     "our_sha": "7d1fda2cd",
     "his_sha": "2788d5ec3"
    }
+  },
+  {
+   "our_node": "rate_half_mca_rank11_cross_type_one_swap_synchronization_wall",
+   "his_object": {
+    "label": "factor synchronization next theorem",
+    "file": "PR #1173",
+    "line": "factor synchronization and high-complexity remain"
+   },
+   "relation": "OVERLAP",
+   "chain": "order-32 anchor density at least 18 -> unique pair-type anchor -> cross-anchor overlap at most 28 -> 31-overlap one-swap graph preserves anchor type",
+   "scope": "method fence for synchronizing the official KoalaBear 520-type quadratic quotient population; the stronger local 20-anchor interface has overlap cap 24",
+   "owner": "US",
+   "nonclaims": [
+    "does not prove cross-type quotient certificates are incompatible",
+    "does not rule out rigidity from 28 shared records or larger packets",
+    "does not charge the quotient population",
+    "does not pay high complexity, rank eleven, or MCA"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "bdaf2c779",
+    "his_sha": "2788d5ec3"
+   }
   }
  ]
 }
