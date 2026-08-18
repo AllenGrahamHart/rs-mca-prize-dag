@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_rank_two_residual_base_plane_dichotomy",
+    "title": "Rank-eleven rank-two residual base/plane dichotomy",
+    "status": "PROVED",
+    "closure": "the shortened rank-two bucket either shortens again on an active residual base or emits one heavy rank-four residual plane",
+    "statement": "In the shortened KoalaBear rank-eleven rank-two-triple bucket, the residual base H has dimension three and every first-owned residual class has at least 37733 common roots. If H has at least 10001 common zero coordinates, its locator reversibly shortens the complete 388650911452-slope bucket. Otherwise every class is a plane; separating at most 10000 zero columns leaves at least 27733 coordinates in a disjoint projective clone per plane, so at most 39 planes occur. One plane has mass at least 9965407986, exceeding the rank-three cap 3977322801 and forcing correction rank exactly four. Neither output is paid here.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_rank_two_residual_base_plane_dichotomy/statement.md",
+      "background/nodes/rate_half_mca_rank11_rank_two_residual_base_plane_dichotomy/proof.md",
+      "background/nodes/rate_half_mca_rank11_rank_two_residual_base_plane_dichotomy/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_rank_two_residual_base_plane_dichotomy/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_rank_two_residual_base_plane_dichotomy/audit.md",
+      "background/nodes/rate_half_mca_rank11_rank_two_residual_base_plane_dichotomy/result.md",
+      "background/nodes/rate_half_mca_rank11_rank_two_residual_base_plane_dichotomy/provenance.md",
+      "background/nodes/rate_half_mca_rank11_rank_two_residual_base_plane_dichotomy/frontier.md",
+      "background/nodes/rate_half_mca_rank11_rank_two_residual_base_plane_dichotomy/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_rank_two_residual_base_plane_dichotomy/verify.py",
+      "background/nodes/rate_half_mca_rank11_rank_two_residual_base_plane_dichotomy/verify_audit.py"
+    ],
+    "upstream": {
+      "label": "rank-eleven factor synchronization / split-pencil census",
+      "relation": "OVERLAP"
+    }
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_rank_two_triple_shortening_transversality"},
+    {"from": "rate_half_mca_rank11_chronology_safe_subspace_cover_payment"},
+    {"from": "rate_half_kb_common_core_shortening_adapter_staircase_import"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location"}
+  ],
+  "refutes": []
+}

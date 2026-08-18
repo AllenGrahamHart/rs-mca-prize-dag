@@ -94,6 +94,15 @@ certificates required by the challenge.
   then forces a direction approximation with at most 9 exceptions in rank
   five or 294 in rank six. These low-exception records, rather than an
   abstract projective line, are the live line-horn terminals.
+- The shortened rank-two residual classes admit a further exact base/plane
+  split. If their ambient three-space has at least 10,001 common zeros, the
+  entire `388650911452`-slope bucket shortens again. Otherwise zero columns
+  are separated, every class is a plane, and its remaining 27,733 or more
+  roots lie in one disjoint projective clone. At most 39 planes occur, so
+  one owns at least `9965407986` slopes; this exceeds the three-space cap
+  `3977322801` and forces correction rank exactly four. The live line horn
+  is now either recursive common-base cancellation or one heavy `2 x 2`
+  product plane close to the split-pencil census.
 - The finite rank-nine prefix is proved through `K'=87`. At the first open
   row `K'=88`, paired raw scans classify all 18,741,723 source units and
   leave exactly 622,895 raw-unsafe units on offsets `1..44`. This is a

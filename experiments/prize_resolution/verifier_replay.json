@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_rank_two_triple_shortening_transversality/verify.py",
-      "seconds": 0.025949,
+      "script": "background/nodes/rate_half_mca_rank11_rank_two_residual_base_plane_dichotomy/verify.py",
+      "seconds": 0.031858,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RANK11_RANK2_SHORT_PASS mass=388650911452 rank5_exceptions=9 rank6_exceptions=294\n"
+      "stdout_tail": "RANK11_BASE_PLANE_PASS planes=39 q=10000 heavy_mass=9965407986 rank=4\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_rank_two_triple_shortening_transversality/verify_audit.py",
-      "seconds": 0.022717,
+      "script": "background/nodes/rate_half_mca_rank11_rank_two_residual_base_plane_dichotomy/verify_audit.py",
+      "seconds": 0.028281,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RANK11_RANK2_SHORT_AUDIT_PASS rank5=9 rank6=294\n"
+      "stdout_tail": "RANK11_BASE_PLANE_AUDIT_PASS endpoint=39 heavy_mass=9965407986 rank=4\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

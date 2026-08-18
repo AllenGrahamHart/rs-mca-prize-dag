@@ -1,0 +1,13 @@
+{
+  "schema": "rate-half-mca-rank11-rank-two-base-plane-v1",
+  "universe": 1116045,
+  "residual_roots": 37733,
+  "base_cutoff": 10000,
+  "base_output": 10001,
+  "minimum_nonbase_roots": 27733,
+  "maximum_planes": 39,
+  "bucket_mass": 388650911452,
+  "heavy_plane_mass": 9965407986,
+  "rank_three_cap": 3977322801,
+  "forced_correction_rank": 4
+}
