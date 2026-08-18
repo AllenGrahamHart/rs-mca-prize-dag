@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 2620,
+  "node": {
+    "id": "dli_first_junction_split_pell_normal_form",
+    "title": "DLI first-junction split-Pell normal form",
+    "status": "PROVED",
+    "closure": "exact polynomial bijection",
+    "statement": "Let n=2h, t=2L and interpolate the antipodal-pair values A(y_i)=a_i+b_i-1 and W(y_i)=x_i(a_i-b_i) on the order-h subgroup y_i=x_i^2. The first t moments vanish iff deg A<=h-L-1, W(0)=0, and deg W<=h-L. The binary alphabet is equivalent to Y^h-1 dividing A(A^2-1) and W^2+YA^2-Y. These conditions have an exact converse, and antipodal primitivity is exactly W!=0. Thus Z_0-C_1 is the nonzero-W split-Pell pair count. For L<=h/2 the Pell quotient has degree at most h-2L; for L>h/2 its numerator vanishes identically.",
+    "attack_surface": "Check the one-degree even/odd interpolation asymmetry, the half-character factor in W, both polynomial congruences, converse sign reconstruction, owner equivalence, and quotient-degree arithmetic.",
+    "falsifier": "A binary word whose moment prefix disagrees with the degree gaps, a split-Pell pair that does not recover a unique binary word, or an antipodally invariant word with W nonzero.",
+    "refs": [
+      "background/nodes/dli_first_junction_split_pell_normal_form/statement.md",
+      "background/nodes/dli_first_junction_split_pell_normal_form/proof.md",
+      "background/nodes/dli_first_junction_split_pell_normal_form/claim_contract.md",
+      "background/nodes/dli_first_junction_split_pell_normal_form/dependency_subdag.md",
+      "background/nodes/dli_first_junction_split_pell_normal_form/audit.md",
+      "background/nodes/dli_first_junction_split_pell_normal_form/result.md",
+      "background/nodes/dli_first_junction_split_pell_normal_form/provenance.md",
+      "background/nodes/dli_first_junction_split_pell_normal_form/verify.py",
+      "background/nodes/dli_first_junction_split_pell_normal_form/verify_audit.py",
+      "background/nodes/dli_first_junction_support_overlap/statement.md",
+      "critical/nodes/dli_c2pp_joint_reserve/attack.md"
+    ],
+    "notes": "This converts the truncated primitive prefix into a concrete bounded-degree polynomial classification problem. It does not count the pairs or control the deeper tower."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "dli_c2pp_joint_reserve",
+      "order": 5347
+    }
+  ],
+  "refutes": []
+}

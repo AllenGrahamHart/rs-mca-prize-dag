@@ -90,6 +90,20 @@ four-cycles, so antipodal first-owner deletion kills the excess exactly. The
 live object is now the truncated low-frequency prefix after this deletion.
 Complete-band estimates have no automatic transport to that boundary object.
 
+That boundary object now has a concrete split-Pell normal form. Interpolating
+the even pair deviation `A` and the half-character-scaled odd skew `W` turns
+the first `t` moment equations into two explicit degree gaps, while the
+binary alphabet is exactly
+
+```text
+Y^h-1 | A(A^2-1),       Y^h-1 | W^2+YA^2-Y.
+```
+
+Antipodal primitivity is `W!=0`, so the primitive numerator is precisely a
+bounded-degree nonzero-`W` pair census. This is now the preferred algebraic
+classification surface. It does not yet price the pair census or the deeper
+tower.
+
 The rate-half crossing safe side is currently split into an exact structural
 shell, the proved deep-accident cap, and the open shallow/aperiodic
 population.  The latter is equivalently a prescribed-signature

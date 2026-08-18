@@ -94,3 +94,22 @@ antipodal first-owner deletion removes the entire excess. This validates the
 owner but leaves the true difficulty sharply posed: control the **truncated
 low-frequency prefix after deletion**. Do not transport complete-band
 correlation, in either direction, to that prefix without a boundary theorem.
+
+The first-junction primitive prefix now has an exact algebraic normal form.
+In `dli_first_junction_split_pell_normal_form`, every null binary word is a
+unique pair `A,W` with the even/odd degree gaps
+
+```text
+deg A<=h-L-1,       W(0)=0,       deg W<=h-L,
+```
+
+and split-Pell congruences
+
+```text
+Y^h-1 | A(A^2-1),       Y^h-1 | W^2+YA^2-Y.
+```
+
+Primitive ownership is exactly `W!=0`, so `Z_0-C_1` is the nonzero-`W`
+pair count. A viable algebraic route may classify or count these pairs, but
+must still couple the resulting numerator estimate to the tower marginals;
+the normal form alone is not a C2'' bound.

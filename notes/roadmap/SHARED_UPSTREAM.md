@@ -109,3 +109,9 @@ the primitive antipodal owner deletes all of them. This is a compact theorem
 showing both why generic cyclic flatness is false and why first-owner
 quotient deletion is the correct repair. The remaining conjectural content
 is prefix flatness after ownership.
+
+The truncated prefix also has an exact finite-track algebraic form suitable
+for a future packet. The even deviation and odd shift interpolate to a
+bounded-degree split-Pell pair `A,W` modulo `Y^h-1`; first ownership is simply
+`W!=0`. This is a theorem-level bridge from primitive prefix flatness to a
+concrete split-value/Pell census, with no assertion that the census is small.

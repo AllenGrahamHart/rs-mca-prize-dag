@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/dli_cyclic_band_tensor_owner_deletion/verify.py",
-      "seconds": 0.037647,
+      "script": "background/nodes/dli_first_junction_split_pell_normal_form/verify.py",
+      "seconds": 2.259874,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "DLI_CYCLIC_BAND_TENSOR_OWNER_PASS n=12 counts=64,216,8 ratio=64/27 primitive_joint=0\n"
+      "stdout_tail": "DLI_FIRST_JUNCTION_SPLIT_PELL_PASS n=16 null=224 owner=16 primitive=208\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/dli_cyclic_band_tensor_owner_deletion/verify_audit.py",
-      "seconds": 0.239528,
+      "script": "background/nodes/dli_first_junction_split_pell_normal_form/verify_audit.py",
+      "seconds": 1.117945,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "DLI_CYCLIC_BAND_TENSOR_OWNER_AUDIT_PASS n=16 counts=256,1296,16 ratio=256/81 primitive_joint=0\n"
+      "stdout_tail": "DLI_FIRST_JUNCTION_SPLIT_PELL_AUDIT_PASS states=65536 normal=224 primitive=208 owner=16\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"
