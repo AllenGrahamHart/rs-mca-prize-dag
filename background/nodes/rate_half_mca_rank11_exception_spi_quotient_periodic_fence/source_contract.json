@@ -1,0 +1,19 @@
+{
+  "schema": "rate-half-mca-rank11-exception-spi-quotient-periodic-fence-v1",
+  "official_domain_order": 2097152,
+  "official_domain_exponent": 21,
+  "supported_degrees": [1, 2, 4, 8],
+  "minimum_required_fibers": 20,
+  "fiber_counts": [2097152, 1048576, 524288, 262144],
+  "minimum_constructed_fibers": 262144,
+  "toy": {
+    "field": 97,
+    "domain_order": 32,
+    "primitive_field_generator": 5,
+    "degree": 4,
+    "expected_image_order": 8,
+    "expected_fiber_size": 4,
+    "expected_fiber_count": 8
+  },
+  "nonclaim": "The construction is an algebraic route fence, not an MCA counterexample or heavy-ruling lift."
+}

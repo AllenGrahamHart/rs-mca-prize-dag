@@ -196,6 +196,16 @@ certificates required by the challenge.
   `gcd(Q,L_0)=1`. The rational payment is thus reduced to a degree-`1..11`
   split-pencil census with at least 20 disjoint split fibers. Twenty fibers
   do not by themselves imply an identically split pencil.
+- An exact quotient-periodic fence explains why. On the cyclic domain
+  `mu_N`, for `e in {1,2,4,8}` the pencil `X^e-y`, indexed by
+  `y in mu_{N/e}`, has `N/e` pairwise-disjoint split squarefree degree-`e`
+  fibers and satisfies all abstract exception-SPI coprimality conditions.
+  At `N=2097152`, even `e=8` gives 262,144 fibers. This is an algebraic
+  route fence, not an MCA lift, but it rules out any proof from the bare
+  twenty-fiber interface. The next theorem must separate nonperiodic
+  pencils from these quotient power maps and then price the periodic class
+  using the retained denominator, factor-owner, received-line, or chronology
+  semantics.
 - The finite rank-nine prefix is proved through `K'=87`. At the first open
   row `K'=88`, paired raw scans classify all 18,741,723 source units and
   leave exactly 622,895 raw-unsafe units on offsets `1..44`. This is a

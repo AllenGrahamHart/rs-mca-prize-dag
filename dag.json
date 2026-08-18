@@ -41311,6 +41311,30 @@
    ]
   },
   {
+   "id": "rate_half_mca_rank11_exception_spi_quotient_periodic_fence",
+   "title": "Quotient-periodic pencils survive the twenty-fiber SPI interface",
+   "status": "PROVED",
+   "closure": "explicit power-map pencils show that the bounded exception-SPI hypotheses alone do not cap the number of split fibers",
+   "statement": "Let the smooth domain be the cyclic group mu_N with N a power of two. For every e in {1,2,4,8} dividing N and every y in mu_{N/e}, the monic polynomial X^e-y has exactly e roots in mu_N; these roots form one coset of mu_e. Distinct y give disjoint fibers. Taking u=X^e, v=1 and slope gamma=-y therefore yields N/e pairwise-disjoint split squarefree degree-e fibers of the pencil u+gamma v, with gcd(u,v)=1 and nonzero constant locator scalar. On the official N=2097152 domain, N/e is at least 262144, far above twenty. Thus the exact degree-1-through-11, twenty-disjoint-fiber SPI interface does not by itself imply emptiness or a bounded fiber count. A closing theorem must identify and price quotient-periodic power-map classes or use additional received-line, factor-owner, denominator, or chronology semantics. This is an algebraic route fence, not an MCA counterexample.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_exception_spi_quotient_periodic_fence/statement.md",
+    "background/nodes/rate_half_mca_rank11_exception_spi_quotient_periodic_fence/proof.md",
+    "background/nodes/rate_half_mca_rank11_exception_spi_quotient_periodic_fence/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_exception_spi_quotient_periodic_fence/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_exception_spi_quotient_periodic_fence/audit.md",
+    "background/nodes/rate_half_mca_rank11_exception_spi_quotient_periodic_fence/result.md",
+    "background/nodes/rate_half_mca_rank11_exception_spi_quotient_periodic_fence/provenance.md",
+    "background/nodes/rate_half_mca_rank11_exception_spi_quotient_periodic_fence/frontier.md",
+    "background/nodes/rate_half_mca_rank11_exception_spi_quotient_periodic_fence/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_exception_spi_quotient_periodic_fence/verify.py",
+    "background/nodes/rate_half_mca_rank11_exception_spi_quotient_periodic_fence/verify_audit.py"
+   ],
+   "upstream": {
+    "label": "split-pencil census / quotient-periodic inverse class",
+    "relation": "OVERLAP"
+   }
+  },
+  {
    "id": "rate_half_mca_rank11_factor_flag_2x5_recursive_router",
    "title": "Rank-eleven 2 x 5 factor-flag recursive router",
    "status": "PROVED",
@@ -81659,6 +81683,11 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_mca_rank11_exception_spi_quotient_periodic_fence",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_mca_rank11_factor_flag_2x5_recursive_router",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
@@ -81877,6 +81906,11 @@
    "from": "rate_half_mca_rank11_heavy_ruling_exception_split_pencil_normal_form",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_heavy_ruling_exception_split_pencil_normal_form",
+   "to": "rate_half_mca_rank11_exception_spi_quotient_periodic_fence",
+   "kind": "req"
   },
   {
    "from": "rate_half_mca_rank11_heavy_ruling_triple_owner_pole_simple_router",
